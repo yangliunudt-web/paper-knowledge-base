@@ -1,0 +1,1644 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating Compute-In-Memory "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                125,
+                69,
+                872,
+                130
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "S. Dutta1* , H. Ye1* , W. Chakraborty1 , Y.-C. Luo2 , M. San Jose1 , B. Grisafe1 , A. Khanna1 , I. Lightcap1 , S. Shinde1 , S. Yu2 and S. Datta1 "
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                133,
+                937,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1 University of Notre Dame, Notre Dame, IN 46556, USA; 2 Georgia Institute of Technology, Atlanta, GA, USA "
+                    }
+                ]
+            },
+            "bbox": [
+                133,
+                148,
+                866,
+                164
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "*Equal contribution; Email: sdutta4@nd.edu "
+                    }
+                ]
+            },
+            "bbox": [
+                367,
+                165,
+                661,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract: We demonstrate, for the first time, monolithic 3D (M3D) integration of back-end-of-line (BEOL) compatible Hf0.5Zr0.5O2 (HZO) ferroelectric FET (FeFET) with front-endof-line (FEOL) high-k/metal gate (HKMG) Si-NMOS. We use low thermal budget "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( { < } 4 0 0 ^ { 0 } \\mathrm { C } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "processing to integrate HZO with 1% Tungsten (W)-doped amorphous In2O3 (IWO) semiconducting oxide channel and demonstrate high remnant polarization charge density "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 P _ { R , }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4 0 \\mu C / c m ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with reliable switching characteristics. We report (a) read memory window of 0.45V in ultra-scaled 20nm channel length IWO FeFET, (b) write speed of 100ns, and (c) write endurance "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ > } 1 0 ^ { 8 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycle. We further demonstrate a 2bit/cell synaptic weight cell with well separated conductance states. System-level analysis of compute-in-memory (CIM) accelerators for performing inference on CIFAR-10 image dataset using VGG-8 model shows that 22nm BEOL FeFET achieves 3× higher energyefficiency than 7nm SRAM while occupying a smaller memory array area due to area folding enabled by M3D architecture. "
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                181,
+                490,
+                455
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "I. Introduction "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                232,
+                458,
+                338,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Billions of connected edge devices produce zettabytes of data per year that need to be transformed into actionable information. This has created an unprecedented demand for data-centric computing. With on-chip memory limited by SRAM size, there is an extraordinary volume of data traffic between processor and off-chip memory that adds to energy and latency. Compute-in-memory (CIM) is a promising approach to overcome memory bottleneck where compute is moved closer to the data residing in the memory. Embedded non-volatile memory (eNVM) technologies such as FeFET [1], RRAM [2] and STT-MRAM [3] are candidates for storing the weight matrix on-chip and for performing vector-matrixmultiplication (VMM) in-situ to accelerate deep neural network (DNN) inference. Conventional CIM architecture colocates eNVM and access transistors in the FEOL along with CMOS logic and periphery like MUX, analog-to-digital converter (ADC) in the FEOL. M3D CIM architecture targets placement of the memory array in the BEOL with CMOS periphery under the array (CUA) (Fig. 1(a)). Such M3D CIM accelerator provides significant area, energy and latency advantage [4]. Here, we demonstrate a BEOL compatible FeFET that is monolithically integrated on top of FEOL silicon NMOS to realize high-density 3D synaptic array (Fig. 1(b)). While 1T-1RRAM and 1T-1MRAM require large FEOL access transistors resulting in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 0 { - } 6 0 \\mathrm { F } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bit cell area [2-3], M3D 1T-1FeFET bit cell occupies only "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 \\mathrm { F } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", providing a huge density advantage. Additionally, the low write and read energy of BEOL FeFET provides an energy-efficiency benefit when compared to SRAM and other eNVM technologies (Fig. 1(c)). In this work, we demonstrate BEOL compatible low thermal "
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                473,
+                490,
+                907
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "budget processing and integration of HZO with amorphous oxide semiconductor (AOS) channel. IWO is preferred as the AOS channel material for FeFET owing to its high field-effect electron-mobility [5,6] under low thermal budget processing compared to poly-Si, absence of unwanted low-k interfacial layer formed between the Si interface and the HZO. Recently HZO has been integrated with BEOL compatible IGZO channel [7], however, IWO offers better improved "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { V } _ { \\mathrm { T } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "stability due to higher oxygen-bond dissociation energy of W that acts as both stabilizer and electron donor [8]. We experimentally demonstrate 2bit/cell synaptic characteristics of IWO FeFET with well separated conductance states and scalability down to 20nm for providing performance boost for CIM accelerators. "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                181,
+                916,
+                369
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "II. Fabrication Process "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                632,
+                371,
+                792,
+                383
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The key fabrication steps for monolithic integration of BEOL FeFET with FEOL Si-NMOS are shown in Fig. 2(a). FEOL Si-NMOS fabrication comprises source/drain (S/D) ion implantation, junction activation, thermal ALD of 5nm HfO2 followed by 20nm thick W deposition as patterned gate metal. 100nm thick PECVD SiO2 is deposited to serve as interlayer dielectric (ILD). Following via pattern and etch, Ti/Al contact metallization and anneal completes the FEOL process. BEOL processing of FeFET starts with patterned W back gate formation and plasma enhanced ALD (PEALD) of 10nm thick HZO at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 5 0 ^ { 0 } \\mathrm { C } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "For strain-induced stabilization of ferroelectric orthorhombic phase in HZO, W sacrificial capping layer (SCL) is sputter-deposited followed by 3500 C anneal for 300s in N2 and subsequent W removal. Next, 1% by weight W-doped amorphous In2O3 (IWO) channel of 3nm thickness was sputtered in the presence of 0.02Pa excess "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "at room temperature, followed by liftoff. 30 nm thick Pd was patterned as S/D electrodes, followed by a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 0 ^ { 0 } \\mathrm { C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "N2 anneal for contact resistance improvement. Next, 5nm thick HfO2 was deposited using thermal ALD as top-gate dielectric at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 2 0 ^ { 0 } \\mathrm { C } _ { ; }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", followed by patterning Pd top electrode. The top gate ensures effective application of electric field across HZO compared to floatingbody scenario [7]. Fig. 2(b) shows the top view false-colored SEM image of the FEOL Si-NMOS and the BEOL HZO FeFET. Cross-sectional STEM of the highlighted region is shown in Fig. 2(c) showing the fully processed 2-tier M3D integrated structure. Fig. 2(d) shows the STEM image and EDS elemental mapping of the 500nm LG FEOL Si-NMOS. Similar STEM image and EDS elemental mapping of the 20nm LG BEOL FeFET is shown in Fig. 2(e). The impact of the 3D stacking and the associated process temperature on the bottom Si-NMOS is characterized by comparing the ID-VG characteristics pre and post 3D integration (Fig.2(f)) showing matched transfer characteristics. "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                383,
+                916,
+                856
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "III. Low Thermal Budget Processing of HZO "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                555,
+                858,
+                870,
+                872
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Conventional processing of Zr-doped ferroelectric HfO2 involves crystallization anneal with thermal budget larger than "
+                    }
+                ]
+            },
+            "bbox": [
+                509,
+                872,
+                916,
+                901
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "2020 IEEE International Electron Devices Meeting (IEDM) | 978-1-7281-8888-1/20/$31.00 ©2020 IEEE | DOI: 10.1109/IEDM13553.2020.9371974 "
+                    }
+                ]
+            },
+            "bbox": [
+                11,
+                193,
+                32,
+                801
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "978-1-7281-8888-1/20/$31.00 ©2020 IEEE "
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                965,
+                328,
+                978
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "36.4.1 "
+                    }
+                ]
+            },
+            "bbox": [
+                480,
+                967,
+                516,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "IEDM20-801 "
+                    }
+                ]
+            },
+            "bbox": [
+                867,
+                967,
+                944,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: UNIVERSITY OF STRATHCLYDE. Downloaded on May 24,2021 at 16:09:37 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                981,
+                888,
+                992
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "5000 C. Here, we report on optimization of BEOL compatible low thermal budget processing of HZO. Large area (80!%´80!%) W/HZO/W metal-ferroelectric-metal (MFM) capacitors were fabricated using plasma ALD, followed by annealing at various temperatures ranging from 3000 C to 4000 C and different anneal durations of 30s and 300s. Fig. 3(a) shows the remnant polarization (PR) measured using DC sweep P-E loop measurements for various anneal conditions. While lower thermal budget leads to lowering of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { P _ { R } , }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "higher ferroelectricity with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { P _ { R } } { = } 2 0 \\mu C / c m ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is still achievable at 3500 C with 300s anneal which is comparable with our baseline process of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "5 0 0 \\mathrm { { } ^ { 0 } C }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "anneal for 30s. Fig. 3(b) shows representative P-E loops measured for 3500 C anneal for 30s and 300s and compared with the baseline 5000 C 30s anneal. We also analyzed the evolution of the ferroelectric orthorhombic phase for low thermal budget processing by performing Grazing-Incidence "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { X } { \\mathrm { - R a y } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Diffraction (GI-XRD) as shown in Fig. 3(c). The appearance of o(111) peak around "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 0 . 5 ^ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and o(200) peak around "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 5 . 5 ^ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "confirms stabilized ferroelectric phase in BEOL compatible HZO. We measured the switching speed of the MFM capacitor using squared-shaped program and erase pulses. Fig. 3(d) shows excellent switching capability with partial polarization switching occurring within 50ns - suitable for multi-bit weight cell. The low thermal budget MFM capacitors showed "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { > } } 1 0 ^ { 7 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "endurance cycle and retention "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ > } 1 0 ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "seconds, similar to that of baseline processing as shown in Fig. 3(e) and (f), respectively. "
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                78,
+                491,
+                470
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "IV. Low Thermal Budget Processing of IWO FeFET "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                102,
+                472,
+                468,
+                484
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "To enable BEOL compatible FeFET, we integrate HZO with IWO as AOS channel material. Fig. 4(a) highlights a key fabrication step of introducing an additional W SCL during annealing to stabilize ferroelectricity in HZO. This is confirmed by P-E loop measurements performed on 80!%×80!% W/HZO/IWO/W capacitors exhibiting higher PR with SCL compared to that without SCL (Fig. 4(b)). The switching speed of the two samples with and without SCL is shown in Fig. 4(c, d) showing partial polarization switching within 50ns in the integrated structure with SCL. "
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                486,
+                491,
+                630
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "V. Characterization of IWO FeFET "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                158,
+                632,
+                411,
+                643
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "We characterize the weight cell operation of IWO FeFET using pulsed "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { { I } _ { D } \\mathrm { { - } } V _ { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and single pulse program and erase measurements on a long channel "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\operatorname { ( L G = 1 } \\mu \\mathrm { m ) }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "device. For all measurements, gate voltage was applied to the bottom gate while the top gate was kept grounded to ensure effective application of electric field across HZO [7]. Fig. 5(a) shows a large memory window (MW) of 1.2V measured from pulsed ID-VG using a wide VG sweep from -2V to +5V. We also measured a MW of 0.45V using a single program and erase pulse of ±5V and 100!s (Fig. 5(b)). Similar measurements are reported in Fig. 6(a, b) for ultra-scaled FeFET of LG=20nm showing MW of 0.45V and 0.2V measured using pulsed ID-VG measurement with -2V to +5V VG sweep and using program/erase pulse of ±5V and 100!s. The dependence of the MW on the program pulse amplitude and pulse width is shown in Fig. 7(a). Fast write speed of 100ns is achieved while maintaining a MW of 0.3V. Note that the write speed of the fabricated IWO FeFET is limited by the parasitic capacitances "
+                    }
+                ]
+            },
+            "bbox": [
+                80,
+                646,
+                491,
+                907
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "and with optimized device structure sub-10ns switching is possible. High endurance "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( > 1 0 ^ { 8 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycle) of the IWO FeFET with 3-orders of magnitude improvement over conventional Si-FeFET [1] is shown in Fig. 7(b) which can be attributed to the absence of low-k interfacial layer between IWO channel and HZO ferroelectric. A memory retention "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ > } 1 0 ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "seconds is shown in Fig. 7(c). We demonstrate the multi-bit program capability of IWO FeFET using partial polarization switching. Fig. 8(a, b) shows four tightly distributed distinct ID levels (corresponding to 2bit per cell) achieved by tuning the programming pulses. For writing bits ‘00’, ‘01’, ‘10’ and ‘11’, program/erase pulses of -5V, +3V, +4V and +5V were applied with pulse widths of 1!s. The distribution in ID due to cycleto-cycle variation was measured for 100 program/erase cycles. "
+                    }
+                ]
+            },
+            "bbox": [
+                504,
+                78,
+                916,
+                282
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "VI. BEOL FeFET CIM Accelerator Benchmark "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                544,
+                282,
+                880,
+                295
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "We benchmark the BEOL IWO FeFET with SRAM and other eNVM devices (FEOL FeFET[1], 2-bit RRAM [2], STT-MRAM[3]) for 8-bit inferencing VGG-8 model on CIFAR-10 dataset using DNN+NeuroSim framework [9] (Fig. 9(a)), which is a widely used benchmark simulator developed for evaluating the CIM accelerators that include all the necessary peripheral logic. We developed the cell structure of the 1T-1BEOL FeFET in a pseudo-crossbar array (Fig. 9(b, c)) to realize key operations such as VMM. The FEOL 1T serves as selection transistor to avoid disturb in the write operations in pseudo-crossbar array [10]. Thanks to the small current needed to write/read BEOL FeFET, a compact BEOL FeFET cell area of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 \\mathrm { F } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "assuming minimum W/L. On the other hand, 1T1R cell area is generally in the range of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "3 0 \\mathrm { F } ^ { 2 } – 6 0 \\mathrm { F } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "due to RRAM/STT-MRAM’s large write current. The SRAM based accelerators are evaluated at both 7nm and 22nm node, and the other eNVM based accelerators were evaluated at 22nm node. Fig. 9(d) summarizes the benchmarking results. BEOL FeFET CIM array occupies smallest memory array area due to minimum size FEOL access transistor under the BEOL FeFET in M3D. BEOL FeFET also achieves more than 3× improvement in energy-efficiency than 7nm SRAM due to the large RON (4(Ω) of BEOL FeFET limiting the read dynamic energy. "
+                    }
+                ]
+            },
+            "bbox": [
+                504,
+                296,
+                916,
+                616
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "VII. Conclusion "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                656,
+                617,
+                769,
+                628
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "We demonstrated monolithic 3D integration of BEOL compatible FeFET with FEOL Si-NMOS. We show low thermal budget "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( { < } 4 0 0 ^ { 0 } \\mathrm { C } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "processing and integration of HZO with W doped In2O3 amorphous oxide semiconductor. We report 0.45V memory window in 20nm channel length IWO FeFET with fast write speed of 100ns, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ > } 1 0 ^ { 8 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycle write endurance and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ > } 1 0 ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "seconds memory retention. We also demonstrate 2bit/cell synaptic weight cell that provides 3× improvement in energy-efficiency than 7nm SRAM and density advantage due to compact cell area of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 5 \\mathrm { F } ^ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "when benchmarked against other eNVM technologies for CIM accelerators. "
+                    }
+                ]
+            },
+            "bbox": [
+                504,
+                630,
+                916,
+                803
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                674,
+                806,
+                751,
+                816
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[1] K. Ni, et al, IEDM 2018. [2] P. Jain, et al, ISSCC 2019. [3] Y. Kim et al, VLSI 2011. [4] S. Datta et al, IEEE Micro 2019. [5] K. Nomura et al, Nature 2004. [6] W. Chakraborty, et al, VLSI 2020. [7] F. Mo et al, VLSI 2019. [8] H. Li. et al, EDL 2013. [9] X. Peng et al, IEDM 2019. [10] K. Ni. et al, EDL 2018. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "Acknowledgements:This work was supported by ASCENT, one of six centres in JUMP, sponsored by DARPA and the Semiconductor Research Corporation (SRC), and IMPACT center in nCORE, sponsored by SRC. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                504,
+                818,
+                916,
+                919
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "IEDM20-802 "
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                965,
+                130,
+                976
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "36.4.2 "
+                    }
+                ]
+            },
+            "bbox": [
+                478,
+                965,
+                517,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: UNIVERSITY OF STRATHCLYDE. Downloaded on May 24,2021 at 16:09:37 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                981,
+                890,
+                993
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Motivation:AcceleratingCompute-In-Memorywith BEOLCompatibleMulti-BitpercellFeFET "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                96,
+                87,
+                630,
+                95
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/45e59a33f4094a4b52d0ebf8cd9b7359dfe20cec7a2865ecc383883de1af6e28.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                98,
+                223,
+                217
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7c3da088a0b418330f5b0eb012a1d79371ff6a3748d148e6210f734b638001fc.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                228,
+                98,
+                397,
+                217
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/19dc16b944d7d286db470d3f426115383b556cc0b4db9db1eea6468e48873d6c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                406,
+                97,
+                722,
+                217
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/addc498ca4a2c9236ab975838361eec0a5509d343f5a0bed1140eeb76e583697.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.1(a)ComparedtoconventioalCachitecture,monlithic3DM3D)CIprovidesareaenergndlatencyadvantagebyplacinghigh densityembeddednon-volatlememoryinBEOLwithperipheralCMOSunderthearry(CUA).(b)SchematicofMDFeFETmolthicaly integratedontoofFEOLSiNtoaliegensityDsynapticaray(c)EstimatedareaandefincydvantageofF "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                728,
+                97,
+                901,
+                217
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Monolithic3DIntegrationofBEOLIWOFeFETwithFEOLSi-NMOS "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                96,
+                256,
+                472,
+                266
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/901bd26d5e440a6ee63be49a9d1808d9f9caf456a819b36104f36921c8fc4c31.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                268,
+                339,
+                502
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1620ac9cab72c92d80973a7f9936b0dceadbed4402b484c1f6a443784762def7.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                341,
+                268,
+                500,
+                503
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a707c1d8994d15999b7f559f9fbbcd0d4ff9f6aba52fff1fef586a702b85cb0d.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.2(a)KeyfabricationstepsinM3DintegrationofBEOLFeFETontopofFEOLSi-NOShighlightinglowthermalbudget.(b)Towview false-coloredSEMoftheM3Dintegratedstructure.(c)STEMshowingcross-sectionoffulyprocessed2-tierM3Dintegratedstructure withBEOLFeFET(topdevicelayer)ndFEOLSi-NOSbotomdevicelayer).d，e)STEMandEDSelementalmapof5nmLFEOL Si-NMOS and 20nm "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { L } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "BEOL FeFET,respectively. (f) Measured "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { I } _ { \\mathsf { D } } \\mathsf { - } \\mathsf { V } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of FEOL Si-NMOS pre and post 3D stacking showing matched transfercharacteristis.Thepost3DstackingSi-OScharacteristiswasmeasuredaftersubjectingtofulBEOLprocesngofeFE "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                501,
+                268,
+                901,
+                503
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "BEOL CompatibleLowThermal BudgetProcessing of Ferroelectric Hfo.5Zro.5O2 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                96,
+                573,
+                535,
+                585
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3a2f01c4a81e754cb304821b8d23cccb737d2d3b54ab818e9b96ca2fd9fdb956.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                106,
+                587,
+                338,
+                720
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a36a735668b381431fa4028bb582a37860a891811019d783cf14a79cd116020e.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                348,
+                587,
+                560,
+                724
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a119d20b78e42e704b830b038d99faaed9db42a6134c3d427704cd0fd6e09fcb.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                570,
+                587,
+                741,
+                720
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e7451df80e8e58468e4741bc03b26ef95c281e3d8ece3d1c6728452805428336.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                748,
+                587,
+                900,
+                722
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9410927966529357bbc3b348427d62ac755c924317138e69f77d65ce04e60643.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                106,
+                723,
+                395,
+                869
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/de775d5e6eec568396f4929396a3257f87b6fd704bd2a063c70138ed4450f64c.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                403,
+                727,
+                661,
+                869
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/df7f9413634a9034d4cecf680fad320f5e21225766d923d384a1b35a89e9c8b4.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.3(a)Measuredpolarizationand(b)P-Elopsin8umx80mcapacitorsforlowtemperatureannealconditions.(c)GIXRDshowsthe appearanceoffrroelectrictoombicpaeforlowthealbdgetprocessing.dMeasuredswiingspdfor5030sanealsowing partiapolarzatioswicingithin5ns.(e)nduranecyeand(figretetiomeasuredforCcomparedtoaseies "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                668,
+                726,
+                900,
+                867
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "36.4.3 "
+                    }
+                ]
+            },
+            "bbox": [
+                478,
+                965,
+                517,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "IEDM20-803 "
+                    }
+                ]
+            },
+            "bbox": [
+                866,
+                965,
+                947,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: UNIVERSITY OF STRATHCLYDE. Downloaded on May 24,2021 at 16:09:37 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                979,
+                890,
+                993
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ac184d1511291c3698308e8f08494270a40477b69156fad483fb69deab6e40e2.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "LowThermalBudgetIntegrationofFeroelectricHf.Z5OwithAmorphousOxideSemconductor(dium-Tungsten-Oxide) "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                98,
+                101,
+                287,
+                224
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/94f47b986e2d72a60286f6c9efab9e209bb285dbd959ee2ca086bd18835c1d03.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                290,
+                101,
+                465,
+                223
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/06d9ef97bea480c0912a1b71cfee79d04cc3ee674f2433b646eeb7ce210f4b76.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                467,
+                99,
+                663,
+                223
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/27f2a789ce851f4a5794519db2f04589f8624471c52336a023180b7a44a5f8aa.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.4(a)HZOisanealedusing Wsacrificialcappinglayer (SCL)tostablizehgherpercentageoforthorhombicphase.(b)MeasuredP-E loop in 80μmx80μm capacitors showing higher "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { P } _ { \\mathsf { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with SCL. (c,d) Switching speed measured in two structures. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                663,
+                99,
+                901,
+                224
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/11a297091fa0cc265e5e6726d4104cd53c5a02c7db55c7a9262179e88ab2d5a5.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "CharacterizationofIWOFeFET "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                267,
+                274,
+                422
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/5862305a280344f595f587fdfe6b77b6f127a9deec0d8830986ce1383f09ff7c.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5(a) Measured pulsed "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { I } _ { \\mathsf { D } } { \\mathsf { - } } \\mathsf { V } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of FeFET for-2V to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+ 5 \\mathsf { V V } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "sweep showing largeMw of1.2V.(b) Measured "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { I } _ { \\mathsf { D } } { \\mathsf { - } } \\mathsf { V } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "using a single |program and erase pulse of ±5V,100μs showing 0.45V MW. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                279,
+                267,
+                465,
+                422
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/479206e4f90213e7bf69b35063c5b77898dbf067a0c0e184c83a83a245f1eafd.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Demonstrationof UItra-Scaled20nmLGIWOFeFET "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                480,
+                268,
+                669,
+                421
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/453c7d342998970a605c749d90bcb71606025b0db0d793c514a5a5aeee1c6c7b.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.6(a) Measured pulsed "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { I } _ { \\mathsf { D } } \\mathsf { - } \\mathsf { V } _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of ultra-scaled FeFET of Lg=20nm for-2V "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathfrak { t o } + 5 \\vee \\vee \\mathfrak { s }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "sweep showing MW of 0.45V. (b) Using a single program and erase pulse of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pm 5 \\mathsf { V } , 1 0 0 \\mu \\mathsf { s } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",MW of 0.2V was obtained. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                691,
+                268,
+                897,
+                422
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9af00e9ac303fcb75bf74d5447372ef9728258a96ba3f794a6c95f97c0f4f15d.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Speed,EnduranceandRetentionofIWOFeE "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                98,
+                476,
+                254,
+                618
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/120200236d98ef56b086a4cef690cd95e84f82361607afbf295e423d1a5bc216.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                259,
+                476,
+                424,
+                619
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/208d1ff453219d30fdc9d90036f6823e74901ddb7e012678d78701df4ef9f649.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 7(a) Dependence of MW on program pulse amplitude and pulse width highlighting the switching speed of FeFET.Write operation with ±5V,1μs is achieved. (b） High endurance "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\tt { > } 1 0 ^ { 8 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycles and (c) high retention with no degradation in memory window measured in IWO FeFET at 25C. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                419,
+                476,
+                575,
+                619
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a61a59731c25e034fe11558b17667b5a8776ee865422cddf3e85fab9f962ab99.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Multi-BitFeFETSynapticWeightCell "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig.8(a) Demonstration of multi-bit program capability of iWO FeFET.4 tightly distributed distinct "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "levelsachieved using different programming schemes,(b) Distribution of well separated4conductancesmeasured for100cycles. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                580,
+                474,
+                901,
+                633
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c6757b6d3ee43eece17ded3cbfd408a3da55defc1898830e07cd1c99acb30536.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Compute-In-MemoryBenchmarking "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                694,
+                375,
+                772
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/81f52f87f2c1715c5d749f9158822cec8faae6b2bfd5680cb91d8d5c1fae192b.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                770,
+                366,
+                862
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6dfd5298d4087ec34424678aa18e9b4d6dd7693292d1f71ec2ffc0115f65d94d.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig.9(a)Webenchmark M3D BEOLFeFET with SRAM,RRAM,STT-MRAMand conventional FeFET for8-bit inferencing VGG-8 modelon CIFAR-10 dataset using DNN+NeuroSim framework.(b,c) Schematicof cellstructureof 1T-1BEOL FeFETinapseudo-crossbararray.(d)Benchmarking resultsshow BEOLFeFETproviding highestdensitydue to15F²cell areaand more than 3×improvement in energy-effciency than 7nm SRAMdue to reduced read dynamic energy. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                96,
+                862,
+                205,
+                905
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                227,
+                772,
+                336,
+                784
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                243,
+                787,
+                364,
+                861
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/38233c69d9074117764564dd0d7954c74e62cbe2087eb754cf73c9f8446891c1.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": " Subarray size=128*128; SAR ADC precision=5 bits. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "F=7nm or 22nm for normalizing cellarea, doesn't indicate physical feature size. "
+                    }
+                ],
+                "html": "<table><tr><td>Device</td><td>SRAM</td><td>SRAM</td><td>RRAM (Intel)</td><td>STT-MRAM (Samsung)</td><td>Conv. FeFET (Global Foundry)</td><td>BEOL FeFET (Notre Dame)</td></tr><tr><td>Technology node (LSTP)</td><td>7nm</td><td colspan=\"5\">22nm</td></tr><tr><td>Bit/Cell</td><td>1</td><td>1</td><td>2</td><td>1</td><td>2</td><td>2</td></tr><tr><td>Ron (Ω)</td><td colspan=\"2\">/</td><td>6k</td><td>14k</td><td>67k</td><td>4M</td></tr><tr><td>On/Off Ratio</td><td colspan=\"2\">/</td><td>17</td><td>2</td><td>100</td><td>4</td></tr><tr><td>Cell Area (F2)</td><td>600</td><td>200</td><td>60</td><td>30</td><td>26</td><td>15</td></tr><tr><td>Inference Accuracy</td><td colspan=\"6\">91%</td></tr><tr><td>L-by-L Dynamic Energy (μJ)</td><td>46.28</td><td>75.65</td><td>47.5</td><td>93.9</td><td>21.3</td><td>17.2</td></tr><tr><td>Energy Efficiency (TOPS/W)</td><td>25.4</td><td>15.77</td><td>25.80</td><td>13.04</td><td>57.49</td><td>71.04</td></tr><tr><td>Throughput (FPS)</td><td>771.96</td><td>607.25</td><td>792.35</td><td>617.83</td><td>1059.90</td><td>1066.25</td></tr><tr><td>ADC Read Dynamic Energy (μJ)</td><td>39.83</td><td>52.17</td><td>34.91</td><td>71.63</td><td>10.45</td><td>6.47</td></tr><tr><td>CIM array on chip (%)</td><td>29.17</td><td>20.06</td><td>5.81</td><td>3.67</td><td>3.57</td><td>2.15</td></tr><tr><td>Single CIM array Area (μm2)</td><td>481.69</td><td>1585.97</td><td>475.791</td><td>237.896</td><td>206.176</td><td>118.948</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                398,
+                683,
+                901,
+                843
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "IEDM20-804 "
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                965,
+                130,
+                977
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "36.4.4 "
+                    }
+                ]
+            },
+            "bbox": [
+                478,
+                965,
+                517,
+                977
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: UNIVERSITY OF STRATHCLYDE. Downloaded on May 24,2021 at 16:09:37 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                981,
+                890,
+                993
+            ]
+        }
+    ]
+]

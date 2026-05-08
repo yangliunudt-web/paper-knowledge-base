@@ -1,5 +1,9 @@
 # Paper PDFs — too large for git, managed via iCloud
-Outputs/
+# Only include 3 example papers (Outputs/* allows re-inclusion, Outputs/ would block it)
+Outputs/*
+!Outputs/16 Monolithic 3D Integration of High Endurance/
+!Outputs/10 FeFET_versus_DRAM_based_PIM_Architectures_A/
+!Outputs/18 Write Disturb in Ferroelectric FETs and Its/
 
 # Stork PDFs — large binaries
 Stork/**/*.pdf

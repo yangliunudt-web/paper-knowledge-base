@@ -1,0 +1,2191 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                101,
+                79,
+                897,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Kai Ni , Member, IEEE, Xueqing Li , Member, IEEE, Jeffrey A. Smith, Student Member, IEEE, Matthew Jerry , Student Member, IEEE, and Suman Datta , Fellow, IEEE "
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                160,
+                880,
+                196
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract-In this letter, the write disturb of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { H f } _ { 0 . 5 } \\mathsf { Z r } _ { 0 . 5 } \\mathsf { O } _ { 2 ^ { - } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "based 1T-FeFET nonvolatile AND memory array is experimentally investigated for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { W } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "v _ { w } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "inhibition bias schemes to determine the worst-case memory sensing condition. Read margin analysis reveals that the increased leakage current in the low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol { \\cdot } \\boldsymbol { v } _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "erased state and the increased read current of the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { h i g h } \\mathsf { - } V _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "programmed state are the key factors that limit the maximum array size. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                208,
+                491,
+                311
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Index Terms-HZO, FeFET, memory array, write disturb. "
+                    }
+                ]
+            },
+            "bbox": [
+                91,
+                313,
+                485,
+                327
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "I. INTRODUCTION "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                215,
+                344,
+                351,
+                356
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "HE excellent scalability and CMOS compatibility of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H f O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "-based ferroelectrics elucidates their use in ferroelectric-field-effect-transistors (FeFET) for application in embedded non-volatile memory (NVM) [1], [2]. Ever since the discovery of ferroelectricity in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H f O } _ { 2 } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", significant progress has been made in the design and fabrication of FeFET memory. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                358,
+                490,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The major challenges for FeFET memory are the limited endurance of a single cell and write disturb in a 1T-FeFET array. Due to either charge trapping in pre-existing traps and generated defects or dielectric breakdown, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { H f O } _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "FeFETs exhibit limited endurance cycles [6], [7]. Strategies to improve endurance have been proposed by increasing the interlayer thickness or distributing the electric field evenly between the ferroelectric and the semiconductor [8], [9]. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                446,
+                491,
+                561
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "While the 1T-FeFET memory array is attractive for embedded NVM application for write energy efficiency, high integration density (compared with other embedded NVMs), and non-destructive read, the absence of an additional selection transistor increases its susceptibility to write disturb for the half-selected memory cells in the array. To minimize the disturb effects, inhibition bias schemes such as VW/2 and VW/3 (VW is write pulse amplitude), are usually applied across the half-selected cells during the memory write operation. This disturb effect has been studied with a high VW of 5 V and large pulse width of 10 µs, which exacerbates the write disturb and even causes state collapse [10]. Therefore, it is imperative "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                561,
+                491,
+                734
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Manuscript received September 11, 2018; revised September 22, 2018; accepted September 22, 2018. Date of publication September 27, 2018; date of current version October 23, 2018. This work was supported in part by ASCENT, one of the six centers in JUMP, and in part by a Semiconductor Research Corporation Program sponsored by DARPA and in part by the National Science Foundation of China. The review of this letter was arranged by Editor E. A. Gutiérrez-D. (Corresponding author: Kai Ni.) "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                744,
+                491,
+                838
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "K. Ni, J. A. Smith, M. Jerry, and S. Datta are with the Electrical Engineering Department, University of Notre Dame, Notre Dame, IN 46556 USA (e-mail: kni@nd.edu). "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                837,
+                491,
+                871
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "X. Li is with Tsinghua University, Beijing 100084, China. Color versions of one or more of the figures in this letter are available online at http://ieeexplore.ieee.org. Digital Object Identifier 10.1109/LED.2018.2872347 "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                869,
+                491,
+                917
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "to evaluate the write disturb for array-level operation for write pulses with smaller amplitude and shorter duration. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                208,
+                919,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The write disturb effect on how the disturbed memory cells interfere with memory sensing is largely unexplored. It is known that write disturb shifts the device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { D } } \\mathrm { - } V _ { \\mathrm { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "characteristic, but the key parameters, the cell leakage current or read current, that deteriorate memory sensing need to be identified and is necessary for memory array optimization. Therefore, in this work we emulate the write disturb with 4V 500ns write pulses for the two inhibition bias schemes in a single 1T-FeFET memory cell and study the impact of write disturb on an AND array architecture based on the single cell response. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                238,
+                921,
+                397
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "II. 1T-FEFET ARRAY "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                632,
+                406,
+                792,
+                420
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "There are a few FeFET memory array topologies [11]. The 1T-FeFET AND array can be more promising than other types of architectures, e.g. NOR array, for embedded NVM applications: (i) The cell size in an AND array is similar to or even smaller than that in a NOR array [12]; (ii) In the AND architecture in Fig.1, the bit-line (BL) and the source-line (SL) are parallel, reducing the write disturb. In contrast, in a NOR array, the WL and SL run parallel, causing all the cells with the same WL (target cells and unselected cells) experience the same write voltage "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { { W } _ { \\cdot } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "exacerbating the write disturb. Additionally, large channel current flows during memory write, increasing the write power consumption in a NOR array [11]. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                425,
+                921,
+                599
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The two inhibition bias schemes, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3 ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", for an AND memory array configuration, are illustrated in Fig. 1 (a). The reduction of disturb voltage amplitude in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "scheme comes at the cost of increasing the number of disturbed cells. For the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bias scheme, the half-selected cells (which share either the same WL or the same BL/SL as the target cell) experience a disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "while the unselected cells experience no disturb. For "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bias scheme, in addition to the half-selected cells, which experience a disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", unselected cells experience disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                599,
+                921,
+                743
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Disturbed memory cells will interfere with the memory read operation, potentially causing read errors. Fig. 1 (b) shows a typical row-wise current-mode sensing scheme for such an array. Like other current-mode sensing schemes [13], a reference sensing current "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { R E F } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "between "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { E R S } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is adopted to determine whether the target cell has a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { l o w } \\mathrm { - } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state or a high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state. The memory read access sensing margin analysis shows the practical ISENSE range (Fig.1 (c)). When accessing a high-VTH state cell, the worst read case corresponds to the cell configuration where all the unselected cells are in the low-VTH state, contributing additional leakage current, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( N { - } 1 ) ^ { * } ( I _ { \\mathrm { E R S } } ) _ { \\mathrm { L } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", for a N -row 1T-FeFET array. As the "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                744,
+                921,
+                917
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1656 "
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                45,
+                104,
+                55
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "IEEE ELECTRON DEVICE LETTERS, VOL. 39, NO. 11, NOVEMBER 2018 "
+                    }
+                ]
+            },
+            "bbox": [
+                457,
+                42,
+                841,
+                55
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                851,
+                35,
+                921,
+                71
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "0741-3106 © 2018 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission. See http://www.ieee.org/publications_standards/publications/rights/index.html for more information. "
+                    }
+                ]
+            },
+            "bbox": [
+                179,
+                929,
+                815,
+                954
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: National Univ of Defense Tech. Downloaded on June 17,2024 at 11:10:07 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                962,
+                883,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/77dd1a82b123ccb7093be81984abf1a0f795d16131edce9765914ed7fdc9b585.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(a) Inhibition biasschemes "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                76,
+                87,
+                267,
+                202
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/959c82e3a788691e375259b44d0451cee51562419d42a88a65f657119093afd8.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(b)Currentsensing ofmemorycell "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                269,
+                88,
+                501,
+                200
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b5f8ba361d362dc637abef04e3446fb2e66b775c2ec525127d433e1e02f3b1a5.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(c) Sensed currentrange "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                509,
+                88,
+                733,
+                200
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0ab021018afc04fe3e81b82b5b0dae91b682beea09e7def65bdcdec072698558.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "(d)Writedisturbforworstread case "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Fig. 1. (a) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(black) and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(yellow) write disturb inhibition bias schemes in an 1T-FeFET AND memory array. Here the target cell is shown in blue circle. For "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\dot { V } _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "scheme, half-selected cells share either the same WL or the same BL and SL as the target cell experience a disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". For "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "scheme, in addition to half-selected cells which experience a disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3 ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", unselected cells experience a disturb voltage o "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { \\Delta } t - } \\ l { v _ { \\mathrm { W } } } / { \\dot { 3 } } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ". (b) Current-mode memory sensing in an 1T-FeFET memory array. Leakage current from unselected cells in the same column contributes to the total sensed current. (c) Sensed current ISENSE range when reading a high "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bar { V } _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "or low "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "device. The cell configuration for worst read situation is also shown. (d) Write disturb effect on FeFET characteristics for the worst read situation. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                738,
+                87,
+                906,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "array size N increases, the leakage current may become larger than the target cell current, IPGM, causing a reduction in sensing margin for a given "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { R E F } } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "The write disturb conditions that increase the IPGM or (IERS)L are of the main interest, as shown in Fig. 1 (d), as they increase the total sensed current ISENSE for high-VTH state sensing and limit the maximum array size N. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                284,
+                491,
+                383
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "When accessing a low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\cal V } _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state memory cell, the write disturb is less of an issue, as the minimum sensed current corresponds to the cell configuration where all the unselected cells are in high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "states. The total leakage current, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( N { - } 1 ) ^ { * } ( I _ { \\mathrm { P G M } } ) _ { \\mathrm { L } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", add together with the target cell current IERS. Therefore, the increase of array size N is beneficial for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { l o w } \\mathrm { - } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state sensing. The degradation in low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state sensing comes mainly from the reduction of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { E R S } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which arises only from disturb pulses and is not of concern, as shown in section III. Therefore, we mainly focus on the degradation of IPGM and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( I _ { \\mathrm { E R S } } ) _ { \\mathrm { L } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which affects the high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ". V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state sensing. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                385,
+                490,
+                545
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Depending on the FeFET initial state, the disturb pulses with different polarities (positive or negative) will have different effects. Two competing mechanisms, polarization switching and charge trapping, collectively determine the disturb effects. For example, positive disturb pulses cause partial polarization switching for the high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\cdot V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state, reducing the device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "while the induced electron trapping in the gate dielectric acts against the polarization and increases the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "[14], [15]. Note that a ferroelectric film contains multiple domains with a distribution of coercive fields, and, hence, the disturb pulses with amplitude smaller than the cumulative coercive voltage can still induce partial polarization switching [16]. In the following, experimental results of write disturb effect on a single cell and its implication on the array size N will be analyzed. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                545,
+                488,
+                762
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "III. RESULTS AND DISCUSSION "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                166,
+                768,
+                398,
+                781
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": " A. Write Disturb to Cell in Erased State "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( L o w \\ – V _ { T H } )"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                73,
+                785,
+                442,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The device under test (DUT) features a gate-last process and a gate stack of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { T i N / H f _ { 0 . 5 } Z r _ { 0 . 5 } O _ { 2 } ( 1 0 \\ n m ) / S i O _ { 2 } ( 0 . 8 \\ n m ) / S i }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". All the devices have a dimension of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { W / L } { = } 2 0 \\mu \\mathrm { m } / 1 \\mu \\mathrm { m } \\ [ 1 5 ]"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The write disturb to FeFET in the erased state and its effect on IERS and (IERS)L are emulated by applying gate pulse sequence shown in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { F i g . } \\ 2 ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The delay "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T _ { \\mathrm { d e l a y } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "between consecutive disturb pulses is set at 10 ms to minimize the effect of charge trapping on the device state [15]. Note that this emulation probably overestimates the write disturb effect since the memory cells will likely be disturbed by random bipolar pulses (positive or negative) in a real array, instead of identical pulses all the time. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                801,
+                490,
+                960
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4a6b8fa2e3311c5e6ed8f65c3fde0d3dc6401e73821ab32fac9c3120552323f6.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2. Erased state "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathsf { D } } \\cdot V _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "characteristic evolution with the increase of write disturb cycle number for disturb voltage, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { { d i s t u r b } } \\ 0 } { \\sf f } \\ ( \\mathrm {  ~ \\ a ~ } ) \\ + 2 \\ { \\sf V } ;"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { ( b ) } + 1 . 3 \\ \\mathsf { V } ; \\mathrm { ( d ) } ^ { - } - 2 \\ \\mathsf { V } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and (e) −1.3 V. (c)/(f) Memory window and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { E R S } / I _ { \\mathsf { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ratio evolution with the cycle number for positive/negative disturb pulse, respectively. All the applied pulses, including the program/erase pulse and the write disturb pulse, have a pulse width of 500 ns. Current measurement noise floor is at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 8 } \\mathsf { A } ."
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                506,
+                287,
+                916,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The effects of write disturb on the erased state "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { D } ^ { - } } V _ { \\mathrm { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "characteristic with disturb voltage of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+ 2 . 0 \\mathrm { ~ V ~ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and +1.3 V are shown in Fig. 2 (a) and (b). Increasing "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with disturb cycle is indicative of electron trapping induced by the positive disturb pulses, as no polarization switching is happening for low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state under positive pulses. In this case, disturb pulses decrease "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( I _ { \\mathrm { E R S } } ) _ { \\mathrm { L } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", beneficial for high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state sensing. On the other hand, IERS is reduced by "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "65 \\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "after "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycles "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { f o r } + 2 . 0 \\ : \\mathrm { V }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "disturb, and remains well above "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { R E F } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "without causing sensing errors (IREF is chosen to be the current at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { G } } = V _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { D } ^ { - } } V _ { \\mathrm { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "curve with a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "equal to the average "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of programmed and erased state). "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                628,
+                919,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The disturb effect on the erased state with 2.0 V and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- 1 . 3 \\mathrm { ~ V ~ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "pulses is shown in Fig. 2 (d-e-f). The decrease of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with disturb cycle for −1.3 V results from hole trapping in the gate stack. This improves "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { E R S } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", but also increases the leakage current (IERS)L, degrading high-VTH state sensing. For disturb voltage of -2.0 V, the device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "increases initially, and then decreases beyond the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { 4 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "disturb cycle. This is caused by the competing effects between polarization switching and hole trapping. Initially, the polarization switching dominates, increasing the device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", while with increasing disturb cycles, hole trapping in the pre-existing and newly generated "
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                801,
+                921,
+                960
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "NI et al : WRITE DISTURB IN FeFETs AND ITS IMPLICATION FOR 1T-FeFET AND MEMORY ARRAYS "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                23,
+                609,
+                34
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1657 "
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                23,
+                919,
+                32
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: National Univ of Defense Tech. Downloaded on June 17,2024 at 11:10:07 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                106,
+                962,
+                883,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/06f004ab60bb222179b5416b862b4a961580da34d2bc7f2fb6e2e55c18e6f724.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3. Programmed state "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathsf { D } } - V _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "characteristic evolution with the write disturb cycle number for disturb voltage, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { { d i s t u r b } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of (a) +2 V; (b) +1.3 V; "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( { \\mathrm { d } } ) - 2 { \\dot { \\mathsf { V } } } ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and (e) −1.3 V. (c)(f) Memory window and IERS/IPGM ratio evolution with the cycle number for positive and negative disturb pulse. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                76,
+                73,
+                488,
+                319
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "defects finally exceeds the polarization switching induced "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "increase. The degradation in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { E R S } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(66% after "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycles) is small and does not cause any sensing error. In contrast to the continuous "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "shift in the tested large devices, it has been shown that the disturb pulses can cause abrupt memory state transition for ultra-scaled devices (28nm FeFET) due to the limited number of domains [17]. Whether the abrupt switching is more detrimental than gradual switching needs further systematic evaluation since the scaled device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "remains unchanged until a threshold number of pulses are applied, suggesting that the array would not be degraded before that critical number. It’s likely that operational and system optimization may benefit from this property. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                377,
+                491,
+                566
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "B. Write Disturb to Cell in Programmed State "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( H i g h - V _ { T H } )"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                75,
+                577,
+                366,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "By applying the gate pulse sequence, shown in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { F i g . } \\ 3 ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "the write disturb to the DUT in the programmed state and its effect on "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are studied. For positive disturb voltages, the device VTH shifts positively in the beginning and then decreases beyond the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bar { 1 0 ^ { 4 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "disturb cycles. This is the result of competition between electron trapping in the gate dielectric and polarization switching. The disturb effect in IPGM is negligible and below the noise floor. Therefore, positive disturb pulse has a negligible effect on the sensing of high-"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state cell. The write disturb with negative pulses to the programmed state, however, is significant, as shown in Fig. 3 (d-e-f). The device "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "shift negatively with the disturb cycle due to hole trapping, and thus "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "in the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { \\hslash { i g h - } } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state increases significantly. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                608,
+                490,
+                811
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The polarization switching is observed at smaller disturb cycles for negative disturb pulses to low-VTH state, than positive disturb pulses to high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state. This is likely related to the ferroelectric electric field asymmetry in the two cases. As the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is positive for both "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { l o w } - V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and high-VTH states, a larger electric field exists for the case of negative disturb pulse to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { l o w } \\mathrm { - } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state [15]. Considering the exponential dependence of polarization switching delay on the electric field [18], [19], it is easier to flip the polarization for negative pulses. "
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                811,
+                491,
+                955
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/388a2e1ee11fcf6411350045ed19b8c719795346877b136d7de0ac99b94aa4e6.jpg"
+                },
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4. Maximum array size N evolution with the disturb cycles for the worst read case of sensing a target cell in the high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\cdot V _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state while all the other cells sharing the same bit line are in the low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\cdot v _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state. For the analysis, the IREF is chosen to be the current at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathsf { G } } = \\dot { V } _ { \\mathsf { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathsf { D } } - V _ { \\mathsf { G } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "equal to the average "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathsf { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "of erased and programmed states. The maximum array size N is determined to satisfy IPGM "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+ \\left( N - 1 \\right) ;"
+                    },
+                    {
+                        "type": "text",
+                        "content": "× "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( I _ { \\mathsf { E R S } } ) _ { \\mathsf { L } } \\leq I _ { \\mathsf { R E F } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which ensures no sensing errors. "
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                607,
+                70,
+                821,
+                217
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "C. Array Analysis "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                504,
+                309,
+                638,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The response of a single memory cell to write disturb pulses illustrates two write disturb scenarios that would likely cause read errors when sensing a high- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ". V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state cell for both "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "inhibition schemes. One "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { i s } - 1 . 3 \\mathrm { ~ V ~ }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "disturb to the low- "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\cdot V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state, which increases "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( I _ { \\mathrm { E R S } } ) _ { \\mathrm { L } } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "and the other one is −2.0 V disturb to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { \\hslash { i g h - } } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state, which increases IPGM. Fig. 4 analyzes N as a function of the disturb cycle for the two cases. It is important to note that, unlike a passive crossbar array [20], the cumulative leakage currents of all unaccessed FeFETs can be further suppressed by applying a negative "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { G } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", such that the array size N can be significantly increased. Without loss of generality, the gate electrodes of unaccessed cells are all grounded here. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                325,
+                921,
+                513
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An analysis of the impact of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "increase on the array size N reveals that, for disturb cycle below "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", N remains unchanged as the IPGM is much smaller than IREF. However, the array size N degrades significantly beyond "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycles (60% reduction at "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 \\bar { 0 ^ { 6 } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "cycles). The increase in (IERS)L for "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "- 1 . 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "V disturb is monotonic with the disturb cycles. The array size reduces with cycling since the total leakage current, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( N - 1 ) \\times ( I _ { \\mathrm { E R S } } ) _ { \\mathrm { I } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", is proportional to (IERS)L. "
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                513,
+                919,
+                630
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The increase in both "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "I _ { \\mathrm { P G M } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and (IERS)L is caused by hole trapping induced by negative disturb pulses to both the programmed and erased state, which degrades the sensing of memory cell in the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { \\hslash { i g h - } } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state in an 1T-FeFET array. Therefore, process optimization is necessary to reduce defect density and suppress hole trapping, in order to have a functional and robust 1T-FeFET array. In addition, circuit-level techniques, such as IREF optimization and high-gain lowinput-offset sensing schemes, would be useful for reducing the sensing error rate. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                630,
+                921,
+                773
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "IV. CONCLUSION "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                647,
+                781,
+                777,
+                795
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "We have demonstrated the write disturb effects in an 1T-FeFET array with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 2"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "V _ { \\mathrm { W } } / 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "inhibition bias schemes. Charge trapping and polarization switching are two competing mechanisms that determine the impact of the disturbs. Worst-case read margin analysis reveals that leakage current increase of the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { l o w } - V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "erased state or the read current increase of the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { \\hslash { i g h - } } V _ { \\mathrm { T H } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "state current induced by disturb pulses are the limiting factors. This work elucidates the factors that require optimization and tuning for more robust read operations, to address the critical write disturb issue for the design of 1T-FeFET memory array. "
+                    }
+                ]
+            },
+            "bbox": [
+                501,
+                797,
+                921,
+                957
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1658 "
+                    }
+                ]
+            },
+            "bbox": [
+                78,
+                23,
+                106,
+                32
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "IEEE ELECTRON DEVICE LETTERS, VOL. 39, NO. 11, NOVEMBER 2018 "
+                    }
+                ]
+            },
+            "bbox": [
+                535,
+                23,
+                921,
+                34
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: National Univ of Defense Tech. Downloaded on June 17,2024 at 11:10:07 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                106,
+                962,
+                883,
+                974
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "REFERENCES "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                245,
+                71,
+                346,
+                83
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[1] J. Müller, E. Yurchuk, T. Schlösser, J. Paul, R. Hoffmann, S. Müller, D. Martin, S. Slesazeck, P. Polakowski, J. Sundqvist, M. Czernohorsky, K. Seidel, P. Kücher, R. Boschke, M. Trentzsch, K. Gebauer, U. Schröder, and T. Mikolajick, “Ferroelectricity in HfO2enables nonvolatile data storage in 28 nm HKMG,” in IEEE VLSI Tech. Dig., Jun. 2012, pp. 25–26, doi: 10.1109/VLSIT.2012.6242443. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[2] J. Müller, T. S. Böscke, S. Müller, E. Yurchuk, P. Polakowski, J. Paul, D. Martin, T. Schenk, K. Khullar, A. Kersch, W. Weinreich, S. Riedel, K. Seidel, A. Kumar, T. M. Arruda, S. V. Kalinin, T. Schlösser, R. Boschke, R. van Bentum, U. Schröder, and T. Mikolajick, “Ferroelectric hafnium oxide: A CMOScompatible and highly scalable approach to future ferroelectric memories,” in IEDM Tech. Dig., Dec. 2013, pp. 10.8.1–10.8.4, doi: 10.1109/IEDM.2013.6724605. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[3] M. Trentzsch, S. Flachowsky, R. Richter, J. Paul, B. Reimer, D. Utess, S. Jansen, H. Mulaosmanovic, S. Müller, S. Slesazeck, J. Ocker, M. Noack, J. Müller, P. Polakowski, J. Schreiter, S. Beyer, T. Mikolajick, and B. Rice, “A 28 nm HKMG super low power embedded NVM technology based on ferroelectric FETs,” in IEEE IEDM Tech. Dig., Dec. 2016, pp. 11.5.1–11.5.4, doi: 10.1109/IEDM.2016.7838397. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[4] S. Dünkel, M. Trentzsch, R. Richter, P. Moll, C. Fuchs, O. Gehring, M. Majer, S. Wittek, B. Müller, T. Melde, H. Mulaosmanovic, S. Slesazeck, S. Müller, J. Ocker, M. Noack, D.-A. Löhr, P. Polakowski, J. Müller, T. Mikolajick, J. Höntschel, B. Rice, J. Pellerin, and S. Beyer, “A FeFET based super-low-power ultra-fast embedded NVM technology for 22 nm FDSOI and beyond,” in IEDM Tech. Dig., Dec. 2017, pp. 19.7.1–19.7.4. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[5] N. Gong and T.-P. Ma, “Why is FE–HfO2more suitable than PZT or SBT for scaled nonvolatile 1-T memory cell? A retention perspective,” IEEE Electron Device Lett., vol. 37, no. 9, pp. 1123–1126, Sep. 2016, doi: 10.1109/LED.2016.2593627. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[6] E. Yurchuk, S. Müller, D. Martin, S. Slesazeck, U. Schröder, T. Mikolajick, J. Müller, J. Paul, R. Hoffmann, J. Sundqvist, T. Schlösser, R. Boschke, R. van Bentum, and M. Trentzsch, “Origin of the endurance degradation in the novel HfO2-based 1T ferroelectric non-volatile memories,” in Proc. IEEE Int. Rel. Phys. Symp., Jun. 2014, pp. 2E.5.1–2E.5.5, doi: 10.1109/ IRPS.2014.6860603. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[7] N. Gong and T.-P. Ma, “A study of endurance issues in HfO2-based ferroelectric field effect transistors: Charge trapping and trap generation,” IEEE Electron Device Lett., vol. 39, no. 1, pp. 15–18, Jan. 2018, doi: 10.1109/ LED.2017.2776263. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[8] K. Chatterjee, S. Kim, G. Karbasian, A. J. Tan, A. K. Yadav, A. I. Khan, C. Hu, and S. Salahuddin, “Self-aligned, gate last, FDSOI, ferroelectric gate memory device with 5.5-nm Hf0.8Zr0.2O2, high endurance and breakdown recovery,” IEEE Electron Device Lett., vol. 38, no. 10, pp. 1379–1382, Oct. 2017, doi: 10.1109/LED.2017.2748992. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                94,
+                488,
+                672
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[9] J. Müller, P. Polakowski, S. Müller, H. Mulaosmanovic, J. Ocker, T. Mikolajick, S. Slesazeck, S. Müller, J. Ocker, T. Mikolajick, S. Flachowsky, and M. Trentzsch, “High endurance strategies for hafnium oxide based ferroelectric field effect transistor,” in Proc. 16th Non-Volatile Memory Technol. Symp., Oct. 2016, pp. 1–7, doi: 10.1109/NVMTS.2016.7781517. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[10] S. Müller, J. Müller, R. Hoffmann, E. Yurchuk, T. Schlösser, R. Boschke, J. Paul, M. Goldbach, T. Herrmann, A. Zaka, U. Schröder, and T. Mikolajick, “From MFM capacitors toward ferroelectric transistors: Endurance and disturb characteristics ofHfO2-based FeFET devices,” IEEE Trans. Electron Devices, vol. 60, no. 12, pp. 4199–4205, Dec. 2013, doi: 10.1109/TED.2013.2283465. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[11] M. Ullmann, H. Goebel, H. Hoenigschmid, and T. Haneder, “Disturb free programming scheme for single transistor ferroelectric memory arrays,” Integr. Ferroelect., vol. 34, pp. 155–164, 2001, doi: 10.1080/10584580108012885. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[12] B. Eitan, R. Kazerounian, A. Roy, G. Crisenza, P. Cappelletti, and A. Modelli, “Multilevel flash cells and their trade-offs,” in IEDM Tech. Dig., Dec. 1996, pp. 169–172, doi: 10.1109/IEDM.1996.553147. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[13] M.-F. Chang, A. Lee, P.-C. Chen, C. J. Lin, Y.-C. King, S.-S. Sheu, and T.-K. Ku, “Challenges and circuit techniques for energy-efficient on-chip nonvolatile memory using memristive devices,” IEEE Trans. Emerg. Sel. Topics Circuits Syst., vol. 5, no. 2, pp. 183–193, Jun. 2015, doi: 10.1109/JETCAS.2015.2426531. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[14] E. Yurchuk, J. Müller, S. Müller, J. Paul, M. Peši´c, R. van Bentum, U. Schroeder, and T. Mikolajick, “Charge-trapping phenomena in HfO2-based FeFET-type nonvolatile memories,” IEEE Trans. Electron Devices, vol. 63, no. 9, pp. 3501–3507, Sep. 2016, doi: 10.1109/TED.2016.2588439. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[15] K. Ni, P. Sharma, J. Zhang, M. Jerry, J. A. Smith, K. Tapily, R. Clark, S. Mahapatra, and S. Datta, “Critical role of interlayer in Hf0.5Zr0.5O2ferroelectric FET nonvolatile memory performance,” IEEE Trans. Electron Devices, vol. 65, no. 6, pp. 2461–2469, Jun. 2018, doi: 10.1109/TED.2018.2829122. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[16] A. T. Bartic, D. J. Wouters, H. E. Maes, J. T. Rickes, and R. M. Waser, “Preisach model for the simulation of ferroelectric capacitors,” J. Appl. Phys., vol. 89, no. 6, pp. 3420–3425, Mar. 2001, doi: 10.1063/1.1335639. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[17] H. Mulaosmanovic, T. Mikolajick, and S. Slesazeck, “Accumulative polarization reversal in nanoscale ferroelectric transistors,” ACS Appl. Mater. Interfaces, vol. 10, no. 28, pp. 23997–24002, 2018, doi: 10.1021/acsami.8b08967. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[18] H. Mulaosmanovic, J. Ocker, S. Müller, U. Schroeder, J. Müller, P. Polakowski, S. Flachowsky, R. Bentum, T. Mikolajick, and S. Slesazeck, “Switching kinetics in nanoscale hafnium oxide based ferroelectric field-effect transistors,” ACS Appl. Mater. Interfaces, vol. 9, no. 4, pp. 3792–3798, 2017, doi: 10.1021/acsami.6b13866. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[19] K. Ni, M. Jerry, J. A. Smith, and S. Datta, “A circuit compatible accurate compact model for ferroelectric FETs,” in IEEE VLSI Tech. Dig., 2018, pp. 131–132. "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "[20] J. Zhou, K. H. Kim, and W. Lu, “Crossbar RRAM arrays: Selector device requirements during read operation,” IEEE Trans. Electron. Devices, vol. 61, no. 5, pp. 1369–1376, May 2014, doi: 10.1109/TED.2014.2310200. "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                506,
+                73,
+                919,
+                672
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "NI et al : WRITE DISTURB IN FeFETs AND ITS IMPLICATION FOR 1T-FeFET AND MEMORY ARRAYS "
+                    }
+                ]
+            },
+            "bbox": [
+                75,
+                23,
+                609,
+                34
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1659 "
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                23,
+                919,
+                32
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Authorized licensed use limited to: National Univ of Defense Tech. Downloaded on June 17,2024 at 11:10:07 UTC from IEEE Xplore. Restrictions apply. "
+                    }
+                ]
+            },
+            "bbox": [
+                107,
+                962,
+                883,
+                974
+            ]
+        }
+    ]
+]
