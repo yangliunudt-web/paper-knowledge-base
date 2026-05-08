@@ -35,9 +35,9 @@ confidence: high
 | [[Isolation and Impartial Aggregation A Paradigm of Incremental Learning without Interference\|Isolation and Impartial Aggregation A Pa...]] | 2022 | 阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。 |
 | [[Meta-attention for ViT-backed Continual Learning\|Meta-attention for ViT-backed Continual ...]] | 2022 | 采用混合神经网络+元可塑性+参数隔离的方法，解决持续学习中的灾难性遗忘问题。在多个基准数据集上验证，性能优于现有方法。 |
 | [[Forget-free Continual Learning with Winning Subnetworks\|Forget-free Continual Learning with Winn...]] | 2022 | 获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。 |
-| [[Helpful or Harmful Inter-Task Association in Continual Learning\|Helpful or Harmful Inter-Task Associatio...]] | 2022 | 持续学习中的任务关联分析：通过模型搜索区分有益/有害旧任务知识，结合敏感性度量发现任务间协作关系，在任务/类增量场景中优于多种基线，缓解灾难性遗忘。 |
 | [[Class-Incremental Learning A Survey\|Class-Incremental Learning A Survey]] | 2024 | 类增量学习综述：全面总结 CIL 方法，对 17 种方法进行基准评估，倡导基于内存预算的公平比较和内存无关的性能度量。 |
 | [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | 全面综述持续学习的理论、方法和应用。定义核心目标为稳定性-可塑性权衡和跨任务泛化能力。提出五类方法分类：正则化、回放、优化、表示和架构方法。系统性分析各类方法的优缺点和适用场景。 |
+| [[Progressive Neural Networks\|Progressive Neural Networks]] | 2016 | 提出渐进网络架构：通过横向连接利用先前学到的特征，避免灾难性遗忘，在 Atari 和 3D 迷宫任务上优于预训练‑微调基线，证明迁移发生在感知和控制层。 |
 ## 相关概念
 
 - [[Continual learning]]

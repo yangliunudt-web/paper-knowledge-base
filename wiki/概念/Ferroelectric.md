@@ -39,7 +39,7 @@ confidence: high
 | [[A 256 Kbit Hf0.5Zr0.5O2-based FeRAM Chip\|A 256 Kbit Hf0.5Zr0.5O2-based FeRAM Chip]] | 2023 | 256 Kbit HZO FeRAM 芯片：sub-8nm 技术，350°C BEOL，0.7 pJ/bit，>10^12 耐久性，O3 预结晶工程。 |
 | [[Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations in Hafnia-Based Ferroelectric Transistors\|Unlocking Large Memory Windows and 16-Le...]] | 2024 | HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。 |
 | [[Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for high-precision and energy-efficient dynamic tracking\|Two-dimensional fully ferroelectric-gate...]] | 2024 | 2D FeFET 混合 CIM：布尔逻辑+多级单元、96.36% 良率、>10^12 耐久性、用于动态跟踪。 |
-| [[Ferroelectric $mathbf { A l } _ { 0 . 8 5 } mathsf { S c } _ { 0 . 1 5 } mathsf { N }$ and $mathsf { H f } _ { 0 . 5 } mathsf { Z r } _ { 0 . 5 } mathsf { O } _ { 2 }$ Domain Switching Dynamics\|Ferroelectric $mathbf { A l } _ { 0 . 8 ...]] | 2024 | 本文比较了Al0.85Sc0.15N和Hf0.5Zr0.5O2两种铁电体系的畴切换动力学。AlScN受热激活蠕变畴壁运动主导，HfZrO2以独立成核畴为特征。研究针对高密度crossbar阵列中面向边 |
+| [[Sub-A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration\|Sub-A Monolithic Ferroelectric-Ionic Dua...]] | 2024 | 本文是 Advanced Materials 论文的辅助材料，包含 FeFET 和 FIDFET 器件的结构分析、晶体相组成对比、氧空位分析、铁电特性测试、器件间变异性和耐久性特性等补充实验数据。 |
 ## 相关概念
 
 - [[HfO2]]

@@ -40,8 +40,8 @@ confidence: high
 | [[A near-threshold memristive computing-inmemory engine for edge intelligence\|A near-threshold memristive computing-in...]] | 2025 | 研究问题：边缘AI硬件需要在严格的功耗约束下实现高能效和高并行性，但忆阻器存内计算和近阈值计算都面临工艺变化的挑战，限制了其可扩展性。主要方法：1）设计近阈值2T1R单元阵列，通过额外的核心晶体管放大 |
 | [[Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array\|Van der Waals Engineering of One-Transis...]] | 2025 | 本文展示了全范德华组装的1T1M架构，CuCrP2S6/MoS2/h-BN堆叠。器件实现120 fA漏电流、10^6阻态可调性、12 fW功耗、<1V操作电压。神经形态阵列串扰降低2个数量级，256x |
 | [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors\|Large-scale crossbar arrays based on thr...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。 |
-| [[Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision\|Zn2+ Engineered Low-Barrier LiNbO3 Enabl...]] | 2025 | Nature Communications |
 | [[A memristor‑based unified PUF and TRNG chip with a concealable ability for advanced edge security\|A memristor‑based unified PUF and TRNG c...]] | 2025 | 基于 28 nm 嵌入式忆阻器的统一 PUF/TRNG 芯片：利用 FORMING 条件变异和读取电流变异作为熵源，设计紧凑熵提取器实现 41.7 Mbps 吞吐量，隐蔽方法防止数据泄露，认证吞吐量比 |
+| [[Scaling-up Resistive Synaptic Arrays for Neuro-inspired Architecture Challenges and Prospect\|Scaling-up Resistive Synaptic Arrays for...]] | 2016 | 讨论阻变突触器件交叉阵列规模扩展的挑战（器件非线性、有限精度、器件变异、IR 压降），提出差分读出消除关态电流、多单元平均减少变异、放宽线宽降低 IR |
 ## 相关概念
 
 - [[RRAM]]

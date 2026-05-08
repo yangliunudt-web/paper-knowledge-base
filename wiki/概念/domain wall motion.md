@@ -30,8 +30,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| | | |
-
+| [[Ferroelectric $mathbf { A l } _ { 0 . 8 5 } mathsf { S c } _ { 0 . 1 5 } mathsf { N }$ and $mathsf { H f } _ { 0 . 5 } mathsf { Z r } _ { 0 . 5 } mathsf { O } _ { 2 }$ Domain Switching Dynamics\|Ferroelectric $mathbf { A l } _ { 0 . 8 ...]] | 2024 | 本文比较了Al0.85Sc0.15N和Hf0.5Zr0.5O2两种铁电体系的畴切换动力学。AlScN受热激活蠕变畴壁运动主导，HfZrO2以独立成核畴为特征。研究针对高密度crossbar阵列中面向边 |
 ## 相关概念
 
 - [[Ferroelectric]]
