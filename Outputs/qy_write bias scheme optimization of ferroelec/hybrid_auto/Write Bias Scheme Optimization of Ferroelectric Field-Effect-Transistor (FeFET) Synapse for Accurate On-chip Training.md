@@ -4,7 +4,7 @@ authors:
   - "Seungmin Kang"
   - "Sangwan Kim"
 date: "2023-09-01"
-year: 2023
+year: "2023"
 journal: "IEEE Electron Device Letters"
 abstract: "Through technology computer-aided-design (TCAD) simulation and FeFET capacitor measurement,\\"
 abstract_cn: "通过TCAD仿真和FeFET电容测量，我们优化了HfO2基FeFET突触片上训练的写入偏置方案以提高训练精度。采用优化的写入偏置方案，即使在FeFET薄膜工艺和唤醒过程引起的剩余极化和矫顽场的器件间差异存在的情况下，仍确认了4位突触操作。通过系统优化读写电压，实现了增强和抑制特性的高对称性和线性度。"
@@ -18,7 +18,10 @@ keywords:
   - "[[片上训练]]"
 cite: "Kang S, Kim S. Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor\\"
 aiSum: "通过TCAD仿真优化FeFET突触片上训练的写入偏置方案，实现4位突触操作和高对称性/线性度的增强抑制特性，即使在工艺变异下仍保持良好性能。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor (FeFET) Synapse for Accurate On-chip Training

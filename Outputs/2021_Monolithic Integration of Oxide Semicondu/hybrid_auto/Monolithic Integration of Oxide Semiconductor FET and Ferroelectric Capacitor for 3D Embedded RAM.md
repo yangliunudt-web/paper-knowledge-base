@@ -9,7 +9,7 @@ authors:
   - "Hiroshi Goto"
   - "Masaharu Kobayashi"
 date: "2021-12-01"
-year: 2021
+year: "2021"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2021.3111145"
 abstract: "We have developed and integrated a mobility-enhanced FET and a wakeup-free ferroelectric\\"
@@ -21,7 +21,9 @@ keywords:
   - "[[FeRAM]]"
 cite: "Wu J, Mo F, Saraya T, et al. Monolithic integration of oxide semiconductor FET and\\"
 aiSum: "IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeRAM]]"
 ---
 
 Index Terms-Ferroelectric (FE) memory, monolithic 3-D integration, oxide semiconductor FET.

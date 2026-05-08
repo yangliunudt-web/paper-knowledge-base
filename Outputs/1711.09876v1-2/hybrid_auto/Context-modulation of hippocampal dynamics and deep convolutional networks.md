@@ -4,7 +4,7 @@ authors:
   - "James B. Aimone"
   - "William M. Severa"
 date: "2017-11-28"
-year: 2017
+year: "2017"
 journal: "arXiv"
 doi: "arXiv:1711.09876"
 abstract: "Complex architectures of biological neural circuits, such as parallel processing\\"
@@ -16,7 +16,9 @@ keywords:
   - "[[Deep learning]]"
 cite: "[1] Aimone J B, Severa W M. Context-modulation of hippocampal dynamics and deep convolutional\\"
 aiSum: "受海马体 CA3 双通路（EC 直接投射和 EC→DG→CA3 间接投射）启发，提出上下文调制深度神经网络，通过上下文敏感偏置在 CIFAR-100 和 Fashion-MNIST\\"
-confidence: low
+confidence: "low"
+wiki_concepts:
+  - "[[Neural network]]"
 ---
 
 James B. Aimone

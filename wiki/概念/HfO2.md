@@ -28,7 +28,18 @@ HfO₂ 在室温下稳定相为单斜相（无铁电性），通过掺杂（Si, 
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Analog reservoir computing via ferroelectric mixed phase boundary transistors\|Analog reservoir computing via ferroelec...]] | 2024 | 利用 HfZrOx 混相边界材料的双栅 TFT 实现全集成模拟储备池计算系统，MPB TFT 作物理储备池和神经元，FeTFT 作突触，实现 5-bit |
+| [[Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays\|Write Disturb in Ferroelectric FETs and ...]] | 2018 | 研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。 |
+| [[Monte Carlo Simulation of Switching Dynamics in Polycrystalline Ferroelectric Capacitors\|Monte Carlo Simulation of Switching Dyna...]] | 2019 | 蒙特卡洛模拟多晶铁电器件开关动力学：基于成核限制开关模型，使用HZO电容器数据提取晶粒统计分布，预测任意波形下动态响应，分析铁电-电介质双层结构动态特性及器件变异导致的存储窗口缩减。 |
+| [[Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor (FeFET) Synapse for Accurate On-chip Training\|Write Bias Scheme Optimization of Ferroe...]] | 2023 | 通过TCAD仿真优化FeFET突触片上训练的写入偏置方案，实现4位突触操作和高对称性/线性度的增强抑制特性，即使在工艺变异下仍保持良好性能。 |
+| [[Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for High-Density and Low-Power Memory Application\|Experimental Demonstration of Ferroelect...]] | 2023 | 超薄体IGZO FeFET实验演示：采用HfO2铁电层，实现高迁移率、理想亚阈值斜率、可控存储窗口，为高密度低功耗存储应用提供新方案。 |
+| [[Reconfigurable ferroelectric hafnium oxide FeFET fabricated in 28 nm CMOS technology for mmWave applications\|Reconfigurable ferroelectric hafnium oxi...]] | 2023 | 28 nm CMOS工艺制造的可重构HfO₂ FeFET，存储窗口>1 V，f_T/f_MAX分别达113/230 GHz，适用于毫米波射频电路。 |
+| [[Application and Benefits of Target Programming Algorithms for Ferroelectric HfO₂ Transistors\|Application and Benefits of Target Progr...]] | 2023 | 目标编程算法改善 FeFET 耐久性能和变异特性：可将阈值电压设定为任意值，适用于多级单元和模拟存内计算，通过 GinestraTM 仿真提取 HfO₂ 陷阱分布并提出退化机制模型。 |
+| [[Sub-Vertical Ferroelectric $ mathrm { H f O } _ { 2 }$ FET based on 3-D NAND Architecture Towards Dense Low-Power Memory\|Sub-Vertical Ferroelectric $ mathrm { H ...]] | 2024 | 垂直HfO₂ FET 3-D NAND架构：高密度低功耗非易失存储，良好存储窗口和可靠性。 |
+| [[High-Endurance MoS2 FeFET with Operating Voltage Less Than 1V for eNVM in Scaled CMOS\|High-Endurance MoS2 FeFET with Operating...]] | 2025 | 单层MoS₂ FeFET：超薄HZO（2.5nm）实现<1V工作电压、>10^12次耐久性、>10年保持时间，兼容CMOS后端工艺，适用于先进节点嵌入式存储。 |
+| [[Coupled ferroelectric-anisotropic optoelectronic synapse for polarization-sensitive neuromorphic vision\|Coupled ferroelectric-anisotropic optoel...]] | 2026 | 偏振分辨光电突触，ReS2/HZO MFMIS FeFET结构。ANN 97.33%虹膜识别，3x3 FeFET CNN蝴蝶分类，2.0 fJ/事件能效。铁电-各向异性平台实现偏振敏感神经形态视觉。 |
+| [[Homogeneous integration of two-dimensional material-based optoelectronic neurons and ferroelectric synapses for neuromorphic vision\|Homogeneous integration of two-dimension...]] | 2026 | 实现 MoS2 光电 LIF 神经元与铁电突触的均匀集成：多光谱传感、无电容积分、阈值触发脉冲，SNN 系统颜色识别 91.7%、目标检测 93.5% |
+| [[Ferroelectric Field Effect Transistors Progress and Perspective\|Ferroelectric Field Effect Transistors P...]] | 2021 | 综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。 |
+| [[Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic Computing and Adaptive Sensing\|Back-End CMOS Compatible and Flexible Fe...]] | 2021 | 综述掺杂 HfO2 和分子铁电体作为 CMOS BEOL 兼容和柔性可穿戴平台神经形态器件的潜力，讨论铁电存储器技术在边缘计算中的应用前景。 |
 ## 相关概念
 
 - [[FeFET]]

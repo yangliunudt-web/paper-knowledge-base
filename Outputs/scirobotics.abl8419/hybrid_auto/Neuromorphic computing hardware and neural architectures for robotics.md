@@ -6,7 +6,7 @@ authors:
   - "Jorg Conradt"
   - "Tansu Celikel"
 date: "2022-01-01"
-year: 2022
+year: "2022"
 journal: "Science Robotics"
 doi: "10.1126/scirobotics.abl8419"
 abstract: "Neuromorphic hardware enables fast and power-efficient neural network-based artificial\\"
@@ -19,7 +19,10 @@ keywords:
   - "[[Autonomous systems]]"
 cite: "[1] Sandamirskaya Y, Kaboli M, Conradt J, et al. Neuromorphic computing hardware\\"
 aiSum: "综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Neural network]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # A R T I F I C I A L I N T E L L I G E N C E

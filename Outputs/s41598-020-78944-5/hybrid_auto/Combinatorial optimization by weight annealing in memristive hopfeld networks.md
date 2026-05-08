@@ -7,7 +7,7 @@ authors:
   - "Valentin Polishchuk"
   - "D. B. Strukov"
 date: "2021-08-12"
-year: 2021
+year: "2021"
 journal: "Scientific Reports"
 abstract: "The Hopfield neural network is a powerful framework for solving combinatorial optimization\\"
 abstract_cn: "Hopfield神经网络是解决组合优化问题的强大框架。我们提出了一种权重退火方法：初始将所有突触权重设为零使网络快速进入全局最小状态，然后逐渐引入权重使网络保持在基态附近。大量模拟表明权重退火在多个组合优化问题上平均能获得更好的解。作为概念验证，使用20x20\\"
@@ -20,7 +20,9 @@ keywords:
   - "[[组合优化]]"
 cite: "Fahimi Z, Mahmoodi M R, Nili H, Polishchuk V, Strukov D B. Combinatorial Optimization\\"
 aiSum: "本文提出权重退火方法用于忆阻器Hopfield网络的组合优化。初始权重为零使网络快速进入全局最小，逐渐引入权重保持基态。在TiO2 crossbar和eFlash阵列上实验验证了图划分和最大独立集问题。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Memristor]]"
 ---
 
 OPEN

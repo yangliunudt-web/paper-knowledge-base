@@ -9,7 +9,7 @@ authors:
   - "Ozgur Sinanoglu"
   - "Hussam Amrouch"
 date: "2022-10-25"
-year: 2022
+year: "2022"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 doi: "10.1109/JXCDC.2022.3217043"
 abstract: "With the emergence of IoT, DNNs are widely used in different domains. Hardware-based\\"
@@ -22,7 +22,11 @@ keywords:
   - "[[In-memory computing]]"
 cite: "[1] Mankali L, Rangarajan N, Chatterjee S, et al. Leveraging Ferroelectric Stochasticity\\"
 aiSum: "提出基于 FeFET PUF 的 DNN 模型保护方案，利用铁电畴随机性在对抗攻击时破坏权重，保护图神经网络 IP 安全。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
+  - "[[Neural network]]"
 ---
 
 Digital Object Identifier 10.1109/JXCDC.2022.3217043

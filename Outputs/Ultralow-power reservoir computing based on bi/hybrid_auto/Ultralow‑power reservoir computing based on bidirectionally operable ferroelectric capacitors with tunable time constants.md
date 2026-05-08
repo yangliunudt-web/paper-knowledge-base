@@ -19,7 +19,7 @@ authors:
   - "Xingsen Gao"
   - "Jun‑Ming Liu"
 date: "2026-01-01"
-year: 2026
+year: "2026"
 journal: "Reports on Progress in Physics"
 doi: "10.1088/1361‑6633/ae3984"
 abstract: "Physical reservoir computing (RC) systems have emerged as a prominent research frontier\\"
@@ -31,7 +31,9 @@ keywords:
   - "[[Time‑series prediction]]"
 cite: "[1] Mo L, Fan Z, Ou J, et al. Ultralow‑power reservoir computing based on bidirectionally\\"
 aiSum: "铁电电容器‑线性电容器串联器件实现超低功耗储备计算，具备双向操作和可调时间常数，在波形分类、多模态数字识别和 Mackey‑Glass 时间序列预测中表现优异。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Reservoir computing]]"
 ---
 
 # Ultralow-power reservoir computing based on bidirectionally operable ferroelectric capacitors with tunable time constants

@@ -27,7 +27,18 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次利用多级 FeFET 实现存内计算交叉阵列宏，1FeFET-1R 单元支持多位 MAC 操作，手写识别 96.6% 准确率，能效 885.4 TOPS/W。 |
+| [[Memory devices and applications for in‑memory computing\|Memory devices and applications for in‑m...]] | 2020 | 存内计算综述：涵盖基于电荷和基于电阻的存储设备、关键计算原语（向量‑矩阵乘法、逻辑运算、随机计算）及其在科学计算、机器学习等领域的应用，探讨器件与阵列层面的挑战与前景。 |
+| [[Parallel convolutional processing using an integrated photonic tensor core\|Parallel convolutional processing using ...]] | 2021 | 集成光子张量核心：基于相变材料存储阵列和孤子微梳，实现每秒10^12次乘加运算，带宽>14 GHz，支持并行卷积处理，为自动驾驶、实时视频处理等数据密集型AI应用提供高速低功耗硬件方案。 |
+| [[An Artificial Neural Network Implemented Using Parallel Dual-Gate Thin-Film Transistors\|An Artificial Neural Network Implemented...]] | 2022 | 双栅TFT人工神经网络：单片集成电容器阵列，4×6阵列实现俄罗斯方块分类，双栅结构放大弱信号、抑制强噪声，准静态电荷存储。 |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次展示基于多级FeFET的存内计算crossbar：1FeFET-1R结构，手写识别96.6%准确率，885.4 TOPS/W能效。 |
+| [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems\|Ferroelectric compute-in-memory annealer...]] | 2023 | FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。 |
+| [[An in-memory computing architecture based on a duplex two-dimensional material structure for in situ learning\|An in-memory computing architecture base...]] | 2024 | FeFET+单层MoS2双功能器件：突触+神经峰功能，原位学习，高能效片上学习方案。 |
+| [[Highly-reliable ferroelectric thin-film transistors array for hardware implementation of image classification\|Highly-reliable ferroelectric thin-film ...]] | 2025 | 研究问题：FeTFT在存内计算中面临弱擦除问题和界面缺陷导致的可靠性下降，限制了其在神经网络硬件实现中的应用。研究方法：提出平面集成MFMIS-FeTFT结构，通过浮栅抑制弱擦除效应，简化工艺减少界面 |
+| [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors\|Large-scale crossbar arrays based on thr...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。 |
+| [[DNN+NeuroSim An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies\|DNN+NeuroSim An End-to-End Benchmarking ...]] | 2021 | DNN+NeuroSim基准测试框架：支持SRAM/RRAM/PCM/FeFET/ECRAM等器件，评估存内计算加速器的芯片面积、延迟、能效、推理精度，开源代码提供VGG/ResNet在CIFAR/I |
+| [[Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation\|Leveraging Ferroelectric Stochasticity a...]] | 2022 | 提出基于 FeFET PUF 的 DNN 模型保护方案，利用铁电畴随机性在对抗攻击时破坏权重，保护图神经网络 IP 安全。 |
+| [[FeFET versus DRAM based PIM Architectures A Comparative Study\|FeFET versus DRAM based PIM Architecture...]] | 2023 | 首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理 |
+| [[FeMAT Exploring In-Memory Processing in Multifunctional FeFET-based Memory Array\|FeMAT Exploring In-Memory Processing in ...]] | 2023 | FeMAT多功能FeFET存储阵列：基于3T单元，支持存内处理、二值卷积神经网络加速、三元内容可寻址存储器三种模式，能效优于ReRAM等效设计及CMOS基TCAM/BCNN加速器。 |
 ## 相关概念
 
 - [[FeFET]]

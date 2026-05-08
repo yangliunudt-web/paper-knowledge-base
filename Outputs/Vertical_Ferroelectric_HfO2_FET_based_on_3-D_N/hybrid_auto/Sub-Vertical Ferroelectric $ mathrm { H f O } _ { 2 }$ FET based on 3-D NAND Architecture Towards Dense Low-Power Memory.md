@@ -11,7 +11,7 @@ authors:
   - "M. C. C. J. M. Toledano"
   - "J. L. M. R. G. C. S. R. Y. Deng"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "IEEE Transactions on Electron Devices"
 abstract: "A vertical ferroelectric HfO2 field effect transistor based on 3-D macaroni NAND\\"
 abstract_cn: "本文展示了基于3-D NAND架构的垂直铁电HfO₂ FET，通过在位工艺实现高密度低功耗非易失性存储。器件展现出良好的存储窗口、耐久性和保持特性，为3-D堆叠存储应用提供了可行的器件方案。"
@@ -23,7 +23,10 @@ keywords:
   - "[[Vertical transistor]]"
 cite: "Florent K, Pesic M, Subirats A, et al. Vertical ferroelectric HfO2 FET based on\\"
 aiSum: "垂直HfO₂ FET 3-D NAND架构：高密度低功耗非易失存储，良好存储窗口和可靠性。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Vertical Ferroelectric $\mathrm { H f O } _ { 2 }$ FET based on 3-D NAND Architecture: Towards Dense Low-Power Memory

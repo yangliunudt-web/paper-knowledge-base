@@ -30,10 +30,18 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Accurate deep neural network inference using computational phase-change memory\|Accurate deep neural network inference u...]] | 2020 | 本文提出训练ResNet型CNN映射到PCM器件的方法，利用批归一化补偿技术保持精度。在CIFAR-10上实现93.7%（软件）/93.5%（硬件）准确率，ImageNet\ |
-| [[Electrochemical ohmic memristors\|Electrochemical ohmic memristors]] | 2024 | 本文提出电化学欧姆忆阻器，利用电化学机制实现可靠阻变切换和欧姆行为，面向神经形态计算应用。 |
-| [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2025 | 开发40x40 P(VDF-TrFE)铁电电容crossbar存内差分器。0.24 fJ/次、1 MHz、98.9%准确率、4.17 POPS/W（比V100高10000倍）。演示一阶/二阶导数、运动 |
-| [[Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision\|Zn2+ Engineered Low-Barrier LiNbO3 Enabl...]] | 2025 | Lithium niobate (LiNbO ), owing to its unique [[ferroelectric polarization]] and\ |
+| [[Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training\|Ferroelectric FET Analog Synapse for Acc...]] | 2018 | FeFET模拟突触：基于部分极化切换，实现5位对称增强/抑制特性，75ns更新脉冲，45倍电导可调范围，相比多态RRAM突触在线学习延迟加速10^3‑10^6倍。 |
+| [[Neuromorphic computing hardware and neural architectures for robotics\|Neuromorphic computing hardware and neur...]] | 2022 | 综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。 |
+| [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。 |
+| [[Delocalized photonic deep learning on the internet's edge\|Delocalized photonic deep learning on th...]] | 2023 | 提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。 |
+| [[Hybrid neural networks for continual learning inspired by corticohippocampal circuits\|Hybrid neural networks for continual lea...]] | 2025 | CH-HNN混合神经网络模型，模拟皮质-海马回路的双重记忆表征。ANN+SNN混合架构，结合元可塑性机制动态调节学习率。在任务增量和类别增量学习场景中表现优异，SNN组件支持低功耗神经形态硬件部署。 |
+| [[Neuromorphic computing at scale\|Neuromorphic computing at scale]] | 2025 | 神经形态计算规模化：综述大脑启发硬件/算法设计、可扩展架构关键特征、潜在应用与挑战、生态系统需求，为大规模神经形态系统发展提供路线图。 |
+| [[Unsupervised Domain Adaptation by Backpropagation\|Unsupervised Domain Adaptation by Backpr...]] | 2015 | 提出 DANN 域对抗神经网络，通过梯度反转层实现域不变特征学习，在 MNIST→SVHN 等域适应任务上取得优异性能，开创深度域适应领域。 |
+| [[Domain-Adversarial Training of Neural Networks\|Domain-Adversarial Training of Neural Ne...]] | 2016 | 领域对抗神经网络训练（DANN）：通过梯度反转层实现领域不变特征学习，处理同质/异质领域自适应，在标准基准上优于SOTA方法。 |
+| [[2022 roadmap on neuromorphic computing and engineering\|2022 roadmap on neuromorphic computing a...]] | 2022 | 神经形态计算路线图综述：涵盖神经形态器件、电路架构、算法应用现状与挑战，展望类脑计算未来发展方向。 |
+| [[Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation\|Leveraging Ferroelectric Stochasticity a...]] | 2022 | 提出基于 FeFET PUF 的 DNN 模型保护方案，利用铁电畴随机性在对抗攻击时破坏权重，保护图神经网络 IP 安全。 |
+| [[Isolation and Impartial Aggregation A Paradigm of Incremental Learning without Interference\|Isolation and Impartial Aggregation A Pa...]] | 2022 | 阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。 |
+| [[Multi-Level Operation of Ferroelectric FET Memory Arrays for Compute-In-Memory Applications\|Multi-Level Operation of Ferroelectric F...]] | 2023 | 研究 28nm FeFET AND 阵列的多级操作，提出写入验证方案和静态抑制方案实现 2-3 位/单元操作，BER 4%，CIFAR-10 LeNet 推理精度仅下降\ |
 ## 相关概念
 
 - [[Neuromorphic computing]]

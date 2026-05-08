@@ -9,7 +9,7 @@ authors:
   - "Suman Datta"
   - "Shimeng Yu"
 date: "2022‑05‑23"
-year: 2022
+year: "2022"
 journal: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
 doi: "10.1109/JETCAS.2022.3177577"
 abstract: "Compute‑in‑memory (CIM) paradigm using ferroelectric field effect transistor (FeFET)\\"
@@ -22,7 +22,9 @@ keywords:
   - "[[Reconfigurable interconnect]]"
 cite: "[1] Luo Y, Dutta S, Kaul A, et al. A compute‑in‑memory hardware accelerator design\\"
 aiSum: "提出基于 BEOL 晶体管可重构互连的 CIM 加速器系统‑技术协同设计：采用 IWO NMOS 和 FeFET 实现面积高效 M3D 写入电路和工作负载专用快速链路，能效比\\"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
 ---
 
 # A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect

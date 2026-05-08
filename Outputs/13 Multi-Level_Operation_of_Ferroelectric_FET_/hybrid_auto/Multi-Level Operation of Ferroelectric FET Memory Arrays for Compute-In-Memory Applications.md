@@ -15,7 +15,7 @@ authors:
   - "Sven Beyer"
   - "Gerald Gerlach"
 date: "2023-03-01"
-year: 2023
+year: "2023"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 doi: "10.1109/JXCDC.2022.3227351"
 abstract: "We report on the multi-level-cell (MLC) operation of AND-connected ferroelectric\\"
@@ -28,7 +28,11 @@ keywords:
   - "[[Neural network]]"
 cite: "[1] Muller F, De S, Lederer M, et al. Multi-Level Operation of Ferroelectric FET\\"
 aiSum: "研究 28nm FeFET AND 阵列的多级操作，提出写入验证方案和静态抑制方案实现 2-3 位/单元操作，BER 4%，CIFAR-10 LeNet 推理精度仅下降\\"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Neural network]]"
+  - "[[存内计算]]"
 ---
 
 Franz Muller, Sourav De, Maximilian ¨ Lederer, Raik Hoffmann, Ricardo Olivo, Thomas Kampfe, Konrad Seidel¨ Fraunhofer Institute for Photonic Microsystems Dresden, Germany franz.mueller@ipms.fraunhofer.de

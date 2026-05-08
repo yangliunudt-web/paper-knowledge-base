@@ -19,7 +19,7 @@ authors:
   - "Kai Ni"
   - "Xueqing Li"
 date: "2023-05-09"
-year: 2023
+year: "2023"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2023.3274362"
 abstract: "This letter proposes C2FeRAM, a 2T2C/cell ferroelectric compute-in-memory (CiM) scheme\\"
@@ -31,7 +31,11 @@ keywords:
   - "[[Edge AI]]"
 cite: "[1] Ma X, Deng S, Wu J, et al. A 2-transistor-2‑capacitor ferroelectric edge compute-in‑memory\\"
 aiSum: "C2FeRAM 2T2C方案：无干扰存内计算、高耐久性、CIFAR-10 VGG8推理>100倍时间且精度下降<1%、相比1T1C FeRAM缓存实现4倍能效/200倍速度/3.2e5倍生命周期提升。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Edge computing]]"
+  - "[[FeRAM]]"
+  - "[[存内计算]]"
 ---
 
 # A 2-Transistor-2-Capacitor [[ferroelectric]] Edge Compute-in-Memory Scheme With Disturb-Free Inference and High Endurance

@@ -8,7 +8,7 @@ authors:
   - "Konrad Seidel"
   - "Thomas Kämpfe"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 abstract: "CMOS compatibility and the low process temperature of hafnium oxide (HfO2) make HfO2-based\\"
 abstract_cn: "氧化铪的CMOS兼容性和低工艺温度使得基于HfO2的铁电场效应晶体管成为逻辑、存储和神经形态器件的优秀候选者。本文讨论了基于氧化铪的铁电存储器在存内计算应用中的挑战与机遇，并尝试为其绘制发展路线图。"
@@ -19,7 +19,11 @@ keywords:
   - "[[Roadmap]]"
 cite: "[1] De S, Lederer M, Raffel Y, et al. Roadmap for ferroelectric memory: challenges\\"
 aiSum: "HfO₂铁电存储器路线图：面向存内计算应用，分析CMOS兼容性、低工艺温度等优势，总结挑战并展望发展路径。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
+  - "[[In-memory computing]]"
 ---
 
 # Roadmap for Ferroelectric Memory: Challenges and Opportunities for IMC Applications

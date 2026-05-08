@@ -28,7 +28,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[One-Pulse-Programmable Multi-Level PCMSelector Cross-Point Memory for 20 nm Half Pitch and Beyond\|One-Pulse-Programmable Multi-Level PCMSe...]] | 2024 | 单脉冲可编程多级相变存储器/选择器：无需初始化/迭代验证，热/成分设计形成晶态‑非晶共存中间电阻态，>10^7次循环稳定，20 nm半间距交叉点阵列验证可行性。 |
+| [[One-Pulse-Programmable Multi-Level PCMSelector Cross-Point Memory for 20 nm Half Pitch and Beyond\|One-Pulse-Programmable Multi-Level PCMSe...]] | 2024 | Nature Electronics |
 ## 相关概念
 
 - [[RRAM]]

@@ -7,7 +7,7 @@ authors:
   - "Youhuizi Li"
   - "Lanyu Xu"
 date: "2016-06-09"
-year: 2016
+year: "2016"
 journal: "IEEE Internet of Things Journal"
 doi: "10.1109/JIOT.2016.2579198"
 abstract: "The proliferation of Internet of Things (IoT) and the success of rich cloud services\\"
@@ -19,7 +19,9 @@ keywords:
   - "[[Smart city]]"
 cite: "[1] Shi W, Cao J, Zhang Q, et al. Edge computing: vision and challenges[J]. IEEE\\"
 aiSum: "边缘计算综述：定义、案例（云卸载、智能家居/城市、协同边缘）、挑战与机遇（可编程性、命名、数据抽象、服务管理、隐私安全、优化指标）。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 # Edge Computing: Vision and Challenges

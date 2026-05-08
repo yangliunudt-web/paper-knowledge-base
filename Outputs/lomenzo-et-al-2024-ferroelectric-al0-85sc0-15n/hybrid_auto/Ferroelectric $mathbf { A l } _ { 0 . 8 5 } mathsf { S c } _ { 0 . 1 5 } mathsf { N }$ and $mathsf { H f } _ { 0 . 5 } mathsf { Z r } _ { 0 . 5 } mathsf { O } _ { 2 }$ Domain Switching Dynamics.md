@@ -9,7 +9,7 @@ authors:
   - "Uwe Schroeder"
   - "Patrick D. Lomenzo"
 date: "2024-07-31"
-year: 2024
+year: "2024"
 journal: "ACS Applied Materials & Interfaces"
 abstract: "This work uses transient current integration measurements to compare domain switching\\\
   \\\\"
@@ -22,6 +22,8 @@ keywords:
   - "[[[[HfZrO2]]]]"
   - "[[[[畴切换动力学]]]]"
   - "[[[[铁电材料]]]]"
+  - "[[domain wall motion]]"
+wiki_concepts:
   - "[[domain wall motion]]"
 ---
 

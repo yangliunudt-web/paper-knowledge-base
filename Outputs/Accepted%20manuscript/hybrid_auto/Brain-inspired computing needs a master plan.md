@@ -4,7 +4,7 @@ authors:
   - "A. Mehonic"
   - "A.J. Kenyon"
 date: "2022-01-01"
-year: 2022
+year: "2022"
 journal: "Nature"
 doi: "10.1038/s41586-021-04362-w"
 abstract: "New computing technologies inspired by the brain promise fundamentally different\\"
@@ -16,7 +16,9 @@ keywords:
   - "[[Artificial intelligence]]"
 cite: "[1] Mehonic A, Kenyon A J. Brain-inspired computing needs a master plan[J]. Nature,\\"
 aiSum: "论述脑启发式计算需要总体规划：现代计算系统能耗过高，不适用于复杂 AI 应用，需要协调不同研究社区、提供资金和支持来开发新型脑启发计算技术。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Neuromorphic computing]]"
 ---
 
 # Brain-inspired computing needs a master plan.

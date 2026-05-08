@@ -21,7 +21,7 @@ authors:
   - "Zhigang Su"
   - "Xiaotian Yao"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "Nature Communications"
 doi: "10.1038/s41467-023-46640-x"
 abstract: "Combinatorial optimization problems (COPs) including Max-Cut, graph coloring and\\"
@@ -35,7 +35,11 @@ keywords:
   - "[[Crossbar]]"
 cite: "Yin X Z, Qian Y, Vardar A, et al. Ferroelectric compute-in-memory annealer for combinatorial\\"
 aiSum: "FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
+  - "[[crossbar]]"
 ---
 
 Received: 17 October 2023

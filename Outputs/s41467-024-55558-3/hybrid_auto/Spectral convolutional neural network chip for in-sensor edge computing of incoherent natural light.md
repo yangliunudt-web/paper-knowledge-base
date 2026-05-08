@@ -14,7 +14,7 @@ authors:
   - "Yali Li"
   - "Shengjin Wang"
 date: "2025-01-02"
-year: 2025
+year: "2025"
 journal: "Nature Communications"
 abstract: "Optical neural networks are considered next-generation physical implementations of\\"
 abstract_cn: "光学神经网络被认为是人工神经网络的下一代物理实现，但其能力受到片上集成规模和相干光源需求的限制。本研究提出了一种基于物质元成像的光谱卷积神经网络（SCNN）。光学卷积层通过在CMOS图像传感器上集成超大规模和像素对齐的光谱滤波器来实现。它促进了入射非相干自然光（即直接信息载体）的高度并行光谱向量内积运算，从而赋能传感器内光学模拟计算，具有极高的能效。据我们所知，这是首个利用自然光的集成光学计算。我们使用同一SCNN芯片处理完全不同的现实世界复杂任务，在病理诊断中实现了超过96%的准确率，在人脸反欺诈中实现了几乎100%的准确率，且在视频速率下运行。这些结果表明，针对各种便携终端的基于自然光的可行且可扩展的传感器内边缘计算芯片。"
@@ -34,7 +34,9 @@ keywords:
   - "[[自然光]]"
 cite: "Cui K, Rao S, Xu S, Huang Y, Cai X, Huang Z, Wang Y, Feng X, Liu F, Zhang W, Li Y,\\"
 aiSum: "研究问题：现有光学神经网络需要相干光源，限制了片上集成规模且无法直接处理自然光，导致能效较低。方法：提出光谱卷积神经网络（SCNN），通过在CMOS图像传感器上集成大规模像素对齐的光谱滤波器实现光学卷积层，直接处理非相干自然光进行传感器内模拟计算。提供两种实现方式：基于超表面和基于颜料的12英寸晶圆制造。主要结论：首次实现利用自然光的集成光学计算，病理诊断准确率>96%，人脸反欺诈准确率≈100%，数据吞吐量减少96%。局限：仅设计了9个不同的光谱滤波器，可能限制了某些应用的光谱分辨率。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 # Spectral convolutional neural network chip for in-sensor edge computing of incoherent natural light

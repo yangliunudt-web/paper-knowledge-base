@@ -3,7 +3,7 @@ title: "Neuro-Inspired Computing With Emerging Nonvolatile Memory"
 authors:
   - "Shimeng Yu"
 date: "2018-01-01"
-year: 2018
+year: "2018"
 journal: "Proceedings of the IEEE"
 doi: "10.1109/JPROC.2018.2790840"
 abstract: "This comprehensive review summarizes state of the art, challenges, and prospects\\"
@@ -16,7 +16,11 @@ keywords:
   - "[[Resistive memory]]"
 cite: "[1] Yu S. Neuro-inspired computing with emerging nonvolatile memory[J]. Proceedings\\"
 aiSum: "综述新兴非易失性存储器件在神经启发式计算中的应用：涵盖相变/阻变/铁电存储器等突触器件、交叉阵列架构、器件‑电路‑算法协同设计，展望定制化学习算法。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Memristor]]"
+  - "[[Neuromorphic computing]]"
+  - "[[crossbar]]"
 ---
 
 # Neuro-Inspired Computing With Emerging Nonvolatile Memory

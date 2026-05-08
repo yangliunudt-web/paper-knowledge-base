@@ -11,7 +11,9 @@ abstract: "The crossbar array architecture with resistive synaptic devices is at
 abstract_cn: "基于阻变突触器件的交叉阵列架构非常适合神经启发式学习算法的片上加权求和与权重更新实现。本文讨论了由非理想器件特性和阵列寄生效应导致的阵列规模扩展挑战，提出了差分读出、多单元平均等电路级缓解策略，可将"
 cite: "[1] Yu S M, Chen P Y, Cao Y, et al. Scaling-up Resistive Synaptic Arrays for"
 aiSum: "讨论阻变突触器件交叉阵列规模扩展的挑战（器件非线性、有限精度、器件变异、IR 压降），提出差分读出消除关态电流、多单元平均减少变异、放宽线宽降低 IR"
-confidence: "medium"
+confidence: medium
+wiki_concepts:
+  - "[[crossbar]]"
 ---
 
 # Scaling-up Resistive Synaptic Arrays for Neuro-inspired Architecture: Challenges and Prospect

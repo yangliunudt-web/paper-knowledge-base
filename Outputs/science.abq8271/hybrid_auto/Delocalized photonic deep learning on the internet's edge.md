@@ -18,7 +18,7 @@ authors:
   - "Ryan Hamerly"
   - "Dirk Englund"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "Science"
 doi: "10.1126/science.abq8271"
 abstract: "Advanced machine learning models are currently impossible to run on edge devices\\"
@@ -31,7 +31,10 @@ keywords:
   - "[[Neural network inference]]"
 cite: "[1] Sludds A, Bandyopadhyay S, Chen Z, et al. Delocalized photonic deep learning\\"
 aiSum: "提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Edge computing]]"
+  - "[[Neural network]]"
 ---
 
 # COMPUTER NETWORKS

@@ -8,7 +8,7 @@ authors:
   - "Mitsuru Takenaka"
   - "Shinichi Takagi"
 date: "2024-07-29"
-year: 2024
+year: "2024"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2024.3435422"
 abstract: "We investigate the potential of physical reservoir computing utilizing a combination\\"
@@ -20,7 +20,10 @@ keywords:
   - "[[Nonlinear transformation]]"
 cite: "[1] Suzuki R, Toprasertpong K, Nakane R, et al. Reservoir computing utilizing a complementary\\"
 aiSum: "n‑p FeFET互补组合实现储备池计算，利用器件互补特性提升非线性变换能力，结合反转数字输入可进一步优化性能。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Reservoir computing]]"
 ---
 
 # Reservoir Computing Utilizing a Complementary Combination of n- and p-Channel FeFETs

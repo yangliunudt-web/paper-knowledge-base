@@ -15,7 +15,7 @@ authors:
   - "Hide Tanaka"
   - "Takeshi Fujimaki"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "Nature Electronics"
 abstract: "We demonstrated, for the first time, a multi-level phase change memory/selector cell\\\
   \\\\"
@@ -26,6 +26,8 @@ keywords:
   - "[[[[In-memory computing]]]]"
   - "[[[[Non-volatile memory]]]]"
   - "[[[[Phase change memory]]]]"
+  - "[[selector]]"
+wiki_concepts:
   - "[[selector]]"
 ---
 

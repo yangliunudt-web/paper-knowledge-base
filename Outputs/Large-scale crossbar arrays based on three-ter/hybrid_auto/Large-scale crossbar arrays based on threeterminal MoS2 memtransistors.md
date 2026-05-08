@@ -14,7 +14,7 @@ authors:
   - "Joan M. Redwing"
   - "Saptarshi Das"
 date: "2025-10-28"
-year: 2025
+year: "2025"
 journal: "Nature"
 abstract: "Memristive crossbar architectures are promising as efficient, low-power inference\\"
 abstract_cn: "忆阻交叉阵列架构有望成为边缘AI应用的高效低功耗推理引擎。然而，差异微小的输入通常会产生相似的输出，需要额外的处理方法，如置信度评分、反馈机制、交叉阵列冗余或混合模拟-数字方法来解决。这些方法对于资源有限的边缘设备可能不切实际。相比之下，三端记忆晶体管可以通过栅极控制动态调节电导，有效解决相似输出并增强可分离性，而无需重新训练。本文提出了每阵列包含多达2048个MoS2记忆晶体管的高密度大规模交叉阵列架构，在多个阵列中实现>92%的良率，同时单个记忆晶体管的写入能量低至~0.2\\"
@@ -25,7 +25,11 @@ keywords:
   - "[[Crossbar array]]"
 cite: "[1] Schranghamer T F, Pannone A, Kumar J M, et al. Large‑scale crossbar arrays based\\"
 aiSum: "大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[In-memory computing]]"
+  - "[[Memristor]]"
+  - "[[crossbar]]"
 ---
 
 # Large-scale crossbar arrays based on threeterminal MoS2 memtransistors

@@ -9,7 +9,7 @@ authors:
   - "Jason Yosinski"
   - "Ali Farhadi"
 date: "2020-01-01"
-year: 2020
+year: "2020"
 journal: "NeurIPS"
 doi: "arXiv:2006.14769"
 abstract: "We present the Supermasks in Superposition (SupSup) model, capable of sequentially\\"
@@ -22,7 +22,10 @@ keywords:
   - "[[Neural network pruning]]"
 cite: "[1] Wortsman M, Ramanujan V, Liu R, et al. Supermasks in superposition[C]//Advances\\"
 aiSum: "提出 SupSup 模型，利用固定随机权重网络上的超级掩码实现顺序学习数千任务而不遗忘，通过梯度优化推断任务标识，单步即可在 2500 任务中识别正确掩码。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 # Supermasks in Superposition

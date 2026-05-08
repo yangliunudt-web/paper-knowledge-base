@@ -6,7 +6,7 @@ authors:
   - "Angel Abusleme"
   - "Alan Seabaugh"
 date: "2019-01-01"
-year: 2019
+year: "2019"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/IEDM.2011.6131606"
 abstract: "Ferroelectric (FE) materials are being studied for a variety of applications in memory,\\"
@@ -18,7 +18,10 @@ keywords:
   - "[[Nucleation-limited switching]]"
 cite: "[1] Alessandri C, Pandey P, Abusleme A, et al. Monte Carlo simulation of switching\\"
 aiSum: "蒙特卡洛模拟多晶铁电器件开关动力学：基于成核限制开关模型，使用HZO电容器数据提取晶粒统计分布，预测任意波形下动态响应，分析铁电-电介质双层结构动态特性及器件变异导致的存储窗口缩减。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
 ---
 
 # Monte Carlo Simulation of Switching Dynamics in Polycrystalline Ferroelectric Capacitors

@@ -5,7 +5,7 @@ authors:
   - "Ik-Jyae Kim"
   - "Jang-Sik Lee"
 date: "2022-01-01"
-year: 2022
+year: "2022"
 journal: "Science Advances"
 doi: "10.1126/sciadv.abm5321"
 abstract: "Convolutional neural networks (CNNs) have gained much attention because they can\\"
@@ -18,7 +18,11 @@ keywords:
   - "[[Ferroelectric]]"
 cite: "Kim M K, Kim I J, Lee J S. CMOS-compatible compute-in-memory accelerators based on\\"
 aiSum: "FeFET突触阵列CIM加速器：三端FeFET兼存储和访问，HfZrOx/IZO <400°C制备，MNIST验证CIM功能，展示高密度CNN加速潜力。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[存内计算]]"
 ---
 
 Min-Kyu Kim†, Ik-Jyae Kim†, Jang-Sik Lee*

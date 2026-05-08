@@ -25,7 +25,7 @@ authors:
   - "Anand Subramoney"
   - "Steve Furber"
 date: "2025-01-22"
-year: 2025
+year: "2025"
 journal: "Nature"
 doi: "10.1038/s41586-024-08253-8"
 abstract: "Neuromorphic computing is a brain-inspired approach to hardware and algorithm design\\"
@@ -37,7 +37,10 @@ keywords:
   - "[[Large-scale systems]]"
 cite: "[1] Kudithipudi D, Schuman C, Vineyard C M, et al. Neuromorphic computing at scale[J].\\"
 aiSum: "神经形态计算规模化：综述大脑启发硬件/算法设计、可扩展架构关键特征、潜在应用与挑战、生态系统需求，为大规模神经形态系统发展提供路线图。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Neural network]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # Neuromorphic computing at scale

@@ -1,7 +1,7 @@
 ---
 title: "A Monolithic Ferroelectric‑Ionic Duality for Stochastic‑Neuromorphic Core Integration"
 date: "2026‑01‑01"
-year: 2026
+year: "2026"
 journal: "Advanced Materials"
 doi: "10.1002/adma.2026xxxxx"
 abstract: "Learning under uncertainty has become increasingly critical in data‑intensive"
@@ -15,6 +15,8 @@ keywords:
 cite: "[1] Han C, Koo R‑H, Song M, et al. A monolithic ferroelectric‑ionic duality"
 aiSum: "提出铪基铁电‑离子双重性器件，利用氧空位作为功能性离子组分实现电压可调随机性和突触行为增强，在单一器件中集成随机编码与突触记忆，具备 CMOS 兼容性和"
 confidence: "high"
+wiki_concepts:
+  - "[[Neuromorphic computing]]"
 ---
 
 # RESEARCH ARTICLE

@@ -4,7 +4,7 @@ authors:
   - "Arun Dillon"
   - "Svetlana Lazebnik"
 date: "2018-01-01"
-year: 2018
+year: "2018"
 journal: "European Conference on Computer Vision (ECCV)"
 abstract: "This work presents a method for adapting a single, fixed deep neural network"
 abstract_cn: "本文提出了一种方法，用于将单个固定的深度神经网络适应多个任务，而不影响已学习任务的性能。基于网络量化和剪枝的思想，我们学习二进制掩码，这些掩码“搭载”在现有网络上，或应用于该网络的未修改权重，以在新任务上提供良好性能。这些掩码以端到端可微分的方式学习，每任务每个网络参数的开销仅为1位。尽管底层网络是固定的，但屏蔽单个权重的能力允许学习大量过滤器。我们展示了在各种分类任务上性能与专用微调网络相当，包括与初始任务（ImageNet）存在较大领域偏移的任务，以及各种网络架构。我们的性能与任务顺序无关，且不会遭受灾难性遗忘或任务间竞争。"
@@ -14,6 +14,8 @@ keywords:
 cite: "[1] Mallya A, Davis D, Lazebnik S. Piggyback: adapting a single network to"
 aiSum: "Piggyback方法：通过可微分学习二进制掩码，固定骨干网络适应多任务，每参数1位开销，避免灾难性遗忘，任务顺序无关，性能与专用微调网络相当。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Continual learning]]"
 ---
 
 Arun Mallya, Dillon Davis, and Svetlana Lazebnik

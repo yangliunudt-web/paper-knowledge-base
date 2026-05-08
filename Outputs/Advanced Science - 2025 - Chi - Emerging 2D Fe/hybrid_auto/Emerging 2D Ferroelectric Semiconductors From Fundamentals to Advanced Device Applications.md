@@ -9,7 +9,7 @@ authors:
   - "Di Guo"
   - "Junyi Zhai"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Advanced Science"
 doi: "10.1002/advs.202514185"
 abstract: "Two-dimensional (2D) ferroelectric semiconductors, as an emerging class of functional\\"
@@ -21,7 +21,9 @@ keywords:
   - "[[Advanced Science]]"
 cite: "[1] Chi M, Zhang X, Liu J T, et al. Emerging 2D ferroelectric semiconductors: from\\"
 aiSum: "二维铁电半导体综述：涵盖发展历程、基本机制（软模理论、滑动铁电性）、本征/外延材料体系、在FeS-FET、FTJ、光电探测器、自旋器件等应用，挑战与未来方向。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Ferroelectric]]"
 ---
 
 # Emerging 2D Ferroelectric Semiconductors: From Fundamentals to Advanced Device Applications

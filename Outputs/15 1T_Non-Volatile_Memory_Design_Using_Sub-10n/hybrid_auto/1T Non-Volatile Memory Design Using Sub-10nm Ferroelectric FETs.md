@@ -4,7 +4,7 @@ authors:
   - "Ankit Sharma"
   - "Kaushik Roy"
 date: "2018-01-25"
-year: 2018
+year: "2018"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2018.2797887"
 abstract: "In this letter, we propose one-transistor ferroelectric NOR type (Fe-NOR) non-volatile\\"
@@ -16,7 +16,9 @@ keywords:
   - "[[HfZrOx]]"
 cite: "[1] Sharma A, Roy K. 1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs[J].\\"
 aiSum: "提出基于 HfZrOx FeFET 的 1T Fe-NOR 非易失性存储器，利用超短沟道增强的漏极-沟道耦合动态调制存储窗口，实现亚 1V 编程/擦除电压和简化操作。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
 ---
 
 # 1T Non-Volatile Memory Design Using Sub-10nm [[ferroelectric]] FETs

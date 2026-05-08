@@ -1,7 +1,7 @@
 ---
 title: "Homogeneous integration of two-dimensional material-based optoelectronic neurons"
 date: "2026-01-19"
-year: 2026
+year: "2026"
 journal: "Nature Communications"
 doi: "10.1038/s41467-026-68905-3"
 abstract: "Dynamic vision processing at the edge requires in-sensor spiking neural"
@@ -15,6 +15,8 @@ keywords:
 cite: "[1] Wang J, Liu K, Tiw P J, et al. Homogeneous integration of two-dimensional"
 aiSum: "实现 MoS2 光电 LIF 神经元与铁电突触的均匀集成：多光谱传感、无电容积分、阈值触发脉冲，SNN 系统颜色识别 91.7%、目标检测 93.5%"
 confidence: "high"
+wiki_concepts:
+  - "[[HfO2]]"
 ---
 
 # Homogeneous integration of two-dimensional material-based optoelectronic neurons and ferroelectric synapses for neuromorphic vision

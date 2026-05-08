@@ -11,7 +11,7 @@ authors:
   - "Thomas Kämpfe"
   - "Gerald Gerlach"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "IEEE Electron Device Letters"
 abstract: "In this work we introduce reconfigurable multifinger ferroelectric field effect transistors\\"
 abstract_cn: "本工作介绍了采用28 nm CMOS技术制造的可重构多指铁电场效应晶体管。通过切换阈值电压，FeFET可用作射频电路的可重构器件，在V_GS = 0下工作，从而降低操作中的能量损耗。器件以共源极配置实现，表现出超过1\\"
@@ -22,7 +22,10 @@ keywords:
   - "[[mmWave]]"
 cite: "[1] Abdulazhanov S, Le Q H, Huynh D K, et al. Reconfigurable ferroelectric hafnium\\"
 aiSum: "28 nm CMOS工艺制造的可重构HfO₂ FeFET，存储窗口>1 V，f_T/f_MAX分别达113/230 GHz，适用于毫米波射频电路。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Reconfigurable ferroelectric hafnium oxide FeFET fabricated in 28 nm CMOS technology for mmWave applications

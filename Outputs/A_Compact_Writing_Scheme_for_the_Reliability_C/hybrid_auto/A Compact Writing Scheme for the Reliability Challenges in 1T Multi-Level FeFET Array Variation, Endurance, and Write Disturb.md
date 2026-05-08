@@ -9,7 +9,7 @@ authors:
   - "Ru Huang"
   - "Kechao Tang"
 date: "2024-10-24"
-year: 2024
+year: "2024"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2024.3485803"
 abstract: "Multi-level cell (MLC) ferroelectric FETs (FeFETs) face critical reliability challenges\\"
@@ -21,7 +21,9 @@ keywords:
   - "[[Reliability]]"
 cite: "[1] Zhou Y, Shao H, Huang W, et al. A compact writing scheme for the reliability\\"
 aiSum: "紧凑写入方案：错误率降低>6倍、耐久性提升>100倍、Vth漂移减少>7倍，1T FeFET阵列实现2比特/单元存储、10^8周期耐久性、写入干扰免疫。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
 ---
 
 # A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level [[FeFET]] Array: Variation, Endurance, and Write Disturb

@@ -18,7 +18,7 @@ authors:
   - "W. H. P. Pernice"
   - "H. Bhaskaran"
 date: "2021-01-06"
-year: 2021
+year: "2021"
 journal: "Nature"
 doi: "10.1038/s41586-020-03070-1"
 abstract: "With the proliferation of ultrahigh-speed mobile networks and internet-connected\\"
@@ -30,7 +30,9 @@ keywords:
   - "[[Phase change material]]"
 cite: "[1] Feldmann J, Youngblood N, Karpov M, et al. Parallel convolutional processing\\"
 aiSum: "集成光子张量核心：基于相变材料存储阵列和孤子微梳，实现每秒10^12次乘加运算，带宽>14 GHz，支持并行卷积处理，为自动驾驶、实时视频处理等数据密集型AI应用提供高速低功耗硬件方案。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[In-memory computing]]"
 ---
 
 # Parallel convolutional processing using an integrated photonic tensor core

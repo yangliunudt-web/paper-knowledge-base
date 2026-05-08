@@ -8,7 +8,7 @@ authors:
   - "De-Chuan Zhan"
   - "Ziwei Liu"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "IEEE TPAMI"
 doi: "10.1109/TPAMI.2024.3369262"
 abstract: "Deep models have achieved impressive achievements in many vision tasks in the closed\\"
@@ -20,7 +20,10 @@ keywords:
   - "[[Lifelong Learning]]"
 cite: "[1] Zhou D‑W, Wang Q‑W, Qi Z‑H, et al. Class-incremental learning: a survey[J]. IEEE\\"
 aiSum: "类增量学习综述：全面总结 CIL 方法，对 17 种方法进行基准评估，倡导基于内存预算的公平比较和内存无关的性能度量。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 # Class-Incremental Learning: A Survey

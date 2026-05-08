@@ -9,7 +9,7 @@ authors:
   - "Toshiro Hiramoto"
   - "Masaharu Kobayashi"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "IEEE Electron Device Letters"
 abstract: "We have experimentally demonstrated a ferroelectric HfO2 FET with memory operation\\"
 abstract_cn: "我们通过引入超薄IGZO作为沟道材料，实验演示了具有存储操作的铁电HfO2 FET。超薄体IGZO铁电FET表现出沉积沟道材料的高迁移率、近乎理想的亚阈值斜率以及使用后端兼容工艺的可控存储特性。这些结果归因于IGZO沟道的特性：无结FET操作、金属氧化物沟道上近乎零的低k界面层以及实现HfZrO2铁电相形成的良好覆盖效应。IGZO\\"
@@ -20,7 +20,11 @@ keywords:
   - "[[Memory application]]"
 cite: "[1] Mo F, Tagawa Y, Jin C, et al. Experimental demonstration of ferroelectric HfO2\\"
 aiSum: "超薄体IGZO FeFET实验演示：采用HfO2铁电层，实现高迁移率、理想亚阈值斜率、可控存储窗口，为高密度低功耗存储应用提供新方案。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
+  - "[[IGZO]]"
 ---
 
 Fei Mo, Yusaku Tagawa, Chengji Jin, MinJu Ahn, Takuya Saraya, Toshiro Hiramoto and Masaharu Kobayashi Institute of Industrial Science, The University of Tokyo, Tokyo, Japan, email address: mofei@nano.iis.u-tokyo.ac.jp

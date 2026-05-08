@@ -8,7 +8,7 @@ authors:
   - "Rick Siow Mong Goh"
   - "Weng-Fai Wong"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "IEEE Transactions on Computers"
 abstract: "Large language models (LLMs) have garnered substantial attention due to their promising\\"
 abstract_cn: "大语言模型因其在各个领域的广泛应用前景而受到极大关注。然而，大语言模型规模的不断增长带来了训练和部署计算需求的急剧增加。忆阻器交叉阵列作为一种有前景的解决方案，在计算机视觉模型中展现了小面积和高能效的优势。忆阻器相比传统存储技术具有更高的密度，非常适合有效管理大语言模型相关的极端模型规模。然而，在忆阻器交叉阵列上部署大语言模型面临三大挑战：首先，大语言模型规模增长迅速，已超越最先进忆阻器芯片的能力；其次，大语言模型通常包含多头注意力块，涉及传统忆阻器交叉阵列不支持的非常权重稳态乘法；第三，忆阻器交叉阵列擅长线性运算，但无法执行大语言模型中的复杂非线性操作，如softmax和层归一化。为了解决这些挑战，我们提出了一种新颖的忆阻器交叉阵列架构，能够在单芯片或封装上部署最先进的大语言模型，消除片外通信带来的能量和时间低效问题。我们在BERT_Large上的测试显示精度损失可忽略不计。相比传统忆阻器交叉阵列，我们的架构在面积开销和能耗上分别实现了高达39倍和18倍的改进；相比现代TPU/GPU系统，我们的架构在面积-延迟积上至少降低了68倍，能耗显著降低69%。"
@@ -19,7 +19,9 @@ keywords:
   - "[[Crossbar architecture]]"
 cite: "[1] Wang Z, Luo T, Liu C, et al. Enabling energy‑efficient deployment of large language\\"
 aiSum: "忆阻器交叉阵列大语言模型能效部署：提出新架构解决模型规模、非常权重稳态乘法、非线性操作三大挑战，BERT_Large测试精度损失可忽略，面积开销改善39倍，能耗改善18倍，面积-延迟积降低68倍。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Memristor]]"
 ---
 
 # Enabling Energy-Efficient Deployment of Large Language Models on Memristor Crossbar: A Synergy of Large and Small

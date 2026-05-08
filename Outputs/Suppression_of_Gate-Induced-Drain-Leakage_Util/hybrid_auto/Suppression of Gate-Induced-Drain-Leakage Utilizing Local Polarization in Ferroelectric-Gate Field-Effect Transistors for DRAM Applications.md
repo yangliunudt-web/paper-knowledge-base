@@ -6,7 +6,7 @@ authors:
   - "Sihyun Kim"
   - "Daewoong Kwon"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2024.3371234"
 abstract: "This study proposed a novel approach to enhance the retention characteristics in\\"
@@ -19,7 +19,9 @@ keywords:
   - "[[Recessed channel]]"
 cite: "Kwak B, Lee K, Kim S, Kwon D. Suppression of gate-induced-drain-leakage utilizing\\"
 aiSum: "局部极化工程抑制FeFET的GIDL：独立控制源/漏侧极化，改善DRAM保持特性，实现无泄漏高性能存储单元。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
 ---
 
 Been Kwak , Kitae Lee , Sihyun Kim , Member, IEEE, and Daewoong Kwon

@@ -4,7 +4,7 @@ authors:
   - "Yaroslav Ganin"
   - "Victor Lempitsky"
 date: "2015-07-06"
-year: 2015
+year: "2015"
 journal: "ICML"
 doi: "arXiv:1409.7495"
 abstract: "Top-performing deep architectures are trained on massive amounts of labeled data.\\"
@@ -16,7 +16,9 @@ keywords:
   - "[[Gradient reversal]]"
 cite: "[1] Ganin Y, Lempitsky V. Unsupervised Domain Adaptation by Backpropagation[C]. ICML,\\"
 aiSum: "提出 DANN 域对抗神经网络，通过梯度反转层实现域不变特征学习，在 MNIST→SVHN 等域适应任务上取得优异性能，开创深度域适应领域。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Neural network]]"
 ---
 
 Yaroslav Ganin

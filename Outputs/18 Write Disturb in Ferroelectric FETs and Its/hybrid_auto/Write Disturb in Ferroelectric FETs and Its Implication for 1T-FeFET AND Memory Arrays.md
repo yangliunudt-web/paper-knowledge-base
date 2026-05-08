@@ -7,7 +7,7 @@ authors:
   - "Matthew Jerry"
   - "Suman Datta"
 date: "2018-10-23"
-year: 2018
+year: "2018"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2018.2872347"
 abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonvolatile AND\\"
@@ -19,7 +19,10 @@ keywords:
   - "[[HZO]]"
 cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication\\"
 aiSum: "研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Write Disturb in [[ferroelectric]] FETs and Its Implication for 1T-[[FeFET]] AND Memory Arrays

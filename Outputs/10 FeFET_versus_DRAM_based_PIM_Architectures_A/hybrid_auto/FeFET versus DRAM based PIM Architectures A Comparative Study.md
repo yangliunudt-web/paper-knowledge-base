@@ -7,7 +7,7 @@ authors:
   - "Christian Weis"
   - "Norbert Wehn"
 date: "2023-03-01"
-year: 2023
+year: "2023"
 journal: "IEEE Transactions on Computers"
 doi: "10.1109/TC.2023.3253467"
 abstract: "The throughput and energy efficiency of compute-centric architectures for memory\\"
@@ -20,7 +20,11 @@ keywords:
   - "[[In-memory computing]]"
 cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures:\\"
 aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM\\"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
+  - "[[存内计算]]"
 ---
 
 # [[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study

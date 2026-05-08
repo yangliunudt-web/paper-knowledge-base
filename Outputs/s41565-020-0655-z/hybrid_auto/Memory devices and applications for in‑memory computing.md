@@ -6,7 +6,7 @@ authors:
   - "Riduan Khaddam‑Aljameh"
   - "Evangelos Eleftheriou"
 date: "2020‑01‑01"
-year: 2020
+year: "2020"
 journal: "Nature Nanotechnology"
 doi: "10.1038/s41565‑020‑0655‑z"
 abstract: "Traditional von Neumann computing systems involve separate processing and memory\\"
@@ -19,7 +19,10 @@ keywords:
   - "[[Von Neumann bottleneck]]"
 cite: "[1] Sebastian A, Le Gallo M, Khaddam‑Aljameh R, et al. Memory devices and applications\\"
 aiSum: "存内计算综述：涵盖基于电荷和基于电阻的存储设备、关键计算原语（向量‑矩阵乘法、逻辑运算、随机计算）及其在科学计算、机器学习等领域的应用，探讨器件与阵列层面的挑战与前景。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[In-memory computing]]"
+  - "[[Memristor]]"
 ---
 
 # Memory devices and applications for in-memory computing

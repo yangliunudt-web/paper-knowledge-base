@@ -7,7 +7,7 @@ authors:
   - "Fei Wang"
   - "Man Wong"
 date: "2022-09-05"
-year: 2022
+year: "2022"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2022.3201836"
 abstract: "Implementing in-memory computation, an artificial neural network (ANN) consisting\\"
@@ -19,7 +19,9 @@ keywords:
   - "[[Thin-film transistor]]"
 cite: "[1] Hu Y, Lei T, Wang Y, et al. An artificial neural network implemented using parallel\\"
 aiSum: "双栅TFT人工神经网络：单片集成电容器阵列，4×6阵列实现俄罗斯方块分类，双栅结构放大弱信号、抑制强噪声，准静态电荷存储。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[In-memory computing]]"
 ---
 
 # An Artificial Neural Network Implemented Using Parallel Dual-Gate Thin-Film Transistors

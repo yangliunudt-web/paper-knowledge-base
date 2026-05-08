@@ -32,9 +32,7 @@ FeFET 基 FeRAM 将铁电栅介质直接集成到晶体管中，实现 1T 单元
 |------|------|----------|
 | [[Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM\|Monolithic Integration of Oxide Semicond...]] | 2021 | IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。 |
 | [[A 2-Transistor-2-Capacitor Ferroelectric Edge Compute-in-Memory Scheme With Disturb-Free Inference and High Endurance\|A 2-Transistor-2-Capacitor Ferroelectric...]] | 2023 | C2FeRAM 2T2C方案：无干扰存内计算、高耐久性、CIFAR-10 VGG8推理>100倍时间且精度下降<1%、相比1T1C FeRAM缓存实现4倍能效/200倍速度/3.2e5倍生命周期提升。 |
-| [[A Voltage-Dependent Switching-Time Model for Ferroelectric Capacitors\|A Voltage-Dependent Switching-Time Model...]] | 2004 | FeRAM 开关时间模型：Verilog-A、电压依赖动态、0.35μm CMOS/PZT、Spectre 仿真验证。 |
-| [[Fabrication of One-Transistor-Capacitor Structure of Nonvolatile TFT Ferroelectric RAM Devices Using Ba(Zr0.1Ti0.9)O3 Gated Oxide Film\|Fabrication of One-Transistor-Capacitor ...]] | 2007 | 制备 Ba(Zr0.1Ti0.9)O3 薄膜并用于非晶硅 TFT 底栅 1TC 铁电 RAM 器件，优化 RF 沉积参数，实现 4.5 uC/cm2 剩余极化和 80 kV/cm 矫顽场。 |
-| [[用于非破坏性读出铁电存储器的MFIS结构的机理研究\|用于非破坏性读出铁电存储器的MFIS结构的机理研究]] | 2007 | 复旦学报(自然科学版) |
+| [[Fabrication of One-Transistor-Capacitor Structure of Nonvolatile TFT Ferroelectric RAM Devices Using Ba(Zr0.1Ti0.9)O3 Gated Oxide Film\|Fabrication of One-Transistor-Capacitor ...]] | 2007 | 制备 Ba(Zr0.1Ti0.9)O3 薄膜并用于非晶硅 TFT 底栅 1TC 铁电 RAM 器件，优化 RF 沉积参数，实现 4.5 uC/cm2 剩余极化和\ |
 ## 相关概念
 
 - [[FeFET]]

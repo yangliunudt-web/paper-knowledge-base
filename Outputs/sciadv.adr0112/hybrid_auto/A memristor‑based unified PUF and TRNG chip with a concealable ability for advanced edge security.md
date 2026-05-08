@@ -12,7 +12,7 @@ authors:
   - "He Qian"
   - "Huaqiang Wu"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adr0112"
 abstract: "Security primitives ensure Internet of Things (IoT) security by generating stable\\"
@@ -25,7 +25,9 @@ keywords:
   - "[[Entropy extractor]]"
 cite: "[1] Li X, Lin B, Gao B, et al. A memristor‑based unified PUF and TRNG chip with a\\"
 aiSum: "基于 28 nm 嵌入式忆阻器的统一 PUF/TRNG 芯片：利用 FORMING 条件变异和读取电流变异作为熵源，设计紧凑熵提取器实现 41.7 Mbps 吞吐量，隐蔽方法防止数据泄露，认证吞吐量比\\"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Memristor]]"
 ---
 
 # A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security

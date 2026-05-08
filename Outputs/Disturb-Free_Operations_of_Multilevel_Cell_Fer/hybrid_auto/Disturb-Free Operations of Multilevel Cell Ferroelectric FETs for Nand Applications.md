@@ -16,7 +16,7 @@ authors:
   - "Xiao Yu"
   - "Genquan Han"
 date: "2023-02-13"
-year: 2023
+year: "2023"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2023.3242922"
 abstract: "We have experimentally investigated disturb-free operations of multilevel cell (MLC)\\"
@@ -28,7 +28,9 @@ keywords:
   - "[[Disturb-free operation]]"
 cite: "[1] Jin C, Xu J, Gu J, et al. Disturb‑free operations of multilevel cell ferroelectric\\"
 aiSum: "MLC FeFET NAND阵列无干扰操作：实验研究编程/读取干扰，提出稳定多级写入/读取方案，确定抑制电压与通过电压容限。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
 ---
 
 Chengji Jin , Jiacheng Xu, Jiani Gu , Jiayi Zhao, Xiaole Jia, Jiajia Chen, Huan Liu, Miaomiao Zhang, Yue Peng, Member, IEEE, Bing Chen , Ran Cheng , Yan Liu , Xiao Yu , and Genquan Han

@@ -10,7 +10,7 @@ authors:
   - "Dominique Drouin"
   - "Roman Genov"
 date: "2022‑03‑08"
-year: 2022
+year: "2022"
 journal: "IEEE Transactions on Circuits and Systems II: Express Briefs"
 doi: "10.1109/TCSII.2022.3157789"
 abstract: "A stochastic input encoding scheme (CODEX) is presented that aims to relax the analog‑to‑digital\\"
@@ -23,7 +23,9 @@ keywords:
   - "[[In‑situ training]]"
 cite: "[1] Liu T, Amirsoleimani A, Xu J, et al. CODEX: stochastic encoding method to relax\\"
 aiSum: "提出随机输入编码方案 CODEX，通过伯努利统计编码将位线电流分布压缩为窄高斯分布，降低 ADC 输入范围，实现 ADC 功耗降低 68.5%、面积降低 35.5%、原位训练周期数降低\\"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[crossbar]]"
 ---
 
 # CODEX: Stochastic Encoding Method to Relax Resistive Crossbar Accelerator Design Requirements

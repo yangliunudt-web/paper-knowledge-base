@@ -13,7 +13,7 @@ authors:
   - "Shimeng Yu"
   - "Suman Datta"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "IEEE Transactions on Electron Devices"
 abstract: "For the first time, we demonstrate a back end of the line (BEOL) compatible amorphous\\"
 abstract_cn: "首次展示了后端工艺兼容的非晶氧化铟钨（IWO）铁电场效应晶体管（FeFET），写入电压低于0.9V，耐久性超过10¹²次循环，85°C下保持特性超过10⁴秒，实现了无需刷新且嵌入式1T-1FeFET存储器的演示。"
@@ -25,7 +25,10 @@ keywords:
   - "[[Neuromorphic]]"
 cite: "待补充. Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance\\"
 aiSum: "首次BEOL兼容IWO FeFET：写入<0.9V，耐久性>10¹²循环，85°C保持>10⁴s，无需刷新1T-1FeFET存储器。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance $>10^{12}$ for Refresh-free 1T-1FeFET embedded Memory

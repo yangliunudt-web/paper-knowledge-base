@@ -8,7 +8,7 @@ authors:
   - "Luping Shi"
   - "Rong Zhao"
 date: "2025-02-02"
-year: 2025
+year: "2025"
 journal: "Nature Communications"
 abstract: "Continual learning remains a fundamental challenge for artificial neural networks.\\"
 abstract_cn: "持续学习仍然是人工神经网络面临的根本挑战。本文开发了一种基于皮质-海马回路启发的混合神经网络（CH-HNN），模拟大脑中特定记忆和泛化记忆的双重表征。ANN模拟mPFC-CA1回路在跨事件抽象规律中的作用，而SNN模拟DG-CA3回路编码特定事件记忆。该模型在多个数据集上的任务增量和类别增量学习场景中均展示了强大性能。它结合元可塑性机制，随着知识积累动态调节突触学习率。SNN组件实现低功耗，适用于神经形态硬件部署。"
@@ -23,7 +23,10 @@ keywords:
   - "[[混合神经网络]]"
 cite: "Shi Q, Liu F, Li H, Li G, Shi L, Zhao R. Hybrid Neural Networks for Continual Learning\\"
 aiSum: "CH-HNN混合神经网络模型，模拟皮质-海马回路的双重记忆表征。ANN+SNN混合架构，结合元可塑性机制动态调节学习率。在任务增量和类别增量学习场景中表现优异，SNN组件支持低功耗神经形态硬件部署。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Continual learning]]"
+  - "[[Neural network]]"
 ---
 
 # Hybrid neural networks for continual learning inspired by corticohippocampal circuits

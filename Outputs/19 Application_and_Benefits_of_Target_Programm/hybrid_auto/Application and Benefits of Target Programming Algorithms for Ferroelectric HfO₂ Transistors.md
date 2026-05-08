@@ -14,7 +14,7 @@ authors:
   - "S. Müller"
   - "T. Mikolajick"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2023.xxxxxxx"
 abstract: "The ferroelectric HfO₂ based field effect transistor (FeFET) has been under research\\"
@@ -27,7 +27,10 @@ keywords:
   - "[[HfO₂]]"
 cite: "[1] Zhou H, Ocker J, Padovani A, et al. Application and benefits of target programming\\"
 aiSum: "目标编程算法改善 FeFET 耐久性能和变异特性：可将阈值电压设定为任意值，适用于多级单元和模拟存内计算，通过 GinestraTM 仿真提取 HfO₂ 陷阱分布并提出退化机制模型。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Application and Benefits of Target Programming Algorithms for Ferroelectric HfO₂ Transistors

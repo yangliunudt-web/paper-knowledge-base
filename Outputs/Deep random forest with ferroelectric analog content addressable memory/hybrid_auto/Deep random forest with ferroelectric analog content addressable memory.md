@@ -19,7 +19,7 @@ authors:
   - "Thomas Kämpfe"
   - "Kai Ni"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "Science Advances"
 abstract: "Deep random forest (DRF), which combines deep learning and random forest, exhibits\\"
 abstract_cn: "深度随机森林结合了深度学习和随机森林，在边缘智能任务中展现出与深度神经网络相当的精度、可解释性以及低内存和计算开销。然而，高效的深度随机森林加速器落后于深度神经网络加速器。深度随机森林加速的关键在于实现决策节点的分支分裂操作。本工作提出通过铁电模拟内容可寻址存储器实现的关联搜索来实现深度随机森林。仅使用两个铁电场效应晶体管，超紧凑的模拟内容可寻址存储器单元通过将决策边界存储为铁电场效应晶体管中的模拟极化状态，实现高能效的分支分裂操作。提出了深度随机森林加速器架构及其到模拟内容可寻址存储器阵列的模型映射。通过实验和仿真验证了铁电场效应晶体管模拟内容可寻址存储器深度随机森林的功能、特性、可扩展性以及对铁电场效应晶体管器件非理想性的鲁棒性。评估表明，与最先进的CPU/ReRAM上的其他深度随机森林硬件实现相比，铁电场效应晶体管模拟内容可寻址存储器深度随机森林加速器在能耗和延迟方面分别实现了约106倍/10倍和106倍/2.5倍的改进。"
@@ -30,7 +30,10 @@ keywords:
   - "[[Edge intelligence]]"
 cite: "[1] Yin X, Müller F, Laguna A F, et al. Deep random forest with ferroelectric analog\\"
 aiSum: "铁电模拟内容可寻址存储器实现深度随机森林加速：2FeFET单元实现分支分裂操作，相比CPU/ReRAM实现能耗降低106倍/10倍、延迟降低106倍/2.5倍。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[Edge computing]]"
+  - "[[FeFET]]"
 ---
 
 # A P P L I E D S C I E N C E S A N D E N G I N E E R I N G

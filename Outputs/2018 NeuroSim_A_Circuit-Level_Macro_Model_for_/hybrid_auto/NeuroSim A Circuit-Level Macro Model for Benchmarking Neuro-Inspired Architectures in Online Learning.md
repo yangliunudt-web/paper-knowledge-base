@@ -5,7 +5,7 @@ authors:
   - "Xiaochen Peng"
   - "Shimeng Yu"
 date: "2018-01-04"
-year: 2018
+year: "2018"
 journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
 doi: "10.1109/TCAD.2018.2789723"
 abstract: "Neuro-inspired architectures based on synaptic memory arrays have been proposed for\\"
@@ -17,7 +17,9 @@ keywords:
   - "[[Neural network accelerator]]"
 cite: "[1] Chen P Y, Peng X C, Yu S M. NeuroSim: A Circuit-Level Macro Model for Benchmarking\\"
 aiSum: "开发 NeuroSim 电路级宏模型，估算神经启发架构的面积、延迟、能耗，支持 SRAM、数字和模拟 eNVM 架构设计空间探索和基准测试。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[Neuromorphic computing]]"
 ---
 
 # NeuroSim: A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures in Online Learning

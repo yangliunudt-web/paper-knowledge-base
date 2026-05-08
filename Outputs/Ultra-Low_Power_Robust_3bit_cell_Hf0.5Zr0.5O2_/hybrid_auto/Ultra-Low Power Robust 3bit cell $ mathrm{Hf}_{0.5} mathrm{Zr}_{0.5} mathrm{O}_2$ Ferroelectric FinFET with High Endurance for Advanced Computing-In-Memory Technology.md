@@ -16,7 +16,7 @@ authors:
   - "Wen-Kuan Yeh"
   - "Yeong-Her Wang"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "Nature Electronics"
 abstract: "Scaled ferroelectric FinFET devices were fabricated with post fin formation surface\\"
 abstract_cn: "本文通过后鳍形成表面工程去除Si表面线边缘粗糙度，制备了10nm HfZrO基铁电FinFET。 该器件实现了3bit/单元操作，开关比>10⁶，耐久性>10¹¹次循环，在MNIST/CIFAR-10上验证了CIM功能。"
@@ -28,7 +28,10 @@ keywords:
   - "[[Compute-in-memory]]"
 cite: "De S, Lu D D, Le H H, et al. Ultra-low power robust 3bit/cell Hf0.5Zr0.5O2 ferroelectric\\"
 aiSum: "10nm HfZrO FinFET 3bit/单元，开关比>10⁶，耐久性>10¹¹循环，MNIST/CIFAR验证CIM功能。"
-confidence: high
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[存内计算]]"
 ---
 
 Sourav De $^{1, *}$ , Darsen D. Lu $^{1, **}$ , Hoang-Hiep Le $^{1}$ , Soumen Mazumder $^{1}$ , Yao-Jen Lee $^{2, ***}$ , Wei-Chih Tseng $^{1}$ , Bo-Han Qiu $^{1}$ , Md. Aftab Baig $^{1}$ , Po-Jung Sung $^{2}$ , Chung-Jun Su $^{2}$ , Chien-Ting Wu $^{2}$ , Wen-Fa Wu $^{2}$ , Wen-Kuan Yeh $^{2}$ , Yeong-Her Wang $^{1}$ $^{1}$ Institute of Microelectronics, Department of Electrical Engineering, National Cheng Kung University, Tainan City, Taiwan; $^{2}$ Taiwan Semiconductor Research Institute, Hsinchu City, Taiwan. email: *desourav123@gmail.com, email: **darsenlu@mail.ncku.edu.tw, email***: yjlee@narlabs.org.tw

@@ -13,6 +13,8 @@ keywords:
   - "[[nonvolatile memory]]"
   - "[[in-memory-computing]]"
   - "[[neuromorphic computing]]"
+wiki_concepts:
+  - "[[Neuromorphic computing]]"
 ---
 
 # Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing

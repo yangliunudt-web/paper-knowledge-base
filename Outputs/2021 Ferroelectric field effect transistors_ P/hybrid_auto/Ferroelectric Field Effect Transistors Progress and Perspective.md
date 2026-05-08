@@ -5,7 +5,7 @@ authors:
   - "Min-Ju Choi"
   - "Ho Won Jang"
 date: "2021-02-02"
-year: 2021
+year: "2021"
 journal: "APL Materials"
 doi: "10.1063/5.0035515"
 abstract: "Ferroelectric field-effect transistors (FeFETs) have attracted significant attention\\"
@@ -17,7 +17,11 @@ keywords:
   - "[[Review]]"
 cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress\\"
 aiSum: "综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。"
-confidence: medium
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
 ---
 
 RESEARCH ARTICLE | FEBRUARY 02 2021

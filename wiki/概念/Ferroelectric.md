@@ -28,11 +28,13 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Ferroelectric Transistors for Memory and Neuromorphic Device Applications\|Ferroelectric Transistors for Memory and...]] | 2022 | HfO₂基FeFET综述：器件结构、工作原理、存储特性及神经形态计算应用，覆盖最新研究进展。 |
-| [[Ferroelectric Transistors for Memory and Neuromorphic Computing\|Ferroelectric Transistors for Memory and...]] | 2022 | HfO₂基FeFET综述：器件结构、工作原理、存储特性、神经形态计算应用及未来挑战。 |
-| [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2025 | 开发40x40 P(VDF-TrFE)铁电电容crossbar存内差分器。0.24 fJ/次、1 MHz、98.9%准确率、4.17 POPS/W（比V100高10000倍）。演示一阶/二阶导数、运动 |
+| [[Monte Carlo Simulation of Switching Dynamics in Polycrystalline Ferroelectric Capacitors\|Monte Carlo Simulation of Switching Dyna...]] | 2019 | 蒙特卡洛模拟多晶铁电器件开关动力学：基于成核限制开关模型，使用HZO电容器数据提取晶粒统计分布，预测任意波形下动态响应，分析铁电-电介质双层结构动态特性及器件变异导致的存储窗口缩减。 |
+| [[CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks\|CMOS-compatible compute-in-memory accele...]] | 2022 | FeFET突触阵列CIM加速器：三端FeFET兼存储和访问，HfZrOx/IZO <400°C制备，MNIST验证CIM功能，展示高密度CNN加速潜力。 |
 | [[Highly-reliable ferroelectric thin-film transistors array for hardware implementation of image classification\|Highly-reliable ferroelectric thin-film ...]] | 2025 | 研究问题：FeTFT在存内计算中面临弱擦除问题和界面缺陷导致的可靠性下降，限制了其在神经网络硬件实现中的应用。研究方法：提出平面集成MFMIS-FeTFT结构，通过浮栅抑制弱擦除效应，简化工艺减少界面 |
-| [[Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor Motion Perception\|Ferroelectric Optoelectronic Sensor for ...]] | 2026 | Ga2O3/In2Se3铁电-光电传感器阵列：255 nm紫外探测率4.91x10^17 Jones，NB-IoT实时报警，CNN 96.47%火焰运动识别，ANN\ |
+| [[Emerging 2D Ferroelectric Semiconductors From Fundamentals to Advanced Device Applications\|Emerging 2D Ferroelectric Semiconductors...]] | 2025 | 二维铁电半导体综述：涵盖发展历程、基本机制（软模理论、滑动铁电性）、本征/外延材料体系、在FeS-FET、FTJ、光电探测器、自旋器件等应用，挑战与未来方向。 |
+| [[Coupled ferroelectric-anisotropic optoelectronic synapse for polarization-sensitive neuromorphic vision\|Coupled ferroelectric-anisotropic optoel...]] | 2026 | 偏振分辨光电突触，ReS2/HZO MFMIS FeFET结构。ANN 97.33%虹膜识别，3x3 FeFET CNN蝴蝶分类，2.0 fJ/事件能效。铁电-各向异性平台实现偏振敏感神经形态视觉。 |
+| [[Ferroelectric Field Effect Transistors Progress and Perspective\|Ferroelectric Field Effect Transistors P...]] | 2021 | 综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。 |
+| [[Unsupervised local learning based on voltagedependent synaptic plasticity for resistive and ferroelectric synapses\|Unsupervised local learning based on vol...]] | 2026 | 在电阻式和铁电突触中实现基于电压依赖突触可塑性的无监督局部学习，支持边缘端在线学习，无需外部监督。 |
 ## 相关概念
 
 - [[HfO2]]

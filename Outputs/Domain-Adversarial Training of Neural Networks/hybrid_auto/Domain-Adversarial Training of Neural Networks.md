@@ -1,7 +1,7 @@
 ---
 title: "Domain-Adversarial Training of Neural Networks"
 date: "2016-01-01"
-year: 2016
+year: "2016"
 journal: "Journal of Machine Learning Research"
 doi: "10.5555/2946645.2946684"
 abstract: "We introduce a new representation learning approach for domain adaptation,"
@@ -18,6 +18,8 @@ keywords:
 cite: "[1] Ganin Y, Ustinova E, Ajakan H, et al. Domain‑adversarial training of neural"
 aiSum: "领域对抗神经网络训练（DANN）：通过梯度反转层实现领域不变特征学习，处理同质/异质领域自适应，在标准基准上优于SOTA方法。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Neural network]]"
 ---
 
 # Domain-Adversarial Training of Neural Networks

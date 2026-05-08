@@ -13,7 +13,9 @@ abstract: "Continual lifelong learning requires an agent or model to learn many 
 abstract_cn: "持续终身学习要求智能体学习多个顺序任务并在之前知识基础上构建而不发生灾难性遗忘。本文提出通过元学习解决灾难性遗忘，让 AI 学会持续学习。受大脑神经调制过程启发，提出神经调制元学习算法"
 cite: "[1] Beaulieu S, Frati L, Miconi T, et al. Learning to Continually Learn[J]."
 aiSum: "提出 ANML 神经调制元学习算法，通过元学习激活门控函数实现持续学习，可顺序学习多达 600 个类别而避免灾难性遗忘。"
-confidence: "low"
+confidence: low
+wiki_concepts:
+  - "[[Continual learning]]"
 ---
 
 # Learning to Continually Learn
