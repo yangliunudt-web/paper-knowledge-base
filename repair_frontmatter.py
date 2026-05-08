@@ -31,24 +31,36 @@ def is_broken(content):
 
 
 def extract_field(content, field):
-    """Extract a YAML field value from possibly-broken frontmatter."""
-    # Get everything after first --- up to body text or end
+    """Extract a YAML field value from frontmatter only (between first and second ---)."""
     parts = content.split("---", 1)
     if len(parts) < 2:
-        fm_area = content
+        return "" if field not in ("authors", "keywords", "wiki_concepts") else []
+
+    # Only look at content between first --- and the body start
+    # Body starts at: closing ---, or first line that looks like body text
+    rest = parts[1]
+    fm_end = rest.find("\n---")
+    if fm_end >= 0:
+        fm_area = rest[:fm_end]
     else:
-        fm_area = parts[1]
+        # No closing ---, estimate: stop at first line that is definitely body text
+        lines = rest.split("\n")
+        fm_lines = []
+        for line in lines:
+            if line.strip() and not re.match(r'^\s+', line) and not re.match(r'^\w+\s*:', line) and not line.startswith('-') and not line.startswith('#'):
+                break
+            fm_lines.append(line)
+        fm_area = "\n".join(fm_lines)
 
     # For list-type fields (authors, keywords, wiki_concepts)
     if field in ("authors", "keywords", "wiki_concepts"):
-        # Find the field header
         m = re.search(rf"^{field}\s*:\s*\n((?:\s+-.*\n)*)", fm_area, re.MULTILINE)
         if m:
             items = re.findall(r'-\s*"?(.*?)"?\s*$', m.group(1), re.MULTILINE)
             return items
         return []
 
-    # Scalar fields
+    # Scalar fields — use first match only
     m = re.search(rf'^{field}\s*:\s*"?(.*?)"?\s*$', fm_area, re.MULTILINE)
     if m:
         return m.group(1).strip()
@@ -112,52 +124,58 @@ def rebuild_frontmatter(content):
     confidence = extract_field(content, "confidence")
     wiki_concepts = extract_field(content, "wiki_concepts")
 
-    # Build YAML frontmatter
+    # Build YAML frontmatter — each key appears exactly once
     lines = ["---"]
+    seen_keys = set()
+
+    def add(key, line):
+        if key not in seen_keys:
+            seen_keys.add(key)
+            lines.append(line)
+
     if title:
-        lines.append(f'title: "{title}"')
+        add("title", f'title: "{title}"')
     if authors:
-        lines.append("authors:")
+        add("authors", "authors:")
         for a in authors:
             a_clean = a.strip().strip('"').strip("'")
             if a_clean:
                 lines.append(f'  - "{a_clean}"')
     if date:
-        lines.append(f'date: "{date}"')
+        add("date", f'date: "{date}"')
     if year:
-        lines.append(f"year: {year}")
+        add("year", f"year: {year}")
     if journal:
-        lines.append(f'journal: "{journal}"')
+        add("journal", f'journal: "{journal}"')
     if doi:
-        lines.append(f'doi: "{doi}"')
+        add("doi", f'doi: "{doi}"')
     if abstract:
-        lines.append(f'abstract: "{abstract}"')
+        add("abstract", f'abstract: "{abstract}"')
     if abstract_cn:
-        lines.append(f'abstract_cn: "{abstract_cn}"')
+        add("abstract_cn", f'abstract_cn: "{abstract_cn}"')
     if keywords:
-        lines.append("keywords:")
+        add("keywords", "keywords:")
         for kw in keywords:
             kw_clean = kw.strip().strip('"').strip("'")
             if kw_clean:
-                # Ensure wikilink format
                 if not kw_clean.startswith("[["):
                     kw_clean = f"[[{kw_clean}]]"
                 lines.append(f'  - "{kw_clean}"')
     if cite_val:
-        lines.append(f'cite: "{cite_val}"')
+        add("cite", f'cite: "{cite_val}"')
     if ai_sum:
-        lines.append(f'aiSum: "{ai_sum}"')
+        add("aiSum", f'aiSum: "{ai_sum}"')
     if confidence:
-        lines.append(f"confidence: {confidence}")
+        add("confidence", f"confidence: {confidence}")
     if wiki_concepts:
-        lines.append("wiki_concepts:")
+        add("wiki_concepts", "wiki_concepts:")
         for wc in wiki_concepts:
             wc_clean = wc.strip().strip('"').strip("'")
             if wc_clean:
                 if not wc_clean.startswith("[["):
                     wc_clean = f"[[{wc_clean}]]"
                 lines.append(f'  - "{wc_clean}"')
-    lines.append("---")
+    add("end", "---")
 
     fm = "\n".join(lines) + "\n"
     return fm + "\n" + body
