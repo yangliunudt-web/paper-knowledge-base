@@ -131,82 +131,75 @@ def map_to_concepts(terms, alias_map):
 
 
 def add_wiki_concepts(paper_path, concepts):
-    """Add or update wiki_concepts field in paper frontmatter."""
+    """Add or update wiki_concepts field using safe rebuild (never breaks frontmatter)."""
     try:
+        # Use repair_frontmatter's safe rebuild approach
+        sys.path.insert(0, str(VAULT))
+        from repair_frontmatter import rebuild_frontmatter, extract_field
+
         content = paper_path.read_text(encoding="utf-8")
-        concept_lines = "\n".join(f'  - "[[{c}]]"' for c in sorted(concepts))
+
+        # Get existing wiki_concepts
+        existing = set(extract_field(content, "wiki_concepts"))
+        all_concepts = existing | set(concepts)
+
+        if all_concepts == existing:
+            return False  # No change needed
+
+        # Rebuild with safe function
+        new_content = rebuild_frontmatter(content)
+
+        # Now update wiki_concepts in the rebuilt content
+        concept_lines = "\n".join(f'  - "[[{c}]]"' for c in sorted(all_concepts))
         new_field = f"wiki_concepts:\n{concept_lines}"
 
-        if "wiki_concepts:" in content:
-            # Update existing field
-            new_content = re.sub(
-                r'wiki_concepts:\s*\n(?:.*\n)*?(?=\n\S|\n---|\n\w+:|\Z)',
-                new_field + '\n',
-                content,
-                count=1
-            )
-        elif "confidence:" in content:
-            new_content = re.sub(
-                r'(confidence:.*\n)',
-                rf'\1{new_field}\n',
-                content,
-                count=1
-            )
-        elif "aiSum:" in content:
-            new_content = re.sub(
-                r'(aiSum:.*\n)',
-                rf'\1{new_field}\n',
-                content,
-                count=1
-            )
-        else:
-            new_content = re.sub(
-                r'(\n---\s*\n)',
-                rf'\n{new_field}\n\1',
-                content,
-                count=1
-            )
+        # Replace the wiki_concepts block (always present in rebuilt content)
+        new_content = re.sub(
+            r'wiki_concepts:\s*\n(?:.*\n)*?(?=\n\S|\n---)',
+            new_field + '\n',
+            new_content,
+            count=1,
+            flags=re.DOTALL
+        )
 
-        if new_content != content:
-            if not DRY_RUN:
-                paper_path.write_text(new_content, encoding="utf-8")
-            return True
-        return False
+        if not DRY_RUN:
+            paper_path.write_text(new_content, encoding="utf-8")
+        return True
     except Exception as e:
         print(f"  Error: {paper_path.name}: {e}")
         return False
 
 
 def add_keywords_to_frontmatter(paper_path, new_keywords):
-    """Add new keywords to the paper's frontmatter keywords list."""
+    """Add new keywords using safe rebuild approach."""
     try:
-        content = paper_path.read_text(encoding="utf-8")
-        existing = set()
-        existing_raw = current_keywords_list(paper_path)
-        for kw in existing_raw:
-            inner = re.sub(r'^\[\[|\]\]$', '', kw.strip('"'))
-            existing.add(inner)
+        from repair_frontmatter import rebuild_frontmatter, extract_field
 
-        to_add = [kw for kw in new_keywords if kw not in existing]
-        if not to_add:
+        content = paper_path.read_text(encoding="utf-8")
+        existing = set(extract_field(content, "keywords"))
+        all_keywords = existing | set(new_keywords)
+
+        if all_keywords == existing:
             return False, 0
 
-        # Find the last keyword line and append after it
-        new_lines = "\n".join(f'  - "[[{kw}]]"' for kw in to_add)
+        # Rebuild with correct frontmatter
+        new_content = rebuild_frontmatter(content)
 
-        # Insert after the last keyword entry
+        # Replace keywords block
+        kw_lines = "\n".join(f'  - "[[{kw}]]"' for kw in sorted(all_keywords))
+        new_field = f"keywords:\n{kw_lines}"
+
         new_content = re.sub(
-            r'(keywords:\s*\n(?:.*\n)*?)(\n\w+.*:)',
-            rf'\1{new_lines}\n\2',
-            content,
-            count=1
+            r'keywords:\s*\n(?:.*\n)*?(?=\n\S|\n---)',
+            new_field + '\n',
+            new_content,
+            count=1,
+            flags=re.DOTALL
         )
 
-        if new_content != content:
-            if not DRY_RUN:
-                paper_path.write_text(new_content, encoding="utf-8")
-            return True, len(to_add)
-        return False, 0
+        if not DRY_RUN:
+            paper_path.write_text(new_content, encoding="utf-8")
+        return True, len(all_keywords) - len(existing)
     except Exception as e:
         print(f"  Error adding keywords to {paper_path.name}: {e}")
         return False, 0

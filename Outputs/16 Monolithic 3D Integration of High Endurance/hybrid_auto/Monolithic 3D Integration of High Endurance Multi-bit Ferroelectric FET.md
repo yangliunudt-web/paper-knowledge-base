@@ -16,6 +16,7 @@ aiSum: "单片 3D FeFET 集成：BEoL 铁电 MFM 器件，>10^10 耐久性，2 �
 confidence: high
 wiki_concepts:
   - "[[Ferroelectric]]"
+---
 
 1 University of Notre Dame, Notre Dame, IN 46556, USA; 2 Georgia Institute of Technology, Atlanta, GA, USA
 
