@@ -12,17 +12,32 @@ This is an Obsidian vault for managing and organizing academic papers, primarily
 - Graph neural networks for edge computing
 - 3D monolithic integration of semiconductor devices
 
+**Knowledge Architecture**: Karpathy LLM Wiki 3-layer model:
+1. **`Outputs/`** (like `raw/`) — immutable paper source files. Papers imported here with frontmatter metadata.
+2. **`wiki/`** (like `wiki/`) — LLM-maintained knowledge layer. Concept pages, domain pages, synthesis, logs.
+3. **`CLAUDE.md`** (like `AGENTS.md`) — Schema specification. Defines structure, conventions, and workflows for agents.
+
 ## Repository Structure
 
 ```
 Papers/
-├── Outputs/                    # 200+ papers organized in individual directories
+├── Outputs/                    # Layer 1: immutable paper source files (200+ papers)
 │   └── [Paper ID]/            # Keep original folder name (e.g., "3665898")
 │       └── hybrid_auto/       # Auto-generated from PDF processing
 │           ├── [paper].md     # Markdown with frontmatter
 │           ├── [paper]_origin.pdf
 │           ├── [paper]_layout.pdf
 │           └── images/        # Extracted figures
+├── wiki/                       # Layer 2: LLM-maintained knowledge layer
+│   ├── 概念/                   # Concept pages (aliases, definitions, paper index)
+│   ├── Wiki 目录.md            # Content directory (LLM-maintained)
+│   ├── 操作日志.md             # Operation timeline log
+│   ├── 论文分组索引.md         # Paper topic grouping index
+│   └── 知识库概览.md           # Knowledge base landing page
+├── templates/                  # Page templates for each type
+│   ├── concept.md
+│   ├── topic.md
+│   └── synthesis.md
 ├── Citation/                  # Citation maps (.canvas) and reports (.md)
 ├── Keywords-Report/           # Keyword index reports from literature-keyword-indexer
 ├── Summary/                   # WeChat-style literature summaries
@@ -31,6 +46,7 @@ Papers/
 ├── .agents/                   # Agent configuration files
 │   └── skills/                # Installed Obsidian skills (defuddle, json-canvas, etc.)
 ├── skills/                    # Symlinks to .agents/skills/
+├── CLAUDE.md                  # Layer 3: Schema specification for Claude Code
 └── .obsidian/                 # Obsidian vault configuration
 ```
 
@@ -54,6 +70,10 @@ abstract: "Full English abstract..."
 abstract_cn: "Full Chinese translation..."
 cite: "Author. Title[J]. Journal, Year, Vol(Issue): Pages. DOI:..."
 aiSum: "Research summary: problem/method/conclusions/limitations"
+confidence: high | medium | low
+  # high: Nature/Science/IEDM/VLSI/IEEE T-ED 等级别期刊或顶会
+  # medium: 正规 SCI 期刊
+  # low: arXiv 预印本、会议 workshop
 ---
 ```
 
@@ -122,7 +142,33 @@ Credentials are available in session when needed.
 
 ## Git & Sync
 
-This vault is on iCloud Drive (`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Papers`). Not a git repo — no version control. Changes are synced via iCloud.
+Git repo: `git@github.com:yangliunudt-web/paper-knowledge-base.git`
+- This vault is on iCloud Drive. Git for version control, iCloud for sync.
+- `Outputs/*` is gitignored (papers too large). Only 3 example papers committed.
+- `Stork/**/*.pdf` gitignored. Reports (.md) are tracked.
+- `Writing/` gitignored (draft manuscripts).
+- Tag before major changes for rollback: `git tag v<version> && git push --tags`
+
+## Wiki Layer (Karpathy Model)
+
+### Architecture
+1. **`Outputs/`** = `raw/` — immutable source files. Agents read papers here, never modify.
+2. **`wiki/`** = `wiki/` — LLM-maintained knowledge layer. Concept pages, grouping index, operation log.
+3. **`CLAUDE.md`** = `AGENTS.md` — this schema file. Defines agent behavior.
+
+### Key Rules
+- **绝不修改 Outputs/ 中的论文文件**（除非 ingest 新论文时新增）
+- **Agent 搜索优先经过 wiki/概念/ 页面** → 概念页是预计算的搜索缓存，含别名归一化和论文索引
+- **ingest 新论文后必须同步更新 wiki 层**：更新概念页 → 更新分组索引 → 更新 Wiki 目录 → 追加操作日志
+- **论文不移动**：论文分组通过 `wiki/论文分组索引.md` 维护逻辑关系，不移动 Outputs/ 中的文件
+- **wiki/ 页面格式**：所有页面必须有 frontmatter；概念页使用 `templates/concept.md` 模板
+
+### Wiki Operations
+| 操作 | 触发 | 说明 |
+|------|------|------|
+| ingest | 导入新论文 | 更新概念页、分组索引、目录、日志 |
+| query | 用户提问 | 先查 wiki/概念/ → 再查论文 frontmatter |
+| lint | 健康检查 | 死链、孤页、过时页面、矛盾声明 |
 
 ## File Path Handling
 
