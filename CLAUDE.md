@@ -198,9 +198,12 @@ Git repo: `git@github.com:yangliunudt-web/paper-knowledge-base.git`
 3. **`CLAUDE.md`** = `AGENTS.md` — this schema file. Defines agent behavior.
 
 ### Key Rules
-- **绝不修改 Outputs/ 中的论文文件**（除非 ingest 新论文时新增）
+- **绝不修改 Outputs/ 中的论文文件**（除非 ingest 新论文或修复 frontmatter 时新增）
 - **Agent 搜索优先经过 wiki/概念/ 页面** → 概念页是预计算的搜索缓存，含别名归一化和论文索引
-- **ingest 新论文后必须同步更新 wiki 层**：更新概念页 → 更新分组索引 → 更新 Wiki 目录 → 追加操作日志
+- **Outputs/ 任何 .md 文件变动后必须同步 wiki 层**：
+  - ingest 新论文 → 完整 10 步 ingest 流程
+  - 修复 frontmatter → 重新跑 `batch_add_wiki_concepts.py` + `batch_populate_concepts.py`
+  - 删除/移动论文 → 更新 Wiki 目录 + 概念页表格
 - **论文不移动**：论文分组通过 `wiki/论文分组索引.md` 维护逻辑关系，不移动 Outputs/ 中的文件
 - **wiki/ 页面格式**：所有页面必须有 frontmatter；概念页使用 `templates/concept.md` 模板
 
