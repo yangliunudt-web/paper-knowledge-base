@@ -1,0 +1,30 @@
+{
+  "showTitle": true,
+  "maxLevel": "6",
+  "displayHeader": true,
+  "displayFooter": true,
+  "headerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"title\"></span></div>\n@media print {\n  body {\n    --font-text-override: \"Microsoft YaHei\" !important;\n    font-size: 14px !important;\n    line-height: 1.6 !important;\n  }\n}\n",
+  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></div>",
+  "printBackground": false,
+  "generateTaggedPDF": false,
+  "displayMetadata": true,
+  "debug": false,
+  "isTimestamp": false,
+  "enabledCss": false,
+  "concurrency": "5",
+  "prevConfig": {
+    "pageSize": "A4",
+    "marginType": "3",
+    "showTitle": true,
+    "open": true,
+    "scale": 0,
+    "landscape": true,
+    "marginTop": "10",
+    "marginBottom": "10",
+    "marginLeft": "80",
+    "marginRight": "80",
+    "displayHeader": true,
+    "displayFooter": true,
+    "cssSnippet": "0"
+  }
+}

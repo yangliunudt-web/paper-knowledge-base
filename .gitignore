@@ -1,0 +1,27 @@
+# Paper PDFs — too large for git, managed via iCloud
+Outputs/
+
+# Stork PDFs — large binaries
+Stork/**/*.pdf
+
+# Obsidian workspace config
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Non-paper content
+_NonPapers/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Personal Claude permissions
+.claude/settings.local.json
+
+# Obsidian agent session data (contains personal tokens)
+.obsidian/plugins/agent-client/sessions/
+
+# Python cache
+__pycache__/
+*.pyc
