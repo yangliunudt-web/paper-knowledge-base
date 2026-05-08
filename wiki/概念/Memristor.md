@@ -2,7 +2,7 @@
 title: Memristor
 type: concept
 tags: [概念, 基础]
-aliases: [忆阻器, memristive device, memristors, RRAM]
+aliases: [忆阻器, memristive device, memristors, RRAM, memristive network, Memristive network, resistive memory, Resistive memory, 阻变存储器]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []

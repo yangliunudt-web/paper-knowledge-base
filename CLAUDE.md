@@ -74,6 +74,11 @@ confidence: high | medium | low
   # high: Nature/Science/IEDM/VLSI/IEEE T-ED 等级别期刊或顶会
   # medium: 正规 SCI 期刊
   # low: arXiv 预印本、会议 workshop
+wiki_concepts:
+  - "[[ConceptPage1]]"
+  - "[[ConceptPage2]]"
+  # 显式引用 wiki/概念/ 中已有页面的双向链接
+  # ingest 时由 literature-importer 自动填充
 ---
 ```
 
@@ -101,6 +106,10 @@ python3 lint-wiki.py --report
 # Batch add confidence field to all papers
 python3 batch_add_confidence.py --dry-run  # preview first
 python3 batch_add_confidence.py            # apply
+
+# Batch add wiki_concepts field (bidirectional linking paper ↔ wiki)
+python3 batch_add_wiki_concepts.py --dry-run  # preview first
+python3 batch_add_wiki_concepts.py            # apply
 ```
 
 ## Available Agents

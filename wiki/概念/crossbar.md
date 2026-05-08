@@ -2,7 +2,7 @@
 title: crossbar
 type: concept
 tags: [概念, 基础]
-aliases: [交叉阵列, crossbar array, cross-point array, 交叉点阵列, memristor crossbar]
+aliases: [交叉阵列, crossbar array, Crossbar array, cross-point array, 交叉点阵列, memristor crossbar, crossbar array]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []

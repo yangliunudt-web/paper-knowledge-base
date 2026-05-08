@@ -58,6 +58,9 @@ abstract_cn: "完整的中文翻译"
 cite: "作者. 题名[J]. 刊名, 年, 卷(期): 页码. DOI:..."
 aiSum: "AI总结：研究问题/方法/主要结论/局限"
 confidence: high | medium | low
+wiki_concepts:
+  - "[[ConceptPage1]]"
+  - "[[ConceptPage2]]"
 ---
 ```
 
@@ -83,6 +86,7 @@ confidence: high | medium | low
 | cite | ✅ | GB/T 7714-2015格式 |
 | aiSum | ✅ | 包含问题/方法/结论/局限 |
 | confidence | ✅ | high（顶刊/顶会）medium（SCI期刊）low（arXiv/预印本） |
+| wiki_concepts | ✅ | 显式引用 wiki/概念/ 页面（wikilinks 格式），ingest 时自动填充 |
 
 **Cite格式要求**：
 ```
@@ -107,7 +111,7 @@ confidence: high | medium | low
 
 **步骤5：概念提取与更新**
 - 从论文 keywords 中提取所有概念（wikilink 去除 `[[ ]]` 后的名称）
-- 对每个概念，检查 `wiki/概念/` 是否已有对应页面：
+- 对每个概念，检查 `wiki/概念/` 是否已有对应页面（同时检查每个概念页面的 `aliases` 字段）：
   - **无** → 读取 `templates/concept.md` 模板，创建概念页：
     - 填入定义、aliases（统一中英文/缩写等不同叫法）
     - 在"相关论文"表格中添加该论文行
@@ -116,6 +120,8 @@ confidence: high | medium | low
     - 在"相关论文"表格中追加该论文行
     - 如有新的 aliases 补入
     - 更新 `updated` 日期
+- **填充 wiki_concepts**：将匹配到的概念页名称填入论文 frontmatter 的 `wiki_concepts` 字段（`"[[ConceptName]]"` 格式）
+- 如果关键词未匹配到任何概念页，`wiki_concepts` 留空，后续 lint 会检测到
 
 **步骤6：分组索引更新**
 - 检查 `wiki/论文分组索引.md`，判断论文主题是否匹配已有分组

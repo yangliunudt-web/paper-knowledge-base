@@ -21,6 +21,10 @@ abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞
 cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures: A Comparative Study[J]. IEEE Transactions on Computers, 2023, 72(5): 1320-1335. DOI: 10.1109/TC.2023.3253467."
 aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM 支持双模式（存储+计算）、高容量（16Gb）、适合训练，但 MAC 能耗高（~1pJ）且架构约束大。"
 confidence: medium
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
+  - "[[存内计算]]"
 ---
 
 # [[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study

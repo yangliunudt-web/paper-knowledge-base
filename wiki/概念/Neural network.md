@@ -2,7 +2,7 @@
 title: Neural network
 type: concept
 tags: [概念, 基础]
-aliases: [神经网络, neural networks, NN, ANN, DNN, deep neural network, SNN, spiking neural network]
+aliases: [神经网络, neural networks, Neural networks, Neural Networks, NN, ANN, DNN, deep neural network, SNN, spiking neural network, deep learning, Deep learning]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []

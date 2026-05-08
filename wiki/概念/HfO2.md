@@ -2,7 +2,7 @@
 title: HfO2
 type: concept
 tags: [概念, 基础]
-aliases: [hafnium oxide, 氧化铪, HfO₂, hafnium dioxide, HZO, Hf0.5Zr0.5O2]
+aliases: [hafnium oxide, 氧化铪, HfO₂, HfO2, hafnium dioxide, HZO, Hf0.5Zr0.5O2, Hf0.5Zr0.5O₂, hafnia]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []

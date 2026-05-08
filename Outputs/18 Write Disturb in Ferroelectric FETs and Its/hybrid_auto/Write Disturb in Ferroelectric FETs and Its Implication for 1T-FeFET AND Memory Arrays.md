@@ -20,6 +20,9 @@ abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储�
 cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays[J]. IEEE Electron Device Letters, 2018, 39(11): 1656-1659. DOI: 10.1109/LED.2018.2872347."
 aiSum: "研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。"
 confidence: high
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
 ---
 
 # Write Disturb in [[ferroelectric]] FETs and Its Implication for 1T-[[FeFET]] AND Memory Arrays

@@ -2,7 +2,7 @@
 title: In-memory computing
 type: concept
 tags: [概念, 基础]
-aliases: [IMC, 存内计算, compute-in-memory, CIM, processing-in-memory, PIM, in-memory processing]
+aliases: [IMC, 存内计算, compute-in-memory, Compute-in-memory, CIM, processing-in-memory, PIM, in-memory processing, In‑memory computing, near-memory computing, 近存计算, 存算一体]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []

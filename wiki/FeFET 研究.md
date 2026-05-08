@@ -9,7 +9,7 @@ sources: []
 confidence: high
 ---
 
-> FeFET 是知识库核心研究领域，涵盖 92 篇论文。以 HfO₂ 基铁电栅介质为主流方向，研究重点从基础器件物理扩展到存内计算、神经形态计算和 3D 集成。
+> FeFET 是知识库核心研究领域，涵盖 68 篇论文。以 HfO₂ 基铁电栅介质为主流方向，研究重点从基础器件物理扩展到存内计算、神经形态计算和 3D 集成。
 
 ## 研究子方向
 
@@ -24,21 +24,23 @@ confidence: high
 
 | 论文 | 年份 | 期刊 | 核心贡献 |
 |------|------|------|----------|
-| Highly-scaled and fully-integrated 3D ferroelectric transistor... | 2023 | Nature Communications | 3D FeFET 全集成 |
-| Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V... | - | IEEE T-ED | 0.9V 超低写入电压，10¹² 耐久性 |
-| Back-End-of-Line Compatible 2T1C Memory Cell... | 2025 | IEEE T-ED | 首次 IGZO TFT + HZO FeCap 2T1C 全集成 |
-| First demonstration of in-memory computing crossbar using multi-level FeFET... | 2021 | Nature Communications | 首个 FeFET crossbar IMC 演示 |
-| Ferroelectric Transistors for Memory and Neuromorphic Device Applications | 2023 | Advanced Materials | FeFET 综述 |
-<!-- ingest 时自动追加 -->
+| [[Monolithic 3D Integration of High Endurance Multi-bit Ferroelectric FET\|3D 高耐久多值 FeFET]] | 2023 | IEEE VLSI | 单片 3D FeFET 全集成 |
+| [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|0.9V 写入 In₂O₃ FeFET]] | 2025 | IEEE T-ED | 0.9V 超低写入电压，10¹² 耐久性 |
+| [[Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and Hf0.5Zr0.5O2-Based Ferroelectric Capacitors\|BEOL 兼容 2T1C IGZO FeFET]] | 2025 | IEEE T-ED | 首次 IGZO TFT + HZO FeCap 全集成 |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|首个 FeFET IMC Crossbar]] | 2021 | Nature Comms | 首次 FeFET crossbar IMC 演示 |
+| [[Ferroelectric Transistors for Memory and Neuromorphic Device Applications\|FeFET 综述]] | 2023 | Adv. Materials | 铁电晶体管综述 |
+| [[Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for High-Density and Low-Power Memory Application\|IGZO FeFET 高密度存储]] | 2023 | IEEE EDL | 超薄 IGZO 沟道 FeFET |
+| [[Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based Memory Cells\|FeFET 写方案对比]] | 2022 | IEEE Access | FeFET 存储单元节能写方案 |
+| [[Nonvolatile Memory Design Based on Ferroelectric FETs\|FeFET 非易失存储设计]] | 2020 | ACM/IEEE DAC | FeFET 非易失存储设计方法 |
 
 ## 关键指标进展
 
 | 指标 | 最佳值 | 对应论文 | 说明 |
 |------|------|------|------|
-| 写入电压 | 0.9 V | In₂O₃ FeFET | BEOL 兼容 |
-| 耐久性 | >10¹² cycles | IGZO FeFET | 刷新 free |
+| 写入电压 | 0.9 V | [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|In₂O₃ FeFET]] | BEOL 兼容 |
+| 耐久性 | >10¹² cycles | [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|In₂O₃ FeFET]] | 刷新 free |
 | 存储窗口 | >3 V | - | 多值存储基础 |
-| 保持时间 | >10⁵ s | 2T1C | 85°C |
+| 保持时间 | >10⁵ s | [[Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and Hf0.5Zr0.5O2-Based Ferroelectric Capacitors\|2T1C IGZO FeFET]] | 85°C |
 
 ## 研究趋势
 

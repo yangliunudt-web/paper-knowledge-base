@@ -37,6 +37,9 @@ updated: 2026-05-08
 - [[Neural network]]
 - [[Read delay]]
 - [[domain wall motion]]
+- [[Continual learning]]
+- [[Catastrophic forgetting]]
+- [[Edge computing]]
 
 ## 论文分组索引
 
@@ -48,5 +51,6 @@ updated: 2026-05-08
 
 ## 最近更新
 
+- 2026-05-08: Bidirectional linking — wiki_concepts 字段、概念页 aliases 对齐、领域页 wikilinks
 - 2026-05-08: Batch 2 — Lint 脚本、领域编译页（4）、置信度批量脚本、分组索引填充
 - 2026-05-08: Batch 1 — Wiki 知识层初始化，18 个概念页
