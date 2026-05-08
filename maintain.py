@@ -198,50 +198,8 @@ def check_keywords():
         for t, k in title_kw_examples[:3]:
             print(f"    {k}... in {t}...")
 
-    # Auto-fix in --fix mode
-    if FIX_MODE and (result["generic"] > 0 or result["title_as_keyword"] > 0):
-        print("  → Auto-fixing keywords...")
-        fixed = fix_keywords(GENERIC_TERMS)
-        result["fixed_papers"] = fixed
-
+    # Auto-fix in --fix mode: only report, don't auto-delete (too risky for YAML integrity)
     return result
-
-
-def fix_keywords(generic_terms):
-    """Remove generic keywords and title-length keywords from papers."""
-    fixed = 0
-    for paper in OUTPUTS_DIR.rglob("*.md"):
-        if paper.parent.name != "hybrid_auto":
-            continue
-        try:
-            content = paper.read_text(encoding="utf-8")
-            m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-            if not m:
-                continue
-            fm = m.group(1)
-            kw_match = re.search(r'keywords:\s*\n((?:\s*-.*\n)*)', fm)
-            if not kw_match:
-                continue
-            kw_block = kw_match.group(1)
-            kws = re.findall(r'\[\[(.*?)\]\]', kw_block)
-            changed = False
-
-            for kw in kws:
-                kw_clean = kw.strip()
-                # Remove if generic or title-length
-                if kw_clean in generic_terms or len(kw_clean) > 60:
-                    # Remove this keyword line
-                    old_line = f'- "[[{kw}]]"'
-                    content = content.replace(old_line + "\n", "")
-                    content = content.replace(old_line, "")
-                    changed = True
-
-            if changed:
-                paper.write_text(content, encoding="utf-8")
-                fixed += 1
-        except:
-            pass
-    return fixed
 
 
 # ════════════════════════════════════════════
