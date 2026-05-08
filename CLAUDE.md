@@ -130,14 +130,28 @@ The `.agents/` directory contains configuration for these specialized agents. Ca
 
 ```bash
 # Step 1: Run Automator workflow
-automator -i "PDF文件路径" ~/Library/Services/PDFtoObsidian.workflow
+automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
 
-# Step 2: Rename .md file to paper title (keep folder name as original ID)
+# Step 2: Rename .md file to paper title
 # Step 3: Apply frontmatter following the standard above
 # Step 4: Run quality check
 ```
 
 Use the `literature-importer` agent to handle steps 2-4 automatically.
+
+**Steps 5-10 (Wiki 同步)**: importer 完成 frontmatter 后必须继续执行：
+```bash
+# These are defined in .agents/literature-importer-config.md
+# Step 5:  概念提取与更新 → 匹配/创建 wiki/概念/ 页面，填充 wiki_concepts
+# Step 6:  分组索引更新 → 归入 wiki/论文分组索引.md
+# Step 6.5: 领域编译页更新 → 匹配 domain_keywords，更新关键论文表格
+# Step 7:  交叉引用 → 双向 [[wikilinks]]，检查矛盾声明
+# Step 8:  更新 Wiki 目录
+# Step 9:  追加操作日志
+# Step 10: 验证 → 所有 keywords 都有对应概念页
+```
+
+**重要**: 如果只完成 Steps 1-4 而没有完成 Steps 5-10，wiki 知识层将不会更新，导致概念页表格缺失新论文、分组索引不同步、双向链接断裂。每次导入论文后必须完整执行 10 步。
 
 ## Feishu/Lark Wiki Import
 
