@@ -30,19 +30,18 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Unsupervised Domain Adaptation by Backpropagation|Unsupervised Domain Adaptation by Backpropaga...]] | 2015 | 提出 DANN 域对抗神经网络，通过梯度反转层实现域不变特征学习，在 MNIST→SVHN 等域适应任务上取得优异性能，开创深度域适应领域。 |
-| [[Domain-Adversarial Training of Neural Networks|Domain-Adversarial Training of Neural Networks]] | 2016 | 领域对抗神经网络训练（DANN）：通过梯度反转层实现领域不变特征学习，处理同质/异质领域自适应，在标准基准上优于SOTA方法。 |
-| [[Nonvolatile Memory Design Based on Ferroelectric FETs|Nonvolatile Memory Design Based on Ferroelect...]] | 2016 | 2T FeFET非易失存储器：利用三端结构实现分离读/写路径，非破坏性读取，相比FeRAM写入电压降低58.5%、能量降低67.7%，区分度10^6倍，能... |
-| [[Context-modulation of hippocampal dynamics and deep convolutional networks|Context-modulation of hippocampal dynamics an...]] | 2017 | 受海马体 CA3 双通路（EC 直接投射和 EC→DG→CA3 间接投射）启发，提出上下文调制深度神经网络，通过上下文敏感偏置在 CIFAR-100 和 ... |
-| [[Adaptive Batch Normalization for Practical Domain Adaptation|Adaptive Batch Normalization for Practical Do...]] | 2018 | AdaBN 域适应：调整 BN 统计量实现深度适应、无参数、无额外组件、可与现有方法互补。 |
-| [[Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training|Ferroelectric FET Analog Synapse for Accelera...]] | 2018 | FeFET模拟突触：基于部分极化切换，实现5位对称增强/抑制特性，75ns更新脉冲，45倍电导可调范围，相比多态RRAM突触在线学习延迟加速10^3‑10... |
-| [[Overcoming Catastrophic Forgetting with Hard Attention to the Task|Overcoming Catastrophic Forgetting with Hard ...]] | 2018 | 硬注意力任务机制：通过任务特定掩码保留旧任务信息，将灾难性遗忘率降低45‑80%，具备超参数鲁棒性和监控能力。 |
-| [[Once for All Train One Network and Specialize it for Efficient Deployment|Once for All Train One Network and Specialize...]] | 2019 | OFA 通用网络：渐进收缩算法、支持 10^19 子网络、训练成本从 O(N) 降至 O(1)、比 NAS 快 14-1142 倍、多硬件平台部署。 |
-| [[Accurate deep neural network inference using computational phase-change memory|Accurate deep neural network inference using ...]] | 2020 | 本文提出训练ResNet型CNN映射到PCM器件的方法，利用批归一化补偿技术保持精度。在CIFAR-10上实现93.7%（软件）/93.5%（硬件）准确率... |
-| [[In-Memory Learning With Analog Resistive Switching Memory A Review and Perspective|In-Memory Learning With Analog Resistive Swit...]] | 2021 | 模拟电阻开关存储器存内学习综述：定义两层性能指标，分析器件特性、硬件算法、阵列映射、架构电路设计，评估现有器件性能，讨论从器件到系统的挑战与前景。 |
-| [[2022 roadmap on neuromorphic computing and engineering|2022 roadmap on neuromorphic computing and en...]] | 2022 | 神经形态计算路线图综述：涵盖神经形态器件、电路架构、算法应用现状与挑战，展望类脑计算未来发展方向。 |
-| [[Forget-free Continual Learning with Winning Subnetworks|Forget-free Continual Learning with Winning S...]] | 2022 | 获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。 |
-
+| [[Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training\|Ferroelectric FET Analog Synapse for Acc...]] | 2018 | FeFET模拟突触：基于部分极化切换，实现5位对称增强/抑制特性，75ns更新脉冲，45倍电导可调范围，相比多态RRAM突触在线学习延迟加速10^3‑10^6倍。 |
+| [[Accurate deep neural network inference using computational phase-change memory\|Accurate deep neural network inference u...]] | 2020 | Nature Communications |
+| [[Neuromorphic computing hardware and neural architectures for robotics\|Neuromorphic computing hardware and neur...]] | 2022 | 综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。 |
+| [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。 |
+| [[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks\|Highly-scaled and fully-integrated 3-dim...]] | 2023 | 提出基于 HfZrOx 铁电晶体管的三维 NAND 阵列 (3D FeNAND) 用于神经网络硬件实现，通过沟槽结构实现高密度集成，演示了向量矩阵乘法和模式分类，手写数字识别准确率 |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次利用多级 FeFET 实现存内计算交叉阵列宏，1FeFET-1R 单元支持多位 MAC 操作，手写识别 96.6% 准确率，能效 885.4 TOPS/W。 |
+| [[Delocalized photonic deep learning on the internet's edge\|Delocalized photonic deep learning on th...]] | 2023 | 提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。 |
+| [[An index-free sparse neural network using two-dimensional semiconductor ferroelectric field-effect transistors\|An index-free sparse neural network usin...]] | 2024 | 2D FeFET存内稀疏性：稀疏信息嵌入存储单元，超高密度27M/mm²，超低能耗，替代索引稀疏方案。 |
+| [[Stochastic Neuro-Fuzzy System Implemented in Memristor Crossbar Arrays\|Stochastic Neuro-Fuzzy System Implemente...]] | 2024 | 忆阻器神经模糊系统：TiN/TaOx/HfOx/TiN，64×128 阵列，变异性增强鲁棒性，6.6x 收敛加速，2.61 TOPS/W 能效。 |
+| [[A hardware-adaptive learning algorithm for superlinear-capacity associative memory on memristor crossbars\|A hardware-adaptive learning algorithm f...]] | 2025 | 采用存算一体化架构，利用阻变存储器实现近数据计算。解决了传统冯氏架构中数据搬移的瓶颈问题，实现了高能效的神经网络推理。 |
+| [[Memristor Spiking Neural Network for Shortest Path-Based Graph Learning\|Memristor Spiking Neural Network for Sho...]] | 2025 | 忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。 |
+| [[Real-Time Signal Processing with Memristor-Based Fused Network\|Real-Time Signal Processing with Memrist...]] | 2025 | 忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。 |
 ## 相关概念
 
 - [[Neuromorphic computing]]
