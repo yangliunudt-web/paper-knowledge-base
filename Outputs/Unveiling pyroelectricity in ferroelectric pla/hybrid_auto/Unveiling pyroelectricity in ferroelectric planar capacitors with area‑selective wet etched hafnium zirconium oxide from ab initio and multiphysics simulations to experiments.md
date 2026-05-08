@@ -1,14 +1,20 @@
 ---
-title: "'Unveiling pyroelectricity in ferroelectric planar capacitors with area‑selective"
-date: "'2024-08-28'"
+title: "Unveiling pyroelectricity in ferroelectric planar capacitors with area‑selective"
+date: "2024-08-28"
 year: 2024
-journal: "'Journal of Physics: Energy'"
+journal: "Journal of Physics: Energy"
 doi: "10.1088/2515-7655/ad..."
 abstract: "In this work, a systematic approach aimed at investigating and validating"
 abstract_cn: "本文提出一种系统性的方法，旨在研究和验证实现热电收集的新途径。通过在基于高阻硅的平面叉指电容器中嵌入厚度小于 7 nm 的铁电锆掺杂氧化铪纳米薄膜，利用温度梯度产生直流信号，这是一种新颖、简单、有效且可重复的解决方案。首先通过高级从头计算模拟"
-cite: "'[1] Aldrigo M, et al. Unveiling pyroelectricity in ferroelectric planar capacitors"
+keywords:
+  - "[[hafnium zirconium oxide ferroelectrics]]"
+  - "[[planar capacitors]]"
+  - "[[area-selective wet etching]]"
+  - "[[ab initio and multiphysics simulations]]"
+  - "[[pyroelectric harvesting]]"
+cite: "[1] Aldrigo M, et al. Unveiling pyroelectricity in ferroelectric planar capacitors"
 aiSum: "区域选择性湿法刻蚀 HZO 平面电容器实现热电收集：通过从头计算和多物理场模拟预测最大开路电压 900 mV，实验验证输出电流随温度梯度增大而显著提升。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Unveiling pyroelectricity in ferroelectric planar capacitors with area-selective wet etched hafnium zirconium oxide: from ab initio and multiphysics simulations to experiments

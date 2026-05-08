@@ -1,14 +1,17 @@
 ---
 title: "Adaptive Batch Normalization for Practical Domain Adaptation"
-date: "'2018-03-06'"
+authors:
+  - "Li Pattern"
+  - "Recognition"
+date: "2018-03-06"
 year: 2018
 journal: "Pattern Recognition Letters"
 doi: "10.1016/j.patrec.2018.04.001"
 abstract: "Deep neural networks (DNN) have shown unprecedented success in various computer"
 abstract_cn: "深度神经网络（DNN）在图像分类和目标检测等计算机视觉应用中取得了前所未有的成功。然而在训练阶段，仍需准备至少数千张标注图像来微调网络以适应特定领域。本文提出一种简单而强大的方法——自适应批归一化（AdaBN），以提高"
-cite: "'Li Y, Wang N, Shi J, et al. Adaptive Batch Normalization for practical domain"
+cite: "Li Y, Wang N, Shi J, et al. Adaptive Batch Normalization for practical domain"
 aiSum: "AdaBN 域适应：调整 BN 统计量实现深度适应、无参数、无额外组件、可与现有方法互补。"
-confidence: medium
+confidence: "medium"
 ---
 
 110 

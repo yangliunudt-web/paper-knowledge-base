@@ -1,13 +1,23 @@
 ---
 title: "Forget-free Continual Learning with Winning Subnetworks"
-date: "'2022-01-01'"
+authors:
+  - "Haeyong Kang"
+  - "Rusty John"
+  - "Lloyd Mina"
+  - "Sultan Rizky"
+  - "Hikmawan Madjid"
+  - "Jaehong Yoon"
+  - "Mark Sung"
+  - "Ju Hwang"
+  - "Chang Yoo"
+date: "2022-01-01"
 year: 2022
 journal: "Proceedings of Machine Learning Research"
 abstract: "Inspired by Lottery Ticket Hypothesis that competitive subnetworks exist"
 abstract_cn: "受彩票假设启发，即密集网络中存在竞争性子网络，我们提出了一种称为获胜子网络的持续学习方法，该方法顺序学习并为每个任务选择最优子网络。具体而言，WSN联合学习模型权重和与每个任务相关的子网络的任务自适应二进制掩码，同时尝试通过重用先前子网络的权重来选择一小部分待激活的权重（获胜彩票）。所提出的方法本质上免疫于灾难性遗忘，因为每个选择的子网络模型不会侵犯其他子网络。每个获胜彩票生成的二进制掩码被编码为一个N位二进制数字掩码，然后使用霍夫曼编码进行压缩，从而实现网络容量相对于任务数量的亚线性增长。"
-cite: "'[1] Kang H, Mina R J L, Madjid S R H, et al. Forget‑free continual learning"
+cite: "[1] Kang H, Mina R J L, Madjid S R H, et al. Forget‑free continual learning"
 aiSum: "获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Forget-free Continual Learning with Winning Subnetworks

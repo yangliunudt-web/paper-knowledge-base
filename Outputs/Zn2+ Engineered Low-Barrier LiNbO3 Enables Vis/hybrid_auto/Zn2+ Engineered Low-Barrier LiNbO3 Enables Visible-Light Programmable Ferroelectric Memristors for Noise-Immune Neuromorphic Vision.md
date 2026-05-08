@@ -1,6 +1,38 @@
 ---
-"title": "Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric\
-  \ Memristors for Noise-Immune Neuromorphic Vision"
+title: "Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision"
+authors:
+  - "Yifei Pei"
+  - "Yufei Shang"
+  - "Gongjie Liu"
+  - "Shuohua Ma"
+  - "Mengya Guo"
+  - "Chao Liu"
+  - "Yue Hou"
+  - "Fu Wang"
+  - "Jianning Wang"
+  - "Dingxin Liu"
+  - "Jianhui Zhao"
+  - "Jianxin Guo"
+  - "Xiaobing Yan"
+date: "2026-01-13"
+year: 2026
+journal: "Advanced Materials"
+abstract: "Lithium niobate (LiNbO3), owing to its unique ferroelectric polarization and excellent optical properties, has shown great potential in high-performance optoelectronic integrated devices. However, the high polarization switching energy barrier makes it difficult to achieve polarization reversal under low-power visible light, severely limiting its practical applicability. Here, Zn2+ ions were doped into the LiNbO3 lattice to modulate the local lattice structure via valence-state imbalance, effectively suppressing the formation of NbLi4+ antisite defects and reducing electron-trap density. Meanwhile, the narrowed bandgap enhanced carrier excitation efficiency and improved depolarization-field screening, lowering the polarization switching energy barrier by approximately 69% and enabling polarization reversal under low-energy visible light illumination (10 mW cm-2). Accordingly, the fabricated Pt/Zn-LiNbO3/Nb:SrTiO3 optoelectronic bimodal memristor exhibits ultra-stable switching voltage characteristics, with a voltage coefficient of variation as low as 2.2%-3.2%; a high on/off ratio of approximately 10^3; 24 clearly distinguishable resistance states; retention exceeding 10^4 s; and excellent endurance up to 10^8 cycles. Under visible light stimulation, the device emulates multiple representative synaptic functions, including short-term to long-term memory (STP-LTP) transition, paired-pulse facilitation (PPF), and associative learning. Moreover, an optical reservoir computing neural network constructed from the device’s multilevel optical memory and synaptic features achieves a high recognition accuracy of 98.6% on the noise-corrupted MNIST dataset, demonstrating robustness and visual recognition capability comparable to biological systems. This study proposes a new materials design paradigm for constructing low-barrier, high-performance ferroelectric optoelectronic systems with integrated sensing, storage, and computation functionalities."
+abstract_cn: "铌酸锂（LiNbO3）因其独特的铁电极化特性和优异的光学性能，在高性能光电集成器件中展现出巨大潜力。然而，较高的极化翻转能垒使得在低功耗可见光下实现极化反转变得困难，严重制约了其实际应用。本文通过将Zn2+离子掺杂到LiNbO3晶格中，利用价态失衡调控局域晶格结构，有效抑制了NbLi4+反位缺陷的形成并降低了电子陷阱密度。同时，带隙变窄增强了载流子激发效率，改善了去极化场屏蔽效应，将极化翻转能垒降低约69%，实现了低能量可见光（10 mW cm-2）照射下的极化反转。基于此制备的Pt/Zn-LiNbO3/Nb:SrTiO3光电双模忆阻器展现出超稳定的开关电压特性（变异系数低至2.2%-3.2%）、约10^3的高开关比、24个可区分的电阻态、超过10^4 s的保持时间和高达10^8次循环的耐久性。在可见光刺激下，该器件模拟了多种代表性突触功能，包括短时程到长时程记忆（STP-LTP）转换、双脉冲易化（PPF）和联想学习。此外，利用器件的多级光存储和突触特性构建的光学储备池计算神经网络，在噪声干扰的MNIST数据集上实现了98.6%的高识别准确率，展现了与生物系统相当鲁棒性和视觉识别能力。本研究为构建集成传感、存储和计算功能的低能垒高性能铁电光电系统提出了新的材料设计范式。"
+keywords:
+  - "[[ferroelectric polarization]]"
+  - "[[energy barrier]]"
+  - "[[optoelectronic synapse]]"
+  - "[[reservoir computing]]"
+  - "[[Zn2+ ions doped]]"
+cite: "Pei Y, Shang Y, Liu G, et al. Zn2+ engineered low-barrier LiNbO3 enables visible-light programmable ferroelectric memristors for noise-immune neuromorphic vision[J]. Advanced Materials, 2026. (待补充卷期页码和DOI)"
+aiSum: "Zn2+掺杂LiNbO3降低铁电极化翻转能垒69%，实现可见光编程铁电忆阻器，10^8次循环耐久性，光学储备池计算在噪声MNIST上达98.6%识别率。"
+confidence: high
+wiki_concepts:
+  - "[[ferroelectric polarization]]"
+  - "[[Reservoir computing]]"
+  - "[[Memristor]]"
+  - "[[FeFET]]"
 ---
 
 # RESEARCH ARTICLE

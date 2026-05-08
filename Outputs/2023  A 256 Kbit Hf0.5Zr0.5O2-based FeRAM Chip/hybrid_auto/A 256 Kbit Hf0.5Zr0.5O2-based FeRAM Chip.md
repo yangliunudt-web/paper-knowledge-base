@@ -17,7 +17,7 @@ abstract_cn: "展示基于 Hf0.5Zr0.5O2 的 256 Kbit FeRAM 芯片，采用 sub-8
 cite: "[1] Beyer D T M A 256 Kbit Hf0.5Zr0.5O2-based FeRAM Chip[C]. IEEE ISSCC, 2023. DOI:\
   \ 10.1109/ISSCC42615.2023.10067500."
 aiSum: "256 Kbit HZO FeRAM 芯片：sub-8nm 技术，350°C BEOL，0.7 pJ/bit，>10^12 耐久性，O3 预结晶工程。"
-confidence: high
+confidence: "high"
 ---
 
 # A 256 Kbit $\mathrm{Hf}_{0.5}\mathrm{Zr}_{0.5}\mathrm{O}_2$ -based FeRAM Chip with Scaled Film Thickness (sub-8nm), Low Thermal Budget (350°C), 100% Initial Chip Yield, Low Power Consumption (0.7 pJ/bit at 2V write voltage), and Prominent Endurance ( $>10^{12}$ )

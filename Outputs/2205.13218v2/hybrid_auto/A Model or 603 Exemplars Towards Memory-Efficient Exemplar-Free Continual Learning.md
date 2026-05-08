@@ -1,5 +1,10 @@
 ---
 title: "A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-Free Continual"
+authors:
+  - "State Key"
+  - "Laboratory Novel"
+  - "Software Nanjing"
+  - "University"
 date: "2022-05-26"
 year: 2022
 journal: "arXiv"
@@ -9,7 +14,7 @@ abstract_cn: "现实应用要求分类模型能够适应新类别而不遗忘旧
 cite: "待补充. 'A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-Free Continual[J].\\\
   \\"
 aiSum: "无样本持续学习内存优化：单一模型替代样本存储，竞争性能+低内存占用。"
-confidence: low
+confidence: "low"
 ---
 
 Da-Wei Zhou, Qi-Wei Wang, Han-Jia Ye∗, De-Chuan Zhan

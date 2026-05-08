@@ -1,13 +1,13 @@
 ---
 title: "Overcoming Catastrophic Forgetting with Hard Attention to the Task"
-date: "'2018-07-10'"
+date: "2018-07-10"
 year: 2018
 journal: "Proceedings of Machine Learning Research"
 abstract: "Catastrophic forgetting occurs when a neural network loses the information"
 abstract_cn: "灾难性遗忘指的是神经网络在后续任务训练后丢失先前任务学习到的信息。这一问题仍然是具备序列学习能力的人工智能系统的障碍。本文提出了一种基于任务的硬注意力机制，该机制能够保留先前任务的信息而不影响当前任务的学习。通过随机梯度下降，每个任务同时学习一个硬注意力掩码，并利用先前的掩码来约束这种学习。我们证明所提出的机制能有效减少灾难性遗忘，将现有遗忘率降低45%至80%。我们还证明了其对不同超参数选择的鲁棒性，并提供了一系列监控能力。该方法能够控制所学知识的稳定性和紧凑性，我们认为这也使其对在线学习或网络压缩应用具有吸引力。"
-cite: "'[1] Serra J, Suris D, Miron M, et al. Overcoming catastrophic forgetting with"
+cite: "[1] Serra J, Suris D, Miron M, et al. Overcoming catastrophic forgetting with"
 aiSum: "硬注意力任务机制：通过任务特定掩码保留旧任务信息，将灾难性遗忘率降低45‑80%，具备超参数鲁棒性和监控能力。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Overcoming Catastrophic Forgetting with Hard Attention to the Task

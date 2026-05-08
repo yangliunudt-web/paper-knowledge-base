@@ -1,6 +1,18 @@
 ---
-"title": "Sub-Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable\
-  \ Edge AI Computing"
+title: "Sub-Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge\
+  \ AI Computing"
+authors:
+  - "Geonwook Hyunho"
+  - "Sihoon Hyunbin"
+  - "Hyunho Jinhyoung"
+  - "Gunhyoung Dongho"
+  - "Seowoo Taesung"
+keywords:
+  - "[[ferroelectric transistor]]"
+  - "[[hafnium-zirconium oxide]]"
+  - "[[nonvolatile memory]]"
+  - "[[in-memory-computing]]"
+  - "[[neuromorphic computing]]"
 ---
 
 # Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing

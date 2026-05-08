@@ -1,5 +1,5 @@
 ---
-"title": "Electrochemical ohmic memristors"
+title: "Electrochemical ohmic memristors"
 ---
 
 # Electrochemical ohmic memristors for Electrochemical oh

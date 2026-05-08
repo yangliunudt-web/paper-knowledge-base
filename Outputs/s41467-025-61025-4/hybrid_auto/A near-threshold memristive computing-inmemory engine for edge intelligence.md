@@ -1,5 +1,5 @@
 ---
-"title": "A near-threshold memristive computing-inmemory engine for edge intelligence"
+title: "A near-threshold memristive computing-inmemory engine for edge intelligence"
 ---
 
 # A near-threshold memristive computing-inmemory engine for edge intelligence

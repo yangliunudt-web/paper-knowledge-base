@@ -1,14 +1,20 @@
 ---
 title: "Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric"
-date: "'2024-11-19'"
+date: "2024-11-19"
 year: 2024
 journal: "ACS Applied Materials & Interfaces"
 doi: "10.1021/acsami.4c11513"
 abstract: "Ferroelectric memristors, particularly those based on hafnia, are gaining"
 abstract_cn: "铁电忆阻器，特别是基于铪的那些，作为神经形态计算的潜在候选者正受到关注。这些器件由于结构简单、与 CMOS 技术兼容以及低功耗特性，相比钙钛矿基铁电忆阻器具有优势。本研究实现了利用基于"
-cite: "'[1] Ju D, Noh M, Kim G, et al. Reservoir computing system with diverse input"
+keywords:
+  - "[[reservoir computing]]"
+  - "[[artificial synapse]]"
+  - "[[memristor]]"
+  - "[[ferroelectric memories]]"
+  - "[[$H f O _ { 2 }$]]"
+cite: "[1] Ju D, Noh M, Kim G, et al. Reservoir computing system with diverse input"
 aiSum: "实现基于 Al 掺杂 HfO 铁电忆阻器的储备池计算系统，演示可处理多种输入脉冲类型的鲁棒储备池层，模拟生物突触短期可塑性，验证图像训练和巴甫洛夫实验等应用。"
-confidence: high
+confidence: "high"
 ---
 
 www.acsami.org

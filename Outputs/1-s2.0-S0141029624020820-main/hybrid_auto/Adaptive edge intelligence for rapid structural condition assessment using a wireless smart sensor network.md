@@ -1,14 +1,16 @@
 ---
 title: "Adaptive edge intelligence for rapid structural condition assessment using"
-date: "'2020-09-01'"
+date: "2020-09-01"
 year: 2020
 journal: "Structure and Infrastructure Engineering"
 doi: "10.1080/15732479.2020.1815225"
 abstract: "Combining artificial intelligence and edge computing, edge intelligence"
 abstract_cn: "结合人工智能和边缘计算，边缘智能是基于物联网的结构健康监测（SHM）的有前景的计算范式。本文提出自适应边缘智能策略，包含无参考位移估计算法、高斯过程回归和随机过程控制。探索单节点独立计算和多节点协调处理有限机载资源，利用"
-cite: "'[1] Cui S W, Hoang T, Mechitov K, et al. Adaptive edge intelligence for rapid"
+keywords:
+  - "[[Structural health monitoring]]"
+cite: "[1] Cui S W, Hoang T, Mechitov K, et al. Adaptive edge intelligence for rapid"
 aiSum: "提出自适应边缘智能策略用于结构状态评估，集成无参考位移估计、高斯过程回归和随机过程控制，通过单节点独立计算和多节点协调处理有限资源，在铁路桥梁监测中验证有效性。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network

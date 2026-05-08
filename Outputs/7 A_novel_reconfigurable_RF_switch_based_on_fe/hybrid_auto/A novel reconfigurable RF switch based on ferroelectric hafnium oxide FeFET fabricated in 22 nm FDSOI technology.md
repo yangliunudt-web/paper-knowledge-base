@@ -1,5 +1,10 @@
 ---
 title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET"
+authors:
+  - "Sukhrob Dang"
+  - "Khoa Quang"
+  - "Huy Thomas"
+  - "Gerald"
 date: "2023-01-01"
 year: 2023
 journal: "Neuromorphic Computing and Engineering"
@@ -7,7 +12,7 @@ abstract: "— This paper presents a novel type of ferroelectric field effect tr
 abstract_cn: "本文针对铁电器件等领域展开研究，提出了创新的解决方案，通过实验验证了方法的有效性，为相关领域的发展提供了新的思路。"
 cite: "[1] Sukhrob A., Dang K.H., Quang H.L., 等. A novel reconfigurable RF switch"
 aiSum: "一句话总结：本文针对铁电存储器领域，提出了创新的解决方案，实验验证了方法的有效性。"
-confidence: medium
+confidence: "medium"
 ---
 
 Sukhrob Abdulazhanov1 , Dang Khoa Huynh1 , Quang Huy Le1 , Thomas Kämpfe1 , Gerald Gerlach2

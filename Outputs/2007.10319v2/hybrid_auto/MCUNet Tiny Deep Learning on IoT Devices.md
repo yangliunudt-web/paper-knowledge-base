@@ -1,14 +1,18 @@
 ---
-title: "'MCUNet: Tiny Deep Learning on IoT Devices'"
-date: "'2020-10-20'"
+title: "MCUNet: Tiny Deep Learning on IoT Devices"
+authors:
+  - "Ji Yujun"
+  - "John Chuang"
+  - "Song"
+date: "2020-10-20"
 year: 2020
 journal: "NeurIPS"
 doi: "arXiv:2007.10319v2"
-abstract: "'Machine learning on tiny IoT devices based on microcontroller units (MCU)"
+abstract: "Machine learning on tiny IoT devices based on microcontroller units (MCU)"
 abstract_cn: "基于微控制器单元（MCU）的物联网设备上的机器学习具有吸引力但充满挑战：微控制器的存储容量比手机小 2-3 个数量级。我们提出 MCUNet，一个联合设计高效神经架构（TinyNAS）和轻量推理引擎（TinyEngine）的框架，实现在微控制器上进行"
-cite: "'[1] Lin J, Chen W‑M, Lin Y, et al. MCUNet: Tiny deep learning on IoT devices[C]//Advances"
+cite: "[1] Lin J, Chen W‑M, Lin Y, et al. MCUNet: Tiny deep learning on IoT devices[C]//Advances"
 aiSum: "提出 MCUNet 框架，联合设计 TinyNAS 神经架构搜索和 TinyEngine 轻量推理引擎，首次在商用 MCU 上实现 >70% ImageNet"
-confidence: medium
+confidence: "medium"
 ---
 
 # MCUNet: Tiny Deep Learning on IoT Devices

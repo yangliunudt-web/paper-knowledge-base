@@ -1,5 +1,5 @@
 ---
-"title": "Analog reservoir computing via ferroelectric mixed phase boundary transistors"
+title: "Analog reservoir computing via ferroelectric mixed phase boundary transistors"
 ---
 
 # Analog reservoir computing via ferroelectric mixed phase boundary transistors

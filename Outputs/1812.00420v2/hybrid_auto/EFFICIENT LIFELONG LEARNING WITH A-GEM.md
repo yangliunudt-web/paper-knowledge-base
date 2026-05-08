@@ -1,6 +1,9 @@
 ---
 title: "EFFICIENT LIFELONG LEARNING WITH A-GEM"
-date: "'2018-12-01'"
+authors:
+  - "Arslan Marcus"
+  - "Mohamed"
+date: "2018-12-01"
 year: 2018
 journal: "arXiv preprint arXiv:1812.00420"
 doi: "arXiv:1812.00420"
@@ -8,7 +11,7 @@ abstract: "In lifelong learning, the learner is presented with a sequence of tas
 abstract_cn: "研究持续学习（lifelong learning）效率问题，提出 A-GEM（平均梯度情景记忆）方法。首先引入更现实的评估协议（单次观察样本、超参数选择与评估任务分离），其次提出衡量学习速度的新指标"
 cite: "Chaudhry A, Ranzato M, Rohrbach M, et al. Efficient lifelong learning with A-GEM[J]."
 aiSum: "A-GEM（平均梯度情景记忆）：GEM 高效变体、单次训练协议、LCA 学习速度指标、计算内存效率接近 EWC、多基准测试准确率-效率最佳权衡。"
-confidence: low
+confidence: "low"
 ---
 
 # EFFICIENT LIFELONG LEARNING WITH A-GEM

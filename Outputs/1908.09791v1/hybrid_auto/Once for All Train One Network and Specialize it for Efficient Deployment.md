@@ -1,14 +1,17 @@
 ---
-title: "'Once for All: Train One Network and Specialize it for Efficient Deployment'"
-date: "'2019-08-01'"
+title: "Once for All: Train One Network and Specialize it for Efficient Deployment"
+authors:
+  - "Number Deployment"
+  - "Scenarios"
+date: "2019-08-01"
 year: 2019
 journal: "arXiv preprint arXiv:1908.09791"
 doi: "arXiv:1908.09791"
 abstract: "Efficient deployment of deep learning models requires specialized neural"
 abstract_cn: "提出 Once for All（OFA）方法：训练一个通用网络，支持不同深度、宽度、核大小和分辨率，无需重新训练即可派生 specialized"
-cite: "'Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for"
+cite: "Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for"
 aiSum: "OFA 通用网络：渐进收缩算法、支持 10^19 子网络、训练成本从 O(N) 降至 O(1)、比 NAS 快 14-1142 倍、多硬件平台部署。"
-confidence: low
+confidence: "low"
 ---
 
 Number of Deployment Scenarios

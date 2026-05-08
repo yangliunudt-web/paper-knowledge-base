@@ -1,13 +1,20 @@
 ---
 title: "Vision-Based Deep Reinforcement Learning of UAV Autonomous Navigation Using"
+authors:
+  - "Deep Reinforcement"
+  - "Learning Autonomous"
+  - "Navigation Using"
+  - "Privileged"
 date: "2024-06-15"
 year: 2024
 journal: "Unknown Journal"
-abstract: "'The capability of UAVs for efficient autonomous navigation and obstacle"
-abstract_cn: "'研究提出了DPRL（分布式特权强化学习）导航算法，这是一种端到端策略，用于解决部分可观测环境下的高速无人机自主导航挑战。该方法结合深度强化学习与特权学习，利用非对称Actor-Critic架构在训练期间提供特权信息，增强模型的感知能力。同时提出多智能体探索策略加速经验收集。实验表明，该算法在飞行效率、鲁棒性和成功率方面优于现有方法。"
-cite: "'[1] Wang J., et al. Vision-Based Deep Reinforcement Learning of UAV Autonomous"
-aiSum: "'采用深度强化学习+特权学习的方法，解决无人机在复杂环境下的自主导航问题。提出了非对称Actor-Critic架构和多智能体探索策略。实验在多种仿真场景中验证，算法在成功率、效率和鲁棒性方面优于TD3和EGO-Planner-v2。"
-confidence: medium
+abstract: "The capability of UAVs for efficient autonomous navigation and obstacle"
+abstract_cn: "研究提出了DPRL（分布式特权强化学习）导航算法，这是一种端到端策略，用于解决部分可观测环境下的高速无人机自主导航挑战。该方法结合深度强化学习与特权学习，利用非对称Actor-Critic架构在训练期间提供特权信息，增强模型的感知能力。同时提出多智能体探索策略加速经验收集。实验表明，该算法在飞行效率、鲁棒性和成功率方面优于现有方法。"
+keywords:
+  - "[[- [[Reinforcement learning]]]]"
+cite: "[1] Wang J., et al. Vision-Based Deep Reinforcement Learning of UAV Autonomous"
+aiSum: "采用深度强化学习+特权学习的方法，解决无人机在复杂环境下的自主导航问题。提出了非对称Actor-Critic架构和多智能体探索策略。实验在多种仿真场景中验证，算法在成功率、效率和鲁棒性方面优于TD3和EGO-Planner-v2。"
+confidence: "medium"
 ---
 
 title: "Vision-Based Deep Reinforcement Learning of UAV Autonomous Navigation Using Privileged Information"

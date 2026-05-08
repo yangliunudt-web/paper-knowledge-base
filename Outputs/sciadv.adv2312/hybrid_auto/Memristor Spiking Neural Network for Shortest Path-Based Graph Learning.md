@@ -35,7 +35,7 @@ abstract_cn: "大规模图上最短路径的并行高效搜索具有挑战性。
 cite: "Peng Z, Zhao X, Xu J, et al. Memristor spiking neural network for shortest path-based\
   \ graph learning[J]. Science Advances, 2025, 11(1): eadv2312. DOI: 10.1126/sciadv.adv2312."
 aiSum: "忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。"
-confidence: high
+confidence: "high"
 ---
 
 # A P P L I E D S C I E N C E S A N D E N G I N E E R I N G

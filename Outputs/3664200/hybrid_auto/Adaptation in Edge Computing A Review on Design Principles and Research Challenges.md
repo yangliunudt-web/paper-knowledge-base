@@ -1,14 +1,14 @@
 ---
-title: "'Adaptation in Edge Computing: A Review on Design Principles and Research Challenges'"
-date: "'2024-09-30'"
+title: "Adaptation in Edge Computing: A Review on Design Principles and Research Challenges"
+date: "2024-09-30"
 year: 2024
 journal: "ACM Computing Surveys"
 doi: "10.1145/3664200"
-abstract: "'Reviews adaptation mechanisms in edge computing, presenting a comprehensive"
+abstract: "Reviews adaptation mechanisms in edge computing, presenting a comprehensive"
 abstract_cn: "综述边缘计算中的自适应机制，提出设计原则、使能技术和应用场景的综合分类法。解决资源受限边缘环境的挑战，包括有限计算能力、存储和能源供应。讨论软硬件协同设计方法、动态资源管理策略和边缘机器学习部署。分析三个维度的自适应技术：基础设施自适应、应用自适应和数据自适应。识别开放研究挑战，包括自适应边缘计算系统中的安全性、隐私和可持续性。"
-cite: "'[1] Golpayegani F, Chen N X, Afraz N, et al. Adaptation in edge computing:"
+cite: "[1] Golpayegani F, Chen N X, Afraz N, et al. Adaptation in edge computing:"
 aiSum: "边缘计算自适应综述：基础设施/应用/数据三维度自适应，软硬件协同设计，资源管理策略，47 次引用。"
-confidence: medium
+confidence: "medium"
 ---
 
 SURVEY

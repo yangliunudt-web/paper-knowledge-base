@@ -1,14 +1,17 @@
 ---
-title: "'Resolving New Memories: A Critical Look at the Dentate Gyrus, Adult Neurogenesis,"
-date: "'2011-06-16'"
+title: "Resolving New Memories: A Critical Look at the Dentate Gyrus, Adult Neurogenesis,"
+authors:
+  - "James Wei"
+  - "Fred"
+date: "2011-06-16"
 year: 2011
 journal: "Neuron"
 doi: "10.1016/j.neuron.2011.05.010"
 abstract: "Recently, investigation of new neurons in memory formation has focused on"
 abstract_cn: "本文提出记忆分辨率假说，探讨成年神经发生中海马齿状回新生神经元在模式分离中的独特作用。通过整合计算模型、电生理和行为研究视角，区分年轻神经元的广泛调谐特性和成熟神经元的高度特异性，解释记忆保真度与空间/情境辨别能力的关系，为理解神经发生与海马功能提供统一框架。"
-cite: "'[1] Aimone J B, Deng W, Gage F H. Resolving New Memories: A Critical Look at"
+cite: "[1] Aimone J B, Deng W, Gage F H. Resolving New Memories: A Critical Look at"
 aiSum: "观点文章，提出记忆分辨率假说整合计算、电生理和行为视角，解释成年神经发生中海马齿状回新生神经元在模式分离中的功能，区分年轻神经元的广泛调谐与成熟神经元的高度特异性。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Resolving NewMemories:A Critical Look at the Dentate Gyrus, Adult Neurogenesis, and Pattern Separation

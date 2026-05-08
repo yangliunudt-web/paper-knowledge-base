@@ -1,6 +1,6 @@
 ---
-"title": "An index-free sparse neural network using two-dimensional semiconductor\
-  \ ferroelectric field-effect transistors"
+title: "An index-free sparse neural network using two-dimensional semiconductor ferroelectric\
+  \ field-effect transistors"
 ---
 
 # An index-free sparse neural network using two-dimensional semiconductor ferroelectric field-effect transistors

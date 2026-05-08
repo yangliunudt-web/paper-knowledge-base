@@ -6,9 +6,15 @@ journal: "Advanced Materials"
 doi: "10.1002/adma.2026xxxxx"
 abstract: "Learning under uncertainty has become increasingly critical in data‑intensive"
 abstract_cn: "在数据密集型人工智能应用中，不确定性下的学习变得日益关键，需要能够统一确定性和概率性功能的计算系统。结合稳定存储和可调随机性的硬件对此类系统至关重要，但由于精确存储保持与可控随机变异之间的内在冲突，在微型架构中实现这种集成仍然极具挑战性。本文展示了一种基于铪基的铁电‑离子双重性，可在单一器件中集成随机编码和突触记忆。通过精心设计铁电界面以重新利用氧空位（传统上被视为降低铪基铁电可靠性的缺陷），我们将这些空位用作动态调制器件行为的功能性离子组分。由此产生的铁电‑离子双模切换引入了电压可调随机性，并在单一器件架构中增强了突触行为。重要的是，这种铁电‑离子双重性表现出完全的互补金属氧化物半导体兼容性和向超大规模集成的可扩展性，这得益于基于晶圆级原子层沉积的铪生长。这些结果确立了一种新的器件范式，将存储、随机性和学习能力统一在单一铁电平台中。"
-cite: "'[1] Han C, Koo R‑H, Song M, et al. A monolithic ferroelectric‑ionic duality"
+keywords:
+  - "[[hafnia ferroelectrics]]"
+  - "[[oxygen vacancy]]"
+  - "[[neuromorphic computing]]"
+  - "[[stochastic computing]]"
+  - "[[low-frequency noise]]"
+cite: "[1] Han C, Koo R‑H, Song M, et al. A monolithic ferroelectric‑ionic duality"
 aiSum: "提出铪基铁电‑离子双重性器件，利用氧空位作为功能性离子组分实现电压可调随机性和突触行为增强，在单一器件中集成随机编码与突触记忆，具备 CMOS 兼容性和"
-confidence: high
+confidence: "high"
 ---
 
 # RESEARCH ARTICLE

@@ -1,13 +1,20 @@
 ---
 title: "Helpful or Harmful: Inter-Task Association in Continual Learning"
+authors:
+  - "Hyundong Jin"
+  - "Eunwoo Kim"
 date: "2022-01-01"
 year: 2022
 journal: "Neural Networks"
 abstract: "When optimizing sequentially incoming tasks, deep neural networks generally"
 abstract_cn: "在优化顺序到达的任务时，深度神经网络通常由于缺乏保持旧任务知识的能力而遭受灾难性遗忘。这可能导致先前学习的任务性能显著下降。为了缓解这个问题，持续学习的研究已经作为对策展开。然而，由于网络规模的扩大或与先前任务有利关联的知识变化，它会遭受计算成本的增加。在这项工作中，我们提出了一种新颖的方法，通过模型搜索来区分旧任务的有益和有害信息，以有效学习当前任务。给定新任务，所提出的方法从旧任务中发现潜在的关联知识，这可以为获取新任务知识提供额外支持。此外，通过引入对来自关联任务的当前任务损失的敏感性度量，我们在减轻有害干扰的同时发现任务之间的协作关系。我们将所提出的方法应用于持续学习中的任务增量和类增量场景，使用从小规模到大规模的各种数据集。实验结果表明，所提出的方法在实验中优于多种持续学习方法，同时有效缓解了灾难性遗忘。"
+keywords:
+  - "[[Continual learning]]"
+  - "[[task association]]"
+  - "[[model search]]"
 cite: "[1] Jin H, Kim E. Helpful or harmful: inter‑task association in continual learning[J]."
 aiSum: "持续学习中的任务关联分析：通过模型搜索区分有益/有害旧任务知识，结合敏感性度量发现任务间协作关系，在任务/类增量场景中优于多种基线，缓解灾难性遗忘。"
-confidence: medium
+confidence: "medium"
 ---
 
 Hyundong Jin and Eunwoo Kim

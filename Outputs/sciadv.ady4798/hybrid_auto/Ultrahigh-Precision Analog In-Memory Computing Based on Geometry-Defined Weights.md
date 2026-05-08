@@ -1,14 +1,18 @@
 ---
 title: "Ultrahigh-Precision Analog In-Memory Computing Based on Geometry-Defined Weights"
-date: "'2025-01-01'"
+authors:
+  - "Analog The"
+  - "We Enhanced"
+  - "This"
+date: "2025-01-01"
 year: 2025
 journal: "Science Advances"
 doi: "10.1126/sciadv.ady4798"
 abstract: "Analog computing has gained increasing attention for its potential in artificial"
 abstract_cn: "模拟计算因其在人工智能硬件中的潜力而受到越来越多的关注。传统模拟系统中的计算依赖于固有物理量（如电阻），这些量容易因环境变化或重复编程而产生波动，导致精度受损。本文将存储器件对固有物理量的依赖转移到晶体管的几何比例，实现超高精度模拟计算。展示了一种基于标准"
-cite: "'Zhezhi He, Jing Guo, Zihan Wang, et al. Ultrahigh-Precision Analog In-Memory"
+cite: "Zhezhi He, Jing Guo, Zihan Wang, et al. Ultrahigh-Precision Analog In-Memory"
 aiSum: "模拟存内计算芯片：几何比例权重、CMOS 工艺、0.101% RMSE、-78.5°C~180°C 温度稳定。"
-confidence: high
+confidence: "high"
 ---
 
 Analog computing has gained increasing attention for its potential in artificial intelligence hardware. The computation in traditional analog systems relies on use of intrinsic physical quantities (e.g., resistance), which are prone to fluctuations due to environmental changes or repeated programming, leading to compromised precision. Here, we shift the reliance on intrinsic physical quantity of memory devices to geometric ratio of transistors, enabling ultrahigh-precision analog computation. We demonstrate an analog in-memory computing chip based on a standard complementary metal-oxide semiconductor process, achieving the highest precision reported to date. Enhanced by the proposed weight remapping technique, the chip realizes ultrahigh computing accuracy with a root mean square error of only 0.101% across multiple parallel vector-by-matrix multiplication operations. Moreover, our analog in-memory computing chip maintains high precision, with an error of 0.155 and 0.130% under environmental temperatures of −78.5° and 180°C, respectively. This work pushes the boundaries of analog computing precision by leveraging stable geometry feature of devices.

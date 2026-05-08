@@ -1,5 +1,5 @@
 ---
-"title": "In-memory ferroelectric differentiator"
+title: "In-memory ferroelectric differentiator"
 ---
 
 # In-memory ferroelectric differentiator

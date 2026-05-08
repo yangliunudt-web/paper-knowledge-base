@@ -1,13 +1,16 @@
 ---
 title: "Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance"
-date: "'2023-01-01'"
+authors:
+  - "Bong Ho"
+  - "Junpyo"
+date: "2023-01-01"
 year: 2023
 journal: "IEEE International Electron Devices Meeting (IEDM)"
 abstract: "Recently the demand for higher drain current and scalable gate stack thickness"
 abstract_cn: "最近，由于单元物理极限和超过1000层的堆叠层数，下一代3D NAND闪存对更高漏极电流和可扩展栅极堆叠厚度的需求日益增长。虽然N沟道铁电场效应晶体管已被研究以克服这一限制，但由于编程和读取过程中寄生电子俘获带来的关键可靠性问题，会降低保持性能、耐久性并引起干扰和单元失效。我们展示了2位多级单元p沟道铁电场效应晶体管用于（嵌入式）NAND闪存应用的可行性。p沟道铁电场效应晶体管本质上比n沟道铁电场效应晶体管具有更高的导通电流。这是由于空穴俘获的缺失，导致沟道处铁电电荷增强。其他特性（保持性能、干扰等）也表明，当针对NAND闪存时，p沟道铁电场效应晶体管具有显著改善的电学特性，而不是n沟道铁电场效应晶体管。最后，我们提出了p沟道铁电NAND器件的工程策略。"
-cite: "'[1] Kuk S H, Han J H, Kim B H, et al. Proposal of p‑channel FE NAND with high"
+cite: "[1] Kuk S H, Han J H, Kim B H, et al. Proposal of p‑channel FE NAND with high"
 aiSum: "p沟道FeFET NAND提案：利用无空穴俘获特性实现高漏极电流和铁电电荷增强，相比n‑FeFET具有更高导通电流、更佳保持与干扰特性，适用于下一代3D"
-confidence: high
+confidence: "high"
 ---
 
 # Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance for Next Generation 3D NAND

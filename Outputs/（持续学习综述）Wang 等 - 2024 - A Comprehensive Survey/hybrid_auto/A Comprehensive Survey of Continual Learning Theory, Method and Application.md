@@ -1,5 +1,8 @@
 ---
-"title": "A Comprehensive Survey of Continual Learning Theory, Method and Application"
+title: "A Comprehensive Survey of Continual Learning Theory, Method and Application"
+authors:
+  - "Liyuan Xingxing"
+  - "Hang Jun"
 ---
 
 # A Comprehensive Survey of Continual Learning: Theory, Method and Application

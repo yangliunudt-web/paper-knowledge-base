@@ -1,6 +1,5 @@
 ---
-"title": "First demonstration of in-memory computing crossbar using multi-level Cell\
-  \ FeFET"
+title: "First demonstration of in-memory computing crossbar using multi-level Cell FeFET"
 ---
 
 # First demonstration of in-memory computing crossbar using multi-level Cell FeFET

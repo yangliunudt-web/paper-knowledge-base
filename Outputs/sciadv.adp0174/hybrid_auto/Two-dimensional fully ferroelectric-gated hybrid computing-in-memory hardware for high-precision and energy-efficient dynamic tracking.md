@@ -25,7 +25,7 @@ abstract: "Computing in memory (CIM) breaks the conventional von Neumann bottlen
 abstract_cn: "存内计算（CIM）通过原位处理打破传统冯·诺依曼瓶颈。数字和模拟 CIM 硬件的单片集成可同时确保高精度和高能效，为日益复杂的人工智能应用提供可持续范式，但仍具挑战性。本文提出一种兼容\\"
 cite: "Lu T, Xue J, Shen P, et al. Two-dimensional fully ferroelectric-gated hybrid computing-in-memory\\"
 aiSum: "2D FeFET 混合 CIM：布尔逻辑+多级单元、96.36% 良率、>10^12 耐久性、用于动态跟踪。"
-confidence: high
+confidence: "high"
 ---
 
 Lu et al., Sci. Adv. 10, eadp0174 (2024)     4 September 2024

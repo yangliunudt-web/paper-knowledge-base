@@ -1,14 +1,23 @@
 ---
 title: "Ferroelectric-based neuromorphic memory devices for bio-inspired computing"
-date: "'2024-01-01'"
+authors:
+  - "Yihan Weiyi"
+  - "Jinhua Zeng"
+  - "Chongyang Keji"
+  - "Xumeng Zhang"
+  - "Qi Liu"
+  - "Zhangcheng Huang"
+  - "Guangjian Wu"
+  - "Jianlu Wang"
+date: "2024-01-01"
 year: 2024
 journal: "Nature Reviews Materials"
 doi: "10.1038/s41578-024-00706-6"
 abstract: "The growing gap between the rapidly increasing demand for computing power"
 abstract_cn: "冯·诺依曼架构中计算需求快速增长与计算速度改进放缓之间的差距日益明显。铁电材料（如铪基铁电体和二维范德华铁电体）因其部分铁电畴切换行为可模拟生物神经元和突触的时间动态特性，在神经形态计算中具有广阔前景。由于铁电器件由电场驱动，其写入能量远低于其他高效存储材料（如相变存储器和阻变随机存储器）。本综述讨论了铁电神经形态器件和阵列的进展及其传感器内应用。"
-cite: "'[1] Liu Y, Tang W, Zeng J, et al. Ferroelectric-based neuromorphic memory devices"
+cite: "[1] Liu Y, Tang W, Zeng J, et al. Ferroelectric-based neuromorphic memory devices"
 aiSum: "综述铁电神经形态器件与阵列：铪基和二维铁电材料模拟神经元/突触时间动态，低写入能耗，涵盖突触器件、神经元电路、阵列拓扑和传感器内计算应用。"
-confidence: high
+confidence: "high"
 ---
 
 # Ferroelectric-based neuromorphic memory devices for bio-inspired computing

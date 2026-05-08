@@ -1,14 +1,17 @@
 ---
 title: "Reconfigurable Ferroelectric Devices for Neuromorphic Computing"
-date: "'2026-01-01'"
+date: "2026-01-01"
 year: 2026
 journal: "Advanced Materials"
-doi: "''"
 abstract: "Reviews reconfigurable ferroelectric devices for neuromorphic computing"
 abstract_cn: "综述用于神经形态计算应用的可重构铁电器件。讨论用于突触可塑性的铁电极化切换、多功能器件设计和硬件实现策略。"
+keywords:
+  - "[[2D ferroelectric semiconductor]]"
+  - "[[neuromorphic vision sensor]]"
+  - "[[schottky photodiode]]"
 cite: "Yoon, Author. Reconfigurable Ferroelectric Devices for Neuromorphic Computing[J]."
 aiSum: "可重构铁电器件综述：极化切换突触可塑性、多功能设计、硬件实现策略。"
-confidence: high
+confidence: "high"
 ---
 
 # RESEARCH ARTICLE

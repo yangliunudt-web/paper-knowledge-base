@@ -1,14 +1,27 @@
 ---
 title: "Metal-Induced Oxygen Vacancy Control in InGaZnO/Hf0.5Zr0.5O2 Ferroelectric"
-date: "'2023-01-01'"
+authors:
+  - "Jae Seong"
+  - "Kyungmoon Subi"
+  - "Ju Hyun"
+  - "Nam Su"
+  - "Kunho Hyun"
+  - "Jae"
+date: "2023-01-01"
 year: 2023
 journal: "ACS Nano"
 doi: "10.1021/acsnano.5c14197"
 abstract: "Zirconium-doped HfO (HZO)-based ferroelectric field-effect transistors (FeFETs)"
 abstract_cn: "锆掺杂HfO基铁电场效应晶体管与铟镓锌氧化物沟道被认为是未来非易失性存储器的关键技术之一。然而，通过简单、面向工业的工艺从单器件到阵列级别实现该技术仍然具有挑战性。虽然先前研究主要关注HZO的稳定铁电开关，但优化IGZO沟道对于通过束缚电荷补偿促进极化开关而不降低其半导体性能也至关重要。本文提出了一种使用W/IGZO多层作为HZO覆盖层的协同优化工艺，以调节IGZO/HZO中的氧空位分布。热力学驱动的跨IGZO/HZO堆叠的氧空位梯度同时促进了HZO中的铁电开关操作和IGZO中的稳定半导体行为。通过简单地使用W和IGZO分别作为源/漏电极和沟道，所得FeFET表现出优异的性能，包括4.13"
-cite: "'[1] Han J S, Kwak K, Choi S, et al. Metal‑induced oxygen vacancy control in"
+keywords:
+  - "[[ferroelectric field-effect transistors]]]]"
+  - "[[zirconium-doped hafnium oxides]]"
+  - "[[indium gallium zinc oxides]]"
+  - "[[oxygen vacancies]]"
+  - "[[interlayer-free]]"
+cite: "[1] Han J S, Kwak K, Choi S, et al. Metal‑induced oxygen vacancy control in"
 aiSum: "W/IGZO覆盖层调控氧空位分布，协同优化HZO铁电开关与IGZO半导体性能，FeFET实现4.13 V存储窗口、70 mV·dec−1亚阈值摆幅、107次耐久性、10年保持，16×16阵列验证可行性。"
-confidence: high
+confidence: "high"
 ---
 
 Jae Seong Han, Kyungmoon Kwak, Subi Choi, Ju Hyun Lee, Nam Su Heo, Kunho Moon, and Hyun Jae Kim*

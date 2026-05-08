@@ -1,13 +1,13 @@
 ---
-title: "'LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS'"
-date: "'2021-10-16'"
+title: "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS"
+date: "2021-10-16"
 year: 2021
 journal: "arXiv"
 abstract: "An important paradigm of natural language processing consists of large-scale"
 abstract_cn: "自然语言处理的一个重要范式包括在通用领域数据上进行大规模预训练，并适应特定任务或领域。随着我们预训练更大的模型，重新训练所有模型参数的完整微调变得不太可行。以GPT-3"
-cite: "'[1] Hu E J, Shen Y, Wallis P, et al. LORA: low‑rank adaptation of large language"
+cite: "[1] Hu E J, Shen Y, Wallis P, et al. LORA: low‑rank adaptation of large language"
 aiSum: "LoRA低秩适应：冻结预训练权重，注入可训练低秩矩阵，大幅减少可训练参数（GPT‑3 175B减少10,000倍），GPU内存需求降3倍，训练吞吐量高，无推理延迟，性能相当或优于全微调。"
-confidence: low
+confidence: "low"
 ---
 
 # LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS

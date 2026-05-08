@@ -1,13 +1,16 @@
 ---
 title: "Solving the Traveling Telescope Problem with Mixed-integer Linear Programming"
-date: "'2024-01-01'"
+authors:
+  - "Luke Erik"
+  - "Velibor"
+date: "2024-01-01"
 year: 2024
 journal: "The Astronomical Journal"
 abstract: "The size and complexity of modern astronomical surveys has grown to the"
 abstract_cn: "现代天文巡天的规模和复杂性已经增长到这样的程度：在许多情况下，传统的人工观测调度充其量是繁琐的，最坏情况下是不切实际的。自动调度算法为节省人力、提高科学产出提供了机会。一个常见的调度挑战涉及在时间约束和时间依赖的转动开销下，确定一组目标在一夜内的最优观测顺序。我们提出了一种使用混合整数线性规划的“旅行望远镜问题”解决方案。该算法速度足够快，能在许多天文场景中实现动态调度生成。它可以在现代工作站上10分钟内确定100次观测的最优解，与随机排序相比将转动开销降低5倍。我们还提供了一种启发式方法，能以显著降低的计算成本返回接近最优的解。作为案例研究，我们探讨了该算法在"
-cite: "'[1] Handley L B, Petigura E A, Mišić V V. Solving the traveling telescope problem"
+cite: "[1] Handley L B, Petigura E A, Mišić V V. Solving the traveling telescope problem"
 aiSum: "混合整数线性规划求解旅行望远镜问题：10分钟内优化100次观测序列，转动开销降低5倍，适用于多普勒行星搜索等自动调度场景。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Solving the Traveling Telescope Problem with Mixed-integer Linear Programming

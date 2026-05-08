@@ -1,14 +1,14 @@
 ---
 title: "Spatially programmable origami networks enable high-density mechanical computing"
-date: "'2025-11-20'"
+date: "2025-11-20"
 year: 2025
 journal: "Nature Communications"
 doi: "10.1038/s41467-025-64956-0"
 abstract: "Mechanical computing enables logic decision-making, allowing direct computational"
 abstract_cn: "机械计算实现了逻辑决策，允许将计算直接集成到机器人中以增强其在复杂环境中的自主性。然而，当前的非通用逻辑设计阻碍了多功能机械计算系统的可重构性。本文使用具有可重构导电网络的折纸超材料来解决这些限制，通过物理重组实现高密度可编程逻辑。"
-cite: "'[1] Hu X, Tan T, Chen Y, et al. Spatially programmable origami networks enable"
+cite: "[1] Hu X, Tan T, Chen Y, et al. Spatially programmable origami networks enable"
 aiSum: "折纸超材料实现高密度可编程机械计算：可重构导电网络、减少门数量 46.7%、支持算术和比较运算，应用于机器人自主路径规划。"
-confidence: high
+confidence: "high"
 ---
 
 # Spatially programmable origami networks enable high-density mechanical computing for autonomous robotics

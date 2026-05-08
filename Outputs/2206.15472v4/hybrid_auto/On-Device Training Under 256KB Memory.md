@@ -1,14 +1,18 @@
 ---
 title: "On-Device Training Under 256KB Memory"
-date: "'2022-06-30'"
+authors:
+  - "Ji Ligeng"
+  - "Chuang Song"
+  - "Watson Lab"
+date: "2022-06-30"
 year: 2022
 journal: "arXiv preprint arXiv:2206.15472"
 doi: "arXiv:2206.15472"
-abstract: "'On-device training enables the model to adapt to new data collected from"
+abstract: "On-device training enables the model to adapt to new data collected from"
 abstract_cn: "提出算法-系统协同设计框架，在仅 256KB 内存下实现设备端训练。针对量化图优化难题，提出量化感知缩放（QAS）校准梯度尺度、稳定 8"
 cite: "Lin J, Zhu L, Chen W M, et al. On-Device Training Under 256KB Memory[J]. arXiv"
 aiSum: "算法-系统协同设计：QAS 稳定 8 位量化训练、稀疏更新减少内存占用、TTE 轻量引擎实现 256KB 内存训练，精度匹配云端，内存仅 PyTorch"
-confidence: low
+confidence: "low"
 ---
 
 # On-Device Training Under 256KB Memory

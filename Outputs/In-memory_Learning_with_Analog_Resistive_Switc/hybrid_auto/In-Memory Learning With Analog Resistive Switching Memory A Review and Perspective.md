@@ -1,5 +1,5 @@
 ---
-"title": "In-Memory Learning With Analog Resistive Switching Memory A Review and Perspective"
+title: "In-Memory Learning With Analog Resistive Switching Memory A Review and Perspective"
 ---
 
 # In-Memory Learning With Analog Resistive Switching Memory: A Review and Perspective

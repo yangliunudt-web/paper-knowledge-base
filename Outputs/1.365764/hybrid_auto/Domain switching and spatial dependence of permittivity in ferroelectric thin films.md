@@ -1,14 +1,14 @@
 ---
 title: "Domain switching and spatial dependence of permittivity in ferroelectric thin"
-date: "'1997-09-01'"
+date: "1997-09-01"
 year: 1997
 journal: "Journal of Applied Physics"
 doi: "10.1063/1.365764"
 abstract: "A model for the switching behavior of ferroelectric thin films is presented."
 abstract_cn: "本文提出铁电薄膜开关行为的模型，包含介电常数空间变化的影响，能够描述 180° 和 90° 畴开关。研究表明介电常数的空间依赖性对矫顽场和磁滞回线形状有显著影响，为理解铁电薄膜的开关机制提供了理论框架。"
-cite: "'[1] Chai F K, Brews J R, Schrimpf R D, et al. Domain switching and spatial"
+cite: "[1] Chai F K, Brews J R, Schrimpf R D, et al. Domain switching and spatial"
 aiSum: "提出包含介电常数空间变化的铁电薄膜开关模型，描述 180° 和 90° 畴开关，揭示介电常数空间依赖性对矫顽场和磁滞回线形状的显著影响。"
-confidence: high
+confidence: "high"
 ---
 
 # Domain switching and spatial dependence of permittivity in [[ferroelectric]] thin films

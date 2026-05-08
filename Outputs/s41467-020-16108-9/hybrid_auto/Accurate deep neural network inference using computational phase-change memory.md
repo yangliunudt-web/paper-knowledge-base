@@ -1,6 +1,5 @@
 ---
-"title": "Accurate deep neural network inference using computational phase-change\
-  \ memory"
+title: "Accurate deep neural network inference using computational phase-change memory"
 ---
 
 https://doi.org/10.1038/s41467-020-16108-9

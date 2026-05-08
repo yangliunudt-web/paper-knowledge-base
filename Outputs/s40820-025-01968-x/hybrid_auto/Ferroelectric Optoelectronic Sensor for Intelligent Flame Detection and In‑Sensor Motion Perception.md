@@ -1,5 +1,5 @@
 ---
-"title": "Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor\
+title: "Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor\
   \ Motion Perception"
 ---
 

@@ -1,14 +1,18 @@
 ---
 title: "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks"
-date: "'2017-08-06'"
+authors:
+  - "Chelsea Finn"
+  - "Pieter Abbeel"
+  - "Sergey Levine"
+date: "2017-08-06"
 year: 2017
 journal: "ICML"
 doi: "arXiv:1703.03400"
 abstract: "We propose an algorithm for meta-learning that is model-agnostic, in the"
 abstract_cn: "提出一种模型无关的元学习算法，兼容任何通过梯度下降训练的模型，适用于分类、回归和强化学习等多种学习问题。元学习的目标是让模型在各种学习任务上训练，使其仅用少量训练样本就能解决新任务。我们的方法显式训练模型参数，使得在新任务上用少量训练数据进行少量梯度步骤就能产生良好的泛化性能。实际上，我们的方法训练模型使其易于微调。该方法在两个少样本图像分类基准上达到最先进性能，在少样本回归上产生良好结果，并加速神经网络策略梯度强化学习的微调。"
-cite: "'[1] Finn C, Abbeel P, Levine S. Model-Agnostic Meta-Learning for Fast Adaptation"
+cite: "[1] Finn C, Abbeel P, Levine S. Model-Agnostic Meta-Learning for Fast Adaptation"
 aiSum: "提出 MAML 模型无关元学习算法，通过二阶梯度优化初始参数，使模型在新任务上仅需 1-5 步梯度更新即可快速适应，在少样本分类、回归和强化学习上达到"
-confidence: medium
+confidence: "medium"
 ---
 
 Chelsea Finn 1 Pieter Abbeel 1 2 Sergey Levine 1

@@ -1,6 +1,6 @@
 ---
-"title": "Unsupervised local learning based on voltagedependent synaptic plasticity\
-  \ for resistive and ferroelectric synapses"
+title: "Unsupervised local learning based on voltagedependent synaptic plasticity for resistive\
+  \ and ferroelectric synapses"
 ---
 
 # Unsupervised local learning based on voltagedependent synaptic plasticity for resistive and ferroelectric synapses

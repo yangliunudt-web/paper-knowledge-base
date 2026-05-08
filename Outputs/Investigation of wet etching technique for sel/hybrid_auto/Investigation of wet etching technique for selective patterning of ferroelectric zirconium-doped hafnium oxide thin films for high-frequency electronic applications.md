@@ -1,13 +1,15 @@
 ---
 title: "Investigation of wet etching technique for selective patterning of ferroelectric"
-date: "'2023-01-01'"
+date: "2023-01-01"
 year: 2023
 journal: "Microelectronic Engineering"
 abstract: "This paper presents the area-selective wet etching (ASWE) method as a novel"
 abstract_cn: "本文提出了区域选择性湿法刻蚀方法，作为一种对6.8 nm厚锆掺杂氧化铪薄膜进行选择性图案化的新方法，以提高金属-铁电-金属类结构的性能。根据对图案化HZO薄膜微波移相器的电磁仿真，强调了在选择性目标区域覆盖HZO而非全晶圆覆盖的重要性，以进一步提高低电压可调高频组件的微波性能。使用多种无损检测工具研究了ASWE方法对形态结构特性的影响。X射线反射率被用于不同的浸泡时间，最长120秒。基于扩展快速傅里叶变换分析，以及在并行回火算法框架下对实验曲线的模拟，实现了刻蚀速率的确定。X射线衍射、原子力显微镜和X射线光电子能谱清楚地表明在180秒刻蚀后HZO被完全去除。该方法快速、可靠且成本低，从而填补了仅在选定感兴趣区域提供必要铁电薄膜的实际空白。"
-cite: "'[1] Dinu L A, Romanitan C, Aldrigo M, et al. Investigation of wet etching technique"
+keywords:
+  - "[[Area-selective wet etching]]"
+cite: "[1] Dinu L A, Romanitan C, Aldrigo M, et al. Investigation of wet etching technique"
 aiSum: "区域选择性湿法刻蚀用于HZO薄膜图案化：6.8 nm HZO薄膜选择性刻蚀，提升MFM结构性能，XRR/XRD/AFM/XPS表征刻蚀速率与完全去除，适用于高频电子器件。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Investigation of wet etching technique for selective patterning of ferroelectric zirconium-doped hafnium oxide thin films for high-frequency electronic applications

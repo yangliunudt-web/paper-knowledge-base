@@ -1,14 +1,18 @@
 ---
-title: "'TENT: Fully Test-Time Adaptation by Entropy Minimization'"
-date: "'2021-07-01'"
+title: "TENT: Fully Test-Time Adaptation by Entropy Minimization"
+authors:
+  - "Dequan Evan"
+  - "Shaoteng Bruno"
+  - "Trevor Adobe"
+date: "2021-07-01"
 year: 2021
 journal: "ICML 2021"
 doi: "arXiv:2006.10726"
-abstract: "'A model must adapt itself to generalize to new and different data during"
+abstract: "A model must adapt itself to generalize to new and different data during"
 abstract_cn: "模型必须在测试过程中自适应以泛化到新的和不同的数据。在完全测试时适应的设置中，模型只有测试数据和自己的参数。我们提出通过测试熵最小化来适应：通过预测熵衡量的置信度来优化模型。该方法估计归一化统计量并优化通道级仿射变换以在每个批次上在线更新。Tent"
-cite: "'Wang D, Shelhamer E, Liu S, et al. TENT: Fully test-time adaptation by entropy"
+cite: "Wang D, Shelhamer E, Liu S, et al. TENT: Fully test-time adaptation by entropy"
 aiSum: "TENT 测试时适应：熵最小化、归一化统计+仿射变换、ImageNet-C SOTA、无需源数据/改变训练。"
-confidence: medium
+confidence: "medium"
 ---
 
 # TENT: FULLY TEST-TIME ADAPTATION BY ENTROPY MINIMIZATION 

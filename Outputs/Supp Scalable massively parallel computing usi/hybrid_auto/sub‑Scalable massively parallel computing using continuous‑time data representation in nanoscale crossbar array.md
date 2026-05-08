@@ -6,9 +6,9 @@ journal: "Nature Communications"
 doi: "10.1038/s41467‑024‑xxxxx"
 abstract: "Supplementary information for the article 'Scalable massively parallel computing"
 abstract_cn: "本文为《Scalable massively parallel computing using continuous‑time data"
-cite: "'Cong Wang, Shi‑Jun Liang, Chen‑Yu Wang, et al. sub‑Scalable massively parallel"
+cite: "Cong Wang, Shi‑Jun Liang, Chen‑Yu Wang, et al. sub‑Scalable massively parallel"
 aiSum: "补充材料：包含补充图表和实验细节，支持主文中忆阻交叉阵列中连续时间数据表示和频率复用的大规模并行计算方案。"
-confidence: high
+confidence: "high"
 ---
 
 # Supplementary information

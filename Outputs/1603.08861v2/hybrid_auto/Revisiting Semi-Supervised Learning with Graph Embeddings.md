@@ -1,14 +1,14 @@
 ---
 title: "Revisiting Semi-Supervised Learning with Graph Embeddings"
-date: "'2016-06-20'"
+date: "2016-06-20"
 year: 2016
 journal: "ICML"
 doi: "arXiv:1603.08861"
 abstract: "We present a semi-supervised learning framework based on graph embeddings."
 abstract_cn: "提出基于图嵌入的半监督学习框架。给定实例之间的图，为每个实例训练嵌入，联合预测类别标签和图中的邻域上下文。开发了直推式和归纳式两种变体。直推式变体中类别标签由学习到的嵌入和输入特征向量共同决定，归纳式变体中嵌入定义为特征向量的参数化函数，可对训练时未见实例进行预测。在文本分类、远程监督实体抽取和实体分类等多个基准任务上，性能优于现有模型。归纳方法准确率比次优方法高"
-cite: "'[1] Yang Z L, Cohen W W, Salakhutdinov R. Revisiting Semi-Supervised Learning"
+cite: "[1] Yang Z L, Cohen W W, Salakhutdinov R. Revisiting Semi-Supervised Learning"
 aiSum: "提出 Planetoid 半监督学习框架，通过图嵌入联合预测标签和邻域上下文，支持直推式和归纳式学习，在文本分类、实体抽取等任务上准确率比次优方法高"
-confidence: medium
+confidence: "medium"
 ---
 
 Zhilin Yang

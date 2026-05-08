@@ -28,7 +28,7 @@ abstract_cn: "本文讨论了HfO₂基铁电存储器的研究现状并与实际
 cite: "待补充. Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for Application[J].\
   \ IEEE VLSI-TSA, 2021."
 aiSum: "HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。"
-confidence: high
+confidence: "high"
 ---
 
 # Hafnium oxide-based Ferroelectric Memories: Are we ready for Application?

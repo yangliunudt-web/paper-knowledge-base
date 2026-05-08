@@ -1,14 +1,20 @@
 ---
 title: "Homogeneous integration of two-dimensional material-based optoelectronic neurons"
-date: "'2026-01-19'"
+date: "2026-01-19"
 year: 2026
 journal: "Nature Communications"
 doi: "10.1038/s41467-026-68905-3"
 abstract: "Dynamic vision processing at the edge requires in-sensor spiking neural"
 abstract_cn: "边缘动态视觉处理需要传感器内脉冲神经网络以实现高能效和快速处理。我们展示了基于 MoS2 光电晶体管的光电 LIF 神经元，能够重现关键神经元特性，包括多光谱传感、无电容积分和阈值触发脉冲。此外，我们在单个基底上实现了这些神经元与"
-cite: "'[1] Wang J, Liu K, Tiw P J, et al. Homogeneous integration of two-dimensional"
+keywords:
+  - "[[MoS2]]"
+  - "[[HZO]]"
+  - "[[optoelectronic leaky integrate-and-fire neuron]]"
+  - "[[spiking neural networks]]"
+  - "[[in-sensor computing]]"
+cite: "[1] Wang J, Liu K, Tiw P J, et al. Homogeneous integration of two-dimensional"
 aiSum: "实现 MoS2 光电 LIF 神经元与铁电突触的均匀集成：多光谱传感、无电容积分、阈值触发脉冲，SNN 系统颜色识别 91.7%、目标检测 93.5%"
-confidence: high
+confidence: "high"
 ---
 
 # Homogeneous integration of two-dimensional material-based optoelectronic neurons and ferroelectric synapses for neuromorphic vision

@@ -1,14 +1,14 @@
 ---
 title: "Amorphous phase-change memory alloy with no resistance drift"
-date: "'2025-09-01'"
+date: "2025-09-01"
 year: 2025
 journal: "Nature Materials"
 doi: "10.1038/s41563-025-02361-0"
 abstract: "Spontaneous structural relaxation is intrinsic to glassy materials due to"
 abstract_cn: "自发结构弛豫是玻璃材料的固有特性，源于其亚稳态性质。对于相变材料，由此产生的电阻时间变化严重阻碍了神经形态计算应用。本文报道了一种从头算计算指导设计的非晶相变材料，由稳健的分子状基元组成，消除了引起弛豫和电阻漂移的关键结构成分。我们展示了非晶"
-cite: "'[1] Wang X, Wang R, Sun S, et al. Amorphous phase-change memory alloy with"
+cite: "[1] Wang X, Wang R, Sun S, et al. Amorphous phase-change memory alloy with"
 aiSum: "设计无电阻漂移的非晶 CrTe3 相变材料：从头算指导设计分子状基元，消除结构弛豫，在 ‑200°C 至 165°C 工作温度下无漂移，实现光电混合多级编码。"
-confidence: high
+confidence: "high"
 ---
 
 # Amorphous phase-change memory alloy with no resistance drift

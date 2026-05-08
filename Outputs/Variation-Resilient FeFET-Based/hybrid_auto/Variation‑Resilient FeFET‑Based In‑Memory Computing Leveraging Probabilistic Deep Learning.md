@@ -1,14 +1,18 @@
 ---
 title: "Variation‑Resilient FeFET‑Based In‑Memory Computing Leveraging Probabilistic"
-date: "'2020-01-01'"
+authors:
+  - "Bibhas Arnob"
+  - "Zhouhang Kai"
+  - "Abhronil Senior"
+date: "2020-01-01"
 year: 2020
 journal: "Applied Physics Letters"
 doi: "10.1063/1.5113536"
 abstract: "Reliability issues stemming from device level nonidealities of non‑volatile"
 abstract_cn: "非易失性新兴技术（如铁电场效应晶体管）在器件层面的非理想性（尤其在缩微尺寸下）引发的可靠性问题，会导致基于内存交叉阵列的 AI 系统精度严重下降。本文提出一种变异感知设计技术，用于表征器件层面变异，并采用贝叶斯神经网络方法减轻其对硬件精度的影响。基于"
-cite: "'[1] Manna B, Saha A, Jiang Z, et al. Variation‑resilient FeFET‑based in‑memory"
+cite: "[1] Manna B, Saha A, Jiang Z, et al. Variation‑resilient FeFET‑based in‑memory"
 aiSum: "基于 FeFET 的变异鲁棒内存计算：通过贝叶斯神经网络融合器件变异特性，在 MNIST 上实现接近理想精度，CIFAR10 上 AlexNet 精度下降仅"
-confidence: high
+confidence: "high"
 ---
 
 # Variation-Resilient FeFET-Based In-Memory Computing Leveraging Probabilistic Deep Learning

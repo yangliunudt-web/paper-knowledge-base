@@ -1,14 +1,19 @@
 ---
 title: "Overcoming Catastrophic Forgetting with Synaptic Intelligence"
-date: "'2018-07-10'"
+authors:
+  - "We Our"
+  - "This After"
+  - "This We"
+  - "Atari"
+date: "2018-07-10"
 year: 2018
 journal: "ICML 2018"
 doi: "arXiv:1805.06370"
-abstract: "'We introduce a conceptually simple and scalable framework for continual"
+abstract: "We introduce a conceptually simple and scalable framework for continual"
 abstract_cn: "引入一个概念上简单且可扩展的持续学习框架，适用于任务顺序学习的领域。该方法参数数量恒定，旨在保持先前任务性能的同时加速后续任务的学习进度。通过训练两个神经网络实现：一个知识库（能够解决先前遇到的问题）和一个主动列（用于高效学习当前任务）。学习新任务后，主动列被蒸馏到知识库中，同时保护之前学习的任务。这种主动学习（进展）后跟巩固（压缩）的循环不需要架构增长、不需要访问或存储先前的数据或任务、也没有任务特定参数。"
-cite: "'Schwarz J, Luketina J, Rao D, et al. Progress & Compress: A scalable framework"
+cite: "Schwarz J, Luketina J, Rao D, et al. Progress & Compress: A scalable framework"
 aiSum: "Progress & Compress 持续学习：知识库+主动列双网络、蒸馏保护、无架构增长、Atari 游戏验证。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Abstract

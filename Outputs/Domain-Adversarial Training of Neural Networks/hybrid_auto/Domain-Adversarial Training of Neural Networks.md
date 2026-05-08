@@ -1,14 +1,23 @@
 ---
 title: "Domain-Adversarial Training of Neural Networks"
-date: "'2016-01-01'"
+date: "2016-01-01"
 year: 2016
 journal: "Journal of Machine Learning Research"
 doi: "10.5555/2946645.2946684"
 abstract: "We introduce a new representation learning approach for domain adaptation,"
 abstract_cn: "我们提出了一种新的领域自适应表示学习方法，其中训练和测试时的数据来自相似但不同的分布。我们的方法直接受到领域自适应理论的启发，该理论表明，为了实现有效的领域迁移，预测必须基于那些无法区分训练（源）域和测试（目标）域的特征。该方法在神经网络架构的背景下实现了这一思想，这些架构使用源域的标记数据和目标域的无标记数据（无需目标域标记数据）进行训练。随着训练的进行，该方法促使出现那些（i）对源域上的主要学习任务具有区分性，并且（ii）对领域之间的变化不敏感的特征。我们表明，这种自适应行为几乎可以在任何前馈模型中实现，只需通过添加少量标准层和一个简单的新的梯度反转层来增强它。得到的增强架构可以使用标准反向传播进行训练。实证证据证实，所提出的方法成功处理了同质和异质领域自适应，并在标准基准测试中优于最先进的领域自适应方法。"
-cite: "'[1] Ganin Y, Ustinova E, Ajakan H, et al. Domain‑adversarial training of neural"
+keywords:
+  - "[[domain adaptation]]"
+  - "[[neural network]]"
+  - "[[representation learning]]"
+  - "[[deep learning]]"
+  - "[[synthetic data]]"
+  - "[[image classification]]"
+  - "[[sentiment analysis]]"
+  - "[[person re-identification]]"
+cite: "[1] Ganin Y, Ustinova E, Ajakan H, et al. Domain‑adversarial training of neural"
 aiSum: "领域对抗神经网络训练（DANN）：通过梯度反转层实现领域不变特征学习，处理同质/异质领域自适应，在标准基准上优于SOTA方法。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Domain-Adversarial Training of Neural Networks

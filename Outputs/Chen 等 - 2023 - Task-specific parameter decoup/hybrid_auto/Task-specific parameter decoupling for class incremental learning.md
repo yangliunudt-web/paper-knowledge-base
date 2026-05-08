@@ -1,13 +1,15 @@
 ---
 title: "Task-specific parameter decoupling for class incremental learning"
-date: "'2023-01-01'"
+date: "2023-01-01"
 year: 2023
 journal: "Pattern Recognition"
 abstract: "Class incremental learning (CIL) enables deep networks to progressively"
 abstract_cn: "类增量学习使深度网络能够逐步学习新任务，同时记住先前学到的知识。一种流行的类增量学习设计是应用共享特征提取器来学习旧类和新类。然而，这种设计可能导致表示干扰，即从不同任务获得的知识相互干扰。这限制了维持先前任务特征信息的能力，特别是在无法访问先前任务训练数据的情况下。为了克服这一限制，我们提出了一种新颖的类增量学习方法，称为任务特定模型参数解耦，包括参数解耦框架和动态参数融合策略。参数解耦框架将每个任务的知识压缩到一组紧凑的任务特定模型参数中。在这种情况下，与不同任务相关的紧凑模型参数之间的相互作用被消除，以减少表示干扰。此外，我们采用动态参数融合策略来自适应地融合较大模型的参数。随着学习任务的进行，动态参数融合策略增强了模型的适应性和稳定性。在包括CIFAR100和TinyImageNet在内的基准数据集上的大量实验证明了我们的方法相对于最先进方法的性能提升。"
-cite: "'[1] Chen R, Jing X Y, Wu F, et al. Task‑specific parameter decoupling for class"
+keywords:
+  - "[[Class incremental learning]]"
+cite: "[1] Chen R, Jing X Y, Wu F, et al. Task‑specific parameter decoupling for class"
 aiSum: "类增量学习参数解耦方法：PD框架将任务知识压缩至任务特定参数，DPF策略自适应融合参数，消除表示干扰，在CIFAR100/TinyImageNet上优于SOTA方法。"
-confidence: medium
+confidence: "medium"
 ---
 
 # Task-specific parameter decoupling for class incremental learning

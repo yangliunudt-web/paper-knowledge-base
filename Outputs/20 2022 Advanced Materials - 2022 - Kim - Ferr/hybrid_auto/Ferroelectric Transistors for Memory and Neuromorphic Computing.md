@@ -1,5 +1,5 @@
 ---
-"title": "Ferroelectric Transistors for Memory and Neuromorphic Computing"
+title: "Ferroelectric Transistors for Memory and Neuromorphic Computing"
 ---
 
 # Ferroelectric Transistors for Memory and Neuromorphic Device Applications

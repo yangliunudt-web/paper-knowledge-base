@@ -1,13 +1,17 @@
 ---
 title: "Small Models are Valuable Plug-ins for Large Language Models"
-date: "'2023-10-01'"
+authors:
+  - "Canwen Yichong"
+  - "Shuohang Yang"
+  - "Chenguang Julian"
+date: "2023-10-01"
 year: 2023
 journal: "arXiv preprint arXiv:2305.xxxxx"
 abstract: "Large language models (LLMs) such as GPT-3 and GPT-4 are powerful but their"
 abstract_cn: "GPT‑3、GPT‑4等大语言模型能力强大，但其权重往往不公开，且巨大规模使得模型难以用普通硬件调优。因此，用大规模监督数据有效调整这些模型具有挑战性。作为一种替代方案，上下文学习由于上下文长度限制只能使用少量监督样本。本文提出超上下文学习，使黑盒大语言模型能够与本地微调的小模型协同工作，从而在监督任务上实现更优性能。实验表明，超上下文学习能够超越当前最优微调模型性能，同时解决上下文学习的不稳定性问题。此外，超上下文学习还能增强小模型的能力，如多语言性和可解释性。"
-cite: "'[1] Xu C, Xu Y, Wang S, et al. Small models are valuable plug‑ins for large"
+cite: "[1] Xu C, Xu Y, Wang S, et al. Small models are valuable plug‑ins for large"
 aiSum: "超上下文学习：将本地微调的小模型作为插件与大语言模型协同，提升监督任务性能，解决上下文学习不稳定性，增强小模型多语言与可解释能力。"
-confidence: low
+confidence: "low"
 ---
 
 # Small Models are Valuable Plug-ins for Large Language Models
