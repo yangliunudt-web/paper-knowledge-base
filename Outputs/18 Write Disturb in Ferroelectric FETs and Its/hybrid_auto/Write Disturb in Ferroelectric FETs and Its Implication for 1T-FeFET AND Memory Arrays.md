@@ -19,6 +19,7 @@ abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonv
 abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储阵列在 VW/2 和 VW/3 抑制偏置方案下的写入干扰，以确定最坏情况的存储器感测条件。读余量分析表明，低 VTH 擦除态漏电流增加和高 VTH 编程态读电流增加是限制最大阵列尺寸的关键因素。比较了 AND 存储阵列配置的两种抑制偏置方案 VW/2 和 VW/3。VW/3 方案减小了干扰电压幅度，但代价是增加了受干扰单元数量。VW/2 方案中半选单元承受 VW/2 干扰电压，未选单元不受干扰。VW/3 方案中未选单元也承受 -VW/3 干扰电压。"
 cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays[J]. IEEE Electron Device Letters, 2018, 39(11): 1656-1659. DOI: 10.1109/LED.2018.2872347."
 aiSum: "研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。"
+confidence: high
 ---
 
 # Write Disturb in [[ferroelectric]] FETs and Its Implication for 1T-[[FeFET]] AND Memory Arrays

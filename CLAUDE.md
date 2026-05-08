@@ -94,6 +94,13 @@ python3 deep_quality_check.py
 
 # Batch fix frontmatter issues
 python3 batch_fix_v3.py
+
+# Wiki knowledge layer health check (8 dimensions)
+python3 lint-wiki.py --report
+
+# Batch add confidence field to all papers
+python3 batch_add_confidence.py --dry-run  # preview first
+python3 batch_add_confidence.py            # apply
 ```
 
 ## Available Agents

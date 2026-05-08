@@ -1,5 +1,6 @@
 ---
 title: Wiki 目录
+type: topic
 tags: [目录, 导航]
 created: 2026-05-08
 updated: 2026-05-08
@@ -9,13 +10,33 @@ updated: 2026-05-08
 
 > 本页面由 LLM 在每次操作后自动维护。
 
-## 概念
-
-<!-- ingest 时自动添加概念页面链接 -->
-
 ## 领域页
 
-<!-- ingest 时自动添加领域页面链接 -->
+- [[FeFET 研究]]（92 篇）
+- [[存内计算研究]]（69 篇）
+- [[神经形态计算研究]]（88 篇）
+- [[忆阻器与阻变存储研究]]（97 篇）
+
+## 概念
+
+- [[FeFET]]
+- [[In-memory computing]]
+- [[存内计算]]
+- [[HfO2]]
+- [[Ferroelectric]]
+- [[ferroelectric polarization]]
+- [[FeRAM]]
+- [[IGZO]]
+- [[Memristor]]
+- [[RRAM]]
+- [[ReRAM]]
+- [[crossbar]]
+- [[selector]]
+- [[Reservoir computing]]
+- [[Neuromorphic computing]]
+- [[Neural network]]
+- [[Read delay]]
+- [[domain wall motion]]
 
 ## 论文分组索引
 
@@ -27,4 +48,5 @@ updated: 2026-05-08
 
 ## 最近更新
 
-<!-- 最近操作影响的页面 -->
+- 2026-05-08: Batch 2 — Lint 脚本、领域编译页（4）、置信度批量脚本、分组索引填充
+- 2026-05-08: Batch 1 — Wiki 知识层初始化，18 个概念页

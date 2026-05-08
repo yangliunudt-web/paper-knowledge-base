@@ -20,6 +20,7 @@ abstract: "The throughput and energy efficiency of compute-centric architectures
 abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞吐量和能效受限于内存瓶颈问题，如高数据访问能耗、长延迟和有限带宽。存内计算（PIM）是解决这些挑战的有前景方法，通过将计算逻辑放置在存储器内部来最小化数据移动并利用大规模内部数据并行性。目前有两种 PIM 趋势：1）使用新兴非易失性存储器在存储阵列内执行高度并行的模拟 MAC 计算并隐式存储权重；2）利用成熟存储技术并通过额外逻辑增强以在存储阵列附近实现高效的 MAC 计算。本文从架构角度比较这两种趋势，重点关注 FeFET 存储（新兴存储候选）和 DRAM 存储（成熟存储候选），分析这两种存储候选对 PIM 设计和整体性能的主要架构约束，最后评估不同计算或 DNN 任务类型的可行候选选择。"
 cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures: A Comparative Study[J]. IEEE Transactions on Computers, 2023, 72(5): 1320-1335. DOI: 10.1109/TC.2023.3253467."
 aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM 支持双模式（存储+计算）、高容量（16Gb）、适合训练，但 MAC 能耗高（~1pJ）且架构约束大。"
+confidence: medium
 ---
 
 # [[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study
