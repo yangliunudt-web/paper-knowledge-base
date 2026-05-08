@@ -12,6 +12,18 @@ Usage:
 import re
 import sys
 from pathlib import Path
+import yaml
+
+
+def yaml_dq(s):
+    """Return a YAML-safe double-quoted representation of string s.
+    Uses yaml.dump which properly handles LaTeX backslash escaping.
+    e.g. \\mathrm → \\\\mathrm  (\\m is invalid YAML escape, backslash gets doubled)"""
+    if not s:
+        return '""'
+    # yaml.dump with double-quote style handles all edge cases
+    dumped = yaml.dump(s, default_style='"', allow_unicode=True)
+    return dumped.strip()  # remove trailing newline
 
 VAULT = Path("/Users/liuyang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Papers")
 OUTPUTS = VAULT / "Outputs"
@@ -134,25 +146,25 @@ def rebuild_frontmatter(content):
             lines.append(line)
 
     if title:
-        add("title", f'title: "{title}"')
+        add("title", f'title: {yaml_dq(title)}')
     if authors:
         add("authors", "authors:")
         for a in authors:
             a_clean = a.strip().strip('"').strip("'")
             if a_clean:
-                lines.append(f'  - "{a_clean}"')
+                lines.append(f'  - {yaml_dq(a_clean)}')
     if date:
         add("date", f'date: "{date}"')
     if year:
         add("year", f"year: {year}")
     if journal:
-        add("journal", f'journal: "{journal}"')
+        add("journal", f'journal: {yaml_dq(journal)}')
     if doi:
         add("doi", f'doi: "{doi}"')
     if abstract:
-        add("abstract", f'abstract: "{abstract}"')
+        add("abstract", f'abstract: {yaml_dq(abstract)}')
     if abstract_cn:
-        add("abstract_cn", f'abstract_cn: "{abstract_cn}"')
+        add("abstract_cn", f'abstract_cn: {yaml_dq(abstract_cn)}')
     if keywords:
         add("keywords", "keywords:")
         for kw in keywords:
@@ -160,11 +172,11 @@ def rebuild_frontmatter(content):
             if kw_clean:
                 if not kw_clean.startswith("[["):
                     kw_clean = f"[[{kw_clean}]]"
-                lines.append(f'  - "{kw_clean}"')
+                lines.append(f'  - {yaml_dq(kw_clean)}')
     if cite_val:
-        add("cite", f'cite: "{cite_val}"')
+        add("cite", f'cite: {yaml_dq(cite_val)}')
     if ai_sum:
-        add("aiSum", f'aiSum: "{ai_sum}"')
+        add("aiSum", f'aiSum: {yaml_dq(ai_sum)}')
     if confidence:
         add("confidence", f"confidence: {confidence}")
     if wiki_concepts:
@@ -174,7 +186,7 @@ def rebuild_frontmatter(content):
             if wc_clean:
                 if not wc_clean.startswith("[["):
                     wc_clean = f"[[{wc_clean}]]"
-                lines.append(f'  - "{wc_clean}"')
+                lines.append(f'  - {yaml_dq(wc_clean)}')
     add("end", "---")
 
     fm = "\n".join(lines) + "\n"

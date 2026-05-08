@@ -10,19 +10,31 @@ date: "2018-10-23"
 year: 2018
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2018.2872347"
-abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonvolatile AND memory array is experimentally investigated for VW/2 and VW/3 inhibition bias schemes to determine the worst-case memory sensing condition. Read margin analysis reveals that the increased leakage current in the low-VTH erased state and the increased read current of the high-VTH programmed state are the key factors that limit the maximum array size. The two inhibition bias schemes, VW/2 and VW/3, for an AND memory array configuration are compared. The reduction of disturb voltage amplitude in VW/3 scheme comes at the cost of increasing the number of disturbed cells. For VW/2 bias scheme, the half-selected cells experience a disturb voltage of VW/2 while the unselected cells experience no disturb. For VW/3 bias scheme, unselected cells also experience disturb voltage of -VW/3."
-abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储阵列在 VW/2 和 VW/3 抑制偏置方案下的写入干扰，以确定最坏情况的存储器感测条件。读余量分析表明，低 VTH 擦除态漏电流增加和高 VTH 编程态读电流增加是限制最大阵列尺寸的关键因素。比较了 AND 存储阵列配置的两种抑制偏置方案 VW/2 和 VW/3。VW/3 方案减小了干扰电压幅度，但代价是增加了受干扰单元数量。VW/2 方案中半选单元承受 VW/2 干扰电压，未选单元不受干扰。VW/3 方案中未选单元也承受 -VW/3 干扰电压。"
+abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonvolatile AND\
+  \ memory array is experimentally investigated for VW/2 and VW/3 inhibition bias\
+  \ schemes to determine the worst-case memory sensing condition. Read margin analysis\
+  \ reveals that the increased leakage current in the low-VTH erased state and the\
+  \ increased read current of the high-VTH programmed state are the key factors that\
+  \ limit the maximum array size. The two inhibition bias schemes, VW/2 and VW/3,\
+  \ for an AND memory array configuration are compared. The reduction of disturb voltage\
+  \ amplitude in VW/3 scheme comes at the cost of increasing the number of disturbed\
+  \ cells. For VW/2 bias scheme, the half-selected cells experience a disturb voltage\
+  \ of VW/2 while the unselected cells experience no disturb. For VW/3 bias scheme,\
+  \ unselected cells also experience disturb voltage of -VW/3."
+abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储阵列在 VW/2 和 VW/3 抑制偏置方案下的写入干扰，以确定最坏情况的存储器感测条件。读余量分析表明，低\
+  \ VTH 擦除态漏电流增加和高 VTH 编程态读电流增加是限制最大阵列尺寸的关键因素。比较了 AND 存储阵列配置的两种抑制偏置方案 VW/2 和 VW/3。VW/3\
+  \ 方案减小了干扰电压幅度，但代价是增加了受干扰单元数量。VW/2 方案中半选单元承受 VW/2 干扰电压，未选单元不受干扰。VW/3 方案中未选单元也承受 -VW/3\
+  \ 干扰电压。"
 keywords:
   - "[[FeFET]]"
   - "[[Write disturb]]"
   - "[[AND array]]"
   - "[[HZO]]"
-cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays[J]. IEEE Electron Device Letters, 2018, 39(11): 1656-1659. DOI: 10.1109/LED.2018.2872347."
+cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication\
+  \ for 1T-FeFET AND Memory Arrays[J]. IEEE Electron Device Letters, 2018, 39(11):\
+  \ 1656-1659. DOI: 10.1109/LED.2018.2872347."
 aiSum: "研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。"
 confidence: high
-wiki_concepts:
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 ---
 
 # Write Disturb in [[ferroelectric]] FETs and Its Implication for 1T-[[FeFET]] AND Memory Arrays
