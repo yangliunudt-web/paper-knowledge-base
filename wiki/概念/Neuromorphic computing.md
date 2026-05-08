@@ -28,8 +28,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Electrochemical ohmic memristors\|Electrochemical ohmic memristors]] | 2024 | Nature Communications |
-| [[Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor Motion Perception\|Ferroelectric Optoelectronic Sensor for ...]] | 2026 | Nano-Micro Letters |
+| [[Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision\|Zn2+ Engineered Low-Barrier LiNbO3 Enabl...]] | 2025 | Lithium niobate (LiNbO ), owing to its unique [[ferroelectric polarization]] and\ |
 ## 相关概念
 
 - [[In-memory computing]]

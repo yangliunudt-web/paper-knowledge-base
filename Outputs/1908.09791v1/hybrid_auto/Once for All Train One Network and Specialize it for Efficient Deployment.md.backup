@@ -1,0 +1,37 @@
+---
+title: "Once for All: Train One Network and Specialize it for Efficient Deployment"
+authors:
+  - "Han Cai"
+  - "Chuang Gan"
+  - "Song Han"
+date: "2019-08-01"
+year: 2019
+journal: "arXiv preprint arXiv:1908.09791"
+doi: "arXiv:1908.09791"
+abstract: "Efficient deployment of deep learning models requires specialized neural network architectures to best fit different hardware platforms and efficiency constraints (defined as deployment scenarios). Traditional approaches either manually design or use AutoML to search a specialized neural network and train it from scratch for each case. It is expensive and unscalable since their training cost is linear w.r.t. the number of deployment scenarios. In this work, we introduce Once for All (OFA) for efficient neural network design to handle many deployment scenarios, a new methodology that decouples model training from architecture search. Instead of training a specialized model for each case, we propose to train a once-for-all network that supports diverse architectural settings (depth, width, kernel size, and resolution). Given a deployment scenario, we can later search a specialized subnetwork by selecting from the once-for-all network without training. As such, the training cost of specialized models is reduced from O(N) to O(1). However, it’s challenging to prevent interference between many sub-networks. Therefore we propose the progressive shrinking algorithm, which is capable of training a once-for-all network to support more than 1019 sub-networks while maintaining the same accuracy as independently trained networks, saving the non-recurring engineering (NRE) cost. Extensive experiments on various hardware platforms (Mobile/CPU/GPU) and efficiency constraints show that OFA consistently achieves the same level (or better) ImageNet accuracy than SOTA neural architecture search (NAS) methods. Remarkably, OFA is orders of magnitude faster than NAS in handling multiple deployment scenarios (N). With N = 40, OFA requires 14× fewer GPU hours than ProxylessNAS, 16× fewer GPU hours than FBNet and 1,142× fewer GPU hours than MnasNet. The more deployment scenarios, the more savings over NAS."
+abstract_cn: "提出 Once for All（OFA）方法：训练一个通用网络，支持不同深度、宽度、核大小和分辨率，无需重新训练即可派生 specialized 子网络。采用渐进收缩算法训练，支持超过 10^19 个子网络，保持独立训练网络精度。实验显示 OFA 在 Mobile/CPU/GPU 等多种硬件平台上达到与 SOTA NAS 方法相同或更好的 ImageNet 精度，处理多部署场景时比 NAS 快数个数量级。"
+cite: "Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for Efficient Deployment[J]. arXiv preprint arXiv:1908.09791, 2019. arXiv:1908.09791."
+aiSum: "OFA 通用网络：渐进收缩算法、支持 10^19 子网络、训练成本从 O(N) 降至 O(1)、比 NAS 快 14-1142 倍、多硬件平台部署。"
+keywords:
+  - "[[Neural network]]"
+  - "[[Training]]"
+  - "[[Architecture]]"
+  - "[[Accuracy]]"
+  - "[[Deep learning]]"
+---
+
+# Once for All: Train One Network and Specialize it for Efficient Deployment
+
+Han Cai1, Chuang Gan2, Song Han1
+
+1Massachusetts Institute of Technology, 2MIT-IBM Watson AI Lab
+
+{hancai, chuangg, songhan}@mit.edu
+
+# Abstract
+
+Efficient deployment of deep learning models requires specialized neural network architectures to best fit different hardware platforms and efficiency constraints (defined as deployment scenarios). Traditional approaches either manually design or use AutoML to search a specialized neural network and train it from scratch for each case. It is expensive and unscalable since their training cost is linear w.r.t. the number of deployment scenarios. In this work, we introduce Once for All (OFA) for efficient neural network design to handle many deployment scenarios, a new methodology that decouples model training from architecture search. Instead of training a specialized model for each case, we propose to train a once-for-all network that supports diverse architectural settings (depth, width, kernel size, and resolution). Given a deployment scenario, we can later search a specialized subnetwork by selecting from the once-for-all network without training. As such, the training cost of specialized models is reduced from O(N) to O(1). However, it’s challenging to prevent interference between many sub-networks. Therefore we propose the progressive shrinking algorithm, which is capable of training a once-for-all network to support more than 1019 sub-networks while maintaining the same accuracy as independently trained networks, saving the non-recurring engineering (NRE) cost. Extensive experiments on various hardware platforms (Mobile/CPU/GPU) and efficiency constraints show that OFA consistently achieves the same level (or better) ImageNet accuracy than SOTA neural architecture search (NAS) methods. Remarkably, OFA is orders of magnitude faster than NAS in handling multiple deployment scenarios (N). With N = 40, OFA requires 14× fewer GPU hours than ProxylessNAS, 16× fewer GPU hours than FBNet and 1,142× fewer GPU hours than MnasNet. The more deployment scenarios, the more savings over NAS.
+
+# 1 Introduction
+
+Deep Neural Networks (DNNs) deliver state-of-the-art accuracy in many machine learning applications. However, the explosive growth in model size and computation cost gives rise to new challenges on how to efficiently de

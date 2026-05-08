@@ -29,8 +29,8 @@ confidence: high
 
 ## 相关论文
 
-| 论文 | 年份 | 核心发现 |
-|------|------|----------|
+| 论文                                                                                                                                                                                   | 年份   | 核心发现                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- | --------------------- |
 | [[Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision\|Zn2+ Engineered Low-Barrier LiNbO3 Enabl...]] | 2025 | Nature Communications |
 ## 相关概念
 

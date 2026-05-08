@@ -1,0 +1,60 @@
+---
+title: "Adaptive Batch Normalization for Practical Domain Adaptation"
+authors:
+  - "Yanghao Li"
+  - "Naiyan Wang"
+  - "Jianping Shi"
+  - "Xiaodi Hou"
+  - "Jiaying Liu"
+date: "2018-03-06"
+year: 2018
+journal: "Pattern Recognition Letters"
+doi: "10.1016/j.patrec.2018.04.001"
+cite: "Li Y, Wang N, Shi J, et al. Adaptive Batch Normalization for practical domain adaptation[J]. Pattern Recognition Letters, 2018, 112: 109-117. DOI: 10.1016/j.patrec.2018.04.001."
+abstract: "Deep neural networks (DNN) have shown unprecedented success in various computer vision applications such as image classification and object detection. However, it is still a common annoyance during the training phase, that one has to prepare at least thousands of labeled images to fine-tune a network to a specific domain. Recent study (Tommasi et al., 2015) shows that a DNN has strong dependency towards the training dataset, and the learned features cannot be easily transferred to a different but relevant task without fine-tuning. In this paper, we propose a simple yet powerful remedy, called Adaptive Batch Normalization (AdaBN) to increase the generalization ability of a DNN. By modulating the statistics from the source domain to the target domain in all Batch Normalization layers across the network, our approach achieves deep adaptation effect for domain adaptation tasks. In contrary to other deep learning domain adaptation methods, our method does not require additional components, and is parameter-free. It archives state-of-the-art performance despite its surprising simplicity. Furthermore, we demonstrate that our method is complementary with other existing methods. Combining AdaBN with existing domain adaptation treatments may further improve model performance."
+abstract_cn: "深度神经网络（DNN）在图像分类和目标检测等计算机视觉应用中取得了前所未有的成功。然而在训练阶段，仍需准备至少数千张标注图像来微调网络以适应特定领域。本文提出一种简单而强大的方法——自适应批归一化（AdaBN），以提高 DNN 的泛化能力。通过在网络中所有批归一化层调整源域到目标域的统计量，我们的方法实现了域适应任务的深度适应效果。与其他深度学习域适应方法不同，本方法无需额外组件，且无参数。尽管简单得令人惊讶，却达到了最先进的性能。"
+aiSum: "AdaBN 域适应：调整 BN 统计量实现深度适应、无参数、无额外组件、可与现有方法互补。"
+keywords:
+  - "[[Training]]"
+  - "[[Deep learning]]"
+  - "[[Learning]]"
+---
+# Adaptive Batch Normalization for practical domain adaptation 
+
+Yanghao Li a , Naiyan Wang b , Jianping Shi c , Xiaodi Hou b , Jiaying Liu a,∗ 
+
+# a r t i c l e i n f o 
+
+Article history: 
+
+Received 13 August 2017 
+
+Revised 26 February 2018 
+
+Accepted 4 March 2018 
+
+Available online 6 March 2018 
+
+Keywords: 
+
+Domain adaptation 
+
+Batch normalization 
+
+Neural networks 
+
+# a b s t r a c t 
+
+Deep neural networks (DNN) have shown unprecedented success in various computer vision applications such as image classification and object detection. However, it is still a common annoyance during the training phase, that one has to prepare at least thousands of labeled images to fine-tune a network to a specific domain. Recent study (Tommasi et al., 2015) shows that a DNN has strong dependency towards the training dataset, and the learned features cannot be easily transferred to a different but relevant task without fine-tuning. In this paper, we propose a simple yet powerful remedy, called Adaptive Batch Normalization (AdaBN) to increase the generalization ability of a DNN. By modulating the statistics from the source domain to the target domain in all Batch Normalization layers across the network, our approach achieves deep adaptation effect for domain adaptation tasks. In contrary to other deep learning domain adaptation methods, our method does not require additional components, and is parameter-free. It archives state-of-the-art performance despite its surprising simplicity. Furthermore, we demonstrate that our method is complementary with other existing methods. Combining AdaBN with existing domain adaptation treatments may further improve model performance. 
+
+© 2018 Elsevier Ltd. All rights reserved. 
+
+# 1. Introduction 
+
+Training a DNN for a new image recognition task is expensive. It requires a large amount of labeled training images that are not easy to obtain. One common practice is to use labeled data from other related source such as a different public dataset, or harvesting images by keywords from a search engine. Because (1) the distributions of the source domains (third party datasets or Internet images) are often different from the target domain (testing images); and (2) DNN is particularly good at capturing dataset bias in its internal representation [2], which eventually leads to overfitting, imperfectly paired training and testing sets usually leads to inferior performance. 
+
+Known as domain adaptation, the effort to bridge the gap between training and testing data distributions has been discussed several times under the context of deep learning [3–6]. To make the connection between the domain of training and the domain of testing, most of these methods require additional optimization steps and extra parameters. Such additional computational burden 
+
+could greatly complicate the training of a DNN which is already intimidating enough for most people. 
+
+In this paper, we propose a simple yet effective approach called AdaBN 

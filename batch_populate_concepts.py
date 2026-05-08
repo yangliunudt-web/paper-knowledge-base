@@ -68,10 +68,10 @@ def get_paper_info(paper_path):
 
         # Build contribution string
         if ai_sum and len(ai_sum) > 15:
-            # Check if it's a generic placeholder
+            # Only filter truly empty/placeholder content (very short generic boilerplate)
             generic_patterns = [
-                "提出创新", "提出了一种", "本文提出", "本研究", "本文针对",
-                "一句话总结", "实验验证", "采用铁电",
+                "一句话总结：本文针对",
+                "采用铁电存储器器件，研究其在神经形态计算中的应用",
             ]
             if any(p in ai_sum for p in generic_patterns):
                 contribution = journal if journal else "-"
@@ -86,26 +86,20 @@ def get_paper_info(paper_path):
 
 
 def get_wiki_concepts(paper_path):
-    """Extract wiki_concepts list from a paper."""
+    """Extract wiki_concepts list using yaml.safe_load."""
     try:
+        import yaml
         content = paper_path.read_text(encoding="utf-8")
         m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
         if not m:
             return []
-        fm = m.group(1)
-        in_wiki_concepts = False
-        result = []
-        for line in fm.split("\n"):
-            if "wiki_concepts:" in line:
-                in_wiki_concepts = True
-                continue
-            if in_wiki_concepts:
-                if line.strip().startswith("- "):
-                    c = re.findall(r'\[\[(.*?)\]\]', line)
-                    result.extend(c)
-                elif line.strip() and not line.strip().startswith("-") and ":" in line:
-                    break
-        return result
+        fm = yaml.safe_load(m.group(1))
+        if not isinstance(fm, dict):
+            return []
+        wc = fm.get("wiki_concepts", [])
+        if isinstance(wc, list):
+            return [str(v).strip().strip('"').strip("'").replace("[[", "").replace("]]", "") for v in wc]
+        return []
     except Exception:
         return []
 

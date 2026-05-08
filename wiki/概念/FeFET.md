@@ -30,9 +30,8 @@ FeFET 利用铁电材料的可编程极化状态调制晶体管阈值电压，�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2024 | Nature Communications |
-| [[Unsupervised local learning based on voltagedependent synaptic plasticity for resistive and ferroelectric synapses\|Unsupervised local learning based on vol...]] | 2024 | Communications Materials |
-| [[Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor Motion Perception\|Ferroelectric Optoelectronic Sensor for ...]] | 2026 | Nano-Micro Letters |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次利用多级 FeFET 实现存内计算交叉阵列宏，1FeFET-1R 单元支持多位 MAC 操作，手写识别 96.6% 准确率，能效 885.4 TOPS/W。 |
+| [[Analog reservoir computing via ferroelectric mixed phase boundary transistors\|Analog reservoir computing via ferroelec...]] | 2024 | 利用 HfZrOx 混相边界材料的双栅 TFT 实现全集成模拟储备池计算系统，MPB TFT 作物理储备池和神经元，FeTFT 作突触，实现 5-bit |
 ## 相关概念
 
 - [[HfO2]]

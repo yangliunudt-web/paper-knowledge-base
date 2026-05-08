@@ -27,9 +27,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Hybrid neural networks for continual learning inspired by corticohippocampal circuits\|Hybrid neural networks for continual lea...]] | 2025 | Nature Communications |
-| [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | Nature Communications |
-| [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | Nature Communications |
+| [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | 全面综述持续学习的理论、方法和应用。定义核心目标为稳定性-可塑性权衡和跨任务泛化能力。提出五类方法分类：正则化、回放、优化、表示和架构方法。系统性分析各类方法的优缺点和适用场景。 |
 ## 相关概念
 
 - [[Catastrophic forgetting]]

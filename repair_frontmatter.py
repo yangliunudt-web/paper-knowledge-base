@@ -43,37 +43,42 @@ def is_broken(content):
 
 
 def extract_field(content, field):
-    """Extract a YAML field value from frontmatter only (between first and second ---)."""
+    """Extract a YAML field value using yaml.safe_load (handles all formats)."""
     parts = content.split("---", 1)
     if len(parts) < 2:
         return "" if field not in ("authors", "keywords", "wiki_concepts") else []
 
-    # Only look at content between first --- and the body start
-    # Body starts at: closing ---, or first line that looks like body text
     rest = parts[1]
     fm_end = rest.find("\n---")
-    if fm_end >= 0:
-        fm_area = rest[:fm_end]
-    else:
-        # No closing ---, estimate: stop at first line that is definitely body text
-        lines = rest.split("\n")
-        fm_lines = []
-        for line in lines:
-            if line.strip() and not re.match(r'^\s+', line) and not re.match(r'^\w+\s*:', line) and not line.startswith('-') and not line.startswith('#'):
-                break
-            fm_lines.append(line)
-        fm_area = "\n".join(fm_lines)
+    if fm_end < 0:
+        fm_end = len(rest)
+    fm_text = rest[:fm_end]
 
-    # For list-type fields (authors, keywords, wiki_concepts)
+    # Try yaml.safe_load first (handles yaml.dump format correctly)
+    try:
+        fm = yaml.safe_load(fm_text)
+        if isinstance(fm, dict):
+            val = fm.get(field, "")
+            if val is None:
+                return "" if field not in ("authors", "keywords", "wiki_concepts") else []
+            # Convert lists to string items for list-type fields
+            if field in ("authors", "keywords", "wiki_concepts"):
+                if isinstance(val, list):
+                    return [str(v).strip().strip('"').strip("'") for v in val]
+                return []
+            return str(val).strip().strip('"').strip("'")
+    except yaml.YAMLError:
+        pass
+
+    # Fallback to regex for broken YAML
     if field in ("authors", "keywords", "wiki_concepts"):
-        m = re.search(rf"^{field}\s*:\s*\n((?:\s+-.*\n)*)", fm_area, re.MULTILINE)
+        m = re.search(rf"^{field}\s*:\s*\n((?:\s+-.*\n)*)", fm_text, re.MULTILINE)
         if m:
             items = re.findall(r'-\s*"?(.*?)"?\s*$', m.group(1), re.MULTILINE)
             return items
         return []
 
-    # Scalar fields — use first match only
-    m = re.search(rf'^{field}\s*:\s*"?(.*?)"?\s*$', fm_area, re.MULTILINE)
+    m = re.search(rf'^{field}\s*:\s*"?(.*?)"?\s*$', fm_text, re.MULTILINE)
     if m:
         return m.group(1).strip()
     return ""

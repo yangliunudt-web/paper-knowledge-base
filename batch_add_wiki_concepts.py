@@ -131,36 +131,64 @@ def map_to_concepts(terms, alias_map):
 
 
 def add_wiki_concepts(paper_path, concepts):
-    """Add or update wiki_concepts field using safe rebuild (never breaks frontmatter)."""
+    """Add or update wiki_concepts field — rebuilds frontmatter with the field injected."""
     try:
-        # Use repair_frontmatter's safe rebuild approach
-        sys.path.insert(0, str(VAULT))
-        from repair_frontmatter import rebuild_frontmatter, extract_field
+        import yaml
 
         content = paper_path.read_text(encoding="utf-8")
+        parts = content.split("---", 2)
+        if len(parts) < 3:
+            return False  # can't parse
+        fm_text = parts[1]
+        body_text = parts[2]
 
-        # Get existing wiki_concepts
-        existing = set(extract_field(content, "wiki_concepts"))
+        # Parse current frontmatter
+        fm = yaml.safe_load(fm_text)
+        if not isinstance(fm, dict):
+            return False
+
+        existing = set()
+        if fm.get("wiki_concepts"):
+            existing = set(str(v).strip('"').strip("'").replace("[[", "").replace("]]", "") for v in fm["wiki_concepts"])
+
         all_concepts = existing | set(concepts)
-
         if all_concepts == existing:
-            return False  # No change needed
+            return False
 
-        # Rebuild with safe function
-        new_content = rebuild_frontmatter(content)
+        # Inject wiki_concepts
+        fm["wiki_concepts"] = [f"[[{c}]]" for c in sorted(all_concepts)]
 
-        # Now update wiki_concepts in the rebuilt content
-        concept_lines = "\n".join(f'  - "[[{c}]]"' for c in sorted(all_concepts))
-        new_field = f"wiki_concepts:\n{concept_lines}"
+        # Rebuild frontmatter with yaml.dump for safe escaping
+        fm_lines = ["---"]
+        # Custom dump to preserve field order and avoid long-line wrapping
+        field_order = ["title", "authors", "date", "year", "journal", "doi",
+                       "abstract", "abstract_cn", "keywords",
+                       "cite", "aiSum", "confidence", "wiki_concepts"]
+        for key in field_order:
+            if key not in fm:
+                continue
+            val = fm[key]
+            if key == "authors":
+                fm_lines.append("authors:")
+                for a in val:
+                    fm_lines.append(f'  - {yaml_dq_safe(str(a).strip(chr(34)+chr(39)))}')
+            elif key in ("keywords", "wiki_concepts"):
+                fm_lines.append(f"{key}:")
+                for item in val:
+                    s = str(item).strip(chr(34)+chr(39))
+                    if not s.startswith("[["):
+                        s = f"[[{s}]]"
+                    fm_lines.append(f'  - {yaml_dq_safe(s)}')
+            else:
+                s = str(val).strip(chr(34)+chr(39))
+                # Use literal style for short strings, double-quoted for long/LaTeX
+                if len(s) < 80 and '\\' not in s and '"' not in s and '\n' not in s:
+                    fm_lines.append(f'{key}: "{s}"')
+                else:
+                    fm_lines.append(f'{key}: {yaml_dq_safe(s)}')
+        fm_lines.append("---")
 
-        # Replace the wiki_concepts block (always present in rebuilt content)
-        new_content = re.sub(
-            r'wiki_concepts:\s*\n(?:.*\n)*?(?=\n\S|\n---)',
-            new_field + '\n',
-            new_content,
-            count=1,
-            flags=re.DOTALL
-        )
+        new_content = "\n".join(fm_lines) + "\n\n" + body_text.lstrip("\n")
 
         if not DRY_RUN:
             paper_path.write_text(new_content, encoding="utf-8")
@@ -168,6 +196,15 @@ def add_wiki_concepts(paper_path, concepts):
     except Exception as e:
         print(f"  Error: {paper_path.name}: {e}")
         return False
+
+
+def yaml_dq_safe(s):
+    """Return a YAML-safe double-quoted string, handling LaTeX backslashes."""
+    if not s:
+        return '""'
+    import yaml
+    dumped = yaml.dump(s, default_style='"', allow_unicode=True)
+    return dumped.strip()
 
 
 def add_keywords_to_frontmatter(paper_path, new_keywords):

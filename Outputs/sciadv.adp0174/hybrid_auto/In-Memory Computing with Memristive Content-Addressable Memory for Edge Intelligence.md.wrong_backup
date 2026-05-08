@@ -1,0 +1,73 @@
+---
+title: "In-Memory Computing with Memristive Content-Addressable Memory for Edge Intelligence"
+authors:
+  - "Xunzhao Yin"
+  - "Xiang Ao"
+  - "Zongjie Song"
+  - "Yudi Zhao"
+  - "Ke Liu"
+  - "Zehua Tang"
+  - "Yimeng Li"
+  - "Jing Wu"
+  - "Yuantao Xie"
+  - "Chenfei Shen"
+  - "Fangyu Yue"
+  - "Hongyu Sun"
+  - "Zeyan Liu"
+  - "Jianhui Bu"
+  - "Xiaolong Chen"
+  - "Mingxu Pi"
+  - "Dong Sun"
+  - "Xiaolong Zhao"
+  - "Lining Zhang"
+  - "Ming Liu"
+date: "2024-10-25"
+year: 2024
+journal: "Science Advances"
+doi: "10.1126/sciadv.adp0174"
+cite: "Yin X, Ao X, Song Z, et al. In-memory computing with memristive content-addressable memory for edge intelligence[J]. Science Advances, 2024, 10(43): eadp0174. DOI: 10.1126/sciadv.adp0174."
+abstract: "Computing in memory (CIM) breaks the conventional von Neumann bottleneck through in situ processing. Monolithic integration of digital and analog CIM hardware, ensuring both high precision and energy efficiency, provides a sustainable paradigm for increasingly sophisticated artificial intelligence (AI) applications but remains challenging. Here, we propose a complementary metal-oxide semiconductor–compatible ferroelectric hybrid CIM platform that consists of Boolean logic and triggers for digital processing and multistage cell arrays for analog computation. The basic ferroelectric-gated units are assembled with solution-processable two-dimensional (2D) molybdenum disulfide atomic-thin channels at a wafer-scale yield of 96.36%, delivering high on/off ratios (>10^7), high endurance (>10^12), long retention time (>10 years), and ultralow cycle-to-cycle/device-to-device variations (~0.3%/~0.5%). Last, we customize a highly compact 2D hybrid CIM system for dynamic tracking, achieving a high accuracy of 99.8% and a 263-fold improvement in power efficiency compared to graphics processing units."
+abstract_cn: "存内计算（CIM）通过原位处理打破传统冯·诺依曼瓶颈。数字和模拟 CIM 硬件的单片集成可同时确保高精度和高能效，为日益复杂的人工智能应用提供可持续范式，但仍具挑战性。本文提出一种兼容 CMOS 的铁电混合 CIM 平台，包含用于数字处理的布尔逻辑和触发器，以及用于模拟计算的多级单元阵列。基本铁电栅控单元采用溶液可加工的二维二硫化钼原子薄沟道组装，晶圆级良率达 96.36%，实现高开关比（>10^7）、高耐久性（>10^12）、长保持时间（>10年）和超低周期/器件变化（~0.3%/~0.5%）。"
+aiSum: "FeFET 混合 CIM：布尔逻辑+多级单元阵列、96.36% 良率、>10^12 耐久性、99.8% 跟踪精度、263 倍能效提升。"
+keywords:
+  - "[[Memory]]"
+  - "[[Integration]]"
+  - "[[Power]]"
+  - "[[CMOS]]"
+  - "[[In-memory computing]]"
+---
+Computing in memory (CIM) breaks the conventional von Neumann bottleneck through in situ processing. Monolithic integration of digital and analog CIM hardware, ensuring both high precision and energy efficiency, provides a sustainable paradigm for increasingly sophisticated artificial intelligence (AI) applications but remains challenging. Here, we propose a complementary metal-oxide semiconductor–compatible ferroelectric hybrid CIM platform that consists of Boolean logic and triggers for digital processing and multistage cell arrays for analog computation. The basic ferroelectric-gated units are assembled with solution-processable two-dimensional (2D) molybdenum disulfide atomic-thin channels at a wafer-scale yield of 96.36%, delivering high on/off ratios $( > 1 0 ^ { 7 } ) ,$ high endurance $( > 1 0 ^ { 1 2 } )$ , long retention time (>10 years), and ultralow cycle-to-cycle/device-to-device variations (~0.3%/~0.5%). Last, we customize a highly compact 2D hybrid CIM system for dynamic tracking, achieving a high accuracy of 99.8% and a 263-fold improvement in power efficiency compared to graphics processing units. These results demonstrate the potential of 2D fully ferroelectric-gated hybrid hardware for developing versatile CIM blocks for AI tasks.
+
+Copyright © 2024 The
+
+Authors, some rights
+
+reserved; exclusive
+
+licensee American
+
+Association for the
+
+Advancement of
+
+Science. No claim to
+
+original U.S.
+
+Government Works.
+
+Distributed under a
+
+Creative Commons
+
+Attribution
+
+NonCommercial
+
+License 4.0 (CC BY-­NC ).
+
+# INTRODUCTION
+
+Contemporary computing systems primarily follow the traditional von Neumann architecture, in which the core memory and processing units are physically separated. When dealing with massively parallel and adaptive artificial intelligence (AI) tasks, large amounts of data are transferred back and forth between the memory and processing units (1). This not only leads to severe energy efficiency degradation but also incurs inevitable latency. Although alternative approaches like graphics processing units (GPUs) have been proposed to speed up the calculations through performing the bulk of parallel operations (2), they are typically designed for specific applications, which is not likely to completely overcome the issue of data movement.
+
+To break the von Neumann bottleneck, the concept of computing in memory (CIM) sprang up. Targeting in situ computation within memory units, CIM suppresses the data transmission delays, providing a highly efficient solution for today’s AI applications (3). Via highly dense memory arrays, CIM also exhibits powerful computing parallelism capacity of implementing analog matrix-vector multiplication based on Ohm’s law (for product) and Kirchhoff ’s law (for summary). Nowadays, emerging nonvolatile memories (NVMs) such as memristors (4

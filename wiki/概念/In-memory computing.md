@@ -27,10 +27,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2024 | Nature Communications |
-| [[Accurate deep neural network inference using computational phase-change memory\|Accurate deep neural network inference u...]] | Unknown Year | Nature Communications |
-| [[Accurate deep neural network inference using computational phase-change memory\|Accurate deep neural network inference u...]] | Unknown Year | Nature Communications |
-| [[Unsupervised local learning based on voltagedependent synaptic plasticity for resistive and ferroelectric synapses\|Unsupervised local learning based on vol...]] | 2024 | Communications Materials |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次利用多级 FeFET 实现存内计算交叉阵列宏，1FeFET-1R 单元支持多位 MAC 操作，手写识别 96.6% 准确率，能效 885.4 TOPS/W。 |
 ## 相关概念
 
 - [[FeFET]]

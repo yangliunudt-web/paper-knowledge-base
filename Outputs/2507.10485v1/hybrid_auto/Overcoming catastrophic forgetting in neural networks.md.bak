@@ -1,0 +1,245 @@
+---
+title: "Overcoming Catastrophic Forgetting in Neural Networks"
+authors:
+  - "Brandon Shuen Yi Loke"
+  - "Filippo Quadri"
+  - "Gabriel Vivanco"
+  - "Maximilian Casagrande"
+  - "Saul Fenollosa"
+date: "2025-07-15"
+year: 2025
+journal: "arXiv"
+doi: "arXiv:2507.10485"
+abstract: "Catastrophic forgetting is the primary challenge hindering continual learning in neural networks. This study replicates and extends Elastic Weight Consolidation (EWC) evaluation in supervised learning settings using PermutedMNIST and RotatedMNIST benchmarks. Through systematic comparisons with L2 regularization and stochastic gradient descent (SGD) without regularization, analyzes how different approaches balance knowledge retention and adaptability. Results confirm EWC significantly reduces forgetting compared to naive training while slightly compromising learning efficiency on new tasks. Investigates the impact of dropout regularization and varying hyperparameters, offering insights into EWC generalization across diverse learning scenarios."
+abstract_cn: "灾难性遗忘是阻碍神经网络持续学习的主要挑战。本研究复现并扩展了弹性权重固化 (EWC) 在监督学习设置中的评估，使用 PermutedMNIST 和 RotatedMNIST 基准。通过与 L2 正则化和无正则化的随机梯度下降 (SGD) 系统比较，分析不同方法如何平衡知识保留和适应性。结果证实 EWC 相比朴素训练显著减少遗忘，同时轻微影响新任务学习效率。研究 dropout 正则化和超参数变化的影响，为 EWC 在不同学习场景中的泛化提供见解。"
+cite: "[1] Loke B S Y, Quadri F, Vivanco G, et al. Overcoming catastrophic forgetting in neural networks[J]. arXiv:2507.10485, 2025."
+aiSum: "EWC 监督学习评估：PermutedMNIST/RotatedMNIST 基准，相比 SGD 显著减少遗忘，研究 dropout 和超参数影响。"
+---
+
+Brandon Shuen Yi Loke, Filippo Quadri, Gabriel Vivanco, Maximilian Casagrande, Saul Fenollosa ´ Ecole Polytechnique F ´ ed´ erale de Lausanne ´
+
+Abstract—Catastrophic forgetting is the primary challenge that hinders continual learning, which refers to a neural network ability to sequentially learn multiple tasks while retaining previously acquired knowledge. Elastic Weight Consolidation, a regularization-based approach inspired by synaptic consolidation in biological neural systems, has been used to overcome this problem. In this study prior research is replicated and extended by evaluating EWC in supervised learning settings using the PermutedMNIST and RotatedMNIST benchmarks. Through systematic comparisons with L2 regularization and stochastic gradient descent (SGD) without regularization, we analyze how different approaches balance knowledge retention and adaptability. Our results confirm what was shown in previous research, showing that EWC significantly reduces forgetting compared to naive training while slightly compromising learning efficiency on new tasks. Moreover, we investigate the impact of dropout regularization and varying hyperparameters, offering insights into the generalization of EWC across diverse learning scenarios. These results underscore EWC’s potential as a viable solution for lifelong learning in neural networks.
+
+# I. INTRODUCTION
+
+An open challenge in Machine Learning is continuous learning, where a model gradually learns successive tasks without forgetting the previous ones. The main obstacle is therefore catastrophic forgetting, which is the tendency of neural networks to lose performance on previously learned tasks when learning new ones [1]. This occurs when weights learned on earlier tasks are rewritten when trained on a different subsequent task. Overcoming this problem is essential for the development of scalable and robust systems capable of adapting to dynamic environments.
+
+The seminal work by James Kirkpatrick et al. [2] introduced Elastic Weight Consolidation (EWC), a method inspired by neurobiological synaptic consolidation, to address catastrophic forgetting. EWC selectively reduces the plasticity of crucial weights for prior tasks, ensuring that learning the new ones minimally disrupts previous knowledge (Figure 1). The original study demonstrate the effectiveness of EWC using the PermutedMNIST dataset and Atari games, with a primary focus on reinforcement learning scenarios.
+
+In this project, EWC study is extended to supervised learning by reproducing and comparing the results from Figure 2A and 2B of the original paper [2] on PermutedMNIST and RotatedMNIST. The reported analysis contrasts EWC performance with naive L2 regularization and no regularization, providing therefore insights into the relative strengths and weaknesses of each method.
+
+This work aims to evaluate EWC’s effectiveness in mitigating catastrophic forgetting and its potential as a general solution for sequential task learning in supervised settings.
+
+The results obtained are discussed in Sec. V. Additional experiments, which were not part of the original paper, are presented in the appendix, along with a description of the code structure used.
+
+![](images/7f8ef0878d34ee2c5444d98eac66a26a485dbfaaa3ac26220934d3a5c37f438b.jpg)  
+Fig. 1: Schematic representation of EWC principle: learning a specific task establishes a range for each parameter of interest, within which it can vary without causing forgetting. Acquiring a new task requires adjusting the parameters to align with the overlapping ranges of previously learned tasks. [2]
+
+# II. MODELS AND METHODS
+
+# A. Neural Network Architecture
+
+A fully connected feed-forward network (FCN) is adopted, featuring two hidden layers of 400 neurons each and ReLU activation. Let $\mathbf { x } \in \mathrm { R } ^ { 7 8 4 }$ represent a flattened 28 × 28 MNIST image, and let $\theta = \{ \mathbf { W } ^ { ( 1 ) } , \mathbf { b } ^ { ( 1 ) } , \mathbf { W } ^ { ( 2 ) } , \mathbf { b } ^ { ( 2 ) } , \mathbf { W } ^ { ( 3 ) } , \mathbf { b } ^ { ( 3 ) } \}$ be the parameters, with the layer denoted in the superscript. The forward pass is given by:
+
+$$
+\mathbf {h} _ {1} = \operatorname {R e L U} \left(\mathbf {W} ^ {(1)} \mathbf {x} + \mathbf {b} ^ {(1)}\right), \quad \mathbf {h} _ {2} = \operatorname {R e L U} \left(\mathbf {W} ^ {(2)} \mathbf {h} _ {1} + \mathbf {b} ^ {(2)}\right) \tag {1}
+$$
+
+$$
+\hat {\mathbf {y}} = \mathbf {W} ^ {(3)} \mathbf {h} _ {2} + \mathbf {b} ^ {(3)} \tag {2}
+$$
+
+where ˆy is the logit output over the 10 classes. Training proceeds by minimizing the cross-entropy loss between the predicted distribution and the true labels. It is unclear in the original paper if batch normalization is used. Nevertheless, we include it in our model to enhance the network’s performance. This is a technique that normalizes a layer’s inputs by recentering and rescaling.
+
+Where dropout is used in reproducing the figures, a probability of 0.2 was applied to the input layer and a probability of
+
+0.5 applied to the hidden layers — inline with the parameters used in the paper.
+
+Early stopping was also implemented just as the authors did. If the validation error during cross-validation increased for more than five continuous iterations, the training is halted and the next dataset is used. The weights used are those computed before the rise in five continuous increases in validation error.
+
+In general, parameters specified in the paper are also used in the study. When it is unclear what the original authors’ chosen parameter is, cross-validation was performed to select the optimal parameter that minimizes the validation error.
+
+The original paper proposed a number of epochs per task ranging from 20 to 100. To evaluate the impact of training duration, experiments were conducted using both the same range of epochs and different values.
+
+# B. Continual Learning Tasks
+
+Two benchmarks for catastrophic forgetting are considered:
+
+• Permuted MNIST: Each task permutes the pixels of the MNIST images in a unique, fixed manner, as seen in Figure 2. Formally, each task t is defined by a permutation $\pi _ { t } .$ , and each sample x is transformed into $\mathbf { x } ^ { \prime }$ according to $\pi _ { t } .$ . This benchmark was popularized in the context of continual learning by [3].   
+• Rotated MNIST: Each task rotates MNIST digits by a fixed angle, as shown in Figure 2. Denoting by $R _ { \alpha _ { t } }$ the rotation by angle $\alpha _ { t }$ , each image x is replaced by $R _ { \alpha _ { t } } ( \mathbf { x } )$ .
+
+Tasks are presented in a fixed sequence, and the model is trained on each task in turn.
+
+# C. Regularization Approaches
+
+a) Naive Training (SGD): A baseline model is trained sequentially on each task with standard stochastic gradient descent (SGD) and momentum. No mechanism is introduced to preserve older tasks knowledge, which typically results in significant catastrophic forgetting [3],
+
+![](images/d50ade89e3d9a4a8b05e1ea70cec22b585028fedeb0105ff70d029b896956615.jpg)  
+Fig. 2: Visualization of dataset transformations: The first column shows the original MNIST digits. The second column presents the same digits after applying a fixed random permutation to the pixels (PermutedMNIST). The third column displays the digits rotated by a $5 0 ^ { \circ }$ (RotatedMNIST).
+
+b) L2 Regularization: A simple approach to mitigate forgetting involves applying an L2 penalty on parameter changes. If $\mathcal { L } _ { t } ( \boldsymbol { \theta } )$ is the cross-entropy loss for task t, and $\theta _ { A } ^ { * }$ are the parameters optimized for task A, then for a subsequent task B :
+
+$$
+\mathcal {L} (\theta) = \mathcal {L} _ {B} (\theta) + \frac {\lambda_ {\mathrm {L} 2}}{2} \left\| \theta - \theta_ {A} ^ {*} \right\| ^ {2}, \tag {3}
+$$
+
+where $\lambda _ { \mathrm { L 2 } } > 0$ balances the constraint.
+
+c) Elastic Weight Consolidation (EWC): EWC improves on L2 by weighting each parameter’s penalty according to the Fisher information matrix F . Let $F _ { A }$ be computed after training task A, approximated diagonally. The EWC loss on task B is:
+
+$$
+\mathcal {L} (\theta) = \mathcal {L} _ {B} (\theta) + \frac {\lambda_ {\mathrm {E W C}}}{2} \sum_ {i} F _ {A, i} \left(\theta_ {i} - \theta_ {A, i} ^ {*}\right) ^ {2}. \tag {4}
+$$
+
+Parameters with higher $F _ { A , i }$ are penalized more strongly, thus preserving task A. The generalization of the formula for t tasks is
+
+$$
+\mathcal {L} (\theta) = \mathcal {L} _ {T + 1} (\theta) + \frac {\lambda_ {\mathrm {E W C}}}{2} \sum_ {t} \sum_ {i} F _ {t, i} \left(\theta_ {i} - \theta_ {t, i} ^ {*}\right) ^ {2}. \tag {5}
+$$
+
+# D. Training and Cross Validation
+
+Training was performed using mini-batch SGD and momentum. Hyperparameters such as batch size, momentum, and λ values (for both L2 and EWC) are selected via cross validation, particularly focusing on batch sizes (32, 64, or 128), momentum values (0 − 0.9), and regularization coefficients λ ranging from $1 \cdot 1 0 ^ { - 5 } - 1$ for the L2 case and from $1 - 1 \cdot 1 0 ^ { 4 }$ for the EWC. The validation accuracy is monitored to select optimal configurations. After this, the model is trained sequentially on tasks, reporting test accuracy for each previously learned task to measure performance degradation (forgetting) and average accuracy (forward transfer).
+
+# III. EXPERIMENTAL SETUP
+
+This section details the findings from three principal experiments: (i) hyperparameter optimization through crossvalidation, (ii) sequential learning on permuted MNIST, and (iii) sequential learning on rotated MNIST. The results highlight the magnitude of catastrophic forgetting across different regularization schemes and quantify how effectively each scheme preserves knowledge from earlier tasks.
+
+# A. Cross-Validation
+
+The cross-validation results for both standard SGD (without regularization) and L2-regularized SGD showed that a batch size of 32 and a momentum of 0.6 provided a good balance between stable convergence and efficient training, achieving approximately 95% accuracy on validation test sets. For L2 regularization, the best performance was observed with $\lambda _ { L 2 }$ ≈ 0.01. Experiments with higher values of $\lambda _ { L 2 }$ occasionally led to numerical instabilities, such as loss divergence or $\bf { \delta } ^ { \prime } N a N ^ { \prime }$ losses. In the case of EWC, the optimal batch size was found to be 16, with a momentum of 0.2 and $\lambda _ { E W C } = 1 0 0 0$ . Here
+
+again, excessively high values of λEW C sometimes resulted in loss divergence during training.
+
+For the final experiments replicating the first figure, a batch size of 64 was used, with a momentum of 0.6 for both SGD and L2, and 0 for EWC, along with $\lambda _ { L 2 } = 0 . 0 1$ and $\lambda _ { E W C } =$ 10000 (or $\lambda _ { E W C } = 2 0 0 0 0$ depending on the task). For the second figure, additional cross-validation was performed on the SGD - Dropout case, tuning the learning rate and hidden layer size. The best-performing hyperparameters were found to be a learning rate of $1 \times 1 0 ^ { - 3 }$ and a hidden layer width of 800. It is important to note that these parameters may not be the absolute optimal ones but offer a reasonable trade-off between runtime and accuracy.
+
+# B. Permuted MNIST
+
+For the permuted MNIST benchmark, each task was created by applying a distinct random permutation to the pixels of the original MNIST images. The different models – plain stochastic gradient descent (SGD), L2-penalized SGD, and elastic weight consolidation (EWC) – were trained on each new permutation sequentially. At the end of each task’s training, the accuracy on previously learned permutations was re-evaluated to measure forgetting. Performance metrics include per-task accuracy curves during training and the overall average accuracy across all tasks to illustrate each method’s capacity to maintain previously acquired knowledge. For the replication of the first figure, all models were evaluated on three permutations, whereas for the second figure, only SGD and EWC (with and without dropout) were tested across ten tasks.
+
+# C. Rotated MNIST
+
+In the rotated MNIST setting, each task was generated by rotating the MNIST digits by an increment of 10◦. A total of ten rotations, from $0 ^ { \circ }$ to $9 0 °$ , were used to produce ten sequential tasks. As in the permuted case, models were trained on each new rotation and then tested on all previously learned rotations, facilitating a direct assessment of forgetting. Data was collected on task-specific accuracy throughout training, as well as the average performance over the entire set of tasks. Comparing these metrics for each regularization approach elucidates the extent to which rotation-induced variability exacerbates or mitigates catastrophic forgetting. Here again, for the replication of the first figure, all models were evaluated on three permutations, whereas for the second figure, only SGD and EWC (with and without dropout) were tested across ten tasks.
+
+# D. Expected Patterns
+
+The experiments are designed to observe the progressive decay in accuracy on older tasks as each subsequent task is introduced. Plain SGD typically exhibits more pronounced catastrophic forgetting, whereas using L2 regularization is expected to partially constrain parameter drift and thus retain moderate performance on old tasks. However, this comes at the cost of encountering serious problem in learning new ones.
+
+EWC, which prioritizes parameters deemed critical for prior tasks via the Fisher information, is hypothesized to mitigate forgetting more effectively. The collected plots present taskwise performance and overall averaged performance at each training phase, illustrating how well each approach balances learning of new data with retention of prior knowledge.
+
+# IV. RESULTS
+
+As previously described, the experiments from the original paper [2] were replicated on two datasets: PermutedMNIST (as in the original study) and RotatedMNIST. The results for PermutedMNIST are presented in Figure 3, while those for RotatedMNIST are provided in the Appendix section, on Figure 4b and Figure 5b. Additional variations of the original experiments were conducted, including an evaluation of EWC with dropout regularization, an evaluation for a Mixed Dataset, a comparison of 10-task performance using different numbers of epochs, and the implementation of early stopping. All corresponding figures are available in the Appendix section, Figure 4 and Figure 5.
+
+# V. DISCUSSION
+
+Let’s begin by analyzing the three-task comparison (Appendix, Figure 4) for four case studies: Permuted MNIST, Rotated MNIST (0°, 40° and 90°), Mixed MNIST (Rotated 0°, Permuted, Rotated 90°), and Permuted MNIST - Dropout, where a Dropout regularization is added to the networks. Dropout regularization is a technique used to prevent overfitting in neural networks. During training, random neurons are “dropped out” (set to zero) at each iteration with a certain probability. This forces the network to rely on multiple pathways, making it more robust and less likely to overfit to the training data.
+
+It can generally be observed that EWC regularization better prevents catastrophic forgetting, particularly for Task A. However, the improved maintenance of performance on Task A sometimes results in slightly lower learning performance on subsequent tasks. Another interesting observation is that the permuted tasks exhibit less forgetting compared to the rotated ones, likely because the permutation only requires learning a pattern, while the rotation (with a big difference in angle from a task to another) involves more complex transformations that change the input significantly across tasks. An additional experiment with Rotated MNIST at angles of 0°, 10°, and 20° showed nearly the same performance as in Permuted MNIST (Appendix, Figure 4e). The Permuted MNIST - Dropout and Mixed Task cases are interesting. Dropout learns in a slightly worse way than the simple permutation due to fewer neurons being used. In this case, the EWC regularization reduces forgetting by leaving more “elastic” neurons for later tasks. In contrast, SGD and L2 regularizations cause a significant drop in Task A performance when learning Task C. This happens because they tightly constrain the model to the task they are learning, making it harder to retain knowledge from earlier ones, leading to catastrophic forgetting. Also in the Mixed Task case, the EWC performs better than the SDG and L2 cases,
+
+![](images/61052a086e239b437a71c11bd400684982f92fc74371f1ae24aecabefbc9c056.jpg)  
+Permuted MNIST
+
+![](images/aa5bc2cd64201fa2836cbf4942d519734b2066887d3e77bdc4df38cb44c1377d.jpg)  
+EWC vs SGD,10 epochs per task - Permuted MNIST   
+Fig. 3: Custom reproduction of the two figures from the original paper [2]. The left figure compares the performance of SGD, SGD + L2 regularization, and SGD + EWC regularization on three permutations. The right figure presents a similar comparison across 10 different tasks, evaluating SGD and EWC models (with and without dropout). As a reference, Single Task Performance is computed, corresponding to the accuracy on the Task 1 test set after training with the SGD + Dropout model.
+
+demonstrating its ability to generalize better across tasks and reduce catastrophic forgetting.
+
+For the ten-task comparison (Appendix, Figure 5), only the SGD method and EWC (with and without dropout regularization) were tested. The original paper recommends training for 100 epochs per task with early stopping. Early stopping is configured with a patience of 5 epochs, based on the validation set, which includes all the test sets of previously learned tasks. However, in our experiments, Figure 5c and 5d, it was observed that using this validation set, the majority of tasks were effectively trained for only two epochs. This early stopping wasn’t due to overfitting, but rather the forgetting of previously learned tasks. While the reduced number of effective tasks might be sufficient for the simple tasks we studied, it doesn’t fully reflect a real-world scenario. Thus, an additional test was run (Figure 5a and 5b) where each task was trained for a fixed 10 epochs without early stopping. The results show that catastrophic forgetting is less pronounced with EWC compared to SGD, particularly in terms of performance on the first task. As mentioned earlier, the Rotated MNIST task appears harder to ”remember”, and a noticeable difference between the two methods in both the first task performance and overall performance (evaluated by combining the test sets of all previously learned tasks) can be observed. In contrast, for the Permuted MNIST task, only the performance on the first task is significantly better for EWC. As shown in Figure 4a, all models perform well on this dataset, with less pronounced forgetting. Therefore, the relatively minor forgetting of previous tasks, coupled with strong learning of new tasks, may yield similar results to EWC.
+
+# VI. CONCLUSION
+
+The numerical results demonstrate that Elastic Weight Consolidation is an effective regularization method for mitigating catastrophic forgetting. By selectively reducing the plasticity of certain parameters, EWC enables continual learning
+
+with minimal degradation of previously acquired knowledge. Our implementation successfully replicates the results from Kirkpatrick et al. [2], particularly on the PermutedMNIST benchmark, where EWC outperforms SGD and L2 regularization. Despite these promising results, our implementation does not fully match the accuracy reported in the original paper. This discrepancy could stem from differences in hyperparameter tuning, network architecture, or computational constraints that limited our ability to explore a broader parameter space. Furthermore, the near-perfect performance reported raises questions about potential implicit biases or undisclosed training tricks. From a broader perspective, the ability to retain knowledge across sequential tasks has significant applications, particularly in lifelong learning systems, robotics, and adaptive AI. EWC can be instrumental in environments requiring such continual adaptation. However, its effectiveness is still constrained by the nature of the tasks. Future work could explore hybrid approaches, combining EWC with alternative strategies, to further improve long-term retention while maintaining adaptability to new tasks. Additionally, applying these techniques to more complex real-world datasets beyond MNIST would provide further insights into their scalability and practical usability.
+
+# REFERENCES
+
+[1] R. French, “Catastrophic forgetting in connectionist networks,” Trends in Cognitive Sciences, vol. 3, no. 4, p. 128–135, Apr. 1999. [Online]. Available: https://linkinghub.elsevier.com/retrieve/pii/S1364661399012942   
+[2] J. Kirkpatrick, R. Pascanu, N. Rabinowitz, J. Veness, G. Desjardins, A. A. Rusu, K. Milan, J. Quan, T. Ramalho, A. Grabska-Barwinska, D. Hassabis, C. Clopath, D. Kumaran, and R. Hadsell, “Overcoming catastrophic forgetting in neural networks,” Proceedings of the National Academy of Sciences, vol. 114, no. 13, p. 3521–3526, Mar. 2017. [Online]. Available: http://dx.doi.org/10.1073/pnas.1611835114   
+[3] I. J. Goodfellow, M. Mirza, D. Xiao, A. Courville, and Y. Bengio, “An empirical investigation of catastrophic forgetting in gradient-based neural networks,” arXiv preprint arXiv:1312.6211, p. 3521–3526, Mar. 2013. [Online]. Available: https://arxiv.org/abs/1312.6211
+
+# APPENDIX
+
+# BENCHMARK PERFORMANCE COMPARISONS
+
+![](images/1facad2dbb56a6900744050039d2b4fa48834bebca5ef7fac1d108a3f7c44703.jpg)  
+Permuted MNIST
+
+RotatedMNIST   
+![](images/f41991defaac403a8b10d4fefdad049e7a23674f79ff739f6517bee75b575e8e.jpg)  
+(a) Accuracy curves for the PermutedMNIST benchmark across three tasks, comparing standard SGD, L2 regularization, and EWC.   
+(b) Accuracy curves for the RotatedMNIST benchmark at 0°, 40°, and 90° rotation angles, showing performance degradation across tasks.
+
+![](images/60eaf6606dbf0b2f73278201401e5b7f6d3de36d085d0d0f7dcf5dfd41351619.jpg)
+
+![](images/9531f92616661db2b790521fd4a1e7d4536024ce7f7693c4056fe13600fb6f29.jpg)  
+(c) Results on a mixed benchmark (Rotated 0°, Permuted, Rotated 90°), demonstrating the relative effectiveness of EWC in heterogeneous task sequences.   
+(d) PermutedMNIST with Dropout: Performance comparison of SGD, L2, and EWC when dropout regularization is applied, highlighting its effect on stability.
+
+Rotated MNIsT- Small Angles
+
+Fig. 4: Comparison of different regularization methods on three-task benchmarks.   
+![](images/7dbd841853f00f051ef26246d2bedeb6b5c5d5b373e4c4ced1005c31ec3d07bf.jpg)  
+(e) Accuracy curves for the RotatedMNIST benchmark at smaller angles (0°, 10°, and 20°), showing notably less performance degradation across tasks.
+
+![](images/c59b588bcaac7e448361d9e836cf27b15781cf0c5e7e4a290cc78590ca15822f.jpg)  
+(a) Sequential task learning results for SGD and EWC on PermutedMNIST across ten tasks, with 10 epochs per task, showing the extent of catastrophic forgetting.
+
+![](images/3030383ef4f2a721a905e077a8ccd0248ee220661b7093b3ee2a8dba80d92378.jpg)  
+(b) Sequential task learning results using RotatedMNIST. 10 epochs per task were performed.
+
+![](images/d3d01eaef5cc377d7e5d167c79369f3d5f7b6f940386dd9c82fdcc15c70f6309.jpg)  
+(c) Results from Sequential task learning on PermutedMNIST across ten tasks, with 100 epochs per task and early stopping.
+
+![](images/75764ae41389c545209ca33bec5b654aeb205c808e7242a30160532a405430f5.jpg)  
+(d) Sequential task learning results for SGD and EWC on RotatedMNIST, where task complexity affects retention across methods. 100 epochs per task were performed and early stopping technique was applied.   
+Fig. 5: Performance analysis on the ten-task benchmark.
+
+The project includes a set of utility scripts and notebooks to facilitate dataset generation, model training, and evaluation. Below is an overview of the key components:
+
+# A. Utility Scripts
+
+Located in the utils folder:
+
+• data_utils.py: Utilities for dataset generation.   
+• ewc.py: Implementation of EWC regularization.   
+• l2.py: Definition of L2 regularization.   
+• train_utils.py: Functions for training the models.   
+• viz_utils.py: Functions for visualizing results.
+
+# B. Notebooks
+
+• overcoming_catastrophic_forgetting_cross_val.ipynb: Used for cross-validation to optimize model parameters.   
+• overcoming_catastrophic_forgetting_in_NN.ipynb: Used for building and training the fully connected neural network (from now referred as NN_notebook).
+
+# FIGURE REPRODUCTION
+
+This section provides a brief explanation of how to reproduce the subfigures in Figure 4 and Figure 5.
+
+# C. Figure 4
+
+The subfigures in Figure 4 were generated using the first part of the NN_notebook.
+
+• Figure 4a: All networks are of type FCN, and the data loaders were generated using Permuted MNIST.   
+• Figure 4b: All networks are of type FCN, and the data loaders were generated using Rotated MNIST with rotation angles of 0°, 40°, and 90°.   
+• Figure 4c: All networks are of type FCN, and the data loaders for the three tasks were: Rotated 0°, Permuted, and Rotated 90°.   
+• Figure 4d: All networks are of type FCN_Dropout, and the data loaders were generated using Permuted MNIST.   
+• Figure 4e: All networks are of type FCN, and the data loaders were generated using Rotated MNIST with rotation angles of 0°, 10°, and 20°.
+
+# D. Figure 5
+
+The subfigures in Figure 5 were generated using the second part of the NN_notebook.
+
+• Figures 5a and 5b: The second part of the notebook was executed with the train_with_avg_perf function configured to a patience of 15 and 10 epochs (without early stopping).   
+• Figures 5c and 5d: The second part of the notebook was executed with the train_with_avg_perf function configured to a patience of 5 and 100 epochs.
+
+# TASK DISTRIBUTION
+
+The majority of the work was carried out collaboratively by the entire group. However, specific tasks were primarily handled by the following members:
+
+• L2 and SGD: Saul Fenollosa, Maximilian Casagrande ´   
+• EWC: Filippo Quadri, Gabriel Vivanco   
+• Cross Validation: Brandon Shuen Yi Loke   
+• Report: All group members

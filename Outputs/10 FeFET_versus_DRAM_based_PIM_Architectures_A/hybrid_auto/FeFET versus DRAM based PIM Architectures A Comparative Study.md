@@ -10,40 +10,17 @@ date: "2023-03-01"
 year: 2023
 journal: "IEEE Transactions on Computers"
 doi: "10.1109/TC.2023.3253467"
-abstract: "The throughput and energy efficiency of compute-centric architectures for memory\
-  \ intensive Deep Neural Networks (DNN) applications are limited by memory bound\
-  \ issues like high data-access energy, long latencies, and limited bandwidth. Processing-in-Memory\
-  \ (PIM) is a very promising approach to address these challenges and bridge the\
-  \ memory-computation gap. PIM places computational logic inside the memory to exploit\
-  \ minimum data movement and massive internal data parallelism. There are currently\
-  \ two PIM trends: 1) Use of emerging non-volatile memories to perform highly parallel\
-  \ analog computation of MAC operations and implicit storage of weights within the\
-  \ memory arrays, and 2) exploiting mature memory technologies that are enhanced\
-  \ by additional logic to enable efficient computation of MAC operations near the\
-  \ memory arrays. In this paper, we compare both trends from an architectural perspective.\
-  \ Our study mainly emphasizes on FeFET memories (an emerging memory candidate) and\
-  \ DRAM memories (a mature memory candidate). We highlight the major architectural\
-  \ constraints of these memory candidates that impact the PIM designs and their overall\
-  \ performance. Finally, we assess feasible choice of candidate for different computations\
-  \ or DNN task types."
-abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞吐量和能效受限于内存瓶颈问题，如高数据访问能耗、长延迟和有限带宽。存内计算（PIM）是解决这些挑战的有前景方法，通过将计算逻辑放置在存储器内部来最小化数据移动并利用大规模内部数据并行性。目前有两种\
-  \ PIM 趋势：1）使用新兴非易失性存储器在存储阵列内执行高度并行的模拟 MAC 计算并隐式存储权重；2）利用成熟存储技术并通过额外逻辑增强以在存储阵列附近实现高效的\
-  \ MAC 计算。本文从架构角度比较这两种趋势，重点关注 FeFET 存储（新兴存储候选）和 DRAM 存储（成熟存储候选），分析这两种存储候选对 PIM 设计和整体性能的主要架构约束，最后评估不同计算或\
-  \ DNN 任务类型的可行候选选择。"
+abstract: "The throughput and energy efficiency of compute-centric architectures for memory\\"
+abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞吐量和能效受限于内存瓶颈问题，如高数据访问能耗、长延迟和有限带宽。存内计算（PIM）是解决这些挑战的有前景方法，通过将计算逻辑放置在存储器内部来最小化数据移动并利用大规模内部数据并行性。目前有两种\\"
 keywords:
   - "[[PIM]]"
   - "[[FeFET]]"
   - "[[DRAM]]"
   - "[[DNN accelerator]]"
   - "[[In-memory computing]]"
-cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures:\
-  \ A Comparative Study[J]. IEEE Transactions on Computers, 2023, 72(5): 1320-1335.\
-  \ DOI: 10.1109/TC.2023.3253467."
-aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM\
-  \ 支持双模式（存储+计算）、高容量（16Gb）、适合训练，但 MAC 能耗高（~1pJ）且架构约束大。"
+cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures:\\"
+aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM\\"
 confidence: medium
-wiki_concepts:
-  - "[[FeFET]]"
 ---
 
 # [[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study
