@@ -1,5 +1,28 @@
 ---
+
 title: "Ferroelectric Transistors for Memory and Neuromorphic Computing"
+authors:
+  - "Ik-Jyae Kim"
+  - "Jang-Sik Lee"
+date: "2022-12-01"
+year: 2022
+journal: "Advanced Materials"
+doi: "10.1002/adma.202206864"
+abstract: "Ferroelectric transistors based on HfO2 have attracted considerable attention for memory and neuromorphic device applications due to their CMOS compatibility, fast operation speed, low operation voltages, and high scalability. This review covers device structures, working principles, memory characteristics, and neuromorphic computing applications of ferroelectric transistors."
+abstract_cn: "基于HfO2的铁电晶体管因其CMOS兼容性、快速操作速度、低操作电压和高可缩放性在存储和神经形态器件应用中引起了广泛关注。本文综述了铁电晶体管的器件结构、工作原理、存储特性和神经形态计算应用。"
+keywords:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
+  - "[[Neuromorphic computing]]"
+cite: "Kim I J, Lee J S. Ferroelectric transistors for memory and neuromorphic computing[J]. Advanced Materials, 2022, 34(49): 2206864. DOI: 10.1002/adma.202206864."
+aiSum: "综述HfO2基FeFET在存储和神经形态计算中的应用：器件结构、工作原理、存储特性和突触应用。"
+confidence: high
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # Ferroelectric Transistors for Memory and Neuromorphic Device Applications

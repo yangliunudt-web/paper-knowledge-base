@@ -1,7 +1,45 @@
 ---
-title: "Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor\
-  \ Motion Perception"
+title: "Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In-Sensor Motion Perception"
+authors:
+  - "Jiayun Wei"
+  - "Guokun Ma"
+  - "Runzhi Liang"
+  - "Wenxiao Wang"
+  - "Jiewei Chen"
+  - "Shuang Guan"
+  - "Jiaxing Jiang"
+  - "Ximo Zhu"
+  - "Qian Cheng"
+  - "Yang Shen"
+  - "Qinghai Xia"
+  - "Shiwen Wu"
+  - "Houzhao Wan"
+  - "Longhui Zeng"
+  - "Hao Wang"
+date: "2026-01-01"
+year: 2026
+journal: "Nano-Micro Letters"
+doi: ""
+abstract: "A ferroelectric optoelectronic sensor based on Ga2O3 and In2Se3 heterostructure for intelligent flame detection and in-sensor motion perception, demonstrating multi-functional sensing capabilities."
+abstract_cn: "基于Ga2O3和In2Se3异质结构的铁电光电传感器，用于智能火焰检测和传感器内运动感知，展示了多功能传感能力。"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[optoelectronic sensor]]"
+  - "[[flame detection]]"
+  - "[[Ga2O3]]"
+  - "[[In2Se3]]"
+cite: "Wei J, Ma G, Liang R, et al. Ferroelectric optoelectronic sensor for intelligent flame detection and in-sensor motion perception[J]. Nano-Micro Letters, 2026, 18: 12. (待补充DOI)"
+aiSum: "Ga2O3/In2Se3异质结铁电光电传感器：智能火焰检测+传感器内运动感知，多功能传感。"
+confidence: high
+wiki_concepts:
+  - "[[Ferroelectric]]"
 ---
+
+# Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In-Sensor Motion Perception
+
+Cite as Nano-Micro Lett. (2026) 18:12
+
+Received: 21 June 2025 Accepted: 9
 
 # Ferroelectric Optoelectronic Sensor for Intelligent Flame Detection and In‑Sensor Motion Perception
 

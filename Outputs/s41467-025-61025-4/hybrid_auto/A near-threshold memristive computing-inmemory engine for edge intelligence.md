@@ -1,5 +1,40 @@
 ---
-title: "A near-threshold memristive computing-inmemory engine for edge intelligence"
+
+title: "A Near-Threshold Memristive Computing-in-Memory Engine for Edge Intelligence"
+authors:
+  - "Linfang Wang"
+  - "Weizeng Li"
+  - "Zhidao Zhou"
+  - "Junjie An"
+  - "Wang Ye"
+  - "Zhi Li"
+  - "Hanghang Gao"
+  - "Hongyang Hu"
+  - "Jing Liu"
+  - "Xiaoming Chen"
+  - "Ling Li"
+  - "Qi Liu"
+  - "Mingoo Seok"
+  - "Chunmeng Dou"
+date: "2025-04-01"
+year: 2025
+journal: "Nature Communications"
+doi: "10.1038/s41467-025-61025-4"
+abstract: "This work presents a near-threshold memristive computing-in-memory engine designed for ultra-low-power edge intelligence applications, leveraging memristor crossbar arrays operating in the subthreshold region for maximum energy efficiency."
+abstract_cn: "本文提出了一种近阈值忆阻存内计算引擎，利用工作在亚阈值区的忆阻器交叉阵列实现超低功耗边缘智能应用，最大化能效。"
+keywords:
+  - "[[Memristor]]"
+  - "[[In-memory computing]]"
+  - "[[Edge computing]]"
+  - "[[crossbar]]"
+cite: "Wang L, Li W, Zhou Z, et al. A near-threshold memristive computing-in-memory engine for edge intelligence[J]. Nature Communications, 2025, 16. DOI: 10.1038/s41467-025-61025-4."
+aiSum: "近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。"
+confidence: high
+wiki_concepts:
+  - "[[Memristor]]"
+  - "[[In-memory computing]]"
+  - "[[Edge computing]]"
+  - "[[crossbar]]"
 ---
 
 # A near-threshold memristive computing-inmemory engine for edge intelligence

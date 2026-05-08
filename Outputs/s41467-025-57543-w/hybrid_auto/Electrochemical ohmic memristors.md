@@ -1,5 +1,29 @@
 ---
-title: "Electrochemical ohmic memristors"
+
+title: "Electrochemical Ohmic Memristors"
+authors:
+  - "Shaochuan Chen"
+  - "Zhen Yang"
+  - "Heinrich Hartmann"
+  - "Astrid Besmehn"
+  - "Yuchao Yang"
+  - "Ilia Valov"
+date: "2025-05-01"
+year: 2025
+journal: "Nature Communications"
+doi: "10.1038/s41467-025-57543-w"
+abstract: "This work presents electrochemical ohmic memristors that leverage electrochemical mechanisms for reliable resistive switching with ohmic behavior, targeting neuromorphic computing applications."
+abstract_cn: "本文提出电化学欧姆忆阻器，利用电化学机制实现可靠的阻变切换和欧姆行为，面向神经形态计算应用。"
+keywords:
+  - "[[Memristor]]"
+  - "[[Neuromorphic computing]]"
+  - "[[electrochemical]]"
+cite: "Chen S, Yang Z, Hartmann H, et al. Electrochemical ohmic memristors[J]. Nature Communications, 2025, 16. DOI: 10.1038/s41467-025-57543-w."
+aiSum: "电化学欧姆忆阻器：利用电化学机制实现可靠阻变切换，面向神经形态计算。"
+confidence: high
+wiki_concepts:
+  - "[[Memristor]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # Electrochemical ohmic memristors for Electrochemical oh

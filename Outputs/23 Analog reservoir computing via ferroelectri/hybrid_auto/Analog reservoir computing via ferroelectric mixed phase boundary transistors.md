@@ -1,5 +1,39 @@
 ---
-title: "Analog reservoir computing via ferroelectric mixed phase boundary transistors"
+
+title: "Analog Reservoir Computing via Ferroelectric Mixed Phase Boundary Transistors"
+authors:
+  - "Jangsaeng Kim"
+  - "Eun Chan Park"
+  - "Wonjun Shin"
+  - "Ryun-Han Koo"
+  - "Chang-Hyeon Han"
+  - "He Young Kang"
+  - "Tae Gyu Yang"
+  - "Youngin Goh"
+  - "Kilho Lee"
+  - "Daewon Ha"
+  - "Suraj S. Cheema"
+  - "Jae Kyeong Jeong"
+  - "Sang-Hyeon Kim"
+date: "2024-11-01"
+year: 2024
+journal: "Nature Communications"
+doi: "10.1038/s41467-024-53321-2"
+abstract: "This work demonstrates a fully integrated analog reservoir computing system using ferroelectric mixed phase boundary (MPB) transistors as both the physical reservoir and readout neurons. The MPB TFT achieves 5-bit reservoir states with high nonlinear transformation capabilities."
+abstract_cn: "本文展示了一种全集成的模拟储备池计算系统，使用铁电混相边界（MPB）晶体管同时作为物理储备池和读出神经元。MPB TFT实现5位储备池状态，具有高非线性变换能力。"
+keywords:
+  - "[[Reservoir computing]]"
+  - "[[Ferroelectric]]"
+  - "[[Neuromorphic computing]]"
+  - "[[FeFET]]"
+cite: "Kim J, Park E C, Shin W, et al. Analog reservoir computing via ferroelectric mixed phase boundary transistors[J]. Nature Communications, 2024, 15. DOI: 10.1038/s41467-024-53321-2."
+aiSum: "铁电MPB晶体管实现全集成模拟储备池计算：5-bit储备池状态，物理储备池+读出神经元一体化。"
+confidence: high
+wiki_concepts:
+  - "[[Reservoir computing]]"
+  - "[[Ferroelectric]]"
+  - "[[Neuromorphic computing]]"
+  - "[[FeFET]]"
 ---
 
 # Analog reservoir computing via ferroelectric mixed phase boundary transistors

@@ -31,6 +31,7 @@ FeFET 基 FeRAM 将铁电栅介质直接集成到晶体管中，实现 1T 单元
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
 | [[Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM\|Monolithic Integration of Oxide Semicond...]] | 2021 | IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。 |
+| [[Ferroelectric Transistors for Memory and Neuromorphic Device Applications\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态器件中的应用：涵盖器件物理、材料工程、多值存储和突触可塑性，展望大规模商业化前景。 |
 | [[A 2-Transistor-2-Capacitor Ferroelectric Edge Compute-in-Memory Scheme With Disturb-Free Inference and High Endurance\|A 2-Transistor-2-Capacitor Ferroelectric...]] | 2023 | C2FeRAM 2T2C方案：无干扰存内计算、高耐久性、CIFAR-10 VGG8推理>100倍时间且精度下降<1%、相比1T1C FeRAM缓存实现4倍能效/200倍速度/3.2e5倍生命周期提升。 |
 | [[Fabrication of One-Transistor-Capacitor Structure of Nonvolatile TFT Ferroelectric RAM Devices Using Ba(Zr0.1Ti0.9)O3 Gated Oxide Film\|Fabrication of One-Transistor-Capacitor ...]] | 2007 | 制备 Ba(Zr0.1Ti0.9)O3 薄膜并用于非晶硅 TFT 底栅 1TC 铁电 RAM 器件，优化 RF 沉积参数，实现 4.5 uC/cm2 剩余极化和\ |
 ## 相关概念
