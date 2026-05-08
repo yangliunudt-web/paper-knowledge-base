@@ -27,6 +27,7 @@ confidence: high
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
 | [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。 |
+| [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | 持续学习综述：五类方法（正则化/回放/优化/表示/架构），系统性分析稳定性-可塑性权衡。 |
 | [[Supermasks in Superposition\|Supermasks in Superposition]] | 2020 | 提出 SupSup 模型，利用固定随机权重网络上的超级掩码实现顺序学习数千任务而不遗忘，通过梯度优化推断任务标识，单步即可在 2500 任务中识别正确掩码。 |
 | [[Isolation and Impartial Aggregation A Paradigm of Incremental Learning without Interference\|Isolation and Impartial Aggregation A Pa...]] | 2022 | 阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。 |
 | [[Class-Incremental Learning A Survey\|Class-Incremental Learning A Survey]] | 2024 | 类增量学习综述：全面总结 CIL 方法，对 17 种方法进行基准评估，倡导基于内存预算的公平比较和内存无关的性能度量。 |

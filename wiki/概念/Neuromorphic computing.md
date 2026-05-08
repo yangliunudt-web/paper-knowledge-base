@@ -32,14 +32,14 @@ confidence: high
 | [[Ferroelectric Transistors for Memory and Neuromorphic Device Applications\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态器件中的应用：涵盖器件物理、材料工程、多值存储和突触可塑性，展望大规模商业化前景。 |
 | [[Neuromorphic computing hardware and neural architectures for robotics\|Neuromorphic computing hardware and neur...]] | 2022 | 综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。 |
 | [[Brain-inspired computing needs a master plan\|Brain-inspired computing needs a master ...]] | 2022 | 论述脑启发式计算需要总体规划：现代计算系统能耗过高，不适用于复杂 AI 应用，需要协调不同研究社区、提供资金和支持来开发新型脑启发计算技术。 |
+| [[Ferroelectric Transistors for Memory and Neuromorphic Computing\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态计算中的应用：器件结构、工作原理、存储特性和突触应用。 |
 | [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|Amorphous Indium Oxide Channel FeFETs wi...]] | 2023 | 首次BEOL兼容IWO FeFET：写入<0.9V，耐久性>10¹²循环，85°C保持>10⁴s，无需刷新1T-1FeFET存储器。 |
 | [[In-sensor dynamic computing for intelligent machine vision\|In-sensor dynamic computing for intellig...]] | 2024 | 存内动态计算方法：使用多端混合维石墨烯-锗异质结构器件阵列，实现弱目标边缘特征的精确提取，在对比度变化的图像中实现高识别精度的目标跟踪，比传统光电卷积方法更鲁棒。解决了传统CMOS图像传感器无法直接提 |
+| [[Analog reservoir computing via ferroelectric mixed phase boundary transistors\|Analog reservoir computing via ferroelec...]] | 2024 | 铁电MPB晶体管实现全集成模拟储备池计算：5-bit储备池状态，物理储备池+读出神经元一体化。 |
 | [[Physical reservoir computing with emerging electronics\|Physical reservoir computing with emergi...]] | 2024 | 综述新兴电子器件在物理储备计算中的应用：涵盖电子、光学、机械器件等物理系统，讨论架构、节点、输入输出层、性能基准和竞争力，展望技术挑战与未来方向。 |
 | [[Electrochemical ohmic memristors for Electrochemical oh\|Electrochemical ohmic memristors for Ele...]] | 2024 | 本文提出电化学欧姆忆阻器，利用电化学机制实现可靠阻变切换和欧姆行为，面向神经形态计算应用。 |
 | [[Neuromorphic computing at scale\|Neuromorphic computing at scale]] | 2025 | 神经形态计算规模化：综述大脑启发硬件/算法设计、可扩展架构关键特征、潜在应用与挑战、生态系统需求，为大规模神经形态系统发展提供路线图。 |
 | [[A Monolithic Ferroelectric‑Ionic Duality for Stochastic‑Neuromorphic Core Integration\|A Monolithic Ferroelectric‑Ionic Duality...]] | 2026 | 提出铪基铁电‑离子双重性器件，利用氧空位作为功能性离子组分实现电压可调随机性和突触行为增强，在单一器件中集成随机编码与突触记忆，具备 CMOS 兼容性和 |
-| [[Neuro-Inspired Computing With Emerging Nonvolatile Memory\|Neuro-Inspired Computing With Emerging N...]] | 2018 | 综述新兴非易失性存储器件在神经启发式计算中的应用：涵盖相变/阻变/铁电存储器等突触器件、交叉阵列架构、器件‑电路‑算法协同设计，展望定制化学习算法。 |
-| [[NeuroSim A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures in Online Learning\|NeuroSim A Circuit-Level Macro Model for...]] | 2018 | 开发 NeuroSim 电路级宏模型，估算神经启发架构的面积、延迟、能耗，支持 SRAM、数字和模拟 eNVM 架构设计空间探索和基准测试。 |
 ## 相关概念
 
 - [[In-memory computing]]

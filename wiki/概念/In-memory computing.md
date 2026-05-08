@@ -36,9 +36,9 @@ confidence: high
 | [[An in-memory computing architecture based on a duplex two-dimensional material structure for in situ learning\|An in-memory computing architecture base...]] | 2024 | FeFET+单层MoS2双功能器件：突触+神经峰功能，原位学习，高能效片上学习方案。 |
 | [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2025 | 存内铁电微分器：利用铁电电容器本征微分响应，0.24 fJ/次、1 MHz、98.9%准确率。 |
 | [[Highly-reliable ferroelectric thin-film transistors array for hardware implementation of image classification\|Highly-reliable ferroelectric thin-film ...]] | 2025 | 研究问题：FeTFT在存内计算中面临弱擦除问题和界面缺陷导致的可靠性下降，限制了其在神经网络硬件实现中的应用。研究方法：提出平面集成MFMIS-FeTFT结构，通过浮栅抑制弱擦除效应，简化工艺减少界面 |
+| [[A near-threshold memristive computing-inmemory engine for edge intelligence\|A near-threshold memristive computing-in...]] | 2025 | 近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。 |
 | [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors\|Large-scale crossbar arrays based on thr...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。 |
 | [[DNN+NeuroSim An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies\|DNN+NeuroSim An End-to-End Benchmarking ...]] | 2021 | DNN+NeuroSim基准测试框架：支持SRAM/RRAM/PCM/FeFET/ECRAM等器件，评估存内计算加速器的芯片面积、延迟、能效、推理精度，开源代码提供VGG/ResNet在CIFAR/I |
-| [[Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation\|Leveraging Ferroelectric Stochasticity a...]] | 2022 | 提出基于 FeFET PUF 的 DNN 模型保护方案，利用铁电畴随机性在对抗攻击时破坏权重，保护图神经网络 IP 安全。 |
 ## 相关概念
 
 - [[FeFET]]
