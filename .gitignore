@@ -16,6 +16,9 @@ _NonPapers/
 .DS_Store
 Thumbs.db
 
+# User writing drafts
+Writing/
+
 # Personal Claude permissions
 .claude/settings.local.json
 
