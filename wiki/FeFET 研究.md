@@ -3,6 +3,7 @@ title: FeFET 研究
 type: topic
 tags: [深度, 基础]
 aliases: [铁电场效应晶体管研究, Ferroelectric FET Research]
+domain_keywords: [FeFET, ferroelectric FET, ferroelectric transistor, FeRAM, HfO2, HZO, IGZO, ferroelectric polarization, switching kinetics, 铁电]
 created: 2026-05-08
 updated: 2026-05-08
 sources: []
