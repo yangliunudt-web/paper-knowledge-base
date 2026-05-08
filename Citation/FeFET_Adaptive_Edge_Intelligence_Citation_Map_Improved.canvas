@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"section-edge-intelligence","type":"group","x":-900,"y":-600,"width":2200,"height":600,"color":"4","label":"📌 Section 1: Edge Intelligence Challenges"},
+		{"id":"section-imc-challenges","type":"group","x":-900,"y":200,"width":2200,"height":600,"color":"2","label":"📌 Section 2: IMC Implementation Challenges"},
+		{"id":"section-2t1c-solution","type":"group","x":-900,"y":1000,"width":2200,"height":600,"color":"6","label":"📌 Section 3: 2T1C Array Solution"},
+		{"id":"main-title","type":"text","text":"# FeFET-Based Adaptive Edge Intelligence System\n\n**Visual Citation Map**","x":-500,"y":-800,"width":800,"height":120,"color":"5"},
+		{"id":"text-ei-continual-learning","type":"text","text":"## Continual Learning & Adaptation\n\nEI systems must continually learn new knowledge and adapt to environmental changes.\n\n**Key Challenge:** On-device adaptation when cloud unavailable.","x":-860,"y":-540,"width":320,"height":220},
+		{"id":"text-ei-von-neumann","type":"text","text":"## von Neumann Bottleneck\n\nTraditional hardware implementations face significant bottlenecks:\n\n• Massive data movement\n• Instruction communication\n• Majority of latency & power","x":-500,"y":-540,"width":320,"height":220},
+		{"id":"text-ei-imc-paradigm","type":"text","text":"## Paradigm Shift to IMC\n\nTransition toward in-memory computing architectures inspired by biological neural networks.\n\n**Key Benefit:** Eliminates data movement.","x":-140,"y":-540,"width":320,"height":220},
+		{"id":"text-imc-precise-weights","type":"text","text":"## Precise Weight Programming\n\n**Core Challenge:** Achieving precise weight mapping while minimizing adjustments.\n\n• Write interference constrains scalability\n• Significantly limits computational power","x":-860,"y":260,"width":320,"height":220},
+		{"id":"text-imc-system-overhead","type":"text","text":"## System Overhead\n\nHigh-precision weight updates require:\n\n• Additional peripheral circuits\n• Intricate control strategies\n• Increased system overhead","x":-500,"y":260,"width":320,"height":220},
+		{"id":"text-imc-endurance","type":"text","text":"## Device Endurance Issues\n\nFrequent program/erase cycles degrade device endurance:\n\n• Amplify non-ideal characteristics\n• Reduce overall system efficiency","x":-140,"y":260,"width":320,"height":220},
+		{"id":"text-imc-fefet-solution","type":"text","text":"## FeFET Solution\n\nFerroelectric transistors store information via polarization state:\n\n• Read-write separated structure\n• Hardware-software co-design\n• Bypasses cumbersome programming","x":220,"y":260,"width":320,"height":220},
+		{"id":"text-2t1c-isolation","type":"text","text":"## Error Isolation via Gating Transistor\n\nIncorporating a gating transistor isolates operational errors:\n\n• Avoids complex programming schemes\n• Mitigates write crosstalk","x":-860,"y":1060,"width":320,"height":220},
+		{"id":"text-2t1c-conductance","type":"text","text":"## Read-Write Separation\n\nLeveraging read-write separation characteristic of FeFETs:\n\n• Distinct conductance states\n• Gate modulation enables flexible weight control","x":-500,"y":1060,"width":320,"height":220},
+		{"id":"text-2t1c-dual-function","type":"text","text":"## Dual Functionality\n\nGating transistor serves dual purposes:\n\n1. Isolation gate during write operations\n2. Analog tuner during inference","x":-140,"y":1060,"width":320,"height":220},
+		{"id":"text-2t1c-results","type":"text","text":"## Experimental Validation\n\n• 4 Kb FeFET array fabricated\n• Incremental learning on Fashion-MNIST\n• Global drift compensation with minimal overhead","x":220,"y":1060,"width":320,"height":220},
+		{"id":"paper-fan","type":"file","file":"Outputs/3665898/hybrid_auto/Benchmarking Test-Time DNN Adaptation at Edge with Compute-In-Memory.md","x":1400,"y":-520,"width":420,"height":220,"color":"1"},
+		{"id":"paper-christensen","type":"file","file":"Outputs/Christensen_2022_Neuromorph._Comput._Eng._2_02/hybrid_auto/2022 roadmap on neuromorphic computing and engineering.md","x":1400,"y":-160,"width":420,"height":220,"color":"6"},
+		{"id":"paper-chen","type":"file","file":"Outputs/2018 NeuroSim_A_Circuit-Level_Macro_Model_for_/hybrid_auto/NeuroSim A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures in Online Learning.md","x":1400,"y":200,"width":420,"height":220,"color":"3"},
+		{"id":"paper-wang","type":"file","file":"Outputs/s41467-025-61025-41/hybrid_auto/A near-threshold memristive computing-inmemory engine for edge intelligence.md","x":1400,"y":560,"width":420,"height":220,"color":"5"},
+		{"id":"paper-ko","type":"file","file":"Outputs/Comparative_Analysis_and_Energy-Efficient_Writ/hybrid_auto/Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based Memory Cells.md","x":1400,"y":920,"width":420,"height":220,"color":"2"},
+		{"id":"paper-garg","type":"file","file":"Outputs/s43246-025-01033-5_reference/hybrid_auto/Unsupervised local learning based on voltagedependent synaptic plasticity for resistive and ferroelectric synapses.md","x":1400,"y":1280,"width":420,"height":220,"color":"3"},
+		{"id":"paper-kim-review","type":"file","file":"Outputs/Advanced Materials - 2022 - Kim - Ferroelectri/hybrid_auto/Ferroelectric Transistors for Memory and Neuromorphic Device Applications.md","x":1400,"y":1640,"width":420,"height":220,"color":"6"},
+		{"id":"paper-kim-2022","type":"file","file":"Outputs/2 2022 CMOS-compatible compute-in-memory accel/hybrid_auto/CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks.md","x":1400,"y":2000,"width":420,"height":220,"color":"4"},
+		{"id":"paper-sun","type":"file","file":"Outputs/Back-End-of-Line_Compatible_2T1C_Memory_Cell_W/hybrid_auto/Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and Hf0.5Zr0.5O2-Based Ferroelectric Capacitors.md","x":1400,"y":2360,"width":420,"height":220,"color":"1"},
+		{"id":"paper-kim-2023","type":"file","file":"Outputs/1 2023 Highly-scaled and fully-integrated 3-di/hybrid_auto/Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks.md","x":1400,"y":2720,"width":420,"height":220,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge-ei-fan","style":"dashed","fromNode":"text-ei-continual-learning","fromSide":"right","toNode":"paper-fan","toSide":"left","color":"1","label":"Continual learning & edge adaptation"},
+		{"id":"edge-ei-christensen","style":"dashed","fromNode":"text-ei-imc-paradigm","fromSide":"right","toNode":"paper-christensen","toSide":"left","color":"6","label":"Neuromorphic computing overview"},
+		{"id":"edge-ei-chen","style":"dashed","fromNode":"text-ei-von-neumann","fromSide":"right","toNode":"paper-chen","toSide":"left","color":"3","label":"von Neumann bottleneck & MVM"},
+		{"id":"edge-ei-wang","style":"dashed","fromNode":"text-imc-fefet-solution","fromSide":"right","toNode":"paper-wang","toSide":"left","color":"5","label":"CIM for edge AI: 88.51 TOPS/W"},
+		{"id":"edge-imc-ko","style":"dashed","fromNode":"text-imc-precise-weights","fromSide":"right","toNode":"paper-ko","toSide":"left","color":"2","label":"Write interference & programming"},
+		{"id":"edge-imc-garg","style":"dashed","fromNode":"text-imc-system-overhead","fromSide":"right","toNode":"paper-garg","toSide":"left","color":"3","label":"Local learning without complex circuits"},
+		{"id":"edge-imc-kim-review","style":"dashed","fromNode":"text-imc-endurance","fromSide":"right","toNode":"paper-kim-review","toSide":"left","color":"6","label":"FeFET endurance challenges review"},
+		{"id":"edge-imc-kim-2022","style":"dashed","fromNode":"text-imc-fefet-solution","fromSide":"right","toNode":"paper-kim-2022","toSide":"left","color":"4","label":"FeFET read-write separation"},
+		{"id":"edge-2t1c-sun","style":"dashed","fromNode":"text-2t1c-isolation","fromSide":"right","toNode":"paper-sun","toSide":"left","color":"1","label":"2T1C structure demonstration"},
+		{"id":"edge-2t1c-kim-2022-2","style":"dashed","fromNode":"text-2t1c-conductance","fromSide":"right","toNode":"paper-kim-2022","toSide":"left","color":"4","label":"Three-terminal FeFET modulation"},
+		{"id":"edge-2t1c-kim-2023","style":"dashed","fromNode":"text-2t1c-dual-function","fromSide":"right","toNode":"paper-kim-2023","toSide":"left","color":"4","label":"3D integration: 93.8% accuracy"},
+		{"id":"edge-2t1c-results-sun","style":"dashed","fromNode":"text-2t1c-results","fromSide":"right","toNode":"paper-sun","toSide":"left","color":"1","label":"Validation: ≥10⁵s retention, ≥10⁷ cycles"}
+	]
+}

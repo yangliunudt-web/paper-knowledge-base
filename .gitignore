@@ -32,3 +32,7 @@ Writing/
 # Python cache
 __pycache__/
 *.pyc
+
+# Misc local files
+SummaryReference.pdf
+*.base
