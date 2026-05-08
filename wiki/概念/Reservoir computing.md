@@ -30,7 +30,12 @@ RC 的核心思想：(1) 输入信号驱动一个固定/随机的动力学系统
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| | | |
+| [[Analog reservoir computing via ferroelectric mixed phase boundary transistors|Analog reservoir computing via ferroelectric ...]] | 2024 | 利用 HfZrOx 混相边界材料的双栅 TFT 实现全集成模拟储备池计算系统，MPB TFT 作物理储备池和神经元，FeTFT 作突触，实现 5-bit |
+| [[Physical reservoir computing with emerging electronics|Physical reservoir computing with emerging el...]] | 2024 | 综述新兴电子器件在物理储备计算中的应用：涵盖电子、光学、机械器件等物理系统，讨论架构、节点、输入输出层、性能基准和竞争力，展望技术挑战与未来方向。 |
+| [[Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric Memristor|Reservoir Computing System with Diverse Input...]] | 2024 | 实现基于 Al 掺杂 HfO 铁电忆阻器的储备池计算系统，演示可处理多种输入脉冲类型的鲁棒储备池层，模拟生物突触短期可塑性，验证图像训练和巴甫洛夫实验等应用。 |
+| [[Reservoir Computing Utilizing a Complementary Combination of n- and p-Channel FeFETs|Reservoir Computing Utilizing a Complementary...]] | 2024 | n‑p FeFET互补组合实现储备池计算，利用器件互补特性提升非线性变换能力，结合反转数字输入可进一步优化性能。 |
+| [[Zn2+ Engineered Low-Barrier LiNbO3 Enables Visible-Light Programmable Ferroelectric Memristors for Noise-Immune Neuromorphic Vision|Zn2+ Engineered Low-Barrier LiNbO3 Enables Vi...]] | 2025 | | |
+| [[Ultralow‑power reservoir computing based on bidirectionally operable ferroelectric capacitors with tunable time constants|Ultralow‑power reservoir computing based on b...]] | 2026 | 铁电电容器‑线性电容器串联器件实现超低功耗储备计算，具备双向操作和可调时间常数，在波形分类、多模态数字识别和 Mackey‑Glass 时间序列预测中表现优异。 |
 
 ## 相关概念
 

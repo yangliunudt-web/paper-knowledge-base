@@ -31,7 +31,14 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| | | |
+| [[Scaling-up Resistive Synaptic Arrays for Neuro-inspired Architecture Challenges and Prospect|Scaling-up Resistive Synaptic Arrays for Neur...]] | 2016 | 讨论阻变突触器件交叉阵列规模扩展的挑战（器件非线性、有限精度、器件变异、IR 压降），提出差分读出消除关态电流、多单元平均减少变异、放宽线宽降低 IR |
+| [[Neuro-Inspired Computing With Emerging Nonvolatile Memory|Neuro-Inspired Computing With Emerging Nonvol...]] | 2018 | 综述新兴非易失性存储器件在神经启发式计算中的应用：涵盖相变/阻变/铁电存储器等突触器件、交叉阵列架构、器件‑电路‑算法协同设计，展望定制化学习算法。 |
+| [[CODEX Stochastic Encoding Method to Relax Resistive Crossbar Accelerator Design Requirements|CODEX Stochastic Encoding Method to Relax Res...]] | 2022 | 提出随机输入编码方案 CODEX，通过伯努利统计编码将位线电流分布压缩为窄高斯分布，降低 ADC 输入范围，实现 ADC 功耗降低 68.5%、面积降低 ... |
+| [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems|Ferroelectric compute-in-memory annealer for ...]] | 2023 | FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。 |
+| [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET|First demonstration of in-memory computing cr...]] | 2023 | 首次利用多级 FeFET 实现存内计算交叉阵列宏，1FeFET-1R 单元支持多位 MAC 操作，手写识别 96.6% 准确率，能效 885.4 TOPS/W。 |
+| [[One-Pulse-Programmable Multi-Level PCMSelector Cross-Point Memory for 20 nm Half Pitch and Beyond|One-Pulse-Programmable Multi-Level PCMSelecto...]] | 2024 | 单脉冲可编程多级相变存储器/选择器：无需初始化/迭代验证，热/成分设计形成晶态‑非晶共存中间电阻态，>10^7次循环稳定，20 nm半间距交叉点阵列验证可行性。 |
+| [[In-memory ferroelectric differentiator|In-memory ferroelectric differentiator]] | 2025 | 开发40x40 P(VDF-TrFE)铁电电容crossbar存内差分器。0.24 fJ/次、1 MHz、98.9%准确率、4.17 POPS/W（比V1... |
+| [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors|Large-scale crossbar arrays based on threeter...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST... |
 
 ## 相关概念
 

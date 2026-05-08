@@ -28,7 +28,11 @@ RRAM 通常是金属-绝缘体-金属（MIM）结构，在上下电极间施加�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| | | |
+| [[Solving the integration problem of one transistor one memristor architecture with a Bi-layer IGZO film through synchronous process|Solving the integration problem of one transi...]] | 2018 | 提出通过同步工艺集成 IGZO TFT 和 RRAM 的 1T1R 架构，采用 Pt/InGaZnO/Al2O3 三层堆叠同时作为 RRAM 开关层和 |
+| [[In-Memory Learning With Analog Resistive Switching Memory A Review and Perspective|In-Memory Learning With Analog Resistive Swit...]] | 2021 | 模拟电阻开关存储器存内学习综述：定义两层性能指标，分析器件特性、硬件算法、阵列映射、架构电路设计，评估现有器件性能，讨论从器件到系统的挑战与前景。 |
+| [[Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN|Few-Shot Graph Learning with Robust and Energ...]] | 2022 | 少样本图学习 MAGNN：256 Kb 1T1R RRAM、CORA 78% 准确率、70 倍延迟降低、60 倍能耗降低、中科院+香港大学。 |
+| [[Fusion of Memristor and Digital Compute-In-Memory Processing Units|Fusion of Memristor and Digital Compute-In-Me...]] | 2023 | 忆阻器-SRAM CIM 融合：77.64 TOPS/W、392μs 唤醒、<0.5% 精度损失、TSMC 22nm、自适应本地训练。 |
+| [[Monolithic 3D integration of 2D transistors and vertical RRAMs in 1T–4R structure for high-densi|Monolithic 3D integration of 2D transistors a...]] | 2023 | 本文实验演示了MoS2晶体管与三维垂直RRAM的单片3D集成方案，制造温度低于300°C。MoS2晶体管可驱动VRRAM到4个电阻状态，电路级建模证实比平... |
 
 ## 相关概念
 

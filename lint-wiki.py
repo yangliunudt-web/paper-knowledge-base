@@ -35,6 +35,7 @@ VALID_TAGS = {
 }
 
 SKIP_PAGES = {"Wiki 目录", "操作日志", "论文分组索引", "知识库概览"}
+SKIP_DEADLINK_CHECK = {"操作日志.md"}  # Documentation pages that use [[ ]] in examples
 
 issues_count = 0
 dead_links = defaultdict(list)
@@ -136,6 +137,11 @@ def extract_wikilinks(filepath):
 def find_page(title):
     """Find a .md file by title (case-insensitive search in vault, excluding Outputs)."""
     title = title.strip()
+    # Handle [[page|display]] or [[page\|display]] (markdown table escape)
+    if "\\|" in title:
+        title = title.split("\\|", 1)[0].strip()
+    elif "|" in title:
+        title = title.split("|", 1)[0].strip()
     # Exact match first (wiki/ area)
     for md in VAULT.rglob("*.md"):
         if "Outputs" in str(md) or ".obsidian" in str(md) or ".git" in str(md):
@@ -183,6 +189,8 @@ log_section("Check 1: Dead Wikilinks")
 
 dead_count = 0
 for wf in wiki_files:
+    if wf.name in SKIP_DEADLINK_CHECK:
+        continue
     links = extract_wikilinks(wf)
     for link in links:
         if link in SKIP_PAGES:
@@ -240,11 +248,21 @@ for wf in wiki_files:
 # ════════════════════════════════════════════
 log_section("Check 4: Missing Concept Pages (keywords >5 papers, no wiki page)")
 
+# Build alias→concept mapping
+alias_to_concept = {}
+for cf in CONCEPT_DIR.glob("*.md"):
+    name = cf.stem
+    alias_to_concept[name.lower()] = name
+    aliases_raw = frontmatter_field(cf, "aliases")
+    for a in re.findall(r"[\"']?([^\"',\[\]]+)[\"']?", aliases_raw):
+        a = a.strip()
+        if a and a.lower() not in alias_to_concept:
+            alias_to_concept[a.lower()] = name
+
 kw_count = defaultdict(int)
 for paper in paper_files:
     keywords = frontmatter_list_field(paper, "keywords")
     for kw in keywords:
-        # Strip wikilink brackets
         kw_clean = kw.replace("[[", "").replace("]]", "").strip()
         if kw_clean:
             kw_count[kw_clean] += 1
@@ -252,8 +270,10 @@ for paper in paper_files:
 missing_concept_count = 0
 for kw, count in sorted(kw_count.items(), key=lambda x: -x[1]):
     if count >= 5:
+        # Check both direct page name match and alias match
         concept_file = find_page(kw)
-        if concept_file is None:
+        alias_match = alias_to_concept.get(kw.lower())
+        if concept_file is None and alias_match is None:
             log_warn(f"Missing concept page: [[{kw}]] (appears in {count} papers)")
             missing_concepts[kw] = count
             missing_concept_count += 1
