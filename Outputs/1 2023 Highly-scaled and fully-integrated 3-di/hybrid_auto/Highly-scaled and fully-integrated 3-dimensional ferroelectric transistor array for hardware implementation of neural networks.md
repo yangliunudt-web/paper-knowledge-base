@@ -1,5 +1,9 @@
 ---
-title: "Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array"
+title: "Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array for Hardware Implementation of Neural Networks"
+authors:
+  - "Ik-Jyae Kim"
+  - "Min-Kyu Kim"
+  - "Jang-Sik Lee"
 date: "2023-01-31"
 year: 2023
 journal: "Nature Communications"
@@ -9,14 +13,19 @@ abstract_cn: "本文提出一种三维铁电 NAND (3D FeNAND) 阵列，用于神
 cite: "[1] Kim I J, Kim M K, Lee J S. Highly-scaled and fully-integrated 3-dimensional"
 aiSum: "提出基于 HfZrOx 铁电晶体管的三维 NAND 阵列 (3D FeNAND) 用于神经网络硬件实现，通过沟槽结构实现高密度集成，演示了向量矩阵乘法和模式分类，手写数字识别准确率"
 confidence: high
-wiki_concepts:
-  - "[[FeFET]]"
----
-
-# Highly-scaled and fully-integrated 3-dimensional [[ferroelectric]] transistor array for hardware implementation of [[Neural networks]]
+keywords:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
   - "[[Neural network]]"
+  - "[[3D NAND]]"
+  - "[[ferroelectric]]"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
+  - "[[Neural network]]"
+---
+
+# Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array for Hardware Implementation of Neural Networks
 
 Received: 20 September 2022
 

@@ -1,5 +1,17 @@
 ---
-title: "Investigation of wet etching technique for selective patterning of ferroelectric"
+title: "Investigation of Wet Etching Technique for Selective Patterning of Ferroelectric Zirconium-Doped Hafnium Oxide Thin Films"
+authors:
+  - "Livia Alexandra Dinu"
+  - "Cosmin Romanitan"
+  - "Martino Aldrigo"
+  - "Catalin Parvulescu"
+  - "Florin Nastase"
+  - "Silviu Vulpe"
+  - "Raluca Gavrila"
+  - "Pericle Varasteanu"
+  - "Andreea Bianca Serban"
+  - "Rihem Noumi"
+  - "Olga M. Ishchenko"
 date: "2023-01-01"
 year: 2023
 journal: "Microelectronic Engineering"
