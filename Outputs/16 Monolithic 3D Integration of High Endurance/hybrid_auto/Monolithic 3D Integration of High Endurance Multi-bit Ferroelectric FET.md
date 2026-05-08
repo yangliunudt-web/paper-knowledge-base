@@ -16,14 +16,6 @@ aiSum: "单片 3D FeFET 集成：BEoL 铁电 MFM 器件，>10^10 耐久性，2 �
 confidence: high
 wiki_concepts:
   - "[[Ferroelectric]]"
-keywords:
-  - "[[Monolithic]]"
-  - "[[Integration]]"
-  - "[[Ferroelectric]]"
-  - "[[Chip]]"
-  - "[[CMOS]]"
----
-S. Dutta1* , H. Ye1* , W. Chakraborty1 , Y.-C. Luo2 , M. San Jose1 , B. Grisafe1 , A. Khanna1 , I. Lightcap1 , S. Shinde1 , S. Yu2 and S. Datta1
 
 1 University of Notre Dame, Notre Dame, IN 46556, USA; 2 Georgia Institute of Technology, Atlanta, GA, USA
 

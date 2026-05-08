@@ -110,6 +110,17 @@ python3 batch_add_confidence.py            # apply
 # Batch add wiki_concepts field (bidirectional linking paper ↔ wiki)
 python3 batch_add_wiki_concepts.py --dry-run  # preview first
 python3 batch_add_wiki_concepts.py            # apply
+
+# Populate concept page paper tables from wiki_concepts
+python3 batch_populate_concepts.py --dry-run
+python3 batch_populate_concepts.py
+
+# Unified maintenance (all-in-one check + fix)
+python3 maintain.py --check                   # read-only: run all 6 phases
+python3 maintain.py --fix                     # check + auto-repair
+python3 maintain.py --phase=2 --fix           # fix only keywords
+python3 maintain.py --phase=3 --fix           # fix only journal names
+python3 maintain.py --check --json            # machine-readable report
 ```
 
 ## Available Agents

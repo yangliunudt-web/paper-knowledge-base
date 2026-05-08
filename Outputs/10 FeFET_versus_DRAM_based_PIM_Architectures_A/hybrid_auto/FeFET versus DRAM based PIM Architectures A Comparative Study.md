@@ -25,7 +25,6 @@ wiki_concepts:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
   - "[[存内计算]]"
----
 
 # [[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study
 

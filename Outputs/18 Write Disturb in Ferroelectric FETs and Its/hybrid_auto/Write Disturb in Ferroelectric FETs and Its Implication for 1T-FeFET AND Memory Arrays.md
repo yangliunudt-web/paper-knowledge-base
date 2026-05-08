@@ -23,7 +23,6 @@ confidence: high
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"
----
 
 # Write Disturb in [[ferroelectric]] FETs and Its Implication for 1T-[[FeFET]] AND Memory Arrays
 
