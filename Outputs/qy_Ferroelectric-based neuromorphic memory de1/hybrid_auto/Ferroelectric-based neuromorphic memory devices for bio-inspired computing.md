@@ -1,9 +1,12 @@
 ---
 title: "Ferroelectric-based neuromorphic memory devices for bio-inspired computing"
 authors:
-  - "Yihan Weiyi"
-  - "Jinhua Zeng"
-  - "Chongyang Keji"
+  - "Yihan Wang"
+  - "Weiyi Zhang"
+  - "Jinhua Li"
+  - "Zeng Wang"
+  - "Chongyang Zhang"
+  - "Keji Yang"
   - "Xumeng Zhang"
   - "Qi Liu"
   - "Zhangcheng Huang"

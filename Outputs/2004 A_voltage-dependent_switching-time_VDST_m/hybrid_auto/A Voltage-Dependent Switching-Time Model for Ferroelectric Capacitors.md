@@ -1,8 +1,10 @@
 ---
 title: "A Voltage-Dependent Switching-Time Model for Ferroelectric Capacitors"
 authors:
-  - "The This"
-  - "Spectre"
+  - "Jeffrey S. Cross"
+  - "Ali Sheikholeslami"
+  - "Gordon H. Charn"
+  - "Shahriar Mirabbasi"
 date: "2004-01-01"
 year: "2004"
 journal: "IEEE International Symposium on Circuits and Systems"
