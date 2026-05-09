@@ -1,4 +1,5 @@
 ---
+
 title: "sub‑Scalable massively parallel computing using continuous‑time data representation"
 date: "2024‑01‑01"
 year: 2024
@@ -9,6 +10,20 @@ abstract_cn: "本文为《Scalable massively parallel computing using continuous
 cite: "Cong Wang, Shi‑Jun Liang, Chen‑Yu Wang, et al. sub‑Scalable massively parallel"
 aiSum: "补充材料：包含补充图表和实验细节，支持主文中忆阻交叉阵列中连续时间数据表示和频率复用的大规模并行计算方案。"
 confidence: "high"
+authors:
+  - "Scalable massively parallel computing using continuous-time data representation Cong Wang"
+  - "Shi-Jun Liang"
+  - "Chen-Yu Wang"
+  - "Zai-Zheng Yang"
+  - "Yingmeng Ge"
+  - "Chen Pan"
+  - "Xi Shen"
+  - "Wei Wei"
+  - "Yichen Zhao"
+  - "Zaichen Zhang"
+  - "Bin Cheng"
+  - "Chuan Zhang"
+  - "Feng Miao"
 ---
 
 # Supplementary information

@@ -1,4 +1,5 @@
 ---
+
 title: "CMOS Backend-of-Line Compatible Memory Array and Logic Circuitries"
 date: "2023-01-01"
 year: 2023
@@ -17,6 +18,20 @@ keywords:
 cite: "Wenhui Wang, Ke Li, Longyang Lin. CMOS Backend-of-Line Compatible Memory Array"
 aiSum: "CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C 工艺，单片 3D 集成。"
 confidence: "high"
+authors:
+  - "Wenhui Wang { }"
+  - "Ke Li { }"
+  - "Jun Lan { }"
+  - "Mei Shen { }"
+  - "Zhongrui Wang { }"
+  - "Xuewei Feng { }"
+  - "Hongyu Yu { }"
+  - "Kai Chen { }"
+  - "Jiamin Li { }"
+  - "Feichi Zhou { }"
+  - "Longyang Lin { }"
+  - "Panpan Zhang { }"
+  - "Yida Li { }"
 ---
 
 # CMOS backend-of-line compatible memory array and logic circuitries enabled by high performance atomic layer deposited ZnO thin-film transistor
