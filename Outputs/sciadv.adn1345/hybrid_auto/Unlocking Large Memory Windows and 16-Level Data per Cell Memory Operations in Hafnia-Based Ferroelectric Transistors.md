@@ -10,10 +10,16 @@ abstract_cn: "基于铪的铁电晶体管因高速操作和低功耗展现出下
 cite: "待补充. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations[J].\
   \ Science Advances, 2024. DOI: 10.1126/sciadv.adn1345."
 aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
-confidence: "high"
 authors:
   - "Ik-Jyae Kim"
   - "Jang-Sik Lee"
+confidence: "high"
+keywords:
+  - "[[FeFET]]"
+  - "[[HfO2]]"
+  - "[[multi-level cell]]"
+  - "[[memory window]]"
+  - "[[3D memory]]"
 ---
 
 # M AT E R I A L S S C I E N C E

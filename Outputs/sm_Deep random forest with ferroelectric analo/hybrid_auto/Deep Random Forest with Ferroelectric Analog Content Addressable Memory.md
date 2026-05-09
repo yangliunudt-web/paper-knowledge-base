@@ -1,5 +1,10 @@
 ---
 title: "Deep Random Forest with Ferroelectric Analog Content Addressable Memory"
+authors:
+  - "Xunzhao Yin"
+  - "Cheng Zhuo"
+  - "Thomas Kampfe"
+  - "Kai Ni"
 date: "2024-01-01"
 year: "2024"
 journal: "Science Advances"
