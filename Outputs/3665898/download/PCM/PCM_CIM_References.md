@@ -1,3 +1,20 @@
+---
+title: "PCM CIM & TTA References"
+authors:
+  - "Yang Liu"
+date: "2026-04-29"
+year: 2026
+journal: "Reference List"
+abstract: "PCM CIM and TTA related literature references from Fan et al. 2024."
+abstract_cn: "PCM 存内计算与测试时适应相关文献参考列表。"
+cite: "Liu Y. PCM CIM References[Z]. 2026."
+aiSum: "PCM CIM & TTA 参考文献列表。"
+confidence: "medium"
+keywords:
+  - "[[PCM]]"
+  - "[[CIM]]"
+  - "[[TTA]]"
+---
 # PCM — CIM & TTA 相关文献
 
 ## Section 2.3 / 3.3 引用

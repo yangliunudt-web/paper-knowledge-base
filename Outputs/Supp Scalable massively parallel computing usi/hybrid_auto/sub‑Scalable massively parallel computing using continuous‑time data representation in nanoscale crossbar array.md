@@ -4,7 +4,7 @@ date: "2024‑01‑01"
 year: 2024
 journal: "Nature Communications"
 doi: "10.1038/s41467‑024‑xxxxx"
-abstract: "Supplementary information for the article 'Scalable massively parallel computing"
+abstract: "Supplementary information for the article ’Scalable massively parallel computing"
 abstract_cn: "本文为《Scalable massively parallel computing using continuous‑time data"
 keywords:
   - "[[Supplementary materials]]"

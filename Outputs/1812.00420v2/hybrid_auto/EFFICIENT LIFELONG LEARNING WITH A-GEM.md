@@ -2,7 +2,7 @@
 title: "EFFICIENT LIFELONG LEARNING WITH A-GEM"
 authors:
   - "Arslan Chaudhry"
-  - "Marc'Aurelio Ranzato"
+  - "Marc’Aurelio Ranzato"
   - "Marcus Rohrbach"
   - "Mohamed Elhoseiny"
 date: "2018-12-01"

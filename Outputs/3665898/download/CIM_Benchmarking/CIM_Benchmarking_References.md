@@ -1,3 +1,20 @@
+---
+title: "CIM Benchmarking References"
+authors:
+  - "Yang Liu"
+date: "2026-04-29"
+year: 2026
+journal: "Reference List"
+abstract: "CIM benchmarking framework related literature references from Fan et al. 2024."
+abstract_cn: "CIM 基准测试框架相关文献参考列表。"
+cite: "Liu Y. CIM Benchmarking References[Z]. 2026."
+aiSum: "CIM 基准测试框架参考文献列表。"
+confidence: "medium"
+keywords:
+  - "[[CIM]]"
+  - "[[Benchmarking]]"
+  - "[[TTA]]"
+---
 # CIM 基准测试框架 — 相关文献
 
 ## Section 2.3 / 3.3 引用

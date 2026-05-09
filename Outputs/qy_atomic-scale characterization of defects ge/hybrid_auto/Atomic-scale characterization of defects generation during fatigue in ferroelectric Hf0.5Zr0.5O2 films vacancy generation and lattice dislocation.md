@@ -5,7 +5,7 @@ year: "2019"
 journal: "Unknown Journal"
 abstract: "For the first time, we directly observed the lattice dislocation and monoclinic (m-) phase formation in ferroelectric Hf0.5Zr0.5O2 (HZO) films during fatigue, through the spherical aberration (Cs)-corrected transmission electron microscopy (TEM) technique. The main observations are: 1. More oxygen vacancies (Vo) tend to be generated when the orthorhombic (o-) phase polar axis is close to the out-of-plane direction (parallel to the electrical field); 2. The o-phase with large grain size tends to fragment with lattice dislocation and m-phase formation by martensitic-like transformation; 3. At the interface of m-/o-structure, the Vo formation energies are lowered. This work provides fundamental understanding on the defect generation mechanism of HZO film at the atomic-level, laying a solid foundation to further optimization and commercialization of the ferroelectric HZO devices."
 abstract_cn: "研究聚焦于铁电存储器及其在神经形态计算中的应用。铁电存储器利用铁电极化实现非易失性数据存储，具有高速、低功耗的优点。本文分析了铁电存储器的器件结构、工作原理及其在神经网络硬件加速方面的潜力。"
-cite: "待补充. 'Atomic-scale characterization of defects generation during fatigue in ferroelectric[J]. Unknown Journal, 2019."
+cite: "待补充. ’Atomic-scale characterization of defects generation during fatigue in ferroelectric[J]. Unknown Journal, 2019."
 aiSum: "采用铁电存储器器件，研究其在神经形态计算中的应用。分析了器件的工作原理和性能特性，为下一代内存计算提供了解决方案。"
 confidence: "medium"
 authors:

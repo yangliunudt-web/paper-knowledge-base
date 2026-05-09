@@ -1,6 +1,23 @@
 ---
 title: "NVM-CIM-TTA 文献分类索引"
-date: 2026-04-29
+authors:
+  - "Yang Liu"
+date: "2026-04-29"
+year: 2026
+journal: "Literature Map"
+abstract: "A classified literature index of NVM-CIM-TTA papers organized by device type (RRAM, FeFET, PCM) and architecture/methodology (CIM benchmarking, accelerator architecture, FeFET associative memory, hybrid memory systems, device modeling), sourced from Fan et al. 2024 Benchmarking Test-Time DNN Adaptation at Edge with CIM."
+abstract_cn: "NVM-CIM-TTA 文献分类索引，按器件类型（RRAM、FeFET、PCM）和架构/方法论（CIM基准测试、加速器架构、FeFET关联存储、混合存储系统、器件建模）组织，来源于 Fan et al. 2024 边缘存内计算DNN测试时适应基准测试论文。"
+cite: "Liu Y. NVM-CIM-TTA Literature Map[Z]. 2026."
+aiSum: "NVM-CIM-TTA文献分类索引：按器件（RRAM/FeFET/PCM）和架构（CIM基准/加速器/FeFET CAM/混合系统/器件建模）双维度组织23篇论文。"
+confidence: "medium"
+keywords:
+  - "[[NVM]]"
+  - "[[CIM]]"
+  - "[[TTA]]"
+  - "[[RRAM]]"
+  - "[[PCM]]"
+  - "[[FeFET]]"
+  - "[[文献索引]]"
 tags: [文献索引, NVM, CIM, TTA, RRAM, PCM, FeFET, 存内计算]
 source: "Benchmarking Test-Time DNN Adaptation at Edge with CIM — Section 2.3 & 3.3"
 aliases: ["TTA文献索引", "NVM-TTA文献地图"]
