@@ -1,5 +1,7 @@
 ---
-title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic"
+title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic Computing and Adaptive Sensing"
+authors:
+  - "Sayani Majumdar"
 date: "2021-12-01"
 year: "2021"
 journal: "Advanced Intelligent Systems"

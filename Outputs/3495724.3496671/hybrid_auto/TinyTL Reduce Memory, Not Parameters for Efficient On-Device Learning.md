@@ -1,5 +1,10 @@
 ---
 title: "TinyTL: Reduce Memory, Not Parameters for Efficient On-Device Learning"
+authors:
+  - "Han Cai"
+  - "Chuang Gan"
+  - "Ligeng Zhu"
+  - "Song Han"
 date: "2020-12-06"
 year: 2020
 journal: "NeurIPS"

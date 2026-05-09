@@ -1,5 +1,9 @@
 ---
 title: "Revisiting Semi-Supervised Learning with Graph Embeddings"
+authors:
+  - "Zhilin Yang"
+  - "William W. Cohen"
+  - "Ruslan Salakhutdinov"
 date: "2016-06-20"
 year: 2016
 journal: "ICML"

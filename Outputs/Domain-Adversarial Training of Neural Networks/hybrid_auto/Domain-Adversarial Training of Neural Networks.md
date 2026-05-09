@@ -1,5 +1,14 @@
 ---
 title: "Domain-Adversarial Training of Neural Networks"
+authors:
+  - "Yaroslav Ganin"
+  - "Evgeniya Ustinova"
+  - "Hana Ajakan"
+  - "Pascal Germain"
+  - "Hugo Larochelle"
+  - "Francois Laviolette"
+  - "Mario Marchand"
+  - "Victor Lempitsky"
 date: "2016-01-01"
 year: "2016"
 journal: "Journal of Machine Learning Research"

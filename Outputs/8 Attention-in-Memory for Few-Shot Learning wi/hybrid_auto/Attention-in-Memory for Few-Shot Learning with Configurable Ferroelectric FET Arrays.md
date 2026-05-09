@@ -1,5 +1,10 @@
 ---
-title: "Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET"
+title: "Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET Arrays"
+authors:
+  - "Dayane Reis"
+  - "Ann Franchesca Laguna"
+  - "Michael Niemier"
+  - "X. Sharon Hu"
 date: "2021-01-18"
 year: "2021"
 journal: "ACM Asia and South Pacific Design Automation Conference (ASPDAC)"

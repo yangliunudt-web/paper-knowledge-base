@@ -1,5 +1,7 @@
 ---
 title: "AI Computing Reaches for the Edge"
+authors:
+  - "Dharmendra S. Modha"
 date: "2023-08-24"
 year: "2023"
 journal: "Science"
