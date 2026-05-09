@@ -15,7 +15,7 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "For the first time, we demonstrate a back end of the line (BEOL) compatible amorphous\\"
+abstract: "For the first time, we demonstrate a back end of the line (BEOL) compatible amorphous oxide semiconductor (AOS) FeFET with a record-low operating voltage $< 0.9\\mathrm{V}$ and write-speed of 20ns while maintaining a current window $(\\mathrm{I}_{\\mathrm{LVT}} / \\mathrm{I}_{\\mathrm{HVT}}) > 10^{3}$ . We also demonstrate a) bipolar write endurance reaching $10^{12}$ cycles (measured), b) fast read speed of 50 ns, c) read endurance greater than $10^{12}$ cycles, and d) retention time exceeding $10^{4}$ seconds at $85^{\\circ}\\mathrm{C}$ . Array level analysis of AOS 1T-1FeFET offers 100x less standby power than 2T eDRAM and 1,000x lower refresh power than eMRAM due to non-destructive read and comparable write speed due to faster switching. AOS channel FeFETs a potential candidate for high density embedded memory in scaled CMOS technology nodes."
 abstract_cn: "首次展示了后端工艺兼容的非晶氧化铟钨（IWO）铁电场效应晶体管（FeFET），写入电压低于0.9V，耐久性超过10¹²次循环，85°C下保持特性超过10⁴秒，实现了无需刷新且嵌入式1T-1FeFET存储器的演示。"
 keywords:
   - "[[FeFET]]"
@@ -23,7 +23,7 @@ keywords:
   - "[[BEOL compatible]]"
   - "[[Multi-level cell]]"
   - "[[Neuromorphic]]"
-cite: "待补充. Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance\\"
+cite: "[1] Kirtania et al. Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance for Refresh-free 1T-1FeFET embedded Memory[J]. IEEE Transactions on Electron Devices, 2023."
 aiSum: "首次BEOL兼容IWO FeFET：写入<0.9V，耐久性>10¹²循环，85°C保持>10⁴s，无需刷新1T-1FeFET存储器。"
 confidence: "high"
 wiki_concepts:

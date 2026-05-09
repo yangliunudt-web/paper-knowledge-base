@@ -1,5 +1,5 @@
 ---
-title: "I. Introduction"
+title: "Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN"
 authors:
   - "Chen Sun"
   - "Zhiran Wang"
@@ -7,14 +7,13 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "IEEE J-EDS"
-abstract: "Learning graph structured data from limited examples on-the-fly is a key challenge\\"
-abstract_cn: "从有限样本中即时学习图结构数据是智能边缘设备的关键挑战。本文展示了少样本图学习的首个芯片级演示，使用 1T1R 阻变随机存取存储器（RRAM）同质地实现了记忆增强图神经网络的控制器和联想存储器。利用存内计算范式，验证了\\"
+abstract: "Learning graph structured data from limited examples on-the-fly is a key challenge to smart edge devices. Here, we present the first chip-level demonstration of few-shot graph learning which homogeneously implements both the controller and associative memory of a memory-augmented graph neural network using a 1T1R resistive random-access memory ([[RRAM]]). Leveraging the [[in-memory computing]] paradigm, we validated the high end-to-end accuracy of 78% (GPU baseline 80%) and robustness on node classification of CORA dataset, while achieved 70-fold reduction in latency and 60-fold reduction in energy consumption compared with conventional digital systems."
 keywords:
   - "[[Graph neural network]]"
   - "[[Few-shot learning]]"
   - "[[Memory-augmented]]"
   - "[[RRAM]]"
-cite: "Sun C, Wang Z, Shang D. Few-shot graph learning with robust and energy-efficient\\"
+cite: "[1] Sun et al. Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN[J]. IEEE J-EDS, 2022."
 aiSum: "少样本图学习 MAGNN：256 Kb 1T1R RRAM、CORA 78% 准确率、70 倍延迟降低、60 倍能耗降低、中科院+香港大学。"
 confidence: "medium"
 wiki_concepts:

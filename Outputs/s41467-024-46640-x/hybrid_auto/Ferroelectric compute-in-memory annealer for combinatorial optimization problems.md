@@ -24,7 +24,6 @@ date: "2023-01-01"
 year: "2023"
 journal: "Nature Communications"
 doi: "10.1038/s41467-023-46640-x"
-abstract: "Combinatorial optimization problems (COPs) including Max-Cut, graph coloring and\\"
 abstract_cn: "组合优化问题（Max-Cut、图着色、旅行商问题等）可映射为Ising/QUBO模型并通过模拟退火求解。本文展示了一种基于FeFET交叉开关阵列的铁电存算一体退火器，利用交叉架构的固有并行性实现组合优化问题的高能效硬件加速求解。"
 keywords:
   - "[[FeFET]]"
@@ -33,7 +32,7 @@ keywords:
   - "[[Annealer]]"
   - "[[QUBO]]"
   - "[[Crossbar]]"
-cite: "Yin X Z, Qian Y, Vardar A, et al. Ferroelectric compute-in-memory annealer for combinatorial\\"
+cite: "[1] Yin et al. aCombinatorial optimization problems[J]. Nature Communications, 2023."
 aiSum: "FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。"
 confidence: "high"
 wiki_concepts:

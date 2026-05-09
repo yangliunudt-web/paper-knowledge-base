@@ -6,7 +6,7 @@ authors:
 date: "2023-09-01"
 year: "2023"
 journal: "IEEE Electron Device Letters"
-abstract: "Through technology computer-aided-design (TCAD) simulation and FeFET capacitor measurement,\\"
+abstract: "Through technology computer-aided- design (TCAD) simulation and [[FeFET]] capacitor measurement, we optimized the write bias scheme in [[On-chip training]] of HfO2- based [[FeFET]] field-effect-transistor ([[FeFET]]) [[Synapse]] to improve training accuracy. With the optimized write bias scheme secured in this work, 4-bit synaptic operation was confirmed even in the presence of D2D variations in remanent polarization (Pr) and coercive field $( E \\mathrm { c } )$ induced by the [[FeFET]] film process and the wake-up procedure. Keywords; [[FeFET]], [[Synapse]], [[FeFET]], [[Device-to-device variation]], [[On-chip training]]"
 abstract_cn: "通过TCAD仿真和FeFET电容测量，我们优化了HfO2基FeFET突触片上训练的写入偏置方案以提高训练精度。采用优化的写入偏置方案，即使在FeFET薄膜工艺和唤醒过程引起的剩余极化和矫顽场的器件间差异存在的情况下，仍确认了4位突触操作。通过系统优化读写电压，实现了增强和抑制特性的高对称性和线性度。"
 keywords:
   - "[[FeFET]]"
@@ -16,7 +16,7 @@ keywords:
   - "[[HfO2]]"
   - "[[铁电晶体管]]"
   - "[[片上训练]]"
-cite: "Kang S, Kim S. Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor\\"
+cite: "[1] Kang et al. Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor (FeFET) Synapse for Accurate On-chip Training[J]. IEEE Electron Device Letters, 2023."
 aiSum: "通过TCAD仿真优化FeFET突触片上训练的写入偏置方案，实现4位突触操作和高对称性/线性度的增强抑制特性，即使在工艺变异下仍保持良好性能。"
 confidence: "high"
 wiki_concepts:

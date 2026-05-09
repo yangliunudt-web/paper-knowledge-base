@@ -14,14 +14,14 @@ authors:
 date: "2018-02-23"
 year: "2018"
 journal: "IEEE Transactions on Computers"
-abstract: "In this paper, we propose a novel memory architecture with the capability of single-cycle\\"
+abstract: "In this paper, we propose a novel memory architecture with the capability of single-cycle row-wise/column-wise accesses. Such an architecture is highly suitable for workloads featuring spatial locality in multiple dimensions, which is a characteristic of many matrix and array operations. We describe in detail the circuit design techniques enabling the proposed architectures, as well as the viability of emerging memory technologies based on ferroelectric transistors (FEFETs) for our design. Compared to FEFET memory with standard 1-D access, we achieve 5% energy savings for the proposed memory featuring 2-D read and 93% energy savings for memory with 2-D read and write, for 32 bit column read and write. In addition, we get around 11% and 95% delay savings for 2-D read-enabled memory and 2-D read-write memory, respectively. The application analysis shows that 2-D read-enabled memory achieves around 86% average decrease in row-buffer transactions in 256 × 256 size matrix operations without any array area increase. The 2-D read write memory offers 87% decrease in rowbuffer transactions with 28.5% increase in array area compared to the 1-D FEFET memory. Index Terms— 2-D memories, big data analytics, ferroelectric FET (FEFET), nonvolatile memory (NVM), nonvolatility."
 abstract_cn: "本文提出一种具有单周期行/列访问能力的新型存储器架构。该架构非常适合在多维空间局部性特征的工作负载，这是许多矩阵和数组操作的典型特征。我们详细描述了实现所提出架构的电路设计技术，以及基于铁电晶体管的新兴存储器技术在此设计中的可行性。与标准一维访问的铁电晶体管存储器相比，所提出的二维读取存储器在32位列读写中实现了5%的能耗节省，二维读写存储器实现了93%的能耗节省。此外，二维读取存储器和二维读写存储器分别获得了约11%和95%的延迟节省。应用分析表明，在256×256矩阵操作中，二维读取存储器平均减少了约86%的行缓冲事务，且未增加阵列面积；二维读写存储器与一维铁电晶体管存储器相比，行缓冲事务减少87%，阵列面积增加28.5%。"
 keywords:
   - "[[2‑D memory]]"
   - "[[Ferroelectric FET]]"
   - "[[Non‑volatile memory]]"
   - "[[Energy efficiency]]"
-cite: "[1] George S, Li X, Liao M J, et al. Symmetric 2‑D‑memory access to multidimensional\\"
+cite: "[1] George et al. Symmetric 2-D-Memory Access to Multidimensional Data[J]. IEEE Transactions on Computers, 2018."
 aiSum: "基于铁电晶体管的新型二维存储器架构实现单周期行/列访问，在256×256矩阵操作中减少86%行缓冲事务，能耗降低5%~93%，延迟减少11%~95%。"
 confidence: "medium"
 wiki_concepts:

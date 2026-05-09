@@ -1,5 +1,5 @@
 ---
-title: "I. INTRODUCTION"
+title: "Inter-Layer Dielectric Engineering for Monolithic Stacking -2T0C DRAM with Channel-All-Around (CAA) IGZO FET to Achieve Good Reliability Bias Stre"
 authors:
   - "Chuanke Chen"
   - "Xinlv Duan"
@@ -11,8 +11,7 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "To address the stacking requirement of 4F² 2T0C DRAM with vertical channel-all-around\\"
-abstract_cn: "为解决4F² 2T0C DRAM中垂直沟道全环绕（CAA）IGZO FET的堆叠需求，本文采用层间介质工程方法提升器件可靠性。通过工艺优化改善了CAA-IGZO\\"
+abstract: "To address the stacking requirement of 4F2 2T0C DRAM with vertical channel-all-around (CAA) IGZO FETs, for the first time, the effect of inter-layer dielectric (ILD) on CAA-IGZO FETs has been studied by varying dielectric material and process. By using optimized ILD and IGZO deposition cycle ratio, CAA-IGZO FET with high reliability is obtained. The optimized device exhibits a $\\mathrm { V _ { t h } }$ shift of less than 25 mV after $1 0 ^ { 4 } \\mathrm { s }$ bias stress and no significant degradation after $1 0 ^ { 1 2 }$ cycles endurance. Our results provide an important reference for facilitating the monolithic stacking of multilayer IGZO FETs to realize 3D DRAM."
 keywords:
   - "[[IGZO]]"
   - "[[CAA-IGZO FET]]"
@@ -20,7 +19,7 @@ keywords:
   - "[[Inter-layer dielectric]]"
   - "[[Monolithic 3D]]"
   - "[[DRAM]]"
-cite: "Chen C K, Duan X L, Yang G H, et al. Inter-layer dielectric engineering for monolithic\\"
+cite: "[1] Chen et al. Inter-Layer Dielectric Engineering for Monolithic Stacking -2T0C DRAM with Channel-All-Around (CAA) IGZO FET to Achieve Good Reliability Bias Stre[J]. IEEE Transactions on Electron Devices, 2023."
 aiSum: "CAA-IGZO FET层间介质工程：优化PEALD工艺改善H穿透问题，实现>10⁴s保持特性和2T0C DRAM堆叠可行性。"
 confidence: "high"
 wiki_concepts:

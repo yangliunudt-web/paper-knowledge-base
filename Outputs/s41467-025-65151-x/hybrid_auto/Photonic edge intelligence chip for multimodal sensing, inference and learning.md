@@ -13,8 +13,6 @@ authors:
 date: "2025-11-19"
 year: "2025"
 journal: "Nature Communications"
-abstract: "This work demonstrates a Photonic Edge Intelligence Chip (PEIC) that fuses multiple\\"
-abstract_cn: "本文展示了一款光子边缘智能芯片，将图像、光谱和射频信号等多种模拟模态融合到宽光谱中实现单光纤输入，无需数字转换即可直接进行模拟处理。芯片利用阵列波导光栅实现同步光谱感知和高能效卷积（29\\"
 keywords:
   - "[[Photonic Chip]]"
   - "[[Edge Intelligence]]"
@@ -23,7 +21,7 @@ keywords:
   - "[[光子芯片]]"
   - "[[边缘智能]]"
   - "[[多模态]]"
-cite: "Zhang S, Jiang X, Wu B, Zhou H, Xu W, Zhou H, Ruan Z, Dong J, Zhang X. Photonic Edge\\"
+cite: "[1] Zhang et al. Photonic edge intelligence chip for multimodal sensing, inference and learning[J]. Nature Communications, 2025."
 aiSum: "本文展示光子边缘智能芯片PEIC，融合图像/光谱/RF多模态，AWG实现29 fJ/OP卷积，1.33 ns推理延迟。在药物识别、图像分类和雷达分类三种任务上的感知-计算一体化验证。"
 confidence: "high"
 wiki_concepts:

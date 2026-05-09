@@ -7,14 +7,14 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Transactions on Computers"
-abstract: "The performance gap between the processors and the main memory is continuously widening,\\"
+abstract: "The performance gap between the processors and the main memory is continuously widening, known as the memory wall bottleneck. Emerging nonvolatile devices have the ability of in-memory processing, and thus, have the potential to partially alleviate the memory wall bottleneck. People have adopted nonvolatile devices to build various accelerators that are targeted at different problems and applications. In this work, we adopt one of the emerging nonvolatile devices, the ferroelectric field-effect transistor (FeFET), to build a multifunctional in-memory processing unit, which is named FeMAT. From a structural point of view, FeMAT is an FeFET-based memory array composed of 3T-based cells. From a functional point of view, FeMAT not only is a nonvolatile memory, but also can perform some logic operations (i.e., the processing-in-memory (PIM) mode), binary convolutions (i.e., the binary convolutional neural network (BCNN) acceleration mode) and content searching (i.e., the ternary content-addressable memory (TCAM) mode) in the memory. These functions are seamlessly fused into the FeFET-based memory array and can be configured online without changing the circuit structure. Superior energy efficiency is demonstrated by our experiments and comparisons with a resistive random-access memory (ReRAM) based equivalence, as well as a TCAM and a BCNN accelerator based on complementary metal-oxide-semiconductor (CMOS) devices. Index Terms—Ferroelectric field-effect transistor, in-memory processing, ternary content-addressable memory, binary convolutional neural network"
 abstract_cn: "处理器与主内存之间的性能差距持续扩大，称为内存墙瓶颈。新兴非易失性器件具有存内处理能力，因此有潜力部分缓解内存墙瓶颈。人们已采用非易失性器件构建针对不同问题和应用的各种加速器。本工作中，我们采用新兴非易失性器件之一的铁电场效应晶体管，构建了一个多功能存内处理单元，命名为FeMAT。从结构角度看，FeMAT是一个由基于3T单元组成的FeFET存储阵列。从功能角度看，FeMAT不仅是一个非易失性存储器，还可以在内存中执行一些逻辑操作（即存内处理模式）、二值卷积（即二值卷积神经网络加速模式）和内容搜索（即三元内容可寻址存储器模式）。这些功能无缝融合到FeFET存储阵列中，并且可以在不改变电路结构的情况下在线配置。我们的实验以及与基于电阻随机存取存储器的等效设计、以及基于互补金属氧化物半导体器件的TCAM和BCNN加速器的比较，证明了其卓越的能效。"
 keywords:
   - "[[FeFET]]"
   - "[[In-memory processing]]"
   - "[[Ternary content-addressable memory]]"
   - "[[Binary convolutional neural network]]"
-cite: "[1] Zhang X, Chen X, Han Y. FeMAT: exploring in‑memory processing in multifunctional\\"
+cite: "[1] Zhang et al. FeMAT: Exploring In-Memory Processing in Multifunctional FeFET-based Memory Array[J]. IEEE Transactions on Computers, 2023."
 aiSum: "FeMAT多功能FeFET存储阵列：基于3T单元，支持存内处理、二值卷积神经网络加速、三元内容可寻址存储器三种模式，能效优于ReRAM等效设计及CMOS基TCAM/BCNN加速器。"
 confidence: "medium"
 wiki_concepts:

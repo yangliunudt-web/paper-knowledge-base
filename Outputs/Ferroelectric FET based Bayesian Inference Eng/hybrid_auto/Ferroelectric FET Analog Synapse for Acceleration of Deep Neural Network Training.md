@@ -11,14 +11,14 @@ authors:
 date: "2018-01-01"
 year: "2018"
 journal: "IEEE Electron Device Letters"
-abstract: "The memory requirement of at-scale deep neural networks (DNN) dictate that synaptic\\"
+abstract: "The memory requirement of at-scale deep neural networks (DNN) dictate that synaptic weight values be stored and updated in off-chip memory such as DRAM, limiting the energy efficiency and training time. Monolithic cross-bar / pseudo cross-bar arrays with analog non-volatile memories capable of storing and updating weights on-chip offer the possibility of accelerating DNN training. Here, we harness the dynamics of voltage controlled partial polarization switching in ferroelectric-FETs (FeFET) to demonstrate such an analog synapse. We develop a transient Presiach model that accurately predicts minor loop trajectories and remnant polarization charge $(\\mathrm{P_r})$ for arbitrary pulse width, voltage, and history. We experimentally demonstrate a 5-bit FeFET synapse with symmetric potentiation and depression characteristics, and a 45x tunable range in conductance with 75ns update pulse. A circuit macro-model is used to evaluate and benchmark on-chip learning performance (area, latency, energy, accuracy) of FeFET synaptic core revealing a $10^{3}$ to $10^{6}$ acceleration in online learning latency over multi-state RRAM based analog synapses."
 abstract_cn: "大规模深度神经网络的内存需求要求突触权重值在片外存储器（如DRAM）中存储和更新，限制了能效和训练时间。具有模拟非易失性存储器的单片交叉阵列/伪交叉阵列能够在芯片上存储和更新权重，为加速深度神经网络训练提供了可能。本文利用铁电场效应晶体管中电压控制部分极化切换的动力学特性，演示了这种模拟突触。我们开发了一个瞬态Presiach模型，能够准确预测任意脉冲宽度、电压和历史条件下的次要环轨迹和剩余极化电荷。我们实验演示了一个具有对称增强和抑制特性的5位铁电场效应晶体管突触，以及75ns更新脉冲下45倍的可调电导范围。使用电路宏模型评估和基准测试了铁电场效应晶体管突触核心的片上学习性能（面积、延迟、能量、精度），揭示了相比基于多态电阻随机存取存储器的模拟突触，在线学习延迟加速了10^3至10^6倍。"
 keywords:
   - "[[FeFET]]"
   - "[[Analog synapse]]"
   - "[[Deep neural network]]"
   - "[[On-chip learning]]"
-cite: "[1] Jerry M, Chen P Y, Zhang J, et al. Ferroelectric FET analog synapse for acceleration\\"
+cite: "[1] Jerry et al. Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training[J]. IEEE Electron Device Letters, 2018."
 aiSum: "FeFET模拟突触：基于部分极化切换，实现5位对称增强/抑制特性，75ns更新脉冲，45倍电导可调范围，相比多态RRAM突触在线学习延迟加速10^3‑10^6倍。"
 confidence: "high"
 wiki_concepts:

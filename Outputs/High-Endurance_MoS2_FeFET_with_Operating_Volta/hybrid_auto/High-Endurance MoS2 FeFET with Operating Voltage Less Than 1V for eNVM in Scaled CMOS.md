@@ -28,14 +28,12 @@ authors:
 date: "2025-01-01"
 year: "2025"
 journal: "Nature Electronics"
-abstract: "For the first time, we demonstrate a transition metal dichalcogenide (TMD) Ferroelectric\\"
-abstract_cn: "我们首次展示了过渡金属二硫属化物铁电场效应晶体管，具有超高耐久性（测量值>10^12）和超过10年的保持时间。该器件由原子层沉积的超薄Hf-Zr基铁电层组成，沉积在AlO_x\\"
 keywords:
   - "[[FeFET]]"
   - "[[MoS₂]]"
   - "[[HfO₂]]"
   - "[[High endurance]]"
-cite: "[1] Lee T E, Chiang H L, Chang C Y, et al. High‑endurance MoS2 FeFET with operating\\"
+cite: "[1] Lee et al. High-Endurance FeFET with Operating Voltage Less Than 1V for eNVM in Scaled CMOS Technologies[J]. Nature Electronics, 2025."
 aiSum: "单层MoS₂ FeFET：超薄HZO（2.5nm）实现<1V工作电压、>10^12次耐久性、>10年保持时间，兼容CMOS后端工艺，适用于先进节点嵌入式存储。"
 confidence: "high"
 wiki_concepts:

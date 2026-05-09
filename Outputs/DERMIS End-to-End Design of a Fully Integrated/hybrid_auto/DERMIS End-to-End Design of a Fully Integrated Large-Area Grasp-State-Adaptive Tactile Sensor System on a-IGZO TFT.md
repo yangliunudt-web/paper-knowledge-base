@@ -9,15 +9,14 @@ authors:
 date: "2025-10-01"
 year: "2025"
 journal: "IEEE Transactions on Biomedical Circuits and Systems"
-abstract: "This paper presents the design of a high-resolution fully-integrated tactile sensor\\"
-abstract_cn: "本文提出了一种高分辨率全集成触觉传感器系统DERMIS，采用柔性薄膜晶体管技术实现大面积电子皮肤。讨论了端到端设计策略——从传感器到读出电路再到片上特征提取——如何实现高效系统重配置，以首创性地实现受生物启发的抓握状态自适应触觉传感器。与现有仅检测滑动的触觉传感器相比，DERMIS系统还能测量关键接触线索，包括摩擦力、接触开始/结束、抬升开始/结束，这得益于一种新型差分电容传感器结构，能够独立感测剪切力和法向力，以及协同设计的模拟域前端直接提取这两个分量。此外，由于对这些抓握状态相关接触参数的模拟编码，系统避免了复杂的离线滑动提取算法。每个触觉像素的读出声称实现了最先进的72\\"
+abstract: "This paper presents the design of a high-resolution fully-integrated tactile sensor system, called DERMIS, implemented in a flexible thin-film transistor (TFT) technology for large-area electronic skins. It discusses how an end-to-end design strategy – from the sensor to the readout and to the on-chip feature extraction – enables efficient system reconfiguration to implement a first-of-its-kind and biologically-inspired grasp-stateadaptive tactile sensor. In contrast to existing tactile sensors that only detect slip, the DERMIS system also measures key contact cues, including friction, contact onset/offset, and lift-off onset/offset, enabled by a novel differential capacitive sensor structure that independently senses shear and normal forces and a co-designed front end that directly extracts both components at the analog domain. Furthermore, due to the analog-based encoding of these grasp-state-dependent contact parameters, the system avoids the use of complex offline slip-extraction algorithms. The per-taxel (tactile pixel) readout consumes a state-of-the-art 72 µW power consumption and occupies 0.36 mm2 area while achieving a human-like 2 mNRMS force resolution at 0.6 mm pitch. This work demonstrates our solution for the first time in a true largearea prototype of 9×4 mm2. Index Terms—tactile sensing, electronic skins, slip detection, thin-film technology, neuromorphic, end-to-end design."
 keywords:
   - "[[Tactile sensing]]"
   - "[[Electronic skins]]"
   - "[[Thin-film transistor]]"
   - "[[Neuromorphic computing]]"
-cite: "[1] Alea M D, Rosa M A, Kraft M, et al. DERMIS: end‑to‑end design of a fully integrated\\"
-aiSum: "DERMIS触觉传感器系统：基于a-IGZO TFT的柔性大面积电子皮肤，端到端设计，差分电容结构独立感测剪切/法向力，每个触觉像素72 µW功耗、0.36 mm²面积、2\\"
+cite: "[1] Alea et al. DERMIS: End-to-End Design of a Fully Integrated Large-Area Grasp-State-Adaptive Tactile Sensor System on a-IGZO TFT[J]. IEEE Transactions on Biomedical Circuits and Systems, 2025."
+aiSum: "This paper presents the design of a high-resolution fully-integrated tactile sensor system, called DERMIS, implemented in a flexible thin-film transistor (TFT) technology for large-area electronic ski..."
 confidence: "medium"
 wiki_concepts:
   - "[[Neuromorphic computing]]"

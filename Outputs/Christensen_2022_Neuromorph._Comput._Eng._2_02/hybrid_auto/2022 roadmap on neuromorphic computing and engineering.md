@@ -16,7 +16,7 @@ keywords:
   - "[[Spiking neural network]]"
   - "[[Hardware]]"
   - "[[AI]]"
-cite: "Christensen D V, Xia Q, Wang X, et al. 2022 roadmap on neuromorphic computing and\\"
+cite: "[1] Christensen et al. You may also like[J]. Neuromorphic Computing and Engineering, 2022."
 aiSum: "神经形态计算路线图综述：涵盖神经形态器件、电路架构、算法应用现状与挑战，展望类脑计算未来发展方向。"
 confidence: "medium"
 wiki_concepts:

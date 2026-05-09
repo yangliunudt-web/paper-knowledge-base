@@ -22,7 +22,7 @@ keywords:
   - "[[In-memory computing]]"
   - "[[Memristor]]"
   - "[[Neural network]]"
-cite: "待补充. A hardware-adaptive learning algorithm for superlinear-capacity associative[J].\\"
+cite: "[1] He et al. A hardware-adaptive learning algorithm for superlinear-capacity associative memory on memristor crossbars[J]. Nature Communications, 2025."
 aiSum: "采用存算一体化架构，利用阻变存储器实现近数据计算。解决了传统冯氏架构中数据搬移的瓶颈问题，实现了高能效的神经网络推理。"
 confidence: "high"
 wiki_concepts:

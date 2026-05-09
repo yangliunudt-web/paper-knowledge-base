@@ -18,11 +18,9 @@ date: "2025-01-01"
 year: "2025"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adv3436"
-abstract: "The von Neumann bottleneck has led to a substantial rise in energy consumption of\\"
-abstract_cn: "冯·诺依曼瓶颈导致计算硬件和存储系统的能耗大幅上升，特别是对于信号处理等数据密集型任务。基于忆阻器的存内计算通过在模拟存储器内执行计算提供了高效的替代方案。本文展示了一种融合网络的实时信号处理，将实时离散傅里叶变换（DFT）和卷积神经网络（CNN）结合在基于忆阻器的模拟片上系统（SoC）上。128×128\\"
 keywords:
   - "[[Memristor]]"
-cite: "Miao F, Yang J, Jiang J, et al. Real-time signal processing with memristor-based\\"
+cite: "[1] Miao et al. E N G I N E E R I N G[J]. Science Advances, 2025."
 aiSum: "忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。"
 confidence: "high"
 wiki_concepts:

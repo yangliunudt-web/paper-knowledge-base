@@ -9,14 +9,13 @@ authors:
 date: "2021-01-01"
 year: "2021"
 journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
-abstract: "DNN+NeuroSim is an integrated framework to benchmark compute-in-memory (CIM) accelerators\\"
-abstract_cn: "DNN+NeuroSim 是一个用于深度神经网络存内计算加速器的集成基准测试框架，提供从器件级、电路级到算法级的分层设计选项。开发了 Python 包装器，用于将\\"
+abstract: "DNN+NeuroSim is an integrated framework to benchmark compute-in-memory (CIM) accelerators for deep neural networks, with hierarchical design options from devicelevel, to circuit-level and up to algorithm-level. A python wrapper is developed to interface NeuroSim with popular machine learning platforms such as Pytorch and Tensorflow. The framework supports automatic algorithm to hardware mapping, and evaluates both chip-level performance and inference accuracy with hardware constraints. In this work, we analyze the impact of reliability in “analog” synaptic devices, and analog-to-digital converter (ADC) quantization effects on the inference accuracy. Then we benchmark CIM accelerators based on SRAM and versatile emerging devices including RRAM, PCM, FeFET and ECRAM, from VGG to ResNet, and from CIFAR to ImageNet dataset, revealing the benefits of high on-state resistance, e.g. by using three-terminal synapses. The open-source code of DNN+NeuroSim is available at https://github.com/neurosim/DNN_NeuroSim_V1.0."
 keywords:
   - "[[In-memory computing]]"
   - "[[Benchmarking framework]]"
   - "[[NeuroSim]]"
   - "[[Deep neural networks]]"
-cite: "[1] Peng X, Huang S, Luo Y, et al. DNN+NeuroSim: an end‑to‑end benchmarking framework\\"
+cite: "[1] Peng et al. DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies[J]. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2021."
 aiSum: "DNN+NeuroSim基准测试框架：支持SRAM/RRAM/PCM/FeFET/ECRAM等器件，评估存内计算加速器的芯片面积、延迟、能效、推理精度，开源代码提供VGG/ResNet在CIFAR/ImageNet上的硬件约束性能分析。"
 confidence: "medium"
 wiki_concepts:

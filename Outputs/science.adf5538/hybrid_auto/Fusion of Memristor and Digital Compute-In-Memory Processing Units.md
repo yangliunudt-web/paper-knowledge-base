@@ -25,12 +25,10 @@ date: "2023-08-01"
 year: "2023"
 journal: "Science"
 doi: "10.1126/science.adf5538"
-abstract: "Artificial intelligence (AI) edge devices prefer employing high-capacity nonvolatile\\"
-abstract_cn: "人工智能（AI）边缘设备倾向于采用大容量非易失性存内计算（CIM）以实现高能效和快速唤醒响应，同时保持足够精度。之前的大多数工作基于忆阻器 CIM（因耐久性有限导致精度损失且不支持训练）或数字\\"
 keywords:
   - "[[Memristor]]"
   - "[[In-memory computing]]"
-cite: "Wen T H, Hung J M, Huang W H, et al. Fusion of memristor and digital compute-in-memory\\"
+cite: "[1] Wen et al. Overview of memristor-SRAM CIM-fusion processor[J]. Science, 2023."
 aiSum: "忆阻器-SRAM CIM 融合：77.64 TOPS/W、392μs 唤醒、<0.5% 精度损失、TSMC 22nm、自适应本地训练。"
 confidence: "high"
 wiki_concepts:

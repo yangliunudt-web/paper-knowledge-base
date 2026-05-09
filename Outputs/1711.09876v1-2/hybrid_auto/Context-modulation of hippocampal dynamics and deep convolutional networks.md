@@ -1,5 +1,5 @@
 ---
-title: "Context-modulation of hippocampal dynamics and deep convolutional networks"
+title: "2 Context modulation of Hippocampal neurons through dual pathways"
 authors:
   - "James B. Aimone"
   - "William M. Severa"
@@ -8,14 +8,13 @@ year: "2017"
 journal: "arXiv"
 doi: "arXiv:1711.09876"
 abstract: "Complex architectures of biological neural circuits, such as parallel processing pathways, has been behaviorally implicated in many cognitive studies. However, the theoretical consequences of circuit complexity on neural computation have only been explored in limited cases. Here, we introduce a mechanism by which direct and indirect pathways from cortex to the CA3 region of the hippocampus can balance both contextual gating of memory formation and driving network activity. We implement this concept in a deep artificial neural network by enabling a context-sensitive bias. The motivation for this is to improve performance of a size-constrained network. Using direct knowledge of the superclass information in the CIFAR-100 and Fashion-MNIST datasets, we show a dramatic increase in performance without an increase in network size."
-abstract_cn: "生物神经回路的复杂架构（如并行处理通路）在许多认知研究中已被行为学证据所暗示。然而，回路复杂性对神经计算的理论影响仅在有限情况下被探索。本文引入一种机制，通过从皮层到海马体\\"
 keywords:
   - "[[Hippocampus]]"
   - "[[CA3]]"
   - "[[Context modulation]]"
   - "[[Deep learning]]"
-cite: "[1] Aimone J B, Severa W M. Context-modulation of hippocampal dynamics and deep convolutional\\"
-aiSum: "受海马体 CA3 双通路（EC 直接投射和 EC→DG→CA3 间接投射）启发，提出上下文调制深度神经网络，通过上下文敏感偏置在 CIFAR-100 和 Fashion-MNIST\\"
+cite: "[1] Aimone et al. 2 Context modulation of Hippocampal neurons through dual pathways[J]. arXiv, 2017."
+aiSum: "Complex architectures of biological neural circuits, such as parallel processing pathways, has been behaviorally implicated in many cognitive studies. However, the theoretical consequences of circuit ..."
 confidence: "low"
 wiki_concepts:
   - "[[Neural network]]"

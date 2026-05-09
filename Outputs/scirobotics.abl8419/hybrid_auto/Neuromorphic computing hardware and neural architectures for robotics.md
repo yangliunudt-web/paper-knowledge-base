@@ -9,7 +9,6 @@ date: "2022-01-01"
 year: "2022"
 journal: "Science Robotics"
 doi: "10.1126/scirobotics.abl8419"
-abstract: "Neuromorphic hardware enables fast and power-efficient neural network-based artificial\\"
 abstract_cn: "神经形态硬件支持快速且功耗高效的基于神经网络的人工智能，非常适合解决机器人任务。神经形态算法可以按照神经计算原理和受生物神经系统启发的神经网络架构进一步发展。本文概述了神经科学的最新见解，这些见解可以增强芯片上人工神经网络的信号处理，并解锁机器人技术和自主智能系统中的创新应用。"
 keywords:
   - "[[Neuromorphic computing]]"
@@ -17,7 +16,7 @@ keywords:
   - "[[Neural architectures]]"
   - "[[Spiking neural network]]"
   - "[[Autonomous systems]]"
-cite: "[1] Sandamirskaya Y, Kaboli M, Conradt J, et al. Neuromorphic computing hardware\\"
+cite: "[1] Sandamirskaya et al. A R T I F I C I A L I N T E L L I G E N C E[J]. Science Robotics, 2022."
 aiSum: "综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。"
 confidence: "high"
 wiki_concepts:

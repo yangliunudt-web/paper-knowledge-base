@@ -15,7 +15,7 @@ keywords:
   - "[[Complementary FeFET]]"
   - "[[Lookup table]]"
   - "[[FPGA]]"
-cite: "[1] Huang Y Y, Huang P T, Lee P Y, et al. Novel complementary FeFET‑based lookup\\"
+cite: "[1] Huang et al. Novel Complementary FeFET- based Lookup Table and Routing Switch Design and their Applications in Energy/Area-Efficient FPGA[J]. IEEE Transactions on Electron Devices, 2023."
 aiSum: "互补FeFET构建现场可编程门阵列查找表与路由开关：p‑FeFET与n‑FeFET堆叠实现1位存储与2‑1多路复用器，无短路电流，漏电流低，功耗-性能-面积优于静态随机存取存储器/电流模式FeFET设计。"
 confidence: "high"
 wiki_concepts:

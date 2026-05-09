@@ -1,5 +1,5 @@
 ---
-title: "Isolation and Impartial Aggregation: A Paradigm of Incremental Learning without Interference"
+title: "Incremental Learning"
 authors:
   - "Yabin Wang"
   - "Zhiheng Ma"
@@ -17,7 +17,7 @@ keywords:
   - "[[Incremental learning]]"
   - "[[Catastrophic forgetting]]"
   - "[[Neural network]]"
-cite: "Wang Y, Ma Z, Huang Z, et al. Isolation and impartial aggregation: A paradigm of\\"
+cite: "[1] Wang et al. Incremental Learning[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2022."
 aiSum: "阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。"
 confidence: "medium"
 wiki_concepts:

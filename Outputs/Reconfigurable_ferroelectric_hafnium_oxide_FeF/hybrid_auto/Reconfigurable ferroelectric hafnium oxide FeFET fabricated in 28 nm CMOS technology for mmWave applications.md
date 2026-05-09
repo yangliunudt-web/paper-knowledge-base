@@ -13,14 +13,13 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Electron Device Letters"
-abstract: "In this work we introduce reconfigurable multifinger ferroelectric field effect transistors\\"
-abstract_cn: "本工作介绍了采用28 nm CMOS技术制造的可重构多指铁电场效应晶体管。通过切换阈值电压，FeFET可用作射频电路的可重构器件，在V_GS = 0下工作，从而降低操作中的能量损耗。器件以共源极配置实现，表现出超过1\\"
+abstract: "In this work we introduce reconfigurable multifinger ferroelectric field effect transistors (FeFETs) which were fabricated using 28 nm CMOS technology. By switching the threshold voltage, the FeFETs can be utilized as reconfigurable devices for RF circuits, functioning at $\\mathbf { V _ { G S } } = \\mathbf { 0 } ,$ thereby reducing energy losses during operation. The devices were realized in the common-source configuration and demonstrated a memory window of more than 1 V along with an exceptional performance at mmWave frequencies. For a 32×1 µm device with 80 nm gate length, the transit frequency $\\bf ( f _ { T } )$ and maximum oscillation frequency $\\bf ( f _ { M A X } )$ were calculated to be 113 GHz and 230 GHz, respectively. These $\\mathbf { f } _ { \\mathbf { T } } / \\mathbf { f } _ { \\mathbf { M A X } }$ values are the highest among reconfigurable RF FeFETs. Index Terms—ferroelectric, $\\mathbf { H f } \\mathbf { O } _ { 2 } ,$ FeFET, memory window, HVT, LVT, LTP, LTD, load-pull"
 keywords:
   - "[[FeFET]]"
   - "[[HfO₂]]"
   - "[[CMOS technology]]"
   - "[[mmWave]]"
-cite: "[1] Abdulazhanov S, Le Q H, Huynh D K, et al. Reconfigurable ferroelectric hafnium\\"
+cite: "[1] Abdulazhanov et al. Reconfigurable ferroelectric hafnium oxide FeFET fabricated in 28 nm CMOS technology for mmWave applications[J]. IEEE Electron Device Letters, 2023."
 aiSum: "28 nm CMOS工艺制造的可重构HfO₂ FeFET，存储窗口>1 V，f_T/f_MAX分别达113/230 GHz，适用于毫米波射频电路。"
 confidence: "high"
 wiki_concepts:

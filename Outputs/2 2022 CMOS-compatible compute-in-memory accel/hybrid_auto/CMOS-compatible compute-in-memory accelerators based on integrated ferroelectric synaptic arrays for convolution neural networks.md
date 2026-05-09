@@ -1,5 +1,5 @@
 ---
-title: "INTRODUCTION"
+title: "RESULTS Parallel programming of a ferroelectric synaptic transistor array"
 authors:
   - "Min-Kyu Kim"
   - "Ik-Jyae Kim"
@@ -8,7 +8,6 @@ date: "2022-01-01"
 year: "2022"
 journal: "Science Advances"
 doi: "10.1126/sciadv.abm5321"
-abstract: "Convolutional neural networks (CNNs) have gained much attention because they can\\"
 abstract_cn: "本文展示了基于HfZrOx铁电栅极场效应晶体管（FeFET）的集成突触晶体管阵列，实现CMOS兼容的存算一体化加速器。三端FeFET同时作为存储和访问器件，HfZrOx/IZO堆叠结构在<400°C条件下制备，实现并行编程与高密度集成，在MNIST手写数字识别中验证了计算功能。"
 keywords:
   - "[[FeFET]]"
@@ -16,7 +15,7 @@ keywords:
   - "[[CNN accelerator]]"
   - "[[HfZrOx]]"
   - "[[Ferroelectric]]"
-cite: "Kim M K, Kim I J, Lee J S. CMOS-compatible compute-in-memory accelerators based on\\"
+cite: "[1] Kim et al. RESULTS Parallel programming of a ferroelectric synaptic transistor array[J]. Science Advances, 2022."
 aiSum: "FeFET突触阵列CIM加速器：三端FeFET兼存储和访问，HfZrOx/IZO <400°C制备，MNIST验证CIM功能，展示高密度CNN加速潜力。"
 confidence: "high"
 wiki_concepts:

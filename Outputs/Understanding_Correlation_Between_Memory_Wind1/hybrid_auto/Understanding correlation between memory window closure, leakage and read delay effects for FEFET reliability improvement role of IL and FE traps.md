@@ -1,5 +1,5 @@
 ---
-title: "I. INTRODUCTION"
+title: "Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps"
 authors:
   - "Priyankka Ravikumar"
   - "Andrea Padovani"
@@ -15,16 +15,15 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "Memory window (MW) closure, read delay, and gate leakage are three key reliability\\"
-abstract_cn: "存储窗口闭合、读取延迟和栅极泄漏是铁电场效应晶体管可靠性面临的三个关键挑战，传统上通常被单独分析。本文通过专门实验和器件模拟，详细研究了具有 10 nm 铁电 HZO\\"
+abstract: "Memory window (MW) closure, [[Read delay]], and [[Gate leakage]] are three key reliability challenges in ferroelectric (FE) field-effect transistors (FEFETs), all of which have traditionally been analyzed separately. In this work, we exploit dedicated experiments and device simulations to present a detailed study of these three mechanisms in Si-FEFETs with a 10nm layer of FE HZO. The results reveal critical insights into the interplay between trap generation and polarization switching (PS), and the correlation between MW closure, [[Read delay]], and leakage current. First, we show that trap generation is accelerated by PS and initially (up to 5x104 cycles) occurs mainly in the interfacial layer (IL). These PS induced traps are slow traps and are found to be responsible for both reduction in MW recovery with [[Read delay]] and MW closure, demonstrating a strong correlation between the two mechanisms. Finally, we show that leakage current increase is controlled by the generation of HZO traps, which is triggered by internal field redistribution once IL is highly degraded (after MW closure). The engineering of FEFETs to minimize the formation of slow (de)trapping defects in the IL is essential to improve overall reliability of the FEFET device. Keywords [[- FEFET]], [[Endurance]], [[Read delay]], [[Gate leakage]], [[GinestraT M ]]."
 keywords:
   - "[[Ferroelectric FET]]"
   - "[[Memory window closure]]"
   - "[[Read delay]]"
   - "[[Gate leakage]]"
   - "[[Reliability]]"
-cite: "[1] Ravikumar P, Padovani A, Venkatesan P, et al. Understanding correlation between\\"
-aiSum: "铁电场效应晶体管的存储窗口闭合、读取延迟和栅极泄漏三大可靠性挑战相互关联：极化翻转加速界面层慢陷阱产生，导致存储窗口恢复减少和闭合；界面层严重退化后触发 HZO\\"
+cite: "[1] Ravikumar et al. Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps[J]. IEEE Transactions on Electron Devices, 2024."
+aiSum: "Memory window (MW) closure, [[Read delay]], and [[Gate leakage]] are three key reliability challenges in ferroelectric (FE) field-effect transistors (FEFETs), all of which have traditionally been anal..."
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
