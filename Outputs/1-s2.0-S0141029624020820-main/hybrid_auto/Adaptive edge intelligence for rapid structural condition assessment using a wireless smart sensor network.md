@@ -11,8 +11,8 @@ date: "2020-09-01"
 year: 2020
 journal: "Structure and Infrastructure Engineering"
 doi: "10.1080/15732479.2020.1815225"
-abstract: "Combining artificial intelligence and edge computing, edge intelligence"
-abstract_cn: "结合人工智能和边缘计算，边缘智能是基于物联网的结构健康监测（SHM）的有前景的计算范式。本文提出自适应边缘智能策略，包含无参考位移估计算法、高斯过程回归和随机过程控制。探索单节点独立计算和多节点协调处理有限机载资源，利用"
+abstract: "Combining artificial intelligence and edge computing, edge intelligence is a promising computing paradigm for the Internet-of-Things-based Structural Health Monitoring (SHM), showing great potential to improve system responsiveness by reducing communication latency. Previously, very limited studies proposed, optimized, or verified edge intelligence approaches for SHM applications, where the overhead and efficiency of algorithms to manage limited onboard resources are the main gaps. In this study, an adaptive edge intelligence strategy is proposed to facilitate autonomous structural condition assessment, involving reference-free displacement estimation algorithm, Gaussian Process Regression, and stochastic process control. To facilitate algorithm deployment, both effective single-node independent computing and multi-node coordination are explored to deal with the limited onboard resources, utilizing the computing capacity of each node to speed up computation. Using the Xnode, a MEMS-based wireless sensor platform, lab tests and full-scale applications in railroad bridge monitoring were conducted to verify the proposed strategy, demonstrating the potential and suitability of the developed approach for rapid adaptive structural condition assessment in SHM practice."
+abstract_cn: "结合AI和边缘计算，边缘智能是基于物联网的结构健康监测有前景的计算范式，通过降低通信延迟改善系统响应性。本文提出自适应边缘智能策略，包含无参考位移估计算法、高斯过程回归和随机过程控制。探索单节点独立计算和多节点协调两种方式处理有限机载资源。使用基于MEMS的Xnode无线传感器平台，在铁路桥梁监测中进行实验室测试和全规模应用验证，证明该方法在SHM实践中快速自适应结构状态评估的潜力和适用性。"
 keywords:
   - "[[Structural health monitoring]]"
 cite: "[1] Cui S W, Hoang T, Mechitov K, et al. Adaptive edge intelligence for rapid"
