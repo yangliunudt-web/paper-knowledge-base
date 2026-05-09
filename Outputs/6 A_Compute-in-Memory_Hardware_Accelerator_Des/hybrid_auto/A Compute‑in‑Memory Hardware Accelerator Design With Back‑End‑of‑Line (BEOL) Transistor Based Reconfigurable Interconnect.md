@@ -21,8 +21,6 @@ keywords:
   - "[[Reconfigurable interconnect]]"
 cite: "[1] Luo Y, Dutta S, Kaul A, et al. A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect[J]. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 2022."
 abstract_cn: "基于FeFET的存内计算范式在加速深度神经网络推理方面具有优异的能效，但面临技术层面缺乏先进节点逻辑电压兼容FeFET以及系统层面缺乏灵活支持不同DNN模型的可重构互连的挑战。本文提出了系统-技术协同设计的单片3D可重构CIM加速器，利用BEOL兼容的IWO氧化物沟道MOSFET和FeFET技术。技术层面采用IWO NMOS设计面积高效的M3D写入电路；系统层面提出插入工作负载特定快速链路的可重构互连设计。评估表明M3D IWO FeFET设计相比7nm 2D SRAM设计能效提高3.1倍，可重构互连方案降低9%-32%延迟。"
-aiSum: "系统-技术协同设计M3D可重构CIM加速器：BEOL兼容IWO NMOS+FeFET实现面积高效写入电路和可重构互连。M3D IWO FeFET比7nm 2D SRAM能效提升3.1倍，可重构互连降低9%-32%通信延迟。"
-confidence: "high"
 aiSum: "Compute-in-memory (CIM) paradigm using ferroelectric field effect transistor (FeFET) as the weight element is projected to exhibit excellent energy efficiency for accelerating deep neural network (DNN..."
 confidence: "medium"
 wiki_concepts:

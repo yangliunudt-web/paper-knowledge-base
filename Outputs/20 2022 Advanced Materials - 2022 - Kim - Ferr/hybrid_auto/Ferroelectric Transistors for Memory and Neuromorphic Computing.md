@@ -1,5 +1,4 @@
 ---
-
 title: "Ferroelectric Transistors for Memory and Neuromorphic Computing"
 authors:
   - "Ik-Jyae Kim"

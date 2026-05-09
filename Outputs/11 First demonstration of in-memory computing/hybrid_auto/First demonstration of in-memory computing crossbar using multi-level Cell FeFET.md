@@ -1,5 +1,4 @@
 ---
-
 title: "First Demonstration of In-Memory Computing Crossbar Using Multi-Level Cell FeFET"
 authors:
   - "Taha Soliman"

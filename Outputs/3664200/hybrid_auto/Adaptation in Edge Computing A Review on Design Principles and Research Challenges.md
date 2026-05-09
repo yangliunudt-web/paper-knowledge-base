@@ -1,5 +1,4 @@
 ---
-
 title: "Adaptation in Edge Computing: A Review on Design Principles and Research Challenges"
 date: "2024-09-30"
 year: "2024"

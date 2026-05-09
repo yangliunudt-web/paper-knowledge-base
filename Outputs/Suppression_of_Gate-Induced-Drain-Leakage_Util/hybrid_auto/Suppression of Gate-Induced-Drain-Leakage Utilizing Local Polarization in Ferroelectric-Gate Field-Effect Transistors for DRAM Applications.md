@@ -18,7 +18,6 @@ keywords:
   - "[[Local polarization]]"
   - "[[Recessed channel]]"
 cite: "[1] Kwak B, Lee K, Kim S, et al. Suppression of Gate-Induced-Drain-Leakage Utilizing Local Polarization in Ferroelectric-Gate Field-Effect Transistors for DRAM Applications[J]. IEEE Electron Device Letters, 2024."
-aiSum: "提出利用FeFET局部极化工程独立控制源/漏侧极化，有效抑制DRAM中GIDL电流（降低80%），同时提高Vth改善保持特性。温度变化和读应力下局部极化状态稳定，为DRAM单元性能与可靠性提供新方案。"
 aiSum: "局部极化工程抑制FeFET的GIDL：独立控制源/漏侧极化，改善DRAM保持特性，实现无泄漏高性能存储单元。"
 confidence: "high"
 wiki_concepts:

@@ -11,11 +11,11 @@ confidence: "medium"
 authors:
   - "Author"
 keywords:
-  - "[[[[Edge Detection]]]]"
-  - "[[[[FeFET]]]]"
-  - "[[[[Ferroelectric Transistor]]]]"
-  - "[[[[Low-Power]]]]"
-  - "[[[[边缘检测]]]]"
+  - "[[Edge Detection]]"
+  - "[[FeFET]]"
+  - "[[Ferroelectric Transistor]]"
+  - "[[Low-Power]]"
+  - "[[边缘检测]]"
 parent:
   - "[[Low-power edge detection based on ferroelectric field-effect transistor]]"
 ---

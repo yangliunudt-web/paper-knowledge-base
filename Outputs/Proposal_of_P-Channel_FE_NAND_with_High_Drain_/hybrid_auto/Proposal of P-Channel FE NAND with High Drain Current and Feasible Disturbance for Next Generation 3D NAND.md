@@ -1,5 +1,4 @@
 ---
-
 title: "Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance"
 authors:
   - "Song-Hyeon Kuk"

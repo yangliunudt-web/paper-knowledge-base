@@ -1,5 +1,4 @@
 ---
-
 title: "Accurate Deep Neural Network Inference Using Computational Phase-Change Memory"
 authors:
   - "Vinay Joshi"

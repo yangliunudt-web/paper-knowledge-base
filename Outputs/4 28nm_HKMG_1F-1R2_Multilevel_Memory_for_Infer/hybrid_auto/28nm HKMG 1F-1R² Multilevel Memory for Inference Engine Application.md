@@ -1,6 +1,5 @@
 ---
 
-
 title: "28nm HKMG 1F-1R² Multilevel Memory for Inference Engine Application"
 authors:
   - "Sourav De"

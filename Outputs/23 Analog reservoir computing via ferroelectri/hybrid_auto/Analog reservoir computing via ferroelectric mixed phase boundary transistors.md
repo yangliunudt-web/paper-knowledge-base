@@ -1,5 +1,4 @@
 ---
-
 title: "Analog Reservoir Computing via Ferroelectric Mixed Phase Boundary Transistors"
 authors:
   - "Jangsaeng Kim"

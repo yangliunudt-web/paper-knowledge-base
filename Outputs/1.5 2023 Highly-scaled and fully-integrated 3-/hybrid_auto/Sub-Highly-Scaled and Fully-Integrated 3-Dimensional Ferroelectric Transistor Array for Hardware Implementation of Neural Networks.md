@@ -14,11 +14,11 @@ authors:
   - "Min-Kyu Kim"
   - "Jang-Sik Lee"
 keywords:
-  - "[[[[Ferroelectric Transistor Array]]]]"
-  - "[[[[3D Integration]]]]"
-  - "[[[[Neural Network Hardware]]]]"
-  - "[[[[铁电晶体管阵列]]]]"
-  - "[[[[三维集成]]]]"
+  - "[[Ferroelectric Transistor Array]]"
+  - "[[3D Integration]]"
+  - "[[Neural Network Hardware]]"
+  - "[[铁电晶体管阵列]]"
+  - "[[三维集成]]"
 parent:
   - "[[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks]]"
 ---

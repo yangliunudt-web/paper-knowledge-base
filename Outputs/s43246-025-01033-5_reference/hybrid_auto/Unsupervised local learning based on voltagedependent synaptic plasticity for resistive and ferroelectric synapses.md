@@ -1,5 +1,4 @@
 ---
-
 title: "Unsupervised Local Learning Based on Voltage-Dependent Synaptic Plasticity for Resistive and Ferroelectric Synapses"
 authors:
   - "Nikhil Garg"

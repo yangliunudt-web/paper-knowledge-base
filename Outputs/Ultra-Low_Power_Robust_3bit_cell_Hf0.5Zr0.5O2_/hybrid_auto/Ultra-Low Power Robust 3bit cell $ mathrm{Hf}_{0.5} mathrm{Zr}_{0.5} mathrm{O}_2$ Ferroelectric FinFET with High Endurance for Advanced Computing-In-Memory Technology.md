@@ -18,7 +18,6 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature Electronics"
-abstract_cn: "本文通过后鳍形成表面工程去除Si表面线边缘粗糙度，制备了10nm HfZrO基铁电FinFET。 该器件实现了3bit/单元操作，开关比>10⁶，耐久性>10¹¹次循环，在MNIST/CIFAR-10上验证了CIM功能。"
 keywords:
   - "[[FeFET]]"
   - "[[HfZrO]]"

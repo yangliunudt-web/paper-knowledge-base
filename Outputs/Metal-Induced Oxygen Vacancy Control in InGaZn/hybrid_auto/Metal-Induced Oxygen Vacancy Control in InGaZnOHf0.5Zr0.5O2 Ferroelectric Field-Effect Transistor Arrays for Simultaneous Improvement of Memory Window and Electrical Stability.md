@@ -1,5 +1,4 @@
 ---
-
 title: "Metal-Induced Oxygen Vacancy Control in InGaZnO/Hf0.5Zr0.5O2 Ferroelectric"
 authors:
   - "Jae Seong"
@@ -15,7 +14,7 @@ doi: "10.1021/acsnano.5c14197"
 abstract: "Zirconium-doped HfO (HZO)-based ferroelectric field-effect transistors (FeFETs) with indium gallium zinc oxide (IGZO) channels are considered one of the key technologies for future nonvolatile memories. However, realization of the technology through a simple, industry-oriented process from single devices to array levels remains challenging. While prior studies have primarily focused on the stable ferroelectric switching of HZO, optimization of the IGZO channel is also essential to facilitate polarization switching through bound charge compensation without degrading its semiconducting properties. Herein, a co-optimization process using a W/IGZO multilayer as a capping layer for HZO is presented to modulate the oxygen vacancy distribution in IGZO/HZO. A thermodynamically driven oxygen vacancy gradient across the IGZO/HZO stack simultaneously facilitates the ferroelectric switching operation in HZO and stable semiconducting behavior in IGZO. By simply using W and IGZO as source/drain electrodes and channels, respectively, the resulting FeFET exhibits excellent performance, including a memory window of 4.13 V, a minimum subthreshold swing of 70 mV/dec, robust endurance up to 10^7 cycles, and a projected retention time of 10 years. To validate array-level feasibility, a 16x16 FeFET array is successfully implemented based on optimized conditions, demonstrating strong potential for scalable and industry-compatible integration of oxide-semiconductor-based FeFETs into next-generation nonvolatile memory technologies."
 abstract_cn: "锆掺杂HfO基铁电场效应晶体管与铟镓锌氧化物沟道被认为是未来非易失性存储器的关键技术之一。然而，通过简单、面向工业的工艺从单器件到阵列级别实现该技术仍然具有挑战性。虽然先前研究主要关注HZO的稳定铁电开关，但优化IGZO沟道对于通过束缚电荷补偿促进极化开关而不降低其半导体性能也至关重要。本文提出了一种使用W/IGZO多层作为HZO覆盖层的协同优化工艺，以调节IGZO/HZO中的氧空位分布。热力学驱动的跨IGZO/HZO堆叠的氧空位梯度同时促进了HZO中的铁电开关操作和IGZO中的稳定半导体行为。通过简单地使用W和IGZO分别作为源/漏电极和沟道，所得FeFET表现出优异的性能，包括4.13"
 keywords:
-  - "[[ferroelectric field-effect transistors]]]]"
+  - "[[ferroelectric field-effect transistors]]"
   - "[[zirconium-doped hafnium oxides]]"
   - "[[indium gallium zinc oxides]]"
   - "[[oxygen vacancies]]"

@@ -1,5 +1,4 @@
 ---
-
 title: "A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration"
 authors:
   - "Changhyeon Han"
@@ -26,7 +25,6 @@ keywords:
   - "[[铁电-离子双重性]]"
 cite: "[1] Han C, Koo R H, Song M, et al. A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration[J]. Advanced Materials, 2026."
 aiSum: "提出铪基铁电-离子双重性器件：将氧空位从缺陷转化为功能性离子组分，实现电压可调随机性与突触行为在单一器件中的集成，打破存储保持与随机变异间的固有矛盾。具备CMOS兼容性和VLSI可扩展性，为统一存储、随机性和学习能力的铁电平台确立新范式。"
-confidence: "high"
 confidence: "high"
 wiki_concepts:
   - "[[Neuromorphic computing]]"

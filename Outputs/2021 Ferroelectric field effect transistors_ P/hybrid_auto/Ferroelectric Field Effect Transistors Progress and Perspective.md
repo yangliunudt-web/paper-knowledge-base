@@ -16,7 +16,6 @@ keywords:
   - "[[Review]]"
 cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress and Perspective[J]. APL Materials, 2021."
 abstract_cn: "铁电场效应晶体管作为下一代器件备受关注，可作为神经形态实现的突触器件和高集成度的单晶体管。自发现可在CMOS兼容工艺下制造的具有高铁电性（即使厚度仅为几纳米）的铪锆氧化物以来，FeFET已成为具有巨大潜力的器件。本文讨论了FeFET的基本原理和设计策略，重点介绍了使用PZT、PVDF、HZO和二维材料的FeFET、铁电半导体FET和MFIS结构，研究了它们的性能特点。最后讨论了这些器件当前性能的局限性和材料潜力。"
-aiSum: "综述FeFET研究进展：涵盖PZT/PVDF/HZO/二维材料等铁电材料体系，讨论MFIS、FeSFET等多种器件结构的设计策略和性能特点，分析器件局限性和材料潜力，展望大规模集成应用前景。"
 aiSum: "综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。"
 confidence: "medium"
 wiki_concepts:

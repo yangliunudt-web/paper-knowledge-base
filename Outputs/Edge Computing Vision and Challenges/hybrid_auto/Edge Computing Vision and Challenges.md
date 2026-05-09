@@ -19,7 +19,6 @@ keywords:
   - "[[Smart home]]"
   - "[[边缘计算]]"
   - "[[物联网]]"
-aiSum: "边缘计算综述：定义、案例（云卸载、智能家居/城市、协同边缘）、挑战与机遇（可编程性、命名、数据抽象、服务管理、隐私安全、优化指标）。为边缘计算研究方向提供系统性参考。"
   - "[[Smart city]]"
 cite: "[1] Shi et al. Edge Computing: Vision and Challenges[J]. IEEE Internet of Things Journal, 2016."
 aiSum: "边缘计算综述：定义、案例（云卸载、智能家居/城市、协同边缘）、挑战与机遇（可编程性、命名、数据抽象、服务管理、隐私安全、优化指标）。"

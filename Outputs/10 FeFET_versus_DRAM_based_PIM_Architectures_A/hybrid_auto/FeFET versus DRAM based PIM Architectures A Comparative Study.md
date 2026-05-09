@@ -19,7 +19,6 @@ keywords:
   - "[[In-memory computing]]"
 cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures: A Comparative Study[J]. IEEE Transactions on Computers, 2023."
 abstract_cn: "计算中心架构在内存密集型DNN应用中的吞吐量和能效受限于高数据访问能耗、长延迟和有限带宽等内存瓶颈。存内处理（PIM）是解决这些挑战的有前景方法。本文从架构角度比较了两种PIM趋势：基于FeFET等新兴非易失性存储器的模拟存内计算与基于DRAM等成熟存储器技术的近存计算。研究重点关注FeFET和DRAM的架构约束及其对PIM设计和性能的影响，评估不同计算或DNN任务类型的最优选择。"
-aiSum: "系统比较FeFET（新兴NVM代表）和DRAM（成熟存储器代表）两种PIM架构方案，从架构约束、设计影响和整体性能角度分析各自优劣，评估不同DNN任务类型的最优选择。"
 aiSum: "The throughput and energy efficiency of computecentric architectures for memory intensive Deep Neural Networks (DNN) applications are limited by memory bound issues like high data-access energy, long ..."
 confidence: "medium"
 wiki_concepts:

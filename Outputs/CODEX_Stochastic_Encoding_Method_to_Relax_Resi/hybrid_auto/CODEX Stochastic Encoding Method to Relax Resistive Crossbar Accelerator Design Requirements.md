@@ -20,8 +20,6 @@ keywords:
   - "[[Memristor crossbar]]"
   - "[[ADC]]"
 abstract_cn: "提出CODEX随机输入编码方案，通过伯努利统计编码输入比特使位线电流分布变为窄高斯分布，从而放宽忆阻器交叉阵列中ADC设计需求。CODEX可降低ADC功耗和面积或提高ADC分辨率以减少原位训练所需epoch数。包含针对稀疏输入数据的概率阈值化和处理ADC溢出的随机重采样方法。在CIFAR-10、情感分类和音频分类上评估，平均降低ADC功耗68.5%、面积35.5%、训练epoch 25.8%。"
-aiSum: "CODEX随机编码方案：利用伯努利统计编码输入比特使位线电流呈窄高斯分布，放宽忆阻交叉阵列ADC设计要求，降低ADC功耗68.5%、面积35.5%、训练epoch 25.8%。含稀疏概率阈值化和溢出重采样。"
-confidence: "medium"
   - "[[Analog‑to‑digital converter]]"
   - "[[In‑situ training]]"
 cite: "[1] Liu et al. CODEX: Stochastic Encoding Method to Relax Resistive Crossbar Accelerator Design Requirements[J]. IEEE Transactions on Circuits and Systems II: Express Briefs, 2022."

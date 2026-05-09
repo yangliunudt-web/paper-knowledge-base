@@ -1,5 +1,4 @@
 ---
-
 title: "In-Memory Ferroelectric Differentiator"
 authors:
   - "Guangdi Feng"
@@ -29,8 +28,6 @@ keywords:
   - "[[Edge detection]]"
   - "[[铁电微分器]]"
   - "[[存内计算]]"
-aiSum: "存内铁电微分器：利用铁电电容器本征微分响应实现边缘检测和信号处理，0.24 fJ/次能耗、1 MHz工作频率、98.9%准确率，为高能效存内信号处理提供新方案。"
-confidence: "high"
   - "[[Ferroelectric]]"
   - "[[In-memory computing]]"
   - "[[crossbar]]"

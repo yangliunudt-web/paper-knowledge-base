@@ -17,12 +17,12 @@ authors:
   - "Ik-Jyae Kim"
   - "Jang-Sik Lee"
 keywords:
-  - "[[[[Compute-In-Memory]]]]"
-  - "[[[[FeFET]]]]"
-  - "[[[[Ferroelectric Synaptic Array]]]]"
-  - "[[[[CNN]]]]"
-  - "[[[[CMOS-Compatible]]]]"
-  - "[[[[存内计算]]]]"
+  - "[[Compute-In-Memory]]"
+  - "[[FeFET]]"
+  - "[[Ferroelectric Synaptic Array]]"
+  - "[[CNN]]"
+  - "[[CMOS-Compatible]]"
+  - "[[存内计算]]"
 parent:
   - "[[CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks]]"
 ---

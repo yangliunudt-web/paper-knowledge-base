@@ -1,5 +1,4 @@
 ---
-
 title: "Electrochemical Ohmic Memristors"
 authors:
   - "Shaochuan Chen"
