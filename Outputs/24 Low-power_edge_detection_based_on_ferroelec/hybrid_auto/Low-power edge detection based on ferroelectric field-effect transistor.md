@@ -1,5 +1,12 @@
 ---
-title: "Low-power Edge Detection Based on Ferroelectric Field-Effect Transistor"
+title: "Low-Power Edge Detection Based on Ferroelectric Field-Effect Transistor for Edge Intelligence"
+authors:
+  - "Jiajia Chen"
+  - "Jiacheng Xu"
+  - "Jiani Gu"
+  - "Bowen Chen"
+  - "Hongrui Zhang"
+  - "Haoji Qian"
 date: "2025-01-10"
 year: 2025
 journal: "Nature Communications"

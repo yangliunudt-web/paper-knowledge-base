@@ -1,5 +1,10 @@
 ---
-title: "Spatially programmable origami networks enable high-density mechanical computing"
+title: "Spatially Programmable Origami Networks Enable High-Density Mechanical Computing for Autonomous Robotics"
+authors:
+  - "Xinyu Hu"
+  - "Ting Tan"
+  - "Yinghua Chen"
+  - "Zhimiao Yan"
 date: "2025-11-20"
 year: 2025
 journal: "Nature Communications"

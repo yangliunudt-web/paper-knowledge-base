@@ -1,6 +1,16 @@
 ---
-title: "A Monolithic Ferroelectric‑Ionic Duality for Stochastic‑Neuromorphic Core Integration"
-date: "2026‑01‑01"
+title: "A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration"
+authors:
+  - "Changhyeon Han"
+  - "Ryun-Han Koo"
+  - "Minsuk Song"
+  - "Youngchan Cho"
+  - "Min Wook Kang"
+  - "Jangsaeng Kim"
+  - "Jong-Ho Lee"
+  - "Wonjun Shin"
+  - "Daewoong Kwon"
+date: "2026-01-01"
 year: "2026"
 journal: "Advanced Materials"
 doi: "10.1002/adma.2026xxxxx"

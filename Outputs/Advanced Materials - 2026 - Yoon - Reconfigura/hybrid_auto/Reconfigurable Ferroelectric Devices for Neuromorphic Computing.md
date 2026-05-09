@@ -1,5 +1,16 @@
 ---
 title: "Reconfigurable Ferroelectric Devices for Neuromorphic Computing"
+authors:
+  - "Tae Hyun Yoon"
+  - "Jin Yong An"
+  - "Yeon Ho Kim"
+  - "Woong Huh"
+  - "Jaeho Lee"
+  - "Sungmin Park"
+  - "Bong Gi Lim"
+  - "Donghui Kang"
+  - "Sangcheon Park"
+  - "Chul-Ho Lee"
 date: "2026-01-01"
 year: 2026
 journal: "Advanced Materials"
