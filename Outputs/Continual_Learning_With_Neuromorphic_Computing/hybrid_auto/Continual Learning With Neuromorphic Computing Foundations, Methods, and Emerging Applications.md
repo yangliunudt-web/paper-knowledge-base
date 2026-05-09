@@ -1,4 +1,5 @@
 ---
+
 title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging Applications"
 authors:
   - "Mishal Fatima Minhas Rachmad Vidya Wicaksana Putra"
@@ -14,6 +15,9 @@ abstract_cn: "基于深度神经网络的持续学习方法对计算和内存的
 cite: "[1] Putra M F M R V W, Awwad F, Hasan O, et al. Continual learning with neuromorphic"
 aiSum: "神经形态持续学习综述：涵盖SNN原理、持续学习方法分类（正则化、回放、架构等）、优化技术、应用案例（自适应机器人、自动驾驶），以及能效与性能权衡分析。"
 confidence: "medium"
+keywords:
+  - "[[Continual learning]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # TOPICAL REVIEW

@@ -1,4 +1,5 @@
 ---
+
 title: "Progressive Neural Networks"
 authors:
   - "Andrei Neil"
@@ -15,6 +16,9 @@ abstract_cn: "学习解决复杂任务序列——同时利用迁移和避免灾
 cite: "[1] Rusu A A, Rabinowitz N C, Desjardins G, et al. Progressive neural networks[J]."
 aiSum: "提出渐进网络架构：通过横向连接利用先前学到的特征，避免灾难性遗忘，在 Atari 和 3D 迷宫任务上优于预训练‑微调基线，证明迁移发生在感知和控制层。"
 confidence: "low"
+keywords:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 # Progressive Neural Networks

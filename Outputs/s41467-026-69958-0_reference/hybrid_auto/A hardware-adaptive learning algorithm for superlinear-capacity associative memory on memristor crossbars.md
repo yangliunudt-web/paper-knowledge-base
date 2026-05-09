@@ -1,4 +1,5 @@
 ---
+
 title: "A Hardware-Adaptive Learning Algorithm for Superlinear-Capacity Associative Memory on Memristor Crossbars"
 authors:
   - "Chengping He"
@@ -21,6 +22,10 @@ abstract_cn: "研究提出了基于阻变存储器的存算一体化方案。通
 cite: "待补充. A hardware-adaptive learning algorithm for superlinear-capacity associative[J].\\"
 aiSum: "采用存算一体化架构，利用阻变存储器实现近数据计算。解决了传统冯氏架构中数据搬移的瓶颈问题，实现了高能效的神经网络推理。"
 confidence: "high"
+keywords:
+  - "[[In-memory computing]]"
+  - "[[Memristor]]"
+  - "[[Neural network]]"
 ---
 
 # A hardware-adaptive learning algorithm for superlinear-capacity associative memory on memristor crossbars

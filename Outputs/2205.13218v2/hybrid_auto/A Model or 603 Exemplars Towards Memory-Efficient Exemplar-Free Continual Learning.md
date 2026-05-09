@@ -1,4 +1,5 @@
 ---
+
 title: "A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-Free Continual"
 authors:
   - "State Key"
@@ -16,6 +17,8 @@ cite: "待补充. 'A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-F
 aiSum: "无样本持续学习内存优化：单一模型替代样本存储，竞争性能+低内存占用。"
 confidence: low
 wiki_concepts:
+  - "[[Continual learning]]"
+keywords:
   - "[[Continual learning]]"
 ---
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Variation‑Resilient FeFET‑Based In‑Memory Computing Leveraging Probabilistic"
 authors:
   - "Bibhas Arnob"
@@ -13,6 +14,8 @@ abstract_cn: "非易失性新兴技术（如铁电场效应晶体管）在器件
 cite: "[1] Manna B, Saha A, Jiang Z, et al. Variation‑resilient FeFET‑based in‑memory"
 aiSum: "基于 FeFET 的变异鲁棒内存计算：通过贝叶斯神经网络融合器件变异特性，在 MNIST 上实现接近理想精度，CIFAR10 上 AlexNet 精度下降仅"
 confidence: "high"
+keywords:
+  - "[[FeFET]]"
 ---
 
 # Variation-Resilient FeFET-Based In-Memory Computing Leveraging Probabilistic Deep Learning

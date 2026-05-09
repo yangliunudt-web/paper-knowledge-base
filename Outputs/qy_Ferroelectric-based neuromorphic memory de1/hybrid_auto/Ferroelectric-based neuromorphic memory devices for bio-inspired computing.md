@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric-based neuromorphic memory devices for bio-inspired computing"
 authors:
   - "Yihan Weiyi"
@@ -18,6 +19,8 @@ abstract_cn: "冯·诺依曼架构中计算需求快速增长与计算速度改�
 cite: "[1] Liu Y, Tang W, Zeng J, et al. Ferroelectric-based neuromorphic memory devices"
 aiSum: "综述铁电神经形态器件与阵列：铪基和二维铁电材料模拟神经元/突触时间动态，低写入能耗，涵盖突触器件、神经元电路、阵列拓扑和传感器内计算应用。"
 confidence: "high"
+keywords:
+  - "[[Neuromorphic computing]]"
 ---
 
 # Ferroelectric-based neuromorphic memory devices for bio-inspired computing

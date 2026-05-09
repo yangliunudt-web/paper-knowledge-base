@@ -1,4 +1,5 @@
 ---
+
 title: "Forget-free Continual Learning with Winning Subnetworks"
 authors:
   - "Haeyong Kang"
@@ -18,6 +19,9 @@ abstract_cn: "受彩票假设启发，即密集网络中存在竞争性子网络
 cite: "[1] Kang H, Mina R J L, Madjid S R H, et al. Forget‑free continual learning"
 aiSum: "获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。"
 confidence: "medium"
+keywords:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 # Forget-free Continual Learning with Winning Subnetworks

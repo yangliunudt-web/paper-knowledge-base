@@ -1,4 +1,5 @@
 ---
+
 title: "Meta-attention for ViT-backed Continual Learning"
 authors:
   - "Mengqi Haofei"
@@ -11,6 +12,9 @@ abstract_cn: "研究解决了深度学习模型在持续学习过程中的灾难
 cite: "待补充. Meta-attention for ViT-backed Continual Learning[J]. Unknown Journal, 2022."
 aiSum: "采用混合神经网络+元可塑性+参数隔离的方法，解决持续学习中的灾难性遗忘问题。在多个基准数据集上验证，性能优于现有方法。"
 confidence: "medium"
+keywords:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 # Meta-attention for ViT-backed Continual Learning

@@ -1,4 +1,5 @@
 ---
+
 title: "Atomic-scale characterization of defects generation during fatigue in ferroelectric"
 authors:
   - "Yunzhe Yonghui"
@@ -16,6 +17,8 @@ cite: "待补充. 'Atomic-scale characterization of defects generation during fa
   \ Unknown Journal, 2019."
 aiSum: "采用铁电存储器器件，研究其在神经形态计算中的应用。分析了器件的工作原理和性能特性，为下一代内存计算提供了解决方案。"
 confidence: "medium"
+keywords:
+  - "[[FeFET]]"
 ---
 
 # Atomic-scale characterization of defects generation during fatigue in ferroelectric Hf0.5Zr0.5O2 films: vacancy generation and lattice dislocation

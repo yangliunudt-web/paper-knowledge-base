@@ -1,4 +1,5 @@
 ---
+
 title: "Demonstration of Differential Mode FeFET-Array for multi-precision storage"
 authors:
   - "Vivek Franz"
@@ -18,6 +19,9 @@ aiSum: "差分模式FeFET阵列：12 Kbit容量、223Mb/mm²密度、VGG-8能效
 confidence: high
 wiki_concepts:
   - "[[FeFET]]"
+keywords:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
 ---
 
 # Demonstration of Differential Mode [[FeFET]]-Array for multi-precision storage and IMC applications

@@ -1,4 +1,5 @@
 ---
+
 title: "PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning"
 authors:
   - "Arun Mallya"
@@ -13,6 +14,9 @@ abstract_cn: "本文提出一种向单个深度神经网络添加多个任务同
 cite: "[1] Mallya A, Lazebnik S. PackNet: Adding Multiple Tasks to a Single Network"
 aiSum: "提出 PackNet 通过迭代剪枝实现持续学习：先剪枝释放冗余参数，再用释放的参数学习新任务，每个任务只需存储二进制掩码，在 VGG-16 上成功添加"
 confidence: "medium"
+keywords:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 ---
 
 Arun Mallya and Svetlana Lazebnik University of Illinois at Urbana-Champaign

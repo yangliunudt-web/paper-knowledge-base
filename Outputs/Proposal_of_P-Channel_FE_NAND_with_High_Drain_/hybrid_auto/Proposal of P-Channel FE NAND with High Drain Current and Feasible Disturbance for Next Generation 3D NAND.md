@@ -1,4 +1,5 @@
 ---
+
 title: "Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance"
 authors:
   - "Bong Ho"
@@ -11,6 +12,11 @@ abstract_cn: "最近，由于单元物理极限和超过1000层的堆叠层数�
 cite: "[1] Kuk S H, Han J H, Kim B H, et al. Proposal of p‑channel FE NAND with high"
 aiSum: "p沟道FeFET NAND提案：利用无空穴俘获特性实现高漏极电流和铁电电荷增强，相比n‑FeFET具有更高导通电流、更佳保持与干扰特性，适用于下一代3D"
 confidence: "high"
+keywords:
+  - "[[—Ferroelectric NAND flash]]"
+  - "[[p-channel FEFET]]"
+  - "[[charge trapping]]"
+  - "[[reliability]]"
 ---
 
 # Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance for Next Generation 3D NAND

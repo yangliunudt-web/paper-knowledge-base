@@ -1,4 +1,5 @@
 ---
+
 title: "Solving the Integration Problem of One Transistor One Memristor Architecture with a Bi-Layer IGZO Film Through Synchronous Process"
 authors:
   - "Che-Chia Chang"
@@ -14,6 +15,9 @@ abstract_cn: "本文展示了一种薄膜晶体管 (TFT) 和阻变存储器 (RRA
 cite: "[1] Chang C C, Liu P T, Chien C Y, et al. Solving the integration problem of"
 aiSum: "提出通过同步工艺集成 IGZO TFT 和 RRAM 的 1T1R 架构，采用 Pt/InGaZnO/Al2O3 三层堆叠同时作为 RRAM 开关层和"
 confidence: "high"
+keywords:
+  - "[[IGZO]]"
+  - "[[RRAM]]"
 ---
 
 # Solving the integration problem of one transistor one memristor architecture with a Bi-layer IGZO film through synchronous process 

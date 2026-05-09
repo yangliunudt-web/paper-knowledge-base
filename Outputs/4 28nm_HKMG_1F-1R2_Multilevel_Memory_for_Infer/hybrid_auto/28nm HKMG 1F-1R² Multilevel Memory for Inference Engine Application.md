@@ -1,4 +1,5 @@
 ---
+
 title: "28nm HKMG 1F-1R² Multilevel Memory for Inference Engine Application"
 authors:
   - "Sourav De"
@@ -20,6 +21,8 @@ cite: "[1] De S, Müller F, Lederer M, et al. 28nm HKMG 1F-1R² multilevel memor
 aiSum: "28 nm HKMG 1F-1R²存储器：3比特/单元操作，300mm晶圆，85°C稳定保持，适用于推理引擎应用。"
 confidence: medium
 wiki_concepts:
+  - "[[FeFET]]"
+keywords:
   - "[[FeFET]]"
 ---
 

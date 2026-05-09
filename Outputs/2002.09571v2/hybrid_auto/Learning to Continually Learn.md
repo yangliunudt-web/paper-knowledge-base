@@ -1,4 +1,5 @@
 ---
+
 title: "Learning to Continually Learn"
 authors:
   - "Shawn Lapo"
@@ -15,6 +16,9 @@ cite: "[1] Beaulieu S, Frati L, Miconi T, et al. Learning to Continually Learn[J
 aiSum: "提出 ANML 神经调制元学习算法，通过元学习激活门控函数实现持续学习，可顺序学习多达 600 个类别而避免灾难性遗忘。"
 confidence: low
 wiki_concepts:
+  - "[[Continual learning]]"
+keywords:
+  - "[[Catastrophic forgetting]]"
   - "[[Continual learning]]"
 ---
 

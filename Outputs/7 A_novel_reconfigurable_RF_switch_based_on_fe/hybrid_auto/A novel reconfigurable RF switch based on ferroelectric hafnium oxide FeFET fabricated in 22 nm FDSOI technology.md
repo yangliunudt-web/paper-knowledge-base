@@ -1,4 +1,5 @@
 ---
+
 title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET"
 authors:
   - "Sukhrob Dang"
@@ -16,6 +17,12 @@ confidence: medium
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"
+keywords:
+  - "[[— ferroelectric]]"
+  - "[[HfO₂]]"
+  - "[[FeFET]]"
+  - "[[memory window]]"
+  - "[[FDSOI]]"
 ---
 
 Sukhrob Abdulazhanov1 , Dang Khoa Huynh1 , Quang Huy Le1 , Thomas Kämpfe1 , Gerald Gerlach2

@@ -1,4 +1,5 @@
 ---
+
 title: "Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based"
 authors:
   - "Received August"
@@ -13,6 +14,8 @@ abstract_cn: "铁电场效应晶体管因其低写入能量和高ION/IOFF比而�
 cite: "[1] Ko D H, Oh T W, Lim S, et al. Comparative analysis and energy‑efficient"
 aiSum: "FeFET存储单元比较与低控制信号摆动写入方案：分析1FeFET/1T-1FeFET/2T-1FeFET/3T-1FeFET单元特性，提出LCSS写入方案，在最坏/平均/最好情况下分别降低35%/66%/96%写入能量。"
 confidence: "medium"
+keywords:
+  - "[[FeFET]]"
 ---
 
 Received August 2, 2021, accepted September 8, 2021, date of publication September 10, 2021, date of current version September 21, 2021.

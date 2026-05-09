@@ -1,4 +1,5 @@
 ---
+
 title: "1F-1T Array: Current Limiting Transistor Cascoded FeFET Memory Array for Variation"
 authors:
   - "Masud Rana"
@@ -21,6 +22,9 @@ abstract_cn: "提出 1F-1T 存储单元，由铁电场效应晶体管 (FeFET) �
 cite: "[1] Sk M R, Thunder S, Müller F, et al. 1F-1T Array: Current Limiting Transistor"
 aiSum: "1F-1T 阵列：FeFET+电流限制晶体管级联，28 nm HKMG，减少 Id 变化，MNIST 97.6% 精度，60% 面积优势。"
 confidence: "medium"
+keywords:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
 ---
 
 Masud Rana Sk , Sunanda Thunder , Franz Müller , Nellie Laleni, Yannick Raffel , Maximilian Lederer , Luca Pirro, Talha Chohan , Jing-Hua Hsuen , Tian-Li Wu , Konrad Seidel, Thomas Kämpfe , Sourav De , and Bhaswar Chakrabarti
