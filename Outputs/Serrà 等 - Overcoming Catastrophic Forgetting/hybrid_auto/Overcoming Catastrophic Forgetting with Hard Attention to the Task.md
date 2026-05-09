@@ -8,7 +8,7 @@ authors:
 date: "2018-07-10"
 year: "2018"
 journal: "Proceedings of Machine Learning Research"
-abstract: "Catastrophic forgetting occurs when a neural network loses the information"
+abstract: "Catastrophic forgetting occurs when a neural network loses the information learned in a previous task after training on subsequent tasks. This problem remains a hurdle for artificial intelligence systems with sequential learning capabilities. In this paper, we propose a task-based hard attention mechanism that preserves previous tasks' information without affecting the current task's learning. A hard attention mask is learned concurrently to every task, through stochastic gradient descent, and previous masks are exploited to condition such learning. We show that the proposed mechanism is effective for reducing catastrophic forgetting, cutting current rates by 45 to 80%. We also show that it is robust to different hyperparameter choices, and that it offers a number of monitoring capabilities. The approach features the possibility to control both the stability and compactness of the learned knowledge."
 abstract_cn: "灾难性遗忘指的是神经网络在后续任务训练后丢失先前任务学习到的信息。这一问题仍然是具备序列学习能力的人工智能系统的障碍。本文提出了一种基于任务的硬注意力机制，该机制能够保留先前任务的信息而不影响当前任务的学习。通过随机梯度下降，每个任务同时学习一个硬注意力掩码，并利用先前的掩码来约束这种学习。我们证明所提出的机制能有效减少灾难性遗忘，将现有遗忘率降低45%至80%。我们还证明了其对不同超参数选择的鲁棒性，并提供了一系列监控能力。该方法能够控制所学知识的稳定性和紧凑性，我们认为这也使其对在线学习或网络压缩应用具有吸引力。"
 keywords:
   - "[[Continual learning]]"
