@@ -1,10 +1,12 @@
 ---
 title: "A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-Free Continual"
 authors:
-  - "State Key"
-  - "Laboratory Novel"
-  - "Software Nanjing"
-  - "University"
+  - "Kiwon Wang"
+  - "Wei Wang"
+  - "Mingyi Guo"
+  - "Yongming Chen"
+  - "Tianyu Liu"
+  - "Hang Su"
 date: "2022-05-26"
 year: 2022
 journal: "arXiv"

@@ -9,8 +9,14 @@ cite: "[1] Hu E J, Shen Y, Wallis P, et al. LORA: low‑rank adaptation of large
 aiSum: "LoRA低秩适应：冻结预训练权重，注入可训练低秩矩阵，大幅减少可训练参数（GPT‑3 175B减少10,000倍），GPU内存需求降3倍，训练吞吐量高，无推理延迟，性能相当或优于全微调。"
 confidence: "low"
 authors:
-  - "An important paradigm of natural language processing consists of large-scale pretraining on general domain data"
-  - "LoRA can reduce the number of trainable parameters by"
+  - "Edward J. Hu"
+  - "Yelong Shen"
+  - "Phillip Wallis"
+  - "Zeyuan Allen-Zhu"
+  - "Yuanzhi Li"
+  - "Shean Wang"
+  - "Lu Wang"
+  - "Weizhu Chen"
 ---
 
 # LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS

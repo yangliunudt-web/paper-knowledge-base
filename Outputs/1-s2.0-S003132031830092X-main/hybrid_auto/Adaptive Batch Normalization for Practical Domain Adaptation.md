@@ -1,8 +1,11 @@
 ---
 title: "Adaptive Batch Normalization for Practical Domain Adaptation"
 authors:
-  - "Li Pattern"
-  - "Recognition"
+  - "Yanghao Li"
+  - "Naiyan Wang"
+  - "Jianping Shi"
+  - "Jiaying Liu"
+  - "Xiaodi Hou"
 date: "2018-03-06"
 year: 2018
 journal: "Pattern Recognition Letters"

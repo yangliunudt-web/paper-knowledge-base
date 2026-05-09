@@ -1,10 +1,13 @@
 ---
 title: "Overcoming Catastrophic Forgetting with Synaptic Intelligence"
 authors:
-  - "We Our"
-  - "This After"
-  - "This We"
-  - "Atari"
+  - "Jonathan Schwarz"
+  - "Jelena Luketina"
+  - "Wojciech M. Czarnecki"
+  - "David Wierstra"
+  - "Dhruva Tirumala"
+  - "Yee Whye Teh"
+  - "Raia Hadsell"
 date: "2018-07-10"
 year: "2018"
 journal: "ICML 2018"

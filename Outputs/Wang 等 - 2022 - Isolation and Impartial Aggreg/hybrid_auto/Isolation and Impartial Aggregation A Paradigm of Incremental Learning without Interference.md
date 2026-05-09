@@ -1,5 +1,5 @@
 ---
-title: "Incremental Learning"
+title: "Isolation and Impartial Aggregation: A Paradigm of Incremental Learning without Interference"
 authors:
   - "Yabin Wang"
   - "Zhiheng Ma"

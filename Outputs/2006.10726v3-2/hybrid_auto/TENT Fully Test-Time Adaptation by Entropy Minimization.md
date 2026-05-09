@@ -1,9 +1,11 @@
 ---
 title: "TENT: Fully Test-Time Adaptation by Entropy Minimization"
 authors:
-  - "Dequan Evan"
-  - "Shaoteng Bruno"
-  - "Trevor Adobe"
+  - "Dequan Wang"
+  - "Evan Shelhamer"
+  - "Shaoteng Liu"
+  - "Bruno Olshausen"
+  - "Trevor Darrell"
 date: "2021-07-01"
 year: 2021
 journal: "ICML 2021"

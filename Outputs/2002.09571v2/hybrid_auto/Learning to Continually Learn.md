@@ -1,10 +1,13 @@
 ---
 title: "Learning to Continually Learn"
 authors:
-  - "Shawn Lapo"
-  - "Thomas Joel"
-  - "Kenneth Jeff"
-  - "Nick"
+  - "Shawn Beaulieu"
+  - "Lapo Frati"
+  - "Thomas Miconi"
+  - "Joel Lehman"
+  - "Kenneth O. Stanley"
+  - "Jeff Clune"
+  - "Nick Cheney"
 date: "2020-02-21"
 year: "2020"
 journal: "arXiv"

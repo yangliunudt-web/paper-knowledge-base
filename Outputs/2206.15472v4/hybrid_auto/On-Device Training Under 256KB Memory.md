@@ -1,9 +1,12 @@
 ---
 title: "On-Device Training Under 256KB Memory"
 authors:
-  - "Ji Ligeng"
-  - "Chuang Song"
-  - "Watson Lab"
+  - "Ji Lin"
+  - "Ligeng Zhu"
+  - "Wei-Ming Chen"
+  - "Wei-Chen Wang"
+  - "Chuang Gan"
+  - "Song Han"
 date: "2022-06-30"
 year: 2022
 journal: "arXiv preprint arXiv:2206.15472"

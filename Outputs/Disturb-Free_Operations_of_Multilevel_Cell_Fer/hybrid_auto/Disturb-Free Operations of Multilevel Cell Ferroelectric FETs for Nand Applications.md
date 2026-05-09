@@ -1,5 +1,5 @@
 ---
-title: "A. FeFETs With MLC Capability"
+title: "Disturb-Free Operations of Multilevel Cell Ferroelectric FETs for Nand Applications"
 authors:
   - "Chengji Jin"
   - "Jiacheng Xu"
@@ -25,7 +25,8 @@ keywords:
   - "[[Multilevel cell]]"
   - "[[NAND array]]"
   - "[[Disturb-free operation]]"
-cite: "[1] Jin et al. A. FeFETs With MLC Capability[J]. IEEE Transactions on Electron Devices, 2023."
+cite: "[1] Jin C, Xu J, Gu J, et al. Disturb-Free Operations of Multilevel Cell Ferroelectric FETs for Nand Applications[J]. IEEE Transactions on Electron Devices, 2023."
+abstract_cn: "实验研究了NAND阵列中多级单元铁电场效应晶体管（FeFET）的无干扰操作。对制备的FeFET单元进行了系统表征，研究了将FeFET单元写入多个高稳定状态的优化方案。提出了实现FeFET NAND阵列稳定MLC操作的写入和读取方案。为实现无干扰MLC操作，在阵列级别系统表征了编程和读取干扰特性，并基于测量结果确定了编程抑制电压（Vinhib）和导通电压（Vpass）的容限。本工作为NAND应用中无干扰MLC FeFET操作提供了基础理解。"
 aiSum: "MLC FeFET NAND阵列无干扰操作：实验研究编程/读取干扰，提出稳定多级写入/读取方案，确定抑制电压与通过电压容限。"
 confidence: "high"
 wiki_concepts:

@@ -1,5 +1,5 @@
 ---
-title: "3. Deep Domain Adaptation"
+title: "Unsupervised Domain Adaptation by Backpropagation"
 authors:
   - "Yaroslav Ganin"
   - "Victor Lempitsky"
@@ -14,7 +14,7 @@ keywords:
   - "[[Deep learning]]"
   - "[[Adversarial learning]]"
   - "[[Gradient reversal]]"
-cite: "[1] Ganin et al. 3. Deep Domain Adaptation[J]. ICML, 2015."
+cite: "[1] Ganin Y, Lempitsky V. Unsupervised Domain Adaptation by Backpropagation[C]. ICML, 2015."
 aiSum: "提出 DANN 域对抗神经网络，通过梯度反转层实现域不变特征学习，在 MNIST→SVHN 等域适应任务上取得优异性能，开创深度域适应领域。"
 confidence: "medium"
 wiki_concepts:

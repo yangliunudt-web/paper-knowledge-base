@@ -1,8 +1,10 @@
 ---
 title: "EFFICIENT LIFELONG LEARNING WITH A-GEM"
 authors:
-  - "Arslan Marcus"
-  - "Mohamed"
+  - "Arslan Chaudhry"
+  - "Marc'Aurelio Ranzato"
+  - "Marcus Rohrbach"
+  - "Mohamed Elhoseiny"
 date: "2018-12-01"
 year: 2018
 journal: "arXiv preprint arXiv:1812.00420"

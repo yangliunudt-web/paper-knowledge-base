@@ -2,7 +2,8 @@
 
 title: "Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask"
 authors:
-  - "Arun Dillon"
+  - "Arun Mallya"
+  - "Dillon Davis"
   - "Svetlana Lazebnik"
 date: "2018-01-01"
 year: "2018"

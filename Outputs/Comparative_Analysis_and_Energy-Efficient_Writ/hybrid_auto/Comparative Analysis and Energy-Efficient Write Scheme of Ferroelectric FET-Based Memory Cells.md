@@ -1,9 +1,11 @@
 ---
 title: "Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based"
 authors:
-  - "Received August"
-  - "September September"
-  - "September"
+  - "Dong-Hyun Ko"
+  - "Tae-Woong Oh"
+  - "Seong-Ook Lim"
+  - "Jong-Hyun Ko"
+  - "Se-Hyeon Kang"
 date: "2021-09-10"
 year: "2021"
 journal: "IEEE Access"

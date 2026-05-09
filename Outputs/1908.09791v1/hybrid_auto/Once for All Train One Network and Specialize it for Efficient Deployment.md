@@ -1,15 +1,22 @@
 ---
 title: "Once for All: Train One Network and Specialize it for Efficient Deployment"
 authors:
-  - "Number Deployment"
-  - "Scenarios"
+  - "Han Cai"
+  - "Chuang Gan"
+  - "Song Han"
 date: "2019-08-01"
 year: 2019
 journal: "arXiv preprint arXiv:1908.09791"
 doi: "arXiv:1908.09791"
-abstract: "Efficient deployment of deep learning models requires specialized neural"
-abstract_cn: "提出 Once for All（OFA）方法：训练一个通用网络，支持不同深度、宽度、核大小和分辨率，无需重新训练即可派生 specialized"
-cite: "Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for"
+abstract: "Efficient deployment of deep learning models requires specialized neural networks for each scenario. However, designing specialized DNNs for every deployment scenario is engineer-expensive and computationally expensive, either with human-based or AutoML-based methods, since such methods need to repeat the architecture design process and retrain the designed network from scratch for each case. Their total cost grows linearly as the number of deployment scenarios increases, making them unable to handle the vast amount of hardware devices and highly dynamic deployment environments. This paper introduces Once for All (OFA), a new methodology that decouples model training from architecture search. A single once-for-all network is trained to support diverse architectural configurations including elastic depth, width, kernel size, and resolution. Given a deployment scenario, a specialized sub-network is directly selected from the once-for-all network without retraining. To prevent sub-networks from interfering, a progressive shrinking algorithm is proposed that first trains the full network then progressively fine-tunes to support smaller sub-networks, providing good initialization and knowledge distillation. Experiments on ImageNet across diverse hardware platforms (Mobile/CPU/GPU) show OFA consistently achieves the same or better accuracy than state-of-the-art hardware-aware NAS methods while reducing design cost from O(N) to O(1), with 14-1142x speedup over NAS methods."
+abstract_cn: "高效部署深度学习模型需要为每种场景设计专门的神经网络，但使用人工或AutoML方法为每个部署场景设计专用DNN既昂贵又耗时。本文提出Once for All（OFA）方法，将模型训练与架构搜索解耦。训练一个支持弹性深度、宽度、核大小和分辨率的通用网络，针对给定部署场景直接从中选取专用子网络而无需重新训练。提出渐进收缩算法防止子网络间干扰：先训练完整网络，再逐步微调支持更小子网络，通过重要通道初始化和知识蒸馏提供良好监督。在ImageNet上多种硬件平台验证，OFA在达到SOTA NAS方法同等或更高精度同时将设计成本从O(N)降至O(1)，比NAS快14-1142倍。"
+keywords:
+  - "[[Neural Architecture Search]]"
+  - "[[Once for All]]"
+  - "[[Efficient deployment]]"
+  - "[[Progressive shrinking]]"
+  - "[[网络架构搜索]]"
+cite: "[1] Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for Efficient Deployment[C]. ICLR, 2020."
 aiSum: "OFA 通用网络：渐进收缩算法、支持 10^19 子网络、训练成本从 O(N) 降至 O(1)、比 NAS 快 14-1142 倍、多硬件平台部署。"
 confidence: "low"
 ---

@@ -10,8 +10,15 @@ cite: "待补充. 'TinyOL: TinyML with Online-Learning on Microcontrollers'[J]. 
 aiSum: "微控制器在线学习 TinyOL：轻量级持续学习，特征提取+分类器更新，边缘设备自适应。"
 confidence: "low"
 authors:
-  - "Technical University"
-  - "Munich"
+  - "Haoyu Ren"
+  - "Darko Anicic"
+  - "Thomas A. Runkler"
+cite: "[1] Ren H, Anicic D, Runkler T A. TinyOL: TinyML with Online-Learning on Microcontrollers[C]. arXiv, 2021."
+keywords:
+  - "[[TinyML]]"
+  - "[[Online learning]]"
+  - "[[Microcontroller]]"
+  - "[[Edge computing]]"
 ---
 
 Siemens AG

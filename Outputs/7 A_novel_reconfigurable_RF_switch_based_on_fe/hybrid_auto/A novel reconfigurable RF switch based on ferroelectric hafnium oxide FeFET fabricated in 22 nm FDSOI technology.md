@@ -1,29 +1,31 @@
 ---
-
-
-title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET"
+title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology"
 authors:
-  - "Sukhrob Dang"
-  - "Khoa Quang"
-  - "Huy Thomas"
-  - "Gerald"
+  - "Sukhrob Abdulazhanov"
+  - "Dang Khoa Huynh"
+  - "Quang Huy Le"
+  - "Thomas Kämpfe"
+  - "Gerald Gerlach"
 date: "2023-01-01"
 year: 2023
 journal: "Neuromorphic Computing and Engineering"
-abstract: "— This paper presents a novel type of ferroelectric field effect transistor"
-abstract_cn: "本文提出了一种基于铁电铪氧化物FeFET的新型可重构RF开关，在22 nm FDSOI技术中制造。利用铁电极化调控晶体管阈值电压实现RF信号的可重构切换，为射频前端应用提供低功耗解决方案。"
-cite: "[1] Abdulazizov S, Dang K H, Le Q H, et al. A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology[J]. Neuromorphic Computing and Engineering, 2023."
-aiSum: "在22nm FDSOI工艺上制备基于HfO2铁电FeFET的可重构RF开关，利用铁电极化调控阈值电压实现RF信号切换，为低功耗射频前端提供新型可重构方案。"
-confidence: medium
+abstract: "This paper presents a novel type of ferroelectric field effect transistor (FeFET)-based RF switch with multiple finger structure fabricated in 22 nm FDSOI technology. The ability to adjust the threshold voltage non-volatile allows for a novel switch concept. The FeFET can operate at VGS=0, which reduces the necessity of bias-tee configurations in the signal path. It combines the advantages of passive and active RF switches with low loss and low distortion. The devices were implemented in the common-source configuration and demonstrate a large memory window exceeding 2 V, as well as exceptional performance at mmWave frequencies. We determined a transit frequency (fT) and maximum oscillation frequency (fMAX) of 135 GHz and 139 GHz, respectively, for a device with 16 fingers, 20 nm gate length, and 1 um gate width."
+abstract_cn: "本文提出了一种基于铁电HfO2 FeFET的新型可重构RF开关，采用22nm FDSOI技术制造的多指结构。非易失性调节阈值电压的能力实现了新型开关概念，FeFET可在VGS=0下工作减少了信号路径中偏置T配置的需求，结合了无源和有源RF开关低损耗、低失真的优点。器件采用共源配置，展示超过2V的大存储窗口和毫米波频率下的优异性能：16指、20nm栅长、1um栅宽器件的fT=135GHz、fMAX=139GHz。"
+cite: "[1] Abdulazhanov S, Huynh D K, Le Q H, et al. A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology[J]. Neuromorphic Computing and Engineering, 2023."
+aiSum: "在22nm FDSOI工艺上制备基于HfO2铁电FeFET的多指结构可重构RF开关，利用非易失性阈值电压调节实现零栅压操作，融合无源/有源开关优势。16指器件fT=135GHz、fMAX=139GHz，存储窗口>2V，为毫米波前端提供新型低功耗可重构方案。"
+confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"
 keywords:
-  - "[[— ferroelectric]]"
-  - "[[HfO₂]]"
+  - "[[ferroelectric]]"
+  - "[[HfO2]]"
   - "[[FeFET]]"
-  - "[[memory window]]"
+  - "[[Memory window]]"
   - "[[FDSOI]]"
+  - "[[RF switch]]"
+  - "[[铁电]]"
+  - "[[射频开关]]"
 ---
 
 Sukhrob Abdulazhanov1 , Dang Khoa Huynh1 , Quang Huy Le1 , Thomas Kämpfe1 , Gerald Gerlach2
@@ -65,7 +67,7 @@ The general fabrication procedure is a replacement of the standard gate oxide wi
 
 a Keysight N5247B PNA-X vector network analyzer with N5293A extender heads, applying a signal in the frequency range between 1 GHz and 110 GHz. The pads were contacted using 50 µm pitch Ground-Signal-Ground Infinity probes and the DC bias was applied to the RF signal using an SMU B2902A and a bias tee integrated into the extenders.
 
-Ferroelectric switching is indicated by the shift of threshold voltage $\mathrm { ( V _ { t } ) }$ between high- $\mathbf { \nabla } \cdot \mathrm { V _ { t } }$ (HVT) and low- $\mathbf { - V _ { t } }$ (LVT) or erase (ERS) and program (PRG) states. The switching was accomplished by gradually sweeping $\mathrm { v _ { G S } }$ between -4 V and 4 V while $\mathrm { \Delta V _ { D S } }$ was varied between 0 and 1.2 V.
+Ferroelectric switching is indicated by the shift of threshold voltage $\mathrm { ( V _ { t } ) }$ between high-$\mathbf { \nabla } \cdot \mathrm { V _ { t } }$ (HVT) and low-$\mathbf { - V _ { t } }$ (LVT) or erase (ERS) and program (PRG) states. The switching was accomplished by gradually sweeping $\mathrm { v _ { G S } }$ between -4 V and 4 V while $\mathrm { \Delta V _ { D S } }$ was varied between 0 and 1.2 V.
 
 # III. RESULTS AND DISCUSSION
 
@@ -74,7 +76,7 @@ Fig. 2 shows the transfer characteristics $\left( \mathrm { I } _ { \mathrm { D 
 ![](images/cd1361785925dd1c174f79fcfa9ae98c1492fb53d725aa5218d20e2d83c920c1.jpg)  
 Fig. 2. Transfer characteristics of multifinger [[FeFET]]s with 20 nm (a), 80 nm (b) and 200 nm (c) finger length, respectively.
 
-Fig. 3 displays the output curves $\left( \mathrm { { I } _ { D S } - V _ { D S } } \right)$ of the devices, which were measured while sweeping the gate voltage $\mathrm { v _ { G S } }$ from -2 V to 4 V with a 1 V step. Both high- $\cdot \mathrm { V _ { t } }$ (HVT) and low-V (LVT) states are plotted to demonstrate the mismatch of I due to switching. As expected, the saturation current decreases with increasing gate length due to an increase in channel resistance. Notably, at $\mathrm { V } _ { \mathrm { G S } } = 4 \ \mathrm { V } ,$ the device with a gate length of 20 nm exhibits channel modulation [Fig.3(a)], which is evidenced by an increase in the slope in saturation.
+Fig. 3 displays the output curves $\left( \mathrm { { I } _ { D S } - V _ { D S } } \right)$ of the devices, which were measured while sweeping the gate voltage $\mathrm { v _ { G S } }$ from -2 V to 4 V with a 1 V step. Both high-$\cdot \mathrm { V _ { t } }$ (HVT) and low-V (LVT) states are plotted to demonstrate the mismatch of I due to switching. As expected, the saturation current decreases with increasing gate length due to an increase in channel resistance. Notably, at $\mathrm { V } _ { \mathrm { G S } } = 4 \ \mathrm { V } ,$ the device with a gate length of 20 nm exhibits channel modulation [Fig.3(a)], which is evidenced by an increase in the slope in saturation.
 
 The S-parameter data was used to calculate the maximum available gain (MAG), the transit frequency (fT), and the maximum oscillation frequency $\operatorname { \left( f _ { M A X } \right) }$ [18]. The MAG is plotted as a function of frequency in Fig. 4. From the plots, it is evident that MAG is decreasing with an increase in the gate
 
@@ -111,32 +113,32 @@ In this paper we have demonstrated reconfigurable multifinger [[FeFET]]s with va
 
 # ACKNOWLEDGMENT
 
-This work has received funding from the ECSEL Joint Undertaking (JU) under grant agreement No 783127. The JU receives support from the European Union’s Horizon 2020 research and innovation programme and France, Germany, Austria, Poland, Portugal, Spain.
+This work has received funding from the ECSEL Joint Undertaking (JU) under grant agreement No 783127. The JU receives support from the European Union's Horizon 2020 research and innovation programme and France, Germany, Austria, Poland, Portugal, Spain.
 
 # REFERENCES
 
-[1] T. S. Böscke, J. Müller, D. Bräuhaus, U. Schröder, and U. Böttger, “Ferroelectricity in hafnium oxide thin films,” Applied Physics Letters, vol. 99, no. 10, p. 102903, 2011.   
-[2] J. Müller, P. Polakowski, S. Mueller, and T. Mikolajick, “Ferroelectric Hafnium Oxide Based Materials and Devices: Assessment of Current Status and Future Prospects,” ECS Journal of Solid State Science and Technology, vol. 4, no. 5, pp. N30–N35, 2015.   
-[3] M. Jerry, P.-Y. Chen, J. Zhang, P. Sharma, K. Ni, S. Yu, and S. Datta, “Ferroelectric FET analog synapse for acceleration of deep neural network training,” in 2017 IEEE International Electron Devices Meeting (IEDM). IEEE, 2017, pp. 6.2.1–6.2.4.   
-[4] M. Lederer, T. Kämpfe, T. Ali, F. Müller, R. Olivo, R. Hoffmann, N. Laleni, and K. Seidel, “Ferroelectric Field Effect Transistors as a Synapse for Neuromorphic Application,” IEEE Transactions on Electron Devices, vol. 68, no. 5, pp. 2295–2300, 2021.   
-[5] S. De, F. Müller, S. Thunder, S. Abdulazhanov, N. Laleni, M. Lederer, T. Ali, Y. Raffel, S. Dunkel, S. Mojumder, A. Vardar, S. Beyer, K. Seidel, and T. Kampfe, “28 nm HKMG-Based Current Limited [[FeFET]] [[crossbar]]-Array for Inference Application,” IEEE Transactions on Electron Devices, pp. 1–5, 2022.   
-[6] S. De, F. Müller, N. Laleni, M. Lederer, Y. Raffel, S. Mojumder, A. Vardar, S. Abdulazhanov, T. Ali, S. Dunkel, S. Beyer, K. Seidel, and T. Kampfe, “Demonstration of Multiply-Accumulate Operation with 28 nm [[FeFET]] Crossbar Array,” IEEE Electron Device Letters, p. 1, 2022.   
-[7] S. De, M. A. Baig, B.-H. Qiu, F. Müller, H.-H. Le, M. Lederer, T. Kämpfe, T. Ali, P.-J. Sung, C.-J. Su, Y.-J. Lee, and D. D. Lu, “Random and Systematic Variation in Nanoscale $\mathrm { H f } _ { 0 . 5 } \mathrm { Z r } _ { 0 . 5 } 0 _ { 2 }$ Ferroelectric FinFETs: Physical Origin and Neuromorphic Circuit Implications,” Frontiers in Nanotechnology, vol. 3, 2022.   
-[8] M. Dragoman, M. Aldrigo, M. Modreanu, and D. Dragoman, “Extraordinary tunability of high-frequency devices using Hf0.3Zr0.7O2 ferroelectric at very low applied voltages,” Appl. Phys. Lett., vol. 110, no. 10, p. 103104, 2017.   
-[9] M. Dragoman, M. Modreanu, I. Povey, S. Iordanescu, M. Aldrigo, A. Dinescu, D. Vasilache, and C. Romanitan, “2.55 GHz miniaturised phased antenna array based on 7 nm-thick $\mathrm { H f _ { x } } Z \mathbf { r } _ { 1 - \mathrm { x } } \mathbf { O } _ { 2 }$ ferroelectrics,” Electron. Lett., vol. 54, no. 8, pp. 469–470, 2018.   
-[10] S. Abdulazhanov, Q. H. Le, D. K. Huynh, D. Wang, M. Lederer, R. Olivo, K. Mertens, J. Emara, T. Kämpfe, and G. Gerlach, “RF-Characterization of HZO Thin Film Varactors,” Crystals, vol. 11, no. 8, p. 980, 2021.   
-[11] S. Abdulazhanov, D. K. Huynh, Q. H. Le, D. Lehninger, T. Kampfe, and G. Gerlach, “BEoL integrated hafnium zirconium oxide varactors for tunable mmWave applications,” in ESSDERC 2022 - IEEE 52nd European Solid-State Device Research Conference (ESSDERC). IEEE, 2022, pp. 253–256.   
-[12] S. Abdulazhanov, Q. H. Le, D. K. Huynh, D. Wang, D. Lehninger, T. Kämpfe, and G. Gerlach, “THz Thin Film Varactor Based on Integrated Ferroelectric HfZrO2,” ACS Applied Electronic Materials, 2022.   
-[13] S. Abdulazhanov, D. K. Huynh, Q. H. Le, D. Lehninger, T. Kampfe, and G. Gedach, “Investigation of BEoL integrated ferroelectric thin-film HfO 2 for mmWave varactor applications,” in 2022 IEEE International Symposium on Radio-Frequency Integration Technology (RFIT). IEEE, 2022, pp. 131–133.   
-[14] J. Y. Yang, M. J. Yeom, J. Lee, K. Lee, C. Park, J. Heo, and G. Yoo, “Reconfigurable Radio–Frequency High–Electron Mobility Transistors via Ferroelectric–Based Gallium Nitride Heterostructure,” Advanced Electronic Materials, vol. 8, no. 9, p. 2101406, 2022.   
-[15] J. Feldmann, N. Youngblood, M. Karpov, H. Gehring, X. Li, M. Stappers, M. Le Gallo, X. Fu, A. Lukashchuk, A. S. Raja, J. Liu, C. D. Wright, A. Sebastian, T. J. Kippenberg, W. H. P. Pernice, and H. Bhaskaran, “Parallel convolutional processing using an integrated photonic tensor core,” Nature, vol. 589, no. 7840, pp. 52–58, 2021.
+[1] T. S. Böscke, J. Müller, D. Bräuhaus, U. Schröder, and U. Böttger, "Ferroelectricity in hafnium oxide thin films," Applied Physics Letters, vol. 99, no. 10, p. 102903, 2011.   
+[2] J. Müller, P. Polakowski, S. Mueller, and T. Mikolajick, "Ferroelectric Hafnium Oxide Based Materials and Devices: Assessment of Current Status and Future Prospects," ECS Journal of Solid State Science and Technology, vol. 4, no. 5, pp. N30–N35, 2015.   
+[3] M. Jerry, P.-Y. Chen, J. Zhang, P. Sharma, K. Ni, S. Yu, and S. Datta, "Ferroelectric FET analog synapse for acceleration of deep neural network training," in 2017 IEEE International Electron Devices Meeting (IEDM). IEEE, 2017, pp. 6.2.1–6.2.4.   
+[4] M. Lederer, T. Kämpfe, T. Ali, F. Müller, R. Olivo, R. Hoffmann, N. Laleni, and K. Seidel, "Ferroelectric Field Effect Transistors as a Synapse for Neuromorphic Application," IEEE Transactions on Electron Devices, vol. 68, no. 5, pp. 2295–2300, 2021.   
+[5] S. De, F. Müller, S. Thunder, S. Abdulazhanov, N. Laleni, M. Lederer, T. Ali, Y. Raffel, S. Dunkel, S. Mojumder, A. Vardar, S. Beyer, K. Seidel, and T. Kampfe, "28 nm HKMG-Based Current Limited [[FeFET]] [[crossbar]]-Array for Inference Application," IEEE Transactions on Electron Devices, pp. 1–5, 2022.   
+[6] S. De, F. Müller, N. Laleni, M. Lederer, Y. Raffel, S. Mojumder, A. Vardar, S. Abdulazhanov, T. Ali, S. Dunkel, S. Beyer, K. Seidel, and T. Kampfe, "Demonstration of Multiply-Accumulate Operation with 28 nm [[FeFET]] Crossbar Array," IEEE Electron Device Letters, p. 1, 2022.   
+[7] S. De, M. A. Baig, B.-H. Qiu, F. Müller, H.-H. Le, M. Lederer, T. Kämpfe, T. Ali, P.-J. Sung, C.-J. Su, Y.-J. Lee, and D. D. Lu, "Random and Systematic Variation in Nanoscale $\mathrm { H f } _ { 0 . 5 } \mathrm { Z r } _ { 0 . 5 } 0 _ { 2 }$ Ferroelectric FinFETs: Physical Origin and Neuromorphic Circuit Implications," Frontiers in Nanotechnology, vol. 3, 2022.   
+[8] M. Dragoman, M. Aldrigo, M. Modreanu, and D. Dragoman, "Extraordinary tunability of high-frequency devices using Hf0.3Zr0.7O2 ferroelectric at very low applied voltages," Appl. Phys. Lett., vol. 110, no. 10, p. 103104, 2017.   
+[9] M. Dragoman, M. Modreanu, I. Povey, S. Iordanescu, M. Aldrigo, A. Dinescu, D. Vasilache, and C. Romanitan, "2.55 GHz miniaturised phased antenna array based on 7 nm-thick $\mathrm { H f _ { x } } Z \mathbf { r } _ { 1 - \mathrm { x } } \mathbf { O } _ { 2 }$ ferroelectrics," Electron. Lett., vol. 54, no. 8, pp. 469–470, 2018.   
+[10] S. Abdulazhanov, Q. H. Le, D. K. Huynh, D. Wang, M. Lederer, R. Olivo, K. Mertens, J. Emara, T. Kämpfe, and G. Gerlach, "RF-Characterization of HZO Thin Film Varactors," Crystals, vol. 11, no. 8, p. 980, 2021.   
+[11] S. Abdulazhanov, D. K. Huynh, Q. H. Le, D. Lehninger, T. Kampfe, and G. Gerlach, "BEoL integrated hafnium zirconium oxide varactors for tunable mmWave applications," in ESSDERC 2022 - IEEE 52nd European Solid-State Device Research Conference (ESSDERC). IEEE, 2022, pp. 253–256.   
+[12] S. Abdulazhanov, Q. H. Le, D. K. Huynh, D. Wang, D. Lehninger, T. Kämpfe, and G. Gerlach, "THz Thin Film Varactor Based on Integrated Ferroelectric HfZrO2," ACS Applied Electronic Materials, 2022.   
+[13] S. Abdulazhanov, D. K. Huynh, Q. H. Le, D. Lehninger, T. Kampfe, and G. Gedach, "Investigation of BEoL integrated ferroelectric thin-film HfO 2 for mmWave varactor applications," in 2022 IEEE International Symposium on Radio-Frequency Integration Technology (RFIT). IEEE, 2022, pp. 131–133.   
+[14] J. Y. Yang, M. J. Yeom, J. Lee, K. Lee, C. Park, J. Heo, and G. Yoo, "Reconfigurable Radio–Frequency High–Electron Mobility Transistors via Ferroelectric–Based Gallium Nitride Heterostructure," Advanced Electronic Materials, vol. 8, no. 9, p. 2101406, 2022.   
+[15] J. Feldmann, N. Youngblood, M. Karpov, H. Gehring, X. Li, M. Stappers, M. Le Gallo, X. Fu, A. Lukashchuk, A. S. Raja, J. Liu, C. D. Wright, A. Sebastian, T. J. Kippenberg, W. H. P. Pernice, and H. Bhaskaran, "Parallel convolutional processing using an integrated photonic tensor core," Nature, vol. 589, no. 7840, pp. 52–58, 2021.
 
-[16] C. Wang, S.-J. Liang, C.-Y. Wang, Z.-Z. Yang, Y. Ge, C. Pan, X. Shen, W. Wei, Y. Zhao, Z. Zhang, B. Cheng, C. Zhang, and F. Miao, “Scalable massively parallel computing using continuous-time data representation in nanoscale crossbar array,” Nature nanotechnology, vol. 16, no. 10, pp. 1079–1085, 2021.   
+[16] C. Wang, S.-J. Liang, C.-Y. Wang, Z.-Z. Yang, Y. Ge, C. Pan, X. Shen, W. Wei, Y. Zhao, Z. Zhang, B. Cheng, C. Zhang, and F. Miao, "Scalable massively parallel computing using continuous-time data representation in nanoscale crossbar array," Nature nanotechnology, vol. 16, no. 10, pp. 1079–1085, 2021.   
 [17] E. Lourandakis, On-wafer microwave measurements and de-embedding, ser. Microwave design. Boston and London: Artech House, 2016.   
 [18] I. J. Bahl, Fundamentals of RF and microwave transistor amplifiers. Oxford: Wiley, 2009.   
-[19] Q. H. Le, D. K. Huynh, D. Wang, T. Kampfe, Z. Zhao, and S. Lehmann, “Assessment of a Thick-Oxide Transistor from the 22FDX Platform for 5G NR sub-6 GHz FEMs,” in 2019 IEEE 2nd 5G World Forum (5GWF). IEEE, 2019, pp. 7–10.   
-[20] M. Sadegh Dadash, S. Bonen, U. Alakusu, D. Harame, and S. P. Voinigescu, “DC-170 GHz Characterization of 22nm [[FDSOI]] Technology for Radar Sensor Applications,” in 2018 13th European Microwave Integrated Circuits Conference (EuMIC). IEEE, 2018, pp. 158–161.   
+[19] Q. H. Le, D. K. Huynh, D. Wang, T. Kampfe, Z. Zhao, and S. Lehmann, "Assessment of a Thick-Oxide Transistor from the 22FDX Platform for 5G NR sub-6 GHz FEMs," in 2019 IEEE 2nd 5G World Forum (5GWF). IEEE, 2019, pp. 7–10.   
+[20] M. Sadegh Dadash, S. Bonen, U. Alakusu, D. Harame, and S. P. Voinigescu, "DC-170 GHz Characterization of 22nm [[FDSOI]] Technology for Radar Sensor Applications," in 2018 13th European Microwave Integrated Circuits Conference (EuMIC). IEEE, 2018, pp. 158–161.   
 [21] J. Casamento, K. Nomoto, T. S. Nguyen, H. Lee, C. Savant, L. Li, A. Hickman, T. Maeda, Encomendero, V. Gund, A. Lal, J. C. M. Hwang H. G. Xing, and D. Jena, Ed., FerroHEMTs: High-Current and High-Speed All-Epitaxial AlScN/GaN Ferroelectric Transistors, 2022.   
-[22] J. Cheng, M. W. Rahman, A. Xie, H. Xue, S. H. Sohel, E. Beam, C. Lee, H. Yang, C. Wang, Y. Cao, S. Rajan, and W. Lu, “Breakdown Voltage Enhancement in ScAlN/GaN High-Electron-Mobility Transistors by High- k Bismuth Zinc Niobate Oxide,” IEEE Transactions on Electron Devices, vol. 68, no. 7, pp. 3333–3338, 2021.   
-[23] A. J. Green, J. K. Gillespie, R. C. Fitch, D. E. Walker, M. Lindquist, A. Crespo, D. Brooks, E. Beam, A. Xie, V. Kumar, J. Jimenez, C. Lee, Y. Cao, K. D. Chabak, and G. H. Jessen, “ScAlN/GaN High-Electron-Mobility Transistors With 2.4-A/mm Current Density and 0.67-S/mm Transconductance,” IEEE Electron Device Letters, vol. 40, no. 7, pp. 1056–1059, 2019.   
-[24] T. E. Kazior, E. M. Chumbes, B. Schultz, J. Logan, D. J. Meyer, and M. T. Hardy, “High Power Density ScAlN-Based Heterostructure FETs for mm-Wave Applications,” pp. 1136–1139.
+[22] J. Cheng, M. W. Rahman, A. Xie, H. Xue, S. H. Sohel, E. Beam, C. Lee, H. Yang, C. Wang, Y. Cao, S. Rajan, and W. Lu, "Breakdown Voltage Enhancement in ScAlN/GaN High-Electron-Mobility Transistors by High- k Bismuth Zinc Niobate Oxide," IEEE Transactions on Electron Devices, vol. 68, no. 7, pp. 3333–3338, 2021.   
+[23] A. J. Green, J. K. Gillespie, R. C. Fitch, D. E. Walker, M. Lindquist, A. Crespo, D. Brooks, E. Beam, A. Xie, V. Kumar, J. Jimenez, C. Lee, Y. Cao, K. D. Chabak, and G. H. Jessen, "ScAlN/GaN High-Electron-Mobility Transistors With 2.4-A/mm Current Density and 0.67-S/mm Transconductance," IEEE Electron Device Letters, vol. 40, no. 7, pp. 1056–1059, 2019.   
+[24] T. E. Kazior, E. M. Chumbes, B. Schultz, J. Logan, D. J. Meyer, and M. T. Hardy, "High Power Density ScAlN-Based Heterostructure FETs for mm-Wave Applications," pp. 1136–1139.
