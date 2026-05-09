@@ -1,5 +1,6 @@
 ---
 
+
 title: "Domain Switching and Spatial Dependence of Permittivity in Ferroelectric Thin Films"
 authors:
   - "Francis K. Chai"
@@ -22,7 +23,6 @@ keywords:
 # Domain switching and spatial dependence of permittivity in [[ferroelectric]] thin films
 
 Francis K. Chai, J. R. Brews, R. D. Schrimpf, and D. P. Birnie III
-  - "[[Ferroelectric]]"
 
 Citation: Journal of Applied Physics 82, 2505 (1997); doi: 10.1063/1.365764
 

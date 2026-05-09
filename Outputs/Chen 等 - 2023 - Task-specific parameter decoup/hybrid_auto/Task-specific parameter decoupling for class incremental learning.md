@@ -1,4 +1,5 @@
 ---
+
 title: "Task-Specific Parameter Decoupling for Class Incremental Learning"
 authors:
   - "Runhang Chen"
@@ -30,7 +31,6 @@ c Guangdong Provincial Key Laboratory of Petrochemical Equipment Fault Diagnosis
 d State Key Laboratory for Novel Software Technology, Nanjing University, Nanjing, 210008, China
 
 # A R T I C L E I N F O
-  - "[[Continual learning]]"
 
 Keywords:
 

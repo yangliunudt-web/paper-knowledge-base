@@ -1,4 +1,5 @@
 ---
+
 title: "Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture\\"
 authors:
   - "Yinchang Ma"
@@ -47,8 +48,6 @@ Letter
 Yinchang Ma, Maolin Chen, Fernando Aguirre, Yuan Yan, Sebastian Pazos, Chen Liu, Heng Wang, Tao Yang, Baoyu Wang, Cheng Gong, Kai Liu, Jefferson Zhe Liu, Mario Lanza, Fei Xue,* and Xixiang Zhang*
 
 ![](images/7ed5474057068103db02a9041d80d45062e98c069733367cec86ac1d60e6831e.jpg)
-  - "[[FeFET]]"
-  - "[[Memristor]]"
 
 Cite This: Nano Lett. 2025, 25, 2528−2537
 

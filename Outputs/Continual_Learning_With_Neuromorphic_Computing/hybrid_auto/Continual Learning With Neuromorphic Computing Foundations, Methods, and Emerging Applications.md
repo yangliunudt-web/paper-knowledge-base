@@ -1,5 +1,6 @@
 ---
 
+
 title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging Applications"
 authors:
   - "Mishal Fatima Minhas Rachmad Vidya Wicaksana Putra"
@@ -29,8 +30,6 @@ MISHAL FATIMA MINHAS RACHMAD VIDYA WICAKSANA PUTRA 2, (Member, IEEE), FALAH AWWA
 1Electrical and Communication Engineering Department, United Arab Emirates University (UAEU), Al Ain, United Arab Emirates   
 2eBRAIN Laboratory, New York University (NYU) Abu Dhabi, Abu Dhabi, United Arab Emirates   
 3School of Electrical Engineering and Computer Science (SEECS), National University of Sciences and Technology (NUST), Islamabad 44000, Pakistan
-  - "[[Continual learning]]"
-  - "[[Neuromorphic computing]]"
 
 Corresponding author: Falah Awwad (f_awwad@uaeu.ac.ae)
 

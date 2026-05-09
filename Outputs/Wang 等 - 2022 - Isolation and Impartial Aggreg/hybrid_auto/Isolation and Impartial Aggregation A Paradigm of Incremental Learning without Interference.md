@@ -1,4 +1,5 @@
 ---
+
 title: "Isolation and Impartial Aggregation: A Paradigm of Incremental Learning without Interference"
 authors:
   - "Yabin Wang"
@@ -37,9 +38,6 @@ wangyw@pcl.ac.cn, {zhousu, hongxiaopeng}@ieee.org
 ![](images/9e3f390a3cfa97e8b6afaa78667cbab9ef086e8ecfa2020852b141268f6db3c0.jpg)
 
 # Abstract
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
-  - "[[Neural network]]"
 
 This paper focuses on the prevalent performance imbalance in the stages of incremental learning. To avoid obvious stage learning bottlenecks, we propose a brand-new stage-isolation based incremental learning framework, which leverages a series of stage-isolated classifiers to perform the learning task of each stage without the interference of others. To be concrete, to aggregate multiple stage classifiers as a uniform one impartially, we firstly introduce a temperature-controlled energy metric for indicating the confidence score levels of the stage classifiers. We then propose an anchor-based energy self-normalization strategy to ensure the stage classifiers work in the same energy level. Finally we design a voting based inference augmentation strategy for robust inference. The proposed method is rehearsal free and can work for almost all continual learning scenarios. We evaluate the proposed method on four large benchmarks. Extensive results demonstrate the superiority of the proposed method in setting up new state-of-the-art overall performance. Code is available at https://github.com/iamwangyabin/ESN.
 

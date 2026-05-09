@@ -1,4 +1,5 @@
 ---
+
 title: "Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation"
 authors:
   - "Likhitha Mankali"
@@ -42,8 +43,6 @@ LIKHITHA MANKALI 1 (Student Member, IEEE), NIKHIL RANGARAJAN 2 (Member, IEEE), S
 3Department of Electrical Engineering, Indian Institute of Technology Kanpur, Kanpur 208016, India
 
 4Department of Computer Science, University of Stuttgart, 70049 Stuttgart, Germany
-  - "[[FeFET]]"
-  - "[[In-memory computing]]"
 
 CORRESPONDING AUTHOR: L. MANKALI (lm4344@nyu.edu)
 

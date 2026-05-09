@@ -1,4 +1,5 @@
 ---
+
 title: "Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding"
 authors:
   - "Sheena A. Josselyn"
@@ -43,9 +44,6 @@ aiSum: |
 cite: "[1] Author U. Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding[J]. Unknown J., 2017."
 
 keywords:
-  - "[[Plasticity]]"
-  - "[[Architecture]]"
-  - "[[Memory]]"
 ---title: "Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding"
 authors:
   - "Unknown Author"

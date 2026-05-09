@@ -1,4 +1,5 @@
 ---
+
 title: "Reservoir Computing Utilizing a Complementary Combination of n- and p-Channel FeFETs"
 authors:
   - "Rikuo Suzuki"
@@ -29,8 +30,6 @@ wiki_concepts:
 # Reservoir Computing Utilizing a Complementary Combination of n- and p-Channel FeFETs
 
 Rikuo Suzuki , Kasidit Toprasertpong , Member, IEEE, Ryosho Nakane , Member, IEEE, Eishin Nako , Student Member, IEEE, Mitsuru Takenaka Member, IEEE, and Shinichi Takagi , Senior Member, IEEE
-  - "[[FeFET]]"
-  - "[[Reservoir computing]]"
 
 Abstract— We investigate the potential of physical reservoir computing utilizing a combination of n-channel FeFETs (n-FeFETs) and p-channel FeFETs (p-FeFETs). We first confirm that the reservoir computing performance of a single p-FeFET is similar to that of a single n-FeFET despite the smaller memory window. We demonstrate that combining both the reservoir states of n- and p-FeFETs enhances the performance of reservoir computing owing to the complementary behaviors of the two FeFETs: the p-FeFET is turned ON when the n-FeFET is turned OFF and vice versa, providing large current output for any gate voltage input. These complementary characteristics provide the reservoir states that exhibit clear nonlinear transformation of any given input. It is also found that additionally combining with techniques using inverted digital inputs can further enhance the performance.
 

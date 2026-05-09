@@ -1,5 +1,6 @@
 ---
 
+
 title: "Solving the Integration Problem of One Transistor One Memristor Architecture with a Bi-Layer IGZO Film Through Synchronous Process"
 authors:
   - "Che-Chia Chang"
@@ -29,8 +30,6 @@ Che-Chia Chang; Po-Tsun Liu  ; Chen-Yu Chien; Yang-Shun Fan
 Check for updates
 
 Appl. Phys. Lett. 112, 172101 (2018)
-  - "[[IGZO]]"
-  - "[[RRAM]]"
 
 https://doi.org/10.1063/1.5020583
 

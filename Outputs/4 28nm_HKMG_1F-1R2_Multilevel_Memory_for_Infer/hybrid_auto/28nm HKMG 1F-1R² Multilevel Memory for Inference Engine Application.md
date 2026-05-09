@@ -1,5 +1,6 @@
 ---
 
+
 title: "28nm HKMG 1F-1R² Multilevel Memory for Inference Engine Application"
 authors:
   - "Sourav De"
@@ -33,7 +34,6 @@ Sourav De $^{1}$ , Franz Müller $^{1}$ , Maximilian Lederer $^{1}$ , Yannick Ra
 <sup>1</sup> Fraunhofer-Institut für Photonische Mikrosysteme IPMS - Center Nanoelectronic Technologies, Dresden, Germany
 
 2GlobalFoundries', Dresden, Germany
-  - "[[FeFET]]"
 
 E-mail: sourav.de@ipms.fraunhofer.de, yannick.raffel@ipms.fraunhofer.de
 

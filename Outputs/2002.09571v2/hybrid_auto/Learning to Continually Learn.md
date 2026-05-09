@@ -1,5 +1,6 @@
 ---
 
+
 title: "Learning to Continually Learn"
 authors:
   - "Shawn Lapo"
@@ -25,8 +26,6 @@ keywords:
 # Learning to Continually Learn
 
 Shawn Beaulieu1 and Lapo Frati1 and Thomas Miconi2 and Joel Lehman2 and Kenneth O. Stanley2 and Jeff Clune*2,3 and Nick Cheney*1
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 Abstract. Continual lifelong learning requires an agent or model to learn many sequentially ordered tasks, building on previous knowledge without catastrophically forgetting it. Much work has gone towards preventing the default tendency of machine learning models to catastrophically forget, yet virtually all such work involves manually-designed solutions to the problem. We instead advocate [[Meta-learning]] a solution to catastrophic forgetting, allowing AI to learn to continually learn. Inspired by neuromodulatory processes in the brain, we propose A Neuromodulated Meta-Learning Algorithm (ANML). It differentiates through a sequential learning process to meta-learn an activation-gating function that enables contextdependent selective activation within a deep neural network. Specifically, a neuromodulatory (NM) neural network gates the forward pass of another (otherwise normal) neural network called the prediction learning network (PLN). The NM network also thus indirectly controls selective plasticity (i.e. the backward pass of) the PLN. ANML enables [[Continual learning]] without catastrophic forgetting at scale: it produces state-of-the-art continual learning performance, sequentially learning as many as 600 classes (over 9,000 SGD updates).
 

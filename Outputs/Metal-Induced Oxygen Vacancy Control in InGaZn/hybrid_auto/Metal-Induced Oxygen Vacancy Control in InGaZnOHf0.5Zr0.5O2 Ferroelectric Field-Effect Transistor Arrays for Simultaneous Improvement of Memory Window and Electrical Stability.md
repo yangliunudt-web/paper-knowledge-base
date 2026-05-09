@@ -1,4 +1,5 @@
 ---
+
 title: "Metal-Induced Oxygen Vacancy Control in InGaZnO/Hf0.5Zr0.5O2 Ferroelectric"
 authors:
   - "Jae Seong"
@@ -27,8 +28,6 @@ confidence: "high"
 Jae Seong Han, Kyungmoon Kwak, Subi Choi, Ju Hyun Lee, Nam Su Heo, Kunho Moon, and Hyun Jae Kim*
 
 ![](images/657e52c94ac8887d6277dfb0c60142f1f0751fa74762fa074a57058b5ba1830a.jpg)
-  - "[[FeFET]]"
-  - "[[IGZO]]"
 
 Cite This: https://doi.org/10.1021/acsnano.5c14197
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Physical reservoir computing with emerging electronics"
 authors:
   - "Xiangpeng Liang"
@@ -27,8 +28,6 @@ wiki_concepts:
 ---
 
 # Physical reservoir computing with emerging electronics
-  - "[[Neuromorphic computing]]"
-  - "[[Reservoir computing]]"
 
 Received: 25 April 2023
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Monolithic 3D Integration of 2D Transistors and Vertical RRAMs in 1T-4R Structure\\"
 authors:
   - "Maosong Xie"
@@ -33,7 +34,6 @@ wiki_concepts:
 ---
 
 # Monolithic 3D integration of 2D transistors and vertical [[RRAM]]s in 1T–4R structure for high-density memory
-  - "[[RRAM]]"
 
 Received: 19 June 2022
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance >10¹²\\"
 authors:
   - "Sharadindu Gopal Kirtania"
@@ -46,7 +47,6 @@ In recent years, the rise of artificial intelligence (AI) has driven a significa
 write endurance over $10^{12}$ cycles and retention beyond $10^{4}$ seconds at $85^{\circ}\mathrm{C}$ . Additionally, we have conducted read speed measurements and confirmed read endurance surpassing $10^{12}$ cycles, indicating excellent persistence performance. Furthermore, we also incorporate a 1T-1FeFET array level analysis in TCAD mixed mode simulation for program, read, erase and disturb operation to ensure the impact of floating node of gate of unselected cells is minimized.
 
 # II. FABRICATION PROCESS
-  - "[[FeFET]]"
 
 Fig. 4(a) and Fig. 5(a) illustrate the schematics of the fabricated BEOL IWO FeFET and MOSFET, respectively. Both devices feature a $5\mathrm{nm}$ layer deposited using PEALD: HZO for the FeFET and $\mathrm{HfO_2}$ for the MOSFET, at $250^{\circ}\mathrm{C}$ . For the FeFET, a W sacrificial capping layer (SCL) is added to stabilize ferroelectricity, followed by rapid thermal annealing at $400^{\circ}\mathrm{C}$ for 300s in $\mathrm{N}_2$ and subsequent etching. Both devices have $4.5\mathrm{nm}$ of $1\%$ W-doped Indium Oxide (IWO) sputtered in $0.02\mathrm{Pa}$ excess $\mathrm{O}_2$ at room temperature. Pd source and drain electrodes are patterned, with a post-metal anneal at $150^{\circ}\mathrm{C}$ in $\mathrm{N}_2$ , keeping the entire process within $400^{\circ}\mathrm{C}$ for BEOL compatibility. Fig. 4(c) shows a false-colored cross-sectional STEM image and Fig. 4(d) provides EDS mapping of the IWO FeFET, confirming element locations. Fig. 5(b) presents the DC transfer characteristics of the BEOL IWO MOSFET with an on/off ratio $>10^{11}$ at $\mathrm{V_{DS}} = 1\mathrm{V}$ .
 

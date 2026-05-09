@@ -1,4 +1,5 @@
 ---
+
 title: "Application and Benefits of Target Programming Algorithms for Ferroelectric HfO₂\\"
 authors:
   - "H. Zhou"
@@ -36,7 +37,6 @@ wiki_concepts:
 # Application and Benefits of Target Programming Algorithms for Ferroelectric HfO₂ Transistors
 
 H. Zhou1, J. Ocker1, A. Padovani2, M. Pesic2, M. Trentzsch3, S. Dünkel3, H. Mulaosmanovic4, S. Slesazeck4, Luca Larcher2, S. Beyer3, S. Müller1 and T. Mikolajick4,5
-  - "[[FeFET]]"
 
 1Ferroelectric Memory GmbH, Dresden Germany, email: haidi.zhou@ferroelectric-memory.com
 

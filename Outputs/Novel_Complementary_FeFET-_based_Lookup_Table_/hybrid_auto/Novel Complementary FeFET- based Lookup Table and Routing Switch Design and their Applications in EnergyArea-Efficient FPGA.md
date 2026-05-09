@@ -1,4 +1,5 @@
 ---
+
 title: "Novel Complementary FeFET- based Lookup Table and Routing Switch Design and their\\"
 authors:
   - "Yuan-Yu Huang"
@@ -29,7 +30,6 @@ Yuan-Yu Huang1, Po-Tsang Huang2, Po-Yi Lee1 and Pin Su1
 1Institute of Electronics, National Yang Ming Chiao Tung University, Taiwan
 
 2International College of Semiconductor Technology, National Yang Ming Chiao Tung University, Taiwan
-  - "[[FeFET]]"
 
 Email: kevinhyyhyy.ee09@nycu.edu.tw, bughuang@nycu.edu.tw, pinsu@nycu.edu.tw
 

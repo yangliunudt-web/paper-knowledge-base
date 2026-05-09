@@ -1,4 +1,5 @@
 ---
+
 title: "FeFET versus DRAM based PIM Architectures: A Comparative Study"
 authors:
   - "Chirag Sudarshan"
@@ -32,9 +33,6 @@ wiki_concepts:
 Chirag Sudarshan∗†, Taha Soliman∗‡, Thomas Kampfe ¨ §, Christian Weis†, Norbert Wehn†
 
 † University of Kaiserslauten, Kaiserslauten, Germany
-  - "[[FeFET]]"
-  - "[[In-memory computing]]"
-  - "[[存内计算]]"
 
 Email: {sudarshan,weis,wehn}@eit.uni-kl.de
 

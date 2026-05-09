@@ -1,4 +1,5 @@
 ---
+
 title: "Enabling Energy-Efficient Deployment of Large Language Models on Memristor Crossbar:\\"
 authors:
   - "Zhehui Wang"
@@ -52,7 +53,6 @@ limited by peripheral circuits such as DAC (digital-analog converter) and ADC (a
 
 • Challenge 2: Non-weight stationary computations. Traditional memristor crossbars are designed for weight-stationary matrix multiplication, where one of the operands is weights that can be pre-stored into the memristors. This is because dynamically programming the memristors and changing their values is both time and energy-consuming for model inference. However, for most language models that contain multihead attention blocks, non-weight multiplication is inevitable. For example, we need to compute the matrix multiplication among the query, key, and value matrix. In these cases, both of the operands are intermediate results from the upstream operations. These non-weight stationary multiplications make it difficult to deploy LLMs directly on the memristor crossbar.   
 • Challenge 3: Complex non-linear operations. The memristor crossbars excel primarily in performing regular linear multiplications, which are relatively straightforward computations. However, LLM architectures usually incorporate numerous nonlinear operations such as Softmax, LayerNorm, and others. These non-linear operations often require several steps to compute. For instance, we use softmax to normalize an array of elements. To achieve this, the exponential value of each element is computed, and these values are then summed before the normalization step takes place. The existence of these complex non-linear operations in LLMs makes it challenging to deploy them on memristor crossbars.
-  - "[[Memristor]]"
 
 We propose a new architecture that enables energy-efficient model inference of LLM on memristor-based machine learning accelerators. This new architecture is capable of producing computation results that are highly comparable to those of traditional accelerators, with negligible accuracy loss when compared to state-of-the-art devices such as TPUs and GPUs. In summary, the proposed memristor architecture is capable of the following:
 

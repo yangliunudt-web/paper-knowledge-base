@@ -1,4 +1,5 @@
 ---
+
 title: "Highly-reliable ferroelectric thin-film transistors array for hardware implementation\\"
 authors:
   - "Peng Yang"
@@ -51,9 +52,6 @@ a College of Electronic Science and Technology, National University of Defense T
 b Changsha Semiconductor Technology and Application Research Institute, Engineering Research Center of Advanced Semiconductor Technology, College of Semiconductor (College of Integrated Circuit), Changsha 410082, China
 
 # a r t i c l e i n f o
-  - "[[Ferroelectric]]"
-  - "[[In-memory computing]]"
-  - "[[存内计算]]"
 
 Article history:
 

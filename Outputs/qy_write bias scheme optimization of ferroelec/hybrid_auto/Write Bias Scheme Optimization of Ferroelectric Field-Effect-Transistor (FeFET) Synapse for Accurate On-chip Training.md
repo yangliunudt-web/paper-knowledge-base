@@ -1,4 +1,5 @@
 ---
+
 title: "Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor (FeFET) Synapse\\"
 authors:
   - "Seungmin Kang"
@@ -25,8 +26,6 @@ wiki_concepts:
 ---
 
 # Write Bias Scheme Optimization of Ferroelectric Field-Effect-Transistor (FeFET) Synapse for Accurate On-chip Training
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 
 Seungmin Kang, Sangwan Kim, and Sihyun Kim Department of Electronic Engineering, Sogang University, 04107, South Korea Email: skim@sogang.ac.kr
 

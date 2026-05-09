@@ -1,4 +1,5 @@
 ---
+
 title: "A memristor‑based unified PUF and TRNG chip with a concealable ability for advanced\\"
 authors:
   - "Xueqi Li"
@@ -233,7 +234,6 @@ F
 ![](images/6e89d47114a6523f1cbf0587c374df2b9b99e26013b856ab44f757d4c721bcc4.jpg)  
 G   
 Fig. 4. Chip robustness and applications. (A and C) Throughput and BER of PUF and throughput and min-entropy from the NI ST SP800-90B test of TRNG under voltage variation and temperature variation. (B and D) BER of PUF and min-entropy and average P value of NI ST SP800-22 of TRNG in endurance and burn-in test. (E) Process of basic lightweight authentication protocol. (F) Comparison of PUF performance and TRNG performance for representative work and this work, including PUF-only/TRNGonly design and unified design. (G) Comparison of throughput for this work and digital unified design in the authentication protocol.
-  - "[[Memristor]]"
 
 than 0.2% below optimal, demonstrating the excellent temperature stability of the chip. In the endurance test (Fig. 4B), the PUF reproduces three types of fingerprint data ${ 1 0 } ^ { 9 }$ times: The worst BERs for concealed, recovered, and no concealment PUF data are 42.27, 0.58, and 0%, showing degradations of 0.54, 0.12, and 0% from the initial operation, respectively. The TRNG uses the same entropy source to generate random numbers over $1 0 ^ { 1 1 }$ cycles, with a minimum entropy exceeding 0.998, and also passed the NIST SP800-22 randomness test. This indicates that the chip demonstrates good endurance performance. In the burn-in test (Fig. 4D), the chips are baked for 30 hours at 125°C. During the baking process, the worst BERs for concealed, recovered, and no concealment PUF data are 40.00, 3.09, and $0 \% ,$ showing degradations of 3.44, 2.63, and 0%, respectively. The randomness of the TRNG is unaffected, with its min-entropy still exceeding 0.998, and it passes the NIST test. In conclusion, our chip works well under varying voltages and a wide temperature range, has a long lifespan, and can endure notable stress. We further analyze the factors affecting the chip robustness, including the circuits and memristor devices, as detailed in the “Performance constraint analysis” section and figs. S8 and S9.
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET"
 date: "2021-01-18"
 year: 2021
@@ -52,7 +53,6 @@ shu@nd.edu
 Attention-in-Memory (AiM), a computing-in-memory (CiM) design, is introduced to implement the attentional layer of Memory Augmented Neural Networks (MANNs). AiM consists of a memory array based on [[ferroelectric]] FETs ([[FeFET]]) along with CMOS peripheral circuits implementing configurable functionalities, i.e., it can be dynamically changed from a ternary content-addressable memory (TCAM) to a general-purpose (GP) CiM. When compared to state-of-the art accelerators, AiM achieves comparable end-to-end speed-up and energy for MANNs, with better accuracy (95.14% v.s. 92.21%, and 95.14% v.s. 91.98%) at iso-memory size, for a 5-way 5-shot inference task with the Omniglot dataset.
 
 # ACM Reference Format:
-  - "[[FeFET]]"
 
 Dayane Reis, Ann Franchesca Laguna, Michael Niemier, and Xiaobo Sharon Hu. 2021. Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET Arrays. In 26th Asia and South Pacific Design Automation Conference (ASPDAC ’21), January 18–21, 2021, Tokyo, Japan. ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3394885.3431526
 

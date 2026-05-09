@@ -1,4 +1,5 @@
 ---
+
 title: "Neuromorphic computing hardware and neural architectures for robotics"
 authors:
   - "Yulia Sandamirskaya"
@@ -54,7 +55,6 @@ Government Works
 # INTRODUCTION
 
 Making robots and autonomous systems more intelligent in unstructured human-centered environments is one of the key goals in robotics, making it one of the most dynamic areas of technological development. The key ingredient of such intelligence is the ability to understand a complex and dynamic environment well and fast enough to reliably support other functions, such as motion planning and control; safe interaction with humans, objects, and other agents; and autonomous learning from experience.
-  - "[[Neuromorphic computing]]"
 
 Neuronal networks and data-driven training algorithms have opened two important windows into understanding the environment: image and sound processing (1). These algorithms achieve state-of-the-art performance on a large number of datasets, often even surpassing human performance, and are the primary candidates to enable intelligent perception and behavior in robotics (2). However, robotic use cases pose particularly strict demands on power consumption, latency, adaptivity, and data efficiency of artificial intelligence (AI) algorithms (3, 4). Today, despite the advantages of neural network– based algorithms compared with the previous hand-crafted AI solutions (5,  6), we are still lacking truly intelligent and agile robots capable of safely and smoothly interacting with objects, each other, and humans in our daily lives. This stands in stark contrast to even simple animals that can produce intelligent behavior and interact in complex realworld environments. Animals can quickly
 

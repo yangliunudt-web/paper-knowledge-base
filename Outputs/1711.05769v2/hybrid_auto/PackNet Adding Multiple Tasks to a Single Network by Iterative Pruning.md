@@ -1,5 +1,6 @@
 ---
 
+
 title: "PackNet: Adding Multiple Tasks to a Single Network by Iterative Pruning"
 authors:
   - "Arun Mallya"
@@ -24,8 +25,6 @@ Arun Mallya and Svetlana Lazebnik University of Illinois at Urbana-Champaign
 {amallya2,slazebni}@illinois.edu
 
 # Abstract
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 This paper presents a method for adding multiple tasks to a single deep neural network while avoiding catastrophic forgetting. Inspired by network pruning techniques, we exploit redundancies in large deep networks to free up parameters that can then be employed to learn new tasks. By performing iterative pruning and network re-training, we are able to sequentially “pack” multiple tasks into a single network while ensuring minimal drop in performance and minimal storage overhead. Unlike prior work that uses proxy losses to maintain accuracy on older tasks, we always optimize for the task at hand. We perform extensive experiments on a variety of network architectures and largescale datasets, and observe much better robustness against catastrophic forgetting than prior work. In particular, we are able to add three fine-grained classification tasks to a single ImageNet-trained VGG-16 network and achieve accuracies close to those of separately trained networks for each task. Code available at https://github.com/ arunmallya/packnet
 

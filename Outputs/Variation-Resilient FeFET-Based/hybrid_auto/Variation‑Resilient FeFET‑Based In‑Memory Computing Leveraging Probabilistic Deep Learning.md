@@ -1,5 +1,6 @@
 ---
 
+
 title: "Variation‑Resilient FeFET‑Based In‑Memory Computing Leveraging Probabilistic"
 authors:
   - "Bibhas Arnob"
@@ -29,7 +30,6 @@ Index Terms—Variation-Aware Design, FeFET Crossbar, Device-Algorithm Co-Design
 # I. INTRODUCTION
 
 Emerging non-volatile memories capable of performing simultaneous compute and storage functionalities show great promise for the hardware acceleration of deep neural networks [1], [2]. The data-intensive and complex vector-matrix multiplication operations required in neural networks can be realized on-chip by harnessing the inherent physical attributes of the memory devices arranged in an array fashion - resulting in “In-Memory Computing”. Among different potential memory candidates such as resistive random-access memory (RRAM), phase-change memory (PCM), magnetic devices, etc., hafniabased FeFET has lately earned great interest due to its CMOS compatibility, low energy operation, multilevel programming capability with wider dynamic range, decoupled read-write operation, easy array-level integration, among others [3]– [6]. The voltage-driven partial polarization switching in the ferroelectric layer of FeFET promotes gradual tuning of channel conductivity, mimicking analog synaptic weight update
-  - "[[FeFET]]"
 
 B. Manna, A. Saha, and A. Sengupta are with the School of Electrical Engineering and Computer Science, The Pennsylvania State University, University Park, PA 16802, USA. E-mail: sengupta@psu.edu.
 

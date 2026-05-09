@@ -1,4 +1,5 @@
 ---
+
 title: "NeuroSim: A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures\\"
 authors:
   - "Pai-Yu Chen"
@@ -33,7 +34,6 @@ Index Terms—Emerging nonvolatile memory (eNVM), machine learning, neural netwo
 # I. INTRODUCTION
 
 EURO-INSPIRED computing has attracted a lot of interest as the traditional Boolean computing based on CMOS technology is reaching its physical limits [1]. Recent advances in neuro-inspired learning algorithms have achieved tremendous success in speech and image recognition, implemented with conventional CPUs/GPUs and/or FPGAs that are based on the sequential von Neumann architecture, which involves separation of the computing unit and memory between a data bus path. Due to the requirement of high bandwidth and power consumption for data communication
-  - "[[Neuromorphic computing]]"
 
 Manuscript received March 10, 2017; revised July 13, 2017 and September 24, 2017; accepted December 20, 2017. Date of publication January 4, 2018; date of current version November 20, 2018. This work was supported by NSF under Grant NSF-CCF-1552687 and Grant NSF-CCF-1740225. This paper was recommended by Associate Editor D. Chen. (Corresponding author: Pai-Yu Chen.)
 

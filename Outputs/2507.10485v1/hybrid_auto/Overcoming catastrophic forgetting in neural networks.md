@@ -1,4 +1,5 @@
 ---
+
 title: "Overcoming Catastrophic Forgetting in Neural Networks"
 authors:
   - "Brandon Shuen"
@@ -40,8 +41,6 @@ Fig. 1: Schematic representation of EWC principle: learning a specific task esta
 # II. MODELS AND METHODS
 
 # A. Neural Network Architecture
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 A fully connected feed-forward network (FCN) is adopted, featuring two hidden layers of 400 neurons each and ReLU activation. Let $\mathbf { x } \in \mathrm { R } ^ { 7 8 4 }$ represent a flattened 28 × 28 MNIST image, and let $\theta = \{ \mathbf { W } ^ { ( 1 ) } , \mathbf { b } ^ { ( 1 ) } , \mathbf { W } ^ { ( 2 ) } , \mathbf { b } ^ { ( 2 ) } , \mathbf { W } ^ { ( 3 ) } , \mathbf { b } ^ { ( 3 ) } \}$ be the parameters, with the layer denoted in the superscript. The forward pass is given by:
 

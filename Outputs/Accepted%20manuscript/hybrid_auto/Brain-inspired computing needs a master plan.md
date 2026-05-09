@@ -1,4 +1,5 @@
 ---
+
 title: "Brain-inspired computing needs a master plan"
 authors:
   - "A. Mehonic"
@@ -44,7 +45,6 @@ United Kingdom
 New computing technologies inspired by the brain promise fundamentally different ways to process information with extreme energy efficiency and the ability to handle the avalanche of unstructured and noisy data that we are generating at an ever-increasing rate. To realise this promise requires a brave and coordinated plan to bring together disparate research communities and to provide them with the funding, focus and support needed. We have done this in the past with digital technologies; we are in the process of doing it with quantum technologies; can we now do it for brain-inspired computing?
 
 # Main
-  - "[[Neuromorphic computing]]"
 
 Modern computing systems consume far too much energy. They are not sustainable platforms for the complex Artificial Intelligence (AI) applications that are increasingly a part of our lives. We usually don’t see this, particularly in the case of cloud-based systems, as we focus on functionality – how fast are they; how accurate; how many parallel operations per second? We are so accustomed to accessing information near-instantaneously that we neglect the energy, and therefore environmental, consequences of the computing systems giving us this access. Nevertheless, each Google search has a cost: data centres currently use around 200 terawatt hours of energy per year, forecast to grow by around an order of magnitude by 20301 . Similarly, the astonishing achievements of high-end AI systems such as DeepMind’s AlphaGo and AlphaZero, which can beat human experts at complex strategy games, require thousands of parallel processing units, each of which can consume around 200 Watts2 .
 

@@ -1,5 +1,6 @@
 ---
 
+
 title: "A Hardware-Adaptive Learning Algorithm for Superlinear-Capacity Associative Memory on Memristor Crossbars"
 authors:
   - "Chengping He"
@@ -29,9 +30,6 @@ keywords:
 ---
 
 # A hardware-adaptive learning algorithm for superlinear-capacity associative memory on memristor crossbars
-  - "[[In-memory computing]]"
-  - "[[Memristor]]"
-  - "[[Neural network]]"
 
 Received: 8 May 2025
 

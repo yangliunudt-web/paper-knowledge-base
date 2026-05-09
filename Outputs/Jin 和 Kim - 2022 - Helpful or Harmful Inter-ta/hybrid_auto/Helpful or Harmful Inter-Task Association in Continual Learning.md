@@ -1,4 +1,5 @@
 ---
+
 title: "Helpful or Harmful: Inter-Task Association in Continual Learning"
 authors:
   - "Hyundong Jin"
@@ -30,9 +31,6 @@ Chung-Ang University, South Korea
 ![](images/2b04260cb173a72eff69cb371860b2698c543b69e99ab7c03f3b8df161be9ca9.jpg)
 
 Abstract. When optimizing sequentially incoming tasks, deep neural networks generally su!er from catastrophic forgetting due to their lack of ability to maintain knowledge from old tasks. This may lead to a significant performance drop of the previously learned tasks. To alleviate this problem, studies on [[Continual learning]] have been conducted as a countermeasure. Nevertheless, it su!ers from an increase in computational cost due to the expansion of the network size or a change in knowledge that is favorably linked to previous tasks. In this work, we propose a novel approach to di!erentiate helpful and harmful information for old tasks using a [[model search]] to learn a current task e!ectively. Given a new task, the proposed method discovers an underlying association knowledge from old tasks, which can provide additional support in acquiring the new task knowledge. In addition, by introducing a sensitivity measure to the loss of the current task from the associated tasks, we find cooperative relations between tasks while alleviating harmful interference. We apply the proposed approach to both task- and class-incremental scenarios in [[Continual learning]], using a wide range of datasets from small to large scales. Experimental results show that the proposed method outperforms a large variety of [[Continual learning]] approaches for the experiments while e!ectively alleviating catastrophic forgetting.
-  - "[[Continual learning]]"
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 Keywords: [[Continual learning]], [[task association]], [[model search]]
 

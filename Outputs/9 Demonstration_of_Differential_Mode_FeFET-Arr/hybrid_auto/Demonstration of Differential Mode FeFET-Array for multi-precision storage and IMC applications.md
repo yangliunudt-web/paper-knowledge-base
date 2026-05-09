@@ -1,5 +1,6 @@
 ---
 
+
 title: "Demonstration of Differential Mode FeFET-Array for multi-precision storage"
 authors:
   - "Vivek Franz"
@@ -27,8 +28,6 @@ keywords:
 # Demonstration of Differential Mode [[FeFET]]-Array for multi-precision storage and IMC applications
 
 Vivek Parmar1, Franz Müller2, Jing-Hua Hsuen3, Sandeep Kaur Kingra1, Yannick Raffel2, Maximillian Lederer2, Tarek Ali5, Stefan Dünkel5, Konrad Seidel2, Sven Beyer5, Tian-Li Wu3,4, Thomas Kämpfe2, Sourav De2, Manan Suri1
-  - "[[FeFET]]"
-  - "[[In-memory computing]]"
 
 1 Indian Institute of Technology Delhi, New Delhi, India 2 Fraunhofer IPMS-CNT, Dresden, Germany 3 Institute of Pioneer Semiconductor Innovation, National Yang Ming Chiao Tung University, Taiwan 4 International College of Semiconductor Technology, National Yang Ming Chiao Tung University, Taiwan, 5 GlobalFoundries’, Dresden, Germany. E-mail: manansuri@ee.iitd.ac.in, tlwu@nycu.edu.tw, sourav.de@ipms.fraunhofer.de
 

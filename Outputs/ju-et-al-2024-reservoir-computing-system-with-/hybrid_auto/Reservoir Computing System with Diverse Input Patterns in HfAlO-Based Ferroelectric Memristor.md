@@ -1,4 +1,5 @@
 ---
+
 title: "Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric Memristor"
 authors:
   - "Dongyeol Ju"
@@ -36,9 +37,6 @@ Research Article
 Dongyeol Ju,§ Minseo Noh,§ Gimun Kim,§ Yongjin Park, Sejoon Lee,* and Sungjun Kim*
 
 ![](images/18d33f599f07522c321158ca527da32bedcf975da6bdfa871699502a7bc0c217.jpg)
-  - "[[HfO2]]"
-  - "[[Neuromorphic computing]]"
-  - "[[Reservoir computing]]"
 
 Cite This: ACS Appl. Mater. Interfaces 2024, 16, 66250−66261
 

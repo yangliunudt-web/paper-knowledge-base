@@ -1,4 +1,5 @@
 ---
+
 title: "Nonvolatile Memory Design Based on Ferroelectric FETs"
 authors:
   - "Sumitha Kaisheng"
@@ -44,7 +45,6 @@ Permission to make digital or hard copies of all or part of this work for person
 DAC '16, June 05-09, 2016, Austin, TX, USA
 
 © 2016 ACM. ISBN 978-1-4503-4236-0/16/06$15.00
-  - "[[FeFET]]"
 
 DOI: http://dx.doi.org/10.1145/2897937.2898050
 

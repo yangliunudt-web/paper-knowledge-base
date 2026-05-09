@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training"
 authors:
   - "Matthew Jerry"
@@ -86,7 +87,6 @@ This project was supported by the National Science Foundation under grant 164008
 
 ![](images/51312563d5223a7eb52cf730b87366d948a89c6722df628c57816391ccc37ac6.jpg)  
 Fig. 2: Comparison of analog synapses for on-chip learning. $\mathrm{Hf}_{0.5}\mathrm{Zr}_{0.5}\mathrm{O}_2$ (HZO) FeFET based analog synapse exhibits the desired characteristics of high speed electric-field controlled switching and symmetric potentiation and depression, allowing fast training of high accuracy neural networks.
-  - "[[FeFET]]"
 
 Fig. 1: (a) Deep neural networks require dense memory and computation of inner-dot products. (b) Structure of FeFET psuedo-crossbar array. (c) Principle of analog synapse operation where partial polarization switching results in gradual programming of the channel conductance $(\mathrm{G_{ds}})$ .
 

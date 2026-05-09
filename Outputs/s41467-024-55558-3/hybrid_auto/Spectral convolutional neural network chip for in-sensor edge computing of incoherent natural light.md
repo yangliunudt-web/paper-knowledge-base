@@ -1,4 +1,5 @@
 ---
+
 title: "Spectral convolutional neural network chip for in-sensor edge computing of incoherent\\"
 authors:
   - "Kaiyu Cui"
@@ -40,7 +41,6 @@ wiki_concepts:
 ---
 
 # Spectral convolutional neural network chip for in-sensor edge computing of incoherent natural light
-  - "[[Edge computing]]"
 
 Received: 17 July 2024
 

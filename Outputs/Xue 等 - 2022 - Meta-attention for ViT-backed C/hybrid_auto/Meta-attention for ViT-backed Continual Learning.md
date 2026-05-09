@@ -1,5 +1,6 @@
 ---
 
+
 title: "Meta-attention for ViT-backed Continual Learning"
 authors:
   - "Mengqi Haofei"
@@ -30,9 +31,6 @@ Mengqi Xue1, Haofei Zhang1, Jie Song1, † , Mingli Song1, 2
 # Abstract
 
 ![](images/f91b8cab7587123bb9d1bec9aa0892cefce696e6f816af4a554109d4d4231b1b.jpg)
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
-  - "[[Neural network]]"
 
 Continual learning is a longstanding research topic due to its crucial role in tackling continually arriving tasks. Up to now, the study of continual learning in computer vision is mainly restricted to convolutional neural networks (CNNs). However, recently there is a tendency that the newly emerging vision transformers (ViTs) are gradually dominating the field of computer vision, which leaves CNN-based continual learning lagging behind as they can suffer from severe performance degradation if straightforwardly applied to ViTs. In this paper, we study ViT-backed continual learning to strive for higher performance riding on recent advances of ViTs. Inspired by mask-based continual learning methods in CNNs, where a mask is learned per task to adapt the pre-trained ViT to the new task, we propose MEta-ATtention (MEAT), i.e., attention to self-attention, to adapt a pre-trained ViT to new tasks without sacrificing performance on already learned tasks. Unlike prior mask-based methods like Piggyback, where all parameters are associated with corresponding masks, MEAT leverages the characteristics of ViTs and only masks a portion of its parameters. It renders MEAT more efficient and effective with less overhead and higher accuracy. Extensive experiments demonstrate that MEAT exhibits significant superiority to its state-of-the-art CNN counterparts, with 4.0  6.0% absolute boosts in accuracy. Our code has been released at https://github.com/zju-vipa/MEAT-TIL.
 

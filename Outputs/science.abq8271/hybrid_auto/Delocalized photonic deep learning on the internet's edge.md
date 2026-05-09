@@ -1,4 +1,5 @@
 ---
+
 title: "Delocalized photonic deep learning on the internet's edge"
 authors:
   - "Alexander Sludds"
@@ -50,7 +51,6 @@ dvances in deep neural networks (DNNs) are transforming science and technology (
 lower power consumption, but a fundamental bottleneck remains because of energy consumption in matrix algebra (5), even for analog approaches including neuromorphic (6), analog memory (7), and photonic meshes (8). In all these approaches, memory access and multiplyaccumulate (MAC) functions remain a stubborn bottleneck near 1 pJ per MAC (5, 9–12). Edge devices typically use chip-scale sensors, occupy
 
 millimeter-scale footprints, and consume milliwatts of power. Their small footprint and low power budget mean that performance is limited by the size, weight, and power (SWaP) of computing systems integrated on the device.
-  - "[[Edge computing]]"
 
 To make advanced DNNs at all feasible on low-power devices, industry has resorted to offloading computationally heavy DNN inference to cloud servers. For instance, a smart home device may send a voice query as a vector U to a cloud server, which returns the inference result V to the client (Fig. 1). This offloading architecture adds a ∼200-ms latency to voice commands (13), which makes services such as self-driving impossible. Moreover, offloading poses security risks in both the edge and the cloud: Hacking of the communication
 

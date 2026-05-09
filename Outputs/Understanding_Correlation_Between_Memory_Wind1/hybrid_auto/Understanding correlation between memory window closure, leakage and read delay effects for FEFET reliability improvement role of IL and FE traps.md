@@ -1,4 +1,5 @@
 ---
+
 title: "Understanding correlation between memory window closure, leakage and read delay effects\\"
 authors:
   - "Priyankka Ravikumar"
@@ -57,8 +58,6 @@ Although these issues have typically been analyzed separately [3-11], they are h
 
 ![](images/6c5e8d274acd113f38593aea46a6d8462c780135a07f63f52d68179f40a65fdf.jpg)  
 Fig. 1. Schematic of the key reliability challenges in ferroelectric field effect transistors : memory window (MW) closure, read-after-write delay and [[Gate leakage]]. These three mechanisms are correlated, and their root cause can be traced back to the trap generation in the $\mathrm { S i O _ { 2 } }$ layer and the HZO layer.
-  - "[[Read delay]]"
-  - "[[Read delay]]"
 
 In this work, we demonstrate that: (1) MW closure results
 

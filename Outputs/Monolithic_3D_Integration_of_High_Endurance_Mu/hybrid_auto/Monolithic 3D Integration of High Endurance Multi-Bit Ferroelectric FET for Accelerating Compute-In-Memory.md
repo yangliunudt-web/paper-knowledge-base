@@ -1,4 +1,5 @@
 ---
+
 title: "Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating\\"
 authors:
   - "S. Dutta"
@@ -37,8 +38,6 @@ S. Dutta1* , H. Ye1* , W. Chakraborty1 , Y.-C. Luo2 , M. San Jose1 , B. Grisafe1
 1 University of Notre Dame, Notre Dame, IN 46556, USA; 2 Georgia Institute of Technology, Atlanta, GA, USA
 
 *Equal contribution; Email: sdutta4@nd.edu
-  - "[[FeFET]]"
-  - "[[In-memory computing]]"
 
 Abstract: We demonstrate, for the first time, monolithic 3D (M3D) integration of back-end-of-line (BEOL) compatible Hf0.5Zr0.5O2 (HZO) ferroelectric FET (FeFET) with front-endof-line (FEOL) high-k/metal gate (HKMG) Si-NMOS. We use low thermal budget $( { < } 4 0 0 ^ { 0 } \mathrm { C } )$ processing to integrate HZO with 1% Tungsten (W)-doped amorphous In2O3 (IWO) semiconducting oxide channel and demonstrate high remnant polarization charge density $2 P _ { R , }$ of $4 0 \mu C / c m ^ { 2 }$ with reliable switching characteristics. We report (a) read memory window of 0.45V in ultra-scaled 20nm channel length IWO FeFET, (b) write speed of 100ns, and (c) write endurance ${ > } 1 0 ^ { 8 }$ cycle. We further demonstrate a 2bit/cell synaptic weight cell with well separated conductance states. System-level analysis of compute-in-memory (CIM) accelerators for performing inference on CIFAR-10 image dataset using VGG-8 model shows that 22nm BEOL FeFET achieves 3× higher energyefficiency than 7nm SRAM while occupying a smaller memory array area due to area folding enabled by M3D architecture.
 

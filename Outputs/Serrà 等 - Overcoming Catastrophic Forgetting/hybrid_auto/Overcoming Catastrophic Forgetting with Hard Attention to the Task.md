@@ -1,4 +1,5 @@
 ---
+
 title: "Overcoming Catastrophic Forgetting with Hard Attention to the Task"
 authors:
   - "Joan Serra"
@@ -30,8 +31,6 @@ Catastrophic forgetting occurs when a neural network loses the information learn
 With the renewed interest in neural networks, old problems re-emerge, specially if the solution is still open. That is the case with the so-called catastrophic forgetting or catastrophic interference problem (McCloskey & Cohen, 1989; Ratcliff, 1990). In essence, catastrophic forgetting corresponds to the tendency of a neural network to forget what it learned upon learning from new or different information. For instance, when a network is first trained to convergence on one task, and then trained on a second task, it forgets how to perform the first task.
 
 Overcoming catastrophic forgetting is an important step
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 1 Telefonica Research, Barcelona, Spain ´ 2 Universitat Politecnica de Catalunya, Barcelona, Spain ` 3 Universitat Pompeu Fabra, Barcelona, Spain. Correspondence to: Joan Serra` <joan.serra@telefonica.com>.
 

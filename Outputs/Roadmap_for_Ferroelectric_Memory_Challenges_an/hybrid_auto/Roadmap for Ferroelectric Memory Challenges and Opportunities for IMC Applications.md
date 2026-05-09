@@ -1,4 +1,5 @@
 ---
+
 title: "Roadmap for Ferroelectric Memory: Challenges and Opportunities for IMC Applications"
 authors:
   - "Sourav De"
@@ -31,7 +32,6 @@ wiki_concepts:
 Sourav De, Maximilian Lederer, Yannick Raffel, Franz Müller, Konrad Seidel and Thomas Kämpfe
 
 Center Nanoelectronic Technologies, Fraunhofer-Institut für Photonische Mikrosysteme
-  - "[[FeFET]]"
 
 An d. Bartlake 5, 01109 Dresden, Germany, email: sourav.de@ipms.fraunhofer.de
 

@@ -1,4 +1,5 @@
 ---
+
 title: "DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators\\"
 authors:
   - "Xiaochen Peng"
@@ -24,7 +25,6 @@ wiki_concepts:
 ---
 
 # DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies
-  - "[[In-memory computing]]"
 
 Xiaochen Peng, Shanshi Huang, Yandong Luo, Xiaoyu Sun and Shimeng Yu School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA Email: shimeng.yu@ece.gatech.edu
 

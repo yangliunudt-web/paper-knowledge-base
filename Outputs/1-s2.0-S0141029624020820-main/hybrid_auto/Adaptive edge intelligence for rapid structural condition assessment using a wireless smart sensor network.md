@@ -1,4 +1,5 @@
 ---
+
 title: "Adaptive Edge Intelligence for Rapid Structural Condition Assessment Using a Wireless Smart Sensor Network"
 authors:
   - "Shuaiwen Cui"
@@ -55,7 +56,6 @@ Combining artificial intelligence and edge computing, edge intelligence is a pro
 For structure condition assessment, engineers usually identify suitable indicators and then select suitable devices to monitor [1]. One of the objectives of using SHM is to capture pertinent information when damage occurs [2], in which the response speed is critical. In most cases, abrupt structural damage is indicated by anomalies [3]. Therefore, for structural condition assessment, an effective idea is to determine appropriate indicators and use suitable approaches to capture anomalies indicating potential damage [2,4] and then to trigger alarms.
 
 Given the prevalence of accelerometers [5], acceleration is a common measurand [6], while displacement is widely recognized as an important indicator as it is quite intuitive to make informed decisions [7]. Therefore, efficient approaches to convert acceleration to displacement are desirable. Integration-based conversion approaches require a reference to determine the constants, making them less useful for real-world applications. A promising reference-free dynamic displacement estimation algorithm to be introduced below [8] makes this conversion much more practical, which can be reduced to a Finite
-  - "[[Edge computing]]"
 
 Impulse Response (FIR) filter design problem. With the filter generated, raw acceleration can be converted to dynamic displacement. Subsequently, anomaly detection algorithms/strategies are desired to enable rapid condition assessment based on obtained displacement. Unlike model-based anomaly detection methods, data-driven ones are less demanding in terms of knowledge and are straightforward to express explicitly [3,9,10]. For cases where the available dataset is of small or moderate size, the Gaussian Process Regression (GPR) method is ideal, of which the objective is to use machine learning to find a function that can fit the observed data well and make high-quality predictions. GPR features many advantages for anomaly detection [11–14]: firstly, GPR is flexible and can fit functions of any shape; secondly, GPR can provide a probabilistic distribution to quantify the uncertainty; thirdly, GPR is robust to noise and outliers. Since the GPR model can give a probability distribution along with the prediction value, by comparing to the ground truth, stochastic process control (SPC) can be leveraged to trigger alarms. Given the reasons above, reference-free dynamic displacement estimation and GPR can be an ideal combination for anomaly detection, including edge computing cases which have been rarely explored, e.g.,
 

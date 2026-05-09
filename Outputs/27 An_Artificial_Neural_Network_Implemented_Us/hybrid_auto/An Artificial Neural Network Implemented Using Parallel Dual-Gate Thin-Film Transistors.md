@@ -1,4 +1,5 @@
 ---
+
 title: "An Artificial Neural Network Implemented Using Parallel Dual-Gate Thin-Film Transistors"
 authors:
   - "Yushen Hu"
@@ -35,7 +36,6 @@ Index Terms—Artificial neural network (ANN), dual gate (DG), metal–oxide sem
 # I. INTRODUCTION
 
 A N ARTIFICIAL neural network (ANN) is a computationscheme for data processing and pattern classification by scheme for data processing and pattern classification by mimicking the interconnectivity and the in-memory computation of a mammalian brain consisting of massively connected neurons with local weight-adjusted passage of signals across synaptic gaps. However, software implementations of ANNs are often executed on computers based on the von Neumann architecture requiring the passage of data between separate memory and instruction execution units. The inherent difference in computing architectures results in a rapid decrease
-  - "[[In-memory computing]]"
 
 Manuscript received 3 May 2022; revised 19 July 2022 and 16 August 2022; accepted 22 August 2022. Date of publication 5 September 2022; date of current version 22 September 2022. This work was supported in part by the Innovation and Technology Fund under Grant GHP/013/19SZ, in part by the Science and Technology Program of Shenzhen under Grant SGDX20190918105001787, and in part by the Science and Technology Program of Shenzhen under Grant JCYJ20200109140601691. The review of this article was arranged by Editor D. Triyoso. (Corresponding author: Yushen Hu.)
 

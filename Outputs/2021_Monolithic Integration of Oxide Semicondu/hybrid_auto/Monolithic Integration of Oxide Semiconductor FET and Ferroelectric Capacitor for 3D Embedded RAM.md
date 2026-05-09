@@ -1,4 +1,5 @@
 ---
+
 title: "Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for\\"
 authors:
   - "Jixuan Wu"
@@ -31,7 +32,6 @@ Index Terms-Ferroelectric (FE) memory, monolithic 3-D integration, oxide semicon
 # I. INTRODUCTION
 
 HE proximity of a high-density memory to a processor core has become more and more important for the last level cache in the conventional architecture and machine learning accelerator in AI chips [1], [2]. Near-memory computing with an embedded memory has been one of the
-  - "[[FeRAM]]"
 
 Manuscript received July 29, 2021; revised September 1, 2021; accepted September 3, 2021. Date of publication September 16, 2021; date of current version December 1, 2021. This work was supported in part by Japan Science and Technology Agency (JST) CREST under Grant 16815651 and in part by Japan Society for the Promotion of Science (JSPS) KAKENHI under Grant JP18H01489. The review of this article was arranged by Editor S. Yu. (Corresponding author: Jixuan Wu.) Jixuan Wu, Fei Mo, Takuya Saraya, and Toshiro Hiramoto are with the Institute of Industrial Science, The University of Tokyo, Tokyo 153-0041, Japan (e-mail: jixuanwu@nano.iis.u-tokyo.ac.jp).
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Parallel convolutional processing using an integrated photonic tensor core"
 authors:
   - "J. Feldmann"
@@ -36,7 +37,6 @@ wiki_concepts:
 ---
 
 # Parallel convolutional processing using an integrated photonic tensor core
-  - "[[In-memory computing]]"
 
 https://doi.org/10.1038/s41586-020-03070-1
 

@@ -1,4 +1,5 @@
 ---
+
 title: "Ultralow‑power reservoir computing based on bidirectionally operable ferroelectric\\"
 authors:
   - "Linyuan Mo"
@@ -45,7 +46,6 @@ Linyuan Mo1, Zhen Fan1*, Jiali Ou1, Zhiwei Chen1, Haipeng Lin1, Wenjie Hu1, Wenj
 3 Laboratory of Solid State Microstructures and Innovation Center of Advanced Microstructures, Nanjing University, 210093 Nanjing, China.
 
 *Author to whom any correspondence should be addressed.
-  - "[[Reservoir computing]]"
 
 E-mail: fanzhen@m.scnu.edu.cn
 

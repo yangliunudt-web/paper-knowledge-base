@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric Transistors: from Materials Innovation to Intelligent Electronic"
 authors:
   - "Enlong Wunan"
@@ -40,8 +41,6 @@ College of Future Information Technology
 Fudan University
 
 Shanghai 200433, China
-  - "[[In-memory computing]]"
-  - "[[Neuromorphic computing]]"
 
 E-mail: liwenwu@fudan.edu.cn
 

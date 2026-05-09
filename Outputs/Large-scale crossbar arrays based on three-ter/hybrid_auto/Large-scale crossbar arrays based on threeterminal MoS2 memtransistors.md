@@ -1,4 +1,5 @@
 ---
+
 title: "Large-scale crossbar arrays based on threeterminal MoS2 memtransistors"
 authors:
   - "Thomas F. Schranghamer"
@@ -33,8 +34,6 @@ wiki_concepts:
 ---
 
 # Large-scale crossbar arrays based on threeterminal MoS2 memtransistors
-  - "[[In-memory computing]]"
-  - "[[Memristor]]"
 
 Received: 16 January 2025
 

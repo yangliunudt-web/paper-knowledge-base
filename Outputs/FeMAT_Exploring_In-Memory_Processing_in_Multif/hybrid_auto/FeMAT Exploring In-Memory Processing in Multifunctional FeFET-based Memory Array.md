@@ -1,4 +1,5 @@
 ---
+
 title: "FeMAT: Exploring In-Memory Processing in Multifunctional FeFET-based Memory Array"
 authors:
   - "Xiaoyu Zhang"
@@ -58,7 +59,6 @@ In this section, we introduce some preliminaries including FeFETs, BCNNs and TCA
 # A. Ferroelectric Field-Effect Transistor
 
 The structure of an FeFET is shown in Fig. 1a. FeFETs are compatible with conventional MOSFETs [4]. An FeFET
-  - "[[FeFET]]"
 
 TABLE I: Abbreviations and their full spellings.   
 

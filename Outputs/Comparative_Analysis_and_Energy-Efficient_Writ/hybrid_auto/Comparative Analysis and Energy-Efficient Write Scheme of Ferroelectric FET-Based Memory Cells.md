@@ -1,5 +1,6 @@
 ---
 
+
 title: "Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based"
 authors:
   - "Received August"
@@ -27,7 +28,6 @@ Digital Object Identifier 10.1109/ACCESS.2021.3111913
 DONG HAN KO , (Graduate Student Member, IEEE), TAE WOO OH , (Graduate Student Member, IEEE), SEHEE LIM , (Graduate Student Member, IEEE), SE KEON KIM 9 (Graduate Student Member, IEEE), AND SEONG-OOK JUNG , (Senior Member, IEEE)
 
 School of Electrical and Electronic Engineering, Yonsei University, Seoul 03722, South Korea
-  - "[[FeFET]]"
 
 Corresponding author: Seong-Ook Jung (sjung@yonsei.ac.kr)
 

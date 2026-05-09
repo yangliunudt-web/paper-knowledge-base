@@ -1,4 +1,5 @@
 ---
+
 title: "Supermasks in Superposition"
 authors:
   - "Mitchell Wortsman"
@@ -51,8 +52,6 @@ Ali Farhadi University of Washington
 We present the Supermasks in Superposition (SupSup) model, capable of sequentially learning thousands of tasks without catastrophic forgetting. Our approach uses a randomly initialized, fixed base network and for each task finds a subnetwork (supermask) that achieves good performance. If task identity is given at test time, the correct subnetwork can be retrieved with minimal memory usage. If not provided, SupSup can infer the task using gradient-based optimization to find a linear superposition of learned supermasks which minimizes the output entropy. In practice we find that a single gradient step is often sufficient to identify the correct mask, even among 2500 tasks. We also showcase two promising extensions. First, SupSup models can be trained entirely without task identity information, as they may detect when they are uncertain about new data and allocate an additional supermask for the new training distribution. Finally the entire, growing set of supermasks can be stored in a constant-sized reservoir by implicitly storing them as attractors in a fixed-sized Hopfield network.
 
 # 1 Introduction
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 Learning many different tasks sequentially without forgetting remains a notable challenge for neural networks [47, 56, 23]. If the weights of a neural network are trained on a new task, performance on previous tasks often degrades substantially [33, 10, 12], a problem known as catastrophic forgetting. In this paper, we begin with the observation that catastrophic forgetting cannot occur if the weights of the network remain fixed and random. We leverage this to develop a flexible model capable of learning thousands of tasks: Supermasks in Superposition (SupSup). SupSup, diagrammed in Figure 1, is driven by two core ideas: a) the expressive power of untrained, randomly weighted subnetworks [57, 39], and b) inference of task-identity as a gradient-based optimization problem.
 

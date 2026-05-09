@@ -1,4 +1,5 @@
 ---
+
 title: "DERMIS: End-to-End Design of a Fully Integrated Large-Area Grasp-State-Adaptive Tactile\\"
 authors:
   - "Mark Daniel Alea"
@@ -32,7 +33,6 @@ Abstract—This paper presents the design of a high-resolution fully-integrated 
 Index Terms—tactile sensing, electronic skins, slip detection, thin-film technology, neuromorphic, end-to-end design.
 
 # I. INTRODUCTION
-  - "[[Neuromorphic computing]]"
 
 F INE grasp-state-dependent force sensing, as performed byhuman hands during dexterous object manipulation, is human hands during dexterous object manipulation, is likewise crucial for robotic and neuroprosthetic applications (Fig. 1). Depending on the current grasp state [1] (Fig. 1(b)), mechanoreceptors in the human hand sense a variety of contact parameters with high spatial resolution: (a) the onset/offset of contact (based on the normal force), (b) friction (extracted from the shear force), (c) onset of lift-off (based on the change in the shear force) and (d) slip (based on the normal and shear forces). When manipulating objects, the brain utilizes sensory predictions and tactile afferent signals to adapt its motor response across sequential action phases, monitoring contact events that trigger rapid corrective actions [1]. Therefore,
 

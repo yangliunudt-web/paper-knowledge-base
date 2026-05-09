@@ -1,4 +1,5 @@
 ---
+
 title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic"
 date: "2021-12-01"
 year: 2021
@@ -29,9 +30,6 @@ S. Majumdar
 VTT Technical Research Centre of Finland Ltd.
 
 P.O. Box 1000, FI-02044 VTT Espoo, Finland
-  - "[[FeFET]]"
-  - "[[HfO2]]"
-  - "[[Neuromorphic computing]]"
 
 E-mail: sayani.majumdar@vtt.fi
 

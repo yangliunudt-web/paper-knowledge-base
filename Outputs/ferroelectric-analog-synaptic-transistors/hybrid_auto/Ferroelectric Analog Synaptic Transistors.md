@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric Analog Synaptic Transistors"
 authors:
   - "Min-Kyu Kim"
@@ -33,8 +34,6 @@ Department of Materials Science and Engineering, Pohang University of Science an
 S Supporting Information
 
 ![](images/89b1a57ab68c0b5a5fe167c8959ff39c225aaaf782be910354d28a40b0a32474.jpg)
-  - "[[Neuromorphic computing]]"
-  - "[[Neuromorphic computing]]"
 
 ABSTRACT: [[neuromorphic computing]] is a promising alternative to conventional computing systems as it could enable parallel computation and adaptive learning process. However, the development of energy efficient neuromorphic hardware systems has been hindered by the limited performance of analog synaptic devices. Here, we demonstrate the analog conductance modulation behavior in the ferroelectric [[thin-film transistors]] (FeTFT) that have the nanoscale ferroelectric material and oxide semiconductors. Accurate control of polarization changes in the nanoscale ferroelectric layer induces conductance modulation to demonstrate linear potentiation and depression characteristics of FeTFTs. Our devices show potentiation and depression properties, including high linearity, multiple states, and small cycle-to-cycle/device-to-device variations. In simulations with measured properties, a neuromorphic system with FeTFT achieves 91.1% recognition accuracy of handwritten digits. This work may provide a way to realize the neuromorphic hardware systems that use FeTFTs as the synaptic devices.
 

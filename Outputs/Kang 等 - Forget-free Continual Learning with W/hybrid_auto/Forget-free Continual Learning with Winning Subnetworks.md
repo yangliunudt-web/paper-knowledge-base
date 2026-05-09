@@ -1,5 +1,6 @@
 ---
 
+
 title: "Forget-free Continual Learning with Winning Subnetworks"
 authors:
   - "Haeyong Kang"
@@ -29,8 +30,6 @@ keywords:
 Haeyong Kang * 1 Rusty John Lloyd Mina * 1 Sultan Rizky Hikmawan Madjid 1 Jaehong Yoon 1 Mark Hasegawa-Johnson 2 Sung Ju Hwang 1 3 Chang D. Yoo 1
 
 # Abstract
-  - "[[Catastrophic forgetting]]"
-  - "[[Continual learning]]"
 
 Inspired by Lottery Ticket Hypothesis that competitive subnetworks exist within a dense network, we propose a continual learning method referred to as Winning SubNetworks (WSN) which sequentially learns and selects an optimal subnetwork for each task. Specifically, WSN jointly learns the model weights and task-adaptive binary masks pertaining to subnetworks associated with each task whilst attempting to select a small set of weights to be activated (winning ticket) by reusing weights of the prior subnetworks. The proposed method is inherently immune to catastrophic forgetting as each selected subnetwork model does not infringe upon other subnetworks. Binary masks spawned per winning ticket are encoded into one N-bit binary digit mask, then compressed using Huffman coding for a sub-linear increase in network capacity with respect to the number of tasks. Code is available at https://github.com/ihaeyong/WSN.
 

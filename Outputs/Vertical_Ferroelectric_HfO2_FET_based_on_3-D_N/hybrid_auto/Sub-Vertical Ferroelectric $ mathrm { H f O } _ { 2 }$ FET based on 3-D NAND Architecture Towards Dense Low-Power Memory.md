@@ -1,4 +1,5 @@
 ---
+
 title: "Vertical Ferroelectric HfO2 FET based on 3-D NAND Architecture Towards Dense and\\"
 authors:
   - "K. Florent"
@@ -32,8 +33,6 @@ wiki_concepts:
 # Vertical Ferroelectric $\mathrm { H f O } _ { 2 }$ FET based on 3-D NAND Architecture: Towards Dense Low-Power Memory
 
 K. Florent1 , M. Pesic2 , A. Subirats, K. Banerjee, S. Lavizzari3 , A. Arreghini, L. Di Piazza, G. Potoms, F. Sebaai, S. R. C. McMitchell, M. Popovici, G. Groeseneken1 and J. Van Houdt1
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 
 imec, Leuven, Belgium, email : karine.florent@imec.be
 

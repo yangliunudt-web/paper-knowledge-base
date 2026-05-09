@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric Field Effect Transistors: Progress and Perspective"
 authors:
   - "Jae Young Kim"
@@ -27,9 +28,6 @@ wiki_concepts:
 RESEARCH ARTICLE | FEBRUARY 02 2021
 
 # [[ferroelectric]] field effect transistors: Progress and perspective EP
-  - "[[FeFET]]"
-  - "[[Ferroelectric]]"
-  - "[[HfO2]]"
 
 Special Collection: 100 Years of Ferroelectricity — a Celebration
 

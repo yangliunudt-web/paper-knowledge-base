@@ -1,4 +1,5 @@
 ---
+
 title: "A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level FeFET Array:\\"
 authors:
   - "Yuejia Zhou"
@@ -37,7 +38,6 @@ Index Terms— Multi-level cell (MLC) FeFET, writing scheme, variation, enduranc
 # I. INTRODUCTION
 
 fO2-BASED ferroelectric field effect transistor (FeFET) is a promising candidate for future non-volatile memory (NVM) due to its ultra-low power consumption, high speed, good scalability, and the ability for multi-level cell (MLC) storage [1], [2]. However, FeFET still faces reliability challenges, including device-to-device (D2D) and cycle-to-cycle (C2C) variation [3], poor endurance $( < 1 0 ^ { 6 }$ cycles [4]), and severe write disturb in the 1T FeFET array [5], which are especially
-  - "[[FeFET]]"
 
 Received 7 October 2024; accepted 21 October 2024. Date of publication 24 October 2024; date of current version 26 November 2024. This work was supported in part by the National Key Research and Development Program of China under Grant 2022YFB4400300; in part by NSFC under Grant 62274003, Grant 61927901, and Grant 92164203; in part by the 111 Project under Grant B18001; and in part by the National Micro/Nano Fabrication Laboratory of Peking University. The review of this letter was arranged by Editor M. H. Park. (Corresponding author: Kechao Tang.)
 

@@ -1,5 +1,6 @@
 ---
 
+
 title: "Atomic-scale characterization of defects generation during fatigue in ferroelectric"
 authors:
   - "Yunzhe Yonghui"
@@ -24,7 +25,6 @@ keywords:
 # Atomic-scale characterization of defects generation during fatigue in ferroelectric Hf0.5Zr0.5O2 films: vacancy generation and lattice dislocation
 
 Yunzhe Zheng1†, Yonghui Zheng1†, Zhaomeng Gao2,3, Jun-Hui Yuan4, Yan Cheng1*, Qilan Zhong1, Tianjiao Xin1, Yiwei Wang1, Cheng Liu1, Yaru Huang1, Rong Huang1, Xiangshui Miao4, Kan-Hao Xue4*, Hangbing Lyu2,3*
-  - "[[FeFET]]"
 
 1Key Laboratory of Polar Materials and Devices (MOE), Department of Electronics, East China Normal University, 500 Dongchuan Road, Shanghai 200241, China; 2Key Laboratory of Microelectronics Devices and Integrated Technology, Institute of Microelectronics, Chinese Academy of Sciences, 3 Beitucheng West Road, Beijing 100029, China; 3University of Chinese Academy of Sciences, Beijing 100049, China; 4Wuhan National Laboratory for Optoelectronics, School of Optical and Electronic Information, Huazhong University of Science and Technology, Wuhan 430074, China *Email: ycheng@ee.ecnu.edu.cn; xkh@hust.edu.cn; lvhangbing@ime.ac.cn
 

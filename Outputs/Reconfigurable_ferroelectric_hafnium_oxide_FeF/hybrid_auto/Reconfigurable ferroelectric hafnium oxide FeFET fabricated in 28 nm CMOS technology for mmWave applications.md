@@ -1,4 +1,5 @@
 ---
+
 title: "Reconfigurable ferroelectric hafnium oxide FeFET fabricated in 28 nm CMOS technology\\"
 authors:
   - "Sukhrob Abdulazhanov"
@@ -29,7 +30,6 @@ wiki_concepts:
 ---
 
 # Reconfigurable ferroelectric hafnium oxide FeFET fabricated in 28 nm CMOS technology for mmWave applications
-  - "[[FeFET]]"
 
 Sukhrob Abdulazhanov∗, Quang Huy Le∗, Dang Khoa Huynh∗, Maximilian Lederer∗, Yannick Raffel ∗, Kai Ni†, Xunzhao Yin ‡ Thomas Kampfe ¨ ∗ and Gerald Gerlach§ ∗Fraunhofer IPMS, Dresden, Germany, E-mail: sukhrob.abdulazhanov@imps.fraunhofer.de †Rochester Institute of Technology, Rochester, USA ‡Zhejiang University, Zhejiang, China
 

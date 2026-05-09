@@ -1,4 +1,5 @@
 ---
+
 title: "Multi-Level Operation of Ferroelectric FET Memory Arrays for Compute-In-Memory Applications"
 authors:
   - "Franz Muller"
@@ -118,8 +119,6 @@ Fig. 5. Screening of the states of 7 FeFETs per WL, that are written to 4 distin
 Fig. 6. Neural network (NN) architectures used to validate the neuromorphic capability of the AND arrays (a) and schematic representation of the memory array with 1F synaptic devices as analyzed in the simulation (b).
 
 # V. IMPLICATIONS ON NEURAL NETWORKS
-  - "[[FeFET]]"
-  - "[[Neural network]]"
 
 To quantify the aptness of the 28 nm-based FeFET arrays as synaptic-core, we have performed a system-level neuromorphic simulation [16] (Fig. 6). To calibrate the simulation framework a random pattern at 2-bit resolution with evenly distributed states is used. The read is voltage-based at $V _ { W L } = 1 . 4 \ : \mathrm { V }$ with $V _ { B L } = 1 { \bf V } . \mathrm { ~ A ~ }$ total of 25 arrays with 63 FeFETs each were written and the states verified. The resulting currents for the 4 target levels are shown in Fig. 7. Once an entire array is written, the states of all FeFETs are verified, obtaining a BER of 4%.
 

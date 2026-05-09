@@ -1,5 +1,6 @@
 ---
 
+
 title: "1F-1T Array: Current Limiting Transistor Cascoded FeFET Memory Array for Variation"
 authors:
   - "Masud Rana"
@@ -36,8 +37,6 @@ Index Terms—1F-1T, FeFET, $\mathbf { H f O _ { 2 } } ,$ , memory array, vector
 # I. INTRODUCTION
 
 Deep neural networks (DNN) play a significant role in performing many data-intensive computing tasks such as speech recognition, motion detection, computer vision, and natural language processing. Training DNNs with enormous amounts of data from the internet and real-time devices leads to high energy and latency costs. Recently, in-memory-computing (IMC) with emerging non-volatile memory (eNVM) technologies are being researched to alleviate this issue [1], [2], [3], [4], [5], [6]. The primary step of IMC is vector-matrix multiplication (VMM). Many eNVMs such as resistive random access memory ([[ReRAM]]) [7],
-  - "[[FeFET]]"
-  - "[[In-memory computing]]"
 
 Manuscript received 1 June 2023; accepted 3 July 2023. Date of publication 14 July 2023; date of current version 28 July 2023. This work of Masud Rana Sk and Bhaswar Chakrabarti was supported in part by the Research Center on Advanced Memory and Computing under the IoE scheme at the IIT Madras, and in part by the European Union’s ECSEL under Grants 826655 -Project TEMPO and 876925 Project ANDANTE. The review of this letter was arranged by Associate Editor J. -J. Huang. (Masud Rana Sk and Sunanda Thunder contributed equally to this work.) (Corresponding authors: Sourav De; Bhaswar Chakrabarti; Tian Li Wu.)
 

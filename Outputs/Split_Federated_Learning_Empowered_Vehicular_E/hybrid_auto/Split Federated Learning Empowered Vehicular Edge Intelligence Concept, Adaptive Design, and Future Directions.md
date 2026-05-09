@@ -1,4 +1,5 @@
 ---
+
 title: "Split Federated Learning Empowered Vehicular Edge Intelligence: Concept, Adaptive\\"
 authors:
   - "Xianke Qiang"
@@ -56,7 +57,6 @@ The rest of this article is structured as follows. We begin by presenting the ba
 In this section, we will first introduce system architecture and then introduce intelligent metrics of vehicular network systems from the aspects of training and testing, time and energy, privacy and security. Then we analyze the facing challenges in the distributed implementation of VEI.
 
 # System Archi tecture
-  - "[[Edge computing]]"
 
 VEI utilizes the computation and communication resources of vehicles, combined with AI technologies. VEI relies on the effective utilization of extensive data gathered from numerous vehicles for model training. We can categorize the implementation of VEI into four approaches: centralized machine learning (CL), and distributed collaborative methods including FL, SL, and SFL. The details of these four approaches are shown in Fig. 1.
 

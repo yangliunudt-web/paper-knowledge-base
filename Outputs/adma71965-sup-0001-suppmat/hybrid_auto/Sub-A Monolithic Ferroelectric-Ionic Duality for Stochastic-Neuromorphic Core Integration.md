@@ -1,4 +1,5 @@
 ---
+
 title: "Sub-A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core"
 authors:
   - "Changhyeon Minsuk"
@@ -85,9 +86,6 @@ Table S3. Bias conditions in FIDFET arrays for selective PGM/ERS operations
 Table S4. Comparison of stochastic and synaptic functionalities across device platforms
 
 # - Supplementary Note –
-  - "[[FeFET]]"
-  - "[[Ferroelectric]]"
-  - "[[Neuromorphic computing]]"
 
 Note S1. Material selection: Hafnium-Zirconium Oxide (HZO)   
 Note S2. Phase analysis in HZO   

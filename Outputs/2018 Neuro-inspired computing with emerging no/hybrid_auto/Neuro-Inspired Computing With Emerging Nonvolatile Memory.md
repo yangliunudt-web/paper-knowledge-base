@@ -1,4 +1,5 @@
 ---
+
 title: "Neuro-Inspired Computing With Emerging Nonvolatile Memory"
 authors:
   - "Shimeng Yu"
@@ -30,7 +31,6 @@ By Shimeng Yu , Member IEEE
 ABSTRACT | This comprehensive review summarizes state of the art, challenges, and prospects of the neuro-inspired computing with emerging nonvolatile memory devices. First, we discuss the demand for developing neuro-inspired architecture beyond today's von-Neumann architecture. Second, we summarize the various approaches to designing the neuromorphic hardware (digital versus analog, spiking versus nonspiking, online training versus offline training) and discuss why emerging nonvolatile memory is attractive for implementing the synapses in the neural network. Then, we discuss the desired device characteristics of the synaptic devices (e.g., multilevel states, weight update nonlinearity/ asymmetry, variation/noise), and survey a few representative material systems and device prototypes reported in the literature that show the analog conductance tuning. These candidates include phase change memory, resistive memory, ferroelectric memory, floating-gate transistors, etc. Next, we introduce the crossbar array architecture to accelerate the weighted sum and weight update operations that are commonly used in the neuro-inspired machine learning algorithms, and review the recent progresses of array-level experimental demonstrations for pattern recognition tasks. In addition, we discuss the peripheral neuron circuit design issues and present a device-circuit-algorithm codesign methodology to evaluate the impact of nonideal device effects on the systemlevel performance (e.g., learning accuracy). Finally, we give an outlook on the customization of the learning algorithms for efficient hardware implementation.
 
 KEYWORDS | Hardware accelerator; machine learning; neuromorphic computing; neural network; nonvolatile memory; resistive memory; synaptic device
-  - "[[Neuromorphic computing]]"
 
 Manuscript received November 2, 2017; revised December 19, 2017; accepted January 1, 2018. This work was supported in part by NSF-CCF-1552687, NSF-CCF-1715443, NSF-ECCS-1701565, HDTRA1-17-1-0038, NSF/SRC E2CDA, ASCENT (one of the six SRC/DARPA JUMP Centers) and grants from Qualcomm and Samsung. The author is with the School of Electrical, Computer and Energy Engineering, Arizona State University, Tempe, AZ 85287 USA (e-mail: ysm1030@gmail.com).
 

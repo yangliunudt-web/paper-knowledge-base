@@ -1,4 +1,5 @@
 ---
+
 title: "CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric\\"
 authors:
   - "Min-Kyu Kim"
@@ -188,8 +189,6 @@ respectively. Then, the devices were annealed at $4 0 0 ^ { \circ } \mathrm { C 
 All the characteristics were measured under ambient conditions and at room temperature. The electrical properties of the ferroelectric synaptic transistor array were measured using a semiconductor parameter analyzer (4200A-SCS, Keithley Instruments) and a switching matrix (707B, Keithley Instruments). The polarization-voltage curves were measured using a pulse measurement unit (4225-PMU, Keithley Instruments). The polarization-voltage characteristics of the ferroelectric capacitor with a $\mathrm { M o / H f Z r O } _ { x } / \mathrm { W }$ structure were measured after $1 0 ^ { 5 }$ bipolar pulse cycles using voltage pulses with an amplitude of $5 \mathrm { V }$ and a width of $1 0 \mu s$ . The thicknesses of the $\mathrm { H f Z r O } _ { x }$ and IZO were measured using an atomic force microscope (NX10, Park Systems). VGG-8 network simulations were performed with a Linux system using C++ code and a Python wrapper (12). For recognition accuracy simulations, the learning rate was 1 for the initial 50 epochs and changed to 0.125 after 50 epochs. In this simulation, the characteristics of the ferroelectric synaptic transistor array, including $G _ { \mathrm { m a x } } / G _ { \mathrm { m i n } } .$ , linearity, the number of states, cycle-to-cycle variation, and device-to-device variation, were considered. For the simulation of the VGG-8 network based on ideal synaptic devices, ideal synaptic characteristics (including a perfectly linear conductance modulation of $G _ { \mathrm { m a x } } / G _ { \mathrm { m i n } } = 1 0 0$ and 100 conductance states) were used (11).
 
 # SUPPLEMENTARY MATERIALS
-  - "[[FeFET]]"
-  - "[[Ferroelectric]]"
 
 Supplementary material for this article is available at https://science.org/doi/10.1126/ sciadv.abm8537
 

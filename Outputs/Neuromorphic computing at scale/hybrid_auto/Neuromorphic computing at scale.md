@@ -1,4 +1,5 @@
 ---
+
 title: "Neuromorphic computing at scale"
 authors:
   - "Dhireesha Kudithipudi"
@@ -44,7 +45,6 @@ wiki_concepts:
 ---
 
 # Neuromorphic computing at scale
-  - "[[Neuromorphic computing]]"
 
 https://doi.org/10.1038/s41586-024-08253-8
 

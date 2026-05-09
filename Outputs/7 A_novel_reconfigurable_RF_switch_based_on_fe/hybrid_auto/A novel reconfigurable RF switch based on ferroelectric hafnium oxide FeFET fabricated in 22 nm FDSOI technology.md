@@ -1,5 +1,6 @@
 ---
 
+
 title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET"
 authors:
   - "Sukhrob Dang"
@@ -67,10 +68,6 @@ a Keysight N5247B PNA-X vector network analyzer with N5293A extender heads, appl
 Ferroelectric switching is indicated by the shift of threshold voltage $\mathrm { ( V _ { t } ) }$ between high- $\mathbf { \nabla } \cdot \mathrm { V _ { t } }$ (HVT) and low- $\mathbf { - V _ { t } }$ (LVT) or erase (ERS) and program (PRG) states. The switching was accomplished by gradually sweeping $\mathrm { v _ { G S } }$ between -4 V and 4 V while $\mathrm { \Delta V _ { D S } }$ was varied between 0 and 1.2 V.
 
 # III. RESULTS AND DISCUSSION
-  - "[[FeFET]]"
-  - "[[HfO2]]"
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 
 Fig. 2 shows the transfer characteristics $\left( \mathrm { I } _ { \mathrm { D S } } \mathrm { - } \mathrm { V } _ { \mathrm { G S } } \right)$ at different $\mathrm { \Delta V _ { D S } }$ for devices with varying channel lengths. The IDS-VGS characteristics exhibit a clear counter-clockwise hysteresis behavior with the [[memory window]] (MW) defined as the difference between threshold voltages at HVT and LVT states. The $\mathrm { V _ { t } }$ is defined at $\mathrm { I _ { D S } = 2 0 \mu A }$ . As seen, the device with a gate length of 20 nm exhibits the highest MW of 2.25 V. The threshold voltages of both HVT and LVT states shift towards higher values with an increase in the gate length. The $\mathrm { V _ { t } }$ of HVT is below 0 V in all cases, while in LVT, the $\mathrm { V _ { t } }$ is close to 0 V for $1 = 2 0$ nm and is higher than 0 V for 80 nm and 200 nm devices. The $\mathrm { I _ { O N } / I _ { O F F } }$ ratio at $\mathrm { V _ { G S } } { = } 0 \ \mathrm { V }$ and $\mathrm { V _ { D S } } = 1 . 2 \ : \mathrm { V }$ is 50, 500, and 800 for $1 = 2 0$ nm, 80 nm, and 200 nm, respectively. In all cases, the bending of subthreshold characteristics is visible. This could be attributed to the re-switching of ferroelectric domains during the gradual voltage sweep.
 

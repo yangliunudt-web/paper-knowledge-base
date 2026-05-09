@@ -1,4 +1,5 @@
 ---
+
 title: "Benchmarking Test-Time DNN Adaptation at Edge with Compute-In-Memory"
 authors:
   - "Zhenkun Fan"
@@ -44,7 +45,6 @@ ANNI LU, Georgia Institute of Technology, Atlanta, United States
 KSHITIJ BHARDWAJ, Lawrence Livermore National Laboratory, Livermore, United States
 
 ARIJIT RAYCHOWDHURY, Georgia Institute of Technology, Atlanta, United States
-  - "[[存内计算]]"
 
 The prediction accuracy of deep neural networks (DNNs) deployed at the edge can deteriorate over time due to shifts in the data distribution. For heightened robustness, it’s crucial for DNNs to continually refine and improve their predictive capabilities. However, adaptation in resource-limited edge environments is fraught with challenges: (i) new labeled data might be unavailable; (ii) on-device adaptation is a necessity as cloud connections may be inaccessible; and (iii) the adaptation procedure should prioritize speed, memory efficiency, and energy conservation. Compute-In-Memory (CIM) has recently garnered attention for its computational efficacy and superior operational bandwidth. Additionally, emerging lightweight unsupervised DNN adaptation techniques during test-time have showcased promising results in enhancing model accuracy for data with noise. This article pioneers a holistic benchmarking exploration of these methods, assessing their performance and energy efficacy across diverse CIM architectures in edge and autonomous systems. Our findings reveal that the proposed adaptation strategies can adapt to both environment shifts and inherent hardware noise. Engaging in a thorough cross-layer algorithm-hardware-technology co-design space exploration, we highlight pivotal trade-offs among accuracy, performance, and energy for various DNN adaptation techniques and CIM configurations.
 

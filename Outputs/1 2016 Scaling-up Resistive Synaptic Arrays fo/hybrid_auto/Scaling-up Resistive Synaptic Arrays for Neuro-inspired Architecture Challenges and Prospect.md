@@ -1,4 +1,5 @@
 ---
+
 title: "Scaling-up Resistive Synaptic Arrays for Neuro-inspired Architecture: Challenges"
 authors:
   - "Shimeng Yu"
@@ -35,8 +36,6 @@ Recent advances in neuro-inspired machine learning algorithms have shown tremend
 # 2. Non-ideal Device Properties and Array Parasitics
 
 When scaling up the array size, the non-ideal device properties and array parasitics may potentially degrade the learning accuracy [8]. The non-ideal properties of the realistic devices
-  - "[[Neuromorphic computing]]"
-  - "[[crossbar]]"
 
 today include a finite weight precision, a nonlinearity in weight update (conductance vs. #pulse), limited on/off ratio and device variations, see device examples (Fig. 3-5). We build a device behavioral model of the weight update considering the extent of nonlinearity (Fig. 6) and device variations including both spatial (device-to-device) variations and temporal (cycle-to-cycle) variations (Fig. 7). We also build a SPICE simulator to study the IR drop problem and RC latency due to the interconnect resistance and parasitic capacitance in the array (Fig. 8). In order to quantify the impact on learning accuracy, we use the sparse coding [9] algorithm as a case study. Sparse coding is an unsupervised learning algorithm to extract the inherent feature vector (Z) from the dataset (X) through a dictionary matrix (D). We incorporate the device behavioral model into the weight update ( $\Delta D \sim rZ$ ) and incorporate the array-level SPICE results into the matrix-vector multiplication (DZ) in the algorithm (Fig. 9). We use MNIST handwritten digits dataset [10] for the training, and the recognition accuracy is the metric for the following discussions: 1) to avoid a significant accuracy loss, a 6-bit D (64 multi-levels for resistive synaptic devices) is needed (Fig. 10), which is achievable in today's devices [4-6]. 2) the nonlinear weight update slightly decreases the accuracy by a few percentages (Fig. 11). 3) a small on/off ratio greatly degrades the learning accuracy (Fig. 12), thus some of today's devices [4-6] become problematic. 4) the algorithm can tolerate the spatial variations but has poor resilience against the temporal variations (Fig. 13). The nanoscale interconnect in the large array causes significant IR drop that distorts the matrix-vector multiplication thereby degrading the accuracy (Fig. 14). Potential circuit-level solutions to address the above issues include using a dummy column to eliminate the off-state current by differential read-out (Fig. 15), using multiple-cell (e.g. $3 \times 3$ cells) as one bit to average out the device variations (Fig. 16), and relaxing the wire width for reducing the IR drop along interconnect. With these strategies, the recognition accuracy can be brought back to $95\%$ as compared to $65\%$ in a naive implementation (Fig. 17). The hardware overhead due to these strategies is evaluated in Section 4.
 

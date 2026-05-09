@@ -1,4 +1,5 @@
 ---
+
 title: "Suppression of Gate-Induced-Drain-Leakage Utilizing Local Polarization in Ferroelectric-Gate\\"
 authors:
   - "Been Kwak"
@@ -33,7 +34,6 @@ Index Terms— FeFET, dynamic random access memory, recessed channel, gate-induc
 # I. INTRODUCTION
 
 HERE are numerous obstacles in terms of fabrication processes and electrical properties for further scaling
-  - "[[FeFET]]"
 
 Manuscript received 30 November 2023; revised 9 February 2024; accepted 19 February 2024. Date of publication 27 February 2024; date of current version 26 April 2024. This work was supported in part by the National Research Foundation of Korea (NRF) grant funded by the Korea Government Ministry of Science and ICT (MSIT) under Grant RS-2023-00260527; in part by the National Research and Development Program through the NRF funded by MSIT under Grant RS-2023- 00257003; in part by the MSIT, Korea, under the ITRC (Information Technology Research Center) support Program the IITP (Institute for Information and Communications Technology Planning and Evaluation under Grant IITP-2024-RS-2023-00260091; in part by the National Research and Development Program through the NRF funded by MSIT under Grant 2021M3H2A1038042; and in part by Samsung Electronics Company Ltd., under Grant 202370026.02. The review of this letter was arranged by Editor M. Kobayashi. (Been Kwak and Kitae Lee contributed equally to this work.) (Corresponding authors: Sihyun Kim; Daewoong Kwon.)
 

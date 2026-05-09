@@ -1,5 +1,6 @@
 ---
 
+
 title: "Ferroelectric-based neuromorphic memory devices for bio-inspired computing"
 authors:
   - "Yihan Weiyi"
@@ -30,7 +31,6 @@ Yihan Liu1,4, Weiyi Tang1,4, Jinhua Zeng  2,4, Chongyang Bai2 , Keji Zhou1 , X
 # Abstract
 
 The growing gap between the rapidly increasing demand for computing power and the slowing improvements in computing speed is becoming more noticeable within the von Neumann architecture. Ferroelectric materials, such as hafnium-based ferroelectrics and two-dimensional (2D) van der Waals ferroelectrics, are promising for neuromorphic computing because the partial ferroelectric domain switching behaviour can emulate the temporal dynamics of biological neurons and synapses. Because ferroelectric devices are driven by electric felds, their writing energy is much lower than that of other efcient materials used for memory, such as phase change memory and resistive random-access memory. In this Review, we discuss the advances in ferroelectric neuromorphic devices and arrays, and their in-sensor applications. We summarize the device structure and principles of ferroelectric synaptic devices and neuronal circuits. Furthermore, we emphasize the key role of ferroelectric devices in building efcient and scalable synapse and neuron arrays, including topologies of various structures, the potential for more physical domain computing and high-density 3D integration. Finally, we discuss ferroelectric materials as a key component in supporting workloads that are unattainable using complementary metal-oxide semiconductor (CMOS)-based memory technology.
-  - "[[Neuromorphic computing]]"
 
 1 State Key Laboratory of Integrated Chips and Systems, Frontier Institute of Chip and System, Fudan University, Shanghai, China. 2 State Key Laboratory of Infrared Physics, Shanghai Institute of Technical Physics, Chinese Academy of Sciences, Shanghai, China. 3 State Key Laboratory of Photovoltaic Science and Technology, Shanghai Frontiers Science Research Base of Intelligent Optoelectronic and Perception, Institute of Optoelectronic and Department of Material Science, Fudan University, Shanghai, China. 4 These authors contributed equally: Yihan Liu, Weiyi Tang, Jinhua Zeng. 5 These authors jointly supervised this work: Zhangcheng Huang, Guangjian Wu, Jianlu Wang.  e-mail: huangzc@fudan.edu.cn; gjwu@fudan.edu.cn; jianluwang@fudan.edu.cn
 

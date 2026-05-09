@@ -1,4 +1,5 @@
 ---
+
 title: "Monte Carlo Simulation of Switching Dynamics in Polycrystalline Ferroelectric Capacitors"
 authors:
   - "Cristobal Alessandri"
@@ -35,7 +36,6 @@ Index Terms-Ferroelectric (FE)， hafnium zirconate (HZO), Monte Carlo, nucleati
 # I. INTRODUCTION
 
 T HE discovery of ferroelectricity in the CMOS-compatible HfO2 material system [1] has led to a variety of applications, including memory [2], [3], steep-slope transistors [4], [5], and neuromorphic computing [6], [7]. To design devices for these applications and further explore the use of ferroelectrics (FEs) in circuit design, reliable and predictive models of the FE polarization dynamics are needed. However, describing the switching behavior of thin-film polycrystalline FEs is complicated by the fact that they are composed of a multitude of grains having different switching thresholds, the distribution of which is highly dependent on the growth
-  - "[[Ferroelectric]]"
 
 Manuscript received March 29, 2019; revised May 3, 2019; accepted May 24, 2019. This work was supported in part by the Center for Low Energy Systems Technology (LEAST), one of six centers of STARnet, through the Semiconductor Research Corporation Program sponsored by MARCO and DARPA, and in part by the National Science Foundation under Grant ECCS/GOALI-1408425. The review of this paper was arranged by Editor S.-M. Hong. (Cristobal Alessandri and Pratyush Pandey contributed equally to this work.）(Corresponding author: Cristobai Alessandri.)
 

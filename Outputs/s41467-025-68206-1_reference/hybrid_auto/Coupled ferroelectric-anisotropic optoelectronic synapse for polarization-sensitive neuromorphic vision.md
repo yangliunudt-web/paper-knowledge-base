@@ -1,4 +1,5 @@
 ---
+
 title: "Coupled Ferroelectric-Anisotropic Optoelectronic Synapse for Polarization-Sensitive\\"
 authors:
   - "Jiali Huo"
@@ -33,7 +34,6 @@ wiki_concepts:
 ---
 
 # Coupled ferroelectric-anisotropic optoelectronic synapse for polarization-sensitive neuromorphic vision
-  - "[[Ferroelectric]]"
 
 Received: 21 April 2025
 

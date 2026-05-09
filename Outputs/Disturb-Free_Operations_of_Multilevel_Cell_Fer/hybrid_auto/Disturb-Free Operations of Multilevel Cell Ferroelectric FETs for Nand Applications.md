@@ -1,4 +1,5 @@
 ---
+
 title: "Disturb-Free Operations of Multilevel Cell Ferroelectric FETs for Nand Applications"
 authors:
   - "Chengji Jin"
@@ -42,7 +43,6 @@ Index Terms— Disturb, ferroelectric field-effect transistors (FeFETs), multile
 # I. INTRODUCTION
 
 F ERROELECTRIC field-effect transistors (FeFETs) haveemerged as one of the most promising nonvolatile memory technologies since the discovery of CMOS-compatible ferroelectric $\mathrm { H f O } _ { 2 }$ [1], [2], [3]. Currently, 3-D NAND flash is
-  - "[[FeFET]]"
 
 Manuscript received 9 January 2023; revised 31 January 2023; accepted 2 February 2023. Date of publication 13 February 2023; date of current version 24 March 2023. This work was supported in part by the National Natural Science Foundation of China under Grant 62204228, Grant 62204229, Grant 62204226, Grant 62025402, Grant 62090033, and Grant 91964202; in part by the Scientific Research Project of Zhejiang Lab under Grant 2021MD0AC01; in part by the Zhejiang Province Key Research and Development Programs under Grant 2022C01232 and Grant 2021C05004; and in part by the Zhejiang Provincial Natural Science Foundation under Grant LQ21E070002. The review of this article was arranged by Editor R. Wang. (Chengji Jin and Jiacheng Xu contributed equally to this work.) (Corresponding authors: Xiao Yu; Yan Liu.)
 

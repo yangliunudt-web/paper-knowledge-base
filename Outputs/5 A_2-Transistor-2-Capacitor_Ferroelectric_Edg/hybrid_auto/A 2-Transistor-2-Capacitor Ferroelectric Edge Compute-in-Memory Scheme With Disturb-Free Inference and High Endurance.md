@@ -1,4 +1,5 @@
 ---
+
 title: "A 2-Transistor-2-Capacitor Ferroelectric Edge Compute-in-Memory Scheme With Disturb-Free\\"
 authors:
   - "Xiaoyang Ma"
@@ -41,7 +42,6 @@ wiki_concepts:
 # A 2-Transistor-2-Capacitor [[ferroelectric]] Edge Compute-in-Memory Scheme With Disturb-Free Inference and High Endurance
 
 Xiaoyang Ma , Shan Deng Graduate Student Member, IEEE, Juejian Wu , Zijian Zhao , David Lehninger , Tarek Ali, Konrad Seidel, Sourav De , Xiyu He , Yiming Chen , Graduate Student Member, IEEE, Huazhong Yang , Fellow, IEEE, Vijaykrishnan Narayanan , Fellow, IEEE, Suman Datta , Fellow, IEEE, Thomas Kämpfe , ng Luo , Senior Member, IEEE, Kai Ni , Member, IEEE, and Xueqing Li , Senior Member, IEEE
-  - "[[FeRAM]]"
 
 Abstract— This letter proposes C2[[FeRAM]], a 2T2C/cell ferroelectric compute-in-memory (CiM) scheme for energy-efficient and high-reliability edge inference and transfer learning. With certain area overhead, C2FeRAM achieves the following highlights: (i) compared with [[FeFET]]/FeMFET, it achieves disturb-free CiM and much higher write endurance (equal to FeRAM), leading to >100× inference time with <1% accuracy drop for VGG8 in CIFAR-10 dataset, along with the enhanced endurance for weight updates, e.g., CiM-based transfer learning; (ii) compared with 1T1C FeRAM inference cache, the achieved disturb-free feature and CiM capability in C2FeRAM lead to improvements of 4× energy, 200× speed, and 3.2e5× life cycles. Such benefits highlight an intriguing solution for future intelligent edge AI.
 

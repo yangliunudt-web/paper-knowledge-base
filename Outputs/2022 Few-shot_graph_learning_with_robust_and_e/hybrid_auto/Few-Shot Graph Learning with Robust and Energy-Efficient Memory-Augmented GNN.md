@@ -1,4 +1,5 @@
 ---
+
 title: "Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN"
 authors:
   - "Chen Sun"
@@ -42,7 +43,6 @@ Next, the other part of the RRAM array, called programmable resistor array, was 
 # IV. Conclusion
 
 We present the chip-level demonstration of few-shot graph learning using a monolithic 256 Kb 1T1R RRAM chip, where the same hardware can implement both the controller and AM. Excellent node classification accuracy of 78% (2-way 3-shot) and robustness on the CORA dataset were demonstrated. This work provides a promising solution to the future energyefficient autonomous systems at the edge.
-  - "[[RRAM]]"
 
 Acknowledgements: This work was supported by the National Key R&D Program of China (Grant Nos. 2018YFA0701500), the NSFC (Grant No. 61874138, 62122004, 61888102, 61834009, 62025406), the Strategic Priority Research Program of the CAS (Grant No. XDB44000000), and the HK RGC-ECS (Grant No. 27206321).
 

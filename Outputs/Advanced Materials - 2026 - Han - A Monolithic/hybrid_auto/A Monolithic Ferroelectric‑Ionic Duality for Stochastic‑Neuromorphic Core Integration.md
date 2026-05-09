@@ -1,4 +1,5 @@
 ---
+
 title: "A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration"
 authors:
   - "Changhyeon Han"
@@ -36,7 +37,6 @@ wiki_concepts:
 Changhyeon Han1 Ryun-Han Koo2 Minsuk Song1 Youngchan Cho3 Min Wook Kang4 Jangsaeng Kim5 Jong-Ho Lee2 Wonjun Shin3 Daewoong Kwon1
 
 1 Department of Electrical Engineering, Hanyang University, Seoul, Republic of Korea 2Department of Electrical and Computer Engineering and Inter-university Semiconductor Research Center, Seoul National University, Seoul, Republic of Korea 3Department of Semiconductor Convergence Engineering, Sungkyunkwan University, Suwon, Republic of Korea 4School of Electronic and Electrical Engineering, Sungkyunkwan University, Suwon, Republic of Korea 5Department of Electronic Engineering, Sogang University, Seoul, Republic of Korea
-  - "[[Neuromorphic computing]]"
 
 Correspondence: Wonjun Shin (swj0107@skku.edu) Daewoong Kwon (dw79kwon@hanyang.ac.kr)
 

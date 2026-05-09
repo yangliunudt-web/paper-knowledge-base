@@ -1,4 +1,5 @@
 ---
+
 title: "Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask"
 authors:
   - "Arun Dillon"
@@ -23,7 +24,6 @@ Arun Mallya, Dillon Davis, and Svetlana Lazebnik
 University of Illinois at Urbana-Champaign {amallya2,ddavis14,slazebni}@illinois.edu
 
 Abstract. This work presents a method for adapting a single, fixed deep neural network to multiple tasks without affecting performance on already learned tasks. By building upon ideas from network quantization and pruning, we learn binary masks that “piggyback” on an existing network, or are applied to unmodified weights of that network to provide good performance on a new task. These masks are learned in an end-toend differentiable fashion, and incur a low overhead of 1 bit per network parameter, per task. Even though the underlying network is fixed, the ability to mask individual weights allows for the learning of a large number of filters. We show performance comparable to dedicated fine-tuned networks for a variety of classification tasks, including those with large domain shifts from the initial task (ImageNet), and a variety of network architectures. Our performance is agnostic to task ordering and we do not suffer from catastrophic forgetting or competition between tasks.
-  - "[[Catastrophic forgetting]]"
 
 Keywords: Incremental Learning, Binary Networks.
 

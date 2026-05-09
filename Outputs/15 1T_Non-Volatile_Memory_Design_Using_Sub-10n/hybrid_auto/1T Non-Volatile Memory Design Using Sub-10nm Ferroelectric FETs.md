@@ -1,4 +1,5 @@
 ---
+
 title: "1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs"
 authors:
   - "Ankit Sharma"
@@ -36,7 +37,6 @@ FERROELECTRIC FETs (FeFETs), consisting of ferro- electric in the gate-stack of 
 Traditionally, ferroelectrics like PZT and BTO have been used in ferroelectric capacitor memories (FeRAMs) [7]. However, their incompatibility with semiconductor technology, poor scalability and destructive read operation has posed serious limitation compared to several competing memories [8]. Recent discovery of ferroelectricity in hafniumoxide [9]–[12] has overcome shortcomings of FeRAMs and revived interest in scalable ferroelectric-gate type memories. Fast progress has been made in this segment whereby FeFETs with fast switching (∼10ns), retention of ∼10 years [13] and endurance of ${ \sim } 1 0 ^ { \circ }$ [13] cycles have been demonstrated.
 
 Previously, George et al. [14] reported 2T FeFET memory with low read/write energy and superior characteristics
-  - "[[FeFET]]"
 
 Manuscript received January 4, 2018; accepted January 22, 2018. Date of publication January 25, 2018; date of current version February 22, 2018. The review of this letter was arranged by Editor B. S. Doyle. (Corresponding author:Ankit Sharma.)
 
