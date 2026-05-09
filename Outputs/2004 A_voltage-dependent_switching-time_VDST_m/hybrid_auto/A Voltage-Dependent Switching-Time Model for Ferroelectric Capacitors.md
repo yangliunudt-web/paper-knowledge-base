@@ -8,7 +8,7 @@ authors:
 date: "2004-01-01"
 year: "2004"
 journal: "IEEE International Symposium on Circuits and Systems"
-abstract: "The time required to switch a ferroelectric capacitor from one binary state"
+abstract: "The time required to switch a ferroelectric capacitor from one binary state to the other is strongly related to the magnitude of the applied voltage, especially at voltages well below the power supply. This paper presents a Verilog-A model that accurately predicts the voltage-dependent switching dynamics of various FeRAM technologies. Spectre simulations of low-voltage FeRAM circuits implemented in a 0.35um CMOS/PZT testchip are in full agreement with our measurement results."
 abstract_cn: "铁电电容从一个二进制状态切换到另一个状态所需的时间与施加电压的大小密切相关，特别是在远低于电源电压的电压下。本文提出一种 Verilog-A"
 keywords:
   - "[[Ferroelectric]]"
