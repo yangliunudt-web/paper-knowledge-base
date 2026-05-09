@@ -10,7 +10,7 @@ date: "2019-05-09"
 year: "2019"
 journal: "GLSVLSI 2019"
 doi: "10.1145/3299874.3319450"
-abstract: "Explores ferroelectric FET (FeFET) based in-memory computing for few-shot"
+abstract: "As CMOS technology advances, the performance gap between the CPU and main memory has not improved. Furthermore, the hardware deployed for Internet of Things (IoT) applications need to process ever growing volumes of data, which can further exacerbate the memory wall. Computing-in-memory (CiM) architectures, where logic and arithmetic operations are performed in memory, can significantly reduce energy and latency overheads associated with data transfer, and potentially alleviate processor-memory bottlenecks. In this paper, we consider the utility of ternary content addressable memory (TCAM) arrays and CiM arrays based on ferroelectric field effect transistors (FeFETs) to support emerging machine learning models that can learn new classes of data with significantly less training overhead – highly desirable in IoT applications. Architecturally, we use TCAM and CiM arrays to implement the external memory module in a memory enhanced neural network (MENN) – which can be used to minimize catastrophic forgetting – a major problem in applications such as lifelong and few-shot learning. As a representative example, we achieve 95.14% accuracy for a few-shot learning task with the Omniglot data set by using a combined L-inf and L1 distance metric computed via a TCAM-CiM cascaded architecture. While there is a slight drop in accuracy, the TCAM-CiM approach is 4.34X faster and 4.18X more energy efficient than a CMOS implementation for the same task."
 abstract_cn: "探索基于铁电 FET (FeFET) 的存内计算用于小样本学习应用。提出使用 FeFET 模拟电导实现神经网络权重存储和存储器内乘法运算。利用"
 keywords:
   - "[[Ferroelectric]]"

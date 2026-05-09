@@ -8,7 +8,7 @@ authors:
 date: "2018-01-01"
 year: "2018"
 journal: "European Conference on Computer Vision (ECCV)"
-abstract: "This work presents a method for adapting a single, fixed deep neural network"
+abstract: "This work presents a method for adapting a single, fixed deep neural network to multiple tasks without affecting performance on already learned tasks. By building upon ideas from network quantization and pruning, we learn binary masks that piggyback on an existing network, or are applied to unmodified weights of that network to provide good performance on a new task. These masks are learned in an end-to-end differentiable fashion, and incur a low overhead of 1 bit per network parameter, per task. Even though the underlying network is fixed, the ability to mask individual weights allows for the learning of a large number of filters. We show performance comparable to dedicated fine-tuned networks for a variety of classification tasks, including those with large domain shifts from the initial task (ImageNet), and a variety of network architectures. Our performance is agnostic to task ordering and we do not suffer from catastrophic forgetting or competition between tasks."
 abstract_cn: "本文提出了一种方法，用于将单个固定的深度神经网络适应多个任务，而不影响已学习任务的性能。基于网络量化和剪枝的思想，我们学习二进制掩码，这些掩码“搭载”在现有网络上，或应用于该网络的未修改权重，以在新任务上提供良好性能。这些掩码以端到端可微分的方式学习，每任务每个网络参数的开销仅为1位。尽管底层网络是固定的，但屏蔽单个权重的能力允许学习大量过滤器。我们展示了在各种分类任务上性能与专用微调网络相当，包括与初始任务（ImageNet）存在较大领域偏移的任务，以及各种网络架构。我们的性能与任务顺序无关，且不会遭受灾难性遗忘或任务间竞争。"
 keywords:
   - "[[Incremental Learning]]"
