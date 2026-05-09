@@ -19,6 +19,7 @@ keywords:
   - "[[Inter-layer dielectric]]"
   - "[[Monolithic 3D]]"
   - "[[DRAM]]"
+abstract_cn: "针对采用垂直全环绕沟道IGZO FET的4F² 2T0C DRAM的堆叠需求，首次通过改变介质材料和工艺研究了层间介质对CAA-IGZO FET的影响。通过使用优化的ILD和IGZO沉积周期比，获得了高可靠性的CAA-IGZO FET。优化后的器件在10⁴ s偏压应力下Vth漂移小于25 mV，在10¹²次循环耐久性测试后无显著退化。我们的结果为促进多层IGZO FET的单片堆叠以实现3D DRAM提供了重要参考。"
 cite: "[1] Chen et al. Inter-Layer Dielectric Engineering for Monolithic Stacking -2T0C DRAM with Channel-All-Around (CAA) IGZO FET to Achieve Good Reliability Bias Stre[J]. IEEE Transactions on Electron Devices, 2023."
 aiSum: "CAA-IGZO FET层间介质工程：优化PEALD工艺改善H穿透问题，实现>10⁴s保持特性和2T0C DRAM堆叠可行性。"
 confidence: "high"

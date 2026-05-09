@@ -16,6 +16,7 @@ authors:
 date: "2025-01-02"
 year: "2025"
 journal: "Nature Communications"
+abstract: "Optical neural networks are considered next-generation physical implementations of artificial neural networks, but their capabilities are limited by on-chip integration scale and requirement for coherent light sources. This study proposes a spectral convolutional neural network (SCNN) with matter meta-imaging. The optical convolutional layer is implemented by integrating very large-scale and pixel-aligned spectral filters on CMOS image sensor. It facilitates highly parallel spectral vector-inner products of incident incoherent natural light i.e., the direct information carrier, which empowers in-sensor optical analog computing at extremely high energy efficiency. To the best of our knowledge, this is the first integrated optical computing utilizing natural light. We employ the same SCNN chip for completely different real-world complex tasks and achieve accuracies of over 96% for pathological diagnosis and almost 100% for face anti-spoofing at video rates. These results indicate a feasible and scalable in-sensor edge computing chip of natural light for various portable terminals."
 abstract_cn: "光学神经网络被认为是人工神经网络的下一代物理实现，但其能力受到片上集成规模和相干光源需求的限制。本研究提出了一种基于物质元成像的光谱卷积神经网络（SCNN）。光学卷积层通过在CMOS图像传感器上集成超大规模和像素对齐的光谱滤波器来实现。它促进了入射非相干自然光（即直接信息载体）的高度并行光谱向量内积运算，从而赋能传感器内光学模拟计算，具有极高的能效。据我们所知，这是首个利用自然光的集成光学计算。我们使用同一SCNN芯片处理完全不同的现实世界复杂任务，在病理诊断中实现了超过96%的准确率，在人脸反欺诈中实现了几乎100%的准确率，且在视频速率下运行。这些结果表明，针对各种便携终端的基于自然光的可行且可扩展的传感器内边缘计算芯片。"
 keywords:
   - "[[Optical neural networks]]"

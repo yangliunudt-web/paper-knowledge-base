@@ -6,6 +6,7 @@ authors:
 date: "2019-01-30"
 year: "2019"
 journal: "Nano Letters"
+abstract: "Neuromorphic computing is a promising alternative to conventional computing systems as it could enable parallel computation and adaptive learning process. However, the development of energy efficient neuromorphic hardware systems has been hindered by the limited performance of analog synaptic devices. Here, we demonstrate the analog conductance modulation behavior in the ferroelectric thin-film transistors (FeTFT) that have the nanoscale ferroelectric material and oxide semiconductors. Accurate control of polarization changes in the nanoscale ferroelectric layer induces conductance modulation to demonstrate linear potentiation and depression characteristics of FeTFTs. Our devices show potentiation and depression properties, including high linearity, multiple states, and small cycle-to-cycle/device-to-device variations. In simulations with measured properties, a neuromorphic system with FeTFT achieves 91.1% recognition accuracy of handwritten digits. This work may provide a way to realize the neuromorphic hardware systems that use FeTFTs as the synaptic devices."
 abstract_cn: "神经形态计算是传统计算系统的一种有前景的替代方案，因为它可以实现并行计算和自适应学习过程。然而，高能效神经形态硬件系统的发展受到了模拟突触器件性能有限的制约。本文展示了具有纳米级铁电材料和氧化物半导体的铁电薄膜晶体管（FeTFT）中的模拟电导调制行为。通过精确控制纳米级铁电层中的极化变化来诱导电导调制，展示了FeTFT的线性增强和抑制特性。我们的器件展示了高线性度、多状态和小周期/器件间差异的增强和抑制性能。在使用测量特性的仿真中，基于FeTFT的神经形态系统实现了91.1%的手写数字识别准确率。该工作为实现使用FeTFT作为突触器件的神经形态硬件系统提供了一条途径。"
 keywords:
   - "[[Ferroelectric Materials]]"

@@ -21,6 +21,7 @@ keywords:
   - "[[In-memory computing]]"
   - "[[3D NAND]]"
   - "[[Monolithic 3D integration]]"
+abstract_cn: "本文首次展示了后端工艺兼容的Hf0.5Zr0.5O2铁电场效应晶体管与前端工艺高k/金属栅Si-NMOS的单片三维集成。我们使用低热预算（<400°C）工艺将HZO与1%钨掺杂的非晶In2O3半导体氧化物沟道集成，展示了40 μC/cm²的高剩余极化电荷密度和可靠的开关特性。我们报道了：（a）超缩放20nm沟道长度IWO FeFET的0.45V读取存储窗口，（b）100ns的写入速度，（c）>10⁸次的写入耐久性。我们进一步展示了具有良好分离电导态的2bit/cell突触权重单元。对使用VGG-8模型在CIFAR-10图像数据集上执行推理的存内计算加速器进行系统级分析表明，22nm BEOL FeFET实现了比7nm SRAM高3倍的能效，同时由于M3D架构的面积折叠效应，占用更小的存储阵列面积。"
 cite: "[1] Dutta et al. Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating Compute-In-Memory[J]. Nature Electronics, 2024."
 aiSum: "We demonstrate, for the first time, monolithic 3D (M3D) integration of back-end-of-line (BEOL) compatible Hf0.5Zr0.5O2 (HZO) ferroelectric FET (FeFET) with front-endof-line (FEOL) high-k/metal gate (H..."
 confidence: "high"

@@ -12,6 +12,11 @@ year: 2016
 journal: "Neuromorphic Computing and Engineering"
 abstract: "The crossbar array architecture with resistive synaptic devices is attractive for on-chip implementation of weighted sum and weight update in the neuro-inspired learning algorithms. This paper discusses the design challenges on scaling up the array size due to non-ideal device properties and array parasitics. Circuit-level mitigation strategies have been proposed to minimize the learning accuracy loss in a large array. This paper also discusses the peripheral circuits design considerations for the neuro-inspired architecture. Finally, a circuit-level macro simulator is developed to explore the design trade-offs and evaluate the overhead of the proposed mitigation strategies as well as project the scaling trend of the neuro-inspired architecture."
 abstract_cn: "基于阻变突触器件的交叉阵列架构非常适合神经启发式学习算法的片上加权求和与权重更新实现。本文讨论了由非理想器件特性和阵列寄生效应导致的阵列规模扩展挑战，提出了最小化大规模阵列中学习精度损失的电路级缓解策略，讨论了神经启发式架构的外围电路设计考虑，并开发了电路级宏模拟器用于探索设计权衡、评估缓解策略开销以及预测神经启发式架构的扩展趋势。"
+keywords:
+  - "[[Resistive synaptic devices]]"
+  - "[[Crossbar array]]"
+  - "[[Neuromorphic computing]]"
+  - "[[Circuit-level mitigation]]"
 cite: "[1] Yu S M, Chen P Y, Cao Y, et al. Scaling-up Resistive Synaptic Arrays for"
 aiSum: "讨论阻变突触器件交叉阵列规模扩展的挑战（器件非线性、有限精度、器件变异、IR 压降），提出差分读出消除关态电流、多单元平均减少变异、放宽线宽降低 IR"
 confidence: "medium"

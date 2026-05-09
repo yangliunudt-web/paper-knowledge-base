@@ -5,6 +5,7 @@ authors:
 date: "2024-12-01"
 year: "2024"
 journal: "Nature Communications"
+abstract: "Developing versatile and reliable memristive devices is crucial for advancing future memory and computing architectures. The years of intensive research have still not reached and demonstrated their full horizon of capabilities, and new concepts are essential for successfully using the complete spectra of memristive functionalities for industrial applications. Here, we introduce two-terminal ohmic memristor, characterized by a different type of switching defined as filament conductivity change mechanism (FCM). The operation is based entirely on localized electrochemical redox reactions, resulting in essential advantages such as ultra-stable binary and analog switching, broad voltage stability window, high temperature stability, high switching ratio and good endurance. The multifunctional properties enabled by the FCM can be effectively used to overcome the catastrophic forgetting problem in conventional deep neural networks. Our findings represent an important milestone in resistive switching fundamentals and provide an effective approach for designing memristive system, expanding the horizon of functionalities and neuroscience applications."
 abstract_cn: "本文提出了用于神经形态计算应用的电化学欧姆忆阻器。器件利用电化学机制实现可靠的阻变切换和欧姆行为，能够高效实现神经网络运算。"
 keywords:
   - "[[Memristor]]"

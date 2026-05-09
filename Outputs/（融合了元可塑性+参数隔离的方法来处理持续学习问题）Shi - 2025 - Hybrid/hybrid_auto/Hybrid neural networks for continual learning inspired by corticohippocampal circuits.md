@@ -10,6 +10,7 @@ authors:
 date: "2025-02-02"
 year: "2025"
 journal: "Nature Communications"
+abstract: "Current artificial systems suffer from catastrophic forgetting during continual learning, a limitation absent in biological systems. Biological mechanisms leverage the dual representation of specific and generalized memories within corticohippocampal circuits to facilitate lifelong learning. Inspired by this, we develop a corticohippocampal circuits-based hybrid neural network (CH-HNN) that emulates these dual representations, significantly mitigating catastrophic forgetting in both task-incremental and class-incremental learning scenarios. Our CH-HNNs incorporate artificial neural networks and spiking neural networks, leveraging prior knowledge to facilitate new concept learning through episode inference, and offering insights into the neural functions of both feedforward and feedback loops within corticohippocampal circuits. Crucially, CH-HNN operates as a task-agnostic system without increasing memory demands, demonstrating adaptability and robustness in real-world applications. Coupled with the low power consumption inherent to SNNs, our model represents the potential for energy-efficient, continual learning in dynamic environments."
 abstract_cn: "持续学习仍然是人工神经网络面临的根本挑战。本文开发了一种基于皮质-海马回路启发的混合神经网络（CH-HNN），模拟大脑中特定记忆和泛化记忆的双重表征。ANN模拟mPFC-CA1回路在跨事件抽象规律中的作用，而SNN模拟DG-CA3回路编码特定事件记忆。该模型在多个数据集上的任务增量和类别增量学习场景中均展示了强大性能。它结合元可塑性机制，随着知识积累动态调节突触学习率。SNN组件实现低功耗，适用于神经形态硬件部署。"
 keywords:
   - "[[Continual Learning]]"

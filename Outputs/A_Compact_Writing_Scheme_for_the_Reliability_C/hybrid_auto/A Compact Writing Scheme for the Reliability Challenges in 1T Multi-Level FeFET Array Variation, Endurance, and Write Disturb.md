@@ -18,6 +18,7 @@ keywords:
   - "[[Multi-level cell]]"
   - "[[Writing scheme]]"
   - "[[Reliability]]"
+abstract_cn: "多级单元铁电FET面临关键可靠性挑战，包括变异性、耐久性和写入干扰。本文提出了一种创新方案，在紧凑的写入流程中同时解决这三个挑战。结合纠错、耐久性恢复和自补偿写入，该方案实现了错误率降低>6倍、耐久性提升>100倍、Vth漂移减少>7倍。在所制造的1T FeFET阵列中实验验证了具有10⁸次循环高耐久性和写入干扰免疫的可靠2比特/单元存储。该写入方案在单一工作流程内实现，可方便地部署于操作电路中。"
 cite: "[1] Zhou et al. A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level [[FeFET]] Array: Variation, Endurance, and Write Disturb[J]. IEEE Electron Device Letters, 2024."
 aiSum: "紧凑写入方案：错误率降低>6倍、耐久性提升>100倍、Vth漂移减少>7倍，1T FeFET阵列实现2比特/单元存储、10^8周期耐久性、写入干扰免疫。"
 confidence: "high"

@@ -28,6 +28,7 @@ keywords:
   - "[[Ferroelectric capacitors]]"
   - "[[Polarization switching]]"
   - "[[Time‑series prediction]]"
+abstract_cn: "物理储备计算（RC）系统因其在时间信息处理方面的卓越效率已成为重要研究前沿。然而，现有主要基于阻变器件的实现在功耗效率和动态丰富度方面面临挑战。本文提出了一种铁电电容器-线性电容器（FC-LC）串联器件用于RC实现。通过利用非线性极化反转和回翻转，FC-LC串联器件实现了储备池的两个基本特性：非线性和衰减记忆。此外，该器件具有超低功耗，配合直接电压读出能力，标志着相对于阻变储备池器件的显著进步。该器件还具备双向操作和宽范围可调时间常数，从而增强了储备池空间维度和状态丰富度。基于这些FC-LC串联器件，开发了一个铁电电容器RC系统，在各种基准任务中展示了卓越性能。通过利用器件的双向操作，RC系统不仅在波形分类中提供了增强性能，还实现了高精度多模态数字识别。通过战略性地混合具有不同时间常数的FC-LC串联器件，RC系统在Mackey-Glass时间序列预测中取得了卓越性能。我们的研究为能够处理多样化时间任务的低功耗、动态丰富RC系统铺平了道路。"
 cite: "[1] Mo et al. Ultralow-power reservoir computing based on bidirectionally operable ferroelectric capacitors with tunable time constants[J]. Reports on Progress in Physics, 2026."
 aiSum: "铁电电容器‑线性电容器串联器件实现超低功耗储备计算，具备双向操作和可调时间常数，在波形分类、多模态数字识别和 Mackey‑Glass 时间序列预测中表现优异。"
 confidence: "medium"

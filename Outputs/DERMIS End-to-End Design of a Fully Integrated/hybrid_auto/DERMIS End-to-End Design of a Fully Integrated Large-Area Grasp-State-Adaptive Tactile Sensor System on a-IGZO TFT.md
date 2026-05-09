@@ -15,6 +15,7 @@ keywords:
   - "[[Electronic skins]]"
   - "[[Thin-film transistor]]"
   - "[[Neuromorphic computing]]"
+abstract_cn: "本文介绍了名为DERMIS的高分辨率全集成触觉传感器系统设计，采用柔性薄膜晶体管技术实现，面向大面积电子皮肤。讨论了从传感器到读出电路再到片上特征提取的端到端设计策略如何实现高效系统重构，从而实现了首创的、生物启发的抓取状态自适应触觉传感器。与仅检测滑动的现有触觉传感器不同，DERMIS系统还测量关键接触线索，包括摩擦力、接触开始/结束和抬离开始/结束，这得益于一种新型差分电容传感器结构（可独立感知剪切力和正压力）以及一个协同设计的前端（在模拟域直接提取两种分量）。此外，由于对抓取状态依赖的接触参数进行模拟编码，系统避免了使用复杂的离线滑动提取算法。每个触觉像素的读出功耗仅为72 µW，面积0.36 mm²，同时在0.6 mm间距下实现了类人的2 mNRMS力分辨率。本工作在9×4 mm²的真实大面积原型中首次展示了该解决方案。"
 cite: "[1] Alea et al. DERMIS: End-to-End Design of a Fully Integrated Large-Area Grasp-State-Adaptive Tactile Sensor System on a-IGZO TFT[J]. IEEE Transactions on Biomedical Circuits and Systems, 2025."
 aiSum: "This paper presents the design of a high-resolution fully-integrated tactile sensor system, called DERMIS, implemented in a flexible thin-film transistor (TFT) technology for large-area electronic ski..."
 confidence: "medium"

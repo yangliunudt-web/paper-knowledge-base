@@ -11,6 +11,8 @@ journal: "Advanced Materials"
 keywords:
   - "[[Ferroelectric]]"
   - "[[Neuromorphic computing]]"
+abstract: "This supplementary material provides additional experimental data for the main paper on monolithic ferroelectric-ionic duality for stochastic-neuromorphic core integration, including structural analysis of FeFET and FIDFET stacks, crystalline phase composition comparison, oxygen vacancy analysis, ferroelectric characteristics, device-to-device variation, and endurance properties."
+abstract_cn: "本辅助材料为主论文提供了铁电-离子对偶性单片集成随机-神经形态核心的补充实验数据，包括FeFET和FIDFET堆叠的结构分析、晶体相组成对比、氧空位分析、铁电特性、器件间差异和耐久性特性。"
 cite: "[1] Han C H, Koo R H, Song M, et al. Supplementary Materials for A Monolithic"
 aiSum: "本文是 Advanced Materials 论文的辅助材料，包含 FeFET 和 FIDFET 器件的结构分析、晶体相组成对比、氧空位分析、铁电特性测试、器件间变异性和耐久性特性等补充实验数据。"
 confidence: "high"

@@ -21,6 +21,8 @@ keywords:
   - "[[光子芯片]]"
   - "[[边缘智能]]"
   - "[[多模态]]"
+abstract: "Edge computing requires real-time processing of high-throughput analog signals, posing a major challenge to conventional electronics. Although integrated photonics offers low-latency processing, it struggles to directly handle raw analog data. Here, we present a photonic edge intelligence chip (PEIC) that fuses multiple analog modalities—images, spectra, and radio-frequency signals—into broad optical spectra for single-fiber input. After transmission onto the chip, these spectral inputs are processed by an arrayed waveguide grating (AWG) that performs both spectral sensing and energy-efficient convolution (29 fJ/OP). A subsequent nonlinear activation layer and a fully connected layer form an end-to-end optical neural network, achieving on-chip inference with a measured response time of 1.33 ns. We demonstrate both supervised and unsupervised learning on three tasks: drug spectral recognition, image classification, and radar target classification. Our work paves the way for on-chip solutions that unify analog signal acquisition and optical computation for edge intelligence."
+abstract_cn: "边缘计算需要实时处理高通量模拟信号，这对传统电子技术构成了重大挑战。尽管集成光子学提供了低延迟处理能力，但它难以直接处理原始模拟数据。本文提出了一种光子边缘智能芯片（PEIC），将多种模拟模态（图像、光谱和射频信号）融合到大带宽光谱中，通过单光纤输入。传输到芯片后，这些光谱输入由阵列波导光栅（AWG）处理，AWG同时执行光谱感知和高能效卷积（29 fJ/OP）。后续的非线性激活层和全连接层构成端到端光学神经网络，实现了片上推理，实测响应时间为1.33 ns。我们在三个任务上展示了监督和无监督学习：药物光谱识别、图像分类和雷达目标分类。我们的工作为统一模拟信号采集和光学计算的片上边缘智能解决方案铺平了道路。"
 cite: "[1] Zhang et al. Photonic edge intelligence chip for multimodal sensing, inference and learning[J]. Nature Communications, 2025."
 aiSum: "本文展示光子边缘智能芯片PEIC，融合图像/光谱/RF多模态，AWG实现29 fJ/OP卷积，1.33 ns推理延迟。在药物识别、图像分类和雷达分类三种任务上的感知-计算一体化验证。"
 confidence: "high"

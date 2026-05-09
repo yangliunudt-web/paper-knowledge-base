@@ -15,6 +15,7 @@ keywords:
   - "[[Ferroelectric]]"
   - "[[HZO]]"
   - "[[Nucleation-limited switching]]"
+abstract_cn: "铁电材料正在被研究用于存储器、逻辑和神经形态计算等多种应用，针对这些应用，铁电极化的预测模型至关重要。本文提出了一种蒙特卡洛仿真框架，能够预测铁电材料在任意输入波形下的动态、历史依赖响应。该仿真通过推广基于物理的成核限制开关模型来开发，用于描述多晶铁电材料中的极化反转。使用制造的Hf0.5Zr0.5O2铁电电容器的实测极化反转数据来提取铁电晶粒的统计分布。参数提取后，该模型能够在无需进一步校准的情况下预测铁电电容器的动态特性。最后，将该模型应用于表征铁电-电介质双层结构的动态响应，并量化由器件变异性导致的存储窗口缩减。"
 cite: "[1] Alessandri et al. Monte Carlo Simulation of Switching Dynamics in Polycrystalline Ferroelectric Capacitors[J]. IEEE Transactions on Electron Devices, 2019."
 aiSum: "蒙特卡洛模拟多晶铁电器件开关动力学：基于成核限制开关模型，使用HZO电容器数据提取晶粒统计分布，预测任意波形下动态响应，分析铁电-电介质双层结构动态特性及器件变异导致的存储窗口缩减。"
 confidence: "high"

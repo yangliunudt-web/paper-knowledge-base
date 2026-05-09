@@ -14,6 +14,7 @@ keywords:
   - "[[NeuroSim]]"
   - "[[Emerging NVM]]"
   - "[[Neural network accelerator]]"
+abstract_cn: "基于突触存储阵列的神经启发架构已被提出用于加速机器学习/深度学习算法中的加权求和与权重更新。本文开发了NeuroSim，一种电路级宏模型，可估算面积、延迟、动态能量和泄漏功耗，以促进主流和新兴器件技术的神经启发架构的设计空间探索。NeuroSim提供灵活的接口和丰富的电路级与器件级设计选项，可被神经网络用作支持工具来提供电路级性能评估。利用NeuroSim可构建从器件级（突触器件特性）到电路级（阵列架构）再到算法级（神经网络拓扑）的层次化集成框架，实现在线学习运行时的学习精度以及电路级性能指标的高精度评估。以多层感知器为案例研究算法，我们研究了模拟新兴非易失性存储器的非理想器件特性影响，并对基于SRAM、数字和模拟eNVM架构在在线学习和离线分类中的权衡进行了基准测试。"
 cite: "[1] Chen et al. NeuroSim: A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures in Online Learning[J]. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2018."
 aiSum: "开发 NeuroSim 电路级宏模型，估算神经启发架构的面积、延迟、能耗，支持 SRAM、数字和模拟 eNVM 架构设计空间探索和基准测试。"
 confidence: "medium"

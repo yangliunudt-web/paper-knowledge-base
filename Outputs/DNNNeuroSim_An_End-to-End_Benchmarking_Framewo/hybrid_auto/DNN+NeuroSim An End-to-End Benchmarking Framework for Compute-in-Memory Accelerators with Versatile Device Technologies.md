@@ -15,6 +15,7 @@ keywords:
   - "[[Benchmarking framework]]"
   - "[[NeuroSim]]"
   - "[[Deep neural networks]]"
+abstract_cn: "DNN+NeuroSim是一个集成框架，用于基准测试深度神经网络的存内计算加速器，具有从器件级到电路级再到算法级的层次化设计选项。开发了Python封装器，使NeuroSim能够与PyTorch和TensorFlow等主流机器学习平台对接。该框架支持从算法到硬件的自动映射，并评估芯片级性能和考虑硬件约束的推理精度。本文分析了模拟突触器件的可靠性影响，以及模数转换器量化效应对推理精度的影响。随后，我们对基于SRAM和多种新兴器件（包括RRAM、PCM、FeFET和ECRAM）的CIM加速器进行了基准测试，涵盖VGG到ResNet、CIFAR到ImageNet数据集，揭示了高导通电阻的优势（例如通过使用三端突触）。DNN+NeuroSim的开源代码可在 https://github.com/neurosim/DNN_NeuroSim_V1.0 获取。"
 cite: "[1] Peng et al. DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies[J]. IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2021."
 aiSum: "DNN+NeuroSim基准测试框架：支持SRAM/RRAM/PCM/FeFET/ECRAM等器件，评估存内计算加速器的芯片面积、延迟、能效、推理精度，开源代码提供VGG/ResNet在CIFAR/ImageNet上的硬件约束性能分析。"
 confidence: "medium"

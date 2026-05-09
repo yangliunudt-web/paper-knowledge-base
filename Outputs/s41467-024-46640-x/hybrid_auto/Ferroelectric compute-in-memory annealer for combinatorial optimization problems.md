@@ -24,6 +24,7 @@ date: "2023-01-01"
 year: "2023"
 journal: "Nature Communications"
 doi: "10.1038/s41467-023-46640-x"
+abstract: "Computationally hard combinatorial optimization problems (COPs) are ubiquitous in many applications. Various digital annealers, dynamical Ising machines, and quantum/photonic systems have been developed for solving COPs, but they still suffer from the memory access issue, scalability, restricted applicability to certain types of COPs, and VLSI-incompatibility, respectively. Here we report a ferroelectric field effect transistor (FeFET) based compute-in-memory (CiM) annealer for solving larger-scale COPs efficiently. Our CiM annealer converts COPs into quadratic unconstrained binary optimization (QUBO) formulations, and uniquely accelerates in-situ the core vector-matrix-vector (VMV) multiplication operations of QUBO formulations in a single step. Specifically, the three-terminal FeFET structure allows for lossless compression of the stored QUBO matrix, achieving a remarkably 75% chip size saving when solving Max-Cut problems. A multi-epoch simulated annealing (MESA) algorithm is proposed for efficient annealing, achieving up to 27% better solution and ~2X speedup than conventional simulated annealing. Experimental validation is performed using the first integrated FeFET chip on 28nm HKMG CMOS technology, indicating great promise of FeFET CiM array in solving general COPs."
 abstract_cn: "组合优化问题（Max-Cut、图着色、旅行商问题等）可映射为Ising/QUBO模型并通过模拟退火求解。本文展示了一种基于FeFET交叉开关阵列的铁电存算一体退火器，利用交叉架构的固有并行性实现组合优化问题的高能效硬件加速求解。"
 keywords:
   - "[[FeFET]]"
