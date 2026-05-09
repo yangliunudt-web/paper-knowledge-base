@@ -2,8 +2,11 @@
 title: "Scaling-up Resistive Synaptic Arrays for Neuro-inspired Architecture: Challenges"
 authors:
   - "Shimeng Yu"
-  - "Lixue Yu"
-  - "Huaqiang"
+  - "Pai-Yu Chen"
+  - "Yu Cao"
+  - "Lixue Xia"
+  - "Yu Wang"
+  - "Huaqiang Wu"
 date: "2016-01-01"
 year: 2016
 journal: "Neuromorphic Computing and Engineering"

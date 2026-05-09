@@ -17,7 +17,8 @@ keywords:
   - "[[Dual-gate TFT]]"
   - "[[In-memory computing]]"
   - "[[Thin-film transistor]]"
-cite: "[1] Hu et al. An Artificial Neural Network Implemented Using Parallel Dual-Gate Thin-Film Transistors[J]. IEEE Transactions on Electron Devices, 2022."
+cite: "[1] Hu Y, Lei T, Wang Y, et al. An Artificial Neural Network Implemented Using Parallel Dual-Gate Thin-Film Transistors[J]. IEEE Transactions on Electron Devices, 2022."
+aiSum: "双栅TFT人工神经网络：单片集成电容器阵列，采用单栅和并行双栅TFT分别作为存储和计算元件。双栅结构可放大弱相关信号、抑制强无关信号，准静态电荷存储实现低功耗。4×6阵列演示俄罗斯方块分类。"
 aiSum: "双栅TFT人工神经网络：单片集成电容器阵列，4×6阵列实现俄罗斯方块分类，双栅结构放大弱信号、抑制强噪声，准静态电荷存储。"
 confidence: "high"
 wiki_concepts:

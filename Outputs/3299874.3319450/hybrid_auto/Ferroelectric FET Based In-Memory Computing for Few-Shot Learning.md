@@ -1,9 +1,11 @@
 ---
 title: "Ferroelectric FET Based In-Memory Computing for Few-Shot Learning"
 authors:
-  - "University Notre"
-  - "Notre United"
-  - "States"
+  - "Ann Franchesca Laguna"
+  - "Xunzhao Yin"
+  - "Dayane Reis"
+  - "Michael Niemier"
+  - "X. Sharon Hu"
 date: "2019-05-09"
 year: "2019"
 journal: "GLSVLSI 2019"

@@ -1,13 +1,14 @@
 ---
-title: "Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem"
+title: "sub-Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem"
 date: "2017-09-13"
 year: 2017
 journal: "Advanced Materials"
 abstract: "Organic electronics based on poly(vinylidenefluoride/trifluoroethylene) (P(VDF-TrFE)) dielectric face challenges in flexible circuits. This work reports a novel ferroelectric random access memory cell (1T1T FeRAM cell) consisting of one selection transistor and one ferroelectric memory transistor, designed to overcome the half-selection problem. Unlike conventional approaches using multiple dielectrics, this system simplifies fabrication by using one common dielectric layer. A semiconductor/insulator (S/I) interface modulation strategy is employed to create nonhysteretic selection transistors with high performance. Hole mobility of 3.81 cm2 V-1 s-1 for DPA and electron mobility of 0.124 cm2 V-1 s-1 for PDI-FCN2 were achieved."
 abstract_cn: "基于P(VDF-TrFE)介电层的有机电子器件在柔性电路中面临挑战。本文报道了一种新型铁电随机存取存储器单元（1T1T FeRAM），由一个选择晶体管和一个铁电存储晶体管组成，旨在克服半选择问题。与使用多种介电层的传统方法不同，该系统通过使用一个共用的介电层简化了制造工艺。采用半导体/绝缘体界面调制策略实现了高性能的无迟滞选择晶体管。DPA的空穴迁移率达3.81 cm2 V-1 s-1，PDI-FCN2的电子迁移率达0.124 cm2 V-1 s-1。"
-cite: "Zhao Q, Wang H, Ni Z, Liu J, Zhen Y, Zhang X, Jiang L, Li R, Dong H, Hu W. Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem[J]. Advanced Materials, 2017, 29(34): 1701907. DOI: 10.1002/adma.201701907"
-aiSum: "有机铁电1T1T FeRAM补充材料：器件制备工艺、P(VDF-TrFE)介电层特性、存储性能测试数据。"
+cite: "Zhao Q, Wang H, Ni Z, et al. Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem[J]. Advanced Materials, 2017, 29(34): 1701907. DOI: 10.1002/adma.201701907"
+aiSum: "主论文补充材料：包含1T1T FeRAM单元工作机制说明、DPA和PDI-FCN2半导体薄膜XRD表征、PS/P(VDF-TrFE)双层热稳定性SEM分析及存储器性能测试数据。"
 confidence: "high"
+parent: "[[Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem]]"
 authors:
   - "Qiang Zhao"
   - "Hanlin Wang"
@@ -19,22 +20,16 @@ authors:
   - "Rongjin Li"
   - "Huanli Dong"
   - "Wenping Hu"
-  - "Qiang Zhao"
-  - "Hanlin Wang"
-  - "Zhenjie Ni"
-  - "Jie Liu"
-  - "Yonggang Zhen"
-  - "Xiaotao Zhang"
-  - "Lang Jiang"
-  - "Rongjin Li"
-  - "Huanli Dong"
-  - "Wenping Hu"
 keywords:
-  - "[[[[FeRAM]]]]"
-  - "[[[[Organic Electronics]]]]"
-  - "[[[[Ferroelectric Memory]]]]"
-  - "[[[[1T1T Cell]]]]"
-  - "[[[[铁电存储器]]]]"
+  - "[[FeRAM]]"
+  - "[[Organic Electronics]]"
+  - "[[Ferroelectric Memory]]"
+  - "[[1T1T Cell]]"
+  - "[[铁电存储器]]"
+  - "[[有机电子]]"
+wiki_concepts:
+  - "[[FeRAM]]"
+  - "[[Ferroelectric]]"
 ---
 
 # ADVANCED MATERIALS
