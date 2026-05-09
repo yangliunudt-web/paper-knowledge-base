@@ -8,7 +8,7 @@ date: "2018-06-18"
 year: "2018"
 journal: "CVPR"
 doi: "arXiv:1711.05769"
-abstract: "This paper presents a method for adding multiple tasks to a single deep"
+abstract: "This paper presents a method for adding multiple tasks to a single deep neural network while avoiding catastrophic forgetting. Inspired by network pruning techniques, we exploit redundancies in large deep networks to free up parameters that can then be employed to learn new tasks. By performing iterative pruning and network re-training, we are able to sequentially pack multiple tasks into a single network while ensuring minimal drop in performance and minimal storage overhead. Unlike prior work that uses proxy losses to maintain accuracy on older tasks, we always optimize for the task at hand. We perform extensive experiments on a variety of network architectures and large-scale datasets, and observe much better robustness against catastrophic forgetting than prior work. In particular, we are able to add three fine-grained classification tasks to a single ImageNet-trained VGG-16 network and achieve accuracies close to those of separately trained networks for each task."
 abstract_cn: "本文提出一种向单个深度神经网络添加多个任务同时避免灾难性遗忘的方法。受网络剪枝技术启发，我们利用大型深度网络中的冗余来释放参数，然后用这些参数学习新任务。通过执行迭代剪枝和网络重新训练，我们能够按顺序将多个任务打包到单个网络中，同时确保性能下降最小和存储开销最小。与之前使用代理损失来维持旧任务准确性的工作不同，我们始终优化当前任务。我们在多种网络架构和大规模数据集上进行了广泛实验，观察到比之前工作更好的抗灾难性遗忘鲁棒性。特别是，我们能够向单个"
 keywords:
   - "[[Catastrophic forgetting]]"
