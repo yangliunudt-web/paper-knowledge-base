@@ -11,7 +11,7 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "Proceedings of Machine Learning Research"
-abstract: "Inspired by Lottery Ticket Hypothesis that competitive subnetworks exist"
+abstract: "Inspired by Lottery Ticket Hypothesis that competitive subnetworks exist within a dense network, we propose a continual learning method referred to as Winning SubNetworks (WSN) which sequentially learns and selects an optimal subnetwork for each task. Specifically, WSN jointly learns the model weights and task-adaptive binary masks pertaining to subnetworks associated with each task whilst attempting to select a small set of weights to be activated (winning ticket) by reusing weights of the prior subnetworks. The proposed method is inherently immune to catastrophic forgetting as each selected subnetwork model does not infringe upon other subnetworks. Binary masks spawned per winning ticket are encoded into one N-bit binary digit mask, then compressed using Huffman coding for a sub-linear increase in network capacity with respect to the number of tasks."
 abstract_cn: "受彩票假设启发，即密集网络中存在竞争性子网络，我们提出了一种称为获胜子网络的持续学习方法，该方法顺序学习并为每个任务选择最优子网络。具体而言，WSN联合学习模型权重和与每个任务相关的子网络的任务自适应二进制掩码，同时尝试通过重用先前子网络的权重来选择一小部分待激活的权重（获胜彩票）。所提出的方法本质上免疫于灾难性遗忘，因为每个选择的子网络模型不会侵犯其他子网络。每个获胜彩票生成的二进制掩码被编码为一个N位二进制数字掩码，然后使用霍夫曼编码进行压缩，从而实现网络容量相对于任务数量的亚线性增长。"
 keywords:
   - "[[Catastrophic forgetting]]"
