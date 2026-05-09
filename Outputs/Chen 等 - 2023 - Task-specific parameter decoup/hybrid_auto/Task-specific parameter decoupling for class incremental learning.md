@@ -1,5 +1,11 @@
 ---
-title: "Task-specific parameter decoupling for class incremental learning"
+title: "Task-Specific Parameter Decoupling for Class Incremental Learning"
+authors:
+  - "Runhang Chen"
+  - "Xiao-Yuan Jing"
+  - "Fei Wu"
+  - "Wei Zheng"
+  - "Yaru Hao"
 date: "2023-01-01"
 year: 2023
 journal: "Pattern Recognition"

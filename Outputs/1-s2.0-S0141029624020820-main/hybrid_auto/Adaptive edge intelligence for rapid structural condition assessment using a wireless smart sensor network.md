@@ -1,5 +1,11 @@
 ---
-title: "Adaptive edge intelligence for rapid structural condition assessment using"
+title: "Adaptive Edge Intelligence for Rapid Structural Condition Assessment Using a Wireless Smart Sensor Network"
+authors:
+  - "Shuaiwen Cui"
+  - "Tu Hoang"
+  - "Kirill Mechitov"
+  - "Yuguang Fu"
+  - "Billie F. Spencer Jr."
 date: "2020-09-01"
 year: 2020
 journal: "Structure and Infrastructure Engineering"

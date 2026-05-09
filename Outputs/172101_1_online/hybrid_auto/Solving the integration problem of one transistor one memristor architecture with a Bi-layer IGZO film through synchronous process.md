@@ -1,5 +1,10 @@
 ---
-title: "Solving the integration problem of one transistor one memristor architecture"
+title: "Solving the Integration Problem of One Transistor One Memristor Architecture with a Bi-Layer IGZO Film Through Synchronous Process"
+authors:
+  - "Che-Chia Chang"
+  - "Po-Tsun Liu"
+  - "Chen-Yu Chien"
+  - "Yang-Shun Fan"
 date: "2018-04-23"
 year: 2018
 journal: "Applied Physics Letters"
