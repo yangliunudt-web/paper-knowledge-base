@@ -41,6 +41,7 @@ cite: "[1] Majumdar S. Back-End CMOS Compatible and Flexible Ferroelectric Memor
 aiSum: "综述掺杂 HfO2 和分子铁电体作为 CMOS BEOL 兼容和柔性可穿戴平台神经形态器件的潜力，讨论铁电存储器技术在边缘计算中的应用前景。"
 confidence: "medium"
 wiki_concepts:
+  - "[[BEOL]]"
   - "[[FeFET]]"
   - "[[FeRAM]]"
   - "[[Ferroelectric]]"

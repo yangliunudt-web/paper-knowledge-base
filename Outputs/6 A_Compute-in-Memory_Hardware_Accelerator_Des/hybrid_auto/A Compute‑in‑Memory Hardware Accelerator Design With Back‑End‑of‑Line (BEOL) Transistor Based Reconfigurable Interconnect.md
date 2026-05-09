@@ -1,5 +1,6 @@
 ---
-title: "A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect"
+title: "A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor\
+  \ Based Reconfigurable Interconnect"
 authors:
   - "Yandong Luo"
   - "Sourav Dutta"
@@ -12,19 +13,64 @@ date: "2022‑05‑23"
 year: "2022"
 journal: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
 doi: "10.1109/JETCAS.2022.3177577"
-abstract: "Compute-in-memory (CIM) paradigm using ferroelectric field effect transistor (FeFET) as the weight element is projected to exhibit excellent energy efficiency for accelerating deep neural network (DNN) inference. However, two challenges exist. On the technology level, the chip area scaling is stalled due to the lack of logic voltage compatible FeFET at leading-edge technology node, e. g. 7nm. On the system level, CIM-based inference engine designs are usually customized for a specific DNN model, lacking the flexibility to support different DNN models. Besides, communication latency varies across different DNN models and can bound the total inference latency. Therefore, a reconfigurable interconnect is desired to be adaptive to different workloads, which can induce high area cost due to the reconfigurable circuit modules. To solve these issues, in this work, a system-technology co-design (STCO) of a monolithic 3D (M3D) reconfigurable CIM accelerator is performed, where back-end-of-line (BEOL) compatible oxide channel MOSFET and FeFET technologies are utilized. On the technology level, W-doped indium oxide (IWO) NMOS is utilized to design areaefficient M3D write circuit. On the system level, a reconfigurable interconnect design that inserts workload-specific express link is proposed, where the IWO-based NMOS and FeFET are adopted as the building element of the mux and crossbar switch in the router. The algorithm for interconnect configuration is also devised to achieve optimal latency for different workloads. From the system-level evaluation results, M3D IWO FeFET design (utilizing a hybrid 22nm/7nm M3D partition) shows 3.1× times higher energy efficiency than a 7nm 2D SRAM design with comparable chip area. With the proposed reconfigurable interconnect scheme, the interconnect latency is reduced by 9%∼32% compared to the baseline with a regular mesh network. Manuscript received December 18, 2021; revised February 19, 2022 and April 24, 2022; accepted April 26, 2022. Date of publication May 23, 2022; date of current version June 13, 2022. This work was supported in part by the Applications and Systems-Driven Center for Energy-Efficient Integrated NanoTechnologies (ASCENT), one of the Semiconductor Research Corporation (SRC)/Defense Advanced Research Projects Agency (DARPA) Joint University Microelectronics Program (JUMP) centers; and by the Innovative Materials and Processes for Accelerated Compute Technologies (IMPACT), one of the SRC Nanoelectronic Computing Research (nCORE) centers. This article was recommended by Guest Editor J. Kulkarni (Corresponding author: Yandong Luo.) Yandong Luo, Ankit Kaul, Sung Kyu Lim, Muhannad Bakir, and Shimeng Yu are with the School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA 30332 USA (e-mail: yandongluo@gatech.edu; shimeng.yu@ece.gatech.edu). Sourav Dutta and Suman Datta are with the Department of Electrical Engineering, University of Notre Dame, Notre Dame, IN 46556 USA. Color versions of one or more figures in this article are available at https://doi.org/10.1109/JETCAS.2022.3177577. Digital Object Identifier 10.1109/JETCAS.2022.3177577 Index Terms— Back-end-of-line transistor, compute-inmemory, deep neural network, monolithic 3D integration, system-technology co-design."
+abstract: "Compute-in-memory (CIM) paradigm using ferroelectric field effect transistor (FeFET)\
+  \ as the weight element is projected to exhibit excellent energy efficiency for\
+  \ accelerating deep neural network (DNN) inference. However, two challenges exist.\
+  \ On the technology level, the chip area scaling is stalled due to the lack of logic\
+  \ voltage compatible FeFET at leading-edge technology node, e. g. 7nm. On the system\
+  \ level, CIM-based inference engine designs are usually customized for a specific\
+  \ DNN model, lacking the flexibility to support different DNN models. Besides, communication\
+  \ latency varies across different DNN models and can bound the total inference latency.\
+  \ Therefore, a reconfigurable interconnect is desired to be adaptive to different\
+  \ workloads, which can induce high area cost due to the reconfigurable circuit modules.\
+  \ To solve these issues, in this work, a system-technology co-design (STCO) of a\
+  \ monolithic 3D (M3D) reconfigurable CIM accelerator is performed, where back-end-of-line\
+  \ (BEOL) compatible oxide channel MOSFET and FeFET technologies are utilized. On\
+  \ the technology level, W-doped indium oxide (IWO) NMOS is utilized to design areaefficient\
+  \ M3D write circuit. On the system level, a reconfigurable interconnect design that\
+  \ inserts workload-specific express link is proposed, where the IWO-based NMOS and\
+  \ FeFET are adopted as the building element of the mux and crossbar switch in the\
+  \ router. The algorithm for interconnect configuration is also devised to achieve\
+  \ optimal latency for different workloads. From the system-level evaluation results,\
+  \ M3D IWO FeFET design (utilizing a hybrid 22nm/7nm M3D partition) shows 3.1× times\
+  \ higher energy efficiency than a 7nm 2D SRAM design with comparable chip area.\
+  \ With the proposed reconfigurable interconnect scheme, the interconnect latency\
+  \ is reduced by 9%∼32% compared to the baseline with a regular mesh network. Manuscript\
+  \ received December 18, 2021; revised February 19, 2022 and April 24, 2022; accepted\
+  \ April 26, 2022. Date of publication May 23, 2022; date of current version June\
+  \ 13, 2022. This work was supported in part by the Applications and Systems-Driven\
+  \ Center for Energy-Efficient Integrated NanoTechnologies (ASCENT), one of the Semiconductor\
+  \ Research Corporation (SRC)/Defense Advanced Research Projects Agency (DARPA) Joint\
+  \ University Microelectronics Program (JUMP) centers; and by the Innovative Materials\
+  \ and Processes for Accelerated Compute Technologies (IMPACT), one of the SRC Nanoelectronic\
+  \ Computing Research (nCORE) centers. This article was recommended by Guest Editor\
+  \ J. Kulkarni (Corresponding author: Yandong Luo.) Yandong Luo, Ankit Kaul, Sung\
+  \ Kyu Lim, Muhannad Bakir, and Shimeng Yu are with the School of Electrical and\
+  \ Computer Engineering, Georgia Institute of Technology, Atlanta, GA 30332 USA (e-mail:\
+  \ yandongluo@gatech.edu; shimeng.yu@ece.gatech.edu). Sourav Dutta and Suman Datta\
+  \ are with the Department of Electrical Engineering, University of Notre Dame, Notre\
+  \ Dame, IN 46556 USA. Color versions of one or more figures in this article are\
+  \ available at https://doi.org/10.1109/JETCAS.2022.3177577. Digital Object Identifier\
+  \ 10.1109/JETCAS.2022.3177577 Index Terms— Back-end-of-line transistor, compute-inmemory,\
+  \ deep neural network, monolithic 3D integration, system-technology co-design."
+abstract_cn: "基于FeFET的存内计算范式在加速深度神经网络推理方面具有优异的能效，但面临技术层面缺乏先进节点逻辑电压兼容FeFET以及系统层面缺乏灵活支持不同DNN模型的可重构互连的挑战。本文提出了系统-技术协同设计的单片3D可重构CIM加速器，利用BEOL兼容的IWO氧化物沟道MOSFET和FeFET技术。技术层面采用IWO\
+  \ NMOS设计面积高效的M3D写入电路；系统层面提出插入工作负载特定快速链路的可重构互连设计。评估表明M3D IWO FeFET设计相比7nm 2D SRAM设计能效提高3.1倍，可重构互连方案降低9%-32%延迟。"
 keywords:
   - "[[Compute‑in‑memory]]"
   - "[[FeFET]]"
   - "[[Monolithic 3D integration]]"
   - "[[Back‑end‑of‑line transistor]]"
   - "[[Reconfigurable interconnect]]"
-cite: "[1] Luo Y, Dutta S, Kaul A, et al. A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect[J]. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 2022."
-abstract_cn: "基于FeFET的存内计算范式在加速深度神经网络推理方面具有优异的能效，但面临技术层面缺乏先进节点逻辑电压兼容FeFET以及系统层面缺乏灵活支持不同DNN模型的可重构互连的挑战。本文提出了系统-技术协同设计的单片3D可重构CIM加速器，利用BEOL兼容的IWO氧化物沟道MOSFET和FeFET技术。技术层面采用IWO NMOS设计面积高效的M3D写入电路；系统层面提出插入工作负载特定快速链路的可重构互连设计。评估表明M3D IWO FeFET设计相比7nm 2D SRAM设计能效提高3.1倍，可重构互连方案降低9%-32%延迟。"
-aiSum: "Compute-in-memory (CIM) paradigm using ferroelectric field effect transistor (FeFET) as the weight element is projected to exhibit excellent energy efficiency for accelerating deep neural network (DNN..."
+cite: "[1] Luo Y, Dutta S, Kaul A, et al. A Compute-in-Memory Hardware Accelerator Design\
+  \ With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect[J].\
+  \ IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 2022."
+aiSum: "Compute-in-memory (CIM) paradigm using ferroelectric field effect transistor (FeFET)\
+  \ as the weight element is projected to exhibit excellent energy efficiency for\
+  \ accelerating deep neural network (DNN..."
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
+  - "[[Monolithic 3D integration]]"
 ---
 
 # A Compute-in-Memory Hardware Accelerator Design With Back-End-of-Line (BEOL) Transistor Based Reconfigurable Interconnect

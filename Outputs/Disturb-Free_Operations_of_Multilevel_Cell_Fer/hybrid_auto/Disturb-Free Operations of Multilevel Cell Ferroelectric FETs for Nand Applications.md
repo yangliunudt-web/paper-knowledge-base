@@ -19,18 +19,33 @@ date: "2023-02-13"
 year: "2023"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2023.3242922"
-abstract: "We have experimentally investigated disturb-free operations of multilevel cell (MLC) ferroelectric field-effect transistors (FeFETs) in a NAND array. The fabricated FeFET cells are systematically characterized, and optimized schemes to write FeFET cells into multiple states with high stability are investigated. Write and read schemes to achieve stable MLC operations of FeFET NAND arrays are proposed. For the realization of disturb-free MLC operations, both program and read disturbs are systematically characterized at the array level. In addition, margins of program inhibition voltage $( V _ { \\mathrm { i n h i b } } )$ and pass voltage $( V _ { p a s s } )$ are determined from the measurement results. This work provides a fundamental understanding of disturb-free MLC FeFET operations for NAND applications. Index Terms— Disturb, ferroelectric field-effect transistors (FeFETs), multilevel cell (MLC), NAND."
+abstract: "We have experimentally investigated disturb-free operations of multilevel cell (MLC)\
+  \ ferroelectric field-effect transistors (FeFETs) in a NAND array. The fabricated\
+  \ FeFET cells are systematically characterized, and optimized schemes to write FeFET\
+  \ cells into multiple states with high stability are investigated. Write and read\
+  \ schemes to achieve stable MLC operations of FeFET NAND arrays are proposed. For\
+  \ the realization of disturb-free MLC operations, both program and read disturbs\
+  \ are systematically characterized at the array level. In addition, margins of program\
+  \ inhibition voltage $( V _ { \\mathrm { i n h i b } } )$ and pass voltage $( V\
+  \ _ { p a s s } )$ are determined from the measurement results. This work provides\
+  \ a fundamental understanding of disturb-free MLC FeFET operations for NAND applications.\
+  \ Index Terms— Disturb, ferroelectric field-effect transistors (FeFETs), multilevel\
+  \ cell (MLC), NAND."
+abstract_cn: "实验研究了NAND阵列中多级单元铁电场效应晶体管（FeFET）的无干扰操作。对制备的FeFET单元进行了系统表征，研究了将FeFET单元写入多个高稳定状态的优化方案。提出了实现FeFET\
+  \ NAND阵列稳定MLC操作的写入和读取方案。为实现无干扰MLC操作，在阵列级别系统表征了编程和读取干扰特性，并基于测量结果确定了编程抑制电压（Vinhib）和导通电压（Vpass）的容限。本工作为NAND应用中无干扰MLC\
+  \ FeFET操作提供了基础理解。"
 keywords:
   - "[[FeFET]]"
   - "[[Multilevel cell]]"
   - "[[NAND array]]"
   - "[[Disturb-free operation]]"
-cite: "[1] Jin C, Xu J, Gu J, et al. Disturb-Free Operations of Multilevel Cell Ferroelectric FETs for Nand Applications[J]. IEEE Transactions on Electron Devices, 2023."
-abstract_cn: "实验研究了NAND阵列中多级单元铁电场效应晶体管（FeFET）的无干扰操作。对制备的FeFET单元进行了系统表征，研究了将FeFET单元写入多个高稳定状态的优化方案。提出了实现FeFET NAND阵列稳定MLC操作的写入和读取方案。为实现无干扰MLC操作，在阵列级别系统表征了编程和读取干扰特性，并基于测量结果确定了编程抑制电压（Vinhib）和导通电压（Vpass）的容限。本工作为NAND应用中无干扰MLC FeFET操作提供了基础理解。"
+cite: "[1] Jin C, Xu J, Gu J, et al. Disturb-Free Operations of Multilevel Cell Ferroelectric\
+  \ FETs for Nand Applications[J]. IEEE Transactions on Electron Devices, 2023."
 aiSum: "MLC FeFET NAND阵列无干扰操作：实验研究编程/读取干扰，提出稳定多级写入/读取方案，确定抑制电压与通过电压容限。"
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
+  - "[[Multi-level cell]]"
 ---
 
 Chengji Jin , Jiacheng Xu, Jiani Gu , Jiayi Zhao, Xiaole Jia, Jiajia Chen, Huan Liu, Miaomiao Zhang, Yue Peng, Member, IEEE, Bing Chen , Ran Cheng , Yan Liu , Xiao Yu , and Genquan Han

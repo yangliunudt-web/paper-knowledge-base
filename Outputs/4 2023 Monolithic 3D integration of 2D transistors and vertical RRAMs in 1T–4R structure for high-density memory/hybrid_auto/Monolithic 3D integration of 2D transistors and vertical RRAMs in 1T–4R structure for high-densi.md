@@ -1,5 +1,6 @@
 ---
-title: "Monolithic 3D integration of 2D transistors and vertical [[RRAM]]s in 1T–4R structure for high-density memory"
+title: "Monolithic 3D integration of 2D transistors and vertical [[RRAM]]s in 1T–4R structure\
+  \ for high-density memory"
 authors:
   - "Maosong Xie"
   - "Yueyang Jia"
@@ -14,7 +15,20 @@ authors:
 date: "2023-09-23"
 year: "2023"
 journal: "Nature Communications"
-abstract: "Emerging data-intensive computation has driven the advanced packaging and vertical stacking of integrated circuits, for minimized latency and energy consumption. Yet a monolithic three-dimensional (3D) integrated structure with interleaved logic and high-density memory layers has been difficult to achieve due to challenges in managing the thermal budget. Here we experimentally demonstrate a monolithic 3D integration of atomically-thin molybdenum disulfide (MoS2) transistors and 3D vertical resistive random-access memories (VRRAMs), with the MoS2 transistors stacked between the bottom-plane and top-plane VRRAMs. The whole fabrication process is integration-friendly (below 300 °C), and the measurement results confirm that the top-plane fabrication does not affect the bottom-plane devices. The MoS2 transistor can drive each layer of VRRAM into four resistance states. Circuit-level modeling of the monolithic 3D structure demonstrates smaller area, faster data transfer, and lower energy consumption than a planar memory. Such platform holds a high potential for energy-efficient 3D on-chip memory systems."
+abstract: "Emerging data-intensive computation has driven the advanced packaging and vertical\
+  \ stacking of integrated circuits, for minimized latency and energy consumption.\
+  \ Yet a monolithic three-dimensional (3D) integrated structure with interleaved\
+  \ logic and high-density memory layers has been difficult to achieve due to challenges\
+  \ in managing the thermal budget. Here we experimentally demonstrate a monolithic\
+  \ 3D integration of atomically-thin molybdenum disulfide (MoS2) transistors and\
+  \ 3D vertical resistive random-access memories (VRRAMs), with the MoS2 transistors\
+  \ stacked between the bottom-plane and top-plane VRRAMs. The whole fabrication process\
+  \ is integration-friendly (below 300 °C), and the measurement results confirm that\
+  \ the top-plane fabrication does not affect the bottom-plane devices. The MoS2 transistor\
+  \ can drive each layer of VRRAM into four resistance states. Circuit-level modeling\
+  \ of the monolithic 3D structure demonstrates smaller area, faster data transfer,\
+  \ and lower energy consumption than a planar memory. Such platform holds a high\
+  \ potential for energy-efficient 3D on-chip memory systems."
 abstract_cn: "新兴的数据密集型计算推动了集成电路的先进封装和垂直堆叠，以最小化延迟和能耗。然而，由于热预算管理的挑战，具有交错逻辑层和高密度存储层的单片三维集成结构一直难以实现。本文实验演示了原子级厚度二硫化钼（MoS2）晶体管与三维垂直阻变存储器（VRRAM）的单片三维集成，其中MoS2晶体管堆叠在底层和顶层VRRAM之间。整个制造工艺兼容集成（低于300°C），测量结果确认顶层制造不影响底层器件。MoS2晶体管可将每层VRRAM驱动到四个电阻状态。电路级建模表明单片三维结构比平面存储器具有更小的面积、更快的数据传输和更低的能耗。该平台为高能效3D片上存储系统提供了巨大潜力。"
 keywords:
   - "[[Monolithic 3D Integration]]"
@@ -25,10 +39,13 @@ keywords:
   - "[[High-Density Memory]]"
   - "[[三维单片集成]]"
   - "[[高密度存储]]"
-cite: "[1] Xie et al. Monolithic 3D integration of 2D transistors and vertical [[RRAM]]s in 1T–4R structure for high-density memory[J]. Nature Communications, 2023."
+cite: "[1] Xie et al. Monolithic 3D integration of 2D transistors and vertical [[RRAM]]s\
+  \ in 1T–4R structure for high-density memory[J]. Nature Communications, 2023."
 aiSum: "本文实验演示了MoS2晶体管与三维垂直RRAM的单片3D集成方案，制造温度低于300°C。MoS2晶体管可驱动VRRAM到4个电阻状态，电路级建模证实比平面存储具有更小面积、更快传输和更低能耗。为高能效3D片上存储提供了可行平台。"
 confidence: "high"
 wiki_concepts:
+  - "[[MoS2]]"
+  - "[[Monolithic 3D integration]]"
   - "[[RRAM]]"
 ---
 

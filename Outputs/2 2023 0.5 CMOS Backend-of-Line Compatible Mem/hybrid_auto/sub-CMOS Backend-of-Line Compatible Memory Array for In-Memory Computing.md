@@ -34,6 +34,7 @@ cite: "[1] Wang W, Li K, Lan J, et al. CMOS Backend-of-Line Compatible Memory Ar
 aiSum: "主论文补充材料：包含1T1R阵列工艺集成流程、ZnO TFT材料表征、20器件均匀性统计、钝化效果对比、64个HfO2 RRAM直流特性及参数分布。"
 confidence: "high"
 wiki_concepts:
+  - "[[BEOL]]"
   - "[[In-memory computing]]"
   - "[[RRAM]]"
 ---

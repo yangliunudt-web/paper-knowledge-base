@@ -1,25 +1,36 @@
 ---
 title: "Mechanisms of memory-supporting neuronal dynamics in hippocampal area CA3"
-date: "2024-09-26"
-year: 2024
-journal: "Cell"
-doi: "10.1016/j.cell.2024.09.041"
-abstract: "Hippocampal CA3 is central to memory formation and retrieval. Using intracellular recordings and optogenetic manipulations in behaving mice, we found that CA3 place-field activity is produced by a symmetric form of behavioral timescale synaptic plasticity (BTSP) at recurrent synapses among CA3 pyramidal neurons. Excitatory input from the entorhinal cortex was required to update place cell activity based on the animal’s movement. These data were captured by a computational model that used BTSP and an external updating input to produce attractor dynamics under online learning conditions."
-abstract_cn: "海马 CA3 是记忆形成和提取的核心区域。通过在小鼠行为过程中进行膜电位记录和光遗传操作，发现 CA3 位置野活动由 CA3 锥体神经元之间循环突触上的对称性行为时间尺度突触可塑性 (BTSP) 产生，而非齿状回输入。内嗅皮层兴奋性输入负责根据动物运动更新位置细胞活动。计算模型用 BTSP 和外部更新输入实现了在线学习条件下的吸引子动力学。"
-cite: "[1] Li Y D, Briguglio J J, Romani S, et al. Mechanisms of memory-supporting neuronal dynamics in hippocampal area CA3[J]. Cell, 2024, 187(19): 5265-5279. DOI: 10.1016/j.cell.2024.09.041."
-aiSum: "通过膜电位记录和光遗传操作揭示 CA3 位置野活动由循环突触上的对称性 BTSP 产生，内嗅皮层输入负责更新位置细胞活动，计算模型实现吸引子动力学，理论分析表明网络具有优越的记忆存储容量。"
-confidence: "high"
 authors:
   - "Yiding Li"
   - "John J. Briguglio"
   - "Sandro Romani"
   - "Jeffrey C. Magee"
+date: "2024-09-26"
+year: "2024"
+journal: "Cell"
+doi: "10.1016/j.cell.2024.09.041"
+abstract: "Hippocampal CA3 is central to memory formation and retrieval. Using intracellular\
+  \ recordings and optogenetic manipulations in behaving mice, we found that CA3 place-field\
+  \ activity is produced by a symmetric form of behavioral timescale synaptic plasticity\
+  \ (BTSP) at recurrent synapses among CA3 pyramidal neurons. Excitatory input from\
+  \ the entorhinal cortex was required to update place cell activity based on the\
+  \ animal’s movement. These data were captured by a computational model that used\
+  \ BTSP and an external updating input to produce attractor dynamics under online\
+  \ learning conditions."
+abstract_cn: "海马 CA3 是记忆形成和提取的核心区域。通过在小鼠行为过程中进行膜电位记录和光遗传操作，发现 CA3 位置野活动由 CA3 锥体神经元之间循环突触上的对称性行为时间尺度突触可塑性\
+  \ (BTSP) 产生，而非齿状回输入。内嗅皮层兴奋性输入负责根据动物运动更新位置细胞活动。计算模型用 BTSP 和外部更新输入实现了在线学习条件下的吸引子动力学。"
 keywords:
   - "[[Hippocampus]]"
   - "[[CA3]]"
   - "[[Memory formation]]"
   - "[[Synaptic plasticity]]"
   - "[[Attractor dynamics]]"
+cite: "[1] Li Y D, Briguglio J J, Romani S, et al. Mechanisms of memory-supporting neuronal\
+  \ dynamics in hippocampal area CA3[J]. Cell, 2024, 187(19): 5265-5279. DOI: 10.1016/j.cell.2024.09.041."
+aiSum: "通过膜电位记录和光遗传操作揭示 CA3 位置野活动由循环突触上的对称性 BTSP 产生，内嗅皮层输入负责更新位置细胞活动，计算模型实现吸引子动力学，理论分析表明网络具有优越的记忆存储容量。"
+confidence: "high"
+wiki_concepts:
+  - "[[Hippocampus]]"
 ---
 
 # Mechanisms of memory-supporting neuronal dynamics in hippocampal area CA3

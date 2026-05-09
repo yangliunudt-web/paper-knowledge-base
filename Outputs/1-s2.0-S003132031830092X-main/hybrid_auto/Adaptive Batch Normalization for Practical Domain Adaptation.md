@@ -7,7 +7,7 @@ authors:
   - "Jiaying Liu"
   - "Xiaodi Hou"
 date: "2018-03-06"
-year: 2018
+year: "2018"
 journal: "Pattern Recognition Letters"
 doi: "10.1016/j.patrec.2018.04.001"
 abstract: "Deep neural networks (DNN) have shown unprecedented success in various computer"
@@ -19,6 +19,8 @@ keywords:
 cite: "Li Y, Wang N, Shi J, et al. Adaptive Batch Normalization for practical domain"
 aiSum: "AdaBN 域适应：调整 BN 统计量实现深度适应、无参数、无额外组件、可与现有方法互补。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Transfer learning]]"
 ---
 
 110 

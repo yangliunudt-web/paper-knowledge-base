@@ -1,14 +1,6 @@
 ---
-title: "An Edge-Cloud Collaboration Framework for Generative AI Service Provision With Synergetic Big Cloud Model and Small Edge Models"
-date: "2024-06-28"
-year: 2024
-journal: "IEEE Journal on Selected Areas in Communications"
-doi: "10.1109/JSAC.2021.3118346"
-abstract: "Generative artificial intelligence (GenAI) offers various services to users through content creation, which is believed to be one of the most important components in future networks. However, training and deploying big artificial intelligence models (BAIMs) introduces substantial computational and communication overhead. This poses a critical challenge to centralized approaches, due to the need of high-performance computing infrastructure and the reliability, secrecy and timeliness issues in long-distance access of cloud services. Therefore, there is an urging need to decentralize the services, partly moving them from the cloud to the edge and establishing native GenAI services to enable private, timely, and personalized experiences. In this paper, we propose a brand-new bottom-up BAIM architecture with synergetic big cloud model and small edge models, and design a distributed training framework and a task-oriented deployment scheme for efficient provision of native GenAI services. The proposed framework can facilitate collaborative intelligence, enhance adaptability, gather edge knowledge and alleviate edge-cloud burden. The effectiveness of the proposed framework is demonstrated through an image generation use case. Finally, we outline fundamental research directions to fully exploit the collaborative potential of edge and cloud for native GenAI and BAIM applications."
-abstract_cn: "生成式人工智能通过内容创建为用户提供各种服务，被认为是未来网络中最重要的组成部分之一。然而，训练和部署大型人工智能模型带来了巨大的计算和通信开销。由于需要高性能计算基础设施以及云服务长距离访问中的可靠性、保密性和及时性问题，这对集中式方法构成了严峻挑战。因此，迫切需要将服务去中心化，部分从云端转移到边缘，并建立原生生成式人工智能服务，以实现私有、及时和个性化的体验。本文提出了一种全新的自底向上大型人工智能模型架构，包含协同的大云端模型和小边缘模型，并设计了分布式训练框架和面向任务的部署方案，以高效提供原生生成式人工智能服务。该框架可以促进协同智能、增强适应性、汇聚边缘知识并减轻边缘-云端负担。通过图像生成用例证明了该框架的有效性。最后，我们概述了充分利用边缘和云协作潜力用于原生生成式人工智能和大型人工智能模型应用的基础研究方向。"
-cite: "[1] Tian Y, Zhang Z, Yang Y, et al. An edge‑cloud collaboration framework for generative AI service provision with synergetic big cloud model and small edge models[J]. IEEE Journal on Selected Areas in Communications, 2024, 42(6): 1234. DOI: 10.1109/JSAC.2021.3118346."
-aiSum: "边缘-云端协作生成式AI服务框架：自底向上BAIM架构、分布式训练、任务导向部署，通过图像生成用例验证，降低云端负担、提升边缘个性化服务能力。"
-confidence: "medium"
+title: "An Edge-Cloud Collaboration Framework for Generative AI Service Provision With Synergetic\
+  \ Big Cloud Model and Small Edge Models"
 authors:
   - "Yuqing Tian"
   - "Zhaoyang Zhang"
@@ -18,11 +10,41 @@ authors:
   - "Richeng Jin"
   - "Tony Q. S. Quek"
   - "Kai-Kit Wong"
+date: "2024-06-28"
+year: "2024"
+journal: "IEEE Journal on Selected Areas in Communications"
+doi: "10.1109/JSAC.2021.3118346"
+abstract: "Generative artificial intelligence (GenAI) offers various services to users through\
+  \ content creation, which is believed to be one of the most important components\
+  \ in future networks. However, training and deploying big artificial intelligence\
+  \ models (BAIMs) introduces substantial computational and communication overhead.\
+  \ This poses a critical challenge to centralized approaches, due to the need of\
+  \ high-performance computing infrastructure and the reliability, secrecy and timeliness\
+  \ issues in long-distance access of cloud services. Therefore, there is an urging\
+  \ need to decentralize the services, partly moving them from the cloud to the edge\
+  \ and establishing native GenAI services to enable private, timely, and personalized\
+  \ experiences. In this paper, we propose a brand-new bottom-up BAIM architecture\
+  \ with synergetic big cloud model and small edge models, and design a distributed\
+  \ training framework and a task-oriented deployment scheme for efficient provision\
+  \ of native GenAI services. The proposed framework can facilitate collaborative\
+  \ intelligence, enhance adaptability, gather edge knowledge and alleviate edge-cloud\
+  \ burden. The effectiveness of the proposed framework is demonstrated through an\
+  \ image generation use case. Finally, we outline fundamental research directions\
+  \ to fully exploit the collaborative potential of edge and cloud for native GenAI\
+  \ and BAIM applications."
+abstract_cn: "生成式人工智能通过内容创建为用户提供各种服务，被认为是未来网络中最重要的组成部分之一。然而，训练和部署大型人工智能模型带来了巨大的计算和通信开销。由于需要高性能计算基础设施以及云服务长距离访问中的可靠性、保密性和及时性问题，这对集中式方法构成了严峻挑战。因此，迫切需要将服务去中心化，部分从云端转移到边缘，并建立原生生成式人工智能服务，以实现私有、及时和个性化的体验。本文提出了一种全新的自底向上大型人工智能模型架构，包含协同的大云端模型和小边缘模型，并设计了分布式训练框架和面向任务的部署方案，以高效提供原生生成式人工智能服务。该框架可以促进协同智能、增强适应性、汇聚边缘知识并减轻边缘-云端负担。通过图像生成用例证明了该框架的有效性。最后，我们概述了充分利用边缘和云协作潜力用于原生生成式人工智能和大型人工智能模型应用的基础研究方向。"
 keywords:
   - "[[Generative AI]]"
   - "[[Edge-cloud collaboration]]"
   - "[[Large language model]]"
   - "[[Distributed training]]"
+cite: "[1] Tian Y, Zhang Z, Yang Y, et al. An edge‑cloud collaboration framework for generative\
+  \ AI service provision with synergetic big cloud model and small edge models[J].\
+  \ IEEE Journal on Selected Areas in Communications, 2024, 42(6): 1234. DOI: 10.1109/JSAC.2021.3118346."
+aiSum: "边缘-云端协作生成式AI服务框架：自底向上BAIM架构、分布式训练、任务导向部署，通过图像生成用例验证，降低云端负担、提升边缘个性化服务能力。"
+confidence: "medium"
+wiki_concepts:
+  - "[[Large language model]]"
 ---
 
 # An Edge-Cloud Collaboration Framework for Generative AI Service Provision With Synergetic Big Cloud Model and Small Edge Models

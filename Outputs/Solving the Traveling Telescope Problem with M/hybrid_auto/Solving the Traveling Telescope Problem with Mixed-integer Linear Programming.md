@@ -5,10 +5,23 @@ authors:
   - "Erik A. Petigura"
   - "Velibor V. Mišić"
 date: "2024-01-01"
-year: 2024
+year: "2024"
 journal: "The Astronomical Journal"
-abstract: "The size and complexity of modern astronomical surveys has grown to the point where, in many cases, traditional human scheduling of observations are tedious at best and impractical at worst. Automated scheduling algorithms present an opportunity to save human effort and increase scientific productivity. A common scheduling challenge involves determining the optimal ordering of a set of targets over a night subject to timing constraints and time-dependent slew overheads. We present a solution to the traveling telescope problem that uses mixed-integer linear programming. This algorithm is fast enough to enable dynamic schedule generation in many astronomical contexts. It can determine the optimal solution for 100 observations within 10 minutes on a modern workstation, reducing slew overheads by a factor of 5 compared to random ordering. We also provide a heuristic method that can return a near-optimal solution at significantly reduced computational cost. As a case study, we explore our algorithm’s suitability to automatic schedule generation for Doppler planet searches."
-abstract_cn: “现代天文巡天的规模和复杂性已增长到传统人工观测调度繁琐甚至不可行的程度。本文提出使用混合整数线性规划求解旅行望远镜问题，算法可在现代工作站上10分钟内确定100次观测的最优解，相比随机排序将转动开销降低5倍。还提供一种启发式方法以显著降低的计算成本返回接近最优解，并以多普勒行星搜索为案例研究探讨了该算法在自动调度中的适用性。”
+abstract: "The size and complexity of modern astronomical surveys has grown to the point where,\
+  \ in many cases, traditional human scheduling of observations are tedious at best\
+  \ and impractical at worst. Automated scheduling algorithms present an opportunity\
+  \ to save human effort and increase scientific productivity. A common scheduling\
+  \ challenge involves determining the optimal ordering of a set of targets over a\
+  \ night subject to timing constraints and time-dependent slew overheads. We present\
+  \ a solution to the traveling telescope problem that uses mixed-integer linear programming.\
+  \ This algorithm is fast enough to enable dynamic schedule generation in many astronomical\
+  \ contexts. It can determine the optimal solution for 100 observations within 10\
+  \ minutes on a modern workstation, reducing slew overheads by a factor of 5 compared\
+  \ to random ordering. We also provide a heuristic method that can return a near-optimal\
+  \ solution at significantly reduced computational cost. As a case study, we explore\
+  \ our algorithm’s suitability to automatic schedule generation for Doppler planet\
+  \ searches."
+abstract_cn: "“现代天文巡天的规模和复杂性已增长到传统人工观测调度繁琐甚至不可行的程度。本文提出使用混合整数线性规划求解旅行望远镜问题，算法可在现代工作站上10分钟内确定100次观测的最优解，相比随机排序将转动开销降低5倍。还提供一种启发式方法以显著降低的计算成本返回接近最优解，并以多普勒行星搜索为案例研究探讨了该算法在自动调度中的适用性。”"
 keywords:
   - "[[Mixed-integer linear programming]]"
   - "[[Telescope scheduling]]"
@@ -16,6 +29,8 @@ keywords:
 cite: "[1] Handley L B, Petigura E A, Mišić V V. Solving the traveling telescope problem"
 aiSum: "混合整数线性规划求解旅行望远镜问题：10分钟内优化100次观测序列，转动开销降低5倍，适用于多普勒行星搜索等自动调度场景。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Combinatorial optimization]]"
 ---
 
 # Solving the Traveling Telescope Problem with Mixed-integer Linear Programming

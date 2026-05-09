@@ -36,6 +36,7 @@ aiSum: "提出 TinyTL 冻结权重仅学习偏置模块，引入轻量残差模�
 confidence: "medium"
 wiki_concepts:
   - "[[Edge computing]]"
+  - "[[Transfer learning]]"
 ---
 
 舟 Latest updates: hps://dl.acm.org/doi/10.5555/3495724.3496671

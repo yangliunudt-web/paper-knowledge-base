@@ -1,18 +1,5 @@
 ---
 title: "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS"
-date: "2021-10-16"
-year: 2021
-journal: "arXiv"
-abstract: "An important paradigm of natural language processing consists of large-scale pretraining on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example – deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pretrained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and no additional inference latency."
-abstract_cn: "NLP的重要范式是在通用领域数据上进行大规模预训练并适应特定任务。随着预训练更大模型，全微调变得不可行。本文提出LoRA，冻结预训练权重并将可训练秩分解矩阵注入Transformer每层，大幅减少下游任务可训练参数。相比GPT-3 175B的Adam微调，LoRA将可训练参数减少10,000倍、GPU内存需求降低3倍，在RoBERTa/DeBERTa/GPT-2/GPT-3上模型质量相当或更好，且无额外推理延迟。"
-keywords:
-  - "[[LoRA]]"
-  - "[[Low-Rank Adaptation]]"
-  - "[[Large language model]]"
-  - "[[Parameter-efficient fine-tuning]]"
-cite: "[1] Hu E J, Shen Y, Wallis P, et al. LORA: low‑rank adaptation of large language"
-aiSum: "LoRA低秩适应：冻结预训练权重，注入可训练低秩矩阵，大幅减少可训练参数（GPT‑3 175B减少10,000倍），GPU内存需求降3倍，训练吞吐量高，无推理延迟，性能相当或优于全微调。"
-confidence: "low"
 authors:
   - "Edward J. Hu"
   - "Yelong Shen"
@@ -22,6 +9,35 @@ authors:
   - "Shean Wang"
   - "Lu Wang"
   - "Weizhu Chen"
+date: "2021-10-16"
+year: "2021"
+journal: "arXiv"
+abstract: "An important paradigm of natural language processing consists of large-scale pretraining\
+  \ on general domain data and adaptation to particular tasks or domains. As we pre-train\
+  \ larger models, full fine-tuning, which retrains all model parameters, becomes\
+  \ less feasible. Using GPT-3 175B as an example – deploying independent instances\
+  \ of fine-tuned models, each with 175B parameters, is prohibitively expensive. We\
+  \ propose Low-Rank Adaptation, or LoRA, which freezes the pretrained model weights\
+  \ and injects trainable rank decomposition matrices into each layer of the Transformer\
+  \ architecture, greatly reducing the number of trainable parameters for downstream\
+  \ tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number\
+  \ of trainable parameters by 10,000 times and the GPU memory requirement by 3 times.\
+  \ LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa,\
+  \ GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training\
+  \ throughput, and no additional inference latency."
+abstract_cn: "NLP的重要范式是在通用领域数据上进行大规模预训练并适应特定任务。随着预训练更大模型，全微调变得不可行。本文提出LoRA，冻结预训练权重并将可训练秩分解矩阵注入Transformer每层，大幅减少下游任务可训练参数。相比GPT-3\
+  \ 175B的Adam微调，LoRA将可训练参数减少10,000倍、GPU内存需求降低3倍，在RoBERTa/DeBERTa/GPT-2/GPT-3上模型质量相当或更好，且无额外推理延迟。"
+keywords:
+  - "[[LoRA]]"
+  - "[[Low-Rank Adaptation]]"
+  - "[[Large language model]]"
+  - "[[Parameter-efficient fine-tuning]]"
+cite: "[1] Hu E J, Shen Y, Wallis P, et al. LORA: low‑rank adaptation of large language"
+aiSum: "LoRA低秩适应：冻结预训练权重，注入可训练低秩矩阵，大幅减少可训练参数（GPT‑3 175B减少10,000倍），GPU内存需求降3倍，训练吞吐量高，无推理延迟，性能相当或优于全微调。"
+confidence: "low"
+wiki_concepts:
+  - "[[Large language model]]"
+  - "[[Transfer learning]]"
 ---
 
 # LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS

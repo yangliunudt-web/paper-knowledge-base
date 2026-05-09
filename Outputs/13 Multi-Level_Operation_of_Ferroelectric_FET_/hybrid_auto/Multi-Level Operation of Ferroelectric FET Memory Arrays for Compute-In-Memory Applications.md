@@ -18,19 +18,32 @@ date: "2023-03-01"
 year: "2023"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 doi: "10.1109/JXCDC.2022.3227351"
-abstract: "We report on the multi-level-cell (MLC) operation of AND-connected ferroelectric FET (FeFET) arrays and their suitability for Compute-in-Memory (CiM) applications. The switching behavior and device variation of FeFETs in a passive AND array test-structure configuration is investigated. From this, we derive suitable write schemes and inhibit schemes capable of protecting any FeFET state. This enables the MLC operation of the AND arrays, yielding a performance suitable for CiM applications. We investigate the impact of the obtained bit-errorrate (BER) of 4% in inference-only operation, which shows only a 1% degradation from the floating-point (FP) accuracy for CIFAR-10 datasets with LeNET. Index Terms—ferroelectric, memory, FeFET, array, multilevel, neural network"
+abstract: "We report on the multi-level-cell (MLC) operation of AND-connected ferroelectric\
+  \ FET (FeFET) arrays and their suitability for Compute-in-Memory (CiM) applications.\
+  \ The switching behavior and device variation of FeFETs in a passive AND array test-structure\
+  \ configuration is investigated. From this, we derive suitable write schemes and\
+  \ inhibit schemes capable of protecting any FeFET state. This enables the MLC operation\
+  \ of the AND arrays, yielding a performance suitable for CiM applications. We investigate\
+  \ the impact of the obtained bit-errorrate (BER) of 4% in inference-only operation,\
+  \ which shows only a 1% degradation from the floating-point (FP) accuracy for CIFAR-10\
+  \ datasets with LeNET. Index Terms—ferroelectric, memory, FeFET, array, multilevel,\
+  \ neural network"
+abstract_cn: "报道了AND连接铁电FET阵列的多级单元操作及其在存内计算应用中的适用性。研究了被动AND阵列测试结构中FeFET的切换行为和器件变异，据此设计了能够保护任意FeFET状态的合适写入和抑制方案，实现了AND阵列的MLC操作。在仅推理操作中4%的误码率仅导致CIFAR-10数据集上LeNET的浮点精度下降1%。"
 keywords:
   - "[[FeFET]]"
   - "[[Multi-level cell]]"
   - "[[Compute-in-memory]]"
   - "[[AND array]]"
   - "[[Neural network]]"
-cite: "[1] Muller et al. Multi-Level Operation of Ferroelectric FET Memory Arrays for Compute-In-Memory Applications[J]. IEEE Journal on Exploratory Solid-State Computational Devices and Circuits, 2023."
-aiSum: "报道AND连接FeFET阵列的MLC操作及其在存内计算中的适用性：研究被动AND阵列中FeFET的切换行为和器件变异，设计合适的写入和抑制方案保护任意FeFET状态，实现AND阵列MLC操作，CIFAR-10上4% BER仅导致1%精度下降。"
-abstract_cn: "报道了AND连接铁电FET阵列的多级单元操作及其在存内计算应用中的适用性。研究了被动AND阵列测试结构中FeFET的切换行为和器件变异，据此设计了能够保护任意FeFET状态的合适写入和抑制方案，实现了AND阵列的MLC操作。在仅推理操作中4%的误码率仅导致CIFAR-10数据集上LeNET的浮点精度下降1%。"
+cite: "[1] Muller et al. Multi-Level Operation of Ferroelectric FET Memory Arrays for Compute-In-Memory\
+  \ Applications[J]. IEEE Journal on Exploratory Solid-State Computational Devices\
+  \ and Circuits, 2023."
+aiSum: "报道AND连接FeFET阵列的MLC操作及其在存内计算中的适用性：研究被动AND阵列中FeFET的切换行为和器件变异，设计合适的写入和抑制方案保护任意FeFET状态，实现AND阵列MLC操作，CIFAR-10上4%\
+  \ BER仅导致1%精度下降。"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
+  - "[[Multi-level cell]]"
   - "[[Neural network]]"
   - "[[存内计算]]"
 ---

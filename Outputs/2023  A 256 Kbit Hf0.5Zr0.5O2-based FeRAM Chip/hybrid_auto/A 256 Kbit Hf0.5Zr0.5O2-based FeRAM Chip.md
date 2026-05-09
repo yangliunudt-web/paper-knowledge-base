@@ -24,6 +24,7 @@ cite: "[1] Beyer D T M A 256 Kbit Hf0.5Zr0.5O2-based FeRAM Chip[C]. IEEE ISSCC, 
 aiSum: "256 Kbit HZO FeRAM 芯片：sub-8nm 技术，350°C BEOL，0.7 pJ/bit，>10^12 耐久性，O3 预结晶工程。"
 confidence: "high"
 wiki_concepts:
+  - "[[BEOL]]"
   - "[[FeRAM]]"
   - "[[HfO2]]"
 ---

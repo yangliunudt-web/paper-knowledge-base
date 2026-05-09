@@ -39,6 +39,7 @@ confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[Ferroelectric]]"
+  - "[[Multi-level cell]]"
 ---
 
 # A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level [[FeFET]] Array: Variation, Endurance, and Write Disturb

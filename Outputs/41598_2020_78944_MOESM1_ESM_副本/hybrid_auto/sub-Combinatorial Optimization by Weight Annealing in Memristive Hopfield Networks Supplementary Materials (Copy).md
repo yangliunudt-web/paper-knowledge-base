@@ -21,6 +21,7 @@ cite: "待补充. sub-Combinatorial Optimization by Weight Annealing in Memristi
 aiSum: "忆阻器 Hopfield 网络权重退火组合优化论文补充材料：Hopfield 网络与退火技术、优化问题公式、图划分示例及仿真结果。"
 confidence: "medium"
 wiki_concepts:
+  - "[[Combinatorial optimization]]"
   - "[[Memristor]]"
 ---
 

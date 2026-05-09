@@ -1,5 +1,6 @@
 ---
-title: "An in-memory computing architecture based on a duplex two-dimensional material structure for in situ learning"
+title: "An in-memory computing architecture based on a duplex two-dimensional material structure\
+  \ for in situ learning"
 authors:
   - "Jian Huang"
   - "Wei Wang"
@@ -7,7 +8,24 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature"
-abstract: "The growing computational demand in artificial intelligence calls for hardware solutions that are capable of in situ machine learning, where both training and inference are performed by edge computation. This not only requires extremely energy-efficient architecture (such as in-memory computing) but also memory hardware with tunable properties to simultaneously meet the demand for training and inference. Here we report a duplex device structure based on a ferroelectric field-effect transistor and an atomically thin MoS2 channel, and realize a universal in-memory computing architecture for in situ learning. By exploiting the tunability of the ferroelectric energy landscape, the duplex building block demonstrates an overall excellent performance in endurance (>10^13), retention (>10 years), speed (4.8 ns) and energy consumption (22.7 fJ bit–1 µm–2). We implemented a hardware neural network using arrays of two-transistors-one-duplex ferroelectric field-effect transistor cells and achieved 99.86% accuracy in a nonlinear localization task with in situ trained weights. Simulations show that the proposed device architecture could achieve the same level of performance as a graphics processing unit under notably improved energy efficiency. Our device core can be combined with silicon circuitry through three-dimensional heterogeneous integration to give a hardware solution towards general edge intelligence."
+abstract: "The growing computational demand in artificial intelligence calls for hardware solutions\
+  \ that are capable of in situ machine learning, where both training and inference\
+  \ are performed by edge computation. This not only requires extremely energy-efficient\
+  \ architecture (such as in-memory computing) but also memory hardware with tunable\
+  \ properties to simultaneously meet the demand for training and inference. Here\
+  \ we report a duplex device structure based on a ferroelectric field-effect transistor\
+  \ and an atomically thin MoS2 channel, and realize a universal in-memory computing\
+  \ architecture for in situ learning. By exploiting the tunability of the ferroelectric\
+  \ energy landscape, the duplex building block demonstrates an overall excellent\
+  \ performance in endurance (>10^13), retention (>10 years), speed (4.8 ns) and energy\
+  \ consumption (22.7 fJ bit–1 µm–2). We implemented a hardware neural network using\
+  \ arrays of two-transistors-one-duplex ferroelectric field-effect transistor cells\
+  \ and achieved 99.86% accuracy in a nonlinear localization task with in situ trained\
+  \ weights. Simulations show that the proposed device architecture could achieve\
+  \ the same level of performance as a graphics processing unit under notably improved\
+  \ energy efficiency. Our device core can be combined with silicon circuitry through\
+  \ three-dimensional heterogeneous integration to give a hardware solution towards\
+  \ general edge intelligence."
 abstract_cn: "本文将铁电场效应晶体管（FeFET）与单层MoS2结合，构建双功能二维材料结构实现原位学习。器件同时实现突触和神经峰功能，支持高能效片上学习，展示了将二维材料与铁电器件结合用于未来类脑计算系统的潜力。"
 keywords:
   - "[[FeFET]]"
@@ -21,6 +39,7 @@ confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
+  - "[[MoS2]]"
 ---
 
 Received: 18 August 2022

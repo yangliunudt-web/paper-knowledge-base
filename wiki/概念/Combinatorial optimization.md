@@ -27,10 +27,9 @@ confidence: medium
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems]] | 2023 | FeFET CiM annealer, 75% chip size saving, MESA algorithm |
-| [[sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks Supplementary Materials]] | 2020 | Hopfield 网络权重退火 |
-| [[Solving the Traveling Telescope Problem with Mixed-integer Linear Programming]] | 2024 | MILP 求解 TTP |
-
+| [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems\|Ferroelectric compute-in-memory annealer...]] | 2023 | FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。 |
+| [[Combinatorial optimization by weight annealing in memristive hopfeld networks\|Combinatorial optimization by weight ann...]] | 2021 | 本文提出权重退火方法用于忆阻器Hopfield网络的组合优化。初始权重为零使网络快速进入全局最小，逐渐引入权重保持基态。在TiO2 crossbar和eFlash阵列上实验验证了图划分和最大独立集问题 |
+| [[Solving the Traveling Telescope Problem with Mixed-integer Linear Programming\|Solving the Traveling Telescope Problem ...]] | 2024 | 混合整数线性规划求解旅行望远镜问题：10分钟内优化100次观测序列，转动开销降低5倍，适用于多普勒行星搜索等自动调度场景。 |
 ## 相关概念
 
 - [[FeFET]]

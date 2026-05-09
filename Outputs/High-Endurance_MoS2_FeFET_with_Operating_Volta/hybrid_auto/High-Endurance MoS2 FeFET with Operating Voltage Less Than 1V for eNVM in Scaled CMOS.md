@@ -1,5 +1,6 @@
 ---
-title: "High-Endurance MoS2 FeFET with Operating Voltage Less Than 1V for eNVM in Scaled CMOS Technologies"
+title: "High-Endurance MoS2 FeFET with Operating Voltage Less Than 1V for eNVM in Scaled\
+  \ CMOS Technologies"
 authors:
   - "Tsung-En Lee"
   - "Hung-Li Chiang"
@@ -28,6 +29,18 @@ authors:
 date: "2025-01-01"
 year: "2025"
 journal: "Nature Electronics"
+abstract: "For the first time, we demonstrate a transition metal dichalcogenide (TMD) Ferroelectric\
+  \ Field-Effect Transistor (FeFET) with ultra-high endurance (>10^12 measured) and\
+  \ retention time exceeding 10 years. The devices consist of an ultrathin Hf-Zr-based\
+  \ (HZO) ferroelectric deposited by ALD on a stack of AlOx/MoS2 with process temperature\
+  \ <250°C. By using a 2.5nm HZO layer and a monolayer (1L) MoS2, a record-low operating\
+  \ voltage <1V is reported thanks to excellent gate control. The device fabrication\
+  \ is compatible with Back-End-of-Line (BEoL) processes in advanced CMOS technologies.\
+  \ Array-level projections show that a sufficient memory window is maintained at\
+  \ a supply voltage (VDD) of 1V. This device has promise for high-density memory\
+  \ embedded in scaled CMOS technology nodes."
+abstract_cn: "首次展示了具有超高耐久性（实测>10^12次）和超过10年保持时间的过渡金属二硫族化物（TMD）铁电场效应晶体管（FeFET）。器件由ALD沉积在AlOx/MoS2堆叠上的超薄Hf-Zr基（HZO）铁电层构成，工艺温度<250°C。通过使用2.5nm\
+  \ HZO层和单层MoS2，凭借优异的栅极控制实现了创纪录的<V工作电压。器件制备与先进CMOS技术的后端工艺（BEoL）兼容。阵列级投影表明在1V供电电压下保持足够的存储窗口。该器件有望用于嵌入先进CMOS技术节点的高密度存储器。"
 keywords:
   - "[[FeFET]]"
   - "[[MoS2]]"
@@ -35,14 +48,16 @@ keywords:
   - "[[High endurance]]"
   - "[[BEOL]]"
   - "[[低功耗存储]]"
-abstract: "For the first time, we demonstrate a transition metal dichalcogenide (TMD) Ferroelectric Field-Effect Transistor (FeFET) with ultra-high endurance (>10^12 measured) and retention time exceeding 10 years. The devices consist of an ultrathin Hf-Zr-based (HZO) ferroelectric deposited by ALD on a stack of AlOx/MoS2 with process temperature <250°C. By using a 2.5nm HZO layer and a monolayer (1L) MoS2, a record-low operating voltage <1V is reported thanks to excellent gate control. The device fabrication is compatible with Back-End-of-Line (BEoL) processes in advanced CMOS technologies. Array-level projections show that a sufficient memory window is maintained at a supply voltage (VDD) of 1V. This device has promise for high-density memory embedded in scaled CMOS technology nodes."
-abstract_cn: "首次展示了具有超高耐久性（实测>10^12次）和超过10年保持时间的过渡金属二硫族化物（TMD）铁电场效应晶体管（FeFET）。器件由ALD沉积在AlOx/MoS2堆叠上的超薄Hf-Zr基（HZO）铁电层构成，工艺温度<250°C。通过使用2.5nm HZO层和单层MoS2，凭借优异的栅极控制实现了创纪录的<V工作电压。器件制备与先进CMOS技术的后端工艺（BEoL）兼容。阵列级投影表明在1V供电电压下保持足够的存储窗口。该器件有望用于嵌入先进CMOS技术节点的高密度存储器。"
-cite: "[1] Lee T E, Chiang H L, Chang C Y, et al. High-Endurance MoS2 FeFET with Operating Voltage Less Than 1V for eNVM in Scaled CMOS Technologies[J]. Nature Electronics, 2025."
+cite: "[1] Lee T E, Chiang H L, Chang C Y, et al. High-Endurance MoS2 FeFET with Operating\
+  \ Voltage Less Than 1V for eNVM in Scaled CMOS Technologies[J]. Nature Electronics,\
+  \ 2025."
 aiSum: "单层MoS₂ FeFET：超薄HZO（2.5nm）实现<1V工作电压、>10^12次耐久性、>10年保持时间，兼容CMOS后端工艺，适用于先进节点嵌入式存储。"
 confidence: "high"
 wiki_concepts:
+  - "[[BEOL]]"
   - "[[FeFET]]"
   - "[[HfO2]]"
+  - "[[MoS2]]"
 ---
 
 # High-Endurance $\mathrm{MoS}_2$ FeFET with Operating Voltage Less Than 1V for eNVM in Scaled CMOS Technologies

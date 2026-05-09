@@ -13,7 +13,24 @@ date: "2016-01-01"
 year: "2016"
 journal: "Journal of Machine Learning Research"
 doi: "10.5555/2946645.2946684"
-abstract: "We introduce a new representation learning approach for domain adaptation, in which data at training and test time come from similar but different distributions. Our approach is directly inspired by the theory on domain adaptation suggesting that, for effective domain transfer to be achieved, predictions must be made based on features that cannot discriminate between the training (source) and test (target) domains. The approach implements this idea in the context of neural network architectures that are trained on labeled data from the source domain and unlabeled data from the target domain (no labeled target-domain data is necessary). As the training progresses, the approach promotes the emergence of features that are (i) discriminative for the main learning task on the source domain and (ii) indiscriminate with respect to the shift between the domains. We show that this adaptation behaviour can be achieved in almost any feed-forward model by augmenting it with few standard layers and a new gradient reversal layer. The resulting augmented architecture can be trained using standard backpropagation. We demonstrate the success of our approach for two distinct classification problems (document sentiment analysis and image classification), where state-of-the-art domain adaptation performance on standard benchmarks is achieved. We also validate the approach for descriptor learning task in the context of person re-identification application."
+abstract: "We introduce a new representation learning approach for domain adaptation, in which\
+  \ data at training and test time come from similar but different distributions.\
+  \ Our approach is directly inspired by the theory on domain adaptation suggesting\
+  \ that, for effective domain transfer to be achieved, predictions must be made based\
+  \ on features that cannot discriminate between the training (source) and test (target)\
+  \ domains. The approach implements this idea in the context of neural network architectures\
+  \ that are trained on labeled data from the source domain and unlabeled data from\
+  \ the target domain (no labeled target-domain data is necessary). As the training\
+  \ progresses, the approach promotes the emergence of features that are (i) discriminative\
+  \ for the main learning task on the source domain and (ii) indiscriminate with respect\
+  \ to the shift between the domains. We show that this adaptation behaviour can be\
+  \ achieved in almost any feed-forward model by augmenting it with few standard layers\
+  \ and a new gradient reversal layer. The resulting augmented architecture can be\
+  \ trained using standard backpropagation. We demonstrate the success of our approach\
+  \ for two distinct classification problems (document sentiment analysis and image\
+  \ classification), where state-of-the-art domain adaptation performance on standard\
+  \ benchmarks is achieved. We also validate the approach for descriptor learning\
+  \ task in the context of person re-identification application."
 abstract_cn: "我们提出了一种新的领域自适应表示学习方法，其中训练和测试时的数据来自相似但不同的分布。我们的方法直接受到领域自适应理论的启发，该理论表明，为了实现有效的领域迁移，预测必须基于那些无法区分训练（源）域和测试（目标）域的特征。该方法在神经网络架构的背景下实现了这一思想，这些架构使用源域的标记数据和目标域的无标记数据（无需目标域标记数据）进行训练。随着训练的进行，该方法促使出现那些（i）对源域上的主要学习任务具有区分性，并且（ii）对领域之间的变化不敏感的特征。我们表明，这种自适应行为几乎可以在任何前馈模型中实现，只需通过添加少量标准层和一个简单的新的梯度反转层来增强它。得到的增强架构可以使用标准反向传播进行训练。实证证据证实，所提出的方法成功处理了同质和异质领域自适应，并在标准基准测试中优于最先进的领域自适应方法。"
 keywords:
   - "[[domain adaptation]]"
@@ -29,6 +46,7 @@ aiSum: "领域对抗神经网络训练（DANN）：通过梯度反转层实现�
 confidence: "medium"
 wiki_concepts:
   - "[[Neural network]]"
+  - "[[Transfer learning]]"
 ---
 
 # Domain-Adversarial Training of Neural Networks

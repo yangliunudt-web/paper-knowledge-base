@@ -45,6 +45,7 @@ aiSum: "首次实现无需初始化和迭代验证的PCM/选通管多级存储�
   \ nm半节距交叉点阵列，热仿真表明该方案可扩展至14 nm。为高密度低成本存储级内存提供新路径。"
 confidence: "medium"
 wiki_concepts:
+  - "[[Multi-level cell]]"
   - "[[Phase change memory]]"
   - "[[crossbar]]"
   - "[[selector]]"

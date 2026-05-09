@@ -1,13 +1,5 @@
 ---
 title: "A Survey on LoRA of Large Language Models"
-date: "2024-01-01"
-year: 2024
-journal: "Journal of Computer Science and Technology"
-abstract: "Low-Rank Adaptation (LoRA), which updates the dense neural network layers with pluggable low-rank matrices, is one of the best performed parameter efficient fine-tuning paradigms. Furthermore, it has significant advantages in cross-task generalization and privacy-preserving. Hence, LoRA has gained much attention recently, and the number of related literature demonstrates exponential growth. It is necessary to conduct a comprehensive overview of the current progress on LoRA. This survey categorizes and reviews the progress from the perspectives of (1) downstream adaptation improving variants that improve LoRA’s performance on downstream tasks; (2) cross-task generalization methods that mix multiple LoRA plugins to achieve cross-task generalization; (3) efficiency-improving methods that boost the computation-efficiency of LoRA; (4) data privacy-preserving methods that use LoRA in federated learning; (5) application. Besides, this survey also discusses the future directions in this field. At last, we provide a Github page for readers to check the updates and initiate discussions on this survey paper."
-abstract_cn: "系统综述大语言模型低秩适配（LoRA）方法：从下游任务适配改进、跨任务泛化、计算效率提升、联邦学习隐私保护、应用五个方面梳理现有工作。LoRA 通过可插拔低秩矩阵更新稠密层，在参数量、计算效率、跨任务泛化和隐私保护方面具有显著优势，相关文献呈指数增长。本文提供完整分类和未来方向讨论。"
-cite: "Mao Y R, Ge Y H, Fan Y J, et al. A Survey on LoRA of Large Language Models[J]. Journal of Computer Science and Technology, 2024, 39(1): 1-20."
-aiSum: "LoRA 综述：下游适配改进（打破低秩瓶颈、动态秩分配）、跨任务泛化（混合 LoRA 模块）、计算效率提升（减少单模块成本、加速多模块服务）、联邦学习隐私保护、应用场景梳理。"
-confidence: "high"
 authors:
   - "Yuren MAO"
   - "Yuhang GE"
@@ -16,11 +8,35 @@ authors:
   - "Yu MI"
   - "Zhonghao HU"
   - "Yunjun GAO"
+date: "2024-01-01"
+year: "2024"
+journal: "Journal of Computer Science and Technology"
+abstract: "Low-Rank Adaptation (LoRA), which updates the dense neural network layers with pluggable\
+  \ low-rank matrices, is one of the best performed parameter efficient fine-tuning\
+  \ paradigms. Furthermore, it has significant advantages in cross-task generalization\
+  \ and privacy-preserving. Hence, LoRA has gained much attention recently, and the\
+  \ number of related literature demonstrates exponential growth. It is necessary\
+  \ to conduct a comprehensive overview of the current progress on LoRA. This survey\
+  \ categorizes and reviews the progress from the perspectives of (1) downstream adaptation\
+  \ improving variants that improve LoRA’s performance on downstream tasks; (2) cross-task\
+  \ generalization methods that mix multiple LoRA plugins to achieve cross-task generalization;\
+  \ (3) efficiency-improving methods that boost the computation-efficiency of LoRA;\
+  \ (4) data privacy-preserving methods that use LoRA in federated learning; (5) application.\
+  \ Besides, this survey also discusses the future directions in this field. At last,\
+  \ we provide a Github page for readers to check the updates and initiate discussions\
+  \ on this survey paper."
+abstract_cn: "系统综述大语言模型低秩适配（LoRA）方法：从下游任务适配改进、跨任务泛化、计算效率提升、联邦学习隐私保护、应用五个方面梳理现有工作。LoRA 通过可插拔低秩矩阵更新稠密层，在参数量、计算效率、跨任务泛化和隐私保护方面具有显著优势，相关文献呈指数增长。本文提供完整分类和未来方向讨论。"
 keywords:
   - "[[Low-Rank Adaptation]]"
   - "[[LoRA]]"
   - "[[Large Language Models]]"
   - "[[LLMs]]"
+cite: "Mao Y R, Ge Y H, Fan Y J, et al. A Survey on LoRA of Large Language Models[J]. Journal\
+  \ of Computer Science and Technology, 2024, 39(1): 1-20."
+aiSum: "LoRA 综述：下游适配改进（打破低秩瓶颈、动态秩分配）、跨任务泛化（混合 LoRA 模块）、计算效率提升（减少单模块成本、加速多模块服务）、联邦学习隐私保护、应用场景梳理。"
+confidence: "high"
+wiki_concepts:
+  - "[[Large language model]]"
 ---
 
 # A Survey on LoRA of Large Language Models

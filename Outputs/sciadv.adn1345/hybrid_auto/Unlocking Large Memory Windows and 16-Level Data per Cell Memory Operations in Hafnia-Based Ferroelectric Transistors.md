@@ -1,26 +1,42 @@
 ---
-title: "Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations in Hafnia-Based Ferroelectric Transistors"
+title: "Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations in Hafnia-Based\
+  \ Ferroelectric Transistors"
+authors:
+  - "Ik-Jyae Kim"
+  - "Jang-Sik Lee"
 date: "2024-01-01"
 year: "2024"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adn1345"
-abstract: "Ferroelectric transistors based on hafnia-based ferroelectrics exhibit tremendous potential as next-generation memories owing to their high-speed operation and low power consumption. Nevertheless, these transistors face limitations in terms of memory window, which directly affects their ability to support multilevel characteristics in memory devices. Furthermore, the absence of an efficient operational technique capable of achieving multilevel characteristics has hindered their development. To address these challenges, we present a gate stack engineering method and an efficient operational approach for ferroelectric transistors to achieve 16-level data per cell operation. By using the suggested engineering method, we demonstrate the attainment of a substantial memory window of 10 V without increasing the device area. Additionally, we propose a displacement current control method, facilitating one-shot programming to the desired state. Remarkably, we suggest the compatibility of these proposed methods with three-dimensional (3D) structures. This study underscores the potential of ferroelectric transistors for next-generation 3D memory applications."
+abstract: "Ferroelectric transistors based on hafnia-based ferroelectrics exhibit tremendous\
+  \ potential as next-generation memories owing to their high-speed operation and\
+  \ low power consumption. Nevertheless, these transistors face limitations in terms\
+  \ of memory window, which directly affects their ability to support multilevel characteristics\
+  \ in memory devices. Furthermore, the absence of an efficient operational technique\
+  \ capable of achieving multilevel characteristics has hindered their development.\
+  \ To address these challenges, we present a gate stack engineering method and an\
+  \ efficient operational approach for ferroelectric transistors to achieve 16-level\
+  \ data per cell operation. By using the suggested engineering method, we demonstrate\
+  \ the attainment of a substantial memory window of 10 V without increasing the device\
+  \ area. Additionally, we propose a displacement current control method, facilitating\
+  \ one-shot programming to the desired state. Remarkably, we suggest the compatibility\
+  \ of these proposed methods with three-dimensional (3D) structures. This study underscores\
+  \ the potential of ferroelectric transistors for next-generation 3D memory applications."
 abstract_cn: "基于铪的铁电晶体管因高速操作和低功耗展现出下一代存储器潜力。提出栅极堆叠工程和高效操作方法实现 16 级/单元存储。通过控制厚度而非面积的电容比实现"
-cite: "[1] Kim I J, Lee J S. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations in Hafnia-Based Ferroelectric Transistors[J]. Science Advances, 2024."
-aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
-confidence: "high"
-authors:
-  - "Ik-Jyae Kim"
-  - "Jang-Sik Lee"
 keywords:
   - "[[FeFET]]"
   - "[[HfO2]]"
   - "[[multi-level cell]]"
   - "[[memory window]]"
   - "[[3D memory]]"
+cite: "[1] Kim I J, Lee J S. Unlocking Large Memory Windows and 16-Level Data per Cell Memory\
+  \ Operations in Hafnia-Based Ferroelectric Transistors[J]. Science Advances, 2024."
+aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
+confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"
+  - "[[Multi-level cell]]"
 ---
 
 # M AT E R I A L S S C I E N C E

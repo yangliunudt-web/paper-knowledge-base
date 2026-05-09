@@ -9,6 +9,26 @@ authors:
 date: "2021-08-12"
 year: "2021"
 journal: "Scientific Reports"
+abstract: "The increasing utility of specialized circuits and growing applications of optimization\
+  \ call for the development of efficient hardware accelerator for solving optimization\
+  \ problems. Hopfield neural network is a promising approach for solving combinatorial\
+  \ optimization problems due to the recent demonstrations of efficient mixed-signal\
+  \ implementation based on emerging non-volatile memory devices. Such mixed-signal\
+  \ accelerators also enable very efficient implementation of various annealing techniques,\
+  \ which are essential for finding optimal solutions. Here we propose a weight annealing\
+  \ approach, whose main idea is to ease convergence to the global minima by keeping\
+  \ the network close to its ground state. This is achieved by initially setting all\
+  \ synaptic weights to zero, thus ensuring a quick transition of the Hopfield network\
+  \ to its trivial global minima state and then gradually introducing weights during\
+  \ the annealing process. The extensive numerical simulations show that our approach\
+  \ leads to a better, on average, solutions for several representative combinatorial\
+  \ problems compared to prior Hopfield neural network solvers with chaotic or stochastic\
+  \ annealing. As a proof of concept, a 13-node graph partitioning problem and a 7-node\
+  \ maximum-weight independent set problem are solved experimentally using mixed-signal\
+  \ circuits based on, correspondingly, a 20x20 analog-grade TiO2 memristive crossbar\
+  \ and a 12x10 eFlash memory array."
+abstract_cn: "专用电路的日益普及和优化应用的不断增长呼唤开发高效的硬件加速器来解决优化问题。Hopfield神经网络因其基于新兴非易失性存储器件的高效混合信号实现而成为解决组合优化问题的有前景方法。本文提出权重退火方法，核心思想是通过保持网络接近基态来促进收敛到全局最小值。具体做法是将所有突触权重初始化为零确保Hopfield网络快速过渡到平凡全局最小值状态，然后在退火过程中逐渐引入权重。大量数值仿真表明该方法在多个代表性组合问题上平均优于先前的混沌或随机退火Hopfield求解器。作为概念验证，使用20×20\
+  \ TiO2忆阻交叉阵列和12×10 eFlash存储阵列分别实验求解了13节点图划分问题和7节点最大权重独立集问题。"
 keywords:
   - "[[Hopfield Network]]"
   - "[[Memristor]]"
@@ -16,12 +36,12 @@ keywords:
   - "[[Weight Annealing]]"
   - "[[忆阻器]]"
   - "[[组合优化]]"
-abstract: "The increasing utility of specialized circuits and growing applications of optimization call for the development of efficient hardware accelerator for solving optimization problems. Hopfield neural network is a promising approach for solving combinatorial optimization problems due to the recent demonstrations of efficient mixed-signal implementation based on emerging non-volatile memory devices. Such mixed-signal accelerators also enable very efficient implementation of various annealing techniques, which are essential for finding optimal solutions. Here we propose a weight annealing approach, whose main idea is to ease convergence to the global minima by keeping the network close to its ground state. This is achieved by initially setting all synaptic weights to zero, thus ensuring a quick transition of the Hopfield network to its trivial global minima state and then gradually introducing weights during the annealing process. The extensive numerical simulations show that our approach leads to a better, on average, solutions for several representative combinatorial problems compared to prior Hopfield neural network solvers with chaotic or stochastic annealing. As a proof of concept, a 13-node graph partitioning problem and a 7-node maximum-weight independent set problem are solved experimentally using mixed-signal circuits based on, correspondingly, a 20x20 analog-grade TiO2 memristive crossbar and a 12x10 eFlash memory array."
-abstract_cn: "专用电路的日益普及和优化应用的不断增长呼唤开发高效的硬件加速器来解决优化问题。Hopfield神经网络因其基于新兴非易失性存储器件的高效混合信号实现而成为解决组合优化问题的有前景方法。本文提出权重退火方法，核心思想是通过保持网络接近基态来促进收敛到全局最小值。具体做法是将所有突触权重初始化为零确保Hopfield网络快速过渡到平凡全局最小值状态，然后在退火过程中逐渐引入权重。大量数值仿真表明该方法在多个代表性组合问题上平均优于先前的混沌或随机退火Hopfield求解器。作为概念验证，使用20×20 TiO2忆阻交叉阵列和12×10 eFlash存储阵列分别实验求解了13节点图划分问题和7节点最大权重独立集问题。"
-cite: "[1] Fahimi Z, Mahmoodi M R, Nili H, et al. Combinatorial optimization by weight annealing in memristive hopfield networks[J]. Scientific Reports, 2021."
+cite: "[1] Fahimi Z, Mahmoodi M R, Nili H, et al. Combinatorial optimization by weight annealing\
+  \ in memristive hopfield networks[J]. Scientific Reports, 2021."
 aiSum: "本文提出权重退火方法用于忆阻器Hopfield网络的组合优化。初始权重为零使网络快速进入全局最小，逐渐引入权重保持基态。在TiO2 crossbar和eFlash阵列上实验验证了图划分和最大独立集问题。"
 confidence: "medium"
 wiki_concepts:
+  - "[[Combinatorial optimization]]"
   - "[[Memristor]]"
 ---
 

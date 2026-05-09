@@ -7,17 +7,31 @@ date: "2017-11-28"
 year: "2017"
 journal: "arXiv"
 doi: "arXiv:1711.09876"
-abstract: "Complex architectures of biological neural circuits, such as parallel processing pathways, has been behaviorally implicated in many cognitive studies. However, the theoretical consequences of circuit complexity on neural computation have only been explored in limited cases. Here, we introduce a mechanism by which direct and indirect pathways from cortex to the CA3 region of the hippocampus can balance both contextual gating of memory formation and driving network activity. We implement this concept in a deep artificial neural network by enabling a context-sensitive bias. The motivation for this is to improve performance of a size-constrained network. Using direct knowledge of the superclass information in the CIFAR-100 and Fashion-MNIST datasets, we show a dramatic increase in performance without an increase in network size."
+abstract: "Complex architectures of biological neural circuits, such as parallel processing\
+  \ pathways, has been behaviorally implicated in many cognitive studies. However,\
+  \ the theoretical consequences of circuit complexity on neural computation have\
+  \ only been explored in limited cases. Here, we introduce a mechanism by which direct\
+  \ and indirect pathways from cortex to the CA3 region of the hippocampus can balance\
+  \ both contextual gating of memory formation and driving network activity. We implement\
+  \ this concept in a deep artificial neural network by enabling a context-sensitive\
+  \ bias. The motivation for this is to improve performance of a size-constrained\
+  \ network. Using direct knowledge of the superclass information in the CIFAR-100\
+  \ and Fashion-MNIST datasets, we show a dramatic increase in performance without\
+  \ an increase in network size."
+abstract_cn: "生物神经回路的复杂架构（如并行处理通路）已在许多认知研究中被行为学层面证明。然而，回路复杂性对神经计算的理论影响仅在有限情况下被探索。本文引入了一种机制，皮层到海马CA3区域的直接和间接通路可以平衡记忆形成的上下文门控和驱动网络活动。我们通过在深度人工神经网络中引入上下文敏感偏置来实现这一概念，其动机是提高规模受限网络的性能。利用CIFAR-100和Fashion-MNIST数据集中超类信息的先验知识，我们展示了在不增加网络规模的情况下性能的显著提升。"
 keywords:
   - "[[Hippocampus]]"
   - "[[CA3]]"
   - "[[Context modulation]]"
   - "[[Deep learning]]"
-abstract_cn: "生物神经回路的复杂架构（如并行处理通路）已在许多认知研究中被行为学层面证明。然而，回路复杂性对神经计算的理论影响仅在有限情况下被探索。本文引入了一种机制，皮层到海马CA3区域的直接和间接通路可以平衡记忆形成的上下文门控和驱动网络活动。我们通过在深度人工神经网络中引入上下文敏感偏置来实现这一概念，其动机是提高规模受限网络的性能。利用CIFAR-100和Fashion-MNIST数据集中超类信息的先验知识，我们展示了在不增加网络规模的情况下性能的显著提升。"
-cite: "[1] Aimone et al. 2 Context modulation of Hippocampal neurons through dual pathways[J]. arXiv, 2017."
-aiSum: "Complex architectures of biological neural circuits, such as parallel processing pathways, has been behaviorally implicated in many cognitive studies. However, the theoretical consequences of circuit ..."
+cite: "[1] Aimone et al. 2 Context modulation of Hippocampal neurons through dual pathways[J].\
+  \ arXiv, 2017."
+aiSum: "Complex architectures of biological neural circuits, such as parallel processing\
+  \ pathways, has been behaviorally implicated in many cognitive studies. However,\
+  \ the theoretical consequences of circuit ..."
 confidence: "low"
 wiki_concepts:
+  - "[[Hippocampus]]"
   - "[[Neural network]]"
 ---
 

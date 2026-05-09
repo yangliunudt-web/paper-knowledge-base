@@ -1,13 +1,5 @@
 ---
 title: "Monolithic 3D integration of back-end compatible 2D material FET on Si FinFET"
-date: "2025-01-01"
-year: 2025
-journal: "Nature Electronics"
-abstract: "The performance enhancement of integrated circuits relying on dimension scaling (i.e., following Moore’s Law) is more and more challenging owing to the physical limit of Si materials. Monolithic three-dimensional (M3D) integration has been considered as a powerful scheme to further boost up the system performance. Two-dimensional (2D) materials such as MoS2 are potential building blocks for constructing upper-tier transistors owing to their high mobility, atomic thickness, and back-end-of-line (BEOL) compatible processes. The concept to integrate 2D material-based devices with Si field-effect transistor (FET) is technologically important but the compatibility is yet to be experimentally demonstrated. Here, we successfully integrated an n-type monolayer MoS2 FET on a p-type Si fin-shaped FET with 20 nm fin width via an M3D integration technique to form a complementary inverter. The integration was enabled by deliberately adopting industrially matured techniques, such as chemical mechanical planarization and e-beam evaporation, to ensure its compatibility with the existing 3D integrated circuit process and the semiconductor industry in general. The 2D FET is fabricated using low-temperature sequential processes to avoid the degradation of lower-tier Si devices. The MoS2 n-FETs and Si p-FinFETs display symmetrical transfer characteristics and the resulting 3D complementary metal-oxide-semiconductor inverter show a voltage transfer characteristic with a maximum gain of ~38. This work clearly proves the integration compatibility of 2D materials with Si-based devices, encouraging the further development of monolithic 3D integrated circuits."
-abstract_cn: "依靠尺寸缩放（即遵循摩尔定律）的集成电路性能提升由于硅材料的物理极限而变得越来越具有挑战性。单片三维集成被认为是进一步提升系统性能的强大方案。二维材料如MoS2由于其高迁移率、原子厚度和与后端工艺兼容的工艺，成为构建上层晶体管的有潜力的构建模块。将基于二维材料的器件与硅场效应晶体管集成的概念在技术上很重要，但兼容性尚未得到实验证明。本文通过M3D集成技术成功将n型单层MoS2 FET集成在p型硅鳍式FET（鳍宽20 nm）上，形成互补反相器。集成通过有意采用工业成熟技术（如化学机械抛光和电子束蒸发）实现，以确保其与现有3D集成电路工艺和整个半导体行业的兼容性。二维FET采用低温顺序工艺制造，以避免下层硅器件的性能退化。MoS2 n-FET和Si p-FinFET显示出对称的转移特性，所得3D互补金属氧化物半导体反相器的电压传输特性显示最大增益约为38。这项工作明确证明了二维材料与硅基器件的集成兼容性，鼓励了单片3D集成电路的进一步发展。"
-cite: "[1] Guan S X, Yang T H, Yang C H, et al. Monolithic 3D integration of back‑end compatible 2D material FET on Si FinFET[J]. Nature Electronics, 2025, 8(4): 312‑325."
-aiSum: "单片3D集成：单层MoS2 n‑FET与Si p‑FinFET（鳍宽20 nm）垂直集成形成互补反相器，增益~38，采用CMP/e‑beam蒸发等工业成熟工艺，验证二维材料与硅基器件兼容性。"
-confidence: "high"
 authors:
   - "Shi-Xian Guan"
   - "Tilo H. Yang"
@@ -21,11 +13,45 @@ authors:
   - "Yuan-Liang Zhong"
   - "Lain-Jong Li"
   - "Yann-Wen Lan"
+date: "2025-01-01"
+year: "2025"
+journal: "Nature Electronics"
+abstract: "The performance enhancement of integrated circuits relying on dimension scaling (i.e.,\
+  \ following Moore’s Law) is more and more challenging owing to the physical limit\
+  \ of Si materials. Monolithic three-dimensional (M3D) integration has been considered\
+  \ as a powerful scheme to further boost up the system performance. Two-dimensional\
+  \ (2D) materials such as MoS2 are potential building blocks for constructing upper-tier\
+  \ transistors owing to their high mobility, atomic thickness, and back-end-of-line\
+  \ (BEOL) compatible processes. The concept to integrate 2D material-based devices\
+  \ with Si field-effect transistor (FET) is technologically important but the compatibility\
+  \ is yet to be experimentally demonstrated. Here, we successfully integrated an\
+  \ n-type monolayer MoS2 FET on a p-type Si fin-shaped FET with 20 nm fin width via\
+  \ an M3D integration technique to form a complementary inverter. The integration\
+  \ was enabled by deliberately adopting industrially matured techniques, such as\
+  \ chemical mechanical planarization and e-beam evaporation, to ensure its compatibility\
+  \ with the existing 3D integrated circuit process and the semiconductor industry\
+  \ in general. The 2D FET is fabricated using low-temperature sequential processes\
+  \ to avoid the degradation of lower-tier Si devices. The MoS2 n-FETs and Si p-FinFETs\
+  \ display symmetrical transfer characteristics and the resulting 3D complementary\
+  \ metal-oxide-semiconductor inverter show a voltage transfer characteristic with\
+  \ a maximum gain of ~38. This work clearly proves the integration compatibility\
+  \ of 2D materials with Si-based devices, encouraging the further development of\
+  \ monolithic 3D integrated circuits."
+abstract_cn: "依靠尺寸缩放（即遵循摩尔定律）的集成电路性能提升由于硅材料的物理极限而变得越来越具有挑战性。单片三维集成被认为是进一步提升系统性能的强大方案。二维材料如MoS2由于其高迁移率、原子厚度和与后端工艺兼容的工艺，成为构建上层晶体管的有潜力的构建模块。将基于二维材料的器件与硅场效应晶体管集成的概念在技术上很重要，但兼容性尚未得到实验证明。本文通过M3D集成技术成功将n型单层MoS2\
+  \ FET集成在p型硅鳍式FET（鳍宽20 nm）上，形成互补反相器。集成通过有意采用工业成熟技术（如化学机械抛光和电子束蒸发）实现，以确保其与现有3D集成电路工艺和整个半导体行业的兼容性。二维FET采用低温顺序工艺制造，以避免下层硅器件的性能退化。MoS2\
+  \ n-FET和Si p-FinFET显示出对称的转移特性，所得3D互补金属氧化物半导体反相器的电压传输特性显示最大增益约为38。这项工作明确证明了二维材料与硅基器件的集成兼容性，鼓励了单片3D集成电路的进一步发展。"
 keywords:
   - "[[Monolithic 3D integration]]"
   - "[[2D materials]]"
   - "[[FinFET]]"
   - "[[Back-end compatibility]]"
+cite: "[1] Guan S X, Yang T H, Yang C H, et al. Monolithic 3D integration of back‑end compatible\
+  \ 2D material FET on Si FinFET[J]. Nature Electronics, 2025, 8(4): 312‑325."
+aiSum: "单片3D集成：单层MoS2 n‑FET与Si p‑FinFET（鳍宽20 nm）垂直集成形成互补反相器，增益~38，采用CMP/e‑beam蒸发等工业成熟工艺，验证二维材料与硅基器件兼容性。"
+confidence: "high"
+wiki_concepts:
+  - "[[MoS2]]"
+  - "[[Monolithic 3D integration]]"
 ---
 
 ARTICLE OPEN
