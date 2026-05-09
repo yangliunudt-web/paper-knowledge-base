@@ -18,8 +18,8 @@ authors:
 date: "2023-12-01"
 year: "2023"
 journal: "IEEE International Electron Devices Meeting (IEDM)"
-abstract: "Harnessing multibit precision in non-volatile memory (NVM) based synaptic"
-abstract_cn: "利用基于非易失性存储器的突触核心的多比特精度可以加速深度神经网络的乘加运算。然而，基于NVM的突触核心在比特密度和性能之间存在权衡。随着缩放带来的性能下降、有限的比特精度以及与权重更新相关的不对称性，成为实现高密度突触核心的严重瓶颈。本工作展示了：(i)"
+abstract: "Harnessing multibit precision in non-volatile memory (NVM) based synaptic core can accelerate multiply and accumulate (MAC) operation of deep neural network (DNN). However, NVM-based synaptic cores suffer from the trade-off between bit density and performance. The undesired performance degradation with scaling, limited bit precision, and asymmetry associated with weight update poses a severe bottleneck in realizing a high-density synaptic core. In this work, we demonstrate: (i) implementation of novel differential mode ferroelectric field effect transistor (FeFET) (DM-FeFET) based multibit crossbar array of 12 Kbit size; (ii) bit density of 223Mb/mm2, which is ~2x improvement compared to conventional FeFET array; (iii) 196 TOPS/W energy efficiency for VGG-8 network; and (iv) superior bit error rate (BER) resilience showing ~94% training and 88% inference accuracy with 1% BER."
+abstract_cn: "利用基于非易失性存储器（NVM）突触核心的多比特精度可以加速深度神经网络的乘累加操作。然而NVM突触核心在比特密度和性能之间存在权衡，缩放带来的性能退化、有限比特精度和权重更新不对称性成为实现高密度突触核心的严重瓶颈。本工作展示了：(i) 实现基于差分模式铁电场效应晶体管（DM-FeFET）的多比特12 Kbit交叉阵列；(ii) 223Mb/mm2比特密度，相比传统FeFET阵列约2倍提升；(iii) VGG-8网络能效196 TOPS/W；(iv) 优异的误码率弹性，在1% BER下训练精度约94%、推理精度88%。"
 keywords:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
