@@ -10,7 +10,7 @@ date: "2020-01-01"
 year: "2020"
 journal: "Applied Physics Letters"
 doi: "10.1063/1.5113536"
-abstract: "Reliability issues stemming from device level nonidealities of non‑volatile"
+abstract: "Reliability issues stemming from device level nonidealities of non-volatile emerging technologies like ferroelectric field-effect transistors (FeFET), especially at scaled dimensions, cause substantial degradation in the accuracy of In-Memory crossbar-based AI systems. In this work, we present a variation-aware design technique to characterize the device level variations and to mitigate their impact on hardware accuracy employing a Bayesian Neural Network (BNN) approach. An effective conductance variation model is derived from the experimental measurements of cycle-to-cycle (C2C) and device-to-device (D2D) variations performed on FeFET devices fabricated using 28 nm high-k metal gate technology. The variations were found to be a function of different conductance states within the given programming range. Such variation characteristics formulated for three different device sizes at different read voltages were provided as prior variation information to the BNN to yield a more exact and reliable inference. Near-ideal accuracy for shallow networks (MLP5 and LeNet) on MNIST and limited accuracy decline by ~3.8-16.1% for deeper AlexNet on CIFAR10 under a wide range of variations demonstrates the efficacy of our proposed device-algorithm co-design technique."
 abstract_cn: "非易失性新兴技术（如铁电场效应晶体管）在器件层面的非理想性（尤其在缩微尺寸下）引发的可靠性问题，会导致基于内存交叉阵列的 AI 系统精度严重下降。本文提出一种变异感知设计技术，用于表征器件层面变异，并采用贝叶斯神经网络方法减轻其对硬件精度的影响。基于"
 keywords:
   - "[[FeFET]]"
