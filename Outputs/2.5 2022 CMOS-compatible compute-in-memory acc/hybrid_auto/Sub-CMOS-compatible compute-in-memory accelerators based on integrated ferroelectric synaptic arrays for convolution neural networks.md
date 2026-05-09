@@ -1,4 +1,5 @@
 ---
+
 title: "CMOS-Compatible Compute-in-Memory Accelerators Based on Integrated Ferroelectric\
   \ Synaptic Arrays for Convolution Neural Networks"
 authors:
@@ -35,6 +36,8 @@ cite: "Kim M K, Kim I J, Lee J S. CMOS-Compatible Compute-in-Memory Accelerators
   \ Advances, 2022, 8(14): eabm8537. DOI: 10.1126/sciadv.abm8537"
 aiSum: "补充材料：包含 HfZrOx 铁电特性表征、FeTFT 阵列制造工艺流程、器件 I-V 特性曲线等详细实验数据。"
 confidence: high
+parent:
+  - "[[CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks]]"
 ---
 
 MAAAS

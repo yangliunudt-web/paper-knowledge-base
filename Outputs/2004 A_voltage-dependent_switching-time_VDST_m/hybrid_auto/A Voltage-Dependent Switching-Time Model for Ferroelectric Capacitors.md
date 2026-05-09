@@ -1,18 +1,19 @@
 ---
-
 title: "A Voltage-Dependent Switching-Time Model for Ferroelectric Capacitors"
 authors:
   - "The This"
   - "Spectre"
 date: "2004-01-01"
-year: 2004
+year: "2004"
 journal: "IEEE International Symposium on Circuits and Systems"
 abstract: "The time required to switch a ferroelectric capacitor from one binary state"
 abstract_cn: "铁电电容从一个二进制状态切换到另一个状态所需的时间与施加电压的大小密切相关，特别是在远低于电源电压的电压下。本文提出一种 Verilog-A"
+keywords:
+  - "[[Ferroelectric]]"
 cite: "Cross J S, Sheikholeslami A, Charn G H, et al. A voltage-dependent switching-time"
 aiSum: "FeRAM 开关时间模型：Verilog-A、电压依赖动态、0.35μm CMOS/PZT、Spectre 仿真验证。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[Ferroelectric]]"
 ---
 

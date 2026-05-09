@@ -1,4 +1,5 @@
 ---
+
 title: "Sub-Low-power edge detection based on ferroelectric transistor array"
 authors:
   - "Author"
@@ -18,6 +19,8 @@ cite: "Author. Low-power edge detection based on ferroelectric transistor array[
   \ TED, 2023."
 aiSum: "边缘检测补充材料：器件特性、阵列配置、处理结果。"
 confidence: medium
+parent:
+  - "[[Low-power edge detection based on ferroelectric field-effect transistor]]"
 ---
 
 # Low-power Edge Detection Based on Ferroelectric Field-Effect Transistor

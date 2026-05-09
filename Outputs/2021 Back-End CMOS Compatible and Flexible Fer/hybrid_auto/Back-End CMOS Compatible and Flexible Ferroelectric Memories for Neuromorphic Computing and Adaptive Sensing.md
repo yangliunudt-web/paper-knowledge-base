@@ -1,21 +1,21 @@
 ---
-
-
 title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic"
 date: "2021-12-01"
-year: 2021
+year: "2021"
 journal: "Advanced Intelligent Systems"
 doi: "10.1002/aisy.202100175"
 abstract: "Ferroelectric memories including ferroelectric tunnel junctions and ferroelectric"
 abstract_cn: "铁电存储器包括铁电隧道结和铁电场效应晶体管作为模拟多位存储组件展现出优异的低功耗性能。本综述讨论掺杂 HfO2 和分子铁电体作为 CMOS"
-cite: "[1] Majumdar S. Back-End CMOS Compatible and Flexible Ferroelectric Memories"
-aiSum: "综述掺杂 HfO2 和分子铁电体作为 CMOS BEOL 兼容和柔性可穿戴平台神经形态器件的潜力，讨论铁电存储器技术在边缘计算中的应用前景。"
-confidence: medium
-wiki_concepts:
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 keywords:
   - "[[Ferroelectric]]"
+  - "[[Neuromorphic computing]]"
+cite: "[1] Majumdar S. Back-End CMOS Compatible and Flexible Ferroelectric Memories"
+aiSum: "综述掺杂 HfO2 和分子铁电体作为 CMOS BEOL 兼容和柔性可穿戴平台神经形态器件的潜力，讨论铁电存储器技术在边缘计算中的应用前景。"
+confidence: "medium"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
   - "[[Neuromorphic computing]]"
 ---
 

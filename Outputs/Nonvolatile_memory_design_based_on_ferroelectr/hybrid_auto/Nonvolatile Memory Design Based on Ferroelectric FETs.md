@@ -1,6 +1,4 @@
 ---
-
-
 title: "Nonvolatile Memory Design Based on Ferroelectric FETs"
 authors:
   - "Sumitha Kaisheng"
@@ -9,15 +7,17 @@ authors:
   - "Suman John"
   - "Sumeet Vijaykrishnan"
 date: "2016-06-05"
-year: 2016
+year: "2016"
 journal: "Proceedings of the ACM/IEEE Design Automation Conference"
 doi: "10.1145/2897937.2898050"
 abstract: "Ferroelectric FETs (FEFETs) offer intriguing possibilities for the design"
 abstract_cn: "铁电场效应晶体管凭借其三端结构以及铁电材料在无电场下保持极化的能力，为低功耗非易失性存储器的设计提供了引人注目的可能性。利用铁电场效应晶体管的独特特性，我们提出了一种基于2晶体管铁电场效应晶体管的非易失性存储器，具有分离的读取和写入路径。通过在器件、单元和阵列级别的协同设计，所提出的设计实现了非破坏性读取，并在相同写入速度下相比标准铁电随机存取存储器具有更低的写入功耗。此外，基于铁电场效应晶体管的存储器表现出高区分度，两种状态对应的读取电流相差六个数量级。基于实验校准模型的比较分析显示访问能量延迟有显著改善。例如，在固定写入时间550ps下，写入电压和能量分别比铁电随机存取存储器低58.5%和67.7%。这些优势以2.4倍的面积开销实现。在能量收集非易失性处理器中进一步探索所提出的铁电场效应晶体管存储器显示，相比铁电随机存取存储器，平均前向进度提高了27%。"
+keywords:
+  - "[[Ferroelectric]]"
 cite: "[1] George S, Ma K, Aziz A, et al. Nonvolatile memory design based on ferroelectric"
 aiSum: "2T FeFET非易失存储器：利用三端结构实现分离读/写路径，非破坏性读取，相比FeRAM写入电压降低58.5%、能量降低67.7%，区分度10^6倍，能量收集非易失处理器前向进度提升27%。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[Ferroelectric]]"
 ---
 

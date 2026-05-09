@@ -1,20 +1,21 @@
 ---
-
 title: "Ultrahigh-Precision Analog In-Memory Computing Based on Geometry-Defined Weights"
 authors:
   - "Analog The"
   - "We Enhanced"
   - "This"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Science Advances"
 doi: "10.1126/sciadv.ady4798"
 abstract: "Analog computing has gained increasing attention for its potential in artificial"
 abstract_cn: "模拟计算因其在人工智能硬件中的潜力而受到越来越多的关注。传统模拟系统中的计算依赖于固有物理量（如电阻），这些量容易因环境变化或重复编程而产生波动，导致精度受损。本文将存储器件对固有物理量的依赖转移到晶体管的几何比例，实现超高精度模拟计算。展示了一种基于标准"
+keywords:
+  - "[[In-memory computing]]"
 cite: "Zhezhi He, Jing Guo, Zihan Wang, et al. Ultrahigh-Precision Analog In-Memory"
 aiSum: "模拟存内计算芯片：几何比例权重、CMOS 工艺、0.101% RMSE、-78.5°C~180°C 温度稳定。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[In-memory computing]]"
 ---
 

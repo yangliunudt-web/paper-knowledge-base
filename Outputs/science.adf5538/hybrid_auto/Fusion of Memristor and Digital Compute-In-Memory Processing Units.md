@@ -1,5 +1,4 @@
 ---
-
 title: "Fusion of Memristor and Digital Compute-In-Memory Processing Units"
 authors:
   - "Tai-Hao Wen"
@@ -23,17 +22,20 @@ authors:
   - "Tsung-Yung Jonathan Chang"
   - "Meng-Fan Chang"
 date: "2023-08-01"
-year: 2023
+year: "2023"
 journal: "Science"
 doi: "10.1126/science.adf5538"
 abstract: "Artificial intelligence (AI) edge devices prefer employing high-capacity nonvolatile\\"
 abstract_cn: "人工智能（AI）边缘设备倾向于采用大容量非易失性存内计算（CIM）以实现高能效和快速唤醒响应，同时保持足够精度。之前的大多数工作基于忆阻器 CIM（因耐久性有限导致精度损失且不支持训练）或数字\\"
-cite: "Wen T H, Hung J M, Huang W H, et al. Fusion of memristor and digital compute-in-memory\\"
-aiSum: "忆阻器-SRAM CIM 融合：77.64 TOPS/W、392μs 唤醒、<0.5% 精度损失、TSMC 22nm、自适应本地训练。"
-confidence: "high"
 keywords:
   - "[[Memristor]]"
   - "[[In-memory computing]]"
+cite: "Wen T H, Hung J M, Huang W H, et al. Fusion of memristor and digital compute-in-memory\\"
+aiSum: "忆阻器-SRAM CIM 融合：77.64 TOPS/W、392μs 唤醒、<0.5% 精度损失、TSMC 22nm、自适应本地训练。"
+confidence: "high"
+wiki_concepts:
+  - "[[In-memory computing]]"
+  - "[[Memristor]]"
 ---
 
 Artificial intelligence (AI) edge devices prefer employing high-capacity nonvolatile compute-in-memory (CIM) to achieve high energy efficiency and rapid wakeup-to-response with sufficient accuracy. Most previous works are based on either memristor-based CIMs, which suffer from accuracy loss and do not support training as a result of limited endurance, or digital static random-access memory (SRAM)–based CIMs, which suffer from large area requirements and volatile storage. We report an AI edge processor that uses a memristor-SRAM CIM-fusion scheme to simultaneously exploit the high accuracy of the digital SRAM CIM and the high energy-efficiency and storage density of the resistive random-access memory memristor CIM. This also enables adaptive local training to accommodate personalized characterization and user environment. The fusion processor achieved high CIM capacity, short wakeup-to-response latency (392 microseconds), high peak energy efficiency (77.64 teraoperations per second per watt), and robust accuracy (<0.5% accuracy loss). This work demonstrates that memristor technology has moved beyond in-lab development stages and now has manufacturability for AI edge processors.

@@ -1,19 +1,19 @@
 ---
-
-
 title: "Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET"
 date: "2021-01-18"
-year: 2021
+year: "2021"
 journal: "ACM Asia and South Pacific Design Automation Conference (ASPDAC)"
 doi: "10.1145/3394885.3431526"
 abstract: "Attention-in-Memory (AiM), a computing-in-memory (CiM) design, is introduced"
 abstract_cn: "Attention-in-Memory (AiM) 是一种存内计算设计，用于实现记忆增强神经网络的注意力层。AiM 由基于铁电场效应晶体管的存储器阵列以及实现可配置功能的"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[In-memory computing]]"
 cite: "[1] Reis D, Laguna A F, Niemier M, et al. Attention‑in‑memory for few‑shot"
 aiSum: "AiM 存内计算设计：可配置 FeFET 阵列，实现 MANN 注意力层，5-way 5-shot Omniglot 任务精度 95.14%，优于现有加速器。"
-confidence: medium
+confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
-keywords:
   - "[[Ferroelectric]]"
   - "[[In-memory computing]]"
 ---

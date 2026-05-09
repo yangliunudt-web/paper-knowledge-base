@@ -1,20 +1,22 @@
 ---
-
 title: "Ferroelectric FET Based In-Memory Computing for Few-Shot Learning"
 authors:
   - "University Notre"
   - "Notre United"
   - "States"
 date: "2019-05-09"
-year: 2019
+year: "2019"
 journal: "GLSVLSI 2019"
 doi: "10.1145/3299874.3319450"
 abstract: "Explores ferroelectric FET (FeFET) based in-memory computing for few-shot"
 abstract_cn: "探索基于铁电 FET (FeFET) 的存内计算用于小样本学习应用。提出使用 FeFET 模拟电导实现神经网络权重存储和存储器内乘法运算。利用"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[In-memory computing]]"
 cite: "[1] Laguna A F, Yin X Z, Reis D A, et al. Ferroelectric FET based in-memory"
 aiSum: "FeFET 小样本学习存内计算：模拟电导权重存储，原型网络硬件实现，边缘能效推理。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[Ferroelectric]]"
   - "[[In-memory computing]]"
 ---

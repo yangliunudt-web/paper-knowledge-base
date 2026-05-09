@@ -1,4 +1,5 @@
 ---
+
 title: "Sub-Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array\
   \ for Hardware Implementation of Neural Networks"
 authors:
@@ -27,6 +28,8 @@ cite: "[1] Kim I J, Kim M K, Lee J S. Highly-scaled and fully-integrated 3-dimen
   \ 2023, 14: 673. DOI: 10.1038/s41467-023-36270-0."
 aiSum: "3D FeNAND 补充材料：包含器件制备工艺流程（沟槽刻蚀、HfZrOx/InZnOx 沉积）、器件参数表征和神经网络硬件实现细节。"
 confidence: high
+parent:
+  - "[[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks]]"
 ---
 
 Supplementary Information

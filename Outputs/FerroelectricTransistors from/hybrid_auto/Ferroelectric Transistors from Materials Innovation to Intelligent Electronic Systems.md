@@ -1,6 +1,4 @@
 ---
-
-
 title: "Ferroelectric Transistors: from Materials Innovation to Intelligent Electronic"
 authors:
   - "Enlong Wunan"
@@ -11,15 +9,17 @@ authors:
   - "Wenwu Junhao"
   - "Chu"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Advanced Materials"
 doi: "10.1002/adma.202515480"
 abstract: "The explosive growth of artificial intelligence, big data, and the Internet"
 abstract_cn: "人工智能、大数据和物联网的爆炸式增长推动了对计算能力和能效的前所未有的需求。然而，传统的冯·诺依曼架构在后摩尔时代日益受到晶体管缩放物理和经济极限的制约。铁电晶体管不仅仅是一种新型存储技术，更代表了一个革命性平台，将非易失性存储、存内计算和多模态传感无缝集成到单一高能效器件中，克服了传统计算架构的瓶颈。本综述全面概述了铁电材料，包括钙钛矿氧化物、铪基化合物、有机材料和新兴二维系统，强调了它们的极化起源机制和结构-性能关系。本研究重点关注三端铁电晶体管的器件物理和工程，特别关注铁电介质和基于半导体的设计的当前问题、优化策略和对比操作原理。最后，讨论了铁电晶体管在非易失性存储器、神经形态计算和人工智能硬件中从器件到系统集成的扩展应用，并展望了由铁电创新驱动的可扩展、低功耗和多功能电子学前景。"
+keywords:
+  - "[[Ferroelectric]]"
 cite: "[1] Li E, Wang W, Liu Y, et al. Ferroelectric transistors: from materials innovation"
 aiSum: "铁电晶体管综述：涵盖钙钛矿/HfO₂/有机/二维铁电材料，讨论三端FeFET器件物理、优化策略，以及非易失存储、存内计算、神经形态计算等应用，展望后摩尔时代可扩展低功耗电子系统。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[Ferroelectric]]"
 ---
 

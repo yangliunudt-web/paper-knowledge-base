@@ -1,5 +1,4 @@
 ---
-
 title: "Memristor Spiking Neural Network for Shortest Path-Based Graph Learning"
 authors:
   - "Ziting Peng"
@@ -14,7 +13,7 @@ authors:
   - "Jianmin Li"
   - "Ming Liu"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adv2312"
 abstract: "Parallel and energy-efficient searching of the shortest paths on a large graph is\
@@ -33,11 +32,14 @@ abstract: "Parallel and energy-efficient searching of the shortest paths on a la
   \ a pathway toward highly energy-efficient graph computing hardware."
 abstract_cn: "大规模图上最短路径的并行高效搜索具有挑战性。传统方法通常是顺序且计算密集的，难以应对大规模和实时情况。本文提出一种基于忆阻器脉冲神经网络的高度并行、计算和能效高的最短路径图学习方法。最短路径通过同时脉冲传播而非算术计算自然并行获得，实现极低的时间和空间复杂度。提出非线性权重映射方法抵消神经元内在非线性以保证精度。实验证明该忆阻器硬件在无监督和有监督分类任务中的能力。估算能效\
   \ 517.82 GTEPS/W，超越 FPGA 三到四个数量级。"
+keywords:
+  - "[[Memristor]]"
+  - "[[Neural network]]"
 cite: "Peng Z, Zhao X, Xu J, et al. Memristor spiking neural network for shortest path-based\
   \ graph learning[J]. Science Advances, 2025, 11(1): eadv2312. DOI: 10.1126/sciadv.adv2312."
 aiSum: "忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[Memristor]]"
   - "[[Neural network]]"
 ---
