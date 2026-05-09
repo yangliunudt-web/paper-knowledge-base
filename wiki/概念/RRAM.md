@@ -30,6 +30,7 @@ RRAM 通常是金属-绝缘体-金属（MIM）结构，在上下电极间施加�
 |------|------|----------|
 | [[Solving the integration problem of one transistor one memristor architecture with a Bi-layer IGZO film through synchronous process\|Solving the integration problem of one t...]] | 2018 | 提出通过同步工艺集成 IGZO TFT 和 RRAM 的 1T1R 架构，采用 Pt/InGaZnO/Al2O3 三层堆叠同时作为 RRAM 开关层和 |
 | [[Monolithic 3D integration of 2D transistors and vertical RRAMs in 1T–4R structure for high-densi\|Monolithic 3D integration of 2D transist...]] | 2023 | 本文实验演示了MoS2晶体管与三维垂直RRAM的单片3D集成方案，制造温度低于300°C。MoS2晶体管可驱动VRRAM到4个电阻状态，电路级建模证实比平面存储具有更小面积、更快传输和更低能耗。为高能 |
+| [[CMOS Backend-of-Line Compatible Memory Array and Logic Circuitries\|CMOS Backend-of-Line Compatible Memory A...]] | 2023 | CMOS BEOL兼容ZnO TFT：ALD工艺、85/140 cm²/V·s迁移率、1 kbit 1T1R RRAM阵列、环形振荡器>10 MHz、spice模型。 |
 | [[In-Memory Learning With Analog Resistive Switching Memory A Review and Perspective\|In-Memory Learning With Analog Resistive...]] | 2021 | 模拟RRAM存内学习综述：器件特性、硬件算法、阵列映射和架构设计，从器件到系统的挑战。 |
 | [[Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN\|Few-Shot Graph Learning with Robust and ...]] | 2022 | 少样本图学习 MAGNN：256 Kb 1T1R RRAM、CORA 78% 准确率、70 倍延迟降低、60 倍能耗降低、中科院+香港大学。 |
 ## 相关概念

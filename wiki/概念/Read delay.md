@@ -27,7 +27,7 @@ confidence: medium
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps\|Understanding correlation between memory...]] | 2024 | 铁电场效应晶体管的存储窗口闭合、读取延迟和栅极泄漏三大可靠性挑战相互关联：极化翻转加速界面层慢陷阱产生，导致存储窗口恢复减少和闭合；界面层严重退化后触发 HZO\ |
+| [[Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps\|Understanding correlation between memory...]] | 2024 | Memory window (MW) closure, [[Read delay]], and [[Gate leakage]] are three key reliability challenge |
 ## 相关概念
 
 - [[In-memory computing]]

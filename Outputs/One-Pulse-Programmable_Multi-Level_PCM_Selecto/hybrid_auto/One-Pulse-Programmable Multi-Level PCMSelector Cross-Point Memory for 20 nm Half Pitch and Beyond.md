@@ -1,5 +1,6 @@
 ---
-title: "One-Pulse-Programmable Multi-Level PCM/Selector Cross-Point Memory for 20 nm Half Pitch and Beyond"
+title: "One-Pulse-Programmable Multi-Level PCM/Selector Cross-Point Memory for 20 nm Half\
+  \ Pitch and Beyond"
 authors:
   - "Yuya Matsuzawa"
   - "Yuki Ohnishi"
@@ -16,6 +17,19 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature Electronics"
+abstract: "We demonstrated, for the first time, a multi-level phase change memory/selector cell\
+  \ which can be operated without initialization or iterative verify, showing the\
+  \ potential for future cost-effective storage-class memory applications where both\
+  \ high density and low latency are essential. We found optimal thermal and composition\
+  \ design enabled to form distinct middle resistance state, in which crystalline\
+  \ and amorphous co-exist and were placed at designed positions. Multi-level programming\
+  \ was achieved by one single pulse without any additional operation, and it was\
+  \ stable over >10^7 cycles with sufficient memory window. Furthermore, we fabricated\
+  \ and demonstrated PCM/selector cross-point memory array with half-pitch of 20 nm.\
+  \ Thermal simulation showed the one-pulse multi-level operation is feasible in cross-point\
+  \ array with 20 nm half-pitch and beyond."
+abstract_cn: "首次演示了无需初始化或迭代验证即可操作的多级相变存储器/选通管单元，展示了其在未来高密度低延迟存储级内存应用中的潜力。通过优化热设计和组分工程形成稳定的中间电阻态，其中晶态和非晶态共存并位于设计位置。多级编程仅需单脉冲完成，无需额外操作，在超过10^7次循环中保持稳定且具有足够存储窗口。此外，制备并演示了半节距20\
+  \ nm的PCM/选通管交叉点存储阵列，热仿真表明单脉冲多级操作在20 nm及以下半节距的交叉点阵列中具有可行性。"
 keywords:
   - "[[PCM]]"
   - "[[Phase change memory]]"
@@ -25,13 +39,14 @@ keywords:
   - "[[Multi-level cell]]"
   - "[[相变存储器]]"
   - "[[交叉点阵列]]"
-abstract: "We demonstrated, for the first time, a multi-level phase change memory/selector cell which can be operated without initialization or iterative verify, showing the potential for future cost-effective storage-class memory applications where both high density and low latency are essential. We found optimal thermal and composition design enabled to form distinct middle resistance state, in which crystalline and amorphous co-exist and were placed at designed positions. Multi-level programming was achieved by one single pulse without any additional operation, and it was stable over >10^7 cycles with sufficient memory window. Furthermore, we fabricated and demonstrated PCM/selector cross-point memory array with half-pitch of 20 nm. Thermal simulation showed the one-pulse multi-level operation is feasible in cross-point array with 20 nm half-pitch and beyond."
-abstract_cn: "首次演示了无需初始化或迭代验证即可操作的多级相变存储器/选通管单元，展示了其在未来高密度低延迟存储级内存应用中的潜力。通过优化热设计和组分工程形成稳定的中间电阻态，其中晶态和非晶态共存并位于设计位置。多级编程仅需单脉冲完成，无需额外操作，在超过10^7次循环中保持稳定且具有足够存储窗口。此外，制备并演示了半节距20 nm的PCM/选通管交叉点存储阵列，热仿真表明单脉冲多级操作在20 nm及以下半节距的交叉点阵列中具有可行性。"
-aiSum: "首次实现无需初始化和迭代验证的PCM/选通管多级存储单元，通过TE厚度优化控制热耗散、PCM组分垂直设计（上层富Te提高熔点）形成稳定的晶态-非晶态共存的中间电阻态（MRS），单脉冲编程、>10^7次循环耐久性。成功制备20 nm半节距交叉点阵列，热仿真表明该方案可扩展至14 nm。为高密度低成本存储级内存提供新路径。"
-cite: "[1] Matsuzawa Y, Ohnishi Y, Katono K, et al. One-Pulse-Programmable Multi-Level PCM/Selector Cross-Point Memory for 20 nm Half Pitch and Beyond[C]. 2024."
+cite: "[1] Matsuzawa Y, Ohnishi Y, Katono K, et al. One-Pulse-Programmable Multi-Level PCM/Selector\
+  \ Cross-Point Memory for 20 nm Half Pitch and Beyond[C]. 2024."
+aiSum: "首次实现无需初始化和迭代验证的PCM/选通管多级存储单元，通过TE厚度优化控制热耗散、PCM组分垂直设计（上层富Te提高熔点）形成稳定的晶态-非晶态共存的中间电阻态（MRS），单脉冲编程、>10^7次循环耐久性。成功制备20\
+  \ nm半节距交叉点阵列，热仿真表明该方案可扩展至14 nm。为高密度低成本存储级内存提供新路径。"
 confidence: "medium"
 wiki_concepts:
   - "[[Phase change memory]]"
+  - "[[crossbar]]"
   - "[[selector]]"
 ---
 

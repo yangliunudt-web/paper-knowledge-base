@@ -28,6 +28,7 @@ confidence: high
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
 | [[Ferroelectric FET Based In-Memory Computing for Few-Shot Learning\|Ferroelectric FET Based In-Memory Comput...]] | 2019 | FeFET 小样本学习存内计算：模拟电导权重存储，原型网络硬件实现，边缘能效推理。 |
+| [[Exploiting Hybrid Precision for Training and Inference of Deep Neural Networks\|Exploiting Hybrid Precision for Training...]] | 2019 | FeFET 混合精度突触：2T1F 设计、易失电容 LSB+非易失 MSB、MNIST 97.3%、CIFAR-10 87%、佐治亚理工学院。 |
 | [[Accurate deep neural network inference using computational phase-change memory\|Accurate deep neural network inference u...]] | 2020 | 将ResNet CNN映射到PCM器件进行存内推理：批归一化补偿保持精度，CIFAR-10达到93.5%硬件准确率。 |
 | [[Memory devices and applications for in‑memory computing\|Memory devices and applications for in‑m...]] | 2020 | 存内计算综述：涵盖基于电荷和基于电阻的存储设备、关键计算原语（向量‑矩阵乘法、逻辑运算、随机计算）及其在科学计算、机器学习等领域的应用，探讨器件与阵列层面的挑战与前景。 |
 | [[Parallel convolutional processing using an integrated photonic tensor core\|Parallel convolutional processing using ...]] | 2021 | 集成光子张量核心：基于相变材料存储阵列和孤子微梳，实现每秒10^12次乘加运算，带宽>14 GHz，支持并行卷积处理，为自动驾驶、实时视频处理等数据密集型AI应用提供高速低功耗硬件方案。 |
@@ -35,10 +36,9 @@ confidence: high
 | [[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks\|Highly-scaled and fully-integrated 3-dim...]] | 2023 | 提出基于 HfZrOx 铁电晶体管的三维 NAND 阵列 (3D FeNAND) 用于神经网络硬件实现，通过沟槽结构实现高密度集成，演示了向量矩阵乘法和模式分类，手写数字识别准确率 |
 | [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次展示基于多级FeFET的存内计算crossbar：1FeFET-1R结构，手写识别96.6%准确率，885.4 TOPS/W能效。 |
 | [[Demonstration of Differential Mode FeFET-Array for multi-precision storage and IMC applications\|Demonstration of Differential Mode FeFET...]] | 2023 | 差分模式FeFET阵列：12 Kbit容量、223Mb/mm²密度、VGG-8能效196 TOPS/W、1% BER下训练精度94%/推理精度88%。 |
-| [[CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing\|CMOS Backend-of-Line Compatible Memory A...]] | 2023 | CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C，单片 3D 集成存内计算。 |
 | [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems\|Ferroelectric compute-in-memory annealer...]] | 2023 | FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。 |
 | [[Fusion of Memristor and Digital Compute-In-Memory Processing Units\|Fusion of Memristor and Digital Compute-...]] | 2023 | 忆阻器-SRAM CIM 融合：77.64 TOPS/W、392μs 唤醒、<0.5% 精度损失、TSMC 22nm、自适应本地训练。 |
-| [[Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for high-precision and energy-efficient dynamic tracking\|Two-dimensional fully ferroelectric-gate...]] | 2024 | 2D FeFET 混合 CIM：布尔逻辑+多级单元、96.36% 良率、>10^12 耐久性、用于动态跟踪。 |
+| [[Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for high-precision and energy-efficient dynamic tracking\|Two-dimensional fully ferroelectric-gate...]] | 2024 | 展示二维全铁电栅控混合存内计算硬件平台，通过溶液法构建HZO/MoS2范德华界面FeFET，实现>10^12次耐久性、CtC/DtD variation ~0.3%/0.5%、0.03 fJ/bit最 |
 ## 相关概念
 
 - [[FeFET]]

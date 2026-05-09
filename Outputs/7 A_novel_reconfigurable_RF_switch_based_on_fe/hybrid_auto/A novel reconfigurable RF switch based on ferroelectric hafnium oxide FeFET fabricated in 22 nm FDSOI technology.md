@@ -1,5 +1,6 @@
 ---
-title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology"
+title: "A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated\
+  \ in 22 nm FDSOI technology"
 authors:
   - "Sukhrob Abdulazhanov"
   - "Dang Khoa Huynh"
@@ -7,16 +8,20 @@ authors:
   - "Thomas Kämpfe"
   - "Gerald Gerlach"
 date: "2023-01-01"
-year: 2023
+year: "2023"
 journal: "Neuromorphic Computing and Engineering"
-abstract: "This paper presents a novel type of ferroelectric field effect transistor (FeFET)-based RF switch with multiple finger structure fabricated in 22 nm FDSOI technology. The ability to adjust the threshold voltage non-volatile allows for a novel switch concept. The FeFET can operate at VGS=0, which reduces the necessity of bias-tee configurations in the signal path. It combines the advantages of passive and active RF switches with low loss and low distortion. The devices were implemented in the common-source configuration and demonstrate a large memory window exceeding 2 V, as well as exceptional performance at mmWave frequencies. We determined a transit frequency (fT) and maximum oscillation frequency (fMAX) of 135 GHz and 139 GHz, respectively, for a device with 16 fingers, 20 nm gate length, and 1 um gate width."
+abstract: "This paper presents a novel type of ferroelectric field effect transistor (FeFET)-based\
+  \ RF switch with multiple finger structure fabricated in 22 nm FDSOI technology.\
+  \ The ability to adjust the threshold voltage non-volatile allows for a novel switch\
+  \ concept. The FeFET can operate at VGS=0, which reduces the necessity of bias-tee\
+  \ configurations in the signal path. It combines the advantages of passive and active\
+  \ RF switches with low loss and low distortion. The devices were implemented in\
+  \ the common-source configuration and demonstrate a large memory window exceeding\
+  \ 2 V, as well as exceptional performance at mmWave frequencies. We determined a\
+  \ transit frequency (fT) and maximum oscillation frequency (fMAX) of 135 GHz and\
+  \ 139 GHz, respectively, for a device with 16 fingers, 20 nm gate length, and 1\
+  \ um gate width."
 abstract_cn: "本文提出了一种基于铁电HfO2 FeFET的新型可重构RF开关，采用22nm FDSOI技术制造的多指结构。非易失性调节阈值电压的能力实现了新型开关概念，FeFET可在VGS=0下工作减少了信号路径中偏置T配置的需求，结合了无源和有源RF开关低损耗、低失真的优点。器件采用共源配置，展示超过2V的大存储窗口和毫米波频率下的优异性能：16指、20nm栅长、1um栅宽器件的fT=135GHz、fMAX=139GHz。"
-cite: "[1] Abdulazhanov S, Huynh D K, Le Q H, et al. A novel reconfigurable RF switch based on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology[J]. Neuromorphic Computing and Engineering, 2023."
-aiSum: "在22nm FDSOI工艺上制备基于HfO2铁电FeFET的多指结构可重构RF开关，利用非易失性阈值电压调节实现零栅压操作，融合无源/有源开关优势。16指器件fT=135GHz、fMAX=139GHz，存储窗口>2V，为毫米波前端提供新型低功耗可重构方案。"
-confidence: "high"
-wiki_concepts:
-  - "[[FeFET]]"
-  - "[[HfO2]]"
 keywords:
   - "[[ferroelectric]]"
   - "[[HfO2]]"
@@ -26,6 +31,15 @@ keywords:
   - "[[RF switch]]"
   - "[[铁电]]"
   - "[[射频开关]]"
+cite: "[1] Abdulazhanov S, Huynh D K, Le Q H, et al. A novel reconfigurable RF switch based\
+  \ on ferroelectric hafnium oxide FeFET fabricated in 22 nm FDSOI technology[J].\
+  \ Neuromorphic Computing and Engineering, 2023."
+aiSum: "在22nm FDSOI工艺上制备基于HfO2铁电FeFET的多指结构可重构RF开关，利用非易失性阈值电压调节实现零栅压操作，融合无源/有源开关优势。16指器件fT=135GHz、fMAX=139GHz，存储窗口>2V，为毫米波前端提供新型低功耗可重构方案。"
+confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[HfO2]]"
 ---
 
 Sukhrob Abdulazhanov1 , Dang Khoa Huynh1 , Quang Huy Le1 , Thomas Kämpfe1 , Gerald Gerlach2

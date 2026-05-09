@@ -8,20 +8,38 @@ date: "2021-02-02"
 year: "2021"
 journal: "APL Materials"
 doi: "10.1063/5.0035515"
-abstract: "Ferroelectric field effect transistors ([[FeFET]]s) have attracted attention as next-generation devices as they can serve as a synaptic device for [[neuromorphic]] implementation and a one-transistor (1T) for achieving high integration. Since the discovery of hafnium–zirconium oxide (HZO) with high ferroelectricity (even at a thickness of several nanometers) that can be fabricated by a complementary metal–oxide–semiconductorcompatible process, FeFETs have emerged as devices with great potential. In this article, the basic principles of the FeFET and the design strategies for state-of-the-art FeFETs will be discussed. FeFETs using $\\mathrm { P b } ( \\mathrm { Z r _ { x } T i _ { 1 - x } } ) \\mathrm { O } _ { 3 } ,$ polyvinylidene fluoride, ${ \\mathrm { H Z O } } ,$ and two-dimensional materials are emphasized. FeFETs, ferroelectric semiconductor field effect transistors, and metal–ferroelectric–insulator–semiconductor structures to which those materials can be applied are introduced, and their exotic performances are investigated. Finally, the limitations of these devices’ current performance and the potential of these materials are presented. © 2021 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/). https://doi.org/10.1063/5.0035515"
+abstract: "Ferroelectric field effect transistors ([[FeFET]]s) have attracted attention as next-generation\
+  \ devices as they can serve as a synaptic device for [[neuromorphic]] implementation\
+  \ and a one-transistor (1T) for achieving high integration. Since the discovery\
+  \ of hafnium–zirconium oxide (HZO) with high ferroelectricity (even at a thickness\
+  \ of several nanometers) that can be fabricated by a complementary metal–oxide–semiconductorcompatible\
+  \ process, FeFETs have emerged as devices with great potential. In this article,\
+  \ the basic principles of the FeFET and the design strategies for state-of-the-art\
+  \ FeFETs will be discussed. FeFETs using $\\mathrm { P b } ( \\mathrm { Z r _ {\
+  \ x } T i _ { 1 - x } } ) \\mathrm { O } _ { 3 } ,$ polyvinylidene fluoride, ${\
+  \ \\mathrm { H Z O } } ,$ and two-dimensional materials are emphasized. FeFETs,\
+  \ ferroelectric semiconductor field effect transistors, and metal–ferroelectric–insulator–semiconductor\
+  \ structures to which those materials can be applied are introduced, and their exotic\
+  \ performances are investigated. Finally, the limitations of these devices’ current\
+  \ performance and the potential of these materials are presented. © 2021 Author(s).\
+  \ All article content, except where otherwise noted, is licensed under a Creative\
+  \ Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/).\
+  \ https://doi.org/10.1063/5.0035515"
+abstract_cn: "铁电场效应晶体管作为下一代器件备受关注，可作为神经形态实现的突触器件和高集成度的单晶体管。自发现可在CMOS兼容工艺下制造的具有高铁电性（即使厚度仅为几纳米）的铪锆氧化物以来，FeFET已成为具有巨大潜力的器件。本文讨论了FeFET的基本原理和设计策略，重点介绍了使用PZT、PVDF、HZO和二维材料的FeFET、铁电半导体FET和MFIS结构，研究了它们的性能特点。最后讨论了这些器件当前性能的局限性和材料潜力。"
 keywords:
   - "[[FeFET]]"
   - "[[HfO2]]"
   - "[[Ferroelectric]]"
   - "[[Review]]"
-cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress and Perspective[J]. APL Materials, 2021."
-abstract_cn: "铁电场效应晶体管作为下一代器件备受关注，可作为神经形态实现的突触器件和高集成度的单晶体管。自发现可在CMOS兼容工艺下制造的具有高铁电性（即使厚度仅为几纳米）的铪锆氧化物以来，FeFET已成为具有巨大潜力的器件。本文讨论了FeFET的基本原理和设计策略，重点介绍了使用PZT、PVDF、HZO和二维材料的FeFET、铁电半导体FET和MFIS结构，研究了它们的性能特点。最后讨论了这些器件当前性能的局限性和材料潜力。"
+cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress\
+  \ and Perspective[J]. APL Materials, 2021."
 aiSum: "综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[Ferroelectric]]"
   - "[[HfO2]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 RESEARCH ARTICLE | FEBRUARY 02 2021

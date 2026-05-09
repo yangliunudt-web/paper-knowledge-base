@@ -30,7 +30,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Ferroelectric $mathbf { A l } _ { 0 . 8 5 } mathsf { S c } _ { 0 . 1 5 } mathsf { N }$ and $mathsf { H f } _ { 0 . 5 } mathsf { Z r } _ { 0 . 5 } mathsf { O } _ { 2 }$ Domain Switching Dynamics\|Ferroelectric $mathbf { A l } _ { 0 . 8 ...]] | 2024 | ACS Applied Materials & Interfaces |
+| [[Ferroelectric $mathbf { A l } _ { 0 . 8 5 } mathsf { S c } _ { 0 . 1 5 } mathsf { N }$ and $mathsf { H f } _ { 0 . 5 } mathsf { Z r } _ { 0 . 5 } mathsf { O } _ { 2 }$ Domain Switching Dynamics\|Ferroelectric $mathbf { A l } _ { 0 . 8 ...]] | 2024 | 通过瞬态电流积分测量对比Al0.85Sc0.15N和Hf0.5Zr0.5O2两种铁电薄膜的畴切换动力学。Al0.85Sc0.15N切换由热激活蠕变畴壁运动主导，受益于c轴织构和单相特性，但双极循环导致 |
 ## 相关概念
 
 - [[Ferroelectric]]

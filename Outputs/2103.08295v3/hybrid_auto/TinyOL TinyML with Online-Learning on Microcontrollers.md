@@ -1,22 +1,25 @@
 ---
 title: "TinyOL: TinyML with Online-Learning on Microcontrollers"
-date: "2021-03-15"
-year: 2021
-journal: "arXiv"
-doi: "arXiv:2103.08295"
-abstract: "TinyOL enables online learning on microcontrollers for TinyML applications."
-abstract_cn: "TinyOL 实现微控制器上的在线学习用于 TinyML 应用。实现轻量级持续学习，包括特征提取和分类器更新，使边缘设备能够适应新数据模式而无需从头重新训练。"
-cite: "[1] Ren H, Anicic D, Runkler T A. TinyOL: TinyML with Online-Learning on Microcontrollers[C]. arXiv, 2021."
-aiSum: "微控制器在线学习 TinyOL：轻量级持续学习，特征提取+分类器更新，边缘设备自适应。"
-confidence: "low"
 authors:
   - "Haoyu Ren"
   - "Darko Anicic"
   - "Thomas A. Runkler"
+date: "2021-03-15"
+year: "2021"
+journal: "arXiv"
+doi: "arXiv:2103.08295"
+abstract: "TinyOL enables online learning on microcontrollers for TinyML applications."
+abstract_cn: "TinyOL 实现微控制器上的在线学习用于 TinyML 应用。实现轻量级持续学习，包括特征提取和分类器更新，使边缘设备能够适应新数据模式而无需从头重新训练。"
 keywords:
   - "[[TinyML]]"
   - "[[Online learning]]"
   - "[[Microcontroller]]"
+  - "[[Edge computing]]"
+cite: "[1] Ren H, Anicic D, Runkler T A. TinyOL: TinyML with Online-Learning on Microcontrollers[C].\
+  \ arXiv, 2021."
+aiSum: "微控制器在线学习 TinyOL：轻量级持续学习，特征提取+分类器更新，边缘设备自适应。"
+confidence: "low"
+wiki_concepts:
   - "[[Edge computing]]"
 ---
 

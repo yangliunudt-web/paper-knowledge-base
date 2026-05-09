@@ -11,6 +11,29 @@ authors:
 date: "2024-07-31"
 year: "2024"
 journal: "ACS Applied Materials & Interfaces"
+abstract: "The capability to reliably program partial polarization states with nanosecond programming\
+  \ speed and femtojoule energies per bit in ferroelectrics makes them an ideal candidate\
+  \ to realize multibit memory elements for high-density crossbar arrays, which could\
+  \ enable neural network models with a large number of parameters at the edge. However,\
+  \ a thorough understanding of the domain switching dynamics involved in the polarization\
+  \ reversal is required to achieve full control of the multibit capability. Transient\
+  \ current integration measurements are adopted to investigate the domain dynamics\
+  \ in aluminum scandium nitride (Al0.85Sc0.15N) and hafnium zirconium oxide (Hf0.5Zr0.5O2).\
+  \ The switching dynamics are correlated to the crystal structure of the films. The\
+  \ contributions of domain nucleation and domain wall motion are decoupled by analyzing\
+  \ the rate of change of the time-dependent normalized switched polarization. Thermally\
+  \ activated creep domain wall motion characterizes the Al0.85Sc0.15N switching dynamics.\
+  \ The statistics of independently nucleating domains and the domain wall creep motion\
+  \ in Hf0.5Zr0.5O2 are associated with the spatially inhomogeneous distribution of\
+  \ local switching field due to polymorphism, absence of preferential crystallite\
+  \ orientation, as well as defects and charges that can be located at the grain boundaries.\
+  \ The c-axis texture, single-phase nature, and strong likelihood of less fabrication\
+  \ process-induced defects contribute to the homogeneity of the local switching field\
+  \ in Al0.85Sc0.15N. Nonetheless, defects generated and redistributed upon bipolar\
+  \ electric field switching cycling result in Al0.85Sc0.15N domain wall pinning.\
+  \ The wake-up effect in Hf0.5Zr0.5O2 is explained through the continuous addition\
+  \ of switchable regions associated with two independent distributions of characteristic\
+  \ switching times."
 abstract_cn: "本文使用瞬态电流积分测量方法比较了Al0.85Sc0.15N和Hf0.5Zr0.5O2两种主流铁电薄膜系统的畴切换动力学。Al0.85Sc0.15N的切换主要由热激活蠕变畴壁运动主导，受益于c轴织构，但在双极循环中会出现畴壁钉扎。Hf0.5Zr0.5O2的特征在于独立成核的畴和畴壁蠕变，由于多晶型和晶界导致局部切换场不均匀。本文直接针对高密度crossbar阵列的多比特存储应用。"
 keywords:
   - "[[AlScN]]"
@@ -21,11 +44,14 @@ keywords:
   - "[[Domain wall motion]]"
   - "[[畴切换动力学]]"
   - "[[铁电材料]]"
-abstract: "The capability to reliably program partial polarization states with nanosecond programming speed and femtojoule energies per bit in ferroelectrics makes them an ideal candidate to realize multibit memory elements for high-density crossbar arrays, which could enable neural network models with a large number of parameters at the edge. However, a thorough understanding of the domain switching dynamics involved in the polarization reversal is required to achieve full control of the multibit capability. Transient current integration measurements are adopted to investigate the domain dynamics in aluminum scandium nitride (Al0.85Sc0.15N) and hafnium zirconium oxide (Hf0.5Zr0.5O2). The switching dynamics are correlated to the crystal structure of the films. The contributions of domain nucleation and domain wall motion are decoupled by analyzing the rate of change of the time-dependent normalized switched polarization. Thermally activated creep domain wall motion characterizes the Al0.85Sc0.15N switching dynamics. The statistics of independently nucleating domains and the domain wall creep motion in Hf0.5Zr0.5O2 are associated with the spatially inhomogeneous distribution of local switching field due to polymorphism, absence of preferential crystallite orientation, as well as defects and charges that can be located at the grain boundaries. The c-axis texture, single-phase nature, and strong likelihood of less fabrication process-induced defects contribute to the homogeneity of the local switching field in Al0.85Sc0.15N. Nonetheless, defects generated and redistributed upon bipolar electric field switching cycling result in Al0.85Sc0.15N domain wall pinning. The wake-up effect in Hf0.5Zr0.5O2 is explained through the continuous addition of switchable regions associated with two independent distributions of characteristic switching times."
-cite: "[1] Guido R, Wang X, Xu B, et al. Ferroelectric Al0.85Sc0.15N and Hf0.5Zr0.5O2 Domain Switching Dynamics[J]. ACS Applied Materials & Interfaces, 2024, 16: 42415-42425."
+cite: "[1] Guido R, Wang X, Xu B, et al. Ferroelectric Al0.85Sc0.15N and Hf0.5Zr0.5O2 Domain\
+  \ Switching Dynamics[J]. ACS Applied Materials & Interfaces, 2024, 16: 42415-42425."
 aiSum: "通过瞬态电流积分测量对比Al0.85Sc0.15N和Hf0.5Zr0.5O2两种铁电薄膜的畴切换动力学。Al0.85Sc0.15N切换由热激活蠕变畴壁运动主导，受益于c轴织构和单相特性，但双极循环导致畴壁钉扎。Hf0.5Zr0.5O2的特征为独立成核畴和畴壁蠕变，其多晶型和晶界导致局部切换场空间不均匀。Hf0.5Zr0.5O2的唤醒效应由两组独立特征切换时间分布的连续可切换区域增加解释。直接面向高密度crossbar阵列的多比特存储应用。"
 confidence: "high"
 wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric]]"
+  - "[[domain wall motion]]"
 ---
 
 www.acsami.org

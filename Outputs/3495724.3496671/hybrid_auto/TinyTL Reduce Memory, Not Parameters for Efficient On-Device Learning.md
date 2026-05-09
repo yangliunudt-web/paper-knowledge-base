@@ -6,10 +6,25 @@ authors:
   - "Ligeng Zhu"
   - "Song Han"
 date: "2020-12-06"
-year: 2020
+year: "2020"
 journal: "NeurIPS"
 doi: "10.5555/3495724.3496671"
-abstract: "On-device learning enables edge devices to continually adapt the AI models to new data, which requires a small memory footprint to fit the tight memory constraint of edge devices. Existing work solves this problem by reducing the number of trainable parameters. However, this does not directly translate to memory saving since the major bottleneck is the activations, not parameters. In this work, we present Tiny-Transfer-Learning (TinyTL) for memory-efficient on-device learning. TinyTL freezes the weights while only learns the bias modules, thus no need to store the intermediate activations. To maintain the adaptation capacity, we introduce a new memory-efficient bias module, the lite residual module, to refine the feature extractor by learning small residual feature maps adding only 3.8% memory overhead. Extensive experiments show that TinyTL significantly saves the memory (up to 6.5x) with little accuracy loss compared to fine-tuning the full network. Compared to fine-tuning the last layer, TinyTL provides significant accuracy improvements (up to 34.1%) with little memory overhead. Furthermore, combined with feature extractor adaptation, TinyTL provides 7.3-12.9x memory saving without sacrificing accuracy compared to fine-tuning the full Inception-V3."
+abstract: "On-device learning enables edge devices to continually adapt the AI models to new\
+  \ data, which requires a small memory footprint to fit the tight memory constraint\
+  \ of edge devices. Existing work solves this problem by reducing the number of trainable\
+  \ parameters. However, this does not directly translate to memory saving since the\
+  \ major bottleneck is the activations, not parameters. In this work, we present\
+  \ Tiny-Transfer-Learning (TinyTL) for memory-efficient on-device learning. TinyTL\
+  \ freezes the weights while only learns the bias modules, thus no need to store\
+  \ the intermediate activations. To maintain the adaptation capacity, we introduce\
+  \ a new memory-efficient bias module, the lite residual module, to refine the feature\
+  \ extractor by learning small residual feature maps adding only 3.8% memory overhead.\
+  \ Extensive experiments show that TinyTL significantly saves the memory (up to 6.5x)\
+  \ with little accuracy loss compared to fine-tuning the full network. Compared to\
+  \ fine-tuning the last layer, TinyTL provides significant accuracy improvements\
+  \ (up to 34.1%) with little memory overhead. Furthermore, combined with feature\
+  \ extractor adaptation, TinyTL provides 7.3-12.9x memory saving without sacrificing\
+  \ accuracy compared to fine-tuning the full Inception-V3."
 abstract_cn: "设备端学习使边缘设备能够持续适应新数据的 AI 模型，需要较小的内存占用以适应边缘设备的紧张内存约束。现有工作通过减少可训练参数数量来解决这个问题，但这并不直接转化为内存节省，因为主要瓶颈是激活值而非参数。本文提出"
 keywords:
   - "[[TinyML]]"
@@ -19,6 +34,8 @@ keywords:
 cite: "[1] Cai H, Gan C, Zhu L, et al. TinyTL: reduce memory, not parameters for efficient"
 aiSum: "提出 TinyTL 冻结权重仅学习偏置模块，引入轻量残差模块保持适应能力，实现内存节省高达 6.5 倍（对比全网络微调）或 7.3‑12.9 倍（结合特征提取器适配），准确率损失小。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 舟 Latest updates: hps://dl.acm.org/doi/10.5555/3495724.3496671

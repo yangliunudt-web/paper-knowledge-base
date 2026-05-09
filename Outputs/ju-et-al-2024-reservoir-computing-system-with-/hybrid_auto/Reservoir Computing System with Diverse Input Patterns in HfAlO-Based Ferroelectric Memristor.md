@@ -1,5 +1,6 @@
 ---
-title: "Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric Memristor"
+title: "Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric\
+  \ Memristor"
 authors:
   - "Dongyeol Ju"
   - "Minseo Noh"
@@ -11,7 +12,29 @@ date: "2024-11-19"
 year: "2024"
 journal: "ACS Applied Materials & Interfaces"
 doi: "10.1021/acsami.4c11513"
-abstract: "Ferroelectric memristors, particularly those based on hafnia, are gaining attention as potential candidates for neuromorphic computing. These devices offer advantages over perovskite-based ferroelectric memristors owing to their simpler structures, compatibility with complementary metal-oxide semiconductor technology, and low-power consumption characteristics. Additionally, improvements in ferroelectric memristor performance, such as enhancing tunneling electro resistance (TER) and polarization retention, can be achieved using methods like aluminum doping and insulating film deposition. In this study, we implement a physical reservoir computing (RC) system utilizing the metal-ferroelectric-insulator-semiconductor-structured ferroelectric memristor based on Al-doped HfO as an artificial synapse. Specifically, we ensure the universality and diversity of the system by experimentally demonstrating a robust reservoir layer capable of handling various types of input pulses. To utilize the ferroelectric memristor in the reservoir layer of the RC system, we employ partial polarization switching of ferroelectric materials. We measure the retention loss characteristics of the device for pulse amplitude, interval, and width, and quantify the time constant values by fitting them to a stretched exponential function. Additionally, we validate the suitability of the fabricated device as an artificial synapse by mimicking various short-term plasticity functions of biological synapses. Furthermore, we experimentally demonstrate various applications related to learning and memory of the brain, such as image training and Pavlov experiment, utilizing the short-term memory characteristics of the fabricated device. Lastly, we evaluate the robustness of the RC system under various input conditions by employing the fabricated device as a reservoir layer."
+abstract: "Ferroelectric memristors, particularly those based on hafnia, are gaining attention\
+  \ as potential candidates for neuromorphic computing. These devices offer advantages\
+  \ over perovskite-based ferroelectric memristors owing to their simpler structures,\
+  \ compatibility with complementary metal-oxide semiconductor technology, and low-power\
+  \ consumption characteristics. Additionally, improvements in ferroelectric memristor\
+  \ performance, such as enhancing tunneling electro resistance (TER) and polarization\
+  \ retention, can be achieved using methods like aluminum doping and insulating film\
+  \ deposition. In this study, we implement a physical reservoir computing (RC) system\
+  \ utilizing the metal-ferroelectric-insulator-semiconductor-structured ferroelectric\
+  \ memristor based on Al-doped HfO as an artificial synapse. Specifically, we ensure\
+  \ the universality and diversity of the system by experimentally demonstrating a\
+  \ robust reservoir layer capable of handling various types of input pulses. To utilize\
+  \ the ferroelectric memristor in the reservoir layer of the RC system, we employ\
+  \ partial polarization switching of ferroelectric materials. We measure the retention\
+  \ loss characteristics of the device for pulse amplitude, interval, and width, and\
+  \ quantify the time constant values by fitting them to a stretched exponential function.\
+  \ Additionally, we validate the suitability of the fabricated device as an artificial\
+  \ synapse by mimicking various short-term plasticity functions of biological synapses.\
+  \ Furthermore, we experimentally demonstrate various applications related to learning\
+  \ and memory of the brain, such as image training and Pavlov experiment, utilizing\
+  \ the short-term memory characteristics of the fabricated device. Lastly, we evaluate\
+  \ the robustness of the RC system under various input conditions by employing the\
+  \ fabricated device as a reservoir layer."
 abstract_cn: "铁电忆阻器，特别是基于铪的那些，因结构更简单、与CMOS技术兼容和低功耗特性，相比钙钛矿基铁电忆阻器更具优势。通过铝掺杂和绝缘膜沉积可提升隧穿电阻（TER）和极化保持等性能。本研究利用基于Al掺杂HfO的MFIS结构铁电忆阻器作为人工突触实现物理储备池计算系统，通过实验演示可处理多种输入脉冲类型的鲁棒储备池层确保系统的普适性和多样性。利用铁电材料的部分极化切换，测量器件对脉冲幅度、间隔和宽度的保持损耗特性，通过拉伸指数函数拟合量化时间常数值。通过模拟生物突触的多种短期可塑性功能验证器件作为人工突触的适用性，利用器件的短期记忆特性实验演示图像训练和巴甫洛夫实验等大脑学习记忆相关应用，最后评估了RC系统在不同输入条件下的鲁棒性。"
 keywords:
   - "[[Reservoir computing]]"
@@ -21,10 +44,13 @@ keywords:
   - "[[HfO2]]"
   - "[[储备池计算]]"
   - "[[铁电忆阻器]]"
-cite: "[1] Ju D, Noh M, Kim G, et al. Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric Memristor[J]. ACS Applied Materials & Interfaces, 2024, 16: 66250-66261."
+cite: "[1] Ju D, Noh M, Kim G, et al. Reservoir Computing System with Diverse Input Patterns\
+  \ in HfAlO-Based Ferroelectric Memristor[J]. ACS Applied Materials & Interfaces,\
+  \ 2024, 16: 66250-66261."
 aiSum: "实现基于 Al 掺杂 HfO 铁电忆阻器的储备池计算系统，演示可处理多种输入脉冲类型的鲁棒储备池层，模拟生物突触短期可塑性，验证图像训练和巴甫洛夫实验等应用。"
 confidence: "high"
 wiki_concepts:
+  - "[[HfO2]]"
   - "[[Memristor]]"
   - "[[Reservoir computing]]"
 ---

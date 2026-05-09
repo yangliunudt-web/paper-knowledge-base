@@ -1,13 +1,32 @@
 ---
-title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic Computing and Adaptive Sensing"
+title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic Computing\
+  \ and Adaptive Sensing"
 authors:
   - "Sayani Majumdar"
 date: "2021-12-01"
 year: "2021"
 journal: "Advanced Intelligent Systems"
 doi: "10.1002/aisy.202100175"
-abstract: "Development of unconventional computing architectures, including neuromorphic computing, relies heavily on novel devices with properly engineered properties. This requires exploration of new functional materials and their designed interfaces. Ferroelectric memories including two-terminal ferroelectric tunnel junctions and three-terminal ferroelectric field-effect transistors have shown promising performances in recent years as analog, multibit memory components with ultralow power consumption. However, for ferroelectric memory technology to become a mainstream technology, CMOS integration of these components is of major importance. For further diversifying their application to edge computing and smart sensing industry, a vast unchartered territory of low-temperature processable and CMOS back-end-of-line (BEOL) compatible materials needs to be researched. In recent years, doped HfO2-based memory devices and in-memory computing architectures have gathered huge momentum as one of the beyond von Neumann computing alternatives. In comparison, molecular ferroelectric-based systems are still in their early exploratory phase. This review discusses the potential for doped HfO2 and molecular ferroelectrics as CMOS BEOL and flexible and wearable platform compatible neuromorphic devices and circuits and the challenges that need to be overcome for turning the opportunities to a technological reality."
-abstract_cn: "包括神经形态计算在内的非传统计算架构的发展高度依赖具有适当工程特性的新型器件，需要探索新功能材料及其设计界面。近年来，包括两端铁电隧道结和三端铁电场效应晶体管在内的铁电存储器作为模拟多位存储组件展现出优异的超低功耗性能。然而铁电存储器技术要成为主流技术，CMOS集成至关重要。为进一步扩展其在边缘计算和智能传感中的应用，需研究低温可加工且CMOS BEOL兼容的材料。掺杂HfO2基存储器件和存内计算架构作为超越冯·诺依曼计算方案已获得巨大关注，而分子铁电系统仍处于早期探索阶段。本综述讨论掺杂HfO2和分子铁电体作为CMOS BEOL和柔性可穿戴平台兼容神经形态器件与电路的潜力及需克服的挑战。"
+abstract: "Development of unconventional computing architectures, including neuromorphic computing,\
+  \ relies heavily on novel devices with properly engineered properties. This requires\
+  \ exploration of new functional materials and their designed interfaces. Ferroelectric\
+  \ memories including two-terminal ferroelectric tunnel junctions and three-terminal\
+  \ ferroelectric field-effect transistors have shown promising performances in recent\
+  \ years as analog, multibit memory components with ultralow power consumption. However,\
+  \ for ferroelectric memory technology to become a mainstream technology, CMOS integration\
+  \ of these components is of major importance. For further diversifying their application\
+  \ to edge computing and smart sensing industry, a vast unchartered territory of\
+  \ low-temperature processable and CMOS back-end-of-line (BEOL) compatible materials\
+  \ needs to be researched. In recent years, doped HfO2-based memory devices and in-memory\
+  \ computing architectures have gathered huge momentum as one of the beyond von Neumann\
+  \ computing alternatives. In comparison, molecular ferroelectric-based systems are\
+  \ still in their early exploratory phase. This review discusses the potential for\
+  \ doped HfO2 and molecular ferroelectrics as CMOS BEOL and flexible and wearable\
+  \ platform compatible neuromorphic devices and circuits and the challenges that\
+  \ need to be overcome for turning the opportunities to a technological reality."
+abstract_cn: "包括神经形态计算在内的非传统计算架构的发展高度依赖具有适当工程特性的新型器件，需要探索新功能材料及其设计界面。近年来，包括两端铁电隧道结和三端铁电场效应晶体管在内的铁电存储器作为模拟多位存储组件展现出优异的超低功耗性能。然而铁电存储器技术要成为主流技术，CMOS集成至关重要。为进一步扩展其在边缘计算和智能传感中的应用，需研究低温可加工且CMOS\
+  \ BEOL兼容的材料。掺杂HfO2基存储器件和存内计算架构作为超越冯·诺依曼计算方案已获得巨大关注，而分子铁电系统仍处于早期探索阶段。本综述讨论掺杂HfO2和分子铁电体作为CMOS\
+  \ BEOL和柔性可穿戴平台兼容神经形态器件与电路的潜力及需克服的挑战。"
 keywords:
   - "[[Ferroelectric]]"
   - "[[Neuromorphic computing]]"
@@ -16,11 +35,14 @@ keywords:
   - "[[FTJ]]"
   - "[[铁电存储器]]"
   - "[[神经形态计算]]"
-cite: "[1] Majumdar S. Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic Computing and Adaptive Sensing[J]. Advanced Intelligent Systems, 2021."
+cite: "[1] Majumdar S. Back-End CMOS Compatible and Flexible Ferroelectric Memories for\
+  \ Neuromorphic Computing and Adaptive Sensing[J]. Advanced Intelligent Systems,\
+  \ 2021."
 aiSum: "综述掺杂 HfO2 和分子铁电体作为 CMOS BEOL 兼容和柔性可穿戴平台神经形态器件的潜力，讨论铁电存储器技术在边缘计算中的应用前景。"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
+  - "[[FeRAM]]"
   - "[[Ferroelectric]]"
   - "[[HfO2]]"
   - "[[Neuromorphic computing]]"

@@ -27,7 +27,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。 |
+| [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 受果蝇学习系统启发，提出基于主动遗忘与多学习模块的持续学习方法：通过参数分布衰减旧记忆提升可塑性，多学习器架构保证兼容性。在任务增量学习中优于突触正则化方法，为理解神经自适应机制提供新视角。 |
 | [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | 持续学习综述：五类方法（正则化/回放/优化/表示/架构），系统性分析稳定性-可塑性权衡。 |
 | [[Hybrid neural networks for continual learning inspired by corticohippocampal circuits\|Hybrid neural networks for continual lea...]] | 2025 | CH-HNN混合神经网络模型，模拟皮质-海马回路的双重记忆表征。ANN+SNN混合架构，结合元可塑性机制动态调节学习率。在任务增量和类别增量学习场景中表现优异，SNN组件支持低功耗神经形态硬件部署。 |
 | [[PackNet Adding Multiple Tasks to a Single Network by Iterative Pruning\|PackNet Adding Multiple Tasks to a Singl...]] | 2018 | 提出 PackNet 通过迭代剪枝实现持续学习：先剪枝释放冗余参数，再用释放的参数学习新任务，每个任务只需存储二进制掩码，在 VGG-16 上成功添加 |
@@ -36,7 +36,7 @@ confidence: high
 | [[Overcoming Catastrophic Forgetting with Synaptic Intelligence\|Overcoming Catastrophic Forgetting with ...]] | 2018 | Progress & Compress 持续学习：知识库+主动列双网络、蒸馏保护、无架构增长、Atari 游戏验证。 |
 | [[Supermasks in Superposition\|Supermasks in Superposition]] | 2020 | 提出 SupSup 模型，利用固定随机权重网络上的超级掩码实现顺序学习数千任务而不遗忘，通过梯度优化推断任务标识，单步即可在 2500 任务中识别正确掩码。 |
 | [[Isolation and Impartial Aggregation A Paradigm of Incremental Learning without Interference\|Isolation and Impartial Aggregation A Pa...]] | 2022 | 阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。 |
-| [[Meta-attention for ViT-backed Continual Learning\|Meta-attention for ViT-backed Continual ...]] | 2022 | 采用混合神经网络+元可塑性+参数隔离的方法，解决持续学习中的灾难性遗忘问题。在多个基准数据集上验证，性能优于现有方法。 |
+| [[Meta-attention for ViT-backed Continual Learning\|Meta-attention for ViT-backed Continual ...]] | 2022 | 提出面向ViT持续学习的元注意力机制，自适应生成任务注意力图保留知识，解决现有ViT方法忽略注意力机制的问题。在多个持续学习基准上性能优于现有方法。 |
 | [[Forget-free Continual Learning with Winning Subnetworks\|Forget-free Continual Learning with Winn...]] | 2022 | 获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。 |
 | [[Helpful or Harmful Inter-Task Association in Continual Learning\|Helpful or Harmful Inter-Task Associatio...]] | 2022 | 持续学习中的任务关联分析：通过模型搜索区分有益/有害旧任务知识，结合敏感性度量发现任务间协作关系，在任务/类增量场景中优于多种基线，缓解灾难性遗忘。 |
 ## 相关概念

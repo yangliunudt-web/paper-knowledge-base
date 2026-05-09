@@ -39,9 +39,9 @@ confidence: high
 | [[Memristor Spiking Neural Network for Shortest Path-Based Graph Learning\|Memristor Spiking Neural Network for Sho...]] | 2025 | 忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。 |
 | [[Real-Time Signal Processing with Memristor-Based Fused Network\|Real-Time Signal Processing with Memrist...]] | 2025 | 忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。 |
 | [[A near-threshold memristive computing-inmemory engine for edge intelligence\|A near-threshold memristive computing-in...]] | 2025 | 近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。 |
-| [[Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array\|Van der Waals Engineering of One-Transis...]] | 2025 | 本文展示了全范德华组装的1T1M架构，CuCrP2S6/MoS2/h-BN堆叠。器件实现120 fA漏电流、10^6阻态可调性、12 fW功耗、<1V操作电压。神经形态阵列串扰降低2个数量级，256x |
+| [[Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array\|Van der Waals Engineering of One-Transis...]] | 2025 | 提出基于范德华工程的CuCrP2S6/MoS2/h-BN全二维材料1T1M架构，利用CuCrP2S6的铁电极化反转实现非易失阻变，电阻可调性达10^6，潜行电流低至120 fA，静态功耗仅12 fW。 |
 | [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors\|Large-scale crossbar arrays based on thr...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。 |
-| [[A memristor‑based unified PUF and TRNG chip with a concealable ability for advanced edge security\|A memristor‑based unified PUF and TRNG c...]] | 2025 | 基于 28 nm 嵌入式忆阻器的统一 PUF/TRNG 芯片：利用 FORMING 条件变异和读取电流变异作为熵源，设计紧凑熵提取器实现 41.7 Mbps 吞吐量，隐蔽方法防止数据泄露，认证吞吐量比 |
+| [[A memristor‑based unified PUF and TRNG chip with a concealable ability for advanced edge security\|A memristor‑based unified PUF and TRNG c...]] | 2025 | 基于28nm嵌入式忆阻器实现统一PUF和TRNG芯片，利用忆阻器FORMING条件variation（静态熵）和读取电流variation（动态熵）作为双熵源，设计紧凑片上熵提取器实现41.7 Mbp |
 ## 相关概念
 
 - [[RRAM]]

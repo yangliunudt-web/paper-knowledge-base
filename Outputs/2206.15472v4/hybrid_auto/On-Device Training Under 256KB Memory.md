@@ -8,11 +8,27 @@ authors:
   - "Chuang Gan"
   - "Song Han"
 date: "2022-06-30"
-year: 2022
+year: "2022"
 journal: "arXiv preprint arXiv:2206.15472"
 doi: "arXiv:2206.15472"
-abstract: "On-device training enables the model to adapt to new data collected from the sensors by fine-tuning a pre-trained model. Users can benefit from customized AI models without having to transfer the data to the cloud, protecting the privacy. However, the training memory consumption is prohibitive for IoT devices that have tiny memory resources. We propose an algorithm-system co-design framework to make on-device training possible with only 256KB of memory. To cope with the optimization difficulty, we propose Quantization-Aware Scaling to calibrate the gradient scales and stabilize 8-bit quantized training. To reduce the memory footprint, we propose Sparse Update to skip the gradient computation of less important layers and sub-tensors. The algorithm innovation is implemented by a lightweight training system, Tiny Training Engine, which prunes the backward computation graph to support sparse updates and offload the runtime auto-differentiation to compile time. Our framework is the first solution to enable tiny on-device training of convolutional neural networks under 256KB SRAM and 1MB Flash without auxiliary memory, using less than 1/1000 of the memory of PyTorch and TensorFlow while matching the accuracy on tinyML applications."
-abstract_cn: "设备端训练使模型能通过微调预训练模型适应从传感器收集的新数据，保护隐私。但训练内存消耗对资源受限的物联网设备是致命障碍。本文提出算法-系统协同设计框架在仅256KB内存实现设备端训练：提出量化感知缩放（QAS）校准梯度尺度稳定8位量化训练；提出稀疏更新跳过次要层的梯度计算减少内存占用。算法创新由轻量训练系统Tiny Training Engine实现。该框架是首个在256KB SRAM和1MB Flash下无需辅助内存实现CNN设备端训练的方案。"
+abstract: "On-device training enables the model to adapt to new data collected from the sensors\
+  \ by fine-tuning a pre-trained model. Users can benefit from customized AI models\
+  \ without having to transfer the data to the cloud, protecting the privacy. However,\
+  \ the training memory consumption is prohibitive for IoT devices that have tiny\
+  \ memory resources. We propose an algorithm-system co-design framework to make on-device\
+  \ training possible with only 256KB of memory. To cope with the optimization difficulty,\
+  \ we propose Quantization-Aware Scaling to calibrate the gradient scales and stabilize\
+  \ 8-bit quantized training. To reduce the memory footprint, we propose Sparse Update\
+  \ to skip the gradient computation of less important layers and sub-tensors. The\
+  \ algorithm innovation is implemented by a lightweight training system, Tiny Training\
+  \ Engine, which prunes the backward computation graph to support sparse updates\
+  \ and offload the runtime auto-differentiation to compile time. Our framework is\
+  \ the first solution to enable tiny on-device training of convolutional neural networks\
+  \ under 256KB SRAM and 1MB Flash without auxiliary memory, using less than 1/1000\
+  \ of the memory of PyTorch and TensorFlow while matching the accuracy on tinyML\
+  \ applications."
+abstract_cn: "设备端训练使模型能通过微调预训练模型适应从传感器收集的新数据，保护隐私。但训练内存消耗对资源受限的物联网设备是致命障碍。本文提出算法-系统协同设计框架在仅256KB内存实现设备端训练：提出量化感知缩放（QAS）校准梯度尺度稳定8位量化训练；提出稀疏更新跳过次要层的梯度计算减少内存占用。算法创新由轻量训练系统Tiny\
+  \ Training Engine实现。该框架是首个在256KB SRAM和1MB Flash下无需辅助内存实现CNN设备端训练的方案。"
 keywords:
   - "[[TinyML]]"
   - "[[On-device training]]"
@@ -21,6 +37,8 @@ keywords:
 cite: "Lin J, Zhu L, Chen W M, et al. On-Device Training Under 256KB Memory[J]. arXiv"
 aiSum: "算法-系统协同设计：QAS 稳定 8 位量化训练、稀疏更新减少内存占用、TTE 轻量引擎实现 256KB 内存训练，精度匹配云端，内存仅 PyTorch"
 confidence: "low"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 # On-Device Training Under 256KB Memory

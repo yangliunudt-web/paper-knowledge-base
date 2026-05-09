@@ -18,6 +18,20 @@ date: "2025-01-01"
 year: "2025"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adv3436"
+abstract: "The von Neumann bottleneck has led to a substantial rise in energy consumption of\
+  \ computing hardware and memory systems, particularly for data-intensive tasks like\
+  \ signal processing. Memristor-based in-memory computing offers an efficient alternative\
+  \ by performing computations within analog memory. Here, we demonstrate real-time\
+  \ signal processing using a fused network that combines the real-time discrete Fourier\
+  \ transform (DFT) and convolutional neural network (CNN) on a memristor-based analog\
+  \ system on a chip (SoC). A 128-by-128 memristor crossbar array performs the DFT\
+  \ on audio signals with a peak signal-to-noise ratio of 33.49 dB, while the following\
+  \ CNN classifies the resulting spectrograms with 94.72% accuracy on the AudioMNIST\
+  \ dataset. In addition, convolution-based edge detection is applied to real-time\
+  \ video frames. The SoC offers substantial energy efficiency improvement over traditional\
+  \ digital systems in signal processing tasks."
+abstract_cn: "冯·诺依曼瓶颈导致计算硬件和存储系统的能耗大幅上升，尤其对于信号处理等数据密集型任务。基于忆阻器的存内计算通过在模拟存储器内执行计算提供了高效替代方案。本文展示了在忆阻器模拟片上系统（SoC）上使用融合网络进行实时信号处理，该网络结合了实时离散傅里叶变换（DFT）和卷积神经网络（CNN）。128×128忆阻器交叉阵列对音频信号执行DFT，峰值信噪比达33.49\
+  \ dB，随后CNN对生成的频谱图进行分类，在AudioMNIST数据集上达到94.72%准确率。此外，基于卷积的边缘检测应用于实时视频帧。该SoC在信号处理任务中相比传统数字系统提供了显著的能效改进。"
 keywords:
   - "[[Memristor]]"
   - "[[In-memory computing]]"
@@ -25,12 +39,12 @@ keywords:
   - "[[CNN]]"
   - "[[Signal processing]]"
   - "[[SoC]]"
-abstract: "The von Neumann bottleneck has led to a substantial rise in energy consumption of computing hardware and memory systems, particularly for data-intensive tasks like signal processing. Memristor-based in-memory computing offers an efficient alternative by performing computations within analog memory. Here, we demonstrate real-time signal processing using a fused network that combines the real-time discrete Fourier transform (DFT) and convolutional neural network (CNN) on a memristor-based analog system on a chip (SoC). A 128-by-128 memristor crossbar array performs the DFT on audio signals with a peak signal-to-noise ratio of 33.49 dB, while the following CNN classifies the resulting spectrograms with 94.72% accuracy on the AudioMNIST dataset. In addition, convolution-based edge detection is applied to real-time video frames. The SoC offers substantial energy efficiency improvement over traditional digital systems in signal processing tasks."
-abstract_cn: "冯·诺依曼瓶颈导致计算硬件和存储系统的能耗大幅上升，尤其对于信号处理等数据密集型任务。基于忆阻器的存内计算通过在模拟存储器内执行计算提供了高效替代方案。本文展示了在忆阻器模拟片上系统（SoC）上使用融合网络进行实时信号处理，该网络结合了实时离散傅里叶变换（DFT）和卷积神经网络（CNN）。128×128忆阻器交叉阵列对音频信号执行DFT，峰值信噪比达33.49 dB，随后CNN对生成的频谱图进行分类，在AudioMNIST数据集上达到94.72%准确率。此外，基于卷积的边缘检测应用于实时视频帧。该SoC在信号处理任务中相比传统数字系统提供了显著的能效改进。"
-cite: "[1] Wang Z, Song W, Wang T, et al. Real-time signal processing enabled by fused networks on a memristor-based system on a chip[J]. Science Advances, 2025."
+cite: "[1] Wang Z, Song W, Wang T, et al. Real-time signal processing enabled by fused networks\
+  \ on a memristor-based system on a chip[J]. Science Advances, 2025."
 aiSum: "忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。"
 confidence: "high"
 wiki_concepts:
+  - "[[In-memory computing]]"
   - "[[Memristor]]"
 ---
 

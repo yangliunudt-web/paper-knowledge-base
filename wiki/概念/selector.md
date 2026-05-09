@@ -28,7 +28,7 @@ confidence: high
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[One-Pulse-Programmable Multi-Level PCMSelector Cross-Point Memory for 20 nm Half Pitch and Beyond\|One-Pulse-Programmable Multi-Level PCMSe...]] | 2024 | Nature Electronics |
+| [[One-Pulse-Programmable Multi-Level PCMSelector Cross-Point Memory for 20 nm Half Pitch and Beyond\|One-Pulse-Programmable Multi-Level PCMSe...]] | 2024 | 首次实现无需初始化和迭代验证的PCM/选通管多级存储单元，通过TE厚度优化控制热耗散、PCM组分垂直设计（上层富Te提高熔点）形成稳定的晶态-非晶态共存的中间电阻态（MRS），单脉冲编程、>10^7次 |
 ## 相关概念
 
 - [[RRAM]]
