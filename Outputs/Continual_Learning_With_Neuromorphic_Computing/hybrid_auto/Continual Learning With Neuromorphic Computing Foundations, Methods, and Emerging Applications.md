@@ -1,6 +1,5 @@
 ---
-title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging\
-  \ Applications"
+title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging Applications"
 authors:
   - "Mishal Fatima Minhas Rachmad Vidya Wicaksana Putra"
   - "Falah Awwad"

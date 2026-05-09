@@ -1,5 +1,4 @@
 ---
-
 title: "Supermasks in Superposition"
 authors:
   - "Mitchell Wortsman"
@@ -13,15 +12,15 @@ date: "2020-01-01"
 year: "2020"
 journal: "NeurIPS"
 doi: "arXiv:2006.14769"
-abstract: "We present the Supermasks in Superposition (SupSup) model, capable of sequentially\\"
-abstract_cn: "提出 Supermasks in Superposition（SupSup）模型，能够顺序学习数千个任务而不发生灾难性遗忘。该方法使用随机初始化的固定基础网络，为每个任务找到一个能实现良好性能的子网络（超级掩码）。如果测试时提供任务标识，可以用最小内存检索正确的子网络；如果没有提供，SupSup\\"
+abstract: "We present the Supermasks in Superposition (SupSup) model, capable of sequentially\"
+abstract_cn: "提出 Supermasks in Superposition（SupSup）模型，能够顺序学习数千个任务而不发生灾难性遗忘。该方法使用随机初始化的固定基础网络，为每个任务找到一个能实现良好性能的子网络（超级掩码）。如果测试时提供任务标识，可以用最小内存检索正确的子网络；如果没有提供，SupSup\"
 keywords:
   - "[[Supermasks]]"
   - "[[Continual learning]]"
   - "[[Catastrophic forgetting]]"
   - "[[Task inference]]"
   - "[[Neural network pruning]]"
-cite: "[1] Wortsman M, Ramanujan V, Liu R, et al. Supermasks in superposition[C]//Advances\\"
+cite: "[1] Wortsman M, Ramanujan V, Liu R, et al. Supermasks in superposition[C]//Advances\"
 aiSum: "提出 SupSup 模型，利用固定随机权重网络上的超级掩码实现顺序学习数千任务而不遗忘，通过梯度优化推断任务标识，单步即可在 2500 任务中识别正确掩码。"
 confidence: "medium"
 wiki_concepts:

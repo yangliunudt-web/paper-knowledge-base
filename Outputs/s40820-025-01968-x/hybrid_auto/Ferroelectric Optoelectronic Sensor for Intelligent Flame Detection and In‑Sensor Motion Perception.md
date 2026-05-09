@@ -19,7 +19,6 @@ authors:
 date: "2026-01-01"
 year: 2026
 journal: "Nano-Micro Letters"
-doi: ""
 abstract: "A ferroelectric optoelectronic sensor based on Ga2O3 and In2Se3 heterostructure for intelligent flame detection and in-sensor motion perception, demonstrating multi-functional sensing capabilities."
 abstract_cn: "基于Ga2O3和In2Se3异质结构的铁电光电传感器，用于智能火焰检测和传感器内运动感知，展示了多功能传感能力。"
 keywords:
@@ -30,7 +29,7 @@ keywords:
   - "[[In2Se3]]"
 cite: "Wei J, Ma G, Liang R, et al. Ferroelectric optoelectronic sensor for intelligent flame detection and in-sensor motion perception[J]. Nano-Micro Letters, 2026, 18: 12. (待补充DOI)"
 aiSum: "Ga2O3/In2Se3异质结铁电光电传感器：智能火焰检测+传感器内运动感知，多功能传感。"
-confidence: high
+confidence: "high"
 wiki_concepts:
   - "[[Ferroelectric]]"
 ---

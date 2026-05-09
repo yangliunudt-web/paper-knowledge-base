@@ -1,5 +1,4 @@
 ---
-
 title: "Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation"
 authors:
   - "Likhitha Mankali"
@@ -13,15 +12,15 @@ date: "2022-10-25"
 year: "2022"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 doi: "10.1109/JXCDC.2022.3217043"
-abstract: "With the emergence of IoT, DNNs are widely used in different domains. Hardware-based\\"
-abstract_cn: "物联网时代深度神经网络广泛应用于各领域，基于硬件的 DNN 系统易受模型窃取攻击。提出结合 FeFET 可重构物理不可克隆函数 (PUF) 和存内 FeFET XNOR\\"
+abstract: "With the emergence of IoT, DNNs are widely used in different domains. Hardware-based\"
+abstract_cn: "物联网时代深度神经网络广泛应用于各领域，基于硬件的 DNN 系统易受模型窃取攻击。提出结合 FeFET 可重构物理不可克隆函数 (PUF) 和存内 FeFET XNOR\"
 keywords:
   - "[[FeFET]]"
   - "[[Hardware security]]"
   - "[[DNN]]"
   - "[[PUF]]"
   - "[[In-memory computing]]"
-cite: "[1] Mankali L, Rangarajan N, Chatterjee S, et al. Leveraging Ferroelectric Stochasticity\\"
+cite: "[1] Mankali L, Rangarajan N, Chatterjee S, et al. Leveraging Ferroelectric Stochasticity\"
 aiSum: "提出基于 FeFET PUF 的 DNN 模型保护方案，利用铁电畴随机性在对抗攻击时破坏权重，保护图神经网络 IP 安全。"
 confidence: "medium"
 wiki_concepts:

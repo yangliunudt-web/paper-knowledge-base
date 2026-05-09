@@ -1,6 +1,5 @@
 ---
-
-title: "A 2-Transistor-2-Capacitor Ferroelectric Edge Compute-in-Memory Scheme With Disturb-Free\\"
+title: "A 2-Transistor-2-Capacitor Ferroelectric Edge Compute-in-Memory Scheme With Disturb-Free\"
 authors:
   - "Xiaoyang Ma"
   - "Shan Deng"
@@ -23,14 +22,14 @@ date: "2023-05-09"
 year: "2023"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2023.3274362"
-abstract: "This letter proposes C2FeRAM, a 2T2C/cell ferroelectric compute-in-memory (CiM) scheme\\"
-abstract_cn: "本文提出C2FeRAM，一种2T2C/单元的铁电存内计算方案，用于高能效、高可靠性的边缘推理和迁移学习。在一定的面积开销下，C2FeRAM实现了以下亮点：(i)\\"
+abstract: "This letter proposes C2FeRAM, a 2T2C/cell ferroelectric compute-in-memory (CiM) scheme\"
+abstract_cn: "本文提出C2FeRAM，一种2T2C/单元的铁电存内计算方案，用于高能效、高可靠性的边缘推理和迁移学习。在一定的面积开销下，C2FeRAM实现了以下亮点：(i)\"
 keywords:
   - "[[Ferroelectric memory]]"
   - "[[Compute-in-memory]]"
   - "[[FeRAM]]"
   - "[[Edge AI]]"
-cite: "[1] Ma X, Deng S, Wu J, et al. A 2-transistor-2‑capacitor ferroelectric edge compute-in‑memory\\"
+cite: "[1] Ma X, Deng S, Wu J, et al. A 2-transistor-2‑capacitor ferroelectric edge compute-in‑memory\"
 aiSum: "C2FeRAM 2T2C方案：无干扰存内计算、高耐久性、CIFAR-10 VGG8推理>100倍时间且精度下降<1%、相比1T1C FeRAM缓存实现4倍能效/200倍速度/3.2e5倍生命周期提升。"
 confidence: "high"
 wiki_concepts:

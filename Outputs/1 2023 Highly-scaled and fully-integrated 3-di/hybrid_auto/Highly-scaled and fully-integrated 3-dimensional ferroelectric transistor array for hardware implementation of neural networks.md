@@ -1,6 +1,5 @@
 ---
-title: "Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array for\
-  \ Hardware Implementation of Neural Networks"
+title: "Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array for Hardware Implementation of Neural Networks"
 authors:
   - "Ik-Jyae Kim"
   - "Min-Kyu Kim"

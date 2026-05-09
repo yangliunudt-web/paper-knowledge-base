@@ -1,6 +1,5 @@
 ---
-
-title: "Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating\\"
+title: "Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating\"
 authors:
   - "S. Dutta"
   - "H. Ye"
@@ -16,15 +15,15 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature Electronics"
-abstract: "We demonstrate, for the first time, monolithic 3D (M3D) integration of back-end-of-line\\"
-abstract_cn: "我们首次展示了后端工艺兼容的Hf0.5Zr0.5O2铁电场效应晶体管与前段工艺高k/金属栅硅NMOS的单片3D集成。我们采用低热预算（<400°C）工艺将HZO与1%钨掺杂的非晶In2O3半导体氧化物沟道集成，并展示了40\\"
+abstract: "We demonstrate, for the first time, monolithic 3D (M3D) integration of back-end-of-line\"
+abstract_cn: "我们首次展示了后端工艺兼容的Hf0.5Zr0.5O2铁电场效应晶体管与前段工艺高k/金属栅硅NMOS的单片3D集成。我们采用低热预算（<400°C）工艺将HZO与1%钨掺杂的非晶In2O3半导体氧化物沟道集成，并展示了40\"
 keywords:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
   - "[[3D NAND]]"
   - "[[Monolithic 3D integration]]"
-cite: "[1] Dutta S, Ye H, Chakraborty W, et al. Monolithic 3D integration of high endurance\\"
-aiSum: "单片3D集成高耐久多位FeFET：BEOL兼容HZO与FEOL Si‑NMOS集成，IWO沟道，20nm沟长下0.45V存储窗口，100ns写入速度，>10^8耐久性，2位/单元突触权重，CIM加速器能效比7nm\\"
+cite: "[1] Dutta S, Ye H, Chakraborty W, et al. Monolithic 3D integration of high endurance\"
+aiSum: "单片3D集成高耐久多位FeFET：BEOL兼容HZO与FEOL Si‑NMOS集成，IWO沟道，20nm沟长下0.45V存储窗口，100ns写入速度，>10^8耐久性，2位/单元突触权重，CIM加速器能效比7nm\"
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"

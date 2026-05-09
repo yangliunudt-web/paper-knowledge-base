@@ -1,8 +1,7 @@
 ---
 title: "sub‑Scalable massively parallel computing using continuous‑time data representation"
 authors:
-  - "Scalable massively parallel computing using continuous-time data representation Cong\
-  \ Wang"
+  - "Scalable massively parallel computing using continuous-time data representation Cong Wang"
   - "Shi-Jun Liang"
   - "Chen-Yu Wang"
   - "Zai-Zheng Yang"

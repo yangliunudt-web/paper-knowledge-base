@@ -1,5 +1,5 @@
 ---
-title: "CODEX: Stochastic Encoding Method to Relax Resistive Crossbar Accelerator Design\\"
+title: "CODEX: Stochastic Encoding Method to Relax Resistive Crossbar Accelerator Design\"
 authors:
   - "Tony Liu"
   - "Amirali Amirsoleimani"
@@ -13,16 +13,16 @@ date: "2022‑03‑08"
 year: "2022"
 journal: "IEEE Transactions on Circuits and Systems II: Express Briefs"
 doi: "10.1109/TCSII.2022.3157789"
-abstract: "A stochastic input encoding scheme (CODEX) is presented that aims to relax the analog‑to‑digital\\"
-abstract_cn: "提出一种随机输入编码方案 CODEX，旨在降低忆阻器交叉阵列系统中模数转换器的设计需求。CODEX 通过使用伯努利统计对输入比特进行编码，使位线电流分布变为窄高斯分布，从而减小\\"
+abstract: "A stochastic input encoding scheme (CODEX) is presented that aims to relax the analog‑to‑digital\"
+abstract_cn: "提出一种随机输入编码方案 CODEX，旨在降低忆阻器交叉阵列系统中模数转换器的设计需求。CODEX 通过使用伯努利统计对输入比特进行编码，使位线电流分布变为窄高斯分布，从而减小\"
 keywords:
   - "[[CODEX]]"
   - "[[Stochastic encoding]]"
   - "[[Memristor crossbar]]"
   - "[[Analog‑to‑digital converter]]"
   - "[[In‑situ training]]"
-cite: "[1] Liu T, Amirsoleimani A, Xu J, et al. CODEX: stochastic encoding method to relax\\"
-aiSum: "提出随机输入编码方案 CODEX，通过伯努利统计编码将位线电流分布压缩为窄高斯分布，降低 ADC 输入范围，实现 ADC 功耗降低 68.5%、面积降低 35.5%、原位训练周期数降低\\"
+cite: "[1] Liu T, Amirsoleimani A, Xu J, et al. CODEX: stochastic encoding method to relax\"
+aiSum: "提出随机输入编码方案 CODEX，通过伯努利统计编码将位线电流分布压缩为窄高斯分布，降低 ADC 输入范围，实现 ADC 功耗降低 68.5%、面积降低 35.5%、原位训练周期数降低\"
 confidence: "medium"
 wiki_concepts:
   - "[[crossbar]]"

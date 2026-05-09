@@ -11,7 +11,7 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "Nature Machine Intelligence"
-abstract: "Continual learning aims to empower artificial intelligence with strong adaptability\\"
+abstract: "Continual learning aims to empower artificial intelligence with strong adaptability\"
 abstract_cn: "持续学习旨在赋予人工智能对现实世界变化的强适应性，同时避免灾难性遗忘。生物学习系统通过主动遗忘与稳定性保护等机制实现强适应性。本文分析了生物持续学习的关键功能因素，提出基于元可塑性与参数隔离的方法，在多种持续学习场景中取得最先进的整体性能，展现出优异通用性。"
 keywords:
   - "[[Continual learning]]"
@@ -19,7 +19,7 @@ keywords:
   - "[[Meta-plasticity]]"
   - "[[Neural network]]"
   - "[[Adaptability]]"
-cite: "Wang L Y, Zhang X X, Li Q, et al. Incorporating neuro-inspired adaptability for continual\\"
+cite: "Wang L Y, Zhang X X, Li Q, et al. Incorporating neuro-inspired adaptability for continual\"
 aiSum: "元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。"
 confidence: "high"
 wiki_concepts:

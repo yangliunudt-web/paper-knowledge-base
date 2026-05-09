@@ -8,10 +8,8 @@ year: 2023
 journal: "Science"
 doi: "10.1126/science.ade3483"
 abstract: "[Summarized] Abstract not available for supplementary material."
-abstract_cn: "使用全集成神经启发忆阻器芯片 (STELLAR) 进行边缘学习的补充材料。包含器件制造细节、芯片架构、STDP 学习规则方程和实验数据。相比 HNPU 系统实现\
-  \ 35 倍能耗降低。"
-cite: "待补充. Supplementary Materials for Edge Learning Using Neuro-Inspired Memristor Chip[J].\
-  \ Science, 2023. DOI: 10.1126/science.ade3483."
+abstract_cn: "使用全集成神经启发忆阻器芯片 (STELLAR) 进行边缘学习的补充材料。包含器件制造细节、芯片架构、STDP 学习规则方程和实验数据。相比 HNPU 系统实现 35 倍能耗降低。"
+cite: "待补充. Supplementary Materials for Edge Learning Using Neuro-Inspired Memristor Chip[J]. Science, 2023. DOI: 10.1126/science.ade3483."
 aiSum: "STELLAR 边缘学习芯片补充材料：器件制备、STDP 规则、35x 能耗降低。"
 confidence: "high"
 ---

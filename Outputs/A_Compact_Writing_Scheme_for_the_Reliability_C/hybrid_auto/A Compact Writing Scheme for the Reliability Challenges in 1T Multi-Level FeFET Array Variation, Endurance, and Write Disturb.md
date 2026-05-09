@@ -1,6 +1,5 @@
 ---
-
-title: "A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level FeFET Array:\\"
+title: "A Compact Writing Scheme for the Reliability Challenges in 1T Multi-Level FeFET Array:\"
 authors:
   - "Yuejia Zhou"
   - "Hanyong Shao"
@@ -13,14 +12,14 @@ date: "2024-10-24"
 year: "2024"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2024.3485803"
-abstract: "Multi-level cell (MLC) ferroelectric FETs (FeFETs) face critical reliability challenges\\"
-abstract_cn: "多级单元铁电场效应晶体管面临包括变化、耐久性和写入干扰在内的关键可靠性挑战。本文提出了一种紧凑的写入方案，以同时解决这三个挑战。通过结合错误纠正、耐久性恢复和自补偿写入，所提出的方案实现了错误率降低>6倍、耐久性提升>100倍、阈值电压漂移减少>7倍。在制造的1T\\"
+abstract: "Multi-level cell (MLC) ferroelectric FETs (FeFETs) face critical reliability challenges\"
+abstract_cn: "多级单元铁电场效应晶体管面临包括变化、耐久性和写入干扰在内的关键可靠性挑战。本文提出了一种紧凑的写入方案，以同时解决这三个挑战。通过结合错误纠正、耐久性恢复和自补偿写入，所提出的方案实现了错误率降低>6倍、耐久性提升>100倍、阈值电压漂移减少>7倍。在制造的1T\"
 keywords:
   - "[[FeFET]]"
   - "[[Multi-level cell]]"
   - "[[Writing scheme]]"
   - "[[Reliability]]"
-cite: "[1] Zhou Y, Shao H, Huang W, et al. A compact writing scheme for the reliability\\"
+cite: "[1] Zhou Y, Shao H, Huang W, et al. A compact writing scheme for the reliability\"
 aiSum: "紧凑写入方案：错误率降低>6倍、耐久性提升>100倍、Vth漂移减少>7倍，1T FeFET阵列实现2比特/单元存储、10^8周期耐久性、写入干扰免疫。"
 confidence: "high"
 wiki_concepts:

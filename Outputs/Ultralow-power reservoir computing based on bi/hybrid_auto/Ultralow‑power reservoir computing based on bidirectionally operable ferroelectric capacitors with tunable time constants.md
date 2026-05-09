@@ -1,6 +1,5 @@
 ---
-
-title: "Ultralow‑power reservoir computing based on bidirectionally operable ferroelectric\\"
+title: "Ultralow‑power reservoir computing based on bidirectionally operable ferroelectric\"
 authors:
   - "Linyuan Mo"
   - "Zhen Fan"
@@ -23,14 +22,14 @@ date: "2026-01-01"
 year: "2026"
 journal: "Reports on Progress in Physics"
 doi: "10.1088/1361‑6633/ae3984"
-abstract: "Physical reservoir computing (RC) systems have emerged as a prominent research frontier\\"
-abstract_cn: "物理储备计算系统因其在时序信息处理中的卓越效率而成为前沿研究热点。然而，现有主要基于电阻器件的实现方案在能效和动态丰富性方面面临挑战。本文提出一种用于储备计算的铁电电容器‑线性电容器串联器件。通过利用非线性极化翻转和回弹翻转，该串联器件实现了储备计算的两个关键特性：非线性和衰减记忆。此外，该器件具有超低功耗特性，结合其直接电压读出能力，标志着相对于电阻储备器件的重大进展。同时，该器件支持双向操作和宽范围可调的时间常数，从而增强了储备空间维度和状态丰富性。基于这些\\"
+abstract: "Physical reservoir computing (RC) systems have emerged as a prominent research frontier\"
+abstract_cn: "物理储备计算系统因其在时序信息处理中的卓越效率而成为前沿研究热点。然而，现有主要基于电阻器件的实现方案在能效和动态丰富性方面面临挑战。本文提出一种用于储备计算的铁电电容器‑线性电容器串联器件。通过利用非线性极化翻转和回弹翻转，该串联器件实现了储备计算的两个关键特性：非线性和衰减记忆。此外，该器件具有超低功耗特性，结合其直接电压读出能力，标志着相对于电阻储备器件的重大进展。同时，该器件支持双向操作和宽范围可调的时间常数，从而增强了储备空间维度和状态丰富性。基于这些\"
 keywords:
   - "[[Reservoir computing]]"
   - "[[Ferroelectric capacitors]]"
   - "[[Polarization switching]]"
   - "[[Time‑series prediction]]"
-cite: "[1] Mo L, Fan Z, Ou J, et al. Ultralow‑power reservoir computing based on bidirectionally\\"
+cite: "[1] Mo L, Fan Z, Ou J, et al. Ultralow‑power reservoir computing based on bidirectionally\"
 aiSum: "铁电电容器‑线性电容器串联器件实现超低功耗储备计算，具备双向操作和可调时间常数，在波形分类、多模态数字识别和 Mackey‑Glass 时间序列预测中表现优异。"
 confidence: "medium"
 wiki_concepts:

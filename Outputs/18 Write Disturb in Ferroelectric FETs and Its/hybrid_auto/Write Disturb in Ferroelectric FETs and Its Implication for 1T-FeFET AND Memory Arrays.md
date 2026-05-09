@@ -1,5 +1,4 @@
 ---
-
 title: "Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays"
 authors:
   - "Kai Ni"
@@ -11,14 +10,14 @@ date: "2018-10-23"
 year: "2018"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2018.2872347"
-abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonvolatile AND\\"
-abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储阵列在 VW/2 和 VW/3 抑制偏置方案下的写入干扰，以确定最坏情况的存储器感测条件。读余量分析表明，低\\"
+abstract: "In this letter, the write disturb of Hf0.5Zr0.5O2-based 1T-FeFET nonvolatile AND\"
+abstract_cn: "本文研究了 Hf0.5Zr0.5O2 基 1T-FeFET 非易失性 AND 存储阵列在 VW/2 和 VW/3 抑制偏置方案下的写入干扰，以确定最坏情况的存储器感测条件。读余量分析表明，低\"
 keywords:
   - "[[FeFET]]"
   - "[[Write disturb]]"
   - "[[AND array]]"
   - "[[HZO]]"
-cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication\\"
+cite: "[1] Ni K, Li X Q, Smith J A, et al. Write Disturb in Ferroelectric FETs and Its Implication\"
 aiSum: "研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。"
 confidence: "high"
 wiki_concepts:

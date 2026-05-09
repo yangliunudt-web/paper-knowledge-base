@@ -1,5 +1,4 @@
 ---
-
 title: "Reservoir Computing System with Diverse Input Patterns in HfAlO-Based Ferroelectric Memristor"
 authors:
   - "Dongyeol Ju"

@@ -15,8 +15,7 @@ keywords:
   - "[[multi-level cell]]"
   - "[[memory window]]"
   - "[[3D memory]]"
-cite: "待补充. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations[J].\
-  \ Science Advances, 2024. DOI: 10.1126/sciadv.adn1345."
+cite: "待补充. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations[J]. Science Advances, 2024. DOI: 10.1126/sciadv.adn1345."
 aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
 confidence: "high"
 wiki_concepts:

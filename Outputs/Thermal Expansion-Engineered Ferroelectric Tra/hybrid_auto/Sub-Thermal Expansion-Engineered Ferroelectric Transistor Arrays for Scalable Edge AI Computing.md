@@ -1,6 +1,5 @@
 ---
-title: "Sub-Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge\
-  \ AI Computing"
+title: "Sub-Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing"
 authors:
   - "Geonwook Hyunho"
   - "Sihoon Hyunbin"

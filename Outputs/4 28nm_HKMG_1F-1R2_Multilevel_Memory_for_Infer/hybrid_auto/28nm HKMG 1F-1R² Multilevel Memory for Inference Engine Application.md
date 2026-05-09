@@ -1,6 +1,4 @@
 ---
-
-
 title: "28nm HKMG 1F-1R² Multilevel Memory for Inference Engine Application"
 authors:
   - "Sourav De"
@@ -18,12 +16,12 @@ journal: "IEEE Journal of Electron Devices Society"
 doi: "10.1109/JEDS.2022.3195119"
 abstract: "This article reports 28 nm high-k-metal-gate (HKMG) based 3bits/cell memory"
 abstract_cn: "本文报道了基于28 nm高K金属栅的3比特/单元存储器，采用一个铁电场效应晶体管和一个可重构电阻器。可重构电阻器连接选择线和FeFET的漏极，可通过选择线终端重新配置。该电阻器可使用标准金属氧化物半导体场效应晶体管作为压控电阻或任何两端可编程电阻器实现。1F-1R²单元在300mm晶圆上展示了基于电流的3比特/单元操作，并在85°C下对所有八个电流水平表现出稳定的保持特性。"
+keywords:
+  - "[[FeFET]]"
 cite: "[1] De S, Müller F, Lederer M, et al. 28nm HKMG 1F-1R² multilevel memory for"
 aiSum: "28 nm HKMG 1F-1R²存储器：3比特/单元操作，300mm晶圆，85°C稳定保持，适用于推理引擎应用。"
-confidence: medium
+confidence: "medium"
 wiki_concepts:
-  - "[[FeFET]]"
-keywords:
   - "[[FeFET]]"
 ---
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding"
 authors:
   - "Sheena A. Josselyn"
@@ -8,27 +7,16 @@ date: "2022-01-01"
 year: 2022
 journal: "Nature Reviews Neuroscience"
 doi: "10.1038/s41583-022-00624-1"
-abstract: "Memory encoding is thought to result from durable changes in synaptic efficacy. However,\
-  \ the specific synaptic plasticity mechanisms operating in the hippocampal CA3 circuit\
-  \ during memory formation remain unclear. Here we show that memory engram cells\
-  \ in the CA3 region of the hippocampus exhibit distinct synaptic and intrinsic plasticity\
-  \ changes that support memory encoding and retrieval. We find that CA3 engram cells\
-  \ show enhanced synaptic transmission and increased intrinsic excitability, which\
-  \ are critical for memory recall. These plasticity changes require NMDA receptor\
-  \ activation and are maintained through CREB-dependent gene expression. Our findings\
-  \ reveal the synaptic and cellular mechanisms underlying memory engram formation\
-  \ in the hippocampal CA3 circuit."
+abstract: "Memory encoding is thought to result from durable changes in synaptic efficacy. However, the specific synaptic plasticity mechanisms operating in the hippocampal CA3 circuit during memory formation remain unclear. Here we show that memory engram cells in the CA3 region of the hippocampus exhibit distinct synaptic and intrinsic plasticity changes that support memory encoding and retrieval. We find that CA3 engram cells show enhanced synaptic transmission and increased intrinsic excitability, which are critical for memory recall. These plasticity changes require NMDA receptor activation and are maintained through CREB-dependent gene expression. Our findings reveal the synaptic and cellular mechanisms underlying memory engram formation in the hippocampal CA3 circuit."
 abstract_cn: "记忆编码被认为源于突触效能的持久变化。然而，在记忆形成过程中，海马CA3回路中的特定突触可塑性机制仍不清楚。本文表明，海马CA3区域的记忆印记细胞表现出独特的突触和内在可塑性变化，支持记忆编码和检索。我们发现CA3印记细胞显示增强的突触传递和增加的内在兴奋性，这对记忆回忆至关重要。这些可塑性变化需要NMDA受体激活，并通过CREB依赖的基因表达来维持。我们的发现揭示了海马CA3回路中记忆印记形成的突触和细胞机制。"
 keywords:
   - "[[Hippocampus]]"
   - "[[CA3]]"
   - "[[Memory engram]]"
   - "[[Synaptic plasticity]]"
-cite: "[1] Josselyn SA, Frankland PW. Operation and plasticity of hippocampal CA3 circuits:\
-  \ implications for memory encoding[J]. Nature Reviews Neuroscience, 2022, 23: 604-618.\
-  \ DOI: 10.1038/s41583-022-00624-1."
+cite: "[1] Josselyn SA, Frankland PW. Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding[J]. Nature Reviews Neuroscience, 2022, 23: 604-618. DOI: 10.1038/s41583-022-00624-1."
 aiSum: "海马CA3记忆印记：突触传递增强+内在兴奋性增加、NMDA受体激活必需、CREB基因表达维持、支持记忆编码与检索。"
-confidence: high
+confidence: "high"
 ---
 
 ---

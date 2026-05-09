@@ -1,5 +1,4 @@
 ---
-
 title: "Multi-Level Operation of Ferroelectric FET Memory Arrays for Compute-In-Memory Applications"
 authors:
   - "Franz Muller"
@@ -19,16 +18,16 @@ date: "2023-03-01"
 year: "2023"
 journal: "IEEE Journal on Exploratory Solid-State Computational Devices and Circuits"
 doi: "10.1109/JXCDC.2022.3227351"
-abstract: "We report on the multi-level-cell (MLC) operation of AND-connected ferroelectric\\"
-abstract_cn: "本文研究 AND 连接铁电场效应晶体管 (FeFET) 阵列的多级单元 (MLC) 操作及其在存内计算 (CiM) 应用中的适用性。研究了被动 AND 阵列测试结构中\\"
+abstract: "We report on the multi-level-cell (MLC) operation of AND-connected ferroelectric\"
+abstract_cn: "本文研究 AND 连接铁电场效应晶体管 (FeFET) 阵列的多级单元 (MLC) 操作及其在存内计算 (CiM) 应用中的适用性。研究了被动 AND 阵列测试结构中\"
 keywords:
   - "[[FeFET]]"
   - "[[Multi-level cell]]"
   - "[[Compute-in-memory]]"
   - "[[AND array]]"
   - "[[Neural network]]"
-cite: "[1] Muller F, De S, Lederer M, et al. Multi-Level Operation of Ferroelectric FET\\"
-aiSum: "研究 28nm FeFET AND 阵列的多级操作，提出写入验证方案和静态抑制方案实现 2-3 位/单元操作，BER 4%，CIFAR-10 LeNet 推理精度仅下降\\"
+cite: "[1] Muller F, De S, Lederer M, et al. Multi-Level Operation of Ferroelectric FET\"
+aiSum: "研究 28nm FeFET AND 阵列的多级操作，提出写入验证方案和静态抑制方案实现 2-3 位/单元操作，BER 4%，CIFAR-10 LeNet 推理精度仅下降\"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"

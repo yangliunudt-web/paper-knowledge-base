@@ -17,8 +17,7 @@ abstract: "Neuro-symbolic artificial intelligence has garnered considerable atte
 abstract_cn: "神经符号人工智能结合符号知识表示与神经网络自适应学习能力。实验演示基于 TiN/TaOx/HfOx/TiN 芯片的忆阻器神经模糊硬件，在吞吐量和能效上优于硅基方案。阵列拓扑结构表示知识，物理定律实现计算。忆阻器本征变异性增强知识表示鲁棒性。混合原位训练策略最小化误差。在未知环境中达到深度学习"
 keywords:
   - "[[Memristor]]"
-cite: "待补充. Stochastic Neuro-Fuzzy System Implemented in Memristor Crossbar Arrays[J]. Science\
-  \ Advances, 2024. DOI: 10.1126/sciadv.adl3135."
+cite: "待补充. Stochastic Neuro-Fuzzy System Implemented in Memristor Crossbar Arrays[J]. Science Advances, 2024. DOI: 10.1126/sciadv.adl3135."
 aiSum: "忆阻器神经模糊系统：TiN/TaOx/HfOx/TiN，64×128 阵列，变异性增强鲁棒性，6.6x 收敛加速，2.61 TOPS/W 能效。"
 confidence: "high"
 wiki_concepts:

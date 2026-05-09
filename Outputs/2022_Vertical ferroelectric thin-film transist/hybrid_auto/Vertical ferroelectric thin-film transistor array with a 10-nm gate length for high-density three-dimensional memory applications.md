@@ -1,6 +1,5 @@
 ---
-title: "Vertical ferroelectric thin-film transistor array with a 10-nm gate length for high-density\
-  \ three-dimensional memory applications"
+title: "Vertical ferroelectric thin-film transistor array with a 10-nm gate length for high-density three-dimensional memory applications"
 authors:
   - "Ik-Jyae Kim"
   - "Min-Kyu Kim"
@@ -9,35 +8,17 @@ date: "2022-07-25"
 year: 2022
 journal: "Applied Physics Letters"
 doi: "10.1063/5.0097795"
-abstract: "Hafnia-based ferroelectric thin-film transistors (FeTFTs) are regarded as promising\
-  \ candidates for future nonvolatile memory devices owing to their low power consumption,\
-  \ high operational speed, and complementary metal–oxide–semiconductor compatibility.\
-  \ However, the scalability of hafnia-based materials and the feasibility of three-dimensional\
-  \ (3D) device fabrication should be confirmed for ultrahigh-density memory applications.\
-  \ In this work, we demonstrate that FeTFTs can be scaled down to a 10-nm dimension\
-  \ using the vertical structure with a hafnia-based ferroelectric gate insulating\
-  \ layer and an oxide semiconductor channel. We show that such vertical FeTFTs can\
-  \ be operated with an effective device size of 0.005 μm², a fast operation speed\
-  \ of <100 ns, and a high endurance of 10⁸ cycles. Additionally, the string-level\
-  \ NAND operation is demonstrated using the vertical FeTFT array. Finally, device\
-  \ simulation confirms the possibility of ultrahigh-density 3D ferroelectric NAND\
-  \ with 200 gate stacks. These results demonstrate the ultrahigh scalability of FeTFTs\
-  \ as a promising candidate for nextgeneration 3D nonvolatile memory."
-abstract_cn: "铪基铁电薄膜晶体管因其低功耗、高操作速度和 CMOS 兼容性，被视为未来非易失性存储器件的有前景候选者。然而，对于超高密度存储应用，需要确认铪基材料的可扩展性和三维器件制造的可行性。本文展示了采用垂直结构和铪基铁电栅绝缘层与氧化物半导体通道，可将\
-  \ FeTFT 缩小至 10 nm 尺度。垂直 FeTFT 可在 0.005 μm² 有效器件尺寸下工作，操作速度 <100 ns，耐久性达 10⁸ 次循环。此外，演示了垂直\
-  \ FeTFT 阵列的串级 NAND 操作。器件仿真确认了 200 层栅堆叠的超高密度 3D 铁电 NAND 的可能性。"
+abstract: "Hafnia-based ferroelectric thin-film transistors (FeTFTs) are regarded as promising candidates for future nonvolatile memory devices owing to their low power consumption, high operational speed, and complementary metal–oxide–semiconductor compatibility. However, the scalability of hafnia-based materials and the feasibility of three-dimensional (3D) device fabrication should be confirmed for ultrahigh-density memory applications. In this work, we demonstrate that FeTFTs can be scaled down to a 10-nm dimension using the vertical structure with a hafnia-based ferroelectric gate insulating layer and an oxide semiconductor channel. We show that such vertical FeTFTs can be operated with an effective device size of 0.005 μm², a fast operation speed of <100 ns, and a high endurance of 10⁸ cycles. Additionally, the string-level NAND operation is demonstrated using the vertical FeTFT array. Finally, device simulation confirms the possibility of ultrahigh-density 3D ferroelectric NAND with 200 gate stacks. These results demonstrate the ultrahigh scalability of FeTFTs as a promising candidate for nextgeneration 3D nonvolatile memory."
+abstract_cn: "铪基铁电薄膜晶体管因其低功耗、高操作速度和 CMOS 兼容性，被视为未来非易失性存储器件的有前景候选者。然而，对于超高密度存储应用，需要确认铪基材料的可扩展性和三维器件制造的可行性。本文展示了采用垂直结构和铪基铁电栅绝缘层与氧化物半导体通道，可将 FeTFT 缩小至 10 nm 尺度。垂直 FeTFT 可在 0.005 μm² 有效器件尺寸下工作，操作速度 <100 ns，耐久性达 10⁸ 次循环。此外，演示了垂直 FeTFT 阵列的串级 NAND 操作。器件仿真确认了 200 层栅堆叠的超高密度 3D 铁电 NAND 的可能性。"
 keywords:
   - "[[FeTFT]]"
   - "[[Vertical structure]]"
   - "[[3D NAND]]"
   - "[[Hafnia ferroelectrics]]"
   - "[[Nonvolatile memory]]"
-cite: "[1] Kim I‑J, Kim M‑K, Lee J‑S. Vertical ferroelectric thin-film transistor array\
-  \ with a 10-nm gate length for high-density three-dimensional memory applications[J].\
-  \ Applied Physics Letters, 2022, 121(4): 042901. DOI: 10.1063/5.0097795."
-aiSum: "展示 10 nm 栅长垂直 FeTFT 阵列，有效器件尺寸 0.005 μm²，操作速度 <100 ns，耐久性 10⁸ 次循环，演示串级 NAND 操作，仿真确认\
-  \ 200 层 3D 铁电 NAND 可行性。"
-confidence: high
+cite: "[1] Kim I‑J, Kim M‑K, Lee J‑S. Vertical ferroelectric thin-film transistor array with a 10-nm gate length for high-density three-dimensional memory applications[J]. Applied Physics Letters, 2022, 121(4): 042901. DOI: 10.1063/5.0097795."
+aiSum: "展示 10 nm 栅长垂直 FeTFT 阵列，有效器件尺寸 0.005 μm²，操作速度 <100 ns，耐久性 10⁸ 次循环，演示串级 NAND 操作，仿真确认 200 层 3D 铁电 NAND 可行性。"
+confidence: "high"
 ---
 
 RESEARCH ARTICLE | JULY 25 2022

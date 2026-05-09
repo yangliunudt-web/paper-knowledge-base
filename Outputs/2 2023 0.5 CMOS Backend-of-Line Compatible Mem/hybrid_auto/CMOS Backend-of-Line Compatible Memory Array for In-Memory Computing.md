@@ -18,8 +18,7 @@ abstract: "a b <table><tr><td>Parameter</td><td>Mean value</td><td>Standard devi
 abstract_cn: "展示使用 ZnO TFT 技术的 CMOS 后端兼容存储阵列。在 <400°C 工艺温度下实现存储和逻辑电路集成。实现与 CMOS 的单片"
 keywords:
   - "[[In-memory computing]]"
-cite: "待补充. CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing[J]. Science\
-  \ Advances, 2023. DOI: 10.1126/sciadv.abq8142."
+cite: "待补充. CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing[J]. Science Advances, 2023. DOI: 10.1126/sciadv.abq8142."
 aiSum: "CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C，单片 3D 集成存内计算。"
 confidence: "high"
 wiki_concepts:

@@ -1,6 +1,5 @@
 ---
-title: "One-Pulse-Programmable Multi-Level PCM/Selector Cross-Point Memory for 20 nm Half\\\
-  \\\\"
+title: "One-Pulse-Programmable Multi-Level PCM/Selector Cross-Point Memory for 20 nm Half\\\"
 authors:
   - "Yuya Matsuzawa"
   - "Yuki Ohnishi"
@@ -17,10 +16,8 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature Electronics"
-abstract: "We demonstrated, for the first time, a multi-level phase change memory/selector cell\\\
-  \\\\"
-abstract_cn: "我们首次展示了无需初始化或迭代验证即可操作的多级相变存储器/选择器单元，显示了未来高密度和低延迟均至关重要的成本效益存储级内存应用的潜力。我们发现优化的热设计和成分设计能够形成独特的中间电阻态，其中晶态和非晶态共存并置于设计位置。多级编程通过单一脉冲实现，无需任何额外操作，并且在超过10^7次循环中保持稳定，具有足够的存储窗口。此外，我们制造并演示了半间距为20\\\
-  \\\\"
+abstract: "We demonstrated, for the first time, a multi-level phase change memory/selector cell\\\"
+abstract_cn: "我们首次展示了无需初始化或迭代验证即可操作的多级相变存储器/选择器单元，显示了未来高密度和低延迟均至关重要的成本效益存储级内存应用的潜力。我们发现优化的热设计和成分设计能够形成独特的中间电阻态，其中晶态和非晶态共存并置于设计位置。多级编程通过单一脉冲实现，无需任何额外操作，并且在超过10^7次循环中保持稳定，具有足够的存储窗口。此外，我们制造并演示了半间距为20\\\"
 keywords:
   - "[[[[Cross-point array]]]]"
   - "[[[[In-memory computing]]]]"

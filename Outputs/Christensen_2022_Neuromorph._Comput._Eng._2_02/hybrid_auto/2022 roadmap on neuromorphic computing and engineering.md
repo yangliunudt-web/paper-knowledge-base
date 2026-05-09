@@ -8,7 +8,7 @@ date: "2022-01-01"
 year: "2022"
 journal: "Neuromorphic Computing and Engineering"
 doi: "10.1088/2634-4389/ac04a5"
-abstract: "This roadmap presents a comprehensive overview of neuromorphic computing and engineering,\\"
+abstract: "This roadmap presents a comprehensive overview of neuromorphic computing and engineering,\"
 abstract_cn: "本路线图综述了神经形态计算与工程的研究进展，涵盖器件、电路、架构、算法和应用，总结了当前技术现状、关键挑战和未来发展方向，为类脑计算系统的研究提供系统性参考。"
 keywords:
   - "[[Neuromorphic computing]]"
@@ -16,7 +16,7 @@ keywords:
   - "[[Spiking neural network]]"
   - "[[Hardware]]"
   - "[[AI]]"
-cite: "Christensen D V, Xia Q, Wang X, et al. 2022 roadmap on neuromorphic computing and\\"
+cite: "Christensen D V, Xia Q, Wang X, et al. 2022 roadmap on neuromorphic computing and\"
 aiSum: "神经形态计算路线图综述：涵盖神经形态器件、电路架构、算法应用现状与挑战，展望类脑计算未来发展方向。"
 confidence: "medium"
 wiki_concepts:

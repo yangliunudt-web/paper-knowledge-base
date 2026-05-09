@@ -1,6 +1,5 @@
 ---
-
-title: "Coupled Ferroelectric-Anisotropic Optoelectronic Synapse for Polarization-Sensitive\\"
+title: "Coupled Ferroelectric-Anisotropic Optoelectronic Synapse for Polarization-Sensitive\"
 authors:
   - "Jiali Huo"
   - "Jinpeng Huo"
@@ -14,8 +13,8 @@ authors:
 date: "2026-01-08"
 year: "2026"
 journal: "Nature Communications"
-abstract: "This paper presents a polarization-resolved optoelectronic synapse integrating polarization-sensitive\\"
-abstract_cn: "本文提出了一种偏振分辨光电突触，在单个器件中集成偏振敏感光电检测和非易失性存储。采用2D ReS2沟道结合Hf0.5Zr0.5O2栅介质构成MFMIS FeFET。铁电极化与光生载流子捕获的协同调控实现高响应度和长期光电保持。ANN在非偏振光下实现97.33%虹膜识别，3x3\\"
+abstract: "This paper presents a polarization-resolved optoelectronic synapse integrating polarization-sensitive\"
+abstract_cn: "本文提出了一种偏振分辨光电突触，在单个器件中集成偏振敏感光电检测和非易失性存储。采用2D ReS2沟道结合Hf0.5Zr0.5O2栅介质构成MFMIS FeFET。铁电极化与光生载流子捕获的协同调控实现高响应度和长期光电保持。ANN在非偏振光下实现97.33%虹膜识别，3x3\"
 keywords:
   - "[[Optoelectronic Synapse]]"
   - "[[Ferroelectric]]"
@@ -25,7 +24,7 @@ keywords:
   - "[[Neuromorphic Vision]]"
   - "[[光电突触]]"
   - "[[神经形态视觉]]"
-cite: "Huo J, Huo J, Gao J, Li L, Tun T T T, Peng J, Zheng H, Shi Y, Ang K W. Coupled Ferroelectric-Anisotropic\\"
+cite: "Huo J, Huo J, Gao J, Li L, Tun T T T, Peng J, Zheng H, Shi Y, Ang K W. Coupled Ferroelectric-Anisotropic\"
 aiSum: "偏振分辨光电突触，ReS2/HZO MFMIS FeFET结构。ANN 97.33%虹膜识别，3x3 FeFET CNN蝴蝶分类，2.0 fJ/事件能效。铁电-各向异性平台实现偏振敏感神经形态视觉。"
 confidence: "high"
 wiki_concepts:

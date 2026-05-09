@@ -1,5 +1,4 @@
 ---
-
 title: "In-Memory Ferroelectric Differentiator"
 authors:
   - "Guangdi Feng"
@@ -29,7 +28,7 @@ keywords:
   - "[[edge detection]]"
 cite: "Feng G, Zhao X, Huang X, et al. In-memory ferroelectric differentiator[J]. Nature Communications, 2025, 16. DOI: 10.1038/s41467-025-58359-4."
 aiSum: "存内铁电微分器：利用铁电电容器本征微分响应，0.24 fJ/次、1 MHz、98.9%准确率。"
-confidence: high
+confidence: "high"
 wiki_concepts:
   - "[[Ferroelectric]]"
   - "[[In-memory computing]]"

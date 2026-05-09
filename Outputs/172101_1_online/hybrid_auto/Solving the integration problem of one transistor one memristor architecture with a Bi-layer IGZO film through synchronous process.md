@@ -1,6 +1,5 @@
 ---
-title: "Solving the Integration Problem of One Transistor One Memristor Architecture with\
-  \ a Bi-Layer IGZO Film Through Synchronous Process"
+title: "Solving the Integration Problem of One Transistor One Memristor Architecture with a Bi-Layer IGZO Film Through Synchronous Process"
 authors:
   - "Che-Chia Chang"
   - "Po-Tsun Liu"

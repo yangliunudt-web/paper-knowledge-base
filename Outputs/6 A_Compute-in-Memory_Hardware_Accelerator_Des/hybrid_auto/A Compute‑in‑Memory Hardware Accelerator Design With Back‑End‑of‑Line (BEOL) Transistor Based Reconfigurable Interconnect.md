@@ -1,6 +1,5 @@
 ---
-
-title: "A Compute‑in‑Memory Hardware Accelerator Design With Back‑End‑of‑Line (BEOL) Transistor\\"
+title: "A Compute‑in‑Memory Hardware Accelerator Design With Back‑End‑of‑Line (BEOL) Transistor\"
 authors:
   - "Yandong Luo"
   - "Sourav Dutta"
@@ -13,16 +12,16 @@ date: "2022‑05‑23"
 year: "2022"
 journal: "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
 doi: "10.1109/JETCAS.2022.3177577"
-abstract: "Compute‑in‑memory (CIM) paradigm using ferroelectric field effect transistor (FeFET)\\"
-abstract_cn: "使用铁电场效应晶体管作为权重单元的存内计算范式预计在加速深度神经网络推理方面具有优异的能效。但存在两个挑战：在技术层面，由于缺乏先进工艺节点（如 7 nm）的逻辑电压兼容\\"
+abstract: "Compute‑in‑memory (CIM) paradigm using ferroelectric field effect transistor (FeFET)\"
+abstract_cn: "使用铁电场效应晶体管作为权重单元的存内计算范式预计在加速深度神经网络推理方面具有优异的能效。但存在两个挑战：在技术层面，由于缺乏先进工艺节点（如 7 nm）的逻辑电压兼容\"
 keywords:
   - "[[Compute‑in‑memory]]"
   - "[[FeFET]]"
   - "[[Monolithic 3D integration]]"
   - "[[Back‑end‑of‑line transistor]]"
   - "[[Reconfigurable interconnect]]"
-cite: "[1] Luo Y, Dutta S, Kaul A, et al. A compute‑in‑memory hardware accelerator design\\"
-aiSum: "提出基于 BEOL 晶体管可重构互连的 CIM 加速器系统‑技术协同设计：采用 IWO NMOS 和 FeFET 实现面积高效 M3D 写入电路和工作负载专用快速链路，能效比\\"
+cite: "[1] Luo Y, Dutta S, Kaul A, et al. A compute‑in‑memory hardware accelerator design\"
+aiSum: "提出基于 BEOL 晶体管可重构互连的 CIM 加速器系统‑技术协同设计：采用 IWO NMOS 和 FeFET 实现面积高效 M3D 写入电路和工作负载专用快速链路，能效比\"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"

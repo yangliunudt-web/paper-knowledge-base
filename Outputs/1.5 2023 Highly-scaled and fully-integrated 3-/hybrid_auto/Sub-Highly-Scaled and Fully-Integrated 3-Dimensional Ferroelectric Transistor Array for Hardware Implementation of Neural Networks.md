@@ -1,7 +1,5 @@
 ---
-
-title: "Sub-Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array\
-  \ for Hardware Implementation of Neural Networks"
+title: "Sub-Highly-Scaled and Fully-Integrated 3-Dimensional Ferroelectric Transistor Array for Hardware Implementation of Neural Networks"
 authors:
   - "Ik-Jyae Kim"
   - "Min-Kyu Kim"
@@ -10,12 +8,7 @@ date: "2023-02-03"
 year: 2023
 journal: "Nature Communications"
 doi: "10.1038/s41467-023-36270-0"
-abstract: "3D vertical FeNAND array with HfZrOx/InZnOx structure for neural network hardware\
-  \ implementation. The array features three vertically stacked wordlines with trench\
-  \ structure fabricated by dry etching, achieving device dimensions suitable for\
-  \ high-density integration. Ferroelectric characteristics induced by thermal annealing\
-  \ enable multi-level operation for synaptic weight storage in neuromorphic computing\
-  \ applications."
+abstract: "3D vertical FeNAND array with HfZrOx/InZnOx structure for neural network hardware implementation. The array features three vertically stacked wordlines with trench structure fabricated by dry etching, achieving device dimensions suitable for high-density integration. Ferroelectric characteristics induced by thermal annealing enable multi-level operation for synaptic weight storage in neuromorphic computing applications."
 abstract_cn: "用于神经网络硬件实现的 3D 垂直 FeNAND 阵列，采用 HfZrOx/InZnOx 结构。阵列具有三个垂直堆叠的字线，通过干法刻蚀形成沟槽结构，实现适合高密度集成的器件尺寸。热退火诱导的铁电特性实现神经形态计算应用中的突触权重存储多级操作。"
 keywords:
   - "[[[[Ferroelectric Transistor Array]]]]"
@@ -23,11 +16,9 @@ keywords:
   - "[[[[Neural Network Hardware]]]]"
   - "[[[[铁电晶体管阵列]]]]"
   - "[[[[三维集成]]]]"
-cite: "[1] Kim I J, Kim M K, Lee J S. Highly-scaled and fully-integrated 3-dimensional ferroelectric\
-  \ transistor array for hardware implementation of neural networks[J]. Nature Communications,\
-  \ 2023, 14: 673. DOI: 10.1038/s41467-023-36270-0."
+cite: "[1] Kim I J, Kim M K, Lee J S. Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks[J]. Nature Communications, 2023, 14: 673. DOI: 10.1038/s41467-023-36270-0."
 aiSum: "3D FeNAND 补充材料：包含器件制备工艺流程（沟槽刻蚀、HfZrOx/InZnOx 沉积）、器件参数表征和神经网络硬件实现细节。"
-confidence: high
+confidence: "high"
 parent:
   - "[[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks]]"
 ---

@@ -1,5 +1,4 @@
 ---
-
 title: "Unsupervised Local Learning Based on Voltage-Dependent Synaptic Plasticity for Resistive and Ferroelectric Synapses"
 authors:
   - "Nikhil Garg"
@@ -26,7 +25,7 @@ keywords:
   - "[[unsupervised learning]]"
 cite: "Garg N, Balafrej I, Palhares J H Q, et al. Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses[J]. Communications Materials, 2026. DOI: 10.1038/s43246-025-01033-5."
 aiSum: "在电阻式和铁电突触中实现基于电压依赖突触可塑性的无监督局部学习，支持边缘端在线学习，无需外部监督。"
-confidence: medium
+confidence: "medium"
 wiki_concepts:
   - "[[Memristor]]"
   - "[[Ferroelectric]]"

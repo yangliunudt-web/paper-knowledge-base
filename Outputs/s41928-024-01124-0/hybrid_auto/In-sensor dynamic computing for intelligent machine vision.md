@@ -17,7 +17,7 @@ authors:
 date: "2024-02-08"
 year: "2024"
 journal: "Nature Electronics"
-abstract: "Accurate detection and tracking of targets in low-light and complex scenarios is\\"
+abstract: "Accurate detection and tracking of targets in low-light and complex scenarios is\"
 abstract_cn: "在低光和复杂场景中精确检测和跟踪目标对于智能机器视觉的发展至关重要。然而，使用传统的静态光电卷积处理很难实现这些能力。本文展示了存内动态计算可以用于弱目标的精确检测和鲁棒跟踪。该方法使用多端混合维石墨烯-锗异质结构器件阵列，并依赖于阵列中相邻光电设备之间的动态相关性。器件的光响应范围可以根据漏源电压极性从正到负变化，并可以通过背栅和顶栅电压进一步调节。器件阵列的相关特性可用于选择性地放大光强度的微小差异，并准确提取弱目标的边缘特征。我们表明该方法可以在复杂环境中为弱目标提供鲁棒的跟踪。"
 keywords:
   - "[[In-sensor computing]]"
@@ -27,7 +27,7 @@ keywords:
   - "[[Dim target detection]]"
   - "[[Edge feature extraction]]"
   - "[[Neuromorphic computing]]"
-cite: "Yang Y, Pan C, Li Y, et al. In-sensor dynamic computing for intelligent machine vision[J].\\"
+cite: "Yang Y, Pan C, Li Y, et al. In-sensor dynamic computing for intelligent machine vision[J].\"
 aiSum: "存内动态计算方法：使用多端混合维石墨烯-锗异质结构器件阵列，实现弱目标边缘特征的精确提取，在对比度变化的图像中实现高识别精度的目标跟踪，比传统光电卷积方法更鲁棒。解决了传统CMOS图像传感器无法直接提取弱目标关键边缘特征的问题。"
 confidence: "high"
 wiki_concepts:

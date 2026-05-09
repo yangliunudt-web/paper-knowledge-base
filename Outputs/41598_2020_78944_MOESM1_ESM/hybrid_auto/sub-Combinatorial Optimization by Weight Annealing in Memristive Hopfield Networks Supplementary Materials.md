@@ -1,24 +1,21 @@
 ---
-
-
 title: "sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks"
-date: "2020-01-01"
-year: 2020
-journal: "Scientific Reports"
-abstract: "Supplementary materials for the main paper on combinatorial optimization"
-abstract_cn: "忆阻器 Hopfield 网络权重退火组合优化主论文的补充材料。包含离散时间 Hopfield 网络与退火技术、优化问题公式化、图划分示例及额外仿真结果详情。"
-cite: "待补充. sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks[J].\
-  \ Scientific Reports, 2020."
-aiSum: "忆阻器 Hopfield 网络权重退火组合优化论文补充材料：Hopfield 网络与退火技术、优化问题公式、图划分示例及仿真结果。"
-confidence: "medium"
-parent:
-  - "[[sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks Supplementary Materials (Copy)]]"
 authors:
   - "Z. Fahimi"
   - "M. R. Mahmoodi"
   - "H. Nili"
   - "Valentin Polishchuk"
   - "D. B. Strukov"
+date: "2020-01-01"
+year: 2020
+journal: "Scientific Reports"
+abstract: "Supplementary materials for the main paper on combinatorial optimization"
+abstract_cn: "忆阻器 Hopfield 网络权重退火组合优化主论文的补充材料。包含离散时间 Hopfield 网络与退火技术、优化问题公式化、图划分示例及额外仿真结果详情。"
+cite: "待补充. sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks[J]. Scientific Reports, 2020."
+aiSum: "忆阻器 Hopfield 网络权重退火组合优化论文补充材料：Hopfield 网络与退火技术、优化问题公式、图划分示例及仿真结果。"
+confidence: "medium"
+parent:
+  - "[[sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks Supplementary Materials (Copy)]]"
 ---
 
 # Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks Supplementary Materials

@@ -1,6 +1,5 @@
 ---
-title: "Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and\
-  \ Hf0.5Zr0.5O2-Based Ferroelectric Capacitors"
+title: "Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and Hf0.5Zr0.5O2-Based Ferroelectric Capacitors"
 authors:
   - "Yize Sun"
   - "Shucheng Zhang"
@@ -16,31 +15,16 @@ date: "2025-01-22"
 year: 2025
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2025.3529400"
-abstract: "Back-end-of-line (BEOL) compatible and high-performance thin-film transistors (TFTs)\
-  \ and emerging memory devices trigger significant interest in their integration\
-  \ into 3-D computing and memory systems. In this work, we demonstrate, for the first\
-  \ time, the fully integrated 2T1C memory cells with InGaZnO TFTs and Hf0.5Zr0.5O2\
-  \ (HZO)-based ferroelectric capacitors (FeCaps). The write and read operations of\
-  \ this recently proposed ferroelectric memory structure were systematically studied.\
-  \ The impacts of critical parameters on device performances were elucidated, including\
-  \ 1) applied voltage; 2) ferroelectric remnant polarization (Pr); 3) transistor\
-  \ threshold voltage (Vth); and 4) area ratio (AR) between the FeCap and the MOS\
-  \ capacitor of the Read transistor. The device with an AR of 1:8 can be operated\
-  \ with low voltages of 2 V for write and 2.5 V for read. Finally, the reliabilities\
-  \ of our fabricated 2T1C memory cells including retention (≥10^5 s) and endurance\
-  \ (≥10^7 cycles) were experimentally characterized."
-abstract_cn: "后道工艺兼容的高性能薄膜晶体管和新兴存储器件在三维计算和存储系统集成中引起了广泛关注。本文首次演示了完全集成的2T1C存储单元，采用InGaZnO薄膜晶体管和Hf0.5Zr0.5O2基铁电电容器。系统研究了这种最近提出的铁电存储器结构的写入和读取操作。阐明了关键参数对器件性能的影响，包括：1)\
-  \ 施加电压；2) 铁电剩余极化强度；3) 晶体管阈值电压；4) 铁电电容器与读取晶体管MOS电容器之间的面积比。面积比为1:8的器件可以在2V写入电压和2.5V读取电压下工作。最后，实验表征了我们制备的2T1C存储单元的可靠性，包括保持时间（≥10^5秒）和耐久性（≥10^7次循环）。"
+abstract: "Back-end-of-line (BEOL) compatible and high-performance thin-film transistors (TFTs) and emerging memory devices trigger significant interest in their integration into 3-D computing and memory systems. In this work, we demonstrate, for the first time, the fully integrated 2T1C memory cells with InGaZnO TFTs and Hf0.5Zr0.5O2 (HZO)-based ferroelectric capacitors (FeCaps). The write and read operations of this recently proposed ferroelectric memory structure were systematically studied. The impacts of critical parameters on device performances were elucidated, including 1) applied voltage; 2) ferroelectric remnant polarization (Pr); 3) transistor threshold voltage (Vth); and 4) area ratio (AR) between the FeCap and the MOS capacitor of the Read transistor. The device with an AR of 1:8 can be operated with low voltages of 2 V for write and 2.5 V for read. Finally, the reliabilities of our fabricated 2T1C memory cells including retention (≥10^5 s) and endurance (≥10^7 cycles) were experimentally characterized."
+abstract_cn: "后道工艺兼容的高性能薄膜晶体管和新兴存储器件在三维计算和存储系统集成中引起了广泛关注。本文首次演示了完全集成的2T1C存储单元，采用InGaZnO薄膜晶体管和Hf0.5Zr0.5O2基铁电电容器。系统研究了这种最近提出的铁电存储器结构的写入和读取操作。阐明了关键参数对器件性能的影响，包括：1) 施加电压；2) 铁电剩余极化强度；3) 晶体管阈值电压；4) 铁电电容器与读取晶体管MOS电容器之间的面积比。面积比为1:8的器件可以在2V写入电压和2.5V读取电压下工作。最后，实验表征了我们制备的2T1C存储单元的可靠性，包括保持时间（≥10^5秒）和耐久性（≥10^7次循环）。"
 keywords:
   - "[[2T1C memory cell]]"
   - "[[Back-end-of-line]]"
   - "[[Ferroelectric capacitor]]"
   - "[[InGaZnO TFT]]"
-cite: "[1] Sun Y, Zhang S, Liu Q, et al. Back‑end‑of‑line compatible 2T1C memory cell with\
-  \ InGaZnO thin‑film transistors and Hf0.5Zr0.5O2‑based ferroelectric capacitors[J].\
-  \ IEEE Transactions on Electron Devices, 2025, 72(3): 1234. DOI: 10.1109/TED.2025.3529400."
+cite: "[1] Sun Y, Zhang S, Liu Q, et al. Back‑end‑of‑line compatible 2T1C memory cell with InGaZnO thin‑film transistors and Hf0.5Zr0.5O2‑based ferroelectric capacitors[J]. IEEE Transactions on Electron Devices, 2025, 72(3): 1234. DOI: 10.1109/TED.2025.3529400."
 aiSum: "BEOL兼容2T1C存储单元：首次实现InGaZnO TFT与HZO铁电电容器全集成，面积比1:8时写入2V/读取2.5V，保持时间≥10^5秒，耐久性≥10^7次循环。"
-confidence: high
+confidence: "high"
 ---
 
 # Back-End-of-Line Compatible 2T1C Memory Cell With InGaZnO Thin-Film Transistors and Hf0.5Zr0.5O2-Based Ferroelectric Capacitors

@@ -6,9 +6,9 @@ authors:
   - "Bin Gao"
   - "Guo-Xing Miao"
   - "He Qian"
+date: "2021-06-01"
 year: 2021
 journal: "Proceedings of the IEEE"
-date: "2021-06-01"
 abstract: "Reviews analog resistive switching memory devices and hardware technologies for in-memory learning, covering device characteristics, algorithms, array mapping, and architecture design."
 abstract_cn: "综述模拟阻变存储器存内学习硬件技术，涵盖器件特性、算法、阵列映射和架构设计。"
 keywords:
@@ -18,7 +18,7 @@ keywords:
   - "[[Neuromorphic computing]]"
 cite: "Yao P, Wu H, Gao B, et al. In-memory learning with analog resistive switching memory: a review and perspective[J]. Proceedings of the IEEE, 2021, 109(1): 14-42."
 aiSum: "模拟RRAM存内学习综述：器件特性、硬件算法、阵列映射和架构设计，从器件到系统的挑战。"
-confidence: medium
+confidence: "medium"
 wiki_concepts:
   - "[[Memristor]]"
   - "[[In-memory computing]]"

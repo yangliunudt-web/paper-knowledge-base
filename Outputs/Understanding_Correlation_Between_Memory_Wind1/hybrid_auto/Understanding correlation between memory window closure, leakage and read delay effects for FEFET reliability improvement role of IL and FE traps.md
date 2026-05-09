@@ -1,6 +1,5 @@
 ---
-
-title: "Understanding correlation between memory window closure, leakage and read delay effects\\"
+title: "Understanding correlation between memory window closure, leakage and read delay effects\"
 authors:
   - "Priyankka Ravikumar"
   - "Andrea Padovani"
@@ -16,16 +15,16 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "Memory window (MW) closure, read delay, and gate leakage are three key reliability\\"
-abstract_cn: "存储窗口闭合、读取延迟和栅极泄漏是铁电场效应晶体管可靠性面临的三个关键挑战，传统上通常被单独分析。本文通过专门实验和器件模拟，详细研究了具有 10 nm 铁电 HZO\\"
+abstract: "Memory window (MW) closure, read delay, and gate leakage are three key reliability\"
+abstract_cn: "存储窗口闭合、读取延迟和栅极泄漏是铁电场效应晶体管可靠性面临的三个关键挑战，传统上通常被单独分析。本文通过专门实验和器件模拟，详细研究了具有 10 nm 铁电 HZO\"
 keywords:
   - "[[Ferroelectric FET]]"
   - "[[Memory window closure]]"
   - "[[Read delay]]"
   - "[[Gate leakage]]"
   - "[[Reliability]]"
-cite: "[1] Ravikumar P, Padovani A, Venkatesan P, et al. Understanding correlation between\\"
-aiSum: "铁电场效应晶体管的存储窗口闭合、读取延迟和栅极泄漏三大可靠性挑战相互关联：极化翻转加速界面层慢陷阱产生，导致存储窗口恢复减少和闭合；界面层严重退化后触发 HZO\\"
+cite: "[1] Ravikumar P, Padovani A, Venkatesan P, et al. Understanding correlation between\"
+aiSum: "铁电场效应晶体管的存储窗口闭合、读取延迟和栅极泄漏三大可靠性挑战相互关联：极化翻转加速界面层慢陷阱产生，导致存储窗口恢复减少和闭合；界面层严重退化后触发 HZO\"
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"

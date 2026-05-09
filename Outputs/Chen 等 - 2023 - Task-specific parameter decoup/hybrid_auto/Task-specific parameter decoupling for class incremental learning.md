@@ -1,5 +1,4 @@
 ---
-
 title: "Task-Specific Parameter Decoupling for Class Incremental Learning"
 authors:
   - "Runhang Chen"

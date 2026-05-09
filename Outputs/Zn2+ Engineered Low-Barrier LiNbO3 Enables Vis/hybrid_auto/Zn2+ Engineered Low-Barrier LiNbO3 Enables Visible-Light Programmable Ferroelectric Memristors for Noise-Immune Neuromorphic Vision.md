@@ -27,7 +27,7 @@ keywords:
   - "[[Zn2+ ions doped]]"
 cite: "Pei Y, Shang Y, Liu G, et al. Zn2+ engineered low-barrier LiNbO3 enables visible-light programmable ferroelectric memristors for noise-immune neuromorphic vision[J]. Advanced Materials, 2026. (待补充卷期页码和DOI)"
 aiSum: "Zn2+掺杂LiNbO3降低铁电极化翻转能垒69%，实现可见光编程铁电忆阻器，10^8次循环耐久性，光学储备池计算在噪声MNIST上达98.6%识别率。"
-confidence: high
+confidence: "high"
 wiki_concepts:
   - "[[ferroelectric polarization]]"
   - "[[Reservoir computing]]"

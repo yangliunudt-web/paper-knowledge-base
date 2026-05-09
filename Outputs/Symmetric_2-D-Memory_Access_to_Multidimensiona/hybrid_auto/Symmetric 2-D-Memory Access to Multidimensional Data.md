@@ -14,14 +14,14 @@ authors:
 date: "2018-02-23"
 year: "2018"
 journal: "IEEE Transactions on Computers"
-abstract: "In this paper, we propose a novel memory architecture with the capability of single-cycle\\"
+abstract: "In this paper, we propose a novel memory architecture with the capability of single-cycle\"
 abstract_cn: "本文提出一种具有单周期行/列访问能力的新型存储器架构。该架构非常适合在多维空间局部性特征的工作负载，这是许多矩阵和数组操作的典型特征。我们详细描述了实现所提出架构的电路设计技术，以及基于铁电晶体管的新兴存储器技术在此设计中的可行性。与标准一维访问的铁电晶体管存储器相比，所提出的二维读取存储器在32位列读写中实现了5%的能耗节省，二维读写存储器实现了93%的能耗节省。此外，二维读取存储器和二维读写存储器分别获得了约11%和95%的延迟节省。应用分析表明，在256×256矩阵操作中，二维读取存储器平均减少了约86%的行缓冲事务，且未增加阵列面积；二维读写存储器与一维铁电晶体管存储器相比，行缓冲事务减少87%，阵列面积增加28.5%。"
 keywords:
   - "[[2‑D memory]]"
   - "[[Ferroelectric FET]]"
   - "[[Non‑volatile memory]]"
   - "[[Energy efficiency]]"
-cite: "[1] George S, Li X, Liao M J, et al. Symmetric 2‑D‑memory access to multidimensional\\"
+cite: "[1] George S, Li X, Liao M J, et al. Symmetric 2‑D‑memory access to multidimensional\"
 aiSum: "基于铁电晶体管的新型二维存储器架构实现单周期行/列访问，在256×256矩阵操作中减少86%行缓冲事务，能耗降低5%~93%，延迟减少11%~95%。"
 confidence: "medium"
 wiki_concepts:

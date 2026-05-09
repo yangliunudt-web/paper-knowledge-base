@@ -1,5 +1,4 @@
 ---
-
 title: "1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs"
 authors:
   - "Ankit Sharma"
@@ -8,14 +7,14 @@ date: "2018-01-25"
 year: "2018"
 journal: "IEEE Electron Device Letters"
 doi: "10.1109/LED.2018.2797887"
-abstract: "In this letter, we propose one-transistor ferroelectric NOR type (Fe-NOR) non-volatile\\"
-abstract_cn: "本文提出基于 HfZrOx 铁电场效应晶体管的单晶体管铁电 NOR 型 (Fe-NOR) 非易失性存储器。利用超短沟道 FeFET 中增强的漏极-沟道耦合来动态调制存储单元的存储窗口，简化擦除、编程和读取操作。仿真分析预测所提\\"
+abstract: "In this letter, we propose one-transistor ferroelectric NOR type (Fe-NOR) non-volatile\"
+abstract_cn: "本文提出基于 HfZrOx 铁电场效应晶体管的单晶体管铁电 NOR 型 (Fe-NOR) 非易失性存储器。利用超短沟道 FeFET 中增强的漏极-沟道耦合来动态调制存储单元的存储窗口，简化擦除、编程和读取操作。仿真分析预测所提\"
 keywords:
   - "[[FeFET]]"
   - "[[Non-volatile memory]]"
   - "[[Fe-NOR]]"
   - "[[HfZrOx]]"
-cite: "[1] Sharma A, Roy K. 1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs[J].\\"
+cite: "[1] Sharma A, Roy K. 1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs[J].\"
 aiSum: "提出基于 HfZrOx FeFET 的 1T Fe-NOR 非易失性存储器，利用超短沟道增强的漏极-沟道耦合动态调制存储窗口，实现亚 1V 编程/擦除电压和简化操作。"
 confidence: "high"
 wiki_concepts:

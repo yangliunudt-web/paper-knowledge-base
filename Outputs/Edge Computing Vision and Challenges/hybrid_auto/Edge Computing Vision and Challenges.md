@@ -1,5 +1,4 @@
 ---
-
 title: "Edge Computing: Vision and Challenges"
 authors:
   - "Weisong Shi"
@@ -11,14 +10,14 @@ date: "2016-06-09"
 year: "2016"
 journal: "IEEE Internet of Things Journal"
 doi: "10.1109/JIOT.2016.2579198"
-abstract: "The proliferation of Internet of Things (IoT) and the success of rich cloud services\\"
+abstract: "The proliferation of Internet of Things (IoT) and the success of rich cloud services\"
 abstract_cn: "物联网的普及和丰富云服务的成功推动了一种新的计算范式——边缘计算的出现，它呼吁在网络边缘处理数据。边缘计算有潜力解决响应时间要求、电池寿命限制、带宽成本节约以及数据安全性和隐私性问题。本文介绍了边缘计算的定义，随后通过几个案例研究，从云卸载到智能家居和城市，以及协同边缘来实现边缘计算的概念。最后，我们提出了边缘计算领域的几个挑战和机遇，希望本文能引起社区的关注并激发更多在这个方向上的研究。"
 keywords:
   - "[[Edge computing]]"
   - "[[Internet of Things]]"
   - "[[Cloud offloading]]"
   - "[[Smart city]]"
-cite: "[1] Shi W, Cao J, Zhang Q, et al. Edge computing: vision and challenges[J]. IEEE\\"
+cite: "[1] Shi W, Cao J, Zhang Q, et al. Edge computing: vision and challenges[J]. IEEE\"
 aiSum: "边缘计算综述：定义、案例（云卸载、智能家居/城市、协同边缘）、挑战与机遇（可编程性、命名、数据抽象、服务管理、隐私安全、优化指标）。"
 confidence: "medium"
 wiki_concepts:

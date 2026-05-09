@@ -1,5 +1,4 @@
 ---
-
 title: "Isolation and Impartial Aggregation: A Paradigm of Incremental Learning without Interference"
 authors:
   - "Yabin Wang"
@@ -11,14 +10,14 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
-abstract: "This paper focuses on the prevalent performance imbalance in continual learning.\\"
+abstract: "This paper focuses on the prevalent performance imbalance in continual learning.\"
 abstract_cn: "本文聚焦于持续学习中的性能不平衡问题。提出一种基于阶段隔离的增量学习框架，通过一系列阶段隔离分类器避免相互干扰。引入基于锚点的能量自归一化策略，确保各阶段分类器在同一能量水平下工作，通过投票增强实现鲁棒推理。该方法任务无关，在四个大型基准数据集上取得了最先进的整体性能。"
 keywords:
   - "[[Continual learning]]"
   - "[[Incremental learning]]"
   - "[[Catastrophic forgetting]]"
   - "[[Neural network]]"
-cite: "Wang Y, Ma Z, Huang Z, et al. Isolation and impartial aggregation: A paradigm of\\"
+cite: "Wang Y, Ma Z, Huang Z, et al. Isolation and impartial aggregation: A paradigm of\"
 aiSum: "阶段隔离增量学习框架+能量自归一化策略，避免灾难性遗忘，四个基准数据集SOTA。"
 confidence: "medium"
 wiki_concepts:

@@ -9,7 +9,7 @@ date: "2020‑01‑01"
 year: "2020"
 journal: "Nature Nanotechnology"
 doi: "10.1038/s41565‑020‑0655‑z"
-abstract: "Traditional von Neumann computing systems involve separate processing and memory\\"
+abstract: "Traditional von Neumann computing systems involve separate processing and memory\"
 abstract_cn: "传统的冯·诺依曼计算系统包含独立的处理单元和存储单元。然而，数据移动在时间和能量上成本高昂，且近期与人工智能相关的高度以数据为中心的应用的爆炸式增长加剧了这一问题。这要求我们从根本上脱离传统系统，其中一种非冯·诺依曼计算方法是存内计算。通过利用存储设备的物理属性，某些计算任务在存储器内部就地执行。目前正在探索基于电荷和基于电阻的存储设备用于存内计算。本文综述了这些存储设备支持的关键计算原语及其在科学计算、信号处理、优化、机器学习、深度学习和随机计算等领域的应用。"
 keywords:
   - "[[In‑memory computing]]"
@@ -17,7 +17,7 @@ keywords:
   - "[[Computational memory]]"
   - "[[Resistive memory]]"
   - "[[Von Neumann bottleneck]]"
-cite: "[1] Sebastian A, Le Gallo M, Khaddam‑Aljameh R, et al. Memory devices and applications\\"
+cite: "[1] Sebastian A, Le Gallo M, Khaddam‑Aljameh R, et al. Memory devices and applications\"
 aiSum: "存内计算综述：涵盖基于电荷和基于电阻的存储设备、关键计算原语（向量‑矩阵乘法、逻辑运算、随机计算）及其在科学计算、机器学习等领域的应用，探讨器件与阵列层面的挑战与前景。"
 confidence: "high"
 wiki_concepts:

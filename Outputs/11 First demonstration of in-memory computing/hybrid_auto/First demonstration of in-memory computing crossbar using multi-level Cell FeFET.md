@@ -1,5 +1,4 @@
 ---
-
 title: "First Demonstration of In-Memory Computing Crossbar Using Multi-Level Cell FeFET"
 authors:
   - "Taha Soliman"
@@ -24,7 +23,7 @@ keywords:
   - "[[存内计算]]"
 cite: "Soliman T, Chatterjee S, Laleni N, et al. First demonstration of in-memory computing crossbar using multi-level Cell FeFET[J]. Nature Communications, 2023, 14: 6272. DOI: 10.1038/s41467-023-42110-y."
 aiSum: "首次展示基于多级FeFET的存内计算crossbar：1FeFET-1R结构，手写识别96.6%准确率，885.4 TOPS/W能效。"
-confidence: high
+confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[In-memory computing]]"

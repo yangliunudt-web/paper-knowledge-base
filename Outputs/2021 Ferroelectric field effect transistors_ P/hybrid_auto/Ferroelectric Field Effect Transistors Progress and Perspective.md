@@ -1,5 +1,4 @@
 ---
-
 title: "Ferroelectric Field Effect Transistors: Progress and Perspective"
 authors:
   - "Jae Young Kim"
@@ -9,14 +8,14 @@ date: "2021-02-02"
 year: "2021"
 journal: "APL Materials"
 doi: "10.1063/5.0035515"
-abstract: "Ferroelectric field-effect transistors (FeFETs) have attracted significant attention\\"
-abstract_cn: "铁电场效应晶体管 (FeFET) 作为下一代非易失性存储器和神经形态计算应用的候选器件受到广泛关注。本文综述基于 HfO2 的 FeFET 最新进展，包括器件物理、材料工程和集成挑战，讨论\\"
+abstract: "Ferroelectric field-effect transistors (FeFETs) have attracted significant attention\"
+abstract_cn: "铁电场效应晶体管 (FeFET) 作为下一代非易失性存储器和神经形态计算应用的候选器件受到广泛关注。本文综述基于 HfO2 的 FeFET 最新进展，包括器件物理、材料工程和集成挑战，讨论\"
 keywords:
   - "[[FeFET]]"
   - "[[HfO2]]"
   - "[[Ferroelectric]]"
   - "[[Review]]"
-cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress\\"
+cite: "[1] Kim J Y, Choi M J, Jang H W. Ferroelectric Field Effect Transistors: Progress\"
 aiSum: "综述 HfO2 基 FeFET 的最新进展，包括器件物理、材料工程和集成挑战，展望大规模商业应用的未来研究方向。"
 confidence: "medium"
 wiki_concepts:
