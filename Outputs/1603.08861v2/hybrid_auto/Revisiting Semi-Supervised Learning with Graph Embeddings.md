@@ -18,6 +18,8 @@ keywords:
 cite: "[1] Yang Z L, Cohen W W, Salakhutdinov R. Revisiting Semi-Supervised Learning"
 aiSum: "提出 Planetoid 半监督学习框架，通过图嵌入联合预测标签和邻域上下文，支持直推式和归纳式学习，在文本分类、实体抽取等任务上准确率比次优方法高"
 confidence: "medium"
+wiki_concepts:
+  - "[[Neural network]]"
 ---
 
 Zhilin Yang

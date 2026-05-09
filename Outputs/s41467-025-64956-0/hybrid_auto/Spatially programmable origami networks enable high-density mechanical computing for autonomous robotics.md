@@ -19,6 +19,8 @@ authors:
   - "Ting Tan"
   - "Yinghua Chen"
   - "Zhimiao Yan"
+wiki_concepts:
+  - "[[Neuromorphic computing]]"
 ---
 
 # Spatially programmable origami networks enable high-density mechanical computing for autonomous robotics

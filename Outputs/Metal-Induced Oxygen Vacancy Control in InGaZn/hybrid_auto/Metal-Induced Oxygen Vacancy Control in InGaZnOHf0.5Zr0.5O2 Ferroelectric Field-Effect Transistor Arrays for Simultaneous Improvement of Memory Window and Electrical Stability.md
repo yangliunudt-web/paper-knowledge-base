@@ -22,6 +22,9 @@ keywords:
 cite: "[1] Han J S, Kwak K, Choi S, et al. Metal‑induced oxygen vacancy control in"
 aiSum: "W/IGZO覆盖层调控氧空位分布，协同优化HZO铁电开关与IGZO半导体性能，FeFET实现4.13 V存储窗口、70 mV·dec−1亚阈值摆幅、107次耐久性、10年保持，16×16阵列验证可行性。"
 confidence: "high"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[IGZO]]"
 ---
 
 Jae Seong Han, Kyungmoon Kwak, Subi Choi, Ju Hyun Lee, Nam Su Heo, Kunho Moon, and Hyun Jae Kim*

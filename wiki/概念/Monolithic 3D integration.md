@@ -27,6 +27,7 @@ M3D 在 BEOL（后端工艺）中以 <400°C 低温预算逐层沉积和加工�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
+| [[Vertical ferroelectric thin-film transistor array with a 10-nm gate length for high-density three-dimensional memory applications\|Vertical ferroelectric thin-film transis...]] | 2022 | 展示 10 nm 栅长垂直 FeTFT 阵列，有效器件尺寸 0.005 μm²，操作速度 <100 ns，耐久性 10⁸ 次循环，演示串级 NAND 操作，仿真确认 200 层 3D 铁电 NAND  |
 | [[Monolithic 3D integration of 2D transistors and vertical RRAMs in 1T–4R structure for high-densi\|Monolithic 3D integration of 2D transist...]] | 2023 | 本文实验演示了MoS2晶体管与三维垂直RRAM的单片3D集成方案，制造温度低于300°C。MoS2晶体管可驱动VRRAM到4个电阻状态，电路级建模证实比平面存储具有更小面积、更快传输和更低能耗。为高能 |
 | [[CMOS Backend-of-Line Compatible Memory Array and Logic Circuitries\|CMOS Backend-of-Line Compatible Memory A...]] | 2023 | CMOS BEOL兼容ZnO TFT：ALD工艺、85/140 cm²/V·s迁移率、1 kbit 1T1R RRAM阵列、环形振荡器>10 MHz、spice模型。 |
 | [[Monolithic 3D integration of back-end compatible 2D material FET on Si FinFET\|Monolithic 3D integration of back-end co...]] | 2025 | 单片3D集成：单层MoS2 n‑FET与Si p‑FinFET（鳍宽20 nm）垂直集成形成互补反相器，增益~38，采用CMP/e‑beam蒸发等工业成熟工艺，验证二维材料与硅基器件兼容性。 |

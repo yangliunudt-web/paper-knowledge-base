@@ -23,6 +23,9 @@ keywords:
 cite: "Yoon, Author. Reconfigurable Ferroelectric Devices for Neuromorphic Computing[J]."
 aiSum: "可重构铁电器件综述：极化切换突触可塑性、多功能设计、硬件实现策略。"
 confidence: "high"
+wiki_concepts:
+  - "[[Ferroelectric Materials]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # RESEARCH ARTICLE

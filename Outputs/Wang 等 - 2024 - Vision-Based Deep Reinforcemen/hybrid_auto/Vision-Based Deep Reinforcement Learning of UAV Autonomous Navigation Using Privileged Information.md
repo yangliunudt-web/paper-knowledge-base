@@ -21,6 +21,9 @@ keywords:
 cite: "[1] Wang J., et al. Vision-Based Deep Reinforcement Learning of UAV Autonomous"
 aiSum: "采用深度强化学习+特权学习的方法，解决无人机在复杂环境下的自主导航问题。提出了非对称Actor-Critic架构和多智能体探索策略。实验在多种仿真场景中验证，算法在成功率、效率和鲁棒性方面优于TD3和EGO-Planner-v2。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Robotics]]"
+  - "[[Reinforcement learning]]"
 ---
 
 title: "Vision-Based Deep Reinforcement Learning of UAV Autonomous Navigation Using Privileged Information"

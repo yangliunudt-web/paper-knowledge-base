@@ -16,6 +16,8 @@ keywords:
 cite: "[1] Chen R, Jing X Y, Wu F, et al. Task‑specific parameter decoupling for class"
 aiSum: "类增量学习参数解耦方法：PD框架将任务知识压缩至任务特定参数，DPF策略自适应融合参数，消除表示干扰，在CIFAR100/TinyImageNet上优于SOTA方法。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Continual learning]]"
 ---
 
 # Task-specific parameter decoupling for class incremental learning

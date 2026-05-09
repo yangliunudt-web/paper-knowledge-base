@@ -19,6 +19,9 @@ keywords:
   - "[[p-channel FEFET]]"
   - "[[charge trapping]]"
   - "[[reliability]]"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Ferroelectric Materials]]"
 ---
 
 # Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance for Next Generation 3D NAND

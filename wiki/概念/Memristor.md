@@ -37,11 +37,11 @@ confidence: high
 | [[Electrochemical ohmic memristors for Electrochemical oh\|Electrochemical ohmic memristors for Ele...]] | 2024 | 本文提出电化学欧姆忆阻器，利用电化学机制实现可靠阻变切换和欧姆行为，面向神经形态计算应用。 |
 | [[A hardware-adaptive learning algorithm for superlinear-capacity associative memory on memristor crossbars\|A hardware-adaptive learning algorithm f...]] | 2025 | 采用存算一体化架构，利用阻变存储器实现近数据计算。解决了传统冯氏架构中数据搬移的瓶颈问题，实现了高能效的神经网络推理。 |
 | [[Memristor Spiking Neural Network for Shortest Path-Based Graph Learning\|Memristor Spiking Neural Network for Sho...]] | 2025 | 忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。 |
+| [[Memristor‑based adaptive analog‑to‑digital conversion for efficient and accurate compute‑in‑memory\|Memristor‑based adaptive analog‑to‑digit...]] | 2025 | 提出基于忆阻器的自适应模数转换器，利用可编程重叠边界的模拟 CAM 单元实现优化量化阈值，在 CIFAR‑10 上达到 89.55% 准确率，能效提升 15.1 倍，面积减少 12.9 倍，集成到 C |
 | [[Real-Time Signal Processing with Memristor-Based Fused Network\|Real-Time Signal Processing with Memrist...]] | 2025 | 忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。 |
 | [[A near-threshold memristive computing-inmemory engine for edge intelligence\|A near-threshold memristive computing-in...]] | 2025 | 近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。 |
 | [[Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array\|Van der Waals Engineering of One-Transis...]] | 2025 | 提出基于范德华工程的CuCrP2S6/MoS2/h-BN全二维材料1T1M架构，利用CuCrP2S6的铁电极化反转实现非易失阻变，电阻可调性达10^6，潜行电流低至120 fA，静态功耗仅12 fW。 |
 | [[Large-scale crossbar arrays based on threeterminal MoS2 memtransistors\|Large-scale crossbar arrays based on thr...]] | 2025 | 大规模MoS2记忆晶体管交叉阵列：每阵列2048器件，良率>92%，写入能量~0.2 fJ，读取裕度10⁵，保持>3年，栅极调制解决推理模糊性，MNIST分类验证，性能优于其他2D材料架构。 |
-| [[A memristor‑based unified PUF and TRNG chip with a concealable ability for advanced edge security\|A memristor‑based unified PUF and TRNG c...]] | 2025 | 基于28nm嵌入式忆阻器实现统一PUF和TRNG芯片，利用忆阻器FORMING条件variation（静态熵）和读取电流variation（动态熵）作为双熵源，设计紧凑片上熵提取器实现41.7 Mbp |
 ## 相关概念
 
 - [[RRAM]]

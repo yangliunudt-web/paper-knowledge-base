@@ -19,6 +19,8 @@ keywords:
   - "[[Autonomous exploration]]"
   - "[[Frontier information structure]]"
   - "[[Motion planning]]"
+wiki_concepts:
+  - "[[Robotics]]"
 ---
 
 Abstract—Autonomous exploration is a fundamental problem for various applications of unmanned aerial vehicles(UAVs). Existing methods, however, were demonstrated to insufficient exploration rate, due to the lack of efficient global coverage, conservative motion plans and low decision frequencies. In this paper, we propose FUEL, a hierarchical framework that can support Fast UAV ExpLoration in complex unknown environments. We maintain crucial information in the entire space required by exploration planning by a frontier information structure (FIS), which can be updated incrementally when the space is explored. Supported by the FIS, a hierarchical planner plans exploration motions in three steps, which find efficient global coverage paths, refine a local set of viewpoints and generate minimum-time trajectories in sequence. We present extensive benchmark and real-world tests, in which our method completes the exploration tasks with unprecedented efficiency (3-8 times faster) compared to state-of-the-art approaches. Our method will be made open source to benefit the community1 .

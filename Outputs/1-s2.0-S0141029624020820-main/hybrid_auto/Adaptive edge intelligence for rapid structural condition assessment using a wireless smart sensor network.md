@@ -17,6 +17,8 @@ keywords:
 cite: "[1] Cui S W, Hoang T, Mechitov K, et al. Adaptive edge intelligence for rapid"
 aiSum: "提出自适应边缘智能策略用于结构状态评估，集成无参考位移估计、高斯过程回归和随机过程控制，通过单节点独立计算和多节点协调处理有限资源，在铁路桥梁监测中验证有效性。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 # Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network

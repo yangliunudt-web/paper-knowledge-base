@@ -20,6 +20,9 @@ keywords:
 cite: "[1] Aldrigo M, et al. Unveiling pyroelectricity in ferroelectric planar capacitors"
 aiSum: "区域选择性湿法刻蚀 HZO 平面电容器实现热电收集：通过从头计算和多物理场模拟预测最大开路电压 900 mV，实验验证输出电流随温度梯度增大而显著提升。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Ferroelectric Materials]]"
+  - "[[HfO2]]"
 ---
 
 # Unveiling pyroelectricity in ferroelectric planar capacitors with area-selective wet etched hafnium zirconium oxide: from ab initio and multiphysics simulations to experiments

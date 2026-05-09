@@ -27,6 +27,9 @@ keywords:
   - "[[Continuous‑time data representation]]"
   - "[[Massively parallel computing]]"
   - "[[Frequency multiplexing]]"
+wiki_concepts:
+  - "[[crossbar]]"
+  - "[[In-memory computing]]"
 ---
 
 ![](images/f829bf158baf75bd1a22db121b0e8121753942951cb39e6638b576217f305b1a.jpg)

@@ -19,6 +19,9 @@ keywords:
   - "[[3D NAND]]"
   - "[[Hafnia ferroelectrics]]"
   - "[[Nonvolatile memory]]"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[Monolithic 3D integration]]"
 ---
 
 RESEARCH ARTICLE | JULY 25 2022

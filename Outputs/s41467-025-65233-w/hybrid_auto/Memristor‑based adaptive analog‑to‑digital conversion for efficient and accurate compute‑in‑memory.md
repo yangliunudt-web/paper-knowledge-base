@@ -28,6 +28,9 @@ keywords:
   - "[[Compute‑in‑memory]]"
   - "[[Analog‑to‑digital conversion]]"
   - "[[Content‑addressable memory]]"
+wiki_concepts:
+  - "[[Memristor]]"
+  - "[[In-memory computing]]"
 ---
 
 # Memristor-based adaptive analog-to-digital conversion for efficient and accurate compute-in-memory

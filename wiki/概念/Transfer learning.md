@@ -29,6 +29,7 @@ confidence: medium
 |------|------|----------|
 | [[Unsupervised Domain Adaptation by Backpropagation\|Unsupervised Domain Adaptation by Backpr...]] | 2015 | 提出 DANN 域对抗神经网络，通过梯度反转层实现域不变特征学习，在 MNIST→SVHN 等域适应任务上取得优异性能，开创深度域适应领域。 |
 | [[Domain-Adversarial Training of Neural Networks\|Domain-Adversarial Training of Neural Ne...]] | 2016 | 领域对抗神经网络训练（DANN）：通过梯度反转层实现领域不变特征学习，处理同质/异质领域自适应，在标准基准上优于SOTA方法。 |
+| [[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks\|Model-Agnostic Meta-Learning for Fast Ad...]] | 2017 | 提出 MAML 模型无关元学习算法，通过二阶梯度优化初始参数，使模型在新任务上仅需 1-5 步梯度更新即可快速适应，在少样本分类、回归和强化学习上达到 |
 | [[Adaptive Batch Normalization for Practical Domain Adaptation\|Adaptive Batch Normalization for Practic...]] | 2018 | AdaBN 域适应：调整 BN 统计量实现深度适应、无参数、无额外组件、可与现有方法互补。 |
 | [[TinyTL Reduce Memory, Not Parameters for Efficient On-Device Learning\|TinyTL Reduce Memory, Not Parameters for...]] | 2020 | 提出 TinyTL 冻结权重仅学习偏置模块，引入轻量残差模块保持适应能力，实现内存节省高达 6.5 倍（对比全网络微调）或 7.3‑12.9 倍（结合特征提取器适配），准确率损失小。 |
 | [[TENT Fully Test-Time Adaptation by Entropy Minimization\|TENT Fully Test-Time Adaptation by Entro...]] | 2021 | TENT 测试时适应：熵最小化、归一化统计+仿射变换、ImageNet-C SOTA、无需源数据/改变训练。 |

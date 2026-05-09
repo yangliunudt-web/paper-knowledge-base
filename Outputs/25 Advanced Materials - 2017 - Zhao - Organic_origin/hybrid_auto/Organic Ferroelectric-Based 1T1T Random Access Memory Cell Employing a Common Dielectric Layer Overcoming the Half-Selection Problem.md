@@ -28,6 +28,9 @@ keywords:
   - "[[存储器件]]"
   - "[[有机电子学]]"
   - "[[有机场效应晶体管]]"
+wiki_concepts:
+  - "[[FeFET]]"
+  - "[[FeRAM]]"
 ---
 
 # Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem

@@ -19,6 +19,8 @@ keywords:
 cite: "[1] Cai H, Gan C, Han S. Once for All: Train One Network and Specialize it for Efficient Deployment[C]. ICLR, 2020."
 aiSum: "OFA 通用网络：渐进收缩算法、支持 10^19 子网络、训练成本从 O(N) 降至 O(1)、比 NAS 快 14-1142 倍、多硬件平台部署。"
 confidence: "low"
+wiki_concepts:
+  - "[[Neural network]]"
 ---
 
 Number of Deployment Scenarios

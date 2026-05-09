@@ -33,6 +33,7 @@ confidence: high
 |------|------|----------|
 | [[First demonstration of in-memory computing crossbar using multi-level Cell FeFET\|First demonstration of in-memory computi...]] | 2023 | 首次展示基于多级FeFET的存内计算crossbar：1FeFET-1R结构，手写识别96.6%准确率，885.4 TOPS/W能效。 |
 | [[Ferroelectric compute-in-memory annealer for combinatorial optimization problems\|Ferroelectric compute-in-memory annealer...]] | 2023 | FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。 |
+| [[Scalable massively parallel computing using continuous-time data representation in nanoscale crossbar array\|Scalable massively parallel computing us...]] | 2024 | 纳米尺度忆阻交叉阵列中利用连续时间数据表示和频率复用实现可扩展大规模并行计算，支持矩阵‑矩阵乘法一步操作和16字母图像一步识别。 |
 | [[sub‑Scalable massively parallel computing using continuous‑time data representation in nanoscale crossbar array\|sub‑Scalable massively parallel computin...]] | 2024 | 补充材料：包含补充图表和实验细节，支持主文中忆阻交叉阵列中连续时间数据表示和频率复用的大规模并行计算方案。 |
 | [[In-memory ferroelectric differentiator\|In-memory ferroelectric differentiator]] | 2025 | 存内铁电微分器：利用铁电电容器本征微分响应，0.24 fJ/次、1 MHz、98.9%准确率。 |
 | [[A near-threshold memristive computing-inmemory engine for edge intelligence\|A near-threshold memristive computing-in...]] | 2025 | 近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。 |

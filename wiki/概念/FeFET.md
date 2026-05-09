@@ -30,6 +30,7 @@ FeFET 利用铁电材料的可编程极化状态调制晶体管阈值电压，�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
+| [[Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem\|Organic Ferroelectric-Based 1T1T Random ...]] | 2017 | 研究问题：基于有机铁电材料的非易失性存储器在制造过程中面临半选问题，即在对目标存储晶体管进行写操作时，会导致相邻存储晶体管被轻微编程。研究方法：提出了一种新型的1T1T FeRAM单元结构，由一个选择 |
 | [[1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs\|1T Non-Volatile Memory Design Using Sub-...]] | 2018 | 提出基于 HfZrOx FeFET 的 1T Fe-NOR 非易失性存储器，利用超短沟道增强的漏极-沟道耦合动态调制存储窗口，实现亚 1V 编程/擦除电压和简化操作。 |
 | [[Write Disturb in Ferroelectric FETs and Its Implication for 1T-FeFET AND Memory Arrays\|Write Disturb in Ferroelectric FETs and ...]] | 2018 | 研究 HZO FeFET AND 阵列写入干扰：分析 VW/2 和 VW/3 抑制方案，发现低 VTH 态漏电流和高 VTH 态读电流增加是限制阵列尺寸的关键因素，为阵列优化提供指导。 |
 | [[Ferroelectric FET Analog Synapse for Acceleration of Deep Neural Network Training\|Ferroelectric FET Analog Synapse for Acc...]] | 2018 | FeFET模拟突触：基于部分极化切换，实现5位对称增强/抑制特性，75ns更新脉冲，45倍电导可调范围，相比多态RRAM突触在线学习延迟加速10^3‑10^6倍。 |
@@ -38,10 +39,9 @@ FeFET 利用铁电材料的可编程极化状态调制晶体管阈值电压，�
 | [[Hafnium Oxide-Based Ferroelectric Memories Are We Ready for Application\|Hafnium Oxide-Based Ferroelectric Memori...]] | 2021 | HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。 |
 | [[Ferroelectric Transistors for Memory and Neuromorphic Device Applications\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态器件中的应用：涵盖器件物理、材料工程、多值存储和突触可塑性，展望大规模商业化前景。 |
 | [[Ferroelectric Transistors for Memory and Neuromorphic Computing\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态计算中的应用：器件结构、工作原理、存储特性和突触应用。 |
+| [[Vertical ferroelectric thin-film transistor array with a 10-nm gate length for high-density three-dimensional memory applications\|Vertical ferroelectric thin-film transis...]] | 2022 | 展示 10 nm 栅长垂直 FeTFT 阵列，有效器件尺寸 0.005 μm²，操作速度 <100 ns，耐久性 10⁸ 次循环，演示串级 NAND 操作，仿真确认 200 层 3D 铁电 NAND  |
 | [[CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks\|CMOS-compatible compute-in-memory accele...]] | 2022 | FeFET突触阵列CIM加速器：三端FeFET兼存储和访问，HfZrOx/IZO <400°C制备，MNIST验证CIM功能，展示高密度CNN加速潜力。 |
 | [[Sub-CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks\|Sub-CMOS-compatible compute-in-memory ac...]] | 2022 | 补充材料：包含 HfZrOx 铁电特性表征、FeTFT 阵列制造工艺流程、器件 I-V 特性曲线等详细实验数据。 |
-| [[Highly-scaled and fully-integrated 3-dimensional ferroelectric transistor array for hardware implementation of neural networks\|Highly-scaled and fully-integrated 3-dim...]] | 2023 | 提出基于 HfZrOx 铁电晶体管的三维 NAND 阵列 (3D FeNAND) 用于神经网络硬件实现，通过沟槽结构实现高密度集成，演示了向量矩阵乘法和模式分类，手写数字识别准确率 |
-| [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|Amorphous Indium Oxide Channel FeFETs wi...]] | 2023 | 首次BEOL兼容IWO FeFET：写入<0.9V，耐久性>10¹²循环，85°C保持>10⁴s，无需刷新1T-1FeFET存储器。 |
 ## 相关概念
 
 - [[HfO2]]

@@ -22,6 +22,9 @@ keywords:
 cite: "[1] Dinu L A, Romanitan C, Aldrigo M, et al. Investigation of wet etching technique"
 aiSum: "区域选择性湿法刻蚀用于HZO薄膜图案化：6.8 nm HZO薄膜选择性刻蚀，提升MFM结构性能，XRR/XRD/AFM/XPS表征刻蚀速率与完全去除，适用于高频电子器件。"
 confidence: "medium"
+wiki_concepts:
+  - "[[Ferroelectric Materials]]"
+  - "[[HfO2]]"
 ---
 
 # Investigation of wet etching technique for selective patterning of ferroelectric zirconium-doped hafnium oxide thin films for high-frequency electronic applications

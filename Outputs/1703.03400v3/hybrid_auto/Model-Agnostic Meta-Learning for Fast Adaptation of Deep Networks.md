@@ -18,6 +18,8 @@ keywords:
 cite: "[1] Finn C, Abbeel P, Levine S. Model-Agnostic Meta-Learning for Fast Adaptation"
 aiSum: "提出 MAML 模型无关元学习算法，通过二阶梯度优化初始参数，使模型在新任务上仅需 1-5 步梯度更新即可快速适应，在少样本分类、回归和强化学习上达到"
 confidence: "medium"
+wiki_concepts:
+  - "[[Transfer learning]]"
 ---
 
 Chelsea Finn 1 Pieter Abbeel 1 2 Sergey Levine 1

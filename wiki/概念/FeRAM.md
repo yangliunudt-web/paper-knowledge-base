@@ -30,6 +30,7 @@ FeFET 基 FeRAM 将铁电栅介质直接集成到晶体管中，实现 1T 单元
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
+| [[Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem\|Organic Ferroelectric-Based 1T1T Random ...]] | 2017 | 研究问题：基于有机铁电材料的非易失性存储器在制造过程中面临半选问题，即在对目标存储晶体管进行写操作时，会导致相邻存储晶体管被轻微编程。研究方法：提出了一种新型的1T1T FeRAM单元结构，由一个选择 |
 | [[1T Non-Volatile Memory Design Using Sub-10nm Ferroelectric FETs\|1T Non-Volatile Memory Design Using Sub-...]] | 2018 | 提出基于 HfZrOx FeFET 的 1T Fe-NOR 非易失性存储器，利用超短沟道增强的漏极-沟道耦合动态调制存储窗口，实现亚 1V 编程/擦除电压和简化操作。 |
 | [[Hafnium Oxide-Based Ferroelectric Memories Are We Ready for Application\|Hafnium Oxide-Based Ferroelectric Memori...]] | 2021 | HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。 |
 | [[Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM\|Monolithic Integration of Oxide Semicond...]] | 2021 | IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。 |

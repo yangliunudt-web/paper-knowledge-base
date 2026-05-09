@@ -25,6 +25,8 @@ keywords:
   - "[[因果深度学习]]"
   - "[[异常检测]]"
   - "[[6G网络]]"
+wiki_concepts:
+  - "[[Edge computing]]"
 ---
 
 # [[Causal deep learning]] for enhancing explainability in 6G network edge intelligence anomaly detection
