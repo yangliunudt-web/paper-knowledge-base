@@ -1,5 +1,15 @@
 ---
 title: "CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing"
+authors:
+  - "Wenhui Wang"
+  - "Ke Li"
+  - "Jun Lan"
+  - "Mei Shen"
+  - "Zhongrui Wang"
+  - "Xuewei Feng"
+  - "Hongtao Zhang"
+  - "Xiaoyang Lin"
+  - "Qi Liu"
 date: "2023-04-22"
 year: 2023
 journal: "Science Advances"

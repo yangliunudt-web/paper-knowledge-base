@@ -1,5 +1,18 @@
 ---
-title: "A hardware-adaptive learning algorithm for superlinear-capacity associative"
+title: "A Hardware-Adaptive Learning Algorithm for Superlinear-Capacity Associative Memory on Memristor Crossbars"
+authors:
+  - "Chengping He"
+  - "Mingrui Jiang"
+  - "Keyi Shan"
+  - "Szu-Hao Yang"
+  - "Zefan Li"
+  - "Shengbo Wang"
+  - "Yingjie Li"
+  - "Ning Lin"
+  - "Zhong Sun"
+  - "Peng Lin"
+  - "Yi Li"
+  - "Xiangshui Miao"
 date: "2025-01-01"
 year: 2025
 journal: "Nature Communications"

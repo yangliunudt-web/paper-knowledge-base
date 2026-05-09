@@ -1,5 +1,10 @@
 ---
-title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and"
+title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging Applications"
+authors:
+  - "Mishal Fatima Minhas Rachmad Vidya Wicaksana Putra"
+  - "Falah Awwad"
+  - "Osman Hasan"
+  - "Muhammad Shafique"
 date: "2025-07-15"
 year: 2025
 journal: "IEEE Access"

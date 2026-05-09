@@ -1,5 +1,14 @@
 ---
-title: "Amorphous phase-change memory alloy with no resistance drift"
+title: "Amorphous Phase-Change Memory Alloy with No Resistance Drift"
+authors:
+  - "Xiaozhe Wang"
+  - "Ruobing Wang"
+  - "Suyang Sun"
+  - "Ding Xu"
+  - "Chao Nie"
+  - "Zhou Zhou"
+  - "Wei Zhang"
+  - "Xiangshui Miao"
 date: "2025-09-01"
 year: 2025
 journal: "Nature Materials"

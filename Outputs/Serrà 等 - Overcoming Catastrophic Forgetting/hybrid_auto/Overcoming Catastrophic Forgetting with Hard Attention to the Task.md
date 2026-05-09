@@ -1,5 +1,10 @@
 ---
 title: "Overcoming Catastrophic Forgetting with Hard Attention to the Task"
+authors:
+  - "Joan Serra"
+  - "Didac Suris"
+  - "Marius Miron"
+  - "Alexandros Karatzoglou"
 date: "2018-07-10"
 year: 2018
 journal: "Proceedings of Machine Learning Research"
