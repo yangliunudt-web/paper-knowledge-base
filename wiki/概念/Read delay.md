@@ -27,7 +27,7 @@ confidence: medium
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps\|Understanding correlation between memory...]] | 2024 | Memory window (MW) closure, [[Read delay]], and [[Gate leakage]] are three key reliability challenge |
+| [[Understanding correlation between memory window closure, leakage and read delay effects for FEFET reliability improvement role of IL and FE traps\|Understanding correlation between memory...]] | 2024 | Memory window (MW) closure, [[Read delay]], and Gate leakage are three key reliability challenge |
 ## 相关概念
 
 - [[In-memory computing]]
