@@ -6,7 +6,7 @@ date: "2023-08-24"
 year: "2023"
 journal: "Science"
 doi: "10.1126/science.adk6874"
-abstract: "These findings have important implications for understanding neurodegenerative"
+abstract: "This commentary discusses recent advances in edge AI computing, highlighting the development of specialized hardware including neuromorphic processors and compute-in-memory architectures that bring AI capabilities directly to edge devices. It examines key breakthroughs enabling efficient on-device inference and learning, the role of emerging memory technologies, and the path toward truly autonomous edge intelligence systems capable of real-time decision making without cloud dependency."
 abstract_cn: "Science 视角文章讨论 IBM NorthPole 芯片，一种用于边缘 AI 计算的数字类脑架构。NorthPole 具有 256"
 keywords:
   - "[[Edge computing]]"
