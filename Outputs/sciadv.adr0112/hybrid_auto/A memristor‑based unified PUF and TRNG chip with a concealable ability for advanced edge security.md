@@ -21,7 +21,10 @@ keywords:
   - "[[TRNG]]"
   - "[[IoT security]]"
   - "[[Entropy extractor]]"
-cite: "[1] Li et al. A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security[J]. Science Advances, 2025."
+abstract: "Security primitives ensure Internet of Things (IoT) security by generating stable keys from physically unclonable functions (PUFs) and unpredictable bitstreams from true random number generators (TRNGs). Considering the restricted resources on IoT motes, a promising design trend is to unify PUF and TRNG by sharing the same entropy source and multiplexing entropy extractor. Here, we report a unified PUF and TRNG chip based on a 28-nanometer embedded memristor with concealable ability. We use the memristor intrinsic FORMING condition variation and read current variation as entropy sources and design a compact on-chip entropy extractor that achieves a high throughput of 41.7 megabits per second with minimal area overhead of 0.291 MF2. To prevent PUF data leakage, we developed a concealment method, protecting data when idle and enabling recovery upon demand. Comprehensive testing shows the chip has excellent performance in randomness, reliability, lifetime, and stability, achieving a 3.82-fold throughput improvement over complementary metal-oxide semiconductor-based designs in authentication tasks."
+abstract_cn: "安全原语通过物理不可克隆函数（PUF）生成稳定密钥和真随机数发生器（TRNG）生成不可预测比特流来确保物联网安全。考虑到物联网节点资源受限，通过共享同一熵源和复用熵提取器来统一PUF和TRNG是一种有前景的设计趋势。本文报告了基于28纳米嵌入式忆阻器的统一PUF和TRNG芯片，具有可隐藏能力。利用忆阻器固有的FORMING条件variation和读取电流variation作为熵源，设计了紧凑的片上熵提取器，实现41.7 Mbps高吞吐量，面积开销仅0.291 MF2。为防止PUF数据泄露，开发了隐藏方法，在空闲时保护数据并按需恢复。全面测试表明芯片在随机性、可靠性、寿命和稳定性方面性能优异，认证任务吞吐量比CMOS设计提升3.82倍。"
+aiSum: "基于28nm嵌入式忆阻器实现统一PUF和TRNG芯片，利用忆阻器FORMING条件variation（静态熵）和读取电流variation（动态熵）作为双熵源，设计紧凑片上熵提取器实现41.7 Mbps吞吐量，面积开销仅0.291 MF2。开发隐藏机制保护PUF数据。认证任务吞吐量比CMOS设计提升3.82倍。为资源受限IoT设备提供高能效硬件安全方案。"
+cite: "[1] Li X, Lin B, Gao B, et al. A memristor-based unified PUF and TRNG chip with a concealable ability for advanced edge security[J]. Science Advances, 2025."
 confidence: "high"
 wiki_concepts:
   - "[[Memristor]]"

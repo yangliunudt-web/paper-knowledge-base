@@ -7,6 +7,7 @@ date: "2022-01-01"
 year: "2022"
 journal: "Nature"
 doi: "10.1038/s41586-021-04362-w"
+abstract: "New computing technologies inspired by the brain promise fundamentally different ways to process information with extreme energy efficiency and the ability to handle the avalanche of unstructured and noisy data that we are generating at an ever-increasing rate. To realise this promise requires a brave and coordinated plan to bring together disparate research communities and to provide them with the funding, focus and support needed. We have done this in the past with digital technologies; we are in the process of doing it with quantum technologies; can we now do it for brain-inspired computing?"
 abstract_cn: "受大脑启发的新型计算技术有望以极高的能效处理我们以不断增长的速度产生的海量非结构化和噪声数据。实现这一承诺需要一个大胆而协调的计划，将不同的研究社区聚集在一起，为他们提供所需的资金、重点和支持。现代计算系统消耗太多能量，不是复杂人工智能应用的可持续平台。本文讨论了脑启发式计算需要总体规划的原因。"
 keywords:
   - "[[Brain-inspired computing]]"

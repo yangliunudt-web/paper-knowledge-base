@@ -1,5 +1,5 @@
 ---
-title: "Device operation and design"
+title: "Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for High-Density and Low-Power Memory Application"
 authors:
   - "Fei Mo"
   - "Yusaku Tagawa"
@@ -17,7 +17,8 @@ keywords:
   - "[[IGZO]]"
   - "[[HfO2]]"
   - "[[Memory application]]"
-cite: "[1] Mo et al. Device operation and design[J]. IEEE Electron Device Letters, 2023."
+cite: "[1] Mo F, Tagawa Y, Jin C, et al. Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for High-Density and Low-Power Memory Application[J]. IEEE Electron Device Letters, 2023."
+abstract_cn: "实验演示了通过引入超薄IGZO作为沟道材料的铁电HfO2 FET存储操作。超薄体IGZO铁电场效应晶体管展现出高迁移率、近理想亚阈值斜率和可控存储特性，采用后端兼容工艺。这些结果归因于IGZO沟道特性：无结FET操作、金属氧化物沟道上近零低k界面层和实现铁电相形成的良好覆盖效应。IGZO FeFET将为高密度存储应用开辟新路径。"
 aiSum: "超薄体IGZO FeFET实验演示：采用HfO2铁电层，实现高迁移率、理想亚阈值斜率、可控存储窗口，为高密度低功耗存储应用提供新方案。"
 confidence: "high"
 wiki_concepts:

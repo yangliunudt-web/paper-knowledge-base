@@ -1,5 +1,5 @@
 ---
-title: "A. FET Characteristics and Physics of Mobility Enhancement"
+title: "Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM"
 authors:
   - "Jixuan Wu"
   - "Fei Mo"
@@ -17,7 +17,7 @@ keywords:
   - "[[Ferroelectric capacitor]]"
   - "[[3D integration]]"
   - "[[FeRAM]]"
-cite: "[1] Wu et al. A. FET Characteristics and Physics of Mobility Enhancement[J]. IEEE Transactions on Electron Devices, 2021."
+cite: "[1] Wu J, Mo F, Saraya T, et al. Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM[J]. IEEE Transactions on Electron Devices, 2021."
 aiSum: "IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。"
 confidence: "high"
 wiki_concepts:

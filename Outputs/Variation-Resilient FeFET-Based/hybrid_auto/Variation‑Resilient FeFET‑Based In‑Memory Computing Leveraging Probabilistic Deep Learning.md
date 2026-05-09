@@ -1,9 +1,11 @@
 ---
 title: "Variation‑Resilient FeFET‑Based In‑Memory Computing Leveraging Probabilistic"
 authors:
-  - "Bibhas Arnob"
-  - "Zhouhang Kai"
-  - "Abhronil Senior"
+  - "Bibhas Manna"
+  - "Arnob Saha"
+  - "Zhouhang Jiang"
+  - "Kai Ni"
+  - "Abhronil Sengupta"
 date: "2020-01-01"
 year: "2020"
 journal: "Applied Physics Letters"

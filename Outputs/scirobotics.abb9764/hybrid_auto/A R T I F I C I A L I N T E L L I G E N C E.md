@@ -20,19 +20,6 @@ keywords:
   - "[[机器人]]"
 ---
 
-title: "A R T I F I C I A L I N T E L L I G E N C E"
-authors:
-  - "Unknown Author"
-journal: "Science Robotics"
-year: "2020"
-keywords:
-  - [[Reinforcement learning]]
-abstract_cn: |
-  本文研究了相关领域的科学问题。
-aiSum: |
-  采用机器学习/深度学习方法解决问题，实验验证了有效性。
-cite: "[1] Author U. A R T I F I C I A L I N T E L L I G E N C E[J/OL]. arXiv, 2020. 1804.10332."
-
 # A R T I F I C I A L I N T E L L I G E N C E
 
 # An adaptive deep reinforcement learning framework enables curling robots with human-like performance in real-world conditions

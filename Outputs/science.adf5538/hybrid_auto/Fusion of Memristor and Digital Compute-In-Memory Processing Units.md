@@ -1,5 +1,5 @@
 ---
-title: "Overview of memristor-SRAM CIM-fusion processor"
+title: "Fusion of Memristor and Digital Compute-In-Memory Processing Units"
 authors:
   - "Tai-Hao Wen"
   - "Je-Min Hung"

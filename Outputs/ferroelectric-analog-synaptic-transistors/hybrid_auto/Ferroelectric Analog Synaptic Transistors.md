@@ -1,5 +1,5 @@
 ---
-title: "ASSOCIATED CONTENT"
+title: "Ferroelectric Analog Synaptic Transistors"
 authors:
   - "Min-Kyu Kim"
   - "Jang-Sik Lee"
@@ -18,7 +18,7 @@ keywords:
   - "[[薄膜晶体管]]"
   - "[[人工突触]]"
   - "[[神经形态计算]]"
-cite: "[1] Kim et al. ASSOCIATED CONTENT[J]. Nano Letters, 2019."
+cite: "[1] Kim M K, Lee J S. Ferroelectric Analog Synaptic Transistors[J]. Nano Letters, 2019."
 aiSum: "本文展示了基于铁电材料和氧化物半导体的FeTFT器件的模拟电导调制行为。通过精确控制铁电层极化实现线性突触权重更新，器件展现了高线性度、多状态（32个状态）和低变异性的增强/抑制特性。基于实测参数的仿真中，神经形态系统达到91.1%的MNIST手写数字识别准确率。该工作为神经形态硬件中突触器件的实现提供了可行方案。"
 confidence: "high"
 wiki_concepts:

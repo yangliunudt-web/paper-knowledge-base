@@ -1,5 +1,5 @@
 ---
-title: "RESULTS Parallel programming of a ferroelectric synaptic transistor array"
+title: "CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks"
 authors:
   - "Min-Kyu Kim"
   - "Ik-Jyae Kim"
@@ -15,7 +15,8 @@ keywords:
   - "[[CNN accelerator]]"
   - "[[HfZrOx]]"
   - "[[Ferroelectric]]"
-cite: "[1] Kim et al. RESULTS Parallel programming of a ferroelectric synaptic transistor array[J]. Science Advances, 2022."
+abstract: "Convolutional neural networks (CNNs) have gained much attention because they can provide superior complex image recognition through convolution operations. Convolution processes require repeated multiplication and accumulation operations, which are difficult tasks for conventional computing systems. Compute-in-memory (CIM) that uses parallel data processing is an ideal device structure for convolution operations. CIM based on two-terminal synaptic devices with a crossbar structure has been developed, but unwanted leakage current paths and the high-power consumption remain as the challenges. Here, we demonstrate integrated ferroelectric thin-film transistor (FeTFT) synaptic arrays that can provide efficient parallel programming and data processing for CNNs by the selective and accurate control of polarization in the ferroelectric layer. In addition, three-terminal FeTFTs can act as both nonvolatile memory and access device, which tackle issues from two-terminal devices. An integrated FeTFT synaptic array with parallel programming capabilities can perform convolution operations to extract image features with a high-recognition accuracy."
+cite: "[1] Kim M K, Kim I J, Lee J S. CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks[J]. Science Advances, 2022, 8: eabm8537."
 aiSum: "FeFET突触阵列CIM加速器：三端FeFET兼存储和访问，HfZrOx/IZO <400°C制备，MNIST验证CIM功能，展示高密度CNN加速潜力。"
 confidence: "high"
 wiki_concepts:

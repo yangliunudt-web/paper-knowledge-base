@@ -6,7 +6,7 @@ authors:
 date: "2023-09-01"
 year: "2023"
 journal: "IEEE Electron Device Letters"
-abstract: "Through technology computer-aided- design (TCAD) simulation and [[FeFET]] capacitor measurement, we optimized the write bias scheme in [[On-chip training]] of HfO2- based [[FeFET]] field-effect-transistor ([[FeFET]]) [[Synapse]] to improve training accuracy. With the optimized write bias scheme secured in this work, 4-bit synaptic operation was confirmed even in the presence of D2D variations in remanent polarization (Pr) and coercive field $( E \\mathrm { c } )$ induced by the [[FeFET]] film process and the wake-up procedure. Keywords; [[FeFET]], [[Synapse]], [[FeFET]], [[Device-to-device variation]], [[On-chip training]]"
+abstract: "Through technology computer-aided-design (TCAD) simulation and FeFET capacitor measurement, we optimized the write bias scheme in on-chip training of HfO2-based FeFET synapse to improve training accuracy. With the optimized write bias scheme secured in this work, 4-bit synaptic operation was confirmed even in the presence of D2D variations in remanent polarization (Pr) and coercive field (Ec) induced by the FeFET film process and the wake-up procedure."
 abstract_cn: "通过TCAD仿真和FeFET电容测量，我们优化了HfO2基FeFET突触片上训练的写入偏置方案以提高训练精度。采用优化的写入偏置方案，即使在FeFET薄膜工艺和唤醒过程引起的剩余极化和矫顽场的器件间差异存在的情况下，仍确认了4位突触操作。通过系统优化读写电压，实现了增强和抑制特性的高对称性和线性度。"
 keywords:
   - "[[FeFET]]"

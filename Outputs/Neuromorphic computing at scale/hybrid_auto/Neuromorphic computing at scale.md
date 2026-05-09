@@ -28,6 +28,7 @@ date: "2025-01-22"
 year: "2025"
 journal: "Nature"
 doi: "10.1038/s41586-024-08253-8"
+abstract: "Neuromorphic computing is a brain-inspired approach to hardware and algorithm design that efficiently realizes artificial neural networks. Neuromorphic designers apply the principles of biointelligence discovered by neuroscientists to design efficient computational systems, often for applications with size, weight and power constraints. With this research field at a critical juncture, it is crucial to chart the course for the development of future large-scale neuromorphic systems. We describe approaches for creating scalable neuromorphic architectures and identify key features. We discuss potential applications that can benefit from scaling and the main challenges that need to be addressed. Furthermore, we examine a comprehensive ecosystem necessary to sustain growth and the new opportunities that lie ahead when scaling neuromorphic systems. Our work distils ideas from several computing subfields, providing guidance to researchers and practitioners of neuromorphic computing who aim to push the frontier forward."
 abstract_cn: "神经形态计算是一种受大脑启发的硬件和算法设计方法，能够高效实现人工神经网络。神经形态设计者应用神经科学家发现的生物智能原理来设计高效的计算系统，通常用于具有尺寸、重量和功率限制的应用。随着该研究领域处于关键节点，规划未来大规模神经形态系统的发展至关重要。我们描述了创建可扩展神经形态架构的方法并识别关键特征。讨论了可以从扩展中受益的潜在应用以及需要应对的主要挑战。此外，我们研究了维持增长所需的全面生态系统，以及在扩展神经形态系统时面临的新机遇。我们的工作提炼了来自多个计算子领域的想法，为旨在推动前沿发展的神经形态计算研究人员和实践者提供指导。"
 keywords:
   - "[[Neuromorphic computing]]"

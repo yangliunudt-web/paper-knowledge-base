@@ -1,4 +1,5 @@
 ---
+title: "Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for high-precision and energy-efficient dynamic tracking"
 authors:
   - "Tian Lu"
   - "Junying Xue"
@@ -23,8 +24,10 @@ doi: "10.1126/sciadv.adp0174"
 keywords:
   - "[[Ferroelectric]]"
   - "[[In-memory computing]]"
-cite: "[1] Lu et al. Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for\\[J]. Science Advances, 2024."
-aiSum: "2D FeFET 混合 CIM：布尔逻辑+多级单元、96.36% 良率、>10^12 耐久性、用于动态跟踪。"
+abstract: "In this study, we showcase a 2D fully ferroelectric-gated hybrid CIM hardware platform that is compatible with complementary metal-oxide semiconductor technology. Benefiting from the newly developed solution-processable method, FeFETs are constructed with a vdW interface between high-k hafnium oxide and 2D layer-by-layer MoS2 atomic-thin channels. Serving as the fundamental units, they exhibit exceptional performance in terms of ultralong endurance cycles (>10^12), extremely low cycle-to-cycle (CtC)/device-to-device (DtD) variations (~0.3%/~0.5%), and lowest power consumption of 0.03 fJ/bit with a 96.36% wafer-scale yield. Taking the AI task of dynamic object tracking (DOT) as a demonstration, we further customize a 2D fully ferroelectric-gated hybrid CIM system based on the monolithic integration of Boolean logic and trigger arrays for moving target detection as well as multilevel cell arrays for feature extraction. Last, this system successfully identifies pedestrians and tracks their motion paths with a high accuracy of 99.8% and a power efficiency of 26.3 TOPS/W. These results show the promising prospects of integrating fully ferroelectric-gated hybrid CIM hardware as versatile blocks for the implementation of various AI applications."
+abstract_cn: "展示了一种与CMOS技术兼容的二维全铁电栅控混合存内计算硬件平台。基于新开发的溶液法，FeFET由高k铪氧化物与二维层状MoS2原子薄膜之间的范德华界面构建。基本单元展现出超长耐久性（>10^12次）、极低CtC/DtD variation（~0.3%/0.5%）、最低功耗0.03 fJ/bit和96.36%晶圆级良率。以动态目标跟踪AI任务为演示，定制了基于布尔逻辑和触发阵列（用于运动目标检测）以及多级单元阵列（用于特征提取）单片集成的二维全铁电栅控混合CIM系统。该系统成功识别行人并跟踪其运动路径，精度高达99.8%，能效达26.3 TOPS/W。"
+cite: "[1] Lu T, Xue J, Shen P, et al. Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for high-precision and energy-efficient dynamic tracking[J]. Science Advances, 2024, 10: eadp0174."
+aiSum: "展示二维全铁电栅控混合存内计算硬件平台，通过溶液法构建HZO/MoS2范德华界面FeFET，实现>10^12次耐久性、CtC/DtD variation ~0.3%/0.5%、0.03 fJ/bit最低功耗、96.36%晶圆级良率。单片集成布尔逻辑和触发阵列用于运动目标检测及多级单元阵列用于特征提取，动态目标跟踪精度99.8%、能效26.3 TOPS/W。展示了全铁电栅控混合CIM硬件作为多功能AI应用模块的前景。"
 confidence: "high"
 wiki_concepts:
   - "[[Ferroelectric]]"

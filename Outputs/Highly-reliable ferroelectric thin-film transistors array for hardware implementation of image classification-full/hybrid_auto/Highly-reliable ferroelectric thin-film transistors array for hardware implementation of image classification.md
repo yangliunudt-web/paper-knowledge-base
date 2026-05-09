@@ -27,6 +27,9 @@ keywords:
   - "[[薄膜晶体管阵列]]"
   - "[[存内计算]]"
   - "[[图像分类]]"
+abstract: "Ferroelectric thin film transistors (FeTFTs) have attracted great attention for in-memory computing applications due to low power consumption and monolithic three-dimensional integration capability. Herein, we propose a planar integrated highly-reliable metal-ferroelectric-metal-insulator-semiconductor FeTFTs device, in which the weak erase issue is suppressed by implanting a floating gate, and the interface defects are reduced by simplifying the fabrication process. These lead to significant improvements in device performance, including large memory window (4.3 V), high conductance dynamic range (1400), high endurance (10^12), and low variation (cycle-to-cycle: 2.5 %/device-to-device: 3.5 %). Moreover, we fabricated a 16 x 16 FeTFTs pseudo-crossbar array for in-memory computing and experimentally demonstrated full hardware implementation of multi-layer perceptron for the classification of four fundamental arithmetic operation symbols. This work provides a potential hardware solution for implementing a highly-efficient in-memory computing system based on highly-reliable FeTFTs array."
+abstract_cn: "铁电薄膜晶体管（FeTFT）因低功耗和单片三维集成能力在存内计算应用中备受关注。本文提出了一种平面集成的高可靠性金属-铁电-金属-绝缘体-半导体FeTFT器件，通过植入浮栅抑制弱擦除问题，通过简化制造工艺减少界面缺陷。器件性能显著提升：大存储窗口（4.3 V）、高电导动态范围（1400）、高耐久性（10^12次）和低variation（cycle-to-cycle: 2.5%，device-to-device: 3.5%）。此外，制备了16×16 FeTFT伪交叉阵列用于存内计算，实验演示了全硬件实现多层感知器对四种基本算术运算符号的分类。该工作为基于高可靠性FeTFT阵列的高效存内计算系统提供了硬件解决方案。"
+aiSum: "提出平面集成MFMIS-FeTFT器件，通过浮栅解决弱擦除问题，简化工艺减少界面缺陷，实现存储窗口4.3V、电导动态范围1400、耐久性10^12次、cycle-to-cycle variation 2.5%。制备16×16 FeTFT伪交叉阵列，实验演示全硬件MLP对四则运算符号分类，能效比CMOS系统高193倍。MNIST仿真精度96.6%。展示了BEOL兼容的高可靠性FeTFT存内计算方案。"
 cite: "[1] Yang et al. Highly-reliable ferroelectric thin-film transistors array for hardware implementation of image classification[J]. Journal of Materials Science & Technology, 2025."
 confidence: "high"
 wiki_concepts:

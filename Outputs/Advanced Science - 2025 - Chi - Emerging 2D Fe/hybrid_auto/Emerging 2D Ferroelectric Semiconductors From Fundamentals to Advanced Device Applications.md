@@ -12,6 +12,7 @@ date: "2025-01-01"
 year: "2025"
 journal: "Advanced Science"
 doi: "10.1002/advs.202514185"
+abstract: "Two-dimensional (2D) ferroelectric semiconductors, as an emerging class of functional materials, attract considerable interest in nanoelectronics, spintronics, and optoelectronics, owing to their unique ability to combine ferroelectricity and semiconducting properties at the ultimate thickness limit. This review provides a comprehensive overview of the development, fundamental mechanisms, and recent advances of 2D ferroelectric semiconductors. The origins and unique characteristics of 2D ferroelectricity are discussed, and representative intrinsic 2D ferroelectric semiconductors as well as extrinsic systems are summarized. The potential applications of these materials in electronics, optoelectronics, spintronics, and valleytronics are discussed in detail. Finally, the key challenges facing the field are outlined, and perspectives on future directions are offered. This review aims to provide a systematic reference for both fundamental studies and technological development, fostering the advancement of 2D ferroelectric semiconductors toward high-performance and multifunctional device applications."
 abstract_cn: "二维铁电半导体作为一类新兴的功能材料，因其在极限厚度下结合铁电性和半导体特性的独特能力，在纳米电子学、自旋电子学和光电子学领域引起了广泛关注。本综述全面概述了二维铁电半导体的发展、基本机制和最新进展。讨论了二维铁电性的起源和独特特征，总结了代表性的本征二维铁电半导体以及外延系统。详细探讨了这些材料在电子学、光电子学、自旋电子学和能谷电子学中的潜在应用。最后，概述了该领域面临的关键挑战，并对未来发展方向提出了展望。本综述旨在为基础研究和技术开发提供系统参考，促进二维铁电半导体向高性能和多功能器件应用的发展。"
 keywords:
   - "[[2D ferroelectric semiconductors]]"

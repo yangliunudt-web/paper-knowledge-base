@@ -1,5 +1,5 @@
 ---
-title: "COMPUTER NETWORKS"
+title: "Delocalized photonic deep learning on the internet's edge"
 authors:
   - "Alexander Sludds"
   - "Saumil Bandyopadhyay"
@@ -27,7 +27,7 @@ keywords:
   - "[[Deep learning]]"
   - "[[Netcast]]"
   - "[[Neural network inference]]"
-cite: "[1] Sludds et al. COMPUTER NETWORKS[J]. Science, 2023."
+cite: "[1] Sludds A, Bandyopadhyay S, Chen Z, et al. Delocalized photonic deep learning on the internet's edge[J]. Science, 2023."
 aiSum: "提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。"
 confidence: "high"
 wiki_concepts:

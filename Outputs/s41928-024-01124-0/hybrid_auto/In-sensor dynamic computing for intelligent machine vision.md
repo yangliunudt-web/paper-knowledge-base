@@ -17,6 +17,7 @@ authors:
 date: "2024-02-08"
 year: "2024"
 journal: "Nature Electronics"
+abstract: "Accurate detection and tracking of targets in low-light and complex scenarios is essential for the development of intelligent machine vision. However, such capabilities are difficult to achieve using conventional static optoelectronic convolutional processing. Here we show that in-sensor dynamic computing can be used for accurate detection and robust tracking of dim targets. The approach uses multiple-terminal mixed-dimensional graphene-germanium heterostructure device arrays and relies on the dynamic correlation of adjacent optoelectronic devices in the array. The photoresponse of the devices can range from positive to negative depending on the drain-source voltage polarity and can be further tailored using the back-gate and top-gate voltage. The correlation characteristic of the device array can be used to selectively amplify small differences in light intensity and to accurately extract edge features of dim targets. We show that the approach can provide robust tracking of dim targets in complex environments."
 abstract_cn: "在低光和复杂场景中精确检测和跟踪目标对于智能机器视觉的发展至关重要。然而，使用传统的静态光电卷积处理很难实现这些能力。本文展示了存内动态计算可以用于弱目标的精确检测和鲁棒跟踪。该方法使用多端混合维石墨烯-锗异质结构器件阵列，并依赖于阵列中相邻光电设备之间的动态相关性。器件的光响应范围可以根据漏源电压极性从正到负变化，并可以通过背栅和顶栅电压进一步调节。器件阵列的相关特性可用于选择性地放大光强度的微小差异，并准确提取弱目标的边缘特征。我们表明该方法可以在复杂环境中为弱目标提供鲁棒的跟踪。"
 keywords:
   - "[[In-sensor computing]]"

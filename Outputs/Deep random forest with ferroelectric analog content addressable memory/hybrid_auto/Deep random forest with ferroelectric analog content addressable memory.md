@@ -1,5 +1,5 @@
 ---
-title: "A P P L I E D S C I E N C E S A N D E N G I N E E R I N G"
+title: "Deep random forest with ferroelectric analog content addressable memory"
 authors:
   - "Xunzhao Yin"
   - "Franz Müller"
@@ -27,7 +27,7 @@ keywords:
   - "[[Ferroelectric ACAM]]"
   - "[[FeFET]]"
   - "[[Edge intelligence]]"
-cite: "[1] Yin et al. A P P L I E D S C I E N C E S A N D E N G I N E E R I N G[J]. Science Advances, 2024."
+cite: "[1] Yin X, Müller F, Laguna A F, et al. Deep random forest with ferroelectric analog content addressable memory[J]. Science Advances, 2024."
 aiSum: "铁电模拟内容可寻址存储器实现深度随机森林加速：2FeFET单元实现分支分裂操作，相比CPU/ReRAM实现能耗降低106倍/10倍、延迟降低106倍/2.5倍。"
 confidence: "high"
 wiki_concepts:

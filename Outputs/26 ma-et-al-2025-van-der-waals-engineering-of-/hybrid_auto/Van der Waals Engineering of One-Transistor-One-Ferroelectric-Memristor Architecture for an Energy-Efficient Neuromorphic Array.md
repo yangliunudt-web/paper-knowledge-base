@@ -28,6 +28,9 @@ keywords:
   - "[[1T1M]]"
   - "[[范德华]]"
   - "[[神经形态阵列]]"
+abstract: "Two-dimensional-material-based memristor arrays hold promise for data-centric applications such as artificial intelligence and big data. However, accessing individual memristor cells and effectively controlling sneak current paths remain challenging. Here, we propose a van der Waals engineering approach to create one-transistor-one-memristor (1T1M) cells by assembling the emerging two-dimensional ferroelectric CuCrP2S6 with MoS2 and h-BN. The memory cell exhibits high resistance tunability (~10^6), low sneak current (120 fA), and low static power (12 fW). A neuromorphic array with greatly reduced crosstalk is experimentally demonstrated. The nonvolatile resistance switching is driven by electric-field-induced ferroelectric polarization reversal. This van der Waals engineering approach offers a universal solution for creating compact and energy-efficient 2D in-memory computation systems for next-generation artificial neural networks."
+abstract_cn: "基于二维材料的忆阻器阵列在人工智能和大数据等以数据为中心的应用中具有广阔前景。然而，访问单个忆阻器单元并有效控制潜行电流路径仍然具有挑战性。本文提出了一种范德华工程方法，通过将新兴二维铁电材料CuCrP2S6与MoS2和h-BN组装，构建了一晶体管一忆阻器（1T1M）单元。该存储单元具有高电阻可调性（~10^6）、低潜行电流（120 fA）和低静态功耗（12 fW）。实验演示了串扰大幅降低的神经形态阵列，非易失性电阻切换由电场诱导的铁电极化反转驱动。该范德华工程方法为下一代人工神经网络创建紧凑且高能效的二维存内计算系统提供了通用解决方案。"
+aiSum: "提出基于范德华工程的CuCrP2S6/MoS2/h-BN全二维材料1T1M架构，利用CuCrP2S6的铁电极化反转实现非易失阻变，电阻可调性达10^6，潜行电流低至120 fA，静态功耗仅12 fW。实验验证2×3阵列中串扰降低2个数量级，模拟256×10 ANN在MNIST上达到~90%识别精度。为高能效二维存内计算提供通用方案。"
 cite: "[1] Ma et al. Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array[J]. Nano Letters, 2025."
 confidence: "high"
 wiki_concepts:

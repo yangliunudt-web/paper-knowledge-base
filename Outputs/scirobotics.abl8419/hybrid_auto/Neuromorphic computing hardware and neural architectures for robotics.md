@@ -1,5 +1,5 @@
 ---
-title: "A R T I F I C I A L I N T E L L I G E N C E"
+title: "Neuromorphic computing hardware and neural architectures for robotics"
 authors:
   - "Yulia Sandamirskaya"
   - "Mohsen Kaboli"
@@ -16,7 +16,7 @@ keywords:
   - "[[Neural architectures]]"
   - "[[Spiking neural network]]"
   - "[[Autonomous systems]]"
-cite: "[1] Sandamirskaya et al. A R T I F I C I A L I N T E L L I G E N C E[J]. Science Robotics, 2022."
+cite: "[1] Sandamirskaya Y, Kaboli M, Conradt J, et al. Neuromorphic computing hardware and neural architectures for robotics[J]. Science Robotics, 2022."
 aiSum: "综述神经形态计算硬件与神经架构在机器人中的应用：快速低功耗神经网络推理、受生物启发的算法设计、自主智能系统创新应用。"
 confidence: "high"
 wiki_concepts:

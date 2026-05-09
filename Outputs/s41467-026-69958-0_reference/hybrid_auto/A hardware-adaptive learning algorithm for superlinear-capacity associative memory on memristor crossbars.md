@@ -17,7 +17,7 @@ date: "2025-01-01"
 year: "2025"
 journal: "Nature Communications"
 abstract: "The human brain recalls complete patterns from partial cues via associative memory, but Hopfield neural networks emulating this process are inefficient on conventional hardware, and prior memristor-based implementations are vulnerable to device defects and have limited capacity, particularly for continuous patterns. We introduce a hardware-adaptive learning algorithm that incorporates experimentally calibrated device constraints during training and validate it on an integrated memristor crossbar compute-in-memory platform. The approach improves defect tolerance and effective capacity, achieving threefold higher capacity than a pseudo-inverse baseline at 50 % stuck-at faults. The same framework extends to scalable multilayer architectures supporting binary and continuous-valued patterns, where we observe superlinear capacity scaling on correlated data $( \\propto N ^ { 1 . 4 9 }$ and $\\propto N ^ { 1 . 7 4 }$ , respectively). Leveraging crossbar parallelism with synchronous updates, the implementation reduces energy by 8.8 × and latency by 99.7 % for 64-dimensional patterns versus asynchronous schemes. These results provide a practical algorithm–hardware co-design for robust, efficient Hopfield-style associative recall."
-abstract_cn: "研究提出了基于阻变存储器的存算一体化方案。通过在存储器阵列中直接执行矩阵向量乘法运算，显著降低了数据搬移带来的能耗和延迟。实验验证了其在深度神经网络推理中的能效优势。"
+abstract_cn: "人脑通过联想记忆从部分线索回忆完整模式，但模拟该过程的Hopfield神经网络在传统硬件上效率低下，且先前的忆阻器实现在器件缺陷面前脆弱且容量有限。本文引入硬件自适应学习算法，在训练过程中纳入实验校准的器件约束，并在集成忆阻器交叉阵列存内计算平台上验证。该方法提高了缺陷容限和有效容量，在50% stuck-at故障下容量比伪逆基线高三倍。同一框架扩展到支持二值和连续值模式的可扩展多层架构，在相关数据上观察到超线性容量扩展。利用交叉阵列并行和同步更新，相比异步方案降低8.8倍能耗和99.7%延迟。"
 keywords:
   - "[[In-memory computing]]"
   - "[[Memristor]]"

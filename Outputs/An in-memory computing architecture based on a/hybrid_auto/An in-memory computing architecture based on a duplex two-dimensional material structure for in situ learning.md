@@ -1,5 +1,5 @@
 ---
-title: "Duplex FeFET device structure"
+title: "An in-memory computing architecture based on a duplex two-dimensional material structure for in situ learning"
 authors:
   - "Jian Huang"
   - "Wei Wang"

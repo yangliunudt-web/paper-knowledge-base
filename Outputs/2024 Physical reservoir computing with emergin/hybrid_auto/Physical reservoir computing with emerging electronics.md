@@ -10,6 +10,7 @@ authors:
 date: "2024‑03‑12"
 year: "2024"
 journal: "Nature Reviews Materials"
+abstract: "Physical reservoir computing is a form of neuromorphic computing that harvests the dynamic properties of materials for high-efficiency computing. A wide range of physical systems can be used to implement this approach, including electronic, optical and mechanical devices. Electronics can, in particular, provide mixed-signal and fully analogue systems, and could be used to deliver large-scale implementations. Here we examine the development of physical reservoir computing with emerging electronics. We discuss the different architectures, physical nodes, and input and output layers of electrical reservoir computing. We also explore performance benchmarks and the competitiveness of different implementations. Finally, we consider the future development of the technology and highlight challenges that need to be addressed for it to deliver practical applications."
 abstract_cn: "物理储备计算是一种神经形态计算形式，利用材料的动态特性实现高效计算。多种物理系统可用于实现此方法，包括电子、光学和机械器件。电子器件尤其能提供混合信号和全模拟系统，并可用于大规模实现。本文综述了基于新兴电子器件的物理储备计算发展，讨论了电学储备计算的不同架构、物理节点、输入输出层，探讨了性能基准和不同实现的竞争力，最后展望了该技术的未来发展并指出了实现实际应用需解决的挑战。"
 keywords:
   - "[[Physical reservoir computing]]"

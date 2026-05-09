@@ -1,5 +1,5 @@
 ---
-title: "aCombinatorial optimization problems"
+title: "Ferroelectric compute-in-memory annealer for combinatorial optimization problems"
 authors:
   - "Xunzhao Yin"
   - "Yu Qian"
@@ -32,7 +32,7 @@ keywords:
   - "[[Annealer]]"
   - "[[QUBO]]"
   - "[[Crossbar]]"
-cite: "[1] Yin et al. aCombinatorial optimization problems[J]. Nature Communications, 2023."
+cite: "[1] Yin X, Qian Y, Vardar A, et al. Ferroelectric compute-in-memory annealer for combinatorial optimization problems[J]. Nature Communications, 2023."
 aiSum: "FeFET交叉阵列退火器：组合优化→Ising/QUBO映射，硬件加速模拟退火，高能效COP求解。"
 confidence: "high"
 wiki_concepts:

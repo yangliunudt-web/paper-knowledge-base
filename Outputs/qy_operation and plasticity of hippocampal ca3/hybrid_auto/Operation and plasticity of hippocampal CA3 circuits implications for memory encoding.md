@@ -19,30 +19,6 @@ keywords:
   - "[[Synaptic plasticity]]"
 ---
 
----
-title: "Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding"
-authors:
-  - "Unknown Author"
-journal: "Unknown Journal"
-year: "2017"
-abstract_cn: |
-  本文研究了相关领域的科学问题。
-aiSum: |
-  采用机器学习/深度学习方法解决问题，实验验证了有效性。
-cite: "[1] Author U. Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding[J]. Unknown J., 2017."
-
-keywords:
----title: "Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding"
-authors:
-  - "Unknown Author"
-journal: "Unknown Journal"
-year: "2017"
-abstract_cn: |
-  本文研究了相关领域的科学问题。
-aiSum: |
-  采用机器学习/深度学习方法解决问题，实验验证了有效性。
-cite: "[1] Author U. Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding[J]. Unknown J., 2017."
-
 # Operation and plasticity of hippocampal CA3 circuits: implications for memory encoding
 
 Nelson Rebola, Mario Carta and Christophe Mulle

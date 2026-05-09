@@ -2,8 +2,11 @@
 
 title: "Proposal of P-Channel FE NAND with High Drain Current and Feasible Disturbance"
 authors:
-  - "Bong Ho"
-  - "Junpyo"
+  - "Song-Hyeon Kuk"
+  - "Jae-Hoon Han"
+  - "Bong Ho Kim"
+  - "Junpyo Kim"
+  - "Sang-Hyeon Kim"
 date: "2023-01-01"
 year: 2023
 journal: "IEEE International Electron Devices Meeting (IEDM)"

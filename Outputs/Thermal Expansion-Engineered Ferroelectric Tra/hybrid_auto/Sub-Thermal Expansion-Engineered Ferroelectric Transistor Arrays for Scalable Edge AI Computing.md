@@ -1,19 +1,39 @@
 ---
-title: "Sub-Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing"
+title: "Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing"
 authors:
-  - "Geonwook Hyunho"
-  - "Sihoon Hyunbin"
-  - "Hyunho Jinhyoung"
-  - "Gunhyoung Dongho"
-  - "Seowoo Taesung"
+  - "Geonwook Kim"
+  - "Hyunho Seok"
+  - "Sihoon Son"
+  - "Hyunbin Choi"
+  - "Hyunho Kim"
+  - "Jinhyoung Lee"
+  - "Gunhyoung Kim"
+  - "Dongho Lee"
+  - "Seowoo Son"
+  - "Taesung Kim"
+date: "2026-01-21"
+year: 2026
+journal: "ACS Nano"
 keywords:
-  - "[[ferroelectric transistor]]"
-  - "[[hafnium-zirconium oxide]]"
-  - "[[nonvolatile memory]]"
-  - "[[in-memory-computing]]"
-  - "[[neuromorphic computing]]"
-wiki_concepts:
+  - "[[Ferroelectric transistor]]"
+  - "[[HfZrO2]]"
+  - "[[Nonvolatile memory]]"
+  - "[[In-memory computing]]"
   - "[[Neuromorphic computing]]"
+  - "[[MFMIS]]"
+  - "[[铁电晶体管]]"
+  - "[[存内计算]]"
+  - "[[神经形态计算]]"
+abstract: "Conventional von Neumann architectures are fundamentally limited by the separation of memory and logic, leading to energy and latency bottlenecks in AI workloads. Here, we present a reconfigurable ferroelectric transistor platform based on a metal-ferroelectric-metal-insulator-semiconductor (MFMIS) structure capable of switching between volatile and nonvolatile modes via gate metal engineering. By selecting tungsten (W) or titanium nitride (TiN) as gate electrodes, we modulate interfacial strain and work function to tailor ferroelectric switching in a fixed Hf0.5Zr0.5O2 (HZO) layer. W-gated MFMIS-FeFETs exhibit a large memory window (~11 V), >10^6 on/off ratio, 10^12 endurance cycles, and excellent uniformity across 350 devices, with 22 programmable conductance states and robust synaptic behavior. Leveraging these characteristics, a hardware-aware VGG-8 convolutional neural network simulation for CIFAR-10 classification achieved 97.2% accuracy under realistic device nonidealities. Additionally, edge detection and feature extraction were experimentally realized in FeFET arrays via analog-domain convolution using differential kernel encoding. These results validate in-memory multiply-accumulate operations, alleviating von Neumann bottlenecks while enhancing energy efficiency. This work establishes reconfigurable MFMIS-FeFET arrays as a scalable and low-power platform for neuromorphic and compute-in-memory architectures, enabling monolithic integration of memory and logic for intelligent edge systems and beyond-CMOS computing."
+abstract_cn: "传统冯·诺依曼架构因存储与逻辑分离在AI工作负载中面临能耗和延迟瓶颈。本文提出一种基于金属-铁电-金属-绝缘体-半导体（MFMIS）结构的可重构铁电晶体管平台，通过栅极金属工程在挥发性与非挥发性模式间切换。选择钨（W）或氮化钛（TiN）作为栅电极，调控界面应力和功函数来定制固定Hf0.5Zr0.5O2（HZO）层中的铁电切换。W栅极MFMIS-FeFET展现出大存储窗口（~11V）、>10^6开关比、10^12次耐久性，350个器件间优异均匀性，22个可编程电导态和稳健突触行为。基于这些特性，硬件感知VGG-8 CNN在CIFAR-10分类中达到97.2%精度。此外，通过差分核编码在FeFET阵列中实验实现边缘检测和特征提取。该工作将可重构MFMIS-FeFET阵列确立为神经形态和存内计算架构的可扩展低功耗平台。"
+aiSum: "提出通过栅极金属工程（W vs TiN）实现MFMIS-FeFET在挥发性/非挥发性模式间可重构切换。利用W的低热膨胀系数（4.5×10^-6/K）在RTA过程中对HZO施加拉伸应力稳定正交相。W栅极器件：存储窗口~11V、开关比>10^6、耐久性10^12次、22个电导态、350器件阵列均匀性优异。VGG-8在CIFAR-10上硬件感知仿真精度97.2%。实验演示差分核编码的边缘检测和特征提取。为可重构存内计算和边缘AI提供统一平台。"
+cite: "[1] Kim G, Seok H, Son S, et al. Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing[J]. ACS Nano, 2026."
+confidence: "high"
+wiki_concepts:
+  - "[[Ferroelectric]]"
+  - "[[In-memory computing]]"
+  - "[[Neuromorphic computing]]"
+  - "[[存内计算]]"
 ---
 
 # Thermal Expansion-Engineered Ferroelectric Transistor Arrays for Scalable Edge AI Computing

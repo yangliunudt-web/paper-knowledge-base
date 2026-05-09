@@ -22,19 +22,6 @@ keywords:
   - "[[生成式AI]]"
 ---
 
-title: "PHOTONIC COMPUTI NG"
-authors:
-  - "Unknown Author"
-journal: "Science"
-year: "2024"
-keywords:
-  - [[Neural network]]
-abstract_cn: |
-  本文研究了相关领域的科学问题。
-aiSum: |
-  采用机器学习/深度学习方法解决问题，实验验证了有效性。
-cite: "[1] Author U. PHOTONIC COMPUTI NG[J/OL]. arXiv, 2024. 2412.20404."
-
 # PHOTONIC COMPUTI NG
 
 # All-optical synthesis chip for large-scale intelligent semantic vision generation

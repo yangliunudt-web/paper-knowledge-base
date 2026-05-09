@@ -1,5 +1,5 @@
 ---
-title: "Leveraging [[ferroelectric]] Stochasticity and [[in-memory computing]] for DNN IP Obfuscation"
+title: "Leveraging Ferroelectric Stochasticity and In-Memory Computing for DNN IP Obfuscation"
 authors:
   - "Likhitha Mankali"
   - "Nikhil Rangarajan"

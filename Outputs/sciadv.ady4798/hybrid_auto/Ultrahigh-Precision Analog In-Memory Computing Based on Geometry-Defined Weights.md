@@ -1,9 +1,13 @@
 ---
 title: "Ultrahigh-Precision Analog In-Memory Computing Based on Geometry-Defined Weights"
 authors:
-  - "Analog The"
-  - "We Enhanced"
-  - "This"
+  - "Zhezhi He"
+  - "Jing Guo"
+  - "Zihan Wang"
+  - "Xiaoyang Ma"
+  - "Shan Deng"
+  - "Xueqing Li"
+  - "Kai Ni"
 date: "2025-01-01"
 year: "2025"
 journal: "Science Advances"

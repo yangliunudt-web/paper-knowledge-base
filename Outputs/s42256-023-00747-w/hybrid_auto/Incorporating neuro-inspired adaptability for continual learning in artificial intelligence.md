@@ -1,5 +1,5 @@
 ---
-title: "Active forgetting with stability protection"
+title: "Incorporating neuro-inspired adaptability for continual learning in artificial intelligence"
 authors:
   - "Liyuan Wang"
   - "Xingxing Zhang"
@@ -11,15 +11,18 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "Nature Machine Intelligence"
-abstract_cn: "持续学习旨在赋予人工智能对现实世界变化的强适应性，同时避免灾难性遗忘。生物学习系统通过主动遗忘与稳定性保护等机制实现强适应性。本文分析了生物持续学习的关键功能因素，提出基于元可塑性与参数隔离的方法，在多种持续学习场景中取得最先进的整体性能，展现出优异通用性。"
+abstract: "Continual learning aims to empower artificial intelligence with strong adaptability to the real world. For this purpose, a desirable solution should properly balance memory stability with learning plasticity, and acquire sufficient compatibility to capture the observed distributions. Existing advances mainly focus on preserving memory stability to overcome catastrophic forgetting, but it remains difficult to flexibly accommodate incremental changes as biological intelligence does. Here, by modelling a robust Drosophila learning system that actively regulates forgetting with multiple learning modules, we propose a generic approach that appropriately attenuates old memories in parameter distributions to improve learning plasticity, and accordingly coordinates a multi-learner architecture to ensure solution compatibility. Through extensive theoretical and empirical validation, our approach not only enhances the performance of continual learning, especially over synaptic regularization methods in task-incremental settings, but also potentially advances the understanding of neurological adaptive mechanisms."
+abstract_cn: "持续学习旨在赋予人工智能对现实世界变化的强适应性，同时避免灾难性遗忘。生物学习系统通过主动遗忘与稳定性保护等机制实现强适应性。本文受果蝇学习系统中主动调节遗忘和多学习模块的启发，提出一种通用方法：通过适当衰减参数分布中的旧记忆来提升学习可塑性，并协调多学习器架构确保解决方案兼容性。大量理论和实验验证表明，该方法不仅提升了持续学习性能（尤其在任务增量场景中优于突触正则化方法），还可能促进对神经自适应机制的理解。"
 keywords:
   - "[[Continual learning]]"
   - "[[Catastrophic forgetting]]"
   - "[[Meta-plasticity]]"
   - "[[Neural network]]"
   - "[[Adaptability]]"
-cite: "[1] Wang et al. Active forgetting with stability protection[J]. Nature Machine Intelligence, 2022."
-aiSum: "元可塑性+参数隔离方法，解决持续学习灾难性遗忘，多场景SOTA整体性能。"
+  - "[[持续学习]]"
+  - "[[灾难性遗忘]]"
+cite: "[1] Wang L, Zhang X, Li Q, et al. Incorporating neuro-inspired adaptability for continual learning in artificial intelligence[J]. Nature Machine Intelligence, 2022."
+aiSum: "受果蝇学习系统启发，提出基于主动遗忘与多学习模块的持续学习方法：通过参数分布衰减旧记忆提升可塑性，多学习器架构保证兼容性。在任务增量学习中优于突触正则化方法，为理解神经自适应机制提供新视角。"
 confidence: "high"
 wiki_concepts:
   - "[[Catastrophic forgetting]]"

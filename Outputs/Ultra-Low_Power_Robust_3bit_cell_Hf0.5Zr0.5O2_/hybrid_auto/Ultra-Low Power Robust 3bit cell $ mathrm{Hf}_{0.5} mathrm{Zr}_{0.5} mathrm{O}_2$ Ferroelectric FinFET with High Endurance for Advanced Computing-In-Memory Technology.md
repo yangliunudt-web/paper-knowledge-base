@@ -1,4 +1,5 @@
 ---
+title: "Ultra-Low Power Robust 3bit/cell Hf0.5Zr0.5O2 Ferroelectric FinFET with High Endurance for Advanced Computing-In-Memory Technology"
 authors:
   - "Sourav De"
   - "Darsen D. Lu"
@@ -24,8 +25,10 @@ keywords:
   - "[[Multi-level cell]]"
   - "[[FinFET]]"
   - "[[Compute-in-memory]]"
-cite: "[1] De et al. Ultra-Low Power Robust 3bit/cell Hf0.5Zr0.5O2 Ferroelectric FinFET with High Endurance\\[J]. Nature Electronics, 2024."
-aiSum: "10nm HfZrO FinFET 3bit/单元，开关比>10⁶，耐久性>10¹¹循环，MNIST/CIFAR验证CIM功能。"
+abstract: "Scaled ferroelectric FinFET devices were fabricated with post fin formation surface engineering (SE) to remove the line-edge roughness (LER) from the silicon surface by dry etching. This facilitated 3bit/cell operations in 10nm Hf0.5Zr0.5O2 based ferroelectric FinFETs along with on-state current (ION) to off-state current (IOFF) ratio of 10^6, extrapolated 10-year retention and endurance above 10^11 cycles. Further, we have evaluated its performance in all ferroelectric neural network, where ferroelectric FinFETs are used as synaptic devices or neurons for weight storage. Synaptic core built with optimized devices achieve software-comparable 97.91% inference accuracy on MNIST data and multi-layer perceptron network."
+abstract_cn: "通过后鳍形成表面工程（SE）去除硅表面线边缘粗糙度（LER），制备了10nm Hf0.5Zr0.5O2铁电FinFET器件。该器件实现3bit/单元操作，开关电流比达10^6，外推10年保持特性和超过10^11次耐久性。进一步在全铁电神经网络中评估其性能，铁电FinFET用作突触器件或神经元进行权重存储。优化器件构建的突触核心在MNIST数据和多层感知器网络上实现97.91%的软件可比推理精度。"
+aiSum: "通过后鳍形成表面工程去除Si表面线边缘粗糙度和Br杂质，改善HZO-Si界面质量，实现10nm HZO FinFET的3bit/单元操作、ION/IOFF>10^6、10^11次耐久性、85°C下10年保持。界面优化使flicker噪声降低3个数量级。全FeFET神经网络MNIST推理精度97.91%。相比同类MLC FeFET在编程速度、功耗、耐久性方面全面领先。"
+cite: "[1] De S, Lu D D, Le H H, et al. Ultra-Low Power Robust 3bit/cell Hf0.5Zr0.5O2 Ferroelectric FinFET with High Endurance for Advanced Computing-In-Memory Technology[J]. Nature Electronics, 2024."
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"

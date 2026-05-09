@@ -1,12 +1,14 @@
 ---
 title: "A Comprehensive Survey of Continual Learning Theory, Method and Application"
 authors:
-  - "Liyuan Xingxing"
-  - "Hang Jun"
+  - "Liyuan Wang"
+  - "Xingxing Zhang"
+  - "Hang Su"
+  - "Jun Zhu"
 year: 2024
 journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 date: "2024-06-01"
-abstract: "A comprehensive survey of continual learning theory, methods, and applications."
+abstract: "To cope with real-world dynamics, an intelligent system needs to incrementally acquire, update, accumulate, and exploit knowledge throughout its lifetime. This ability, known as continual learning, provides a foundation for AI systems to develop themselves adaptively. In a general sense, continual learning is explicitly limited by catastrophic forgetting, where learning a new task usually results in a dramatic performance degradation of the old tasks. Beyond this, increasingly numerous advances have emerged in recent years that largely extend the understanding and application of continual learning. The growing and widespread interest in this direction demonstrates its realistic significance as well as complexity. In this work, we present a comprehensive survey of continual learning, seeking to bridge the basic settings, theoretical foundations, representative methods, and practical applications. Based on existing theoretical and empirical results, we summarize the general objectives of continual learning as ensuring a proper stability-plasticity trade-off and an adequate intra/inter-task generalizability in the context of resource efficiency. Then we provide a state-of-the-art and elaborated taxonomy, extensively analyzing how representative methods address continual learning, and how they are adapted to particular challenges in realistic applications. Through an in-depth discussion of promising directions, we believe that such a holistic perspective can greatly facilitate subsequent exploration in this field and beyond."
 abstract_cn: "全面综述持续学习的理论、方法和应用，涵盖正则化、回放、优化、表示和架构五类方法。"
 keywords:
   - "[[Continual learning]]"
