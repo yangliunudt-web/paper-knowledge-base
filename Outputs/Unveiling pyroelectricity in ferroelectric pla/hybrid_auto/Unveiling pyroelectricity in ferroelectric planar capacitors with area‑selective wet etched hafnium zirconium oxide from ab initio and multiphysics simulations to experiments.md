@@ -9,7 +9,7 @@ date: "2024-08-28"
 year: 2024
 journal: "Journal of Physics: Energy"
 doi: "10.1088/2515-7655/ad..."
-abstract: "In this work, a systematic approach aimed at investigating and validating"
+abstract: "In this work, a systematic approach aimed at investigating and validating a novel way of realizing pyroelectric harvesting is presented. Generating a direct-current (dc) signal through a temperature gradient within a less than 7 nm-thick ferroelectric zirconium-doped hafnium oxide (HZO) nano-film, embedded in planar interdigitated capacitors on high-resistivity silicon, is a new, simple, effective, and reproducible solution. Temperature-related structural modifications in HZO are first simulated using advanced ab initio calculations. Then, rigorous multiphysics simulations of the final devices provide insight into the expected performance of the pyroelectric harvester, as a function of temperature, contact area, and crystal orientation, showing a maximum open-circuit voltage of up to 900 mV. The fabrication of the harvesters involves the area-selective wet etching of the HZO layer to retain it exclusively in between the fingers of each capacitor. This choice maximizes the pyroelectric effect (which strongly depends on the area) and represents a new paradigm in the development of HZO-based electronics. Experimental validation at both low frequencies and microwaves confirms the pyroelectric effect, exhibiting a significant increase in the output current for higher temperature gradients, and a generated dc voltage of several hundred millivolts."
 abstract_cn: "本文提出一种系统性的方法，旨在研究和验证实现热电收集的新途径。通过在基于高阻硅的平面叉指电容器中嵌入厚度小于 7 nm 的铁电锆掺杂氧化铪纳米薄膜，利用温度梯度产生直流信号，这是一种新颖、简单、有效且可重复的解决方案。首先通过高级从头计算模拟"
 keywords:
   - "[[hafnium zirconium oxide ferroelectrics]]"
