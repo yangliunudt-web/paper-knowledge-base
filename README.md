@@ -251,3 +251,8 @@ git tag v{version} -m "..." && git push --tags  # 大改动前打 tag
 | v1.5 | Concept page paper tables populated (311 refs from wiki_concepts), lint green |
 | v1.6 | Deduplicate concept tables, filter supplements, move domains to wiki/领域/ |
 | v1.7 | Body text wikilinks → wiki_concepts + keywords (0 empty concept pages) |
+| v1.8 | maintain.py 6-phase check+fix pipeline, keyword auto-fix disable, 160 FM repair |
+| v1.9 | Frontmatter single-line conversion (yaml.dump `\` fix), 79 truncated abstract recovery |
+| v1.10 | 13 lost body text recovery from PDF JSON, 9 dup YAML key fix |
+| v1.11 | Git track all .md files, supplement paper rules (sub- prefix, parent field) |
+| v1.12 | Manual quality audit batch 1: 54 papers fixed (wrong titles, missing abstracts, bad cites, truncated fields, mangled authors, body YAML leaks) |
