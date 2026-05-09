@@ -1,6 +1,9 @@
 ---
-
 title: "LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS"
+authors:
+  - "An important paradigm of natural language processing consists of large-scale pretraining\
+  \ on general domain data"
+  - "LoRA can reduce the number of trainable parameters by"
 date: "2021-10-16"
 year: 2021
 journal: "arXiv"

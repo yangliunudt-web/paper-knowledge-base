@@ -1,5 +1,10 @@
 ---
 title: "Unveiling pyroelectricity in ferroelectric planar capacitors with area‑selective"
+authors:
+  - "Martino Aldrigo"
+  - "Gian Marco Zampa "
+  - "Mircea Dragoman "
+  - "Livia Alexandra Dinu "
 date: "2024-08-28"
 year: 2024
 journal: "Journal of Physics: Energy"

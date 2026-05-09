@@ -1,5 +1,6 @@
 ---
 
+
 title: "Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric\
   \ Layer Overcoming the Half-Selection Problem"
 authors:
