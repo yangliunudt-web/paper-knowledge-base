@@ -1,5 +1,14 @@
 ---
 title: "Stochastic Neuro-Fuzzy System Implemented in Memristor Crossbar Arrays"
+authors:
+  - "Tuo Shi"
+  - "Hui Zhang"
+  - "Shiyu Cui"
+  - "Jinchang Liu"
+  - "Zixi Gu"
+  - "Zhanfeng Wang"
+  - "Xiaobing Yan"
+  - "Qi Liu"
 date: "2024-01-01"
 year: 2024
 journal: "Science Advances"

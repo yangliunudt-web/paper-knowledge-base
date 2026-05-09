@@ -1,5 +1,10 @@
 ---
-title: "Domain switching and spatial dependence of permittivity in ferroelectric thin"
+title: "Domain Switching and Spatial Dependence of Permittivity in Ferroelectric Thin Films"
+authors:
+  - "Francis K. Chai"
+  - "J. R. Brews"
+  - "R. D. Schrimpf"
+  - "D. P. Birnie III"
 date: "1997-09-01"
 year: 1997
 journal: "Journal of Applied Physics"
