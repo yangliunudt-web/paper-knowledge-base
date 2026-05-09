@@ -10,7 +10,7 @@ authors:
 date: "2024-07-01"
 year: "2024"
 journal: "ACM J. Auton. Transport. Syst."
-abstract: "The prediction accuracy of deep neural networks (DNNs) deployed at the edge can deteriorate\"
+abstract: "The prediction accuracy of deep neural networks (DNNs) deployed at the edge can deteriorate\\"
 abstract_cn: "部署在边缘设备上的深度神经网络（DNN）的预测准确率会随着时间的推移因数据分布的变化而下降。为了提高鲁棒性，DNN需要不断改进和提高其预测能力。然而，在资源有限的边缘环境中进行适应面临以下挑战：（i）新的标记数据可能无法获得；（ii）由于云连接可能无法访问，必须在设备上进行适应；（iii）适应过程应优先考虑速度、内存效率和节能。存内计算（CIM）因其计算效率和优越的运行带宽而受到关注。此外，新兴的轻量级无监督DNN测试时适应技术在增强有噪数据模型准确度方面显示出良好的结果。本文首次对这些方法进行了全面的基准测试探索，评估了在边缘和自主系统中不同CIM架构下的性能和能效。我们的研究发现，提出的适应策略能够适应环境变化和固有的硬件噪声。通过进行跨层的算法-硬件-技术协同设计空间探索，我们强调了各种DNN适应技术和CIM配置在准确度、性能和能耗之间的重要权衡。"
 keywords:
   - "[[Compute-In-Memory]]"
@@ -23,7 +23,7 @@ keywords:
   - "[[边缘计算]]"
   - "[[自动驾驶系统]]"
   - "[[测试时适应]]"
-cite: "Fan Z, Wan Z, Liu C K, Lu A, Bhardwaj K, Raychowdhury A. Benchmarking Test-Time DNN\"
+cite: "Fan Z, Wan Z, Liu C K, Lu A, Bhardwaj K, Raychowdhury A. Benchmarking Test-Time DNN\\"
 aiSum: "本研究提出了一个基准测试框架，用于评估在配备CIM硬件的受限边缘设备上测试时DNN适应技术。研究发现：（1）部分网络适应往往优于全网络适应；（2）CIM设备能效高但存在非理想性；（3）适应技术能有效处理环境数据偏移和硬件噪声；（4）在UAV自主导航中显著降低能耗和延迟。研究涵盖了监督和无监督方法，以及SRAM/RRAM混合CIM系统。"
 confidence: "medium"
 wiki_concepts:

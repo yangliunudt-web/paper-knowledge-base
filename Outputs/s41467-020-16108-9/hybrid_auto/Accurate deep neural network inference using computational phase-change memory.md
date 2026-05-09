@@ -1,4 +1,5 @@
 ---
+
 title: "Accurate Deep Neural Network Inference Using Computational Phase-Change Memory"
 authors:
   - "Vinay Joshi"
@@ -24,7 +25,7 @@ keywords:
   - "[[deep learning]]"
 cite: "Joshi V, Le Gallo M, Haefeli S, et al. Accurate deep neural network inference using computational phase-change memory[J]. Nature Communications, 2020, 11: 2473. DOI: 10.1038/s41467-020-16108-9."
 aiSum: "将ResNet CNN映射到PCM器件进行存内推理：批归一化补偿保持精度，CIFAR-10达到93.5%硬件准确率。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[Neural network]]"
   - "[[In-memory computing]]"

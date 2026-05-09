@@ -1,5 +1,5 @@
 ---
-title: "Delocalized photonic deep learning on the internet's edge"
+title: "COMPUTER NETWORKS"
 authors:
   - "Alexander Sludds"
   - "Saumil Bandyopadhyay"
@@ -21,15 +21,15 @@ date: "2023-01-01"
 year: "2023"
 journal: "Science"
 doi: "10.1126/science.abq8271"
-abstract: "Advanced machine learning models are currently impossible to run on edge devices\"
-abstract_cn: "由于功耗、处理能力和内存的限制，先进的机器学习模型目前无法在智能传感器和无人机等边缘设备上运行。我们介绍了一种基于网络中离域模拟处理的机器学习推理方法。该方法名为\"
+abstract: "Advanced machine learning models are currently impossible to run on edge devices\\"
+abstract_cn: "由于功耗、处理能力和内存的限制，先进的机器学习模型目前无法在智能传感器和无人机等边缘设备上运行。我们介绍了一种基于网络中离域模拟处理的机器学习推理方法。该方法名为\\"
 keywords:
   - "[[Photonic computing]]"
   - "[[Edge computing]]"
   - "[[Deep learning]]"
   - "[[Netcast]]"
   - "[[Neural network inference]]"
-cite: "[1] Sludds A, Bandyopadhyay S, Chen Z, et al. Delocalized photonic deep learning\"
+cite: "[1] Sludds A, Bandyopadhyay S, Chen Z, et al. Delocalized photonic deep learning\\"
 aiSum: "提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。"
 confidence: "high"
 wiki_concepts:

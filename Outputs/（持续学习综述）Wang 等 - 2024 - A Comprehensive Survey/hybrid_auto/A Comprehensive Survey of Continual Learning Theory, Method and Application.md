@@ -3,9 +3,9 @@ title: "A Comprehensive Survey of Continual Learning Theory, Method and Applicat
 authors:
   - "Liyuan Xingxing"
   - "Hang Jun"
-date: "2024-06-01"
 year: 2024
 journal: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+date: "2024-06-01"
 abstract: "A comprehensive survey of continual learning theory, methods, and applications."
 abstract_cn: "全面综述持续学习的理论、方法和应用，涵盖正则化、回放、优化、表示和架构五类方法。"
 keywords:
@@ -14,7 +14,7 @@ keywords:
   - "[[Neural network]]"
 cite: "Wang L, Zhang X, Su H, et al. A comprehensive survey of continual learning: theory, method and application[J]. IEEE TPAMI, 2024."
 aiSum: "持续学习综述：五类方法（正则化/回放/优化/表示/架构），系统性分析稳定性-可塑性权衡。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[Continual learning]]"
   - "[[Catastrophic forgetting]]"

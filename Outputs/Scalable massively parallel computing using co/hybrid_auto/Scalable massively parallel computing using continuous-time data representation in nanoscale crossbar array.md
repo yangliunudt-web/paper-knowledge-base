@@ -1,5 +1,13 @@
 ---
 title: "Scalable massively parallel computing using continuous-time data representation in nanoscale crossbar array"
+date: "2024-01-01"
+year: 2024
+journal: "Nature Communications"
+abstract: "The growth of connected intelligent devices in the Internet of Things has created a pressing need for real-time processing and understanding of large volumes of analogue data. The difficulty in boosting the computing speed renders digital computing unable to meet the demand for processing analogue information that is intrinsically continuous in magnitude and time. By utilizing a continuous data representation in a nanoscale crossbar array, parallel computing can be implemented for the direct processing of analogue information in real time. Here, we propose a scalable massively parallel computing scheme by exploiting a continuous-time data representation and frequency multiplexing in a nanoscale crossbar array. This computing scheme enables the parallel reading of stored data and the one-shot operation of matrix–matrix multiplications in the crossbar array. Furthermore, we achieve the one-shot recognition of 16 letter images based on two physically interconnected crossbar arrays and demonstrate that the processing and modulation of analogue information can be simultaneously performed in a memristive crossbar array."
+abstract_cn: "物联网中互联智能设备的增长对实时处理和理解大量模拟数据提出了迫切需求。提升计算速度的困难使得数字计算无法处理本质上是连续幅度和时间的模拟信息。通过在纳米尺度交叉阵列中利用连续数据表示，可以实现并行计算以实时直接处理模拟信息。本文提出了一种利用连续时间数据表示和频率复用的纳米尺度交叉阵列中的可扩展大规模并行计算方案。该计算方案能够实现交叉阵列中存储数据的并行读取以及矩阵‑矩阵乘法的一步操作。此外，我们基于两个物理互连的交叉阵列实现了16个字母图像的一步识别，并证明了在忆阻交叉阵列中可以同时进行模拟信息的处理和调制。"
+cite: "[1] Wang C, Liang S J, Wang C Y, et al. Scalable massively parallel computing using continuous‑time data representation in nanoscale crossbar array[J]. Nature Communications, 2024, 15(1): 1234."
+aiSum: "纳米尺度忆阻交叉阵列中利用连续时间数据表示和频率复用实现可扩展大规模并行计算，支持矩阵‑矩阵乘法一步操作和16字母图像一步识别。"
+confidence: "high"
 authors:
   - "Cong Wang"
   - "Shi-Jun Liang"
@@ -14,19 +22,11 @@ authors:
   - "Bin Cheng"
   - "Chuan Zhang"
   - "Feng Miao"
-date: "2024-01-01"
-year: 2024
-journal: "Nature Communications"
-abstract: "The growth of connected intelligent devices in the Internet of Things has created a pressing need for real-time processing and understanding of large volumes of analogue data. The difficulty in boosting the computing speed renders digital computing unable to meet the demand for processing analogue information that is intrinsically continuous in magnitude and time. By utilizing a continuous data representation in a nanoscale crossbar array, parallel computing can be implemented for the direct processing of analogue information in real time. Here, we propose a scalable massively parallel computing scheme by exploiting a continuous-time data representation and frequency multiplexing in a nanoscale crossbar array. This computing scheme enables the parallel reading of stored data and the one-shot operation of matrix–matrix multiplications in the crossbar array. Furthermore, we achieve the one-shot recognition of 16 letter images based on two physically interconnected crossbar arrays and demonstrate that the processing and modulation of analogue information can be simultaneously performed in a memristive crossbar array."
-abstract_cn: "物联网中互联智能设备的增长对实时处理和理解大量模拟数据提出了迫切需求。提升计算速度的困难使得数字计算无法处理本质上是连续幅度和时间的模拟信息。通过在纳米尺度交叉阵列中利用连续数据表示，可以实现并行计算以实时直接处理模拟信息。本文提出了一种利用连续时间数据表示和频率复用的纳米尺度交叉阵列中的可扩展大规模并行计算方案。该计算方案能够实现交叉阵列中存储数据的并行读取以及矩阵‑矩阵乘法的一步操作。此外，我们基于两个物理互连的交叉阵列实现了16个字母图像的一步识别，并证明了在忆阻交叉阵列中可以同时进行模拟信息的处理和调制。"
 keywords:
   - "[[Memristive crossbar]]"
   - "[[Continuous‑time data representation]]"
   - "[[Massively parallel computing]]"
   - "[[Frequency multiplexing]]"
-cite: "[1] Wang C, Liang S J, Wang C Y, et al. Scalable massively parallel computing using continuous‑time data representation in nanoscale crossbar array[J]. Nature Communications, 2024, 15(1): 1234."
-aiSum: "纳米尺度忆阻交叉阵列中利用连续时间数据表示和频率复用实现可扩展大规模并行计算，支持矩阵‑矩阵乘法一步操作和16字母图像一步识别。"
-confidence: "high"
 ---
 
 ![](images/f829bf158baf75bd1a22db121b0e8121753942951cb39e6638b576217f305b1a.jpg)

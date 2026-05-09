@@ -1,12 +1,12 @@
 ---
-title: "Ferroelectric Analog Synaptic Transistors"
+title: "ASSOCIATED CONTENT"
 authors:
   - "Min-Kyu Kim"
   - "Jang-Sik Lee"
 date: "2019-01-30"
 year: "2019"
 journal: "Nano Letters"
-abstract: "Neuromorphic computing is a promising alternative to conventional computing systems\"
+abstract: "Neuromorphic computing is a promising alternative to conventional computing systems\\"
 abstract_cn: "神经形态计算是传统计算系统的一种有前景的替代方案，因为它可以实现并行计算和自适应学习过程。然而，高能效神经形态硬件系统的发展受到了模拟突触器件性能有限的制约。本文展示了具有纳米级铁电材料和氧化物半导体的铁电薄膜晶体管（FeTFT）中的模拟电导调制行为。通过精确控制纳米级铁电层中的极化变化来诱导电导调制，展示了FeTFT的线性增强和抑制特性。我们的器件展示了高线性度、多状态和小周期/器件间差异的增强和抑制性能。在使用测量特性的仿真中，基于FeTFT的神经形态系统实现了91.1%的手写数字识别准确率。该工作为实现使用FeTFT作为突触器件的神经形态硬件系统提供了一条途径。"
 keywords:
   - "[[Ferroelectric Materials]]"
@@ -19,7 +19,7 @@ keywords:
   - "[[薄膜晶体管]]"
   - "[[人工突触]]"
   - "[[神经形态计算]]"
-cite: "Kim M K, Lee J S. Ferroelectric Analog Synaptic Transistors[J]. Nano Letters, 2019,\"
+cite: "Kim M K, Lee J S. Ferroelectric Analog Synaptic Transistors[J]. Nano Letters, 2019,\\"
 aiSum: "本文展示了基于铁电材料和氧化物半导体的FeTFT器件的模拟电导调制行为。通过精确控制铁电层极化实现线性突触权重更新，器件展现了高线性度、多状态（32个状态）和低变异性的增强/抑制特性。基于实测参数的仿真中，神经形态系统达到91.1%的MNIST手写数字识别准确率。该工作为神经形态硬件中突触器件的实现提供了可行方案。"
 confidence: "high"
 wiki_concepts:

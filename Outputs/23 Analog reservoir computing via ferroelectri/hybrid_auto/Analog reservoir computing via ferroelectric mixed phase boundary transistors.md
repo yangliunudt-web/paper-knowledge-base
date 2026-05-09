@@ -1,4 +1,5 @@
 ---
+
 title: "Analog Reservoir Computing via Ferroelectric Mixed Phase Boundary Transistors"
 authors:
   - "Jangsaeng Kim"
@@ -27,7 +28,7 @@ keywords:
   - "[[FeFET]]"
 cite: "Kim J, Park E C, Shin W, et al. Analog reservoir computing via ferroelectric mixed phase boundary transistors[J]. Nature Communications, 2024, 15. DOI: 10.1038/s41467-024-53321-2."
 aiSum: "铁电MPB晶体管实现全集成模拟储备池计算：5-bit储备池状态，物理储备池+读出神经元一体化。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[Reservoir computing]]"
   - "[[Ferroelectric]]"

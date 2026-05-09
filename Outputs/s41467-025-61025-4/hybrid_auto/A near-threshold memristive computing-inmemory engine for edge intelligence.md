@@ -1,4 +1,5 @@
 ---
+
 title: "A Near-Threshold Memristive Computing-in-Memory Engine for Edge Intelligence"
 authors:
   - "Linfang Wang"
@@ -28,7 +29,7 @@ keywords:
   - "[[crossbar]]"
 cite: "Wang L, Li W, Zhou Z, et al. A near-threshold memristive computing-in-memory engine for edge intelligence[J]. Nature Communications, 2025, 16. DOI: 10.1038/s41467-025-61025-4."
 aiSum: "近阈值忆阻存内计算引擎：亚阈值区crossbar操作，超低功耗边缘智能。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[Memristor]]"
   - "[[In-memory computing]]"

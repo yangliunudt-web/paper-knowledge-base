@@ -1,5 +1,5 @@
 ---
-title: "Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN"
+title: "I. Introduction"
 authors:
   - "Chen Sun"
   - "Zhiran Wang"
@@ -7,14 +7,14 @@ authors:
 date: "2022-01-01"
 year: "2022"
 journal: "IEEE J-EDS"
-abstract: "Learning graph structured data from limited examples on-the-fly is a key challenge\"
-abstract_cn: "从有限样本中即时学习图结构数据是智能边缘设备的关键挑战。本文展示了少样本图学习的首个芯片级演示，使用 1T1R 阻变随机存取存储器（RRAM）同质地实现了记忆增强图神经网络的控制器和联想存储器。利用存内计算范式，验证了\"
+abstract: "Learning graph structured data from limited examples on-the-fly is a key challenge\\"
+abstract_cn: "从有限样本中即时学习图结构数据是智能边缘设备的关键挑战。本文展示了少样本图学习的首个芯片级演示，使用 1T1R 阻变随机存取存储器（RRAM）同质地实现了记忆增强图神经网络的控制器和联想存储器。利用存内计算范式，验证了\\"
 keywords:
   - "[[Graph neural network]]"
   - "[[Few-shot learning]]"
   - "[[Memory-augmented]]"
   - "[[RRAM]]"
-cite: "Sun C, Wang Z, Shang D. Few-shot graph learning with robust and energy-efficient\"
+cite: "Sun C, Wang Z, Shang D. Few-shot graph learning with robust and energy-efficient\\"
 aiSum: "少样本图学习 MAGNN：256 Kb 1T1R RRAM、CORA 78% 准确率、70 倍延迟降低、60 倍能耗降低、中科院+香港大学。"
 confidence: "medium"
 wiki_concepts:

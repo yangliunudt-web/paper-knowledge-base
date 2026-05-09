@@ -1,21 +1,21 @@
 ---
 title: "Monolithic 3D Integration of High Endurance Multi-bit Ferroelectric FET"
-authors:
-  - "T. Francois"
-  - "J. Coignus"
-  - "A. Makosiej"
-  - "B. Giraud"
 date: "2022-06-12"
 year: "2022"
 journal: "IEEE VLSI Symposium"
 doi: "10.1109/VLSITechnologyandCir46769.2022.9830141"
 abstract: "Demonstrates monolithic 3D integration of ferroelectric FETs with multi-bit storage capability and high endurance. The 1T-1C FeFET concept features ferroelectric MFM device in interconnect layer, enabling BEoL integration with CMOS. Achieves >10^10 endurance cycles and 2-bit per cell operation."
 abstract_cn: "展示具有多比特存储能力和高耐久性的单片 3D 集成铁电 FET。1T-1C FeFET 概念在互连层中集成铁电 MFM 器件，实现与 CMOS 的后端集成。实现 >10^10 耐久循环和每单元 2 比特操作。"
-keywords:
-  - "[[Ferroelectric]]"
 cite: "[1] Francois C M G Monolithic 3D Integration of High Endurance Multi-bit Ferroelectric FET[C]. IEEE VLSI Symposium, 2022. DOI: 10.1109/VLSITechnologyandCir46769.2022.9830141."
 aiSum: "单片 3D FeFET 集成：BEoL 铁电 MFM 器件，>10^10 耐久性，2 比特/单元，16kbit 阵列演示。"
 confidence: "high"
+authors:
+  - "T. Francois"
+  - "J. Coignus"
+  - "A. Makosiej"
+  - "B. Giraud"
+keywords:
+  - "[[Ferroelectric]]"
 wiki_concepts:
   - "[[Ferroelectric]]"
 ---

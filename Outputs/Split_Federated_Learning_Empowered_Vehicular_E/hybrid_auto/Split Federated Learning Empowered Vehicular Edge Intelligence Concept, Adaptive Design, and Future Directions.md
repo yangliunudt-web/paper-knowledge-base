@@ -1,24 +1,24 @@
 ---
-title: "Split Federated Learning Empowered Vehicular Edge Intelligence: Concept, Adaptive\"
+title: "Split Federated Learning Empowered Vehicular Edge Intelligence: Concept, Adaptive Design, and Future Directions"
+date: "2024-01-01"
+year: "2024"
+journal: "IEEE Communications Magazine"
+abstract: "To achieve ubiquitous intelligence in future vehicular networks, artificial intelligence (AI) is essential for extracting valuable insights from vehicular data to enhance AI-driven services. By integrating AI technologies into vehicular edge computing (VEC) platforms, which provide essential storage, computing, and network resources, vehicular edge intelligence (VEI) can be fully realized. Traditional centralized learning, as one of the enabling technologies for VEI, places significant strain on network bandwidth while also increasing latency and privacy concerns. Nowadays, distributed machine learning methods, such as federated learning (FL), split learning (SL), and split federated learning (SFL), are widely applied in vehicular networks to support VEI. However, these methods still face significant challenges due to the mobility and constrained resources inherent in vehicular networks. In this article, we first provide an overview of the system architecture, performance metrics, and challenges associated with VEI design. Then, the adaptive design of SFL, namely adaptive split federated learning (ASFL) is introduced. The proposed ASFL scheme dynamically adapts the cut layer selection process and operates in parallel, optimizing both communication and computation efficiency while improving model performance under non-IID data distribution. Finally, we highlight future research directions to shed the light on the efficient design of SFL."
+abstract_cn: "为了实现未来车联网的泛在智能，人工智能对于从车辆数据中提取有价值的见解以增强AI驱动服务至关重要。通过将AI技术集成到提供必要存储、计算和网络资源的车辆边缘计算平台中，车辆边缘智能得以全面实现。传统的集中式学习作为实现车辆边缘智能的使能技术之一，给网络带宽带来巨大压力，同时增加了延迟和隐私问题。如今，分布式机器学习方法（如联邦学习、分裂学习和分裂联邦学习）被广泛应用于车联网以支持车辆边缘智能。然而，由于车联网固有的移动性和资源受限，这些方法仍面临重大挑战。本文首先概述了车辆边缘智能的系统架构、性能指标和设计挑战，然后介绍了分裂联邦学习的自适应设计，即自适应分裂联邦学习。所提出的自适应分裂联邦学习方案动态调整分裂层选择过程并以并行方式运行，在非独立同分布数据下优化通信和计算效率，同时提升模型性能。最后，我们展望了未来的研究方向，以启发分裂联邦学习的高效设计。"
+cite: "[1] Qiang X, Chang Z, Ye C, et al. Split federated learning empowered vehicular edge intelligence: concept, adaptive design, and future directions[J]. IEEE Communications Magazine, 2024."
+aiSum: "自适应分裂联邦学习赋能车辆边缘智能：动态分裂层选择、并行优化通信与计算效率，提升非独立同分布数据下模型性能，展望未来研究方向。"
+confidence: "medium"
 authors:
   - "Xianke Qiang"
   - "Zheng Chang"
   - "Chaoxiong Ye"
   - "Timo Hämäläinen"
   - "Geyong Min"
-date: "2024-01-01"
-year: "2024"
-journal: "IEEE Communications Magazine"
-abstract: "To achieve ubiquitous intelligence in future vehicular networks, artificial intelligence\"
-abstract_cn: "为了实现未来车联网的泛在智能，人工智能对于从车辆数据中提取有价值的见解以增强AI驱动服务至关重要。通过将AI技术集成到提供必要存储、计算和网络资源的车辆边缘计算平台中，车辆边缘智能得以全面实现。传统的集中式学习作为实现车辆边缘智能的使能技术之一，给网络带宽带来巨大压力，同时增加了延迟和隐私问题。如今，分布式机器学习方法（如联邦学习、分裂学习和分裂联邦学习）被广泛应用于车联网以支持车辆边缘智能。然而，由于车联网固有的移动性和资源受限，这些方法仍面临重大挑战。本文首先概述了车辆边缘智能的系统架构、性能指标和设计挑战，然后介绍了分裂联邦学习的自适应设计，即自适应分裂联邦学习。所提出的自适应分裂联邦学习方案动态调整分裂层选择过程并以并行方式运行，在非独立同分布数据下优化通信和计算效率，同时提升模型性能。最后，我们展望了未来的研究方向，以启发分裂联邦学习的高效设计。"
 keywords:
   - "[[Federated learning]]"
   - "[[Edge computing]]"
   - "[[Split learning]]"
   - "[[Vehicular networks]]"
-cite: "[1] Qiang X, Chang Z, Ye C, et al. Split federated learning empowered vehicular edge\"
-aiSum: "自适应分裂联邦学习赋能车辆边缘智能：动态分裂层选择、并行优化通信与计算效率，提升非独立同分布数据下模型性能，展望未来研究方向。"
-confidence: "medium"
 wiki_concepts:
   - "[[Edge computing]]"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "An in-memory computing architecture based on a duplex two-dimensional material structure\"
+title: "Duplex FeFET device structure"
 authors:
   - "Jian Huang"
   - "Wei Wang"
@@ -7,7 +7,7 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "Nature"
-abstract: "Here we combine a ferroelectric field-effect transistor (FeFET) with a monolayer\"
+abstract: "Here we combine a ferroelectric field-effect transistor (FeFET) with a monolayer\\"
 abstract_cn: "本文将铁电场效应晶体管（FeFET）与单层MoS2结合，构建双功能二维材料结构实现原位学习。器件同时实现突触和神经峰功能，支持高能效片上学习，展示了将二维材料与铁电器件结合用于未来类脑计算系统的潜力。"
 keywords:
   - "[[FeFET]]"
@@ -15,7 +15,7 @@ keywords:
   - "[[2D materials]]"
   - "[[MoS2]]"
   - "[[In-situ learning]]"
-cite: "Huang J, Wang W, Qian C. An in-memory computing architecture based on a duplex two-dimensional\"
+cite: "Huang J, Wang W, Qian C. An in-memory computing architecture based on a duplex two-dimensional\\"
 aiSum: "FeFET+单层MoS2双功能器件：突触+神经峰功能，原位学习，高能效片上学习方案。"
 confidence: "high"
 wiki_concepts:

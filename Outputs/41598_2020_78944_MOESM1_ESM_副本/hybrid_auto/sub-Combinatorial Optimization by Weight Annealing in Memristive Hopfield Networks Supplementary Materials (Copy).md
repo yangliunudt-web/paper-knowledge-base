@@ -1,11 +1,5 @@
 ---
 title: "sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks"
-authors:
-  - "Z. Fahimi"
-  - "M. R. Mahmoodi"
-  - "H. Nili"
-  - "Valentin Polishchuk"
-  - "D. B. Strukov"
 date: "2020-01-01"
 year: 2020
 journal: "Scientific Reports"
@@ -14,6 +8,12 @@ abstract_cn: "忆阻器 Hopfield 网络权重退火组合优化主论文的补�
 cite: "待补充. sub-Combinatorial Optimization by Weight Annealing in Memristive Hopfield Networks[J]. Scientific Reports, 2020."
 aiSum: "忆阻器 Hopfield 网络权重退火组合优化论文补充材料：Hopfield 网络与退火技术、优化问题公式、图划分示例及仿真结果。"
 confidence: "medium"
+authors:
+  - "Z. Fahimi"
+  - "M. R. Mahmoodi"
+  - "H. Nili"
+  - "Valentin Polishchuk"
+  - "D. B. Strukov"
 parent:
   - "[[Combinatorial optimization by weight annealing in memristive hopfeld networks]]"
 ---

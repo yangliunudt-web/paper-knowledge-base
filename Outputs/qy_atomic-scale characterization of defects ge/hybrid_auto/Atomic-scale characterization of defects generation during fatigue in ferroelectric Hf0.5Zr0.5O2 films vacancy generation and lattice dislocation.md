@@ -1,5 +1,13 @@
 ---
 title: "Atomic-scale characterization of defects generation during fatigue in ferroelectric"
+date: "2019-01-01"
+year: "2019"
+journal: "Unknown Journal"
+abstract: "For the first time, we directly observed the lattice dislocation and monoclinic"
+abstract_cn: "研究聚焦于铁电存储器及其在神经形态计算中的应用。铁电存储器利用铁电极化实现非易失性数据存储，具有高速、低功耗的优点。本文分析了铁电存储器的器件结构、工作原理及其在神经网络硬件加速方面的潜力。"
+cite: "待补充. 'Atomic-scale characterization of defects generation during fatigue in ferroelectric[J]. Unknown Journal, 2019."
+aiSum: "采用铁电存储器器件，研究其在神经形态计算中的应用。分析了器件的工作原理和性能特性，为下一代内存计算提供了解决方案。"
+confidence: "medium"
 authors:
   - "Yunzhe Yonghui"
   - "Zhaomeng Yan"
@@ -7,16 +15,8 @@ authors:
   - "Yiwei Cheng"
   - "Yaru Rong"
   - "Xiangshui Hangbing"
-date: "2019-01-01"
-year: "2019"
-journal: "Unknown Journal"
-abstract: "For the first time, we directly observed the lattice dislocation and monoclinic"
-abstract_cn: "研究聚焦于铁电存储器及其在神经形态计算中的应用。铁电存储器利用铁电极化实现非易失性数据存储，具有高速、低功耗的优点。本文分析了铁电存储器的器件结构、工作原理及其在神经网络硬件加速方面的潜力。"
 keywords:
   - "[[FeFET]]"
-cite: "待补充. 'Atomic-scale characterization of defects generation during fatigue in ferroelectric[J]. Unknown Journal, 2019."
-aiSum: "采用铁电存储器器件，研究其在神经形态计算中的应用。分析了器件的工作原理和性能特性，为下一代内存计算提供了解决方案。"
-confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"
 ---

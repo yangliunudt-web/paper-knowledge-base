@@ -1,5 +1,5 @@
 ---
-title: "Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for\"
+title: "I. INTRODUCTION"
 authors:
   - "Jixuan Wu"
   - "Fei Mo"
@@ -12,14 +12,14 @@ date: "2021-12-01"
 year: "2021"
 journal: "IEEE Transactions on Electron Devices"
 doi: "10.1109/TED.2021.3111145"
-abstract: "We have developed and integrated a mobility-enhanced FET and a wakeup-free ferroelectric\"
-abstract_cn: "开发了使用 Sn 掺杂 InGaZnO (IGZTO) 的迁移率增强型 FET 和无唤醒铁电 (FE) 电容，并演示了用于 3D 嵌入式 RAM 应用的 1T1C\"
+abstract: "We have developed and integrated a mobility-enhanced FET and a wakeup-free ferroelectric\\"
+abstract_cn: "开发了使用 Sn 掺杂 InGaZnO (IGZTO) 的迁移率增强型 FET 和无唤醒铁电 (FE) 电容，并演示了用于 3D 嵌入式 RAM 应用的 1T1C\\"
 keywords:
   - "[[IGZTO]]"
   - "[[Ferroelectric capacitor]]"
   - "[[3D integration]]"
   - "[[FeRAM]]"
-cite: "Wu J, Mo F, Saraya T, et al. Monolithic integration of oxide semiconductor FET and\"
+cite: "Wu J, Mo F, Saraya T, et al. Monolithic integration of oxide semiconductor FET and\\"
 aiSum: "IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。"
 confidence: "high"
 wiki_concepts:

@@ -1,5 +1,14 @@
 ---
 title: "RV16: An Ultra-Low-Cost Embedded RISC-V Processor Core"
+date: "2017-01-01"
+year: 2017
+journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+doi: "10.1109/TCAD.2017.2717782"
+abstract: "Embedded and Internet of Things (IoT) devices have extremely strict requirements on the area and power consumption of the processor because of the limitation on its working environment. To reduce the overhead of the embedded processor as much as possible, this paper designs and implements a configurable 32-bit in-order RISC-V processor core based on the 16-bit data path and units, named RV16. The evaluation results show that, compared with the traditional 32-bit RISC-V processor with similar features, RV16 consumes fewer hardware resources and less power consumption. The maximum performance of RV16 running Dhrystone and CoreMark benchmarks is 0.92 DMIPS/MHz and 1.51 CoreMark/MHz, respectively, reaching 75% and 71% of traditional 32-bit processors, respectively. Moreover, a properly configured RV16 running program also consumes less energy than a traditional 32-bit processor."
+abstract_cn: "嵌入式和物联网设备因其工作环境的限制，对处理器的面积和功耗有着极其严格的要求。为了尽可能降低嵌入式处理器的开销，本文设计并实现了一个基于16位数据通路和功能单元的可配置32位顺序RISC-V处理器核，命名为RV16。评估结果表明，与具有类似功能的传统32位RISC-V处理器相比，RV16消耗更少的硬件资源和更低的功耗。RV16运行Dhrystone和CoreMark基准测试的最大性能分别为0.92 DMIPS/MHz和1.51 CoreMark/MHz，分别达到传统32位处理器性能的75%和71%。此外，适当配置的RV16运行程序也比传统32位处理器消耗更少的能量。"
+cite: "[1] Cheng Y H, Huang L B, Cui Y J, et al. RV16: an ultra‑low‑cost embedded RISC‑V processor core[J]. IEEE Transactions on Computer‑Aided Design of Integrated Circuits and Systems, 2017, 36(12): 2099‑2110. DOI: 10.1109/TCAD.2017.2717782."
+aiSum: "RV16：基于16位数据通路的32位RISC‑V处理器核，相比传统32位RISC‑V处理器硬件资源更少、功耗更低，性能达75%~71%，适用于物联网嵌入式设备。"
+confidence: "medium"
 authors:
   - "Yuan-Hu Cheng"
   - "Li-Bo Huang"
@@ -7,20 +16,11 @@ authors:
   - "Sheng Ma"
   - "Yong-Wen Wang"
   - "Bing-Cai Sui"
-date: "2017-01-01"
-year: 2017
-journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
-doi: "10.1109/TCAD.2017.2717782"
-abstract: "Embedded and Internet of Things (IoT) devices have extremely strict requirements on the area and power consumption of the processor because of the limitation on its working environment. To reduce the overhead of the embedded processor as much as possible, this paper designs and implements a configurable 32-bit in-order RISC-V processor core based on the 16-bit data path and units, named RV16. The evaluation results show that, compared with the traditional 32-bit RISC-V processor with similar features, RV16 consumes fewer hardware resources and less power consumption. The maximum performance of RV16 running Dhrystone and CoreMark benchmarks is 0.92 DMIPS/MHz and 1.51 CoreMark/MHz, respectively, reaching 75% and 71% of traditional 32-bit processors, respectively. Moreover, a properly configured RV16 running program also consumes less energy than a traditional 32-bit processor."
-abstract_cn: "嵌入式和物联网设备因其工作环境的限制，对处理器的面积和功耗有着极其严格的要求。为了尽可能降低嵌入式处理器的开销，本文设计并实现了一个基于16位数据通路和功能单元的可配置32位顺序RISC-V处理器核，命名为RV16。评估结果表明，与具有类似功能的传统32位RISC-V处理器相比，RV16消耗更少的硬件资源和更低的功耗。RV16运行Dhrystone和CoreMark基准测试的最大性能分别为0.92 DMIPS/MHz和1.51 CoreMark/MHz，分别达到传统32位处理器性能的75%和71%。此外，适当配置的RV16运行程序也比传统32位处理器消耗更少的能量。"
 keywords:
   - "[[RISC-V]]"
   - "[[Embedded systems]]"
   - "[[Internet of Things (IoT)]]"
   - "[[Low power design]]"
-cite: "[1] Cheng Y H, Huang L B, Cui Y J, et al. RV16: an ultra‑low‑cost embedded RISC‑V processor core[J]. IEEE Transactions on Computer‑Aided Design of Integrated Circuits and Systems, 2017, 36(12): 2099‑2110. DOI: 10.1109/TCAD.2017.2717782."
-aiSum: "RV16：基于16位数据通路的32位RISC‑V处理器核，相比传统32位RISC‑V处理器硬件资源更少、功耗更低，性能达75%~71%，适用于物联网嵌入式设备。"
-confidence: "medium"
 ---
 
 # RV16: An Ultra-Low-Cost Embedded RISC-V Processor Core

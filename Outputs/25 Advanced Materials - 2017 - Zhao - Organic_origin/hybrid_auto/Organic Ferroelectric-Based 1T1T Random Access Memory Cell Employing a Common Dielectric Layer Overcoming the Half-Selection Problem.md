@@ -1,5 +1,13 @@
 ---
 title: "Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem"
+date: "2017-07-10"
+year: 2017
+journal: "Advanced Materials"
+abstract: "Organic electronics based on poly(vinylidenefluoride/trifluoroethylene) (P(VDF-TrFE)) dielectric is facing great challenges in flexible circuits. As one indispensable part of integrated circuits, there is an urgent demand for low-cost and easy-fabrication nonvolatile memory devices. A breakthrough is made on a novel ferroelectric random access memory cell (1T1T FeRAM cell) consisting of one selection transistor and one ferroelectric memory transistor in order to overcome the half-selection problem. Unlike complicated manufacturing using multiple dielectrics, this system simplifies 1T1T FeRAM cell fabrication using one common dielectric. To achieve this goal, a strategy for semiconductor/insulator (S/I) interface modulation is put forward and applied to nonhysteretic selection transistors with high performances for driving or addressing purposes. As a result, high hole mobility of 3.81 cm2 V−1 s−1 (average) for 2,6-diphenylanthracene (DPA) and electron mobility of 0.124 cm2 V−1 s−1 (average) for N,N′-1H,1Hperfluorobutyl dicyanoperylenecarboxydiimide (PDI-FCN ) are obtained in selection transistors. In this work, we demonstrate this technology’s potential for organic ferroelectric-based pixelated memory module fabrication."
+abstract_cn: "基于聚偏二氟乙烯-三氟乙烯共聚物(P(VDF-TrFE))介电层的有机电子学在柔性电路方面面临巨大挑战。作为集成电路不可或缺的组成部分，对于低成本且易于制造的非易失性存储器件的需求日益迫切。本文在克服半选问题方面取得突破，提出了一种新型铁电随机存取存储器单元(1T1T FeRAM单元)，该单元由一个选择晶体管和一个铁电存储晶体管组成。与使用多层介电层的复杂制造工艺不同，该系统通过使用一个公共介电层简化了1T1T FeRAM单元的制造。为实现这一目标，提出了一种半导体/绝缘体(S/I)界面调控策略，并将其应用于用于驱动或寻址目的的非磁滞选择晶体管。结果表明，选择晶体管中2,6-二苯基蒽(DPA)的平均空穴迁移率达到3.81 cm2 V−1 s−1，N,N′-1H,1H全氟丁基二氰基苝四羧基二亚胺(PDI-FCN)的平均电子迁移率达到0.124 cm2 V−1 s−1。本研究展示了该技术在有机铁电基像素化存储器制造方面的潜力。"
+cite: "Zhao Q, Wang H, Ni Z, Liu J, Zhen Y, Zhang X, Jiang L, Li R, Dong H, Hu W. Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem[J]. Advanced Materials, 2017, 25: 1907-1913. DOI: 10.1002/adma.201701907"
+aiSum: "研究问题：基于有机铁电材料的非易失性存储器在制造过程中面临半选问题，即在对目标存储晶体管进行写操作时，会导致相邻存储晶体管被轻微编程。研究方法：提出了一种新型的1T1T FeRAM单元结构，由一个选择晶体管和一个铁电存储晶体管组成，使用公共介电层(P(VDF-TrFE)/PS双层)简化制造工艺。采用半导体/绝缘体界面调控策略，通过在半导体层和铁电层之间引入聚苯乙烯(PS)驻极体隔离层，实现非磁滞选择晶体管。主要结论：成功制造了高性能选择晶体管(DPA空穴迁移率3.81 cm2 V−1 s−1，PDI-FCN2电子迁移率0.124 cm2 V−1 s−1)；1T1T FeRAM单元表现出良好的存储性能，在1000秒测试时间内保持大于102的1/0比率；公共介电层策略显著简化了制造工艺。局限：研究主要关注单元级性能，未详细讨论大规模集成的挑战；工作温度范围受P(VDF-TrFE)居里温度限制。"
+confidence: "high"
 authors:
   - "Qiang Zhao"
   - "Hanlin Wang"
@@ -11,11 +19,6 @@ authors:
   - "Rongjin Li"
   - "Huanli Dong"
   - "Wenping Hu"
-date: "2017-07-10"
-year: 2017
-journal: "Advanced Materials"
-abstract: "Organic electronics based on poly(vinylidenefluoride/trifluoroethylene) (P(VDF-TrFE)) dielectric is facing great challenges in flexible circuits. As one indispensable part of integrated circuits, there is an urgent demand for low-cost and easy-fabrication nonvolatile memory devices. A breakthrough is made on a novel ferroelectric random access memory cell (1T1T FeRAM cell) consisting of one selection transistor and one ferroelectric memory transistor in order to overcome the half-selection problem. Unlike complicated manufacturing using multiple dielectrics, this system simplifies 1T1T FeRAM cell fabrication using one common dielectric. To achieve this goal, a strategy for semiconductor/insulator (S/I) interface modulation is put forward and applied to nonhysteretic selection transistors with high performances for driving or addressing purposes. As a result, high hole mobility of 3.81 cm2 V−1 s−1 (average) for 2,6-diphenylanthracene (DPA) and electron mobility of 0.124 cm2 V−1 s−1 (average) for N,N′-1H,1Hperfluorobutyl dicyanoperylenecarboxydiimide (PDI-FCN ) are obtained in selection transistors. In this work, we demonstrate this technology’s potential for organic ferroelectric-based pixelated memory module fabrication."
-abstract_cn: "基于聚偏二氟乙烯-三氟乙烯共聚物(P(VDF-TrFE))介电层的有机电子学在柔性电路方面面临巨大挑战。作为集成电路不可或缺的组成部分，对于低成本且易于制造的非易失性存储器件的需求日益迫切。本文在克服半选问题方面取得突破，提出了一种新型铁电随机存取存储器单元(1T1T FeRAM单元)，该单元由一个选择晶体管和一个铁电存储晶体管组成。与使用多层介电层的复杂制造工艺不同，该系统通过使用一个公共介电层简化了1T1T FeRAM单元的制造。为实现这一目标，提出了一种半导体/绝缘体(S/I)界面调控策略，并将其应用于用于驱动或寻址目的的非磁滞选择晶体管。结果表明，选择晶体管中2,6-二苯基蒽(DPA)的平均空穴迁移率达到3.81 cm2 V−1 s−1，N,N′-1H,1H全氟丁基二氰基苝四羧基二亚胺(PDI-FCN)的平均电子迁移率达到0.124 cm2 V−1 s−1。本研究展示了该技术在有机铁电基像素化存储器制造方面的潜力。"
 keywords:
   - "[[ferroelectrics]]"
   - "[[memory devices]]"
@@ -25,9 +28,6 @@ keywords:
   - "[[存储器件]]"
   - "[[有机电子学]]"
   - "[[有机场效应晶体管]]"
-cite: "Zhao Q, Wang H, Ni Z, Liu J, Zhen Y, Zhang X, Jiang L, Li R, Dong H, Hu W. Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem[J]. Advanced Materials, 2017, 25: 1907-1913. DOI: 10.1002/adma.201701907"
-aiSum: "研究问题：基于有机铁电材料的非易失性存储器在制造过程中面临半选问题，即在对目标存储晶体管进行写操作时，会导致相邻存储晶体管被轻微编程。研究方法：提出了一种新型的1T1T FeRAM单元结构，由一个选择晶体管和一个铁电存储晶体管组成，使用公共介电层(P(VDF-TrFE)/PS双层)简化制造工艺。采用半导体/绝缘体界面调控策略，通过在半导体层和铁电层之间引入聚苯乙烯(PS)驻极体隔离层，实现非磁滞选择晶体管。主要结论：成功制造了高性能选择晶体管(DPA空穴迁移率3.81 cm2 V−1 s−1，PDI-FCN2电子迁移率0.124 cm2 V−1 s−1)；1T1T FeRAM单元表现出良好的存储性能，在1000秒测试时间内保持大于102的1/0比率；公共介电层策略显著简化了制造工艺。局限：研究主要关注单元级性能，未详细讨论大规模集成的挑战；工作温度范围受P(VDF-TrFE)居里温度限制。"
-confidence: "high"
 ---
 
 # Organic Ferroelectric-Based 1T1T Random Access Memory Cell Employing a Common Dielectric Layer Overcoming the Half-Selection Problem

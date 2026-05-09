@@ -1,8 +1,6 @@
 ---
+
 title: "Adaptation in Edge Computing: A Review on Design Principles and Research Challenges"
-authors:
-  - "NANXI CHEN"
-  - "Information Technology Chinese Academy of Sciences"
 date: "2024-09-30"
 year: "2024"
 journal: "ACM Computing Surveys"
@@ -16,6 +14,9 @@ aiSum: "边缘计算自适应综述：基础设施/应用/数据三维度自适�
 confidence: "medium"
 wiki_concepts:
   - "[[Edge computing]]"
+authors:
+  - "NANXI CHEN"
+  - "Information Technology Chinese Academy of Sciences"
 ---
 
 SURVEY

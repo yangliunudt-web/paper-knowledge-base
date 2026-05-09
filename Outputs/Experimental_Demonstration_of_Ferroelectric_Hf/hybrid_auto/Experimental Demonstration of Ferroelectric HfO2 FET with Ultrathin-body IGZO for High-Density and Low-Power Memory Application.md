@@ -1,5 +1,5 @@
 ---
-title: "Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for\"
+title: "Experimental Demonstration of Ferroelectric HfO2 FET with Ultrathin-body IGZO for\\"
 authors:
   - "Fei Mo"
   - "Yusaku Tagawa"
@@ -11,14 +11,14 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Electron Device Letters"
-abstract: "We have experimentally demonstrated a ferroelectric HfO2 FET with memory operation\"
-abstract_cn: "我们通过引入超薄IGZO作为沟道材料，实验演示了具有存储操作的铁电HfO2 FET。超薄体IGZO铁电FET表现出沉积沟道材料的高迁移率、近乎理想的亚阈值斜率以及使用后端兼容工艺的可控存储特性。这些结果归因于IGZO沟道的特性：无结FET操作、金属氧化物沟道上近乎零的低k界面层以及实现HfZrO2铁电相形成的良好覆盖效应。IGZO\"
+abstract: "We have experimentally demonstrated a ferroelectric HfO2 FET with memory operation by introducing ultrathin IGZO as a channel material. Ultrathin-body IGZO ferroelectric FET (FeFET) shows high mobility with deposited channel material, nearly ideal subthreshold slope, and controllable memory characteristics with the use of back-end compatible process. These results are attributed to the properties of IGZO channel: junctionless FET operation, nearly-zero low-k interfacial layer on metal-oxide channel and good capping effect for realizing ferroelectric phase formation with $\\mathrm { H f Z r O } _ { 2 } .$ . IGZO FeFET will open a new path for high-density memory application. Keywords: ferroelectric FET, HfO2, IGZO, memory."
+abstract_cn: "我们通过引入超薄IGZO作为沟道材料，实验演示了具有存储操作的铁电HfO2 FET。超薄体IGZO铁电FET表现出沉积沟道材料的高迁移率、近乎理想的亚阈值斜率以及使用后端兼容工艺的可控存储特性。这些结果归因于IGZO沟道的特性：无结FET操作、金属氧化物沟道上近乎零的低k界面层以及实现HfZrO2铁电相形成的良好覆盖效应。IGZO\\"
 keywords:
   - "[[FeFET]]"
   - "[[IGZO]]"
   - "[[HfO2]]"
   - "[[Memory application]]"
-cite: "[1] Mo F, Tagawa Y, Jin C, et al. Experimental demonstration of ferroelectric HfO2\"
+cite: "[1] Mo F, Tagawa Y, Jin C, et al. Experimental demonstration of ferroelectric HfO2\\"
 aiSum: "超薄体IGZO FeFET实验演示：采用HfO2铁电层，实现高迁移率、理想亚阈值斜率、可控存储窗口，为高密度低功耗存储应用提供新方案。"
 confidence: "high"
 wiki_concepts:

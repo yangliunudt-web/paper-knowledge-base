@@ -1,21 +1,21 @@
 ---
 title: "Sub-Low-power edge detection based on ferroelectric transistor array"
-authors:
-  - "Author"
 date: "2023-01-01"
 year: 2023
 journal: "IEEE TED"
 abstract: "Supplementary materials for low-power edge detection using ferroelectric transistor arrays. Contains additional experimental data and analysis."
 abstract_cn: "使用铁电晶体管阵列的低功耗边缘检测补充材料。包含额外实验数据和分析。"
+cite: "Author. Low-power edge detection based on ferroelectric transistor array[J]. IEEE TED, 2023."
+aiSum: "边缘检测补充材料：器件特性、阵列配置、处理结果。"
+confidence: "medium"
+authors:
+  - "Author"
 keywords:
   - "[[[[Edge Detection]]]]"
   - "[[[[FeFET]]]]"
   - "[[[[Ferroelectric Transistor]]]]"
   - "[[[[Low-Power]]]]"
   - "[[[[边缘检测]]]]"
-cite: "Author. Low-power edge detection based on ferroelectric transistor array[J]. IEEE TED, 2023."
-aiSum: "边缘检测补充材料：器件特性、阵列配置、处理结果。"
-confidence: "medium"
 parent:
   - "[[Low-power edge detection based on ferroelectric field-effect transistor]]"
 ---

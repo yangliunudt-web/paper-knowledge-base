@@ -1,5 +1,13 @@
 ---
 title: "Causal Deep Learning for Enhancing Explainability in 6G Network Edge Intelligence Anomaly Detection"
+date: "2025-11-19"
+year: 2025
+journal: "Scientific Reports"
+abstract: "With the rapid development of 6G networks, anomaly detection in network edge intelligence faces significant challenges in system interpretability and trustworthiness. Although machine learning-based methods improve detection performance, their black-box nature limits reliable cybersecurity decision support. To address this, we propose a novel framework integrating causal inference with LSTM networks. Our approach first applies Random Fourier Feature transformation to eliminate nonlinear feature correlations—a prerequisite for valid causal analysis. We then quantify feature-specific causal effects using sample-weighted adjustments to ensure model stability. Furthermore, Generative Adversarial Networks generate high-quality minority-class samples to augment training data, enhancing anomaly detection accuracy. Experimental validation on two large-scale datasets demonstrates a 33.7% improvement in explainability and a 68% reduction in root-cause localization time. This work establishes a new cybersecurity paradigm for 6G edge intelligence through causal reasoning."
+abstract_cn: "随着6G网络的快速发展，网络边缘智能中的异常检测在系统可解释性和可信度方面面临重大挑战。尽管基于机器学习的方法提高了检测性能，但其黑盒特性限制了可靠的网络安全决策支持。为此，我们提出了一种将因果推理与LSTM网络相结合的新框架。该方法首先应用随机傅里叶特征变换消除非线性特征相关性，这是有效因果分析的前提条件。然后通过样本加权调整量化特征特异性因果效应以确保模型稳定性。此外，生成对抗网络生成高质量的少数类样本以增强训练数据，提高异常检测精度。在两个大规模数据集上的实验验证表明，可解释性提高了33.7%，根因定位时间减少了68%。该工作通过因果推理为6G边缘智能建立了新的网络安全范式。"
+cite: "Xiao Y, Zeng Z, Dai M, Kang A, Liu X, Liu Y. Causal Deep Learning for Enhancing Explainability in 6G Network Edge Intelligence Anomaly Detection[J]. Scientific Reports, 2025, 15: 40678. DOI: 10.1038/s41598-025-19700-5"
+aiSum: "本研究提出CausalDL框架，将因果推理与LSTM网络结合解决6G边缘智能异常检测的可解释性问题。核心方法包括：(1) 随机傅里叶特征变换消除非线性特征相关性；(2) 样本加权调整量化因果效应；(3) WGAN-GP生成少数类样本解决数据不平衡。实验结果显示可解释性提升33.7%，根因定位时间减少68%，为6G边缘智能安全提供了因果推理新范式。"
+confidence: "medium"
 authors:
   - "Xiao Yi"
   - "Zengri Zeng"
@@ -7,11 +15,6 @@ authors:
   - "Aimei Kang"
   - "Xuhui Liu"
   - "Yunlian Liu"
-date: "2025-11-19"
-year: 2025
-journal: "Scientific Reports"
-abstract: "With the rapid development of 6G networks, anomaly detection in network edge intelligence faces significant challenges in system interpretability and trustworthiness. Although machine learning-based methods improve detection performance, their black-box nature limits reliable cybersecurity decision support. To address this, we propose a novel framework integrating causal inference with LSTM networks. Our approach first applies Random Fourier Feature transformation to eliminate nonlinear feature correlations—a prerequisite for valid causal analysis. We then quantify feature-specific causal effects using sample-weighted adjustments to ensure model stability. Furthermore, Generative Adversarial Networks generate high-quality minority-class samples to augment training data, enhancing anomaly detection accuracy. Experimental validation on two large-scale datasets demonstrates a 33.7% improvement in explainability and a 68% reduction in root-cause localization time. This work establishes a new cybersecurity paradigm for 6G edge intelligence through causal reasoning."
-abstract_cn: "随着6G网络的快速发展，网络边缘智能中的异常检测在系统可解释性和可信度方面面临重大挑战。尽管基于机器学习的方法提高了检测性能，但其黑盒特性限制了可靠的网络安全决策支持。为此，我们提出了一种将因果推理与LSTM网络相结合的新框架。该方法首先应用随机傅里叶特征变换消除非线性特征相关性，这是有效因果分析的前提条件。然后通过样本加权调整量化特征特异性因果效应以确保模型稳定性。此外，生成对抗网络生成高质量的少数类样本以增强训练数据，提高异常检测精度。在两个大规模数据集上的实验验证表明，可解释性提高了33.7%，根因定位时间减少了68%。该工作通过因果推理为6G边缘智能建立了新的网络安全范式。"
 keywords:
   - "[[Causal Deep Learning]]"
   - "[[6G NEI]]"
@@ -22,9 +25,6 @@ keywords:
   - "[[因果深度学习]]"
   - "[[异常检测]]"
   - "[[6G网络]]"
-cite: "Xiao Y, Zeng Z, Dai M, Kang A, Liu X, Liu Y. Causal Deep Learning for Enhancing Explainability in 6G Network Edge Intelligence Anomaly Detection[J]. Scientific Reports, 2025, 15: 40678. DOI: 10.1038/s41598-025-19700-5"
-aiSum: "本研究提出CausalDL框架，将因果推理与LSTM网络结合解决6G边缘智能异常检测的可解释性问题。核心方法包括：(1) 随机傅里叶特征变换消除非线性特征相关性；(2) 样本加权调整量化因果效应；(3) WGAN-GP生成少数类样本解决数据不平衡。实验结果显示可解释性提升33.7%，根因定位时间减少68%，为6G边缘智能安全提供了因果推理新范式。"
-confidence: "medium"
 ---
 
 # [[Causal deep learning]] for enhancing explainability in 6G network edge intelligence anomaly detection

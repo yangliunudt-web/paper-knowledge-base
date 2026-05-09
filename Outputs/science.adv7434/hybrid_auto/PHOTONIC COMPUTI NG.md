@@ -1,15 +1,18 @@
 ---
 title: "All-Optical Synthesis Chip for Large-Scale Intelligent Semantic Vision Generation"
-authors:
-  - "Yitong Chen"
-  - "Xinyue Sun"
-  - "Guangtao Zhai"
-  - "Wenjun Zhang"
 date: "2024-12-19"
 year: 2024
 journal: "Science"
 abstract: "This paper presents LightGen, the first large-scale all-optical generative AI chip simultaneously breaking through three bottlenecks: million-scale optical neuron integration, all-optical dimension conversion, and ground-truth-free optical chip training. The chip achieves 2 orders of magnitude improvement in computing power and energy efficiency versus state-of-the-art digital chips, with theoretical potential for 7 orders of magnitude if signal input is not the bottleneck. LightGen supports high-resolution image semantic generation, 3D NeRF generation, HD video generation, semantic control, denoising, and style transfer."
 abstract_cn: "本文提出了LightGen，首款大规模全光生成式AI芯片，同时突破百万级光学神经元集成、全光维度转换和无真值光芯片训练三大瓶颈。相比顶尖数字芯片实现2个数量级的算力和能效提升，理论上可达7个数量级。支持高分辨率图像语义生成、3D NeRF、高清视频生成、语义调控、去噪和风格迁移。"
+cite: "Chen Y, Sun X, Zhai G, Zhang W. All-Optical Synthesis Chip for Large-Scale Intelligent Semantic Vision Generation[J]. Science, 2024, 386: 1480-1487. DOI: 10.1126/science.adv7434"
+aiSum: "LightGen全光生成式AI芯片，突破百万级光学神经元集成、全光维度转换、无真值训练三大瓶颈。算力提升2个数量级（理论7个），支持NeRF、视频生成、风格迁移等任务。"
+confidence: "high"
+authors:
+  - "Yitong Chen"
+  - "Xinyue Sun"
+  - "Guangtao Zhai"
+  - "Wenjun Zhang"
 keywords:
   - "[[All-Optical Chip]]"
   - "[[Generative AI]]"
@@ -17,9 +20,6 @@ keywords:
   - "[[NeRF]]"
   - "[[全光芯片]]"
   - "[[生成式AI]]"
-cite: "Chen Y, Sun X, Zhai G, Zhang W. All-Optical Synthesis Chip for Large-Scale Intelligent Semantic Vision Generation[J]. Science, 2024, 386: 1480-1487. DOI: 10.1126/science.adv7434"
-aiSum: "LightGen全光生成式AI芯片，突破百万级光学神经元集成、全光维度转换、无真值训练三大瓶颈。算力提升2个数量级（理论7个），支持NeRF、视频生成、风格迁移等任务。"
-confidence: "high"
 ---
 
 title: "PHOTONIC COMPUTI NG"

@@ -1,23 +1,23 @@
 ---
 title: "An Adaptive Deep Reinforcement Learning Framework Enables Curling Robots with Human-Like Performance in Real-World Conditions"
-authors:
-  - "Dong-Ok Won"
-  - "Klaus-Robert Müller"
-  - "Seong-Whan Lee"
 date: "2020-09-23"
 year: 2020
 journal: "Science Robotics"
 abstract: "The game of curling can be considered a good test bed for studying AI-real world interaction. We report a curling robot, Curly, that uses an adaptive deep reinforcement learning framework to achieve human-level performance. Curly won three out of four official matches against top-ranked South Korean women's curling teams and the Korea national wheelchair curling team. The framework extends standard DRL with temporal features to compensate for real-world uncertainties and nonstationarities inherent to the sport."
 abstract_cn: "冰壶运动是研究AI与现实世界交互的良好测试平台。我们报道了Curly冰壶机器人，使用自适应深度强化学习框架实现人类水平的表现。Curly在与韩国顶尖女子冰壶队和轮椅冰壶队的四场正式比赛中赢得三场。该框架扩展了标准DRL，加入时间特征补偿冰壶运动的不确定性和非平稳性。"
+cite: "Won D O, Müller K R, Lee S W. An Adaptive Deep Reinforcement Learning Framework Enables Curling Robots with Human-Like Performance in Real-World Conditions[J]. Science Robotics, 2020, 5(46): eabb9764. DOI: 10.1126/scirobotics.abb9764"
+aiSum: "Curly冰壶机器人使用自适应DRL框架，加入时间特征补偿现实不确定性。在与韩国顶尖队伍的四场正式比赛中三胜，展示了DRL在高度不确定现实条件下的有效性。"
+confidence: "high"
+authors:
+  - "Dong-Ok Won"
+  - "Klaus-Robert Müller"
+  - "Seong-Whan Lee"
 keywords:
   - "[[Deep Reinforcement Learning]]"
   - "[[Robotics]]"
   - "[[Curling]]"
   - "[[深度强化学习]]"
   - "[[机器人]]"
-cite: "Won D O, Müller K R, Lee S W. An Adaptive Deep Reinforcement Learning Framework Enables Curling Robots with Human-Like Performance in Real-World Conditions[J]. Science Robotics, 2020, 5(46): eabb9764. DOI: 10.1126/scirobotics.abb9764"
-aiSum: "Curly冰壶机器人使用自适应DRL框架，加入时间特征补偿现实不确定性。在与韩国顶尖队伍的四场正式比赛中三胜，展示了DRL在高度不确定现实条件下的有效性。"
-confidence: "high"
 ---
 
 title: "A R T I F I C I A L I N T E L L I G E N C E"

@@ -1,11 +1,11 @@
 ---
-title: "Electrochemical Ohmic Memristors"
+title: "Electrochemical ohmic memristors for Electrochemical oh"
 authors:
   - "Shaochuan Chen"
 date: "2024-12-01"
 year: "2024"
 journal: "Nature Communications"
-abstract: "This paper presents electrochemical ohmic memristors for neuromorphic computing applications.\"
+abstract: "This paper presents electrochemical ohmic memristors for neuromorphic computing applications.\\"
 abstract_cn: "本文提出了用于神经形态计算应用的电化学欧姆忆阻器。器件利用电化学机制实现可靠的阻变切换和欧姆行为，能够高效实现神经网络运算。"
 keywords:
   - "[[Memristor]]"
@@ -14,7 +14,7 @@ keywords:
   - "[[Neuromorphic Computing]]"
   - "[[忆阻器]]"
   - "[[电化学]]"
-cite: "Chen S et al. Electrochemical Ohmic Memristors[J]. Nature Communications, 2024. DOI:\"
+cite: "Chen S et al. Electrochemical Ohmic Memristors[J]. Nature Communications, 2024. DOI:\\"
 aiSum: "本文提出电化学欧姆忆阻器，利用电化学机制实现可靠阻变切换和欧姆行为，面向神经形态计算应用。"
 confidence: "high"
 wiki_concepts:

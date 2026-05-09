@@ -1,5 +1,13 @@
 ---
 title: "Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for Application"
+date: "2021-01-01"
+year: "2021"
+journal: "IEEE VLSI-TSA"
+abstract: "In this paper we discuss the current research status of ferroelectric memory solutions and reflect it with application requirements, showing potential of hafnium oxide based ferroelectrics for scaled non-volatile memory. In focus are mainly three promising emerging memory device technologies based on ferroelectric (FE) hafnium oxide: front-end of line (FEoL) implemented FeFET, and the two FE-capacitor based solutions FeRAM and 1T1C FeFET. These device technologies are discussed with respect to aspects like scaling opportunity, reliability, and maturity level, reflecting with current and future application requirements as well as conventional memory solutions."
+abstract_cn: "本文讨论了HfO₂基铁电存储器的研究现状并与实际应用需求进行对比。综述聚焦于三类HfO₂基新型存储器技术：前道工序(FEoL)集成的FeFET，以及两种基于铁电电容的FeRAM和1T1C FeFET方案。从可扩展性、可靠性和成熟度等方面评估这些器件技术与当前及未来应用需求的匹配程度，并与传统存储器方案进行对比。"
+cite: "待补充. Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for Application[J]. IEEE VLSI-TSA, 2021."
+aiSum: "HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。"
+confidence: "high"
 authors:
   - "Konrad Seidel"
   - "David Lehninger"
@@ -11,19 +19,11 @@ authors:
   - "Sourav De"
   - "Thomas Kämpfe"
   - "Maximilian Lederer"
-date: "2021-01-01"
-year: "2021"
-journal: "IEEE VLSI-TSA"
-abstract: "In this paper we discuss the current research status of ferroelectric memory solutions and reflect it with application requirements, showing potential of hafnium oxide based ferroelectrics for scaled non-volatile memory. In focus are mainly three promising emerging memory device technologies based on ferroelectric (FE) hafnium oxide: front-end of line (FEoL) implemented FeFET, and the two FE-capacitor based solutions FeRAM and 1T1C FeFET. These device technologies are discussed with respect to aspects like scaling opportunity, reliability, and maturity level, reflecting with current and future application requirements as well as conventional memory solutions."
-abstract_cn: "本文讨论了HfO₂基铁电存储器的研究现状并与实际应用需求进行对比。综述聚焦于三类HfO₂基新型存储器技术：前道工序(FEoL)集成的FeFET，以及两种基于铁电电容的FeRAM和1T1C FeFET方案。从可扩展性、可靠性和成熟度等方面评估这些器件技术与当前及未来应用需求的匹配程度，并与传统存储器方案进行对比。"
 keywords:
   - "[[—ferroelectrics]]"
   - "[[non-volatile memory]]"
   - "[[FeFET]]"
   - "[[FeRAM]]"
-cite: "待补充. Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for Application[J]. IEEE VLSI-TSA, 2021."
-aiSum: "HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。"
-confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[FeRAM]]"

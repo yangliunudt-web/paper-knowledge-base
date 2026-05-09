@@ -1,4 +1,5 @@
 ---
+
 title: "A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration"
 authors:
   - "Changhyeon Han"

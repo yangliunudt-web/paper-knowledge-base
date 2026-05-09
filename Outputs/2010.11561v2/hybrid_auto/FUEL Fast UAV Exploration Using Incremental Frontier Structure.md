@@ -1,24 +1,24 @@
 ---
 title: "FUEL: Fast UAV Exploration Using Incremental Frontier Structure"
-authors:
-  - "Boyu Zhou"
-  - "Yichen Zhang"
-  - "Xinyi Chen"
-  - "Shaojie Shen"
 date: "2021-02-01"
 year: 2021
 journal: "IEEE Robotics and Automation Letters"
 doi: "10.1109/LRA.2020.3047374"
 abstract: "Autonomous exploration is a fundamental problem for various applications of unmanned aerial vehicles(UAVs). Existing methods, however, were demonstrated to insufficient exploration rate, due to the lack of efficient global coverage, conservative motion plans and low decision frequencies. In this paper, we propose FUEL, a hierarchical framework that can support Fast UAV ExpLoration in complex unknown environments. We maintain crucial information in the entire space required by exploration planning by a frontier information structure (FIS), which can be updated incrementally when the space is explored. Supported by the FIS, a hierarchical planner plans exploration motions in three steps, which find efficient global coverage paths, refine a local set of viewpoints and generate minimum-time trajectories in sequence. We present extensive benchmark and real-world tests, in which our method completes the exploration tasks with unprecedented efficiency (3-8 times faster) compared to state-of-the-art approaches."
 abstract_cn: "自主探索是无人机各类应用的基础问题。然而现有方法探索效率不足，原因是缺乏高效的全局覆盖、保守的运动规划和低决策频率。本文提出 FUEL，一个可在复杂未知环境中支持快速无人机探索的分层框架。通过前沿信息结构（FIS）维护探索规划所需的整个空间的关键信息，该结构在空间被探索时可增量更新。在 FIS 支持下，分层规划器分三步规划探索运动：找到高效的全局覆盖路径、细化局部视点集、顺序生成最小时间轨迹。"
+cite: "Zhou B, Zhang Y, Chen X, et al. FUEL: Fast UAV exploration using incremental frontier structure[J]. IEEE Robotics and Automation Letters, 2021, 6(2): 777-784. DOI: 10.1109/LRA.2020.3047374."
+aiSum: "FUEL 无人机探索：前沿信息结构（FIS）增量更新、分层规划、3-8 倍速度提升、香港科技大学。"
+confidence: "medium"
+authors:
+  - "Boyu Zhou"
+  - "Yichen Zhang"
+  - "Xinyi Chen"
+  - "Shaojie Shen"
 keywords:
   - "[[UAV]]"
   - "[[Autonomous exploration]]"
   - "[[Frontier information structure]]"
   - "[[Motion planning]]"
-cite: "Zhou B, Zhang Y, Chen X, et al. FUEL: Fast UAV exploration using incremental frontier structure[J]. IEEE Robotics and Automation Letters, 2021, 6(2): 777-784. DOI: 10.1109/LRA.2020.3047374."
-aiSum: "FUEL 无人机探索：前沿信息结构（FIS）增量更新、分层规划、3-8 倍速度提升、香港科技大学。"
-confidence: "medium"
 ---
 
 Abstract—Autonomous exploration is a fundamental problem for various applications of unmanned aerial vehicles(UAVs). Existing methods, however, were demonstrated to insufficient exploration rate, due to the lack of efficient global coverage, conservative motion plans and low decision frequencies. In this paper, we propose FUEL, a hierarchical framework that can support Fast UAV ExpLoration in complex unknown environments. We maintain crucial information in the entire space required by exploration planning by a frontier information structure (FIS), which can be updated incrementally when the space is explored. Supported by the FIS, a hierarchical planner plans exploration motions in three steps, which find efficient global coverage paths, refine a local set of viewpoints and generate minimum-time trajectories in sequence. We present extensive benchmark and real-world tests, in which our method completes the exploration tasks with unprecedented efficiency (3-8 times faster) compared to state-of-the-art approaches. Our method will be made open source to benefit the community1 .

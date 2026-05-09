@@ -1,5 +1,5 @@
 ---
-title: "NeuroSim: A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures\"
+title: "NeuroSim: A Circuit-Level Macro Model for Benchmarking Neuro-Inspired Architectures in Online Learning"
 authors:
   - "Pai-Yu Chen"
   - "Xiaochen Peng"
@@ -8,14 +8,14 @@ date: "2018-01-04"
 year: "2018"
 journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
 doi: "10.1109/TCAD.2018.2789723"
-abstract: "Neuro-inspired architectures based on synaptic memory arrays have been proposed for\"
-abstract_cn: "神经启发架构基于突触存储阵列，用于加速机器学习中的加权和和权重更新。开发 NeuroSim 电路级宏模型，估算面积、延迟、动态能耗和泄漏功率，支持主流和新兴器件技术的神经启发架构设计空间探索。使用多层感知机研究模拟\"
+abstract: "Neuro-inspired architectures based on synaptic memory arrays have been proposed for\\"
+abstract_cn: "神经启发架构基于突触存储阵列，用于加速机器学习中的加权和和权重更新。开发 NeuroSim 电路级宏模型，估算面积、延迟、动态能耗和泄漏功率，支持主流和新兴器件技术的神经启发架构设计空间探索。使用多层感知机研究模拟\\"
 keywords:
   - "[[Neuromorphic computing]]"
   - "[[NeuroSim]]"
   - "[[Emerging NVM]]"
   - "[[Neural network accelerator]]"
-cite: "[1] Chen P Y, Peng X C, Yu S M. NeuroSim: A Circuit-Level Macro Model for Benchmarking\"
+cite: "[1] Chen P Y, Peng X C, Yu S M. NeuroSim: A Circuit-Level Macro Model for Benchmarking\\"
 aiSum: "开发 NeuroSim 电路级宏模型，估算神经启发架构的面积、延迟、能耗，支持 SRAM、数字和模拟 eNVM 架构设计空间探索和基准测试。"
 confidence: "medium"
 wiki_concepts:

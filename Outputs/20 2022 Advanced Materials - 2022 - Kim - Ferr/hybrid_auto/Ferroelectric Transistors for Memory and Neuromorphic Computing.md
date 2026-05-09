@@ -1,4 +1,5 @@
 ---
+
 title: "Ferroelectric Transistors for Memory and Neuromorphic Computing"
 authors:
   - "Ik-Jyae Kim"
@@ -16,7 +17,7 @@ keywords:
   - "[[Neuromorphic computing]]"
 cite: "Kim I J, Lee J S. Ferroelectric transistors for memory and neuromorphic computing[J]. Advanced Materials, 2022, 34(49): 2206864. DOI: 10.1002/adma.202206864."
 aiSum: "综述HfO2基FeFET在存储和神经形态计算中的应用：器件结构、工作原理、存储特性和突触应用。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[FeFET]]"
   - "[[Ferroelectric]]"

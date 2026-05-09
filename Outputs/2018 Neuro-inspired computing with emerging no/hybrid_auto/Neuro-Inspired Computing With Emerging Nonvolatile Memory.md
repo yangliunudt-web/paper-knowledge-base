@@ -6,7 +6,7 @@ date: "2018-01-01"
 year: "2018"
 journal: "Proceedings of the IEEE"
 doi: "10.1109/JPROC.2018.2790840"
-abstract: "This comprehensive review summarizes state of the art, challenges, and prospects\"
+abstract: "This comprehensive review summarizes state of the art, challenges, and prospects\\"
 abstract_cn: "本综述总结了基于新兴非易失性存储器件的神经启发式计算的现状、挑战与前景。首先讨论开发超越冯·诺依曼架构的神经启发式架构的需求；其次总结神经形态硬件设计的各种方法（数字与模拟、脉冲与非脉冲、在线与离线训练），并讨论为何新兴非易失性存储器适合实现神经网络中的突触；然后讨论突触器件的期望特性（如多级状态、权重更新非线性/不对称性、变化/噪声），并综述文献中报道的显示模拟电导调制的代表性材料体系和器件原型，包括相变存储器、阻变存储器、铁电存储器、浮栅晶体管等；接着介绍交叉阵列架构以加速神经启发式机器学习算法中常用的加权和与权重更新操作，并回顾阵列级模式识别实验演示的进展；此外讨论外周神经元电路设计问题，并提出器件-电路-算法协同设计方法来评估非理想器件效应对系统级性能的影响；最后对学习算法的定制化进行展望。"
 keywords:
   - "[[Neuromorphic computing]]"
@@ -14,7 +14,7 @@ keywords:
   - "[[Synaptic device]]"
   - "[[Crossbar array]]"
   - "[[Resistive memory]]"
-cite: "[1] Yu S. Neuro-inspired computing with emerging nonvolatile memory[J]. Proceedings\"
+cite: "[1] Yu S. Neuro-inspired computing with emerging nonvolatile memory[J]. Proceedings\\"
 aiSum: "综述新兴非易失性存储器件在神经启发式计算中的应用：涵盖相变/阻变/铁电存储器等突触器件、交叉阵列架构、器件‑电路‑算法协同设计，展望定制化学习算法。"
 confidence: "medium"
 wiki_concepts:

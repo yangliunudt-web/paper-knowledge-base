@@ -1,5 +1,14 @@
 ---
 title: "CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing"
+date: "2023-04-22"
+year: "2023"
+journal: "Science Advances"
+doi: "10.1126/sciadv.abq8142"
+abstract: "a b <table><tr><td>Parameter</td><td>Mean value</td><td>Standard deviation</td></tr><tr><td>VTH(V)</td><td>0.81</td><td>0.09</td></tr><tr><td>μFE(cm2/V·s)</td><td>75.89</td><td>7.37</td></tr><tr><td>SS"
+abstract_cn: "展示使用 ZnO TFT 技术的 CMOS 后端兼容存储阵列。在 <400°C 工艺温度下实现存储和逻辑电路集成。实现与 CMOS 的单片"
+cite: "待补充. CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing[J]. Science Advances, 2023. DOI: 10.1126/sciadv.abq8142."
+aiSum: "CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C，单片 3D 集成存内计算。"
+confidence: "high"
 authors:
   - "Wenhui Wang"
   - "Ke Li"
@@ -10,17 +19,8 @@ authors:
   - "Hongtao Zhang"
   - "Xiaoyang Lin"
   - "Qi Liu"
-date: "2023-04-22"
-year: "2023"
-journal: "Science Advances"
-doi: "10.1126/sciadv.abq8142"
-abstract: "a b <table><tr><td>Parameter</td><td>Mean value</td><td>Standard deviation</td></tr><tr><td>VTH(V)</td><td>0.81</td><td>0.09</td></tr><tr><td>μFE(cm2/V·s)</td><td>75.89</td><td>7.37</td></tr><tr><td>SS"
-abstract_cn: "展示使用 ZnO TFT 技术的 CMOS 后端兼容存储阵列。在 <400°C 工艺温度下实现存储和逻辑电路集成。实现与 CMOS 的单片"
 keywords:
   - "[[In-memory computing]]"
-cite: "待补充. CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing[J]. Science Advances, 2023. DOI: 10.1126/sciadv.abq8142."
-aiSum: "CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C，单片 3D 集成存内计算。"
-confidence: "high"
 wiki_concepts:
   - "[[In-memory computing]]"
 ---

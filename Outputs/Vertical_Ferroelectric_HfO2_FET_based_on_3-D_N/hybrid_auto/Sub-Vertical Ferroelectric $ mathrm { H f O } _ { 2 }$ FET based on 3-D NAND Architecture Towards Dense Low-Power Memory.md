@@ -1,5 +1,5 @@
 ---
-title: "Vertical Ferroelectric HfO2 FET based on 3-D NAND Architecture Towards Dense and\"
+title: "Vertical Ferroelectric FET based on 3-D NAND Architecture: Towards Dense Low-Power Memory"
 authors:
   - "K. Florent"
   - "M. Pesic"
@@ -13,7 +13,7 @@ authors:
 date: "2024-01-01"
 year: "2024"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "A vertical ferroelectric HfO2 field effect transistor based on 3-D macaroni NAND\"
+abstract: "A vertical ferroelectric HfO2 field effect transistor based on 3-D macaroni NAND\\"
 abstract_cn: "本文展示了基于3-D NAND架构的垂直铁电HfO₂ FET，通过在位工艺实现高密度低功耗非易失性存储。器件展现出良好的存储窗口、耐久性和保持特性，为3-D堆叠存储应用提供了可行的器件方案。"
 keywords:
   - "[[FeFET]]"
@@ -21,7 +21,7 @@ keywords:
   - "[[3-D NAND]]"
   - "[[Non-volatile memory]]"
   - "[[Vertical transistor]]"
-cite: "Florent K, Pesic M, Subirats A, et al. Vertical ferroelectric HfO2 FET based on\"
+cite: "Florent K, Pesic M, Subirats A, et al. Vertical ferroelectric HfO2 FET based on\\"
 aiSum: "垂直HfO₂ FET 3-D NAND架构：高密度低功耗非易失存储，良好存储窗口和可靠性。"
 confidence: "high"
 wiki_concepts:

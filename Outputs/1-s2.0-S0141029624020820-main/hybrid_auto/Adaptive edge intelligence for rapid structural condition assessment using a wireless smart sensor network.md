@@ -1,4 +1,5 @@
 ---
+
 title: "Adaptive Edge Intelligence for Rapid Structural Condition Assessment Using a Wireless Smart Sensor Network"
 authors:
   - "Shuaiwen Cui"

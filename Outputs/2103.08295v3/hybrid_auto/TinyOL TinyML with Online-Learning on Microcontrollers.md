@@ -1,8 +1,5 @@
 ---
 title: "TinyOL: TinyML with Online-Learning on Microcontrollers"
-authors:
-  - "Technical University"
-  - "Munich"
 date: "2021-03-15"
 year: 2021
 journal: "arXiv"
@@ -12,6 +9,9 @@ abstract_cn: "TinyOL 实现微控制器上的在线学习用于 TinyML 应用。
 cite: "待补充. 'TinyOL: TinyML with Online-Learning on Microcontrollers'[J]. arXiv, 2021. DOI: arXiv:2103.08295."
 aiSum: "微控制器在线学习 TinyOL：轻量级持续学习，特征提取+分类器更新，边缘设备自适应。"
 confidence: "low"
+authors:
+  - "Technical University"
+  - "Munich"
 ---
 
 Siemens AG

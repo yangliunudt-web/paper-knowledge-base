@@ -1,5 +1,5 @@
 ---
-title: "Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture\"
+title: "Van der Waals Engineering of One-Transistor-One-Ferroelectric-Memristor Architecture for an Energy-Efficient Neuromorphic Array"
 authors:
   - "Yinchang Ma"
   - "Maolin Chen"
@@ -19,8 +19,8 @@ authors:
 date: "2025-02-03"
 year: "2025"
 journal: "Nano Letters"
-abstract: "This work demonstrates a fully van der Waals assembled 1T1M (one-transistor-one-memristor)\"
-abstract_cn: "本文展示了一种全范德华组装的1T1M架构，将二维铁电CuCrP2S6与MoS2和h-BN堆叠组装。器件实现~120 fA超低漏电流、~10^6超高阻态可调性和仅12\"
+abstract: "This work demonstrates a fully van der Waals assembled 1T1M (one-transistor-one-memristor)\\"
+abstract_cn: "本文展示了一种全范德华组装的1T1M架构，将二维铁电CuCrP2S6与MoS2和h-BN堆叠组装。器件实现~120 fA超低漏电流、~10^6超高阻态可调性和仅12\\"
 keywords:
   - "[[Van der Waals]]"
   - "[[FeFET]]"
@@ -30,8 +30,8 @@ keywords:
   - "[[1T1M]]"
   - "[[范德华]]"
   - "[[神经形态阵列]]"
-cite: "Ma Y, Chen M, Aguirre F, Yan Y, Pazos S, Liu C, Wang H, Yang T, Wang B, Gong C, Liu\"
-aiSum: "本文展示了全范德华组装的1T1M架构，CuCrP2S6/MoS2/h-BN堆叠。器件实现120 fA漏电流、10^6阻态可调性、12 fW功耗、<1V操作电压。神经形态阵列串扰降低2个数量级，256x10\"
+cite: "Ma Y, Chen M, Aguirre F, Yan Y, Pazos S, Liu C, Wang H, Yang T, Wang B, Gong C, Liu\\"
+aiSum: "本文展示了全范德华组装的1T1M架构，CuCrP2S6/MoS2/h-BN堆叠。器件实现120 fA漏电流、10^6阻态可调性、12 fW功耗、<1V操作电压。神经形态阵列串扰降低2个数量级，256x10\\"
 confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"

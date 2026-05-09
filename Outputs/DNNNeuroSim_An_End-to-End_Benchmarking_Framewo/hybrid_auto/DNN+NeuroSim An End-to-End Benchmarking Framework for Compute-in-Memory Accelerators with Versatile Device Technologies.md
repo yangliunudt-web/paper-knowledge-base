@@ -1,5 +1,5 @@
 ---
-title: "DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators\"
+title: "DNN+NeuroSim: An End-to-End Benchmarking Framework for Compute-in-Memory Accelerators with Versatile Device Technologies"
 authors:
   - "Xiaochen Peng"
   - "Shanshi Huang"
@@ -9,14 +9,14 @@ authors:
 date: "2021-01-01"
 year: "2021"
 journal: "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
-abstract: "DNN+NeuroSim is an integrated framework to benchmark compute-in-memory (CIM) accelerators\"
-abstract_cn: "DNN+NeuroSim 是一个用于深度神经网络存内计算加速器的集成基准测试框架，提供从器件级、电路级到算法级的分层设计选项。开发了 Python 包装器，用于将\"
+abstract: "DNN+NeuroSim is an integrated framework to benchmark compute-in-memory (CIM) accelerators\\"
+abstract_cn: "DNN+NeuroSim 是一个用于深度神经网络存内计算加速器的集成基准测试框架，提供从器件级、电路级到算法级的分层设计选项。开发了 Python 包装器，用于将\\"
 keywords:
   - "[[In-memory computing]]"
   - "[[Benchmarking framework]]"
   - "[[NeuroSim]]"
   - "[[Deep neural networks]]"
-cite: "[1] Peng X, Huang S, Luo Y, et al. DNN+NeuroSim: an end‑to‑end benchmarking framework\"
+cite: "[1] Peng X, Huang S, Luo Y, et al. DNN+NeuroSim: an end‑to‑end benchmarking framework\\"
 aiSum: "DNN+NeuroSim基准测试框架：支持SRAM/RRAM/PCM/FeFET/ECRAM等器件，评估存内计算加速器的芯片面积、延迟、能效、推理精度，开源代码提供VGG/ResNet在CIFAR/ImageNet上的硬件约束性能分析。"
 confidence: "medium"
 wiki_concepts:

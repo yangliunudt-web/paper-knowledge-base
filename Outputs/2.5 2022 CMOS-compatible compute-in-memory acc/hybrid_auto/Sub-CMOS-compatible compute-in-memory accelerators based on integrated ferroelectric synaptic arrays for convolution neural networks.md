@@ -1,5 +1,14 @@
 ---
 title: "CMOS-Compatible Compute-in-Memory Accelerators Based on Integrated Ferroelectric Synaptic Arrays for Convolution Neural Networks"
+date: "2022-04-08"
+year: 2022
+journal: "Science Advances"
+doi: "10.1126/sciadv.abm8537"
+abstract: "Convolutional neural networks (CNNs) require intensive multiply-and-accumulate (MAC) operations that strain conventional computing systems. This paper proposes a compute-in-memory (CIM) approach using integrated ferroelectric thin-film transistor (FeTFT) synaptic arrays. Three-terminal FeTFTs serve as both nonvolatile memory and access devices, overcoming leakage current and high-power issues of two-terminal crossbar-based CIM. FeTFTs enable efficient parallel programming and data processing through selective, accurate control of polarization in the ferroelectric (HfZrOx) layer. The integrated synaptic array performs convolution operations directly in memory, enabling high-accuracy image feature extraction for CNNs. The entire process is CMOS-compatible, making it suitable for practical semiconductor integration."
+abstract_cn: "卷积神经网络（CNN）需要密集的乘累加操作，给传统计算系统带来巨大压力。本文提出了一种使用集成铁电薄膜晶体管（FeTFT）突触阵列的存内计算方法。三端FeTFT同时作为非易失性存储器和访问器件，克服了两端crossbar存内计算方案的漏电流和高功耗问题。FeTFT通过选择性、精确地控制铁电（HfZrOx）层极化实现高效的并行编程和数据处理。集成突触阵列直接在内存中执行卷积操作，实现高精度CNN图像特征提取。整个过程兼容CMOS工艺，适用于实际半导体集成。"
+cite: "Kim M K, Kim I J, Lee J S. CMOS-Compatible Compute-in-Memory Accelerators Based on Integrated Ferroelectric Synaptic Arrays for Convolution Neural Networks[J]. Science Advances, 2022, 8(14): eabm8537. DOI: 10.1126/sciadv.abm8537"
+aiSum: "补充材料：包含 HfZrOx 铁电特性表征、FeTFT 阵列制造工艺流程、器件 I-V 特性曲线等详细实验数据。"
+confidence: "high"
 authors:
   - "Min-Kyu Kim"
   - "Ik-Jyae Kim"
@@ -7,12 +16,6 @@ authors:
   - "Min-Kyu Kim"
   - "Ik-Jyae Kim"
   - "Jang-Sik Lee"
-date: "2022-04-08"
-year: 2022
-journal: "Science Advances"
-doi: "10.1126/sciadv.abm8537"
-abstract: "Convolutional neural networks (CNNs) require intensive multiply-and-accumulate (MAC) operations that strain conventional computing systems. This paper proposes a compute-in-memory (CIM) approach using integrated ferroelectric thin-film transistor (FeTFT) synaptic arrays. Three-terminal FeTFTs serve as both nonvolatile memory and access devices, overcoming leakage current and high-power issues of two-terminal crossbar-based CIM. FeTFTs enable efficient parallel programming and data processing through selective, accurate control of polarization in the ferroelectric (HfZrOx) layer. The integrated synaptic array performs convolution operations directly in memory, enabling high-accuracy image feature extraction for CNNs. The entire process is CMOS-compatible, making it suitable for practical semiconductor integration."
-abstract_cn: "卷积神经网络（CNN）需要密集的乘累加操作，给传统计算系统带来巨大压力。本文提出了一种使用集成铁电薄膜晶体管（FeTFT）突触阵列的存内计算方法。三端FeTFT同时作为非易失性存储器和访问器件，克服了两端crossbar存内计算方案的漏电流和高功耗问题。FeTFT通过选择性、精确地控制铁电（HfZrOx）层极化实现高效的并行编程和数据处理。集成突触阵列直接在内存中执行卷积操作，实现高精度CNN图像特征提取。整个过程兼容CMOS工艺，适用于实际半导体集成。"
 keywords:
   - "[[[[Compute-In-Memory]]]]"
   - "[[[[FeFET]]]]"
@@ -20,9 +23,6 @@ keywords:
   - "[[[[CNN]]]]"
   - "[[[[CMOS-Compatible]]]]"
   - "[[[[存内计算]]]]"
-cite: "Kim M K, Kim I J, Lee J S. CMOS-Compatible Compute-in-Memory Accelerators Based on Integrated Ferroelectric Synaptic Arrays for Convolution Neural Networks[J]. Science Advances, 2022, 8(14): eabm8537. DOI: 10.1126/sciadv.abm8537"
-aiSum: "补充材料：包含 HfZrOx 铁电特性表征、FeTFT 阵列制造工艺流程、器件 I-V 特性曲线等详细实验数据。"
-confidence: "high"
 parent:
   - "[[CMOS-compatible compute-in-memory accelerators based on integrated ferroelectric synaptic arrays for convolution neural networks]]"
 ---

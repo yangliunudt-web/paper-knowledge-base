@@ -1,5 +1,5 @@
 ---
-title: "FeFET versus DRAM based PIM Architectures: A Comparative Study"
+title: "[[FeFET]] versus DRAM based [[PIM]] Architectures: A Comparative Study"
 authors:
   - "Chirag Sudarshan"
   - "Taha Soliman"
@@ -10,16 +10,16 @@ date: "2023-03-01"
 year: "2023"
 journal: "IEEE Transactions on Computers"
 doi: "10.1109/TC.2023.3253467"
-abstract: "The throughput and energy efficiency of compute-centric architectures for memory\"
-abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞吐量和能效受限于内存瓶颈问题，如高数据访问能耗、长延迟和有限带宽。存内计算（PIM）是解决这些挑战的有前景方法，通过将计算逻辑放置在存储器内部来最小化数据移动并利用大规模内部数据并行性。目前有两种\"
+abstract: "The throughput and energy efficiency of compute-centric architectures for memory\\"
+abstract_cn: "计算密集型架构在深度神经网络（DNN）应用中的吞吐量和能效受限于内存瓶颈问题，如高数据访问能耗、长延迟和有限带宽。存内计算（PIM）是解决这些挑战的有前景方法，通过将计算逻辑放置在存储器内部来最小化数据移动并利用大规模内部数据并行性。目前有两种\\"
 keywords:
   - "[[PIM]]"
   - "[[FeFET]]"
   - "[[DRAM]]"
   - "[[DNN accelerator]]"
   - "[[In-memory computing]]"
-cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures:\"
-aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM\"
+cite: "[1] Sudarshan C, Soliman T, Kampfe T, et al. FeFET versus DRAM based PIM Architectures:\\"
+aiSum: "首次系统比较 FeFET-PIM 和 DRAM-PIM 架构：FeFET 具有高能效 MAC 操作（4.67 fJ/MAC @ 22nm）但容量受限（64-128Mb）、耐久性低（10^5），适合推理；DRAM\\"
 confidence: "medium"
 wiki_concepts:
   - "[[FeFET]]"

@@ -1,5 +1,5 @@
 ---
-title: "Novel Complementary FeFET- based Lookup Table and Routing Switch Design and their\"
+title: "Novel Complementary FeFET- based Lookup Table and Routing Switch Design and their Applications in Energy/Area-Efficient FPGA"
 authors:
   - "Yuan-Yu Huang"
   - "Po-Tsang Huang"
@@ -8,14 +8,14 @@ authors:
 date: "2023-01-01"
 year: "2023"
 journal: "IEEE Transactions on Electron Devices"
-abstract: "This work explores the potential of voltage-mode complementary ferroelectric FET\"
+abstract: "This work explores the potential of voltage-mode complementary ferroelectric FET (CFeFET) to realize energy/area-efficient nonvolatile logics for both memory-intensive and computation-intensive applications. CFeFET can be constructed by a p-type FeFET stacking on a n-type FeFET with only one transistor’s footprint. Each single CFeFET can be utilized as a 1-bit storage element and a 2-to-1 multiplexer without any short currents. Moreover, leakage current is further reduced due to higher $\\mathrm { V _ { t h } }$ of unselected n-FeFET or p-FeFET. Additionally, we further demonstrate FPGA building blocks using the CFeFET. Our simulation results show that the CFeFET can achieve superior Power-Performance-Area (PPA) when compared to the same designs implemented by SRAM or current-mode FeFET. Keywords - FeFET, CFET, Routing switch, Lookup table, FPGA"
 abstract_cn: "本研究探索了电压模式互补铁电场效应晶体管在实现面向存储密集型和计算密集型应用的高能效/面积效率非易失逻辑的潜力。互补铁电场效应晶体管可以通过p型铁电场效应晶体管堆叠在n型铁电场效应晶体管上构建，仅占用一个晶体管的面积。每个互补铁电场效应晶体管可用作1位存储单元和2选1多路复用器，且无任何短路电流。此外，由于未选中的n型铁电场效应晶体管或p型铁电场效应晶体管的较高阈值电压，漏电流进一步降低。另外，我们进一步展示了使用互补铁电场效应晶体管的现场可编程门阵列构建模块。仿真结果表明，与使用静态随机存取存储器或电流模式铁电场效应晶体管实现的相同设计相比，互补铁电场效应晶体管可以实现更优的功耗-性能-面积。"
 keywords:
   - "[[FeFET]]"
   - "[[Complementary FeFET]]"
   - "[[Lookup table]]"
   - "[[FPGA]]"
-cite: "[1] Huang Y Y, Huang P T, Lee P Y, et al. Novel complementary FeFET‑based lookup\"
+cite: "[1] Huang Y Y, Huang P T, Lee P Y, et al. Novel complementary FeFET‑based lookup\\"
 aiSum: "互补FeFET构建现场可编程门阵列查找表与路由开关：p‑FeFET与n‑FeFET堆叠实现1位存储与2‑1多路复用器，无短路电流，漏电流低，功耗-性能-面积优于静态随机存取存储器/电流模式FeFET设计。"
 confidence: "high"
 wiki_concepts:

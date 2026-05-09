@@ -1,5 +1,5 @@
 ---
-title: "Highly-reliable ferroelectric thin-film transistors array for hardware implementation\"
+title: "Highly-reliable ferroelectric thin-film transistors array for hardware implementation of image classification"
 authors:
   - "Peng Yang"
   - "Peiwen Tong"
@@ -16,8 +16,8 @@ authors:
 date: "2025-03-02"
 year: "2025"
 journal: "Journal of Materials Science & Technology"
-abstract: "Ferroelectric thin film transistors (FeTFTs) have attracted great attention for in-memory\"
-abstract_cn: "铁电薄膜晶体管（FeTFT）因其低功耗和单片三维集成能力，在存内计算应用中备受关注。本文提出了一种平面集成的高可靠性金属-铁电-金属-绝缘体-半导体（MFMIS）FeTFT器件，通过植入浮栅抑制了弱擦除问题，并通过简化制造工艺减少了界面缺陷。这些改进显著提升了器件性能，包括大存储窗口（4.3\"
+abstract: "Ferroelectric thin film transistors (FeTFTs) have attracted great attention for in-memory\\"
+abstract_cn: "铁电薄膜晶体管（FeTFT）因其低功耗和单片三维集成能力，在存内计算应用中备受关注。本文提出了一种平面集成的高可靠性金属-铁电-金属-绝缘体-半导体（MFMIS）FeTFT器件，通过植入浮栅抑制了弱擦除问题，并通过简化制造工艺减少了界面缺陷。这些改进显著提升了器件性能，包括大存储窗口（4.3\\"
 keywords:
   - "[[Ferroelectric]]"
   - "[[Thin-film transistors array]]"
@@ -29,8 +29,8 @@ keywords:
   - "[[薄膜晶体管阵列]]"
   - "[[存内计算]]"
   - "[[图像分类]]"
-cite: "Yang P, Tong P, Xu H, et al. Highly-reliable ferroelectric thin-film transistors\"
-aiSum: "研究问题：FeTFT在存内计算中面临弱擦除问题和界面缺陷导致的可靠性下降，限制了其在神经网络硬件实现中的应用。研究方法：提出平面集成MFMIS-FeTFT结构，通过浮栅抑制弱擦除效应，简化工艺减少界面缺陷；制备16x16\"
+cite: "Yang P, Tong P, Xu H, et al. Highly-reliable ferroelectric thin-film transistors\\"
+aiSum: "研究问题：FeTFT在存内计算中面临弱擦除问题和界面缺陷导致的可靠性下降，限制了其在神经网络硬件实现中的应用。研究方法：提出平面集成MFMIS-FeTFT结构，通过浮栅抑制弱擦除效应，简化工艺减少界面缺陷；制备16x16\\"
 confidence: "high"
 wiki_concepts:
   - "[[Ferroelectric]]"

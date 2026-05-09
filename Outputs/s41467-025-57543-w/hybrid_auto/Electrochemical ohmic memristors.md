@@ -1,4 +1,5 @@
 ---
+
 title: "Electrochemical Ohmic Memristors"
 authors:
   - "Shaochuan Chen"
@@ -19,7 +20,7 @@ keywords:
   - "[[electrochemical]]"
 cite: "Chen S, Yang Z, Hartmann H, et al. Electrochemical ohmic memristors[J]. Nature Communications, 2025, 16. DOI: 10.1038/s41467-025-57543-w."
 aiSum: "电化学欧姆忆阻器：利用电化学机制实现可靠阻变切换，面向神经形态计算。"
-confidence: "high"
+confidence: high
 wiki_concepts:
   - "[[Memristor]]"
   - "[[Neuromorphic computing]]"

@@ -1,5 +1,14 @@
 ---
 title: "Memristor‑based adaptive analog‑to‑digital conversion for efficient and accurate compute‑in‑memory"
+date: "2025‑11‑06"
+year: 2025
+journal: "Nature Communications"
+doi: "10.1038/s41467‑025‑65233‑w"
+abstract: "Compute‑in‑memory technology offers promising solutions for neural network acceleration but its potential is severely limited by inflexible and resource‑intensive analog‑to‑digital converters. Here, we present a memristor‑based analog‑to‑digital converter featuring adaptive quantization for diverse output distributions. Our design employs analog content‑addressable memory cells with programmable overlapped boundaries to establish optimized quantization thresholds, demonstrating excellent integral and differential non‑linearities. Extensive experiments validate the robustness of our approach by achieving 89.55% accuracy on CIFAR‑10 (VGG8) at 5‑bit adaptive quantized precision and maintaining competitive performance on ImageNet (ResNet18) through a proposed super‑resolution strategy under experimental memristor variations. Compared to state‑of‑the‑art designs, our converter achieves a 15.1× improvement in energy efficiency and a 12.9× reduction in area. Furthermore, integrating our converter into CIM systems reduces the energy and area overhead by up to 57.2% and 30.7%, respectively. This work establishes a paradigm for efficient and accurate signal quantization in practical compute‑in‑memory systems."
+abstract_cn: "存内计算技术为神经网络加速提供了有前景的解决方案，但其潜力受到僵化且资源密集的模数转换器的严重限制。本文提出一种基于忆阻器的模数转换器，采用自适应量化以适应不同的输出分布。我们的设计利用具有可编程重叠边界的模拟内容可寻址存储器单元来建立优化的量化阈值，表现出优异的积分和微分非线性。大量实验验证了我们方法的鲁棒性：在 5 位自适应量化精度下，CIFAR‑10（VGG8）上达到 89.55% 的准确率；在实验忆阻器变化下，通过提出的超分辨率策略在 ImageNet（ResNet18）上保持竞争力。与先进设计相比，我们的转换器能效提高 15.1 倍，面积减少 12.9 倍。此外，将我们的转换器集成到 CIM 系统中，能量和面积开销最多可降低 57.2% 和 30.7%。这项工作为实际存内计算系统中的高效准确信号量化建立了范例。"
+cite: "[1] Hong H, Du Z, Jiang M, et al. Memristor‑based adaptive analog‑to‑digital conversion for efficient and accurate compute‑in‑memory[J]. Nature Communications, 2025, 16(1): 789. DOI: 10.1038/s41467‑025‑65233‑w."
+aiSum: "提出基于忆阻器的自适应模数转换器，利用可编程重叠边界的模拟 CAM 单元实现优化量化阈值，在 CIFAR‑10 上达到 89.55% 准确率，能效提升 15.1 倍，面积减少 12.9 倍，集成到 CIM 系统可降低能量和面积开销达 57.2%/30.7%。"
+confidence: "high"
 authors:
   - "Haiqiao Hong"
   - "Zhiyuan Du"
@@ -13,21 +22,12 @@ authors:
   - "Zhengwu Liu"
   - "Can Li"
   - "Ngai Wong"
-date: "2025‑11‑06"
-year: 2025
-journal: "Nature Communications"
-doi: "10.1038/s41467‑025‑65233‑w"
-abstract: "Compute‑in‑memory technology offers promising solutions for neural network acceleration but its potential is severely limited by inflexible and resource‑intensive analog‑to‑digital converters. Here, we present a memristor‑based analog‑to‑digital converter featuring adaptive quantization for diverse output distributions. Our design employs analog content‑addressable memory cells with programmable overlapped boundaries to establish optimized quantization thresholds, demonstrating excellent integral and differential non‑linearities. Extensive experiments validate the robustness of our approach by achieving 89.55% accuracy on CIFAR‑10 (VGG8) at 5‑bit adaptive quantized precision and maintaining competitive performance on ImageNet (ResNet18) through a proposed super‑resolution strategy under experimental memristor variations. Compared to state‑of‑the‑art designs, our converter achieves a 15.1× improvement in energy efficiency and a 12.9× reduction in area. Furthermore, integrating our converter into CIM systems reduces the energy and area overhead by up to 57.2% and 30.7%, respectively. This work establishes a paradigm for efficient and accurate signal quantization in practical compute‑in‑memory systems."
-abstract_cn: "存内计算技术为神经网络加速提供了有前景的解决方案，但其潜力受到僵化且资源密集的模数转换器的严重限制。本文提出一种基于忆阻器的模数转换器，采用自适应量化以适应不同的输出分布。我们的设计利用具有可编程重叠边界的模拟内容可寻址存储器单元来建立优化的量化阈值，表现出优异的积分和微分非线性。大量实验验证了我们方法的鲁棒性：在 5 位自适应量化精度下，CIFAR‑10（VGG8）上达到 89.55% 的准确率；在实验忆阻器变化下，通过提出的超分辨率策略在 ImageNet（ResNet18）上保持竞争力。与先进设计相比，我们的转换器能效提高 15.1 倍，面积减少 12.9 倍。此外，将我们的转换器集成到 CIM 系统中，能量和面积开销最多可降低 57.2% 和 30.7%。这项工作为实际存内计算系统中的高效准确信号量化建立了范例。"
 keywords:
   - "[[Memristor‑based ADC]]"
   - "[[Adaptive quantization]]"
   - "[[Compute‑in‑memory]]"
   - "[[Analog‑to‑digital conversion]]"
   - "[[Content‑addressable memory]]"
-cite: "[1] Hong H, Du Z, Jiang M, et al. Memristor‑based adaptive analog‑to‑digital conversion for efficient and accurate compute‑in‑memory[J]. Nature Communications, 2025, 16(1): 789. DOI: 10.1038/s41467‑025‑65233‑w."
-aiSum: "提出基于忆阻器的自适应模数转换器，利用可编程重叠边界的模拟 CAM 单元实现优化量化阈值，在 CIFAR‑10 上达到 89.55% 准确率，能效提升 15.1 倍，面积减少 12.9 倍，集成到 CIM 系统可降低能量和面积开销达 57.2%/30.7%。"
-confidence: "high"
 ---
 
 # Memristor-based adaptive analog-to-digital conversion for efficient and accurate compute-in-memory

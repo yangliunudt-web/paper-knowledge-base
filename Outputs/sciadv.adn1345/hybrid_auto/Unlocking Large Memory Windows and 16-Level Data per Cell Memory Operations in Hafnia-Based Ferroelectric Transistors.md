@@ -1,23 +1,23 @@
 ---
 title: "Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations"
-authors:
-  - "Ik-Jyae Kim"
-  - "Jang-Sik Lee"
 date: "2024-01-01"
 year: "2024"
 journal: "Science Advances"
 doi: "10.1126/sciadv.adn1345"
 abstract: "Ik-Jyae Kim and Jang-Sik Lee* Ferroelectric transistors based on hafnia-based"
 abstract_cn: "基于铪的铁电晶体管因高速操作和低功耗展现出下一代存储器潜力。提出栅极堆叠工程和高效操作方法实现 16 级/单元存储。通过控制厚度而非面积的电容比实现"
+cite: "待补充. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations[J]. Science Advances, 2024. DOI: 10.1126/sciadv.adn1345."
+aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
+confidence: "high"
+authors:
+  - "Ik-Jyae Kim"
+  - "Jang-Sik Lee"
 keywords:
   - "[[FeFET]]"
   - "[[HfO2]]"
   - "[[multi-level cell]]"
   - "[[memory window]]"
   - "[[3D memory]]"
-cite: "待补充. Unlocking Large Memory Windows and 16-Level Data per Cell Memory Operations[J]. Science Advances, 2024. DOI: 10.1126/sciadv.adn1345."
-aiSum: "HfAlOx FeTFT 16 级存储：MFMFS 栅极堆叠，10V 存储窗口，DCC 一次性编程，3D 兼容。"
-confidence: "high"
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"

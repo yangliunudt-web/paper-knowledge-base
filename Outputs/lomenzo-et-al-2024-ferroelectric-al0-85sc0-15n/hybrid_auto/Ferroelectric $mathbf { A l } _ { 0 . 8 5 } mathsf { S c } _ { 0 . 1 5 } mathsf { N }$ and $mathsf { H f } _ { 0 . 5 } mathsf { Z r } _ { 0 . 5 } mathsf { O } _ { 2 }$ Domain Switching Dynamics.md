@@ -1,5 +1,5 @@
 ---
-title: "Ferroelectric Al0.85Sc0.15N and Hf0.5Zr0.5O2 Domain Switching Dynamics"
+title: "Ferroelectric and Domain Switching Dynamics"
 authors:
   - "Roberto Guido"
   - "Xuetao Wang"
@@ -11,7 +11,6 @@ authors:
 date: "2024-07-31"
 year: "2024"
 journal: "ACS Applied Materials & Interfaces"
-abstract: "This work uses transient current integration measurements to compare domain switching\\\"
 abstract_cn: "本文使用瞬态电流积分测量方法比较了Al0.85Sc0.15N和Hf0.5Zr0.5O2两种主流铁电薄膜系统的畴切换动力学。Al0.85Sc0.15N的切换主要由热激活蠕变畴壁运动主导，受益于c轴织构，但在双极循环中会出现畴壁钉扎。Hf0.5Zr0.5O2的特征在于独立成核的畴和畴壁蠕变，由于多晶型和晶界导致局部切换场不均匀。本文直接针对高密度crossbar阵列的多比特存储应用。"
 keywords:
   - "[[[[AlScN]]]]"

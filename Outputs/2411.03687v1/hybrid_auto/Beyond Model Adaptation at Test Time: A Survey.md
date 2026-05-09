@@ -1,13 +1,16 @@
 ---
 title: "Beyond Model Adaptation at Test Time: A Survey"
-authors:
-  - "Zehao Xiao"
-  - "Cees G. M. Snoek"
 date: "2024-11-01"
 year: 2024
 journal: "arXiv preprint arXiv:2411.03687"
 abstract: "Machine learning algorithms have achieved remarkable success across various disciplines, use cases and applications, under the prevailing assumption that training and test samples are drawn from the same distribution. Consequently, these algorithms struggle and become brittle even when samples in the test distribution start to deviate from the ones observed during training. Domain adaptation and domain generalization have been studied extensively as approaches to address distribution shifts across test and train domains, but each has its limitations. Test-time adaptation, a recently emerging learning paradigm, combines the benefits of domain adaptation and domain generalization by training models only on source data and adapting them to target data during test-time inference. In this survey, we provide a comprehensive and systematic review on test-time adaptation, covering more than 400 recent papers. We structure our review by categorizing existing methods into five distinct categories based on what component of the method is adjusted for test-time adaptation: the model, the inference, the normalization, the sample, or the prompt, providing detailed analysis of each. We further discuss the various preparation and adaptation settings for methods within these categories, offering deeper insights into the effective deployment for the evaluation of distribution shifts and their real-world application in understanding images, video and 3D, as well as modalities beyond vision. We close the survey with an outlook on emerging research opportunities for test-time adaptation. A list of test-time adaptation literature is provided at https://github.com/zzzx1224/Beyond-model-adaptation-at-test-time-Papers."
 abstract_cn: "机器学习算法在各种学科、用例和应用中取得了显著成功，其前提是训练样本和测试样本来自相同的分布。因此，当测试分布中的样本开始偏离训练时观察到的样本时，这些算法就会变得脆弱。域适应和域泛化已被广泛研究作为解决测试域和训练域之间分布偏移的方法，但每种方法都有其局限性。测试时适应是一种新兴的学习范式，它结合了域适应和域泛化的优点，仅在源数据上训练模型，并在测试时推理期间使其适应目标数据。在这篇综述中，我们对测试时适应进行了全面和系统的回顾，涵盖了400多篇近期论文。我们根据方法在测试时调整的组件将现有方法分为五类：模型、推理、归一化、样本或提示，并提供了对每一类的详细分析。我们还进一步讨论了这些方法的各种准备和适应设置，为分布偏移的评估及其在理解图像、视频和3D以及视觉之外模态方面的实际应用提供了更深入的见解。最后，我们对测试时适应的新兴研究机会进行了展望。"
+cite: "Xiao Z, Snoek C G M. Beyond Model Adaptation at Test Time: A Survey[J]. arXiv preprint arXiv:2411.03687, 2024."
+aiSum: "本文对测试时适应（Test-time Adaptation, TTA）进行了全面的综述，涵盖了400多篇近期论文。研究问题：机器学习模型在训练和测试数据分布不同时性能下降的问题。方法：将现有TTA方法分为五类——模型适应、推理适应、归一化适应、样本适应和提示适应，并详细分析了每类的优缺点和适用场景。主要结论：TTA通过在推理时调整模型、数据或提示来有效处理分布偏移，尤其是超越模型适应的方法（如提示适应）对大规模基础模型更有潜力。局限：不同方法的计算效率、稳定性和对特定架构的依赖性仍需进一步研究。"
+confidence: "low"
+authors:
+  - "Zehao Xiao"
+  - "Cees G. M. Snoek"
 keywords:
   - "[[Test-time adaptation]]"
   - "[[Distribution shifts]]"
@@ -15,9 +18,6 @@ keywords:
   - "[[测试时适应]]"
   - "[[分布偏移]]"
   - "[[泛化]]"
-cite: "Xiao Z, Snoek C G M. Beyond Model Adaptation at Test Time: A Survey[J]. arXiv preprint arXiv:2411.03687, 2024."
-aiSum: "本文对测试时适应（Test-time Adaptation, TTA）进行了全面的综述，涵盖了400多篇近期论文。研究问题：机器学习模型在训练和测试数据分布不同时性能下降的问题。方法：将现有TTA方法分为五类——模型适应、推理适应、归一化适应、样本适应和提示适应，并详细分析了每类的优缺点和适用场景。主要结论：TTA通过在推理时调整模型、数据或提示来有效处理分布偏移，尤其是超越模型适应的方法（如提示适应）对大规模基础模型更有潜力。局限：不同方法的计算效率、稳定性和对特定架构的依赖性仍需进一步研究。"
-confidence: "low"
 ---
 
 # Beyond Model Adaptation at Test Time: A Survey

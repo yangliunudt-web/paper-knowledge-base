@@ -1,5 +1,5 @@
 ---
-title: "2022 roadmap on neuromorphic computing and engineering"
+title: "You may also like"
 authors:
   - "Dennis V. Christensen"
   - "Qiangfei Xia"
@@ -8,7 +8,7 @@ date: "2022-01-01"
 year: "2022"
 journal: "Neuromorphic Computing and Engineering"
 doi: "10.1088/2634-4389/ac04a5"
-abstract: "This roadmap presents a comprehensive overview of neuromorphic computing and engineering,\"
+abstract: "Modern computation based on von Neumann architecture is now a mature cutting-edge science. In the von Neumann architecture, processing and memory units are implemented as separate blocks interchanging data intensively and continuously. This data transfer is responsible for a large part of the power consumption. The next generation computer technology is expected to solve problems at the exascale with 1018 calculations each second. Even though these future computers will be incredibly powerful, if they are based on von Neumann type architectures, they will consume between 20 and 30 megawatts of power and will not have intrinsic physically built-in capabilities to learn or deal with complex data as our brain does. These needs can be addressed by neuromorphic computing systems which are inspired by the biological concepts of the human brain. This new generation of computers has the potential to be used for the storage and processing of large amounts of digital information with much lower power consumption than conventional processors. Among their potential future applications, an important niche is moving the control from data centers to edge devices. The aim of this roadmap is to present a snapshot of the present state of neuromorphic technology and provide an opinion on the challenges and opportunities that the future holds in the major areas of neuromorphic technology, namely materials, devices, neuromorphic circuits, neuromorphic algorithms, applications, and ethics. The roadmap is a collection of perspectives where leading researchers in the neuromorphic community provide their own view about the current state and the future challenges for each research area. We hope that this roadmap will be a useful resource by providing a concise yet comprehensive introduction to readers outside this field, for those who are just entering the field, as well as providing future perspectives for those who are well established in the neuromorphic computing community."
 abstract_cn: "本路线图综述了神经形态计算与工程的研究进展，涵盖器件、电路、架构、算法和应用，总结了当前技术现状、关键挑战和未来发展方向，为类脑计算系统的研究提供系统性参考。"
 keywords:
   - "[[Neuromorphic computing]]"
@@ -16,7 +16,7 @@ keywords:
   - "[[Spiking neural network]]"
   - "[[Hardware]]"
   - "[[AI]]"
-cite: "Christensen D V, Xia Q, Wang X, et al. 2022 roadmap on neuromorphic computing and\"
+cite: "Christensen D V, Xia Q, Wang X, et al. 2022 roadmap on neuromorphic computing and\\"
 aiSum: "神经形态计算路线图综述：涵盖神经形态器件、电路架构、算法应用现状与挑战，展望类脑计算未来发展方向。"
 confidence: "medium"
 wiki_concepts:
