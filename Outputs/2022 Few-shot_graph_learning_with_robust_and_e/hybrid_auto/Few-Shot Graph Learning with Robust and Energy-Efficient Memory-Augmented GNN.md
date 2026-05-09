@@ -13,6 +13,7 @@ keywords:
   - "[[Few-shot learning]]"
   - "[[Memory-augmented]]"
   - "[[RRAM]]"
+abstract_cn: "从有限样本中动态学习图结构数据是智能边缘设备面临的关键挑战。本文首次展示了少样本图学习的芯片级演示，使用1T1R阻变随机存取存储器（RRAM）同构实现记忆增强图神经网络的控制器和关联存储器。利用存内计算范式，我们在CORA数据集的节点分类上验证了78%的端到端高精度（GPU基线80%）和鲁棒性，同时与传统数字系统相比实现了70倍延迟降低和60倍能耗降低。"
 cite: "[1] Sun et al. Few-Shot Graph Learning with Robust and Energy-Efficient Memory-Augmented GNN[J]. IEEE J-EDS, 2022."
 aiSum: "少样本图学习 MAGNN：256 Kb 1T1R RRAM、CORA 78% 准确率、70 倍延迟降低、60 倍能耗降低、中科院+香港大学。"
 confidence: "medium"

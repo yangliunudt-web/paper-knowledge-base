@@ -15,6 +15,7 @@ abstract: "Real-world applications require the classification model to adapt to 
 abstract_cn: "现实应用要求分类模型能够适应新类别而不遗忘旧类别。类增量学习（CIL）旨在训练一个内存受限的模型以满足这一需求。典型的CIL方法倾向于保存旧类别的代表性样本来抵抗遗忘，而最近的研究发现存储历史模型可以显著提升性能。然而，存储的模型未被计入内存预算，这导致不公平的比较。我们发现，当将模型大小计入总预算并按对齐的内存大小比较方法时，保存模型并不总是有效，特别是在内存预算有限的情况下。因此，我们需要全面评估不同内存规模下的CIL方法，并同时考虑准确率和内存大小进行度量。另一方面，我们深入研究了内存缓冲区的构建以实现内存效率。通过分析网络中不同层的作用，我们发现浅层和深层在CIL中具有不同的特征。受此启发，我们提出了一个简单而有效的基线，称为MEMO（内存高效可扩展模型）。MEMO基于共享的通用表示扩展专用层，以适中的成本高效提取多样化的表示并保持代表性样本。在基准数据集上的大量实验验证了MEMO的竞争性能。"
 keywords:
   - "[[Continual learning]]"
+cite: "[1] Zhou D W, Wang Q W, Ye H J, et al. A Model or 603 Exemplars: Towards Memory-Efficient Exemplar-Free Continual Learning[C]. ICLR, 2023."
 aiSum: "无样本持续学习内存优化：单一模型替代样本存储，竞争性能+低内存占用。"
 confidence: "low"
 wiki_concepts:

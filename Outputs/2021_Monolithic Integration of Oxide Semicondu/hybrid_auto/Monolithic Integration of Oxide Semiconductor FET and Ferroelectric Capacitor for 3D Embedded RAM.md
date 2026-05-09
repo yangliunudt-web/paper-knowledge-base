@@ -20,6 +20,8 @@ keywords:
 cite: "[1] Wu J, Mo F, Saraya T, et al. Monolithic Integration of Oxide Semiconductor FET and Ferroelectric Capacitor for 3D Embedded RAM[J]. IEEE Transactions on Electron Devices, 2021."
 aiSum: "IGZTO FET+FeRAM 单片集成：>20 cm²/V·s 迁移率、400°C 低温工艺、~ns 操作、3D 嵌入式 RAM、东京大学。"
 confidence: "high"
+abstract: "Monolithic 3D integration of oxide semiconductor FET and ferroelectric capacitor is demonstrated for high-density embedded RAM applications. Sn-doped InGaZnO (IGZTO) field-effect transistors with high mobility (>20 cm²/V·s) and low-temperature BEOL-compatible processing (400°C) serve as access transistors, while ferroelectric HfO2 capacitors provide non-volatile storage with fast (~ns) operation. The integration of BEOL access transistor and memory element enables area-efficient 3D embedded memory with high density and energy efficiency, offering a solution for near-memory computing and AI accelerator applications."
+abstract_cn: "本文展示了氧化物半导体FET和铁电电容器的单片三维集成，用于高密度嵌入式RAM应用。掺锡InGaZnO场效应晶体管具有高迁移率（>20 cm²/V·s）和低温BEOL兼容工艺（400°C），可用作访问晶体管；铁电HfO2电容器提供非易失性存储和快速（~ns）操作。BEOL访问晶体管与存储元件的集成实现了面积高效的三维嵌入式存储器，具有高密度和高能效，为近存计算和AI加速器应用提供了一种解决方案。"
 wiki_concepts:
   - "[[FeRAM]]"
 ---

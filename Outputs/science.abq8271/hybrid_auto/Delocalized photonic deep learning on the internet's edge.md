@@ -27,6 +27,8 @@ keywords:
   - "[[Deep learning]]"
   - "[[Netcast]]"
   - "[[Neural network inference]]"
+abstract: "Advanced machine learning models are currently impossible to run on edge devices such as smart sensors and unmanned aerial vehicles owing to constraints on power, processing, and memory. We introduce an approach to machine learning inference based on delocalized analog processing across networks. In this approach, named Netcast, cloud-based smart transceivers stream weight data to edge devices, enabling ultraefficient photonic inference. We demonstrate image recognition at ultralow optical energy of 40 attojoules per multiply (<1 photon per multiply) at 98.8% (93%) classification accuracy. We reproduce this performance in a Boston-area field trial over 86 kilometers of deployed optical fiber, wavelength multiplexed over 3 terahertz of optical bandwidth. Netcast allows milliwatt-class edge devices with minimal memory and processing to compute at teraFLOPS rates reserved for high-power (>100 watts) cloud computers."
+abstract_cn: "高级机器学习模型目前无法在智能传感器和无人机等边缘设备上运行，因为受到功耗、处理和存储的限制。我们引入了一种基于跨网络去中心化模拟处理的机器学习推理方法。在该方法（名为Netcast）中，基于云的智能收发器将权重数据流式传输到边缘设备，实现超高效光子推理。我们以40阿焦耳每次乘法的超低光能（<1光子/乘法）展示了图像识别，分类精度达到98.8%（93%）。我们在波士顿地区的86公里商用光纤现场试验中复现了这一性能，波分复用覆盖3太赫兹光带宽。Netcast使具有最小内存和处理能力的毫瓦级边缘设备能够以目前仅高功耗（>100瓦）云计算机才能达到的teraFLOPS速率进行计算。"
 cite: "[1] Sludds A, Bandyopadhyay S, Chen Z, et al. Delocalized photonic deep learning on the internet's edge[J]. Science, 2023."
 aiSum: "提出 Netcast 光子深度学习：云端智能收发器流式传输权重到边缘设备，实现 40 aJ/MAC 超低能耗推理，86 km 光纤现场试验验证。"
 confidence: "high"

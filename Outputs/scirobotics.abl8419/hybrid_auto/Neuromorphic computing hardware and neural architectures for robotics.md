@@ -9,6 +9,7 @@ date: "2022-01-01"
 year: "2022"
 journal: "Science Robotics"
 doi: "10.1126/scirobotics.abl8419"
+abstract: "Neuromorphic hardware enables fast and power-efficient neural network–based artificial intelligence that is well suited to solving robotic tasks. Neuromorphic algorithms can be further developed following neural computing principles and neural network architectures inspired by biological neural systems. In this Viewpoint, we provide an overview of recent insights from neuroscience that could enhance signal processing in artificial neural networks on chip and unlock innovative applications in robotics and autonomous intelligent systems. These insights uncover computing principles, primitives, and algorithms on different levels of abstraction and call for more research into the basis of neural computation and neuronally inspired computing hardware."
 abstract_cn: "神经形态硬件支持快速且功耗高效的基于神经网络的人工智能，非常适合解决机器人任务。神经形态算法可以按照神经计算原理和受生物神经系统启发的神经网络架构进一步发展。本文概述了神经科学的最新见解，这些见解可以增强芯片上人工神经网络的信号处理，并解锁机器人技术和自主智能系统中的创新应用。"
 keywords:
   - "[[Neuromorphic computing]]"
