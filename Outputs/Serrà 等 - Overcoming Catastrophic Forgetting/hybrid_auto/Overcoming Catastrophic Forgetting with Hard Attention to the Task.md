@@ -1,5 +1,6 @@
 ---
 
+
 title: "Overcoming Catastrophic Forgetting with Hard Attention to the Task"
 authors:
   - "Joan Serra"
@@ -14,6 +15,8 @@ abstract_cn: "灾难性遗忘指的是神经网络在后续任务训练后丢失
 cite: "[1] Serra J, Suris D, Miron M, et al. Overcoming catastrophic forgetting with"
 aiSum: "硬注意力任务机制：通过任务特定掩码保留旧任务信息，将灾难性遗忘率降低45‑80%，具备超参数鲁棒性和监控能力。"
 confidence: "medium"
+keywords:
+  - "[[Continual learning]]"
 ---
 
 # Overcoming Catastrophic Forgetting with Hard Attention to the Task

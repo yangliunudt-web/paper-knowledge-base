@@ -1,5 +1,6 @@
 ---
 
+
 title: "Ferroelectric Transistors: from Materials Innovation to Intelligent Electronic"
 authors:
   - "Enlong Wunan"
@@ -18,6 +19,8 @@ abstract_cn: "人工智能、大数据和物联网的爆炸式增长推动了对
 cite: "[1] Li E, Wang W, Liu Y, et al. Ferroelectric transistors: from materials innovation"
 aiSum: "铁电晶体管综述：涵盖钙钛矿/HfO₂/有机/二维铁电材料，讨论三端FeFET器件物理、优化策略，以及非易失存储、存内计算、神经形态计算等应用，展望后摩尔时代可扩展低功耗电子系统。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
 ---
 
 # Ferroelectric Transistors: from Materials Innovation to Intelligent Electronic Systems

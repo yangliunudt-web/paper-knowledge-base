@@ -1,4 +1,5 @@
 ---
+
 title: "Stochastic Neuro-Fuzzy System Implemented in Memristor Crossbar Arrays"
 authors:
   - "Tuo Shi"
@@ -19,6 +20,8 @@ cite: "待补充. Stochastic Neuro-Fuzzy System Implemented in Memristor Crossba
   \ Advances, 2024. DOI: 10.1126/sciadv.adl3135."
 aiSum: "忆阻器神经模糊系统：TiN/TaOx/HfOx/TiN，64×128 阵列，变异性增强鲁棒性，6.6x 收敛加速，2.61 TOPS/W 能效。"
 confidence: "high"
+keywords:
+  - "[[Memristor]]"
 ---
 
 # A P P L I E D S C I E N C E S A N D E N G I N E E R I N G

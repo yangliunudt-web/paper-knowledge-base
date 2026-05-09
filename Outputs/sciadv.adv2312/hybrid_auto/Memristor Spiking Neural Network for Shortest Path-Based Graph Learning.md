@@ -1,4 +1,5 @@
 ---
+
 title: "Memristor Spiking Neural Network for Shortest Path-Based Graph Learning"
 authors:
   - "Ziting Peng"
@@ -36,6 +37,9 @@ cite: "Peng Z, Zhao X, Xu J, et al. Memristor spiking neural network for shortes
   \ graph learning[J]. Science Advances, 2025, 11(1): eadv2312. DOI: 10.1126/sciadv.adv2312."
 aiSum: "忆阻器 SNN 图学习：最短路径并行计算、脉冲传播替代算术、517.82 GTEPS/W、超越 FPGA 3-4 个数量级。"
 confidence: "high"
+keywords:
+  - "[[Memristor]]"
+  - "[[Neural network]]"
 ---
 
 # A P P L I E D S C I E N C E S A N D E N G I N E E R I N G

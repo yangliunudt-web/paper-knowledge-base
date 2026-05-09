@@ -1,4 +1,5 @@
 ---
+
 title: "Analog Reservoir Computing via Ferroelectric Mixed Phase Boundary Transistors"
 authors:
   - "Jangsaeng Eun"
@@ -18,6 +19,9 @@ abstract_cn: "使用铁电混合相边界晶体管 (MPBT) 的模拟储备池计�
 cite: "Jangsaeng Kim, Eun Chan Park, Wonjun Shin, et al. Analog Reservoir Computing"
 aiSum: "储备池计算补充材料：MPBTFT/FeTFT 单片集成工艺、器件表征、时序预测任务实现，含 21 个补充图表和 7 个补充说明。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[Reservoir computing]]"
 ---
 
 # Ferroelectric Mixed Phase Boundary Transistors

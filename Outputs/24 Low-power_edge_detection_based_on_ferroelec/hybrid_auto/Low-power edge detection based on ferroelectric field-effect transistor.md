@@ -1,4 +1,5 @@
 ---
+
 title: "Low-Power Edge Detection Based on Ferroelectric Field-Effect Transistor for Edge Intelligence"
 authors:
   - "Jiajia Chen"
@@ -16,6 +17,9 @@ abstract_cn: "边缘检测是计算机视觉的核心技术，广泛应用于图
 cite: "[1] Chen J J, Xu J C, Gu J N, et al. Low-power edge detection based on ferroelectric"
 aiSum: "FeFET 边缘检测：MUSAN 方法无需卷积/ADC，4×4 NAND 阵列，~10 fJ/操作，无精度损失，适用于边缘计算。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[Edge computing]]"
 ---
 
 Received: 17 April 2024

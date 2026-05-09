@@ -1,6 +1,4 @@
 ---
-
-
 title: "Demonstration of Differential Mode FeFET-Array for multi-precision storage"
 authors:
   - "Vivek Franz"
@@ -11,16 +9,17 @@ authors:
   - "Thomas Sourav"
   - "Manan"
 date: "2023-12-01"
-year: 2023
+year: "2023"
 journal: "IEEE International Electron Devices Meeting (IEDM)"
 abstract: "Harnessing multibit precision in non-volatile memory (NVM) based synaptic"
 abstract_cn: "利用基于非易失性存储器的突触核心的多比特精度可以加速深度神经网络的乘加运算。然而，基于NVM的突触核心在比特密度和性能之间存在权衡。随着缩放带来的性能下降、有限的比特精度以及与权重更新相关的不对称性，成为实现高密度突触核心的严重瓶颈。本工作展示了：(i)"
+keywords:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
 cite: "[1] Parmar V, Müller F, Hsuen J H, et al. Demonstration of differential mode"
 aiSum: "差分模式FeFET阵列：12 Kbit容量、223Mb/mm²密度、VGG-8能效196 TOPS/W、1% BER下训练精度94%/推理精度88%。"
-confidence: high
+confidence: "high"
 wiki_concepts:
-  - "[[FeFET]]"
-keywords:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
 ---

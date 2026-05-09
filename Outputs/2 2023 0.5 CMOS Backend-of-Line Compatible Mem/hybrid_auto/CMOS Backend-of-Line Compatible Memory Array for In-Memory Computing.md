@@ -1,4 +1,5 @@
 ---
+
 title: "CMOS Backend-of-Line Compatible Memory Array for In-Memory Computing"
 authors:
   - "Wenhui Wang"
@@ -20,6 +21,8 @@ cite: "待补充. CMOS Backend-of-Line Compatible Memory Array for In-Memory Com
   \ Advances, 2023. DOI: 10.1126/sciadv.abq8142."
 aiSum: "CMOS BEOL 兼容存储阵列：ZnO TFT，<400°C，单片 3D 集成存内计算。"
 confidence: "high"
+keywords:
+  - "[[In-memory computing]]"
 ---
 
 ![](images/1231b3c5528b54e319351dcda11d88f6fee4312f0f56aec93f2bfe4d92cdbbbc.jpg)

@@ -1,5 +1,6 @@
 ---
 
+
 title: "Nonvolatile Memory Design Based on Ferroelectric FETs"
 authors:
   - "Sumitha Kaisheng"
@@ -16,6 +17,8 @@ abstract_cn: "铁电场效应晶体管凭借其三端结构以及铁电材料在
 cite: "[1] George S, Ma K, Aziz A, et al. Nonvolatile memory design based on ferroelectric"
 aiSum: "2T FeFET非易失存储器：利用三端结构实现分离读/写路径，非破坏性读取，相比FeRAM写入电压降低58.5%、能量降低67.7%，区分度10^6倍，能量收集非易失处理器前向进度提升27%。"
 confidence: "medium"
+keywords:
+  - "[[Ferroelectric]]"
 ---
 
 # Nonvolatile Memory Design Based on Ferroelectric FETs

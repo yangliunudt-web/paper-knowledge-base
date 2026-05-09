@@ -1,4 +1,5 @@
 ---
+
 title: "AI Computing Reaches for the Edge"
 date: "2023-08-24"
 year: 2023
@@ -9,6 +10,8 @@ abstract_cn: "Science 视角文章讨论 IBM NorthPole 芯片，一种用于边�
 cite: "Dharmendra S. Modha. AI Computing Reaches for the Edge[J]. Science, 2023. DOI:"
 aiSum: "NorthPole 边缘 AI 芯片：256 核心，224MB 片上存储，>1000 帧/焦耳能效，数字类脑架构。"
 confidence: "high"
+keywords:
+  - "[[Edge computing]]"
 ---
 
 that rats could form a long-term associative memory in the absence of theta and replay sequences; this suggests that the expression of cell assemblies and their later reactivation during rest periods may be sufficient for core component processes of episodic memory.

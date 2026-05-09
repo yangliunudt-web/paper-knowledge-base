@@ -1,19 +1,20 @@
 ---
-
-
 title: "Meta-attention for ViT-backed Continual Learning"
 authors:
   - "Mengqi Haofei"
   - "Jie Mingli"
 date: "2022-01-01"
-year: 2022
+year: "2022"
 journal: "Unknown Journal"
 abstract: "Continual learning is a longstanding research topic due to its crucial"
 abstract_cn: "研究解决了深度学习模型在持续学习过程中的灾难性遗忘问题。文章提出了一种结合元可塑性和参数隔离的新方法，通过混合神经网络架构有效应对任务顺序学习带来的性能下降。实验表明，该方法在多个基准数据集上取得了先进的性能。"
+keywords:
+  - "[[Catastrophic forgetting]]"
+  - "[[Continual learning]]"
 cite: "待补充. Meta-attention for ViT-backed Continual Learning[J]. Unknown Journal, 2022."
 aiSum: "采用混合神经网络+元可塑性+参数隔离的方法，解决持续学习中的灾难性遗忘问题。在多个基准数据集上验证，性能优于现有方法。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[Catastrophic forgetting]]"
   - "[[Continual learning]]"
 ---

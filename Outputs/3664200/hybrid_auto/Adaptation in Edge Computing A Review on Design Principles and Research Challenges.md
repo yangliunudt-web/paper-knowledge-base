@@ -1,4 +1,5 @@
 ---
+
 title: "Adaptation in Edge Computing: A Review on Design Principles and Research Challenges"
 date: "2024-09-30"
 year: 2024
@@ -9,6 +10,8 @@ abstract_cn: "综述边缘计算中的自适应机制，提出设计原则、使
 cite: "[1] Golpayegani F, Chen N X, Afraz N, et al. Adaptation in edge computing:"
 aiSum: "边缘计算自适应综述：基础设施/应用/数据三维度自适应，软硬件协同设计，资源管理策略，47 次引用。"
 confidence: "medium"
+keywords:
+  - "[[Edge computing]]"
 ---
 
 SURVEY

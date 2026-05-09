@@ -1,6 +1,4 @@
 ---
-
-
 title: "Domain Switching and Spatial Dependence of Permittivity in Ferroelectric Thin Films"
 authors:
   - "Francis K. Chai"
@@ -8,15 +6,17 @@ authors:
   - "R. D. Schrimpf"
   - "D. P. Birnie III"
 date: "1997-09-01"
-year: 1997
+year: "1997"
 journal: "Journal of Applied Physics"
 doi: "10.1063/1.365764"
 abstract: "A model for the switching behavior of ferroelectric thin films is presented."
 abstract_cn: "本文提出铁电薄膜开关行为的模型，包含介电常数空间变化的影响，能够描述 180° 和 90° 畴开关。研究表明介电常数的空间依赖性对矫顽场和磁滞回线形状有显著影响，为理解铁电薄膜的开关机制提供了理论框架。"
+keywords:
+  - "[[Ferroelectric]]"
 cite: "[1] Chai F K, Brews J R, Schrimpf R D, et al. Domain switching and spatial"
 aiSum: "提出包含介电常数空间变化的铁电薄膜开关模型，描述 180° 和 90° 畴开关，揭示介电常数空间依赖性对矫顽场和磁滞回线形状的显著影响。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[Ferroelectric]]"
 ---
 

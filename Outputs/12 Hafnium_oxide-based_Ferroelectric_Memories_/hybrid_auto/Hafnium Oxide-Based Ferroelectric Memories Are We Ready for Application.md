@@ -1,4 +1,5 @@
 ---
+
 title: "Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for Application"
 authors:
   - "Konrad Seidel"
@@ -29,6 +30,11 @@ cite: "待补充. Hafnium Oxide-Based Ferroelectric Memories: Are We Ready for A
   \ IEEE VLSI-TSA, 2021."
 aiSum: "HfO2 铁电存储综述：器件物理、材料工程、集成挑战、商业部署评估。"
 confidence: "high"
+keywords:
+  - "[[—ferroelectrics]]"
+  - "[[non-volatile memory]]"
+  - "[[FeFET]]"
+  - "[[FeRAM]]"
 ---
 
 # Hafnium oxide-based Ferroelectric Memories: Are we ready for Application?

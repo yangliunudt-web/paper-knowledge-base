@@ -1,4 +1,5 @@
 ---
+
 title: "Real-Time Signal Processing with Memristor-Based Fused Network"
 authors:
   - "Feng Miao"
@@ -23,6 +24,8 @@ abstract_cn: "冯·诺依曼瓶颈导致计算硬件和存储系统的能耗大�
 cite: "Miao F, Yang J, Jiang J, et al. Real-time signal processing with memristor-based\\"
 aiSum: "忆阻器 SoC 融合网络：DFT+CNN、128×128 交叉阵列、33.49 dB PSNR、94.72% 分类准确率、~49 倍能效提升。"
 confidence: "high"
+keywords:
+  - "[[Memristor]]"
 ---
 
 # E N G I N E E R I N G

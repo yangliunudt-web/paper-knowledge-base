@@ -1,6 +1,4 @@
 ---
-
-
 title: "1F-1T Array: Current Limiting Transistor Cascoded FeFET Memory Array for Variation"
 authors:
   - "Masud Rana"
@@ -15,15 +13,18 @@ authors:
   - "Sourav De"
   - "Bhaswar Chakrabarti"
 date: "2023-07-14"
-year: 2023
+year: "2023"
 journal: "IEEE Transactions on Nanotechnology"
 doi: "10.1109/TNANO.2023.3295093"
 abstract: "Proposes a 1F-1T memory cell consisting of a ferroelectric field-effect"
 abstract_cn: "提出 1F-1T 存储单元，由铁电场效应晶体管 (FeFET) 与电流限制晶体管级联组成。晶体管通过限制 FeFET 的通态电流减少漏电流变化。28"
+keywords:
+  - "[[FeFET]]"
+  - "[[In-memory computing]]"
 cite: "[1] Sk M R, Thunder S, Müller F, et al. 1F-1T Array: Current Limiting Transistor"
 aiSum: "1F-1T 阵列：FeFET+电流限制晶体管级联，28 nm HKMG，减少 Id 变化，MNIST 97.6% 精度，60% 面积优势。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[FeFET]]"
   - "[[In-memory computing]]"
 ---

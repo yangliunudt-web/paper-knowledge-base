@@ -1,4 +1,5 @@
 ---
+
 title: "Overcoming Catastrophic Forgetting with Synaptic Intelligence"
 authors:
   - "We Our"
@@ -14,6 +15,8 @@ abstract_cn: "引入一个概念上简单且可扩展的持续学习框架，适
 cite: "Schwarz J, Luketina J, Rao D, et al. Progress & Compress: A scalable framework"
 aiSum: "Progress & Compress 持续学习：知识库+主动列双网络、蒸馏保护、无架构增长、Atari 游戏验证。"
 confidence: "medium"
+keywords:
+  - "[[Continual learning]]"
 ---
 
 # Abstract

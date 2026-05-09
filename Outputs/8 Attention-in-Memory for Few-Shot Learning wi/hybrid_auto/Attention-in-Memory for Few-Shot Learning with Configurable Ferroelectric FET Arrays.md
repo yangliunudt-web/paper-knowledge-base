@@ -1,5 +1,6 @@
 ---
 
+
 title: "Attention-in-Memory for Few-Shot Learning with Configurable Ferroelectric FET"
 date: "2021-01-18"
 year: 2021
@@ -12,6 +13,9 @@ aiSum: "AiM 存内计算设计：可配置 FeFET 阵列，实现 MANN 注意力�
 confidence: medium
 wiki_concepts:
   - "[[FeFET]]"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[In-memory computing]]"
 ---
 
 # Attention-in-Memory for [[Few-shot learning]] Attention-in-Memory for Few-Shot Learning

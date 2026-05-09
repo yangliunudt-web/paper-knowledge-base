@@ -1,4 +1,5 @@
 ---
+
 title: "Monolithic 3D Integration of High Endurance Multi-bit Ferroelectric FET"
 authors:
   - "T. Francois"
@@ -19,6 +20,8 @@ cite: "[1] Francois C M G Monolithic 3D Integration of High Endurance Multi-bit 
   \ FET[C]. IEEE VLSI Symposium, 2022. DOI: 10.1109/VLSITechnologyandCir46769.2022.9830141."
 aiSum: "单片 3D FeFET 集成：BEoL 铁电 MFM 器件，>10^10 耐久性，2 比特/单元，16kbit 阵列演示。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
 ---
 
 # Monolithic 3D Integration of High Endurance Multi-Bit Ferroelectric FET for Accelerating Compute-In-Memory

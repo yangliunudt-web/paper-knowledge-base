@@ -1,4 +1,5 @@
 ---
+
 title: "A Voltage-Dependent Switching-Time Model for Ferroelectric Capacitors"
 authors:
   - "The This"
@@ -11,6 +12,8 @@ abstract_cn: "铁电电容从一个二进制状态切换到另一个状态所需
 cite: "Cross J S, Sheikholeslami A, Charn G H, et al. A voltage-dependent switching-time"
 aiSum: "FeRAM 开关时间模型：Verilog-A、电压依赖动态、0.35μm CMOS/PZT、Spectre 仿真验证。"
 confidence: "medium"
+keywords:
+  - "[[Ferroelectric]]"
 ---
 
 # Abstract

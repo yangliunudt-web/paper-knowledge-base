@@ -1,21 +1,21 @@
 ---
-
-
 title: "Comparative Analysis and Energy-Efficient Write Scheme of Ferroelectric FET-Based"
 authors:
   - "Received August"
   - "September September"
   - "September"
 date: "2021-09-10"
-year: 2021
+year: "2021"
 journal: "IEEE Access"
 doi: "10.1109/ACCESS.2021.3111913"
 abstract: "The ferroelectric field-effect transistor (FeFET) is one of the most promising"
 abstract_cn: "铁电场效应晶体管因其低写入能量和高ION/IOFF比而成为新兴非易失性存储器件中最有希望的候选者之一。对于FeFET作为非易失性存储器件的应用，已提出了1FeFET、1T-1FeFET、2T-1FeFET和3T-1FeFET单元。1FeFET单元具有最高密度但受到写入干扰的影响。虽然1T-1FeFET和2T-1FeFET单元解决了写入干扰问题，但它们使用带有负写入电压的写入方案，这需要许多控制信号的电压摆动，导致极高的写入能量消耗。3T-1FeFET单元使用无负写入电压的写入方案，但具有最大的面积开销。虽然1T-1FeFET单元以较小的面积开销解决了写入干扰问题，但由于使用负写入电压，其写入能量消耗较高。本文为了显著降低写入能量消耗，提出了一种无负写入电压的低控制信号摆动写入方案。仿真结果表明，所提出的低控制信号摆动写入方案在最坏、平均和最好情况下，相比1T-1FeFET单元中使用负写入电压的写入方案，可分别实现35%、66%和96%的写入能量降低。我们还根据FeFET阈值电压分布确定了每种FeFET单元在读取操作中可用的传感方案。"
+keywords:
+  - "[[FeFET]]"
 cite: "[1] Ko D H, Oh T W, Lim S, et al. Comparative analysis and energy‑efficient"
 aiSum: "FeFET存储单元比较与低控制信号摆动写入方案：分析1FeFET/1T-1FeFET/2T-1FeFET/3T-1FeFET单元特性，提出LCSS写入方案，在最坏/平均/最好情况下分别降低35%/66%/96%写入能量。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[FeFET]]"
 ---
 

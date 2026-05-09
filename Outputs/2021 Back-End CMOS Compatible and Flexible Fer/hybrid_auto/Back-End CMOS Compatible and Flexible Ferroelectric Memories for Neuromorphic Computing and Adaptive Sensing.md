@@ -1,5 +1,6 @@
 ---
 
+
 title: "Back-End CMOS Compatible and Flexible Ferroelectric Memories for Neuromorphic"
 date: "2021-12-01"
 year: 2021
@@ -13,6 +14,9 @@ confidence: medium
 wiki_concepts:
   - "[[FeFET]]"
   - "[[HfO2]]"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # Back-End CMOS Compatible and Flexible [[ferroelectric]] Memories for [[neuromorphic]] Computing and Adaptive Sensing

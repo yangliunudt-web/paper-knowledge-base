@@ -1,5 +1,6 @@
 ---
 
+
 title: "Sub-A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core"
 authors:
   - "Changhyeon Minsuk"
@@ -12,6 +13,9 @@ journal: "Advanced Materials"
 cite: "[1] Han C H, Koo R H, Song M, et al. Supplementary Materials for A Monolithic"
 aiSum: "本文是 Advanced Materials 论文的辅助材料，包含 FeFET 和 FIDFET 器件的结构分析、晶体相组成对比、氧空位分析、铁电特性测试、器件间变异性和耐久性特性等补充实验数据。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[Neuromorphic computing]]"
 ---
 
 # A Monolithic Ferroelectric-Ionic Duality for Stochastic-Neuromorphic Core Integration

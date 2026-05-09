@@ -1,7 +1,6 @@
 ---
-
-
-title: "A Hardware-Adaptive Learning Algorithm for Superlinear-Capacity Associative Memory on Memristor Crossbars"
+title: "A Hardware-Adaptive Learning Algorithm for Superlinear-Capacity Associative Memory\
+  \ on Memristor Crossbars"
 authors:
   - "Chengping He"
   - "Mingrui Jiang"
@@ -16,14 +15,18 @@ authors:
   - "Yi Li"
   - "Xiangshui Miao"
 date: "2025-01-01"
-year: 2025
+year: "2025"
 journal: "Nature Communications"
 abstract: "The human brain recalls complete patterns from partial cues via associative"
 abstract_cn: "研究提出了基于阻变存储器的存算一体化方案。通过在存储器阵列中直接执行矩阵向量乘法运算，显著降低了数据搬移带来的能耗和延迟。实验验证了其在深度神经网络推理中的能效优势。"
+keywords:
+  - "[[In-memory computing]]"
+  - "[[Memristor]]"
+  - "[[Neural network]]"
 cite: "待补充. A hardware-adaptive learning algorithm for superlinear-capacity associative[J].\\"
 aiSum: "采用存算一体化架构，利用阻变存储器实现近数据计算。解决了传统冯氏架构中数据搬移的瓶颈问题，实现了高能效的神经网络推理。"
 confidence: "high"
-keywords:
+wiki_concepts:
   - "[[In-memory computing]]"
   - "[[Memristor]]"
   - "[[Neural network]]"

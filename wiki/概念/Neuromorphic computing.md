@@ -35,11 +35,11 @@ confidence: high
 | [[Ferroelectric Transistors for Memory and Neuromorphic Computing\|Ferroelectric Transistors for Memory and...]] | 2022 | 综述HfO2基FeFET在存储和神经形态计算中的应用：器件结构、工作原理、存储特性和突触应用。 |
 | [[Amorphous Indium Oxide Channel FeFETs with Write Voltage of 0.9V and Endurance 10^{12} for Refresh-free 1T-1FeFET embedded Memory\|Amorphous Indium Oxide Channel FeFETs wi...]] | 2023 | 首次BEOL兼容IWO FeFET：写入<0.9V，耐久性>10¹²循环，85°C保持>10⁴s，无需刷新1T-1FeFET存储器。 |
 | [[In-sensor dynamic computing for intelligent machine vision\|In-sensor dynamic computing for intellig...]] | 2024 | 存内动态计算方法：使用多端混合维石墨烯-锗异质结构器件阵列，实现弱目标边缘特征的精确提取，在对比度变化的图像中实现高识别精度的目标跟踪，比传统光电卷积方法更鲁棒。解决了传统CMOS图像传感器无法直接提 |
+| [[Ferroelectric-based neuromorphic memory devices for bio-inspired computing\|Ferroelectric-based neuromorphic memory ...]] | 2024 | 综述铁电神经形态器件与阵列：铪基和二维铁电材料模拟神经元/突触时间动态，低写入能耗，涵盖突触器件、神经元电路、阵列拓扑和传感器内计算应用。 |
 | [[Analog reservoir computing via ferroelectric mixed phase boundary transistors\|Analog reservoir computing via ferroelec...]] | 2024 | 铁电MPB晶体管实现全集成模拟储备池计算：5-bit储备池状态，物理储备池+读出神经元一体化。 |
 | [[Physical reservoir computing with emerging electronics\|Physical reservoir computing with emergi...]] | 2024 | 综述新兴电子器件在物理储备计算中的应用：涵盖电子、光学、机械器件等物理系统，讨论架构、节点、输入输出层、性能基准和竞争力，展望技术挑战与未来方向。 |
 | [[Electrochemical ohmic memristors for Electrochemical oh\|Electrochemical ohmic memristors for Ele...]] | 2024 | 本文提出电化学欧姆忆阻器，利用电化学机制实现可靠阻变切换和欧姆行为，面向神经形态计算应用。 |
-| [[Neuromorphic computing at scale\|Neuromorphic computing at scale]] | 2025 | 神经形态计算规模化：综述大脑启发硬件/算法设计、可扩展架构关键特征、潜在应用与挑战、生态系统需求，为大规模神经形态系统发展提供路线图。 |
-| [[A Monolithic Ferroelectric‑Ionic Duality for Stochastic‑Neuromorphic Core Integration\|A Monolithic Ferroelectric‑Ionic Duality...]] | 2026 | 提出铪基铁电‑离子双重性器件，利用氧空位作为功能性离子组分实现电压可调随机性和突触行为增强，在单一器件中集成随机编码与突触记忆，具备 CMOS 兼容性和 |
+| [[Amorphous phase-change memory alloy with no resistance drift\|Amorphous phase-change memory alloy with...]] | 2025 | 设计无电阻漂移的非晶 CrTe3 相变材料：从头算指导设计分子状基元，消除结构弛豫，在 -200°C 至 165°C 工作温度下无漂移，实现光电混合多级编码。 |
 ## 相关概念
 
 - [[In-memory computing]]

@@ -1,5 +1,6 @@
 ---
 
+
 title: "Overcoming Catastrophic Forgetting in Neural Networks"
 authors:
   - "Brandon Shuen"
@@ -17,6 +18,9 @@ abstract_cn: "灾难性遗忘是阻碍神经网络持续学习的主要挑战。
 cite: "[1] Loke B S Y, Quadri F, Vivanco G, et al. Overcoming catastrophic forgetting"
 aiSum: "EWC 监督学习评估：PermutedMNIST/RotatedMNIST 基准，相比 SGD 显著减少遗忘，研究 dropout 和超参数影响。"
 confidence: "low"
+keywords:
+  - "[[Neural network]]"
+  - "[[Continual learning]]"
 ---
 
 Brandon Shuen Yi Loke, Filippo Quadri, Gabriel Vivanco, Maximilian Casagrande, Saul Fenollosa ´ Ecole Polytechnique F ´ ed´ erale de Lausanne ´

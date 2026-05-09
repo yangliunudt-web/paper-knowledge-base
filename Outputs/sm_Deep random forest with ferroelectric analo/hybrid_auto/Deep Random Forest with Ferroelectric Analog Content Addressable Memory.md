@@ -1,4 +1,5 @@
 ---
+
 title: "Deep Random Forest with Ferroelectric Analog Content Addressable Memory"
 date: "2024-01-01"
 year: 2024
@@ -9,6 +10,8 @@ abstract_cn: "使用铁电模拟内容寻址存储器实现深度随机森林算
 cite: "Yin X, Zhuo C, Kämpfe T, et al. Deep random forest with ferroelectric analog"
 aiSum: "FeFET 模拟 CAM 深度随机森林：多级 V_TH 存储、1×16 阵列演示、边缘计算决策树。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
 ---
 
 Sci. Adv. 10, eadk8471 (2024)

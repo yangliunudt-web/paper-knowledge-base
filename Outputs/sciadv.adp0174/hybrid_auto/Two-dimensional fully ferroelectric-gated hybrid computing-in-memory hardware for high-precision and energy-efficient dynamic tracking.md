@@ -1,4 +1,5 @@
 ---
+
 title: "Two-dimensional fully ferroelectric-gated hybrid computing-in-memory hardware for\\"
 authors:
   - "Tian Lu"
@@ -26,6 +27,9 @@ abstract_cn: "存内计算（CIM）通过原位处理打破传统冯·诺依曼�
 cite: "Lu T, Xue J, Shen P, et al. Two-dimensional fully ferroelectric-gated hybrid computing-in-memory\\"
 aiSum: "2D FeFET 混合 CIM：布尔逻辑+多级单元、96.36% 良率、>10^12 耐久性、用于动态跟踪。"
 confidence: "high"
+keywords:
+  - "[[Ferroelectric]]"
+  - "[[In-memory computing]]"
 ---
 
 Lu et al., Sci. Adv. 10, eadp0174 (2024)     4 September 2024

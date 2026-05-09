@@ -1,22 +1,24 @@
 ---
-
-
-title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging Applications"
+title: "Continual Learning With Neuromorphic Computing: Foundations, Methods, and Emerging\
+  \ Applications"
 authors:
   - "Mishal Fatima Minhas Rachmad Vidya Wicaksana Putra"
   - "Falah Awwad"
   - "Osman Hasan"
   - "Muhammad Shafique"
 date: "2025-07-15"
-year: 2025
+year: "2025"
 journal: "IEEE Access"
 doi: "10.1109/ACCESS.2025.3588665"
 abstract: "The challenging deployment of compute- and memory-intensive methods from"
 abstract_cn: "基于深度神经网络的持续学习方法对计算和内存的高需求，突显了向更高效方法范式转变的迫切性。神经形态持续学习作为一种新兴解决方案，通过利用脉冲神经网络的原理及其固有优势（例如稀疏脉冲驱动操作和生物可塑性学习规则）来提高能效和性能，从而实现在资源受限计算系统的动态变化环境中执行高效的持续学习算法（例如无监督学习方法）。"
+keywords:
+  - "[[Continual learning]]"
+  - "[[Neuromorphic computing]]"
 cite: "[1] Putra M F M R V W, Awwad F, Hasan O, et al. Continual learning with neuromorphic"
 aiSum: "神经形态持续学习综述：涵盖SNN原理、持续学习方法分类（正则化、回放、架构等）、优化技术、应用案例（自适应机器人、自动驾驶），以及能效与性能权衡分析。"
 confidence: "medium"
-keywords:
+wiki_concepts:
   - "[[Continual learning]]"
   - "[[Neuromorphic computing]]"
 ---
