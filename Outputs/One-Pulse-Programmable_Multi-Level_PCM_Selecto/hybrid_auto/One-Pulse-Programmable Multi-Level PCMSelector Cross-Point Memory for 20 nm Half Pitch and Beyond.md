@@ -31,8 +31,8 @@ abstract: "We demonstrated, for the first time, a multi-level phase change memor
 abstract_cn: "首次演示了无需初始化或迭代验证即可操作的多级相变存储器/选通管单元，展示了其在未来高密度低延迟存储级内存应用中的潜力。通过优化热设计和组分工程形成稳定的中间电阻态，其中晶态和非晶态共存并位于设计位置。多级编程仅需单脉冲完成，无需额外操作，在超过10^7次循环中保持稳定且具有足够存储窗口。此外，制备并演示了半节距20\
   \ nm的PCM/选通管交叉点存储阵列，热仿真表明单脉冲多级操作在20 nm及以下半节距的交叉点阵列中具有可行性。"
 keywords:
-  - "[[PCM]]"
-  - "[[Phase change memory]]"
+  - "[[Memristor]]"
+  - "[[Memristor]]"
   - "[[selector]]"
   - "[[1S1R]]"
   - "[[Cross-point array]]"
@@ -46,7 +46,7 @@ aiSum: "首次实现无需初始化和迭代验证的PCM/选通管多级存储�
 confidence: "medium"
 wiki_concepts:
   - "[[Multi-level cell]]"
-  - "[[Phase change memory]]"
+  - "[[Memristor]]"
   - "[[crossbar]]"
   - "[[selector]]"
 ---

@@ -22,7 +22,6 @@ year: "2023"
 journal: "Science"
 doi: "10.1126/science.abq8271"
 keywords:
-  - "[[Photonic computing]]"
   - "[[Edge computing]]"
   - "[[Deep learning]]"
   - "[[Netcast]]"

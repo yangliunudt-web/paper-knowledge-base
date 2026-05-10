@@ -12,7 +12,6 @@ journal: "IEEE Transactions on Cybernetics"
 abstract: "The capability of UAVs for efficient autonomous navigation and obstacle avoidance in complex environments is critical for practical applications. This work proposes a vision-based deep reinforcement learning approach using privileged information for UAV autonomous navigation. An asymmetric Actor-Critic architecture leverages privileged information during training to enhance perception. A multi-agent exploration strategy accelerates experience collection. Experiments demonstrate superiority over existing methods in flight efficiency, robustness, and success rate."
 abstract_cn: "无人机在复杂环境中高效自主导航和避障的能力对其实际应用至关重要。本文提出一种基于视觉的深度强化学习方法，利用特权信息实现无人机自主导航。采用非对称Actor-Critic架构在训练期间利用特权信息增强感知能力，提出多智能体探索策略加速经验收集。实验表明该方法在飞行效率、鲁棒性和成功率方面优于现有方法。"
 keywords:
-  - "[[Reinforcement learning]]"
   - "[[UAV]]"
   - "[[Autonomous navigation]]"
   - "[[Privileged information]]"
@@ -21,9 +20,6 @@ keywords:
 cite: "[1] Wang J., et al. Vision-Based Deep Reinforcement Learning of UAV Autonomous"
 aiSum: "采用深度强化学习+特权学习的方法，解决无人机在复杂环境下的自主导航问题。提出了非对称Actor-Critic架构和多智能体探索策略。实验在多种仿真场景中验证，算法在成功率、效率和鲁棒性方面优于TD3和EGO-Planner-v2。"
 confidence: "medium"
-wiki_concepts:
-  - "[[Robotics]]"
-  - "[[Reinforcement learning]]"
 ---
 
 title: "Vision-Based Deep Reinforcement Learning of UAV Autonomous Navigation Using Privileged Information"

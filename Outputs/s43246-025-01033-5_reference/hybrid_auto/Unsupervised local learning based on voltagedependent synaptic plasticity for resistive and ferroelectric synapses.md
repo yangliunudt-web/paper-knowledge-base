@@ -12,7 +12,7 @@ authors:
   - "Fabien Alibart"
   - "Dominique Drouin"
 date: "2025-11-27"
-year: 2026
+year: 2025
 journal: "Communications Materials"
 doi: "10.1038/s43246-025-01033-5"
 abstract: "The deployment of AI on edge computing devices faces significant challenges related to energy consumption and functionality. Memristive devices offer promising solutions for energy-efficient neuromorphic computing. This work demonstrates unsupervised local learning based on voltage-dependent synaptic plasticity in both resistive and ferroelectric synapses, enabling online learning at the edge without external supervision."

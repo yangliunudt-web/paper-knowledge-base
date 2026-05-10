@@ -13,7 +13,6 @@ abstract: "Neuromorphic hardware enables fast and power-efficient neural network
 abstract_cn: "神经形态硬件支持快速且功耗高效的基于神经网络的人工智能，非常适合解决机器人任务。神经形态算法可以按照神经计算原理和受生物神经系统启发的神经网络架构进一步发展。本文概述了神经科学的最新见解，这些见解可以增强芯片上人工神经网络的信号处理，并解锁机器人技术和自主智能系统中的创新应用。"
 keywords:
   - "[[Neuromorphic computing]]"
-  - "[[Robotics]]"
   - "[[Neural architectures]]"
   - "[[Spiking neural network]]"
   - "[[Autonomous systems]]"

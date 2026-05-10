@@ -20,8 +20,6 @@ keywords:
   - "[[NeRF]]"
   - "[[全光芯片]]"
   - "[[生成式AI]]"
-wiki_concepts:
-  - "[[Photonic computing]]"
 ---
 
 # PHOTONIC COMPUTI NG

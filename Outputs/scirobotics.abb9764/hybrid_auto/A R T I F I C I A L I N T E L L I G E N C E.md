@@ -14,13 +14,9 @@ authors:
   - "Seong-Whan Lee"
 keywords:
   - "[[Deep Reinforcement Learning]]"
-  - "[[Robotics]]"
   - "[[Curling]]"
   - "[[深度强化学习]]"
   - "[[机器人]]"
-wiki_concepts:
-  - "[[Robotics]]"
-  - "[[Reinforcement learning]]"
 ---
 
 # A R T I F I C I A L I N T E L L I G E N C E
