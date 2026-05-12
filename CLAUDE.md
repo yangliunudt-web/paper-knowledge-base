@@ -147,20 +147,20 @@ The `.agents/` directory contains configuration for these specialized agents. Ca
 
 ### Step 1: PDF → Markdown 提取（双管线）
 
-**两条管线平级，根据场景选择**：
+**默认 PaddleOCR-VL 云端，MinerU 本地按需切换**：
 
-| | MinerU (本地) | PaddleOCR-VL (云端) |
+| | PaddleOCR-VL (云端，默认) | MinerU (本地，按需) |
 |---|---|---|
-| **触发** | **默认选项** | 用户明确说"用云端/用 PaddleOCR" |
-| **命令** | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` |
-| **需要网络** | ❌ 离线 | ✅ 需百度 AI Studio API |
-| **需要凭证** | ❌ 无需 | ✅ `PADDLEOCR_TOKEN` 环境变量 |
-| **公式识别** | LaTeX  OCR + 布局检测 | PaddleOCR-VL 模型 |
-| **表格识别** | 结构识别 + 重建 | 视觉模型表格解析 |
-| **阅读顺序** | 布局模型排序 | 端到端阅读顺序预测 |
-| **额外产出** | `_layout.pdf`(布局标注), `_content_list.json`, `_middle.json`, `_model.json` | 仅 Markdown + 图片 |
-| **大型 PDF** | 稳定 | API 超时风险（180s） |
-| **批量处理** | 逐个文件 `automator` | `--batch --input-dir "目录/"` 并发 3 |
+| **触发** | **默认** | 用户明确说"本地处理"/"用 MinerU" |
+| **命令** | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` |
+| **需要网络** | ✅ 需百度 AI Studio API | ❌ 离线 |
+| **需要凭证** | ✅ `PADDLEOCR_TOKEN` 环境变量 | ❌ 无需 |
+| **公式识别** | PaddleOCR-VL 端到端视觉模型 | LaTeX OCR + 布局检测 |
+| **表格识别** | 视觉模型表格解析 | 结构识别 + 重建 |
+| **阅读顺序** | 端到端阅读顺序预测 | 布局模型排序 |
+| **额外产出** | 仅 Markdown + 图片 | `_layout.pdf`(布局标注), `_content_list.json`, `_middle.json`, `_model.json` |
+| **大型 PDF** | API 超时风险（180s） | 稳定 |
+| **批量处理** | `--batch --input-dir "目录/"` 并发 3 | 逐个文件 `automator` |
 
 **产出结构相同**：
 ```

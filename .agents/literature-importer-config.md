@@ -17,19 +17,19 @@
 
 ### 1. PDF 提取管线（Step 1）
 
-**两条管线平级，互为补充**：
+**默认 PaddleOCR-VL 云端，MinerU 本地按需切换**：
 
-**MinerU（本地 — 默认）**:
-```bash
-automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
-# 轮询等待：每 60s 检查 Outputs/ 是否出现新目录，最多 10 分钟
-```
-
-**PaddleOCR-VL（云端 — 按需）**:
+**PaddleOCR-VL（云端 — 默认）**:
 ```bash
 python3 "/Users/liuyang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Papers/.agents/pipeline_paddleocr.py" \
   --pdf "PDF路径" \
   --output-dir "Outputs/"
+```
+
+**MinerU（本地 — 仅在用户明确要求时）**:
+```bash
+automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
+# 轮询等待：每 60s 检查 Outputs/ 是否出现新目录，最多 10 分钟
 ```
 
 **产出结构相同**:
@@ -43,9 +43,9 @@ Outputs/{pdf_basename}/hybrid_auto/
 MinerU 额外产出: `_layout.pdf`（布局标注）、`_content_list.json`（文档结构）、`_middle.json`、`_model.json`
 
 **管线选择规则**:
-- 没说用哪个 → MinerU（默认）
-- 用户说"云端"/"PaddleOCR"/"百度API" → PaddleOCR-VL
-- 网络不可用或在没有 API token 的环境中 → MinerU
+- 没说用哪个 → PaddleOCR-VL（默认）
+- 用户说"本地处理"/"用 MinerU"/"离线" → MinerU
+- 网络不可用或没有 PADDLEOCR_TOKEN → MinerU
 
 ### 2. 导入前检测机制（Step 1 完成后）
 

@@ -168,23 +168,23 @@ wiki_concepts:
 
 完整的 10 步流程将 PDF 转化为论文条目并同步所有 wiki 层。
 
-### Step 1: PDF → Markdown 提取（双管线平级）
+### Step 1: PDF → Markdown 提取（双管线）
 
-两条管线互为补充，根据场景选择：
+默认云端，本地按需切换：
 
-| | MinerU（本地） | PaddleOCR-VL（云端） |
+| | PaddleOCR-VL（云端，默认） | MinerU（本地，按需） |
 |---|---|---|
-| **定位** | **默认选项** | 按需使用 |
-| **命令** | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` |
-| **网络** | ❌ 完全离线 | ✅ 需要百度 AI Studio API |
-| **凭证** | ❌ 无需 | ✅ `PADDLEOCR_TOKEN` 环境变量 |
-| **公式** | LaTeX OCR + 布局检测 | 端到端视觉模型 |
-| **表格** | 结构识别 + 重建 | 视觉模型表格解析 |
-| **阅读顺序** | 布局模型排序 | 端到端阅读顺序预测 |
-| **额外产出** | `_layout.pdf`（布局标注）、`_content_list.json`、`_middle.json`、`_model.json` | 仅 Markdown + 图片 |
-| **大型 PDF** | 稳定，无超时风险 | API 180s 超时 |
-| **批量处理** | 逐个 `automator` | `--batch --input-dir` 并发 3 |
-| **vauld 历史** | 189 篇 | 132 篇 |
+| **定位** | **默认选项** | 用户明确说"本地处理"/"用 MinerU" |
+| **命令** | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` |
+| **网络** | ✅ 百度 AI Studio API | ❌ 完全离线 |
+| **凭证** | ✅ `PADDLEOCR_TOKEN` 环境变量 | ❌ 无需 |
+| **公式** | 端到端视觉模型 | LaTeX OCR + 布局检测 |
+| **表格** | 视觉模型表格解析 | 结构识别 + 重建 |
+| **阅读顺序** | 端到端阅读顺序预测 | 布局模型排序 |
+| **额外产出** | 仅 Markdown + 图片 | `_layout.pdf`（布局标注）、`_content_list.json`、`_middle.json`、`_model.json` |
+| **大型 PDF** | API 180s 超时 | 稳定，无超时风险 |
+| **批量处理** | `--batch --input-dir` 并发 3 | 逐个 `automator` |
+| **vauld 历史** | 132 篇 | 189 篇 |
 
 **产出结构相同**：
 ```
@@ -195,10 +195,9 @@ Outputs/{pdf_basename}/hybrid_auto/
 ```
 
 **管线选择**：
-- 没说用哪个 → **MinerU 本地处理**（默认）
-- 明确说"云端"/"PaddleOCR"/"百度API" → PaddleOCR-VL
-- 网络不可用 → 自动回退 MinerU
-- 公式密集型论文（数学/物理） → 可优先尝试 PaddleOCR-VL
+- 没说用哪个 → **PaddleOCR-VL 云端**（默认）
+- 明确说"本地"/"MinerU"/"离线" → MinerU 本地
+- 网络不可用或没有 API token → 自动回退 MinerU
 
 ### Steps 2-10: 导入 + Wiki 同步
 
