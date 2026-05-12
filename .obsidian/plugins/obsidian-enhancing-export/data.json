@@ -55,5 +55,9 @@
   "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
   "env": {},
-  "showExportProgressBar": true
+  "showExportProgressBar": true,
+  "lastExportDirectory": {
+    "darwin": "/Users/liuyang/Documents"
+  },
+  "lastExportType": "Html"
 }

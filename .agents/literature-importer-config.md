@@ -6,7 +6,7 @@
 
 | 阶段 | 步骤 | 内容 |
 |------|:---:|------|
-| 导入 | 1-4 | 导入检测、automator、文件重命名、frontmatter 格式化 |
+| 导入 | 1-4 | 导入检测、PDF提取(pipeline_paddleocr)、文件重命名、frontmatter 格式化 |
 | **Wiki 同步** | **5-10** | 概念页更新、分组索引、领域编译页、交叉引用、目录更新、操作日志 |
 
 ⚠️ **Wiki 同步（Steps 5-10）不是可选的。** 如果跳过，概念页表格将缺失新论文、分组索引不同步、双向链接断裂、lint 会报死链。
@@ -15,7 +15,35 @@
 
 ## 核心流程
 
-### 1. 导入前检测机制
+### 1. PDF 提取管线（Step 1）
+
+**默认管线 — PaddleOCR-VL**（云 API，推荐）:
+```bash
+python3 "/Users/liuyang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Papers/.agents/pipeline_paddleocr.py" \
+  --pdf "PDF路径" \
+  --output-dir "Outputs/"
+```
+
+输出结构（与 MinerU 一致）:
+```
+Outputs/{pdf_basename}/
+└── hybrid_auto/
+    ├── {pdf_basename}.md    # Markdown 正文（公式/表格质量更好）
+    ├── {pdf_basename}_origin.pdf  # 原始 PDF 拷贝
+    └── images/              # 下载的图片 (img_001.jpg ...)
+```
+
+**本地管线 — MinerU**（仅在用户明确要求"本地处理"/"旧管线"时使用）:
+```bash
+automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
+# 轮询等待：每 60s 检查 Outputs/ 是否出现新目录，最多 10 分钟
+```
+
+**管线选择规则**:
+- 默认 → PaddleOCR-VL
+- 用户说"本地处理"/"用 MinerU"/"旧管线" → MinerU
+
+### 2. 导入前检测机制（Step 1 完成后）
 
 **步骤1：检查是否已导入到Obsidian**
 - 检查`Outputs/`目录中是否已存在对应PDF编号的文件夹
@@ -65,6 +93,9 @@ abstract_cn: "完整的中文翻译"
 cite: "作者. 题名[J]. 刊名, 年, 卷(期): 页码. DOI:..."
 aiSum: "AI总结：研究问题/方法/主要结论/局限"
 confidence: high | medium | low
+pipeline: "PaddleOCR-VL"
+  # 仅 PaddleOCR-VL 云端 API 处理时添加此字段
+  # 本地 MinerU 处理时不添加
 wiki_concepts:
   - "[[ConceptPage1]]"
   - "[[ConceptPage2]]"

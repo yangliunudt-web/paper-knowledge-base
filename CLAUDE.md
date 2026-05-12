@@ -24,10 +24,13 @@ Papers/
 ├── Outputs/                    # Layer 1: immutable paper source files (200+ papers)
 │   └── [Paper ID]/            # Keep original folder name (e.g., "3665898")
 │       └── hybrid_auto/       # Auto-generated from PDF processing
-│           ├── [paper].md     # Markdown with frontmatter
+│           ├── [paper].md     # Markdown with frontmatter (PaddleOCR-VL or MinerU)
 │           ├── [paper]_origin.pdf
-│           ├── [paper]_layout.pdf
-│           └── images/        # Extracted figures
+│           ├── [paper]_layout.pdf   # (MinerU only)
+│           ├── *_content_list.json  # (MinerU only)
+│           ├── *_middle.json        # (MinerU only)
+│           ├── *_model.json         # (MinerU only)
+│           └── images/        # Extracted figures (SHA256 or img_NNN.jpg)
 ├── wiki/                       # Layer 2: LLM-maintained knowledge layer
 │   ├── 概念/                   # Concept pages (aliases, definitions, paper index)
 │   ├── Wiki 目录.md            # Content directory (LLM-maintained)
@@ -74,6 +77,9 @@ confidence: high | medium | low
   # high: Nature/Science/IEDM/VLSI/IEEE T-ED 等级别期刊或顶会
   # medium: 正规 SCI 期刊
   # low: arXiv 预印本、会议 workshop
+pipeline: "PaddleOCR-VL"
+  # 仅 PaddleOCR-VL 云端 API 处理时添加此字段
+  # 本地 MinerU 处理时不添加
 wiki_concepts:
   - "[[ConceptPage1]]"
   - "[[ConceptPage2]]"
@@ -140,7 +146,11 @@ The `.agents/` directory contains configuration for these specialized agents. Ca
 ## PDF Import Workflow
 
 ```bash
-# Step 1: Run Automator workflow
+# Step 1: PDF → Markdown extraction
+# Default (PaddleOCR-VL cloud API — better formula/table/reading-order quality):
+python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"
+
+# Fallback (MinerU local) — only when user says "本地处理":
 automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
 
 # Step 2: Rename .md file to paper title
@@ -148,7 +158,8 @@ automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
 # Step 4: Run quality check
 ```
 
-Use the `literature-importer` agent to handle steps 2-4 automatically.
+Use the `literature-importer` agent to handle steps 2-10 automatically.
+Pipeline script: `.agents/pipeline_paddleocr.py` — PaddleOCR-VL API wrapper, handles image download + markdown cleanup.
 
 **Steps 5-10 (Wiki 同步)**: importer 完成 frontmatter 后必须继续执行：
 ```bash

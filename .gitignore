@@ -27,6 +27,10 @@ Writing/
 
 # Obsidian agent session data (contains personal tokens)
 .obsidian/plugins/agent-client/sessions/
+.obsidian/plugins/agent-client/data.json
+
+# Obsidian personal data
+.obsidian/bookmarks.json
 
 # Python cache
 __pycache__/
