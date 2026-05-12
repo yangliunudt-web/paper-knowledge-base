@@ -145,21 +145,40 @@ The `.agents/` directory contains configuration for these specialized agents. Ca
 
 ## PDF Import Workflow
 
+### Step 1: PDF → Markdown 提取（双管线）
+
+**两条管线平级，根据场景选择**：
+
+| | MinerU (本地) | PaddleOCR-VL (云端) |
+|---|---|---|
+| **触发** | **默认选项** | 用户明确说"用云端/用 PaddleOCR" |
+| **命令** | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` |
+| **需要网络** | ❌ 离线 | ✅ 需百度 AI Studio API |
+| **需要凭证** | ❌ 无需 | ✅ `PADDLEOCR_TOKEN` 环境变量 |
+| **公式识别** | LaTeX  OCR + 布局检测 | PaddleOCR-VL 模型 |
+| **表格识别** | 结构识别 + 重建 | 视觉模型表格解析 |
+| **阅读顺序** | 布局模型排序 | 端到端阅读顺序预测 |
+| **额外产出** | `_layout.pdf`(布局标注), `_content_list.json`, `_middle.json`, `_model.json` | 仅 Markdown + 图片 |
+| **大型 PDF** | 稳定 | API 超时风险（180s） |
+| **批量处理** | 逐个文件 `automator` | `--batch --input-dir "目录/"` 并发 3 |
+
+**产出结构相同**：
+```
+Outputs/{pdf_basename}/hybrid_auto/
+  ├── {basename}.md         # Markdown 正文
+  ├── {basename}_origin.pdf # 原始 PDF 副本
+  └── images/               # 提取的图片
+```
+
+### Steps 2-10 由 Agent 自动执行
+
 ```bash
-# Step 1: PDF → Markdown extraction
-# Default (PaddleOCR-VL cloud API — better formula/table/reading-order quality):
-python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"
-
-# Fallback (MinerU local) — only when user says "本地处理":
-automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
-
 # Step 2: Rename .md file to paper title
 # Step 3: Apply frontmatter following the standard above
 # Step 4: Run quality check
 ```
 
 Use the `literature-importer` agent to handle steps 2-10 automatically.
-Pipeline script: `.agents/pipeline_paddleocr.py` — PaddleOCR-VL API wrapper, handles image download + markdown cleanup.
 
 **Steps 5-10 (Wiki 同步)**: importer 完成 frontmatter 后必须继续执行：
 ```bash

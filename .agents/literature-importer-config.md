@@ -17,31 +17,35 @@
 
 ### 1. PDF 提取管线（Step 1）
 
-**默认管线 — PaddleOCR-VL**（云 API，推荐）:
+**两条管线平级，互为补充**：
+
+**MinerU（本地 — 默认）**:
+```bash
+automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
+# 轮询等待：每 60s 检查 Outputs/ 是否出现新目录，最多 10 分钟
+```
+
+**PaddleOCR-VL（云端 — 按需）**:
 ```bash
 python3 "/Users/liuyang/Library/Mobile Documents/iCloud~md~obsidian/Documents/Papers/.agents/pipeline_paddleocr.py" \
   --pdf "PDF路径" \
   --output-dir "Outputs/"
 ```
 
-输出结构（与 MinerU 一致）:
+**产出结构相同**:
 ```
-Outputs/{pdf_basename}/
-└── hybrid_auto/
-    ├── {pdf_basename}.md    # Markdown 正文（公式/表格质量更好）
-    ├── {pdf_basename}_origin.pdf  # 原始 PDF 拷贝
-    └── images/              # 下载的图片 (img_001.jpg ...)
+Outputs/{pdf_basename}/hybrid_auto/
+  ├── {basename}.md         # Markdown 正文
+  ├── {basename}_origin.pdf # 原始 PDF 拷贝
+  └── images/               # 提取图片
 ```
 
-**本地管线 — MinerU**（仅在用户明确要求"本地处理"/"旧管线"时使用）:
-```bash
-automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
-# 轮询等待：每 60s 检查 Outputs/ 是否出现新目录，最多 10 分钟
-```
+MinerU 额外产出: `_layout.pdf`（布局标注）、`_content_list.json`（文档结构）、`_middle.json`、`_model.json`
 
 **管线选择规则**:
-- 默认 → PaddleOCR-VL
-- 用户说"本地处理"/"用 MinerU"/"旧管线" → MinerU
+- 没说用哪个 → MinerU（默认）
+- 用户说"云端"/"PaddleOCR"/"百度API" → PaddleOCR-VL
+- 网络不可用或在没有 API token 的环境中 → MinerU
 
 ### 2. 导入前检测机制（Step 1 完成后）
 

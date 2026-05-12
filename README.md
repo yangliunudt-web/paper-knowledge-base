@@ -166,17 +166,39 @@ wiki_concepts:
 
 ## PDF 导入工作流
 
-完整的 10 步流程将 PDF 转化为论文条目并同步所有 wiki 层：
+完整的 10 步流程将 PDF 转化为论文条目并同步所有 wiki 层。
 
-### Step 1: PDF → Markdown 提取
+### Step 1: PDF → Markdown 提取（双管线平级）
 
-```bash
-# 默认：PaddleOCR-VL 云端 API（公式/表格/阅读顺序质量更优）
-python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"
+两条管线互为补充，根据场景选择：
 
-# 备选：MinerU 本地处理（仅在用户明确说"本地处理"时使用）
-automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow
+| | MinerU（本地） | PaddleOCR-VL（云端） |
+|---|---|---|
+| **定位** | **默认选项** | 按需使用 |
+| **命令** | `automator -i "PDF路径" ~/Library/Services/PDFtoObsidian.workflow` | `python3 .agents/pipeline_paddleocr.py --pdf "PDF路径"` |
+| **网络** | ❌ 完全离线 | ✅ 需要百度 AI Studio API |
+| **凭证** | ❌ 无需 | ✅ `PADDLEOCR_TOKEN` 环境变量 |
+| **公式** | LaTeX OCR + 布局检测 | 端到端视觉模型 |
+| **表格** | 结构识别 + 重建 | 视觉模型表格解析 |
+| **阅读顺序** | 布局模型排序 | 端到端阅读顺序预测 |
+| **额外产出** | `_layout.pdf`（布局标注）、`_content_list.json`、`_middle.json`、`_model.json` | 仅 Markdown + 图片 |
+| **大型 PDF** | 稳定，无超时风险 | API 180s 超时 |
+| **批量处理** | 逐个 `automator` | `--batch --input-dir` 并发 3 |
+| **vauld 历史** | 189 篇 | 132 篇 |
+
+**产出结构相同**：
 ```
+Outputs/{pdf_basename}/hybrid_auto/
+  ├── {basename}.md         # Markdown 正文
+  ├── {basename}_origin.pdf # 原始 PDF 副本
+  └── images/               # 提取的图片
+```
+
+**管线选择**：
+- 没说用哪个 → **MinerU 本地处理**（默认）
+- 明确说"云端"/"PaddleOCR"/"百度API" → PaddleOCR-VL
+- 网络不可用 → 自动回退 MinerU
+- 公式密集型论文（数学/物理） → 可优先尝试 PaddleOCR-VL
 
 ### Steps 2-10: 导入 + Wiki 同步
 
