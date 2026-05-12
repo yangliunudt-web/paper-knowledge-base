@@ -28,9 +28,8 @@ LoRA 基于一个关键假设：模型适应过程中的权重更新具有低"�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
-| [[LORA LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS]] | 2021 | 原始 LoRA, GPT-3 175B 参数减少 10,000× |
-| [[A Survey on LoRA of Large Language Models]] | 2024 | LoRA 综述 |
-
+| [[A Survey on LoRA of Large Language Models\|A Survey on LoRA of Large Language Models]] | 2024 | LoRA 综述：下游适配改进（打破低秩瓶颈、动态秩分配）、跨任务泛化（混合 LoRA 模块）、计算效率提升（减少单模块成本、加速多模块服务）、联邦学习隐私保护、应用场景梳理。 |
+| [[LORA LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS\|LORA LOW-RANK ADAPTATION OF LARGE LANGUA...]] | 2021 | LoRA低秩适应：冻结预训练权重，注入可训练低秩矩阵，大幅减少可训练参数（GPT‑3 175B减少10,000倍），GPU内存需求降3倍，训练吞吐量高，无推理延迟，性能相当或优于全微调。 |
 ## 相关概念
 
 - [[Large language model]]

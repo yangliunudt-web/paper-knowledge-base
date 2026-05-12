@@ -27,6 +27,8 @@ confidence: high
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
 | [[Incorporating neuro-inspired adaptability for continual learning in artificial intelligence\|Incorporating neuro-inspired adaptabilit...]] | 2022 | 受果蝇学习系统启发，提出基于主动遗忘与多学习模块的持续学习方法：通过参数分布衰减旧记忆提升可塑性，多学习器架构保证兼容性。在任务增量学习中优于突触正则化方法，为理解神经自适应机制提供新视角。 |
+| [[Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation\|Stationary Latent Weight Inference for U...]] | 2023 | 用贝叶斯滤波进行OTTA权重推理：识别非线性非稳态权重并回溯以减少误差传播。与CMF为同作者系列工作，SLWI侧重权重层面的理论框架。核心贡献是为OTTA建立了贝叶斯滤波的理论基础。 |
+| [[Decorate the Newcomers Visual Domain Prompt for Continual Test Time Adaptation\|Decorate the Newcomers Visual Domain Pro...]] | 2024 | 将CTTA从模型自适应范式转变为输入自适应范式：冻结模型+学习视觉域提示(Domain-specific + Domain-agnostic)来重构输入，稳态策略抑制域敏感参数。核心贡献是从根本上绕过 |
 | [[A Comprehensive Survey of Continual Learning Theory, Method and Application\|A Comprehensive Survey of Continual Lear...]] | 2024 | 持续学习综述：五类方法（正则化/回放/优化/表示/架构），系统性分析稳定性-可塑性权衡。 |
 | [[Biologically inspired incremental learning for high-dimensional spaces\|Biologically inspired incremental learni...]] | 2015 | PROPRE增量学习架构：基于SOM隐藏层和线性回归读出层，避免灾难性遗忘，支持高维输入，在MNIST上达到SOTA结果，GPU并行实现高效可扩展。 |
 | [[PackNet Adding Multiple Tasks to a Single Network by Iterative Pruning\|PackNet Adding Multiple Tasks to a Singl...]] | 2018 | 提出 PackNet 通过迭代剪枝实现持续学习：先剪枝释放冗余参数，再用释放的参数学习新任务，每个任务只需存储二进制掩码，在 VGG-16 上成功添加 |
@@ -36,8 +38,6 @@ confidence: high
 | [[Forget-free Continual Learning with Winning Subnetworks\|Forget-free Continual Learning with Winn...]] | 2022 | 获胜子网络持续学习方法：基于彩票假设，学习任务自适应二进制掩码，重用先前子网络权重，免疫灾难性遗忘，掩码霍夫曼编码实现容量亚线性增长。 |
 | [[Class-Incremental Learning A Survey\|Class-Incremental Learning A Survey]] | 2024 | 类增量学习综述：全面总结 CIL 方法，对 17 种方法进行基准评估，倡导基于内存预算的公平比较和内存无关的性能度量。 |
 | [[Progressive Neural Networks\|Progressive Neural Networks]] | 2016 | 提出渐进网络架构：通过横向连接利用先前学到的特征，避免灾难性遗忘，在 Atari 和 3D 迷宫任务上优于预训练‑微调基线，证明迁移发生在感知和控制层。 |
-| [[EFFICIENT LIFELONG LEARNING WITH A-GEM\|EFFICIENT LIFELONG LEARNING WITH A-GEM]] | 2018 | A-GEM（平均梯度情景记忆）：GEM 高效变体、单次训练协议、LCA 学习速度指标、计算内存效率接近 EWC、多基准测试准确率-效率最佳权衡。 |
-| [[Learning to Continually Learn\|Learning to Continually Learn]] | 2020 | 提出 ANML 神经调制元学习算法，通过元学习激活门控函数实现持续学习，可顺序学习多达 600 个类别而避免灾难性遗忘。 |
 ## 相关概念
 
 - [[Continual learning]]

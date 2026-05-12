@@ -27,6 +27,7 @@ LLM 基于 Transformer 架构，通过自监督预训练（如 GPT 系列的因�
 
 | 论文 | 年份 | 核心发现 |
 |------|------|----------|
+| [[TEMPERA Test-Time Prompt Editing via Reinforcement Learning\|TEMPERA Test-Time Prompt Editing via Rei...]] | 2022 | 用RL在测试时编辑LLM提示：动作空间设计精巧(编辑指令/示例/词化器)，查询自适应+可解释性。核心贡献是将提示工程从静态设计转变为动态RL优化。注意这是NLP/LLM论文非视觉TTA。 |
 | [[A Survey on LoRA of Large Language Models\|A Survey on LoRA of Large Language Models]] | 2024 | LoRA 综述：下游适配改进（打破低秩瓶颈、动态秩分配）、跨任务泛化（混合 LoRA 模块）、计算效率提升（减少单模块成本、加速多模块服务）、联邦学习隐私保护、应用场景梳理。 |
 | [[An Edge-Cloud Collaboration Framework for Generative AI Service Provision With Synergetic Big Cloud Model and Small Edge Models\|An Edge-Cloud Collaboration Framework fo...]] | 2024 | 边缘-云端协作生成式AI服务框架：自底向上BAIM架构、分布式训练、任务导向部署，通过图像生成用例验证，降低云端负担、提升边缘个性化服务能力。 |
 | [[Enabling Energy-Efficient Deployment of Large Language Models on Memristor Crossbar A Synergy of Large and Small\|Enabling Energy-Efficient Deployment of ...]] | 2024 | 忆阻器交叉阵列大语言模型能效部署：提出新架构解决模型规模、非常权重稳态乘法、非线性操作三大挑战，BERT_Large测试精度损失可忽略，面积开销改善39倍，能耗改善18倍，面积-延迟积降低68倍。 |
